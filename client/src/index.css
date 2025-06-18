@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Lato:wght@300;400;500;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(30, 15%, 99%);
+  --foreground: hsl(25, 14.3%, 10%);
+  --muted: hsl(30, 8%, 95%);
+  --muted-foreground: hsl(25, 5.3%, 44.7%);
+  --popover: hsl(30, 15%, 99%);
+  --popover-foreground: hsl(25, 14.3%, 10%);
+  --card: hsl(0, 0%, 100%);
+  --card-foreground: hsl(25, 14.3%, 10%);
+  --border: hsl(30, 10%, 90%);
+  --input: hsl(30, 10%, 90%);
+  --primary: hsl(355, 56%, 38%);
+  --primary-foreground: hsl(0, 0%, 98%);
+  --secondary: hsl(30, 8%, 95%);
+  --secondary-foreground: hsl(25, 14.3%, 10%);
+  --accent: hsl(180, 85%, 19%);
+  --accent-foreground: hsl(0, 0%, 98%);
+  --destructive: hsl(0, 84.2%, 60.2%);
+  --destructive-foreground: hsl(60, 9.1%, 97.8%);
+  --ring: hsl(25, 14.3%, 10%);
+  --radius: 0.5rem;
+  
+  /* Heritage color palette */
+  --heritage-burgundy: hsl(355, 56%, 38%);
+  --heritage-teal: hsl(180, 85%, 19%);
+  --heritage-brown: hsl(25, 14.3%, 10%);
+  --heritage-gray: hsl(30, 10%, 90%);
+  --heritage-gray-dark: hsl(30, 15%, 85%);
+  --parchment: hsl(30, 15%, 99%);
+  --parchment-dark: hsl(30, 12%, 97%);
+}
+
+.dark {
+  --background: hsl(240, 10%, 3.9%);
+  --foreground: hsl(0, 0%, 98%);
+  --muted: hsl(240, 3.7%, 15.9%);
+  --muted-foreground: hsl(240, 5%, 64.9%);
+  --popover: hsl(240, 10%, 3.9%);
+  --popover-foreground: hsl(0, 0%, 98%);
+  --card: hsl(240, 10%, 3.9%);
+  --card-foreground: hsl(0, 0%, 98%);
+  --border: hsl(240, 3.7%, 15.9%);
+  --input: hsl(240, 3.7%, 15.9%);
+  --primary: hsl(355, 56%, 38%);
+  --primary-foreground: hsl(0, 0%, 98%);
+  --secondary: hsl(240, 3.7%, 15.9%);
+  --secondary-foreground: hsl(0, 0%, 98%);
+  --accent: hsl(180, 85%, 19%);
+  --accent-foreground: hsl(0, 0%, 98%);
+  --destructive: hsl(0, 62.8%, 30.6%);
+  --destructive-foreground: hsl(0, 0%, 98%);
+  --ring: hsl(240, 4.9%, 83.9%);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Lato', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+  }
+}
+
+@layer components {
+  .heritage-bg {
+    background: linear-gradient(135deg, var(--parchment) 0%, var(--parchment-dark) 100%);
+  }
+  
+  .heritage-text {
+    color: var(--heritage-brown);
+  }
+  
+  .heritage-burgundy {
+    color: var(--heritage-burgundy);
+  }
+  
+  .heritage-teal {
+    color: var(--heritage-teal);
+  }
+  
+  .btn-heritage-burgundy {
+    background-color: var(--heritage-burgundy);
+    color: white;
+    @apply hover:opacity-90 transition-opacity;
+  }
+  
+  .btn-heritage-teal {
+    background-color: var(--heritage-teal);
+    color: white;
+    @apply hover:opacity-90 transition-opacity;
+  }
+
+  .heritage-border {
+    border-color: var(--heritage-gray);
+  }
+
+  .person-node {
+    @apply cursor-pointer transition-all duration-200 hover:shadow-lg;
+  }
+  
+  .family-gierczak {
+    border-color: var(--heritage-burgundy);
+  }
+  
+  .family-ofiara {
+    border-color: var(--heritage-teal);
+  }
+}
