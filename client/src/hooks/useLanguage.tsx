@@ -143,7 +143,7 @@ const translations = {
     'about.features.interactive': 'Interactive genealogical tree',
     'about.features.gallery': 'Family photo gallery',
     'about.features.sources': 'Historical sources documentation',
-    'about.features.search': 'Advanced people search'
+    'about.features.search': 'Advanced people search',
     
     // Tree page
     'tree.title': 'Interactive Genealogical Tree',
