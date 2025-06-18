@@ -51,7 +51,7 @@ export default function Navbar() {
             <div className="flex items-baseline space-x-4">
               {navigation.map((item) => (
                 <Link
-                  key={item.name}
+                  key={item.href}
                   href={item.href}
                   className={`px-3 py-2 text-sm font-medium transition-all duration-200 rounded-md ${
                     isActive(item.href)
@@ -110,15 +110,15 @@ export default function Navbar() {
                 <DropdownMenuContent className="heritage-card">
                   <DropdownMenuItem onClick={() => setTheme("light")}>
                     <Sun className="mr-2 h-4 w-4" />
-                    Jasny
+                    {language === 'pl' ? 'Jasny' : 'Light'}
                   </DropdownMenuItem>
                   <DropdownMenuItem onClick={() => setTheme("dark")}>
                     <Moon className="mr-2 h-4 w-4" />
-                    Ciemny
+                    {language === 'pl' ? 'Ciemny' : 'Dark'}
                   </DropdownMenuItem>
                   <DropdownMenuItem onClick={() => setTheme("system")}>
                     <Languages className="mr-2 h-4 w-4" />
-                    System
+                    {language === 'pl' ? 'System' : 'System'}
                   </DropdownMenuItem>
                 </DropdownMenuContent>
               </DropdownMenu>
@@ -158,7 +158,7 @@ export default function Navbar() {
                 <div className="flex flex-col space-y-4 mt-8">
                   {navigation.map((item) => (
                     <Link
-                      key={item.name}
+                      key={`mobile-${item.href}`}
                       href={item.href}
                       className={`block px-4 py-3 text-base font-medium transition-all duration-200 ${
                         isActive(item.href)
@@ -175,7 +175,7 @@ export default function Navbar() {
                   </div>
                   {familyLinks.map((item) => (
                     <Link
-                      key={item.name}
+                      key={`mobile-family-${item.href}`}
                       href={item.href}
                       className="block px-6 py-3 text-base font-medium heritage-text hover:text-[hsl(var(--heritage-burgundy))] hover:bg-heritage-cream/50 rounded-lg transition-all duration-200"
                       onClick={() => setMobileMenuOpen(false)}
