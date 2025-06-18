@@ -1,0 +1,120 @@
+✂️ Projekt: Korzenie rodu Gierczak i Ofiara
+(Cyfrowe archiwum i interaktywne drzewo genealogiczne rodów Gierczak (vel Gerczak) i Ofiara z okolic Radomia. Strona ma na celu prezentację zebranych danych, dokumentów i historii w sposób przystępny i skalowalny. ✉️ [Twój adres email do kontaktu])
+✅ Stack technologiczny
+Frontend Framework: React (z Vite) – Idealny do budowania dynamicznych i interaktywnych interfejsów, jak drzewo genealogiczne.
+Stylowanie: TailwindCSS – Dla stworzenia czystego, eleganckiego i responsywnego layoutu. Estetyka stonowana, historyczna, ale nowoczesna.
+Routing: React Router DOM – Do nawigacji między stronami (np. strona główna, drzewo, poszczególne gałęzie rodów).
+Wizualizacja Drzewa Genealogicznego: React Flow lub podobna biblioteka (np. d3-graphviz) – Kluczowy element do tworzenia interaktywnych, przesuwalnych i skalowalnych diagramów drzewa. Pozwala na niestandardowe węzły (dla osób) i krawędzie (dla relacji).
+Źródło Danych: Plik genealogy.json – Na początek, wszystkie dane o osobach, relacjach, datach i biografiach będą przechowywane w jednym, dobrze ustrukturyzowanym pliku JSON. Umożliwi to łatwe zarządzanie i rozbudowę.
+Uwaga o skalowalności: Architektura powinna być przygotowana na ewentualną migrację do bezgłowego CMS (np. Strapi, Sanity) lub bazy danych (np. Supabase, Firebase) w przyszłości, bez konieczności przepisywania logiki frontendu.
+Popup / Modal: React Portals (z animacjami przez Framer Motion) – Do wyświetlania szczegółowych biografii po kliknięciu na osobę w drzewie lub na liście. Wewnętrzne skrolowanie dla dłuższych opisów.
+Galerie Zdjęć / Dokumentów: Wykorzystanie modala typu lightbox (np. yet-another-react-lightbox) do powiększania zdjęć osób, skanów metryk i innych dokumentów.
+Ikony: react-icons (np. do symboli urodzin, śmierci, ślubu).
+Responsywność: TailwindCSS (mobile-first).
+SEO & OpenGraph: react-helmet-async.
+Dostępność (a11y): aria-labels, focus management, semantyczny HTML.
+Obrazy: Format .webp z fallbackiem .jpg/.png (optymalizacja dla szybkości).
+Favicons: Przygotowane na podstawie herbu rodowego (jeśli istnieje) lub stylizowanego monogramu (np. "G&O"). Implementacja analogiczna do poprzedniego projektu.
+Hosting: Vercel / Netlify (istniejąca strona jest na Netlify, więc kontynuacja jest naturalnym wyborem).
+🧭 Struktura projektu
+Generated code
+/public
+  ├── favicons/                     # Folder na wszystkie pliki favicon
+  ├── images/
+  │   └── (np. tło, ogólne elementy graficzne)
+  └── index.html
+/src
+  ├── assets/
+  │   ├── images/
+  │   │   ├── people/                 # Zdjęcia portretowe osób (np. jozef_gierczak_1930.webp)
+  │   │   ├── documents/              # Skany metryk, aktów (np. slub_karol_tekla_1857.webp)
+  │   │   └── places/                 # Zdjęcia miejsc (np. kosciol_cerekiew.webp)
+  │   └── fonts/                      # Opcjonalnie, jeśli niestandardowe fonty (np. krój szeryfowy)
+  ├── components/
+  │   ├── layout/
+  │   │   ├── Navbar.jsx
+  │   │   └── Footer.jsx
+  │   ├── tree/
+  │   │   ├── InteractiveTree.jsx     # Główny komponent renderujący drzewo (z React Flow)
+  │   │   ├── PersonNode.jsx          # Niestandardowy wygląd węzła dla osoby w drzewie
+  │   │   └── EdgeTypes.jsx           # Niestandardowe linie (np. linia małżeństwa, linia potomka)
+  │   ├── ui/
+  │   │   ├── PersonCard.jsx          # Karta z podsumowaniem osoby (do list)
+  │   │   ├── PersonModal.jsx         # Modal z pełną biografią, danymi, linkami do rodziny
+  │   │   ├── Lightbox.jsx            # Komponent do powiększania zdjęć/dokumentów
+  │   │   ├── ScrollToTopButton.jsx
+  │   │   └── TimelineEvent.jsx       # Komponent dla osi czasu
+  │   └── SEO.jsx                     # Komponent do zarządzania meta tagami (z react-helmet-async)
+  ├── data/
+  │   └── genealogy.json              # Centralny plik z danymi genealogicznymi
+  ├── pages/
+  │   ├── Home.jsx                    # Strona główna z wprowadzeniem
+  │   ├── InteractiveTreeView.jsx     # Strona z pełnoekranowym, interaktywnym drzewem
+  │   ├── FamilyBranchView.jsx        # Strona dedykowana jednemu rodowi (np. /rod/gierczak)
+  │   ├── PersonIndex.jsx             # Alfabetyczny indeks wszystkich osób
+  │   ├── GalleryView.jsx             # Galeria zdjęć, dokumentów i map
+  │   ├── SourcesView.jsx             # Strona z listą źródeł i podziękowaniami
+  │   └── NotFound404.jsx
+  ├── App.jsx                         # Główny plik aplikacji z routingiem
+  └── main.jsx                        # Punkt wejścia aplikacji React
+Use code with caution.
+📌 Funkcjonalności i Architektura Modułowa
+Kluczem jest modułowość oparta na danych. Dodanie nowej osoby lub całej gałęzi rodziny sprowadza się do dodania nowego obiektu do pliku genealogy.json i połączenia go z istniejącymi osobami poprzez unikalne ID. Aplikacja dynamicznie wygeneruje wszystkie powiązania.
+Navbar (Navbar.jsx)
+Logo/Tytuł: "Korzenie rodu Gierczak i Ofiara"
+Linki nawigacyjne:
+Strona Główna (/)
+Drzewo Interaktywne (/drzewo)
+Rody (dropdown):
+Gierczakowie (/rod/gierczak)
+Ofiarowie (/rod/ofiara)
+Indeks Osób (/indeks-osob)
+Galeria (/galeria)
+Źródła (/zrodla)
+Menu mobilne typu "hamburger".
+Strona Główna (Home.jsx)
+Nagłówek <h1>: "Historia Rodów Gierczak i Ofiara"
+Krótkie wprowadzenie do projektu, jego misji.
+Sekcja "Początki Rodów" z linkami do stron FamilyBranchView dla Gierczaków (Jaszowice) i Ofiarów (Ludwików).
+CTA: "Zobacz Interaktywne Drzewo Genealogiczne".
+Drzewo Interaktywne (InteractiveTreeView.jsx + InteractiveTree.jsx)
+Główna atrakcja strony. Wyświetla całe drzewo genealogiczne.
+Funkcjonalność: zoom, przesuwanie (pan).
+Każda osoba jest reprezentowana przez PersonNode.jsx (zdjęcie, imię, nazwisko, daty życia).
+Kliknięcie na węzeł (PersonNode) otwiera PersonModal.jsx z pełnymi informacjami.
+Modal z Biografią (PersonModal.jsx)
+Wyświetla wszystkie dane z pliku genealogy.json dla danej osoby:
+Pełne imię, nazwiska (w tym rodowe, vel), daty i miejsca urodzenia/śmierci.
+Zdjęcie/portret (jeśli dostępne).
+Szczółowa biografia (na podstawie danych z rod.txt).
+Dynamicznie generowane linki do rodziny: Rodzice, Małżonek/Małżonkowie, Dzieci. Kliknięcie na imię członka rodziny powoduje zamknięcie obecnego modala i otwarcie nowego dla tej osoby lub wycentrowanie widoku drzewa na niej.
+Galeria powiązanych dokumentów (metryka urodzenia, ślubu, zgonu) - kliknięcie otwiera lightbox.
+Strony Rodów (FamilyBranchView.jsx)
+Adresy URL: /rod/gierczak, /rod/ofiara.
+Strona poświęcona jednej gałęzi. Zawiera opis protoplasty rodu, mapę kluczowych miejscowości (np. Jaszowice, Gulinek).
+Może zawierać uproszczony, statyczny widok drzewa tylko dla tej gałęzi.
+Wyświetla listę osób z danego rodu (PersonCard.jsx).
+Indeks Osób (PersonIndex.jsx)
+Prosta, alfabetyczna lista wszystkich osób w bazie danych.
+Każda pozycja to link otwierający PersonModal z danymi tej osoby. Niezwykle przydatne do szybkiego wyszukiwania.
+Galeria (GalleryView.jsx)
+Zakładki/filtry: Portrety, Dokumenty, Miejsca.
+Siatka zdjęć. Każde zdjęcie klikalne, otwiera się w lightboxie z opisem.
+✨ Styl wizualny (Propozycje)
+Celem jest estetyka, która budzi skojarzenia z historią, archiwami i szacunkiem, ale jest jednocześnie nowoczesna i czytelna.
+Paleta Kolorystyczna:
+Tło główne: Złamana biel, kolor pergaminu, bardzo jasny beż. (np. bg-stone-50 lub bg-amber-50).
+Tekst główny: Ciemny, nasycony brąz lub grafit, a nie czysta czerń. (np. text-stone-800 lub text-slate-700).
+Nagłówki: Ten sam kolor co tekst, ale grubszy font.
+Kolory Akcentujące:
+Główny akcent (linki, przyciski, linie w drzewie): Stonowany, głęboki burgund lub butelkowa zieleń. (np. text-maroon-700, bg-teal-800 - kolory do zdefiniowania w tailwind.config.js).
+Drugi akcent (tło dla kart, cytatów): Bardzo jasny, chłodny szary. (np. bg-slate-100).
+Typografia:
+Nagłówki (h1, h2, h3): Elegancki font szeryfowy, np. Lora, Playfair Display lub Cormorant Garamond (z Google Fonts).
+Tekst akapitów: Czytelny font bezszeryfowy, np. Lato, Source Sans Pro lub Roboto.
+Podpisy, daty: Ten sam font co tekst akapitów, ale mniejszy i/lub w kursywie.
+🖼️ Zasoby Graficzne (do zebrania)
+Wszystkie dostępne zdjęcia osób z rodów.
+Skany lub zdjęcia metryk, aktów ślubu/zgonu, wpisów w księgach parafialnych.
+Zdjęcia (współczesne lub archiwalne) kluczowych miejsc: Jaszowice, Gulinek, Cerekiew, Zakrzew, Błotnica, Kowala-Stępocina, Ludwików.
+Mapy historyczne regionu radomskiego.
