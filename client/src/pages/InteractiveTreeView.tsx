@@ -5,6 +5,7 @@ import PersonModal from '@/components/ui/PersonModal';
 import { Person } from '@shared/schema';
 import { Skeleton } from '@/components/ui/skeleton';
 import { Alert, AlertDescription } from '@/components/ui/alert';
+import { Button } from '@/components/ui/button';
 import { AlertCircle } from 'lucide-react';
 import SEO from '@/components/SEO';
 import { useLanguage } from '@/hooks/useLanguage';
@@ -14,9 +15,11 @@ export default function InteractiveTreeView() {
   const { t } = useLanguage();
   const [selectedPerson, setSelectedPerson] = useState<Person | null>(null);
   const [modalOpen, setModalOpen] = useState(false);
+  const [selectedFamily, setSelectedFamily] = useState<'all' | 'gierczak' | 'ofiara'>('all');
 
   // Use local genealogy data
-  const people = genealogyData.people;
+  const allPeople = genealogyData.people;
+  const people = selectedFamily === 'all' ? allPeople : allPeople.filter(person => person.family === selectedFamily);
   const isLoading = false;
   const error = null;
 
@@ -73,9 +76,43 @@ export default function InteractiveTreeView() {
               <h1 className="font-serif text-3xl md:text-4xl font-semibold heritage-gradient-text mb-4">
                 {t('tree.title')}
               </h1>
-              <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-6">
                 {t('tree.subtitle')}. Kliknij na dowolną osobę, aby poznać jej historię.
               </p>
+              
+              {/* Family Filter Buttons */}
+              <div className="flex justify-center gap-4 mb-4">
+                <button
+                  onClick={() => setSelectedFamily('all')}
+                  className={`px-6 py-2 rounded-lg font-medium transition-all duration-200 ${
+                    selectedFamily === 'all'
+                      ? 'bg-heritage-burgundy text-white shadow-md'
+                      : 'bg-white text-heritage-burgundy border border-heritage-burgundy hover:bg-heritage-cream'
+                  }`}
+                >
+                  {t('tree.filter.all')}
+                </button>
+                <button
+                  onClick={() => setSelectedFamily('gierczak')}
+                  className={`px-6 py-2 rounded-lg font-medium transition-all duration-200 ${
+                    selectedFamily === 'gierczak'
+                      ? 'bg-heritage-burgundy text-white shadow-md'
+                      : 'bg-white text-heritage-burgundy border border-heritage-burgundy hover:bg-heritage-cream'
+                  }`}
+                >
+                  {t('family.gierczak')}
+                </button>
+                <button
+                  onClick={() => setSelectedFamily('ofiara')}
+                  className={`px-6 py-2 rounded-lg font-medium transition-all duration-200 ${
+                    selectedFamily === 'ofiara'
+                      ? 'bg-heritage-teal text-white shadow-md'
+                      : 'bg-white text-heritage-teal border border-heritage-teal hover:bg-heritage-cream'
+                  }`}
+                >
+                  {t('family.ofiara')}
+                </button>
+              </div>
             </div>
           </div>
         </div>

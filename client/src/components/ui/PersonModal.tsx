@@ -8,6 +8,7 @@ import { User, Calendar, MapPin, Briefcase, Users, FileText, Eye } from 'lucide-
 import { Person, Document } from '@shared/schema';
 import { useQuery } from '@tanstack/react-query';
 import Lightbox from './Lightbox';
+import { useTranslation } from 'react-i18next';
 
 interface PersonModalProps {
   person: Person | null;
@@ -20,6 +21,7 @@ interface PersonModalProps {
 export default function PersonModal({ person, isOpen, onClose, onPersonClick, allPeople }: PersonModalProps) {
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [lightboxImage, setLightboxImage] = useState<{src: string, alt: string} | null>(null);
+  const { t } = useTranslation();
 
   const { data: documents = [] } = useQuery({
     queryKey: [`/api/documents/person/${person?.id}`],
@@ -47,7 +49,7 @@ export default function PersonModal({ person, isOpen, onClose, onPersonClick, al
           <DialogHeader>
             <DialogTitle className="font-serif text-2xl heritage-text">
               {person.firstName} {person.lastName}
-              {person.maidenName && <span className="text-lg ml-2">(z d. {person.maidenName})</span>}
+              {person.maidenName && <span className="text-lg ml-2">({t('person.maidenName')} {person.maidenName})</span>}
             </DialogTitle>
             <DialogDescription className={`${familyColor}`}>
               Ród {person.family === 'gierczak' ? 'Gierczaków' : 'Ofiarów'}
@@ -71,7 +73,7 @@ export default function PersonModal({ person, isOpen, onClose, onPersonClick, al
                     )}
                   </div>
                 </div>
-                
+
                 <div className="md:w-2/3 space-y-4">
                   {(person.birthDate || person.deathDate) && (
                     <div className="flex items-center space-x-2">
@@ -86,21 +88,21 @@ export default function PersonModal({ person, isOpen, onClose, onPersonClick, al
                       </span>
                     </div>
                   )}
-                  
+
                   {person.birthPlace && (
                     <div className="flex items-center space-x-2">
                       <MapPin className="w-4 h-4 text-stone-600" />
                       <span className="heritage-text">ur. {person.birthPlace}</span>
                     </div>
                   )}
-                  
+
                   {person.deathPlace && (
                     <div className="flex items-center space-x-2">
                       <MapPin className="w-4 h-4 text-stone-600" />
                       <span className="heritage-text">zm. {person.deathPlace}</span>
                     </div>
                   )}
-                  
+
                   {person.occupation && (
                     <div className="flex items-center space-x-2">
                       <Briefcase className="w-4 h-4 text-stone-600" />
@@ -129,7 +131,7 @@ export default function PersonModal({ person, isOpen, onClose, onPersonClick, al
                   <Users className="w-4 h-4 mr-2" />
                   Rodzina
                 </h4>
-                
+
                 <div className="space-y-4">
                   {parents.length > 0 && (
                     <div>

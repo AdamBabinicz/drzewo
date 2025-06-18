@@ -67,12 +67,15 @@ const translations = {
     // Tree page
     'tree.title': 'Interaktywne Drzewo Genealogiczne',
     'tree.subtitle': 'Eksploruj powiązania rodzinne w interaktywny sposób',
+    'tree.filter.all': 'Wszystkie Rodziny',
     
     // Person modal
     'person.parents': 'Rodzice',
     'person.spouse': 'Małżonek',
     'person.children': 'Dzieci',
     'person.showInTree': 'Pokaż w drzewie',
+    'person.maidenName': 'z d.',
+    'person.relatives': 'Krewni',
     
     // Gallery
     'gallery.title': 'Galeria Rodzinna',
@@ -162,12 +165,15 @@ const translations = {
     // Tree page
     'tree.title': 'Interactive Genealogical Tree',
     'tree.subtitle': 'Explore family connections in an interactive way',
+    'tree.filter.all': 'All Families',
     
     // Person modal
     'person.parents': 'Parents',
     'person.spouse': 'Spouse',
     'person.children': 'Children',
     'person.showInTree': 'Show in tree',
+    'person.maidenName': 'maiden name',
+    'person.relatives': 'Relatives',
     
     // Gallery
     'gallery.title': 'Family Gallery',
