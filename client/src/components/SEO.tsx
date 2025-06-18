@@ -5,7 +5,6 @@ import { useLanguage } from '@/hooks/useLanguage';
 interface SEOProps {
   title?: string;
   description?: string;
-  keywords?: string;
   image?: string;
   url?: string;
 }
@@ -13,43 +12,40 @@ interface SEOProps {
 export default function SEO({ 
   title,
   description,
-  keywords,
-  image,
-  url 
+  image = '/genealogy-preview.jpg',
+  url = window.location.href
 }: SEOProps) {
-  const { language } = useLanguage();
+  const { language, t } = useLanguage();
   
-  const defaultTitle = language === 'pl' 
-    ? 'Korzenie rodu Gierczak i Ofiara - Genealogia'
-    : 'Roots of Gierczak and Ofiara Families - Genealogy';
-    
-  const defaultDescription = language === 'pl'
-    ? 'Odkryj fascynującą historię rodów Gierczak i Ofiara z okolic Radomia. Interaktywne drzewo genealogiczne, galeria rodzinna i źródła historyczne.'
-    : 'Discover the fascinating history of the Gierczak and Ofiara families from the Radom area. Interactive family tree, family gallery and historical sources.';
-
-  const siteTitle = title ? `${title} | ${defaultTitle}` : defaultTitle;
-
+  const defaultTitle = t('home.title');
+  const defaultDescription = t('home.subtitle');
+  
+  const siteTitle = title ? `${title} - ${defaultTitle}` : defaultTitle;
+  const siteDescription = description || defaultDescription;
+  
   return (
     <Helmet>
+      <html lang={language} />
       <title>{siteTitle}</title>
-      <meta name="description" content={description || defaultDescription} />
-      {keywords && <meta name="keywords" content={keywords} />}
+      <meta name="description" content={siteDescription} />
       
       {/* Open Graph */}
-      <meta property="og:title" content={siteTitle} />
-      <meta property="og:description" content={description || defaultDescription} />
       <meta property="og:type" content="website" />
-      {url && <meta property="og:url" content={url} />}
-      {image && <meta property="og:image" content={image} />}
+      <meta property="og:title" content={siteTitle} />
+      <meta property="og:description" content={siteDescription} />
+      <meta property="og:image" content={image} />
+      <meta property="og:url" content={url} />
       
       {/* Twitter */}
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={siteTitle} />
-      <meta name="twitter:description" content={description || defaultDescription} />
-      {image && <meta name="twitter:image" content={image} />}
+      <meta name="twitter:description" content={siteDescription} />
+      <meta name="twitter:image" content={image} />
       
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <meta name="language" content={language} />
+      {/* Additional meta tags */}
+      <meta name="robots" content="index, follow" />
+      <meta name="author" content="Genealogia Gierczak i Ofiara" />
+      <link rel="canonical" href={url} />
     </Helmet>
   );
 }

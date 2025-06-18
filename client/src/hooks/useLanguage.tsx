@@ -147,9 +147,9 @@ export function LanguageProvider({
 
   const value = {
     language,
-    setLanguage: (lang: Language) => {
-      localStorage.setItem('genealogy-language', lang);
-      setLanguage(lang);
+    setLanguage: (newLanguage: Language) => {
+      localStorage.setItem('genealogy-language', newLanguage);
+      setLanguage(newLanguage);
     },
     t,
   };
