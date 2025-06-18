@@ -62,7 +62,7 @@ const translations = {
     'about.features.interactive': 'Interaktywne drzewo genealogiczne',
     'about.features.gallery': 'Galeria rodzinnych fotografii',
     'about.features.sources': 'Dokumentacja źródeł historycznych',
-    'about.features.search': 'Zaawansowane wyszukiwanie osób'
+    'about.features.search': 'Zaawansowane wyszukiwanie osób',
     
     // Tree page
     'tree.title': 'Interaktywne Drzewo Genealogiczne',
