@@ -26,6 +26,10 @@ const translations = {
     // Family names
     'family.gierczak': 'Gierczakowie',
     'family.ofiara': 'Ofiarowie',
+    'family.origin': 'Pochodzenie',
+    'family.period': 'Okres',
+    'family.members': 'Członkowie rodziny',
+    'family.timeline': 'Linia czasu',
     
     // Common
     'common.born': 'ur.',
@@ -43,8 +47,22 @@ const translations = {
     // Home page
     'home.title': 'Historia Rodów Gierczak i Ofiara',
     'home.subtitle': 'Odkryj fascynującą historię dwóch rodów z okolic Radomia',
+    'home.description': 'Odkryj fascynującą historię dwóch rodów z okolic Radomia. Prześledzij losy pokoleń, poznaj ich historie i zobacz, jak przeplatały się ich życiowe ścieżki.',
     'home.cta.tree': 'Zobacz Interaktywne Drzewo',
     'home.cta.history': 'Poznaj Historię',
+    
+    // About section
+    'about.title': 'O Projekcie',
+    'about.history': 'Historia',
+    'about.gierczak.title': 'Ród Gierczaków',
+    'about.gierczak.description': 'Odkryj historię rodziny Gierczaków, której korzenie sięgają XVIII wieku. Poznaj ich tradycje, zawody i miejsca zamieszkania.',
+    'about.ofiara.title': 'Ród Ofiarów', 
+    'about.ofiara.description': 'Poznaj fascynującą historię rodziny Ofiarów i ich związki z regionem radomskim. Śledź ich genealogiczne ścieżki przez pokolenia.',
+    'about.features.title': 'Funkcje',
+    'about.features.interactive': 'Interaktywne drzewo genealogiczne',
+    'about.features.gallery': 'Galeria rodzinnych fotografii',
+    'about.features.sources': 'Dokumentacja źródeł historycznych',
+    'about.features.search': 'Zaawansowane wyszukiwanie osób'
     
     // Tree page
     'tree.title': 'Interaktywne Drzewo Genealogiczne',
@@ -64,6 +82,15 @@ const translations = {
     'gallery.documents': 'Dokumenty',
     'gallery.places': 'Miejsca',
     
+    // Index page
+    'index.description': 'Przeszukaj wszystkie osoby z drzewa genealogicznego. Użyj filtrów, aby zawęzić wyniki.',
+    'index.filters': 'Filtry',
+    'index.generation': 'Pokolenie',
+    'index.family': 'Rodzina',
+    'index.century': 'Wiek',
+    'index.results': 'wyników',
+    'index.noResults': 'Nie znaleziono osób pasujących do kryteriów',
+    
     // Sources
     'sources.title': 'Źródła i Bibliografia',
     'sources.subtitle': 'Dokumentacja źródeł wykorzystanych w badaniach genealogicznych'
@@ -80,6 +107,10 @@ const translations = {
     // Family names
     'family.gierczak': 'Gierczak Family',
     'family.ofiara': 'Ofiara Family',
+    'family.origin': 'Origin',
+    'family.period': 'Period',
+    'family.members': 'Family members',
+    'family.timeline': 'Timeline',
     
     // Common
     'common.born': 'b.',
@@ -97,8 +128,22 @@ const translations = {
     // Home page
     'home.title': 'History of Gierczak and Ofiara Families',
     'home.subtitle': 'Discover the fascinating history of two families from the Radom area',
+    'home.description': 'Discover the fascinating history of two families from the Radom area. Trace the fate of generations, learn their stories and see how their life paths intertwined.',
     'home.cta.tree': 'View Interactive Tree',
     'home.cta.history': 'Learn the History',
+    
+    // About section
+    'about.title': 'About the Project',
+    'about.history': 'History',
+    'about.gierczak.title': 'Gierczak Family',
+    'about.gierczak.description': 'Discover the history of the Gierczak family, whose roots date back to the 18th century. Learn about their traditions, occupations and places of residence.',
+    'about.ofiara.title': 'Ofiara Family',
+    'about.ofiara.description': 'Learn the fascinating history of the Ofiara family and their connections to the Radom region. Follow their genealogical paths through generations.',
+    'about.features.title': 'Features',
+    'about.features.interactive': 'Interactive genealogical tree',
+    'about.features.gallery': 'Family photo gallery',
+    'about.features.sources': 'Historical sources documentation',
+    'about.features.search': 'Advanced people search'
     
     // Tree page
     'tree.title': 'Interactive Genealogical Tree',
@@ -117,6 +162,15 @@ const translations = {
     'gallery.portraits': 'Portraits',
     'gallery.documents': 'Documents',
     'gallery.places': 'Places',
+    
+    // Index page
+    'index.description': 'Search all people from the genealogical tree. Use filters to narrow down results.',
+    'index.filters': 'Filters',
+    'index.generation': 'Generation',
+    'index.family': 'Family',
+    'index.century': 'Century',
+    'index.results': 'results',
+    'index.noResults': 'No people found matching the criteria',
     
     // Sources
     'sources.title': 'Sources and Bibliography',

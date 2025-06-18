@@ -21,7 +21,7 @@ export default function Home() {
               <span className="heritage-gradient-text">Gierczak i Ofiara</span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
-              {t('home.subtitle')}. Prześledzij losy pokoleń, poznaj ich historie i zobacz, jak przeplatały się ich życiowe ścieżki.
+              {t('home.description')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild className="btn-heritage-burgundy px-8 py-3 text-lg">
