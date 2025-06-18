@@ -3,15 +3,15 @@
     {
       "id": 1,
       "firstName": "Tomasz",
-      "lastName": "Gerczak vel Gierczak",
+      "lastName": "Gierczak",
       "birthDate": null,
       "deathDate": null,
       "birthPlace": "Jaszowice",
-      "occupation": "Rolnik",
+      "occupation": null,
       "family": "gierczak",
-      "biography": "4 x pradziadek. Ożenił się z Zofią Giel vel Gielowską. Mieszkali we wsi Jaszowice k. Radomia. Mieli 5 dzieci: Franciszka ur. 24.11.1816, Ambrożego (✝1836), Michała (✝1854), Andrzeja (✝1868) i Mariannę (✝1916).",
+      "biography": "Praprzodek rodziny Gierczak. Mieszkał w Jaszowicach - prywatnej wsi szlacheckiej w drugiej połowie XVI wieku w powiecie radomskim województwa sandomierskiego.",
       "spouseIds": [2],
-      "childIds": [3, 4, 5, 6, 7],
+      "childIds": [3],
       "parentIds": []
     },
     {

@@ -24,18 +24,65 @@ const nodeTypes = {
 
 export default function InteractiveTree({ people, onPersonClick }: InteractiveTreeProps) {
   const { nodes, edges } = useMemo(() => {
+    if (!people || people.length === 0) {
+      return { nodes: [], edges: [] };
+    }
+
     const nodeMap = new Map<number, Node>();
     const edgeList: Edge[] = [];
 
-    // Create nodes for each person
-    people.forEach((person, index) => {
+    // Calculate generations for proper positioning
+    const generations = new Map<number, number>();
+    const visited = new Set<number>();
+
+    // Find root nodes (those without parents)
+    const roots = people.filter(person => !person.parentIds || person.parentIds.length === 0);
+    
+    // BFS to assign generation levels
+    const queue: { person: Person, generation: number }[] = roots.map(p => ({ person: p, generation: 0 }));
+    
+    while (queue.length > 0) {
+      const { person, generation } = queue.shift()!;
+      
+      if (visited.has(person.id)) continue;
+      visited.add(person.id);
+      generations.set(person.id, generation);
+
+      // Add children to queue
+      if (person.childIds) {
+        person.childIds.forEach(childId => {
+          const child = people.find(p => p.id === childId);
+          if (child && !visited.has(childId)) {
+            queue.push({ person: child, generation: generation + 1 });
+          }
+        });
+      }
+    }
+
+    // Group people by generation for layout
+    const generationGroups = new Map<number, Person[]>();
+    people.forEach(person => {
+      const gen = generations.get(person.id) || 0;
+      if (!generationGroups.has(gen)) {
+        generationGroups.set(gen, []);
+      }
+      generationGroups.get(gen)!.push(person);
+    });
+
+    // Create nodes with proper positioning
+    people.forEach((person) => {
+      const generation = generations.get(person.id) || 0;
+      const generationPeople = generationGroups.get(generation) || [];
+      const indexInGeneration = generationPeople.indexOf(person);
+      
       const isGierczak = person.family === 'gierczak';
+      
       nodeMap.set(person.id, {
         id: person.id.toString(),
         type: 'person',
         position: {
-          x: index * 200,
-          y: 0, // Will be adjusted based on generation
+          x: indexInGeneration * 280 + (isGierczak ? 0 : 140), // Offset families slightly
+          y: generation * 200,
         },
         data: {
           person,
@@ -46,77 +93,46 @@ export default function InteractiveTree({ people, onPersonClick }: InteractiveTr
       });
     });
 
-    // Position nodes by generation
-    const generations = new Map<number, Person[]>();
-    const visited = new Set<number>();
-    
-    // Find root nodes (people without parents)
-    const rootNodes = people.filter(person => 
-      !person.parentIds || person.parentIds.length === 0
-    );
-
-    // Build generation levels
-    const buildGenerations = (persons: Person[], level: number) => {
-      if (!generations.has(level)) {
-        generations.set(level, []);
-      }
-      
-      persons.forEach(person => {
-        if (!visited.has(person.id)) {
-          visited.add(person.id);
-          generations.get(level)!.push(person);
-          
-          // Add children to next level
-          if (person.childIds && person.childIds.length > 0) {
-            const children = people.filter(p => person.childIds!.includes(p.id));
-            buildGenerations(children, level + 1);
-          }
-        }
-      });
-    };
-
-    buildGenerations(rootNodes, 0);
-
-    // Position nodes by generation
-    generations.forEach((generationPeople, level) => {
-      generationPeople.forEach((person, indexInGeneration) => {
-        const node = nodeMap.get(person.id);
-        if (node) {
-          node.position = {
-            x: indexInGeneration * 250 - (generationPeople.length * 125) + 400,
-            y: level * 200 + 50,
-          };
-        }
-      });
-    });
-
-    // Create edges for relationships
+    // Create edges for family relationships
     people.forEach(person => {
-      // Parent-child relationships
-      if (person.childIds) {
-        person.childIds.forEach(childId => {
-          edgeList.push({
-            id: `parent-${person.id}-${childId}`,
-            source: person.id.toString(),
-            target: childId.toString(),
-            type: 'straight',
-            style: { stroke: '#8B2635', strokeWidth: 2 },
-            markerEnd: { type: 'arrowclosed', color: '#8B2635' },
-          });
+      // Child-parent relationships
+      if (person.parentIds) {
+        person.parentIds.forEach(parentId => {
+          const parentNode = nodeMap.get(parentId);
+          const childNode = nodeMap.get(person.id);
+          if (parentNode && childNode) {
+            edgeList.push({
+              id: `parent-${parentId}-child-${person.id}`,
+              source: parentId.toString(),
+              target: person.id.toString(),
+              type: 'smoothstep',
+              style: { 
+                stroke: person.family === 'gierczak' ? 'hsl(var(--heritage-burgundy))' : 'hsl(var(--heritage-teal))',
+                strokeWidth: 2 
+              },
+              animated: false,
+            });
+          }
         });
       }
 
-      // Marriage relationships
+      // Spouse relationships
       if (person.spouseIds) {
         person.spouseIds.forEach(spouseId => {
-          // Only create edge if this person's ID is smaller to avoid duplicates
-          if (person.id < spouseId) {
+          const spouseNode = nodeMap.get(spouseId);
+          const personNode = nodeMap.get(person.id);
+          if (spouseNode && personNode && person.id < spouseId) { // Avoid duplicate edges
             edgeList.push({
-              id: `marriage-${person.id}-${spouseId}`,
+              id: `spouse-${person.id}-${spouseId}`,
               source: person.id.toString(),
               target: spouseId.toString(),
               type: 'straight',
-              style: { stroke: '#0F5F5C', strokeWidth: 3, strokeDasharray: '5,5' },
+              style: { 
+                stroke: 'hsl(var(--heritage-teal))',
+                strokeWidth: 2,
+                strokeDasharray: '5,5'
+              },
+              animated: false,
             });
           }
         });
@@ -129,30 +145,39 @@ export default function InteractiveTree({ people, onPersonClick }: InteractiveTr
     };
   }, [people, onPersonClick]);
 
-  const [flowNodes, setNodes, onNodesChange] = useNodesState(nodes);
-  const [flowEdges, setEdges, onEdgesChange] = useEdgesState(edges);
+  const [nodesState, setNodes, onNodesChange] = useNodesState(nodes);
+  const [edgesState, setEdges, onEdgesChange] = useEdgesState(edges);
+
+  // Update nodes and edges when they change
+  React.useEffect(() => {
+    setNodes(nodes);
+    setEdges(edges);
+  }, [nodes, edges, setNodes, setEdges]);
 
   return (
     <div className="w-full h-full">
       <ReactFlow
-        nodes={flowNodes}
-        edges={flowEdges}
+        nodes={nodesState}
+        edges={edgesState}
         onNodesChange={onNodesChange}
         onEdgesChange={onEdgesChange}
         nodeTypes={nodeTypes}
         connectionMode={ConnectionMode.Loose}
         fitView
-        fitViewOptions={{ padding: 0.2 }}
+        minZoom={0.2}
+        maxZoom={1.5}
+        defaultViewport={{ x: 0, y: 0, zoom: 0.8 }}
       >
-        <Background color="#f5f5f4" gap={20} />
+        <Background />
         <Controls />
         <MiniMap 
-          nodeColor={(node) => {
-            return node.className?.includes('gierczak') ? '#8B2635' : '#0F5F5C';
-          }}
+          className="!bg-card border heritage-border"
           nodeStrokeWidth={3}
-          zoomable
-          pannable
+          nodeColor={(node) => {
+            return node.className?.includes('gierczak') 
+              ? 'hsl(var(--heritage-burgundy))' 
+              : 'hsl(var(--heritage-teal))';
+          }}
         />
       </ReactFlow>
     </div>
