@@ -93,7 +93,21 @@ const translations = {
     
     // Sources
     'sources.title': 'Źródła i Bibliografia',
-    'sources.subtitle': 'Dokumentacja źródeł wykorzystanych w badaniach genealogicznych'
+    'sources.subtitle': 'Dokumentacja źródeł wykorzystanych w badaniach genealogicznych',
+    
+    // Family branch page
+    'familyBranch.title': 'Ród Rodziny',
+    'familyBranch.gierczak.title': 'Ród Gierczaków',
+    'familyBranch.ofiara.title': 'Ród Ofiarów',
+    'familyBranch.gierczak.description': 'Odkryj historię rodziny Gierczaków, której korzenie sięgają XVIII wieku w regionie radomskim.',
+    'familyBranch.ofiara.description': 'Poznaj fascynującą historię rodziny Ofiarów i ich związki z okolicami Radomia.',
+    'familyBranch.overview': 'Przegląd',
+    'familyBranch.keyFigures': 'Kluczowe Postacie',
+    'familyBranch.timeline': 'Linia Czasu Rodziny',
+    'familyBranch.places': 'Ważne Miejsca',
+    'familyBranch.viewTree': 'Zobacz w Interaktywnym Drzewie',
+    'familyBranch.notFound': 'Nie znaleziono rodziny',
+    'familyBranch.backToFamilies': 'Powrót do Rodzin'
   },
   en: {
     // Navigation
@@ -174,7 +188,21 @@ const translations = {
     
     // Sources
     'sources.title': 'Sources and Bibliography',
-    'sources.subtitle': 'Documentation of sources used in genealogical research'
+    'sources.subtitle': 'Documentation of sources used in genealogical research',
+    
+    // Family branch page
+    'familyBranch.title': 'Family Branch',
+    'familyBranch.gierczak.title': 'Gierczak Family Branch',
+    'familyBranch.ofiara.title': 'Ofiara Family Branch',
+    'familyBranch.gierczak.description': 'Discover the history of the Gierczak family, whose roots date back to the 18th century in the Radom region.',
+    'familyBranch.ofiara.description': 'Learn about the fascinating history of the Ofiara family and their connections to the Radom area.',
+    'familyBranch.overview': 'Overview',
+    'familyBranch.keyFigures': 'Key Figures',
+    'familyBranch.timeline': 'Family Timeline',
+    'familyBranch.places': 'Important Places',
+    'familyBranch.viewTree': 'View in Interactive Tree',
+    'familyBranch.notFound': 'Family branch not found',
+    'familyBranch.backToFamilies': 'Back to Families'
   }
 };
 

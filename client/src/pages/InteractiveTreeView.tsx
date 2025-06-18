@@ -8,16 +8,17 @@ import { Alert, AlertDescription } from '@/components/ui/alert';
 import { AlertCircle } from 'lucide-react';
 import SEO from '@/components/SEO';
 import { useLanguage } from '@/hooks/useLanguage';
+import genealogyData from '@/data/genealogy.json';
 
 export default function InteractiveTreeView() {
   const { t } = useLanguage();
   const [selectedPerson, setSelectedPerson] = useState<Person | null>(null);
   const [modalOpen, setModalOpen] = useState(false);
 
-  // Use API call to get data from server
-  const { data: people = [], isLoading, error } = useQuery({
-    queryKey: ['/api/people'],
-  });
+  // Use local genealogy data
+  const people = genealogyData.people;
+  const isLoading = false;
+  const error = null;
 
   const handlePersonClick = (person: Person) => {
     setSelectedPerson(person);
