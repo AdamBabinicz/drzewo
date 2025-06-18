@@ -62,7 +62,7 @@ export default function Navbar() {
                   {item.name}
                 </Link>
               ))}
-              
+
               {/* Family Dropdown */}
               <DropdownMenu>
                 <DropdownMenuTrigger className="heritage-text hover:text-[hsl(var(--heritage-burgundy))] hover:bg-heritage-cream/50 px-3 py-2 text-sm font-medium transition-all duration-200 rounded-md inline-flex items-center">
@@ -79,7 +79,7 @@ export default function Navbar() {
                 </DropdownMenuContent>
               </DropdownMenu>
             </div>
-            
+
             {/* Theme & Language Controls */}
             <div className="flex items-center space-x-2 border-l pl-4 heritage-border">
               {/* Language Toggle */}
@@ -98,7 +98,7 @@ export default function Navbar() {
                   </DropdownMenuItem>
                 </DropdownMenuContent>
               </DropdownMenu>
-              
+
               {/* Theme Toggle */}
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>
@@ -136,7 +136,7 @@ export default function Navbar() {
             >
               {language.toUpperCase()}
             </Button>
-            
+
             {/* Mobile Theme Toggle */}
             <Button
               variant="ghost"
@@ -147,7 +147,7 @@ export default function Navbar() {
               <Sun className="h-4 w-4 rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
               <Moon className="absolute h-4 w-4 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
             </Button>
-            
+
             <Sheet open={mobileMenuOpen} onOpenChange={setMobileMenuOpen}>
               <SheetTrigger asChild>
                 <Button variant="ghost" size="icon" className="heritage-text">
@@ -158,7 +158,7 @@ export default function Navbar() {
                 <div className="flex flex-col space-y-4 mt-8">
                   {navigation.map((item) => (
                     <Link
-                      key={`mobile-${item.href}`}
+                      key={item.href}
                       href={item.href}
                       className={`block px-4 py-3 text-base font-medium transition-all duration-200 ${
                         isActive(item.href)
@@ -175,7 +175,7 @@ export default function Navbar() {
                   </div>
                   {familyLinks.map((item) => (
                     <Link
-                      key={`mobile-family-${item.href}`}
+                      key={item.href}
                       href={item.href}
                       className="block px-6 py-3 text-base font-medium heritage-text hover:text-[hsl(var(--heritage-burgundy))] hover:bg-heritage-cream/50 rounded-lg transition-all duration-200"
                       onClick={() => setMobileMenuOpen(false)}
