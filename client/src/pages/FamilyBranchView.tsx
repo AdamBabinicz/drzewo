@@ -10,11 +10,10 @@ import { useState } from 'react';
 import SEO from '@/components/SEO';
 import genealogyData from '@/data/genealogy.json';
 import { Link } from 'wouter';
-import { useTranslation } from 'react-i18next';
+import { useLanguage } from '@/hooks/useLanguage';
 
 export default function FamilyBranchView() {
-  const { t, i18n } = useTranslation();
-  const language = i18n.language;
+  const { t, language } = useLanguage();
   const [, params] = useRoute('/rod/:family');
   const family = params?.family as 'gierczak' | 'ofiara';
 
