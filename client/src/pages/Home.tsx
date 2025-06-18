@@ -3,8 +3,11 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Eye, BookOpen, Users, Images } from 'lucide-react';
 import SEO from '@/components/SEO';
+import { useLanguage } from '@/hooks/useLanguage';
 
 export default function Home() {
+  const { t } = useLanguage();
+  
   return (
     <>
       <SEO />
@@ -14,23 +17,23 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="font-serif text-4xl md:text-6xl font-bold heritage-text mb-6">
-              Historia Rodów<br />
-              <span className="heritage-burgundy">Gierczak i Ofiara</span>
+              {t('home.title')}<br />
+              <span className="heritage-gradient-text">Gierczak i Ofiara</span>
             </h1>
-            <p className="text-xl md:text-2xl text-stone-600 mb-8 max-w-3xl mx-auto leading-relaxed">
-              Odkryj fascynującą historię dwóch rodów z okolic Radomia. Prześledzij losy pokoleń, poznaj ich historie i zobacz, jak przeplatały się ich życiowe ścieżki.
+            <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
+              {t('home.subtitle')}. Prześledzij losy pokoleń, poznaj ich historie i zobacz, jak przeplatały się ich życiowe ścieżki.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild className="btn-heritage-burgundy px-8 py-3 text-lg">
                 <Link href="/drzewo">
                   <Eye className="w-5 h-5 mr-2" />
-                  Zobacz Interaktywne Drzewo
+                  {t('home.cta.tree')}
                 </Link>
               </Button>
-              <Button asChild variant="outline" className="px-8 py-3 text-lg heritage-border heritage-text hover:bg-stone-100">
+              <Button asChild variant="outline" className="px-8 py-3 text-lg heritage-border heritage-text hover:bg-heritage-cream">
                 <Link href="#about">
                   <BookOpen className="w-5 h-5 mr-2" />
-                  Poznaj Historię
+                  {t('home.cta.history')}
                 </Link>
               </Button>
             </div>

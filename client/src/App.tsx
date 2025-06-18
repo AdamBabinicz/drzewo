@@ -15,7 +15,7 @@ import NotFound from "@/pages/not-found";
 
 function Router() {
   return (
-    <div className="min-h-screen bg-stone-50 text-stone-800">
+    <div className="min-h-screen bg-background text-foreground">
       <Navbar />
       <Switch>
         <Route path="/" component={Home} />
