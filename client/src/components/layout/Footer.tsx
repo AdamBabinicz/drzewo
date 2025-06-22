@@ -1,52 +1,111 @@
 import { Network, Mail, MapPin } from "lucide-react";
 import { Link } from "wouter";
+import { useLanguage } from "@/hooks/useLanguage";
 
 export default function Footer() {
+  const { t, p } = useLanguage();
+  const currentYear = new Date().getFullYear();
+
   return (
-    <footer className="bg-stone-800 text-white py-12">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid md:grid-cols-3 gap-8">
-          <div>
+    <footer className="bg-stone-800 text-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div className="grid md:grid-cols-4 gap-8">
+          <div className="md:col-span-2">
             <h3 className="font-serif text-xl font-semibold mb-4 flex items-center">
               <Network className="w-5 h-5 mr-2" />
-              Korzenie rodu
+              {t("footer.title")}
             </h3>
             <p className="text-white/80 leading-relaxed">
-              Cyfrowe archiwum i interaktywne drzewo genealogiczne rodów Gierczak i Ofiara z okolic Radomia.
+              {t("footer.description")}
             </p>
           </div>
-          
+
           <div>
-            <h4 className="font-semibold mb-4">Nawigacja</h4>
+            <h4 className="font-semibold mb-4">{t("footer.nav.title")}</h4>
             <ul className="space-y-2 text-white/80">
-              <li><Link href="/" className="hover:text-white transition-colors">Strona Główna</Link></li>
-              <li><Link href="/drzewo" className="hover:text-white transition-colors">Drzewo Interaktywne</Link></li>
-              <li><Link href="/rod/gierczak" className="hover:text-white transition-colors">Ród Gierczaków</Link></li>
-              <li><Link href="/rod/ofiara" className="hover:text-white transition-colors">Ród Ofiarów</Link></li>
-              <li><Link href="/galeria" className="hover:text-white transition-colors">Galeria</Link></li>
+              <li>
+                <Link
+                  href={p("home")}
+                  className="hover:text-white transition-colors"
+                >
+                  {t("footer.nav.home")}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={p("tree")}
+                  className="hover:text-white transition-colors"
+                >
+                  {t("footer.nav.tree")}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={`${p("familyBase")}/gierczak`}
+                  className="hover:text-white transition-colors"
+                >
+                  {t("footer.nav.gierczak")}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={`${p("familyBase")}/ofiara`}
+                  className="hover:text-white transition-colors"
+                >
+                  {t("footer.nav.ofiara")}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={p("gallery")}
+                  className="hover:text-white transition-colors"
+                >
+                  {t("footer.nav.gallery")}
+                </Link>
+              </li>
             </ul>
           </div>
-          
+
           <div>
-            <h4 className="font-semibold mb-4">Kontakt</h4>
+            <h4 className="font-semibold mb-4">{t("footer.contact.title")}</h4>
             <div className="text-white/80 space-y-2">
-              <p className="flex items-center">
+              <a
+                href="mailto:puaro@vp.pl"
+                className="flex items-center hover:text-white transition-colors"
+              >
                 <Mail className="w-4 h-4 mr-2" />
-                [kontakt@genealogia.pl]
-              </p>
+                [puaro@vp.pl]
+              </a>
               <p className="flex items-center">
                 <MapPin className="w-4 h-4 mr-2" />
-                Okolice Radomia
+                {t("footer.contact.location")}
               </p>
               <div className="pt-4">
-                <p className="text-sm">Projekt genealogiczny<br />zachowujący pamięć o przodkach</p>
+                <p className="text-sm" style={{ whiteSpace: "pre-line" }}>
+                  {t("footer.contact.projectInfo")}
+                </p>
               </div>
             </div>
           </div>
         </div>
-        
-        <div className="border-t border-white/20 mt-8 pt-8 text-center text-white/60">
-          <p>&copy; 2024 Korzenie rodu Gierczak i Ofiara. Wszystkie prawa zastrzeżone.</p>
+      </div>
+      <div className="bg-stone-900 py-4">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row justify-between items-center text-sm text-white/60">
+          <p>{t("footer.copyright", { year: currentYear })}</p>
+          <div className="flex gap-4 mt-2 sm:mt-0">
+            <Link
+              href={p("terms")}
+              className="hover:text-white transition-colors"
+            >
+              {t("footer.nav.terms")}
+            </Link>
+            <Link
+              href={p("privacy")}
+              className="hover:text-white transition-colors"
+            >
+              {t("footer.nav.privacy")}
+            </Link>
+          </div>
         </div>
       </div>
     </footer>

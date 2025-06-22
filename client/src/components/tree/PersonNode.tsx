@@ -1,66 +1,102 @@
-import React from 'react';
-import { Handle, Position } from 'reactflow';
-import { User, Calendar } from 'lucide-react';
-import { Person } from '@shared/schema';
+import React from "react";
+import { Handle, Position, NodeProps } from "reactflow";
+import { User, Calendar, MessageSquare } from "lucide-react";
+import { Person } from "@shared/schema";
+import { useLanguage } from "@/hooks/useLanguage";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
 
-interface PersonNodeProps {
-  data: {
-    person: Person;
-    onClick: () => void;
-    family: string;
-  };
-}
+type PersonNodeData = {
+  person: Person;
+  onClick: () => void;
+  family: "gierczak" | "ofiara";
+};
 
-export default function PersonNode({ data }: PersonNodeProps) {
+const formatDate = (dateString: string | null | undefined, locale: string) => {
+  if (!dateString) return "?";
+  if (/^\d{4}$/.test(dateString)) {
+    return dateString;
+  }
+  try {
+    const date = new Date(dateString);
+    if (isNaN(date.getTime())) return dateString;
+    return new Intl.DateTimeFormat(locale).format(date);
+  } catch (e) {
+    return dateString;
+  }
+};
+
+export default function PersonNode({ data }: NodeProps<PersonNodeData>) {
+  const { t, language } = useLanguage();
   const { person, onClick, family } = data;
-  const isGierczak = family === 'gierczak';
-  
-  const borderColor = isGierczak ? 'border-[hsl(var(--heritage-burgundy))]' : 'border-[hsl(var(--heritage-teal))]';
-  const accentColor = isGierczak ? 'text-[hsl(var(--heritage-burgundy))]' : 'text-[hsl(var(--heritage-teal))]';
+  const isGierczak = family === "gierczak";
+
+  const borderColor = isGierczak
+    ? "border-heritage-burgundy"
+    : "border-heritage-teal";
+
+  const birth = formatDate(person.birthDate, language);
+  const death = formatDate(person.deathDate, language);
+  const lifeSpan = `${birth} - ${death}`;
+  const hasAnecdotes = person.anecdotes && person.anecdotes.length > 0;
 
   return (
-    <div 
-      className={`person-node bg-white border-2 ${borderColor} rounded-lg p-4 shadow-md cursor-pointer hover:shadow-lg transition-all min-w-[180px]`}
-      onClick={onClick}
-    >
-      <Handle type="target" position={Position.Top} className="w-2 h-2 bg-stone-400" />
-      
-      <div className="text-center">
-        <div className="w-16 h-16 bg-stone-200 rounded-full mx-auto mb-3 flex items-center justify-center">
-          {person.photoUrl ? (
-            <img 
-              src={person.photoUrl} 
-              alt={`${person.firstName} ${person.lastName}`}
-              className="w-full h-full rounded-full object-cover"
-            />
-          ) : (
-            <User className="w-8 h-8 text-stone-500" />
-          )}
+    <TooltipProvider delayDuration={200}>
+      <div
+        className={`person-node bg-white dark:bg-stone-800 border-2 ${borderColor} rounded-lg p-3 shadow-md cursor-pointer hover:shadow-lg transition-all w-[240px]`}
+        onClick={onClick}
+      >
+        <Handle
+          type="target"
+          position={Position.Top}
+          className="!bg-stone-400"
+        />
+        <div className="flex items-center gap-3">
+          <div className="w-16 h-16 bg-stone-200 dark:bg-stone-700 rounded-full flex-shrink-0 flex items-center justify-center">
+            {person.photoUrl ? (
+              <img
+                src={person.photoUrl}
+                alt={`${person.firstName} ${person.lastName}`}
+                className="w-full h-full rounded-full object-cover"
+              />
+            ) : (
+              <User className="w-8 h-8 text-stone-500" />
+            )}
+          </div>
+          <div className="flex-grow min-w-0">
+            <div className="flex items-center">
+              <h4 className="font-semibold text-base heritage-text mb-1 break-words">
+                {person.firstName} {person.lastName}
+              </h4>
+              {hasAnecdotes && (
+                <Tooltip>
+                  <TooltipTrigger asChild>
+                    <MessageSquare className="w-3 h-3 text-stone-400 ml-1.5 mb-1 flex-shrink-0" />
+                  </TooltipTrigger>
+                  <TooltipContent>
+                    <p>{t("person.hasAnecdotes")}</p>
+                  </TooltipContent>
+                </Tooltip>
+              )}
+            </div>
+            {(person.birthDate || person.deathDate) && (
+              <p className="text-xs text-stone-600 dark:text-stone-400 flex items-center">
+                <Calendar className="w-3 h-3 mr-1.5 flex-shrink-0" />
+                <span>{lifeSpan}</span>
+              </p>
+            )}
+          </div>
         </div>
-        
-        <h4 className="font-semibold text-sm heritage-text mb-1">
-          {person.firstName} {person.lastName}
-        </h4>
-        
-        {(person.birthDate || person.deathDate) && (
-          <p className="text-xs text-stone-600 flex items-center justify-center">
-            <Calendar className="w-3 h-3 mr-1" />
-            {person.birthDate}{person.deathDate ? `-${person.deathDate}` : ''}
-          </p>
-        )}
-        
-        {person.birthPlace && (
-          <p className="text-xs text-stone-500 mt-1">{person.birthPlace}</p>
-        )}
-        
-        {person.occupation && (
-          <p className={`text-xs ${accentColor} font-medium mt-1`}>
-            {person.occupation}
-          </p>
-        )}
+        <Handle
+          type="source"
+          position={Position.Bottom}
+          className="!bg-stone-400"
+        />
       </div>
-      
-      <Handle type="source" position={Position.Bottom} className="w-2 h-2 bg-stone-400" />
-    </div>
+    </TooltipProvider>
   );
 }

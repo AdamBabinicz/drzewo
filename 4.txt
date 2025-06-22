@@ -1,0 +1,2750 @@
+import { useRoute } from "wouter";
+import { useQuery } from "@tanstack/react-query";
+import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import PersonCard from "@/components/ui/PersonCard";
+import PersonModal from "@/components/ui/PersonModal";
+import { Person } from "@shared/schema";
+import { MapPin, Users, Eye } from "lucide-react";
+import { useState } from "react";
+import SEO from "@/components/SEO";
+import genealogyData from "@/data/genealogy.json";
+import { Link } from "wouter";
+import { useLanguage } from "@/hooks/useLanguage";
+
+export default function FamilyBranchView() {
+  const { t, p, language } = useLanguage();
+  const [, params] = useRoute(`${p("familyBase")}/:family`);
+  const family = params?.family as "gierczak" | "ofiara";
+
+  const [selectedPerson, setSelectedPerson] = useState<Person | null>(null);
+  const [modalOpen, setModalOpen] = useState(false);
+
+  const { data: allPeople = [] } = useQuery({
+    queryKey: ["/api/people"],
+    queryFn: () => Promise.resolve(genealogyData.people as Person[]),
+  });
+
+  const familyPeople = allPeople.filter((person) => person.family === family);
+
+  const familyInfo = {
+    gierczak: {
+      name: t("family.gierczak"),
+      description: t("home.about.gierczak.desc"),
+      color: "heritage-burgundy",
+      imageUrl: "/images/jaszowice.png",
+      placeIds: ["jaszowice", "cerekiew", "gulinek_gierczak"],
+    },
+    ofiara: {
+      name: t("family.ofiara"),
+      description: t("home.about.ofiara.desc"),
+      color: "heritage-teal",
+      imageUrl: "/images/ludwikow.png",
+      placeIds: ["ludwikow", "cerekiew", "gulinek_ofiara"],
+    },
+  };
+
+  const currentFamily = family ? familyInfo[family] : null;
+
+  if (!family || !currentFamily) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="text-center">
+          <h1 className="text-2xl font-bold heritage-text mb-4">
+            {t("familyBranch.notFound.title")}
+          </h1>
+          <p className="text-stone-600">{t("familyBranch.notFound.desc")}</p>
+        </div>
+      </div>
+    );
+  }
+
+  const handlePersonClick = (person: Person) => {
+    setSelectedPerson(person);
+    setModalOpen(true);
+  };
+
+  const getDynamicText = (
+    field: { pl: string; en: string } | string | null | undefined
+  ) => {
+    if (!field) return null;
+    if (typeof field === "object" && field !== null && "pl" in field) {
+      return field[language as keyof typeof field] || field.pl;
+    }
+    return field;
+  };
+
+  const familyPlaces =
+    genealogyData.places?.filter((place) =>
+      currentFamily.placeIds.includes(place.id)
+    ) || [];
+
+  return (
+    <>
+      <SEO
+        title={currentFamily.name}
+        description={`${t(
+          `home.about.${family}.desc`
+        )} Poznaj historię i członków ${currentFamily.name.toLowerCase()}.`}
+      />
+
+      <div className="min-h-screen bg-stone-50">
+        <div className="relative h-80 md:h-96">
+          <img
+            src={currentFamily.imageUrl}
+            alt={`Miejsca związane z ${currentFamily.name}`}
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-black/40"></div>
+          <div className="absolute inset-0 flex items-center justify-center">
+            <div className="text-center text-white">
+              <h1 className="font-serif text-4xl md:text-5xl font-bold mb-4">
+                {currentFamily.name}
+              </h1>
+              <p className="text-xl md:text-2xl">
+                {familyPlaces.map((place) => place.name).join(", ")}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+          <div className="mb-12">
+            <Card>
+              <CardContent className="p-8">
+                <div className="grid md:grid-cols-2 gap-8 items-center">
+                  <div>
+                    <h2 className="font-serif text-2xl font-semibold heritage-text mb-4">
+                      {t("familyBranch.history.title")}
+                    </h2>
+                    <p className="text-stone-600 leading-relaxed mb-6">
+                      {t(`home.about.${family}.desc`)}
+                    </p>
+                    <div className="flex items-center space-x-4 text-sm text-stone-600">
+                      <div className="flex items-center">
+                        <MapPin className="w-4 h-4 mr-1" />
+                        {t("familyBranch.history.places")}:
+                      </div>
+                      <div className="flex space-x-2">
+                        {familyPlaces.map((place) => (
+                          <span
+                            key={place.id}
+                            className="bg-stone-100 px-2 py-1 rounded"
+                          >
+                            {place.name}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                  <div className="text-center">
+                    <div
+                      className={`inline-flex items-center justify-center w-24 h-24 rounded-full bg-gradient-to-br from-stone-100 to-stone-200 mb-4`}
+                    >
+                      <Users className={`w-12 h-12 ${currentFamily.color}`} />
+                    </div>
+                    <p className="text-2xl font-bold heritage-text">
+                      {familyPeople.length}
+                    </p>
+                    <p className="text-stone-600">
+                      {t("familyBranch.history.membersInDb")}
+                    </p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+
+          <div className="mb-8">
+            <div className="flex items-center justify-between mb-6">
+              <h2 className="font-serif text-3xl font-semibold heritage-text">
+                {t("familyBranch.members.title")}
+              </h2>
+              <Button
+                asChild
+                className={`btn-${currentFamily.color.replace(
+                  "heritage-",
+                  ""
+                )}`}
+              >
+                <Link href={p("tree")}>
+                  <Eye className="w-4 h-4 mr-2" />
+                  {t("familyBranch.members.viewInTree")}
+                </Link>
+              </Button>
+            </div>
+
+            {familyPeople.length > 0 ? (
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+                {familyPeople
+                  .sort((a, b) => {
+                    const birthYearA = a.birthDate ? parseInt(a.birthDate) : 0;
+                    const birthYearB = b.birthDate ? parseInt(b.birthDate) : 0;
+                    return birthYearA - birthYearB;
+                  })
+                  .map((person) => (
+                    <PersonCard
+                      key={person.id}
+                      person={person}
+                      onClick={() => handlePersonClick(person)}
+                    />
+                  ))}
+              </div>
+            ) : (
+              <Card>
+                <CardContent className="p-8 text-center">
+                  <Users className="w-12 h-12 text-stone-400 mx-auto mb-4" />
+                  <h3 className="text-lg font-semibold heritage-text mb-2">
+                    {t("familyBranch.members.noData.title")}
+                  </h3>
+                  <p className="text-stone-600">
+                    {t("familyBranch.members.noData.desc")}
+                  </p>
+                </CardContent>
+              </Card>
+            )}
+          </div>
+
+          <div>
+            <h2 className="font-serif text-3xl font-semibold heritage-text mb-6">
+              {t("familyBranch.places.title")}
+            </h2>
+            <div className="grid md:grid-cols-2 gap-6">
+              {familyPlaces.map((place) => (
+                <Card key={place.id} className="overflow-hidden">
+                  <div className="relative h-80">
+                    <img
+                      src={place.imageUrl}
+                      alt={place.name}
+                      className="w-full h-full object-cover"
+                      loading="lazy"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                    <div className="absolute bottom-4 left-4">
+                      <h3 className="font-serif text-xl font-semibold text-white">
+                        {place.name}
+                      </h3>
+                    </div>
+                  </div>
+                  <CardContent className="p-4">
+                    <p className="text-stone-600">
+                      {getDynamicText(place.description)}
+                    </p>
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        <PersonModal
+          person={selectedPerson}
+          isOpen={modalOpen}
+          onClose={() => setModalOpen(false)}
+          onPersonClick={handlePersonClick}
+          allPeople={allPeople}
+        />
+      </div>
+    </>
+  );
+}
+
+
+-----------------------------
+
+{
+  "people": [
+    {
+      "id": 1,
+      "firstName": "Tomasz",
+      "lastName": "Gierczak",
+      "birthDate": null,
+      "deathDate": null,
+      "photoUrl": "/images/tomasz.png",
+      "family": "gierczak",
+      "spouseIds": [2],
+      "childIds": [3, 4, 5, 6, 7],
+      "parentIds": [],
+      "marriages": [{ "spouseId": 2, "date": "?" }],
+      "biography": {
+        "pl": "Protoplasta rodu Gierczak. Ożenił się z Zofią Giel vel Gielowską. Mieli 5 dzieci. Mieszkali we wsi Jaszowice k. Radomia.",
+        "en": "Progenitor of the Gierczak family. He married Zofia Giel vel Gielowska. They had 5 children. They lived in the village of Jaszowice near Radom."
+      }
+    },
+    {
+      "id": 2,
+      "firstName": "Zofia",
+      "lastName": "Gerczak vel Gierczak",
+      "maidenName": "Giel vel Gielowska",
+      "birthDate": null,
+      "deathDate": null,
+      "photoUrl": null,
+      "family": "gierczak",
+      "spouseIds": [1],
+      "childIds": [3, 4, 5, 6, 7],
+      "parentIds": [],
+      "marriages": [{ "spouseId": 1, "date": "?" }],
+      "biography": {
+        "pl": "Żona Tomasza Gerczaka vel Gierczaka. Brak dostępu do danych.",
+        "en": "Wife of Tomasz Gerczak vel Gierczak. No data available."
+      }
+    },
+    {
+      "id": 3,
+      "firstName": "Franciszek",
+      "lastName": "Gerczak vel Gierczak",
+      "birthDate": "1816-11-24",
+      "deathDate": null,
+      "photoUrl": null,
+      "family": "gierczak",
+      "spouseIds": [],
+      "childIds": [],
+      "parentIds": [1, 2],
+      "biography": {
+        "pl": "Syn Tomasza i Zofii Gerczak vel Gierczak.",
+        "en": "Son of Tomasz and Zofia Gerczak vel Gierczak."
+      }
+    },
+    {
+      "id": 4,
+      "firstName": "Ambroży",
+      "lastName": "Gerczak vel Gierczak",
+      "birthDate": "ok. 1800",
+      "deathDate": "1836",
+      "photoUrl": "/images/ambrozy.png",
+      "family": "gierczak",
+      "spouseIds": [8],
+      "childIds": [59, 60, 61, 62, 63, 13, 64, 65],
+      "parentIds": [1, 2],
+      "occupation": { "pl": "Gospodarz", "en": "Farmer" },
+      "marriages": [{ "spouseId": 8, "date": "1820 ?" }],
+      "biography": {
+        "pl": "3 x pradziadek. Urodził się pod koniec XVIII w. lub na początku XIX w. Ożenił się prawdopodobnie w 1820 z Kunegundą Kanią. Mieli 8 dzieci.",
+        "en": "3rd great-grandfather. Born at the end of the 18th or beginning of the 19th century. He probably married Kunegunda Kania in 1820. They had 8 children."
+      }
+    },
+    {
+      "id": 5,
+      "firstName": "Michał",
+      "lastName": "Gerczak vel Gierczak",
+      "birthDate": null,
+      "deathDate": "1854",
+      "photoUrl": null,
+      "family": "gierczak",
+      "spouseIds": [],
+      "childIds": [],
+      "parentIds": [1, 2],
+      "biography": {
+        "pl": "Syn Tomasza i Zofii Gerczak vel Gierczak.",
+        "en": "Son of Tomasz and Zofia Gerczak vel Gierczak."
+      }
+    },
+    {
+      "id": 6,
+      "firstName": "Andrzej",
+      "lastName": "Gerczak vel Gierczak",
+      "birthDate": null,
+      "deathDate": "1868",
+      "photoUrl": null,
+      "family": "gierczak",
+      "spouseIds": [101],
+      "childIds": [],
+      "parentIds": [1, 2],
+      "marriages": [{ "spouseId": 101, "date": "1837" }],
+      "biography": {
+        "pl": "Syn Tomasza i Zofii. Ożenił się w 1837 z Teresą Pączek, której rodzicami byli Jakub i Magdalena. Ślub odbył się w parafii Cerekiew.",
+        "en": "Son of Tomasz and Zofia. He married Teresa Pączek in 1837, whose parents were Jakub and Magdalena. The wedding took place in the Cerekiew parish."
+      }
+    },
+    {
+      "id": 7,
+      "firstName": "Marianna",
+      "lastName": "Gerczak vel Gierczak",
+      "birthDate": null,
+      "deathDate": "1916",
+      "photoUrl": null,
+      "family": "gierczak",
+      "spouseIds": [],
+      "childIds": [],
+      "parentIds": [1, 2],
+      "biography": {
+        "pl": "Córka Tomasza i Zofii Gerczak vel Gierczak.",
+        "en": "Daughter of Tomasz and Zofia Gerczak vel Gierczak."
+      }
+    },
+    {
+      "id": 8,
+      "firstName": "Kunegunda",
+      "lastName": "Remisiewska",
+      "maidenName": "Kania vel Kanionka",
+      "photoUrl": null,
+      "family": "gierczak",
+      "spouseIds": [4, 107],
+      "childIds": [59, 60, 61, 62, 63, 13, 64, 65],
+      "parentIds": [],
+      "marriages": [
+        { "spouseId": 4, "date": "1820 ?" },
+        { "spouseId": 107, "date": "1837" }
+      ],
+      "biography": {
+        "pl": "Żona Ambrożego. Rodzicami Kunegundy byli Stanisław i Magdalena. Po śmierci Ambrożego wyszła za mąż w 1837 za Mikołaja Remisiewskiego.",
+        "en": "Wife of Ambroży. Kunegunda's parents were Stanisław and Magdalena. After Ambroży's death, she married Mikołaj Remisiewski in 1837."
+      }
+    },
+    {
+      "id": 13,
+      "firstName": "Karol",
+      "lastName": "Gerczak vel Gierczak",
+      "birthDate": "1828",
+      "deathDate": "1903",
+      "photoUrl": "/images/Karol.jpg",
+      "family": "gierczak",
+      "spouseIds": [18],
+      "childIds": [19, 68, 69],
+      "parentIds": [4, 8],
+      "occupation": { "pl": "Gospodarz", "en": "Farmer" },
+      "marriages": [{ "spouseId": 18, "date": "1857-11-23" }],
+      "biography": {
+        "pl": "Syn Ambrożego i Kunegundy. Żoną Karola została 23.11.1857 Tekla Kozyra. Zamieszkali w Gulinku. Mieli 3 dzieci.",
+        "en": "Son of Ambroży and Kunegunda. Karol's wife became Tekla Kozyra on November 23, 1857. They settled in Gulinek. They had 3 children."
+      }
+    },
+    {
+      "id": 18,
+      "firstName": "Tekla",
+      "lastName": "Kozyra vel Kozera",
+      "maidenName": "Adamczyk",
+      "birthDate": "1831-10-19",
+      "deathDate": "1909",
+      "photoUrl": null,
+      "family": "gierczak",
+      "spouseIds": [13],
+      "childIds": [19, 68, 69],
+      "parentIds": [],
+      "marriages": [{ "spouseId": 13, "date": "1857-11-23" }],
+      "biography": {
+        "pl": "Żona Karola Gerczaka. Rodzicami Tekli byli Adam i Józefa Kredowska.",
+        "en": "Wife of Karol Gerczak. Tekla's parents were Adam and Józefa Kredowska."
+      }
+    },
+    {
+      "id": 19,
+      "firstName": "Paweł",
+      "lastName": "Gerczak vel Gierczak",
+      "birthDate": "1867-01-11",
+      "deathDate": "1935-07-29",
+      "photoUrl": "/images/Pawel.jpg",
+      "family": "gierczak",
+      "spouseIds": [22],
+      "childIds": [70, 71, 72, 26, 73, 74, 75, 76, 77, 78],
+      "parentIds": [13, 18],
+      "occupation": { "pl": "Gospodarz", "en": "Farmer" },
+      "marriages": [{ "spouseId": 22, "date": "1887" }],
+      "biography": {
+        "pl": "Syn Karola i Tekli. Pojął za żonę w 1887 Katarzynę Czerwińską. Mieli 10 dzieci. Był dziadkiem Józefa ur. w 1930.",
+        "en": "Son of Karol and Tekla. He married Katarzyna Czerwińska in 1887. They had 10 children. He was the grandfather of Józef, born in 1930."
+      }
+    },
+    {
+      "id": 22,
+      "firstName": "Katarzyna",
+      "lastName": "Gerczak vel Gierczak",
+      "maidenName": "Czerwińska",
+      "photoUrl": null,
+      "family": "gierczak",
+      "spouseIds": [19],
+      "childIds": [70, 71, 72, 26, 73, 74, 75, 76, 77, 78],
+      "parentIds": [],
+      "marriages": [{ "spouseId": 19, "date": "1887" }],
+      "biography": {
+        "pl": "Żona Pawła. Rodzicami Katarzyny byli Mateusz i Marianna Kieraga.",
+        "en": "Wife of Paweł. Katarzyna's parents were Mateusz and Marianna Kieraga."
+      }
+    },
+    {
+      "id": 26,
+      "firstName": "Jan",
+      "lastName": "Gierczak",
+      "birthDate": "1891-06-18",
+      "deathDate": "1958-11-07",
+      "photoUrl": "/images/4.jpg",
+      "family": "gierczak",
+      "spouseIds": [32],
+      "childIds": [79, 80, 81, 82, 83, 84, 39, 85],
+      "parentIds": [19, 22],
+      "occupation": { "pl": "Gospodarz", "en": "Farmer" },
+      "marriages": [{ "spouseId": 32, "date": "1917-11-14" }],
+      "biography": {
+        "pl": "Syn Pawła i Katarzyny. Ojciec Józefa ur. 1930. Z Agnieszką Baćmagą ożenił się w 1917. Mieli ośmioro dzieci.",
+        "en": "Son of Paweł and Katarzyna. Father of Józef, born in 1930. He married Agnieszka Baćmaga in 1917. They had eight children."
+      }
+    },
+    {
+      "id": 32,
+      "firstName": "Agnieszka",
+      "lastName": "Gierczak",
+      "maidenName": "Baćmaga z d. Szewczyk",
+      "birthDate": "1894-04-13",
+      "deathDate": "1969-11-08",
+      "photoUrl": null,
+      "family": "gierczak",
+      "spouseIds": [26],
+      "childIds": [79, 80, 81, 82, 83, 84, 39, 85],
+      "parentIds": [],
+      "marriages": [{ "spouseId": 26, "date": "1917-11-14" }],
+      "biography": {
+        "pl": "Żona Jana, babcia autora. Urodziła się z rodziców Kazimierza i Antonimy Szewczyk. Mieli ośmioro dzieci.",
+        "en": "Wife of Jan, the author's grandmother. She was born to Kazimierz and Antonina Szewczyk. They had eight children."
+      }
+    },
+    {
+      "id": 39,
+      "firstName": "Józef",
+      "lastName": "Gierczak",
+      "birthDate": "1930-02-23",
+      "deathDate": "1996-08-08",
+      "photoUrl": "/images/51.png",
+      "family": "gierczak",
+      "spouseIds": [41],
+      "childIds": [86, 87, 88],
+      "parentIds": [26, 32],
+      "occupation": { "pl": "Robotnik bezrolny", "en": "Landless worker" },
+      "marriages": [{ "spouseId": 41, "date": "1952-11-26" }],
+      "biography": {
+        "pl": "Syn Jana i Agnieszki, ojciec autora. Z Marianną Ofiarą ożenił się w 1952. Mieli troje dzieci.",
+        "en": "Son of Jan and Agnieszka, the author's father. He married Marianna Ofiara in 1952. They had three children."
+      }
+    },
+    {
+      "id": 41,
+      "firstName": "Marianna",
+      "lastName": "Gierczak",
+      "maidenName": "Ofiara z d. Sobień",
+      "birthDate": "1931-12-08",
+      "deathDate": "1987-01-26",
+      "photoUrl": "/images/43.png",
+      "family": "ofiara",
+      "spouseIds": [39],
+      "childIds": [86, 87, 88],
+      "parentIds": [45, 46],
+      "marriages": [{ "spouseId": 39, "date": "1952-11-26" }],
+      "biography": {
+        "pl": "Żona Józefa Gierczaka, matka autora. Za Józefa Gierczaka wyszła w 1952. Córka Józefa Ofiary i jego drugiej żony, Heleny z d. Sobień.",
+        "en": "Wife of Józef Gierczak, the author's mother. She married Józef Gierczak in 1952. Daughter of Józef Ofiara and his second wife, Helena née Sobień."
+      }
+    },
+    {
+      "id": 45,
+      "firstName": "Józef",
+      "lastName": "Ofiara",
+      "birthDate": "1896",
+      "deathDate": "1968-06-17",
+      "photoUrl": null,
+      "family": "ofiara",
+      "spouseIds": [47, 46],
+      "childIds": [92, 93, 94, 95, 96, 97, 98, 41, 99],
+      "parentIds": [57, 58],
+      "occupation": { "pl": "Gospodarz", "en": "Farmer" },
+      "marriages": [
+        { "spouseId": 47, "date": "1918" },
+        { "spouseId": 46, "date": "1926-02-09" }
+      ],
+      "biography": {
+        "pl": "Dziadek autora. Syn Andrzeja Ofiary i Franciszki Szaruch. W 1918 poślubił Rozalię Mitak (zm. 1925), z którą miał 3 synów. Po jej śmierci ożenił się w 1926 z Heleną Sobień, z którą miał 6 dzieci.",
+        "en": "The author's grandfather. Son of Andrzej Ofiara and Franciszka Szaruch. In 1918, he married Rozalia Mitak (d. 1925), with whom he had 3 sons. After her death, he married Helena Sobień in 1926, with whom he had 6 children."
+      }
+    },
+    {
+      "id": 46,
+      "firstName": "Helena",
+      "lastName": "Ofiara",
+      "maidenName": "Sobień",
+      "birthDate": "1905-01-09",
+      "deathDate": "1978-09-06",
+      "photoUrl": "/images/8.png",
+      "family": "ofiara",
+      "spouseIds": [45],
+      "childIds": [95, 96, 97, 98, 41, 99],
+      "parentIds": [119, 120],
+      "marriages": [{ "spouseId": 45, "date": "1926-02-09" }],
+      "biography": {
+        "pl": "Babcia autora, druga żona Józefa Ofiary. Z Józefem miała sześcioro dzieci. Miała liczne rodzeństwo rodzone i przyrodnie.",
+        "en": "The author's grandmother, the second wife of Józef Ofiara. She had six children with Józef. She had numerous full and half-siblings."
+      }
+    },
+    {
+      "id": 47,
+      "firstName": "Rozalia",
+      "lastName": "Ofiara",
+      "maidenName": "Mitak",
+      "birthDate": "1892",
+      "deathDate": "1925",
+      "photoUrl": null,
+      "family": "ofiara",
+      "spouseIds": [45],
+      "childIds": [92, 93, 94],
+      "parentIds": [121, 120],
+      "marriages": [{ "spouseId": 45, "date": "1918" }],
+      "biography": {
+        "pl": "Pierwsza żona Józefa Ofiary. Córka Michała Mitaka i Ewy Drużdżel. Zmarła w wieku 33 lat. Matka Stanisława, Piotra i Jana.",
+        "en": "First wife of Józef Ofiara. Daughter of Michał Mitak and Ewa Drużdżel. She died at the age of 33. Mother of Stanisław, Piotr, and Jan."
+      }
+    },
+    {
+      "id": 57,
+      "firstName": "Andrzej",
+      "lastName": "Ofiara",
+      "photoUrl": "/images/andrzej.png",
+      "family": "ofiara",
+      "spouseIds": [58],
+      "childIds": [89, 90, 45, 91],
+      "parentIds": [],
+      "occupation": { "pl": "Gospodarz", "en": "Farmer" },
+      "marriages": [{ "spouseId": 58, "date": "18xx" }],
+      "biography": {
+        "pl": "Pradziadek autora. Ożenił się z Franciszką Szaruch (Saruch). Mieli 4 dzieci.",
+        "en": "The author's great-grandfather. He married Franciszka Szaruch (Saruch). They had 4 children."
+      }
+    },
+    {
+      "id": 58,
+      "firstName": "Franciszka",
+      "lastName": "Ofiara",
+      "maidenName": "Szaruch",
+      "birthDate": "1876",
+      "deathDate": null,
+      "photoUrl": null,
+      "family": "ofiara",
+      "spouseIds": [57],
+      "childIds": [89, 90, 45, 91],
+      "parentIds": [],
+      "marriages": [{ "spouseId": 57, "date": "18xx" }],
+      "biography": {
+        "pl": "Żona Andrzeja Ofiary. Brak danych.",
+        "en": "Wife of Andrzej Ofiara. No data available."
+      }
+    },
+    {
+      "id": 59,
+      "firstName": "Józefa",
+      "lastName": "Wieracha",
+      "maidenName": "Gerczak vel Gierczak",
+      "photoUrl": null,
+      "family": "gierczak",
+      "spouseIds": [102],
+      "childIds": [],
+      "parentIds": [4, 8],
+      "marriages": [{ "spouseId": 102, "date": "1841" }],
+      "biography": {
+        "pl": "Córka Ambrożego i Kunegundy. W 1841 wyszła za mąż za Józefa Wierachę.",
+        "en": "Daughter of Ambroży and Kunegunda. In 1841, she married Józef Wieracha."
+      }
+    },
+    {
+      "id": 60,
+      "firstName": "Jadwiga",
+      "lastName": "Kornafel",
+      "maidenName": "Gerczak vel Gierczak",
+      "birthDate": null,
+      "deathDate": "1884",
+      "photoUrl": null,
+      "family": "gierczak",
+      "spouseIds": [103],
+      "childIds": [],
+      "parentIds": [4, 8],
+      "marriages": [{ "spouseId": 103, "date": "1842" }],
+      "biography": {
+        "pl": "Córka Ambrożego i Kunegundy. W 1842 poślubiła Franciszka Kornafela.",
+        "en": "Daughter of Ambroży and Kunegunda. In 1842, she married Franciszek Kornafel."
+      }
+    },
+    {
+      "id": 61,
+      "firstName": "Marianna",
+      "lastName": "Stępień",
+      "maidenName": "Gerczak vel Gierczak",
+      "birthDate": "1833",
+      "deathDate": null,
+      "photoUrl": null,
+      "family": "gierczak",
+      "spouseIds": [104],
+      "childIds": [],
+      "parentIds": [4, 8],
+      "marriages": [{ "spouseId": 104, "date": "1852" }],
+      "biography": {
+        "pl": "Córka Ambrożego i Kunegundy. W 1852 wyszła za mąż za Antoniego Stępnia.",
+        "en": "Daughter of Ambroży and Kunegunda. In 1852, she married Antoni Stępień."
+      }
+    },
+    {
+      "id": 62,
+      "firstName": "Katarzyna",
+      "lastName": "Gerczak vel Gierczak",
+      "birthDate": null,
+      "deathDate": "1821",
+      "photoUrl": null,
+      "family": "gierczak",
+      "spouseIds": [],
+      "childIds": [],
+      "parentIds": [4, 8],
+      "biography": {
+        "pl": "Córka Ambrożego i Kunegundy.",
+        "en": "Daughter of Ambroży and Kunegunda."
+      }
+    },
+    {
+      "id": 63,
+      "firstName": "Kacper",
+      "lastName": "Gerczak vel Gierczak",
+      "birthDate": "1826",
+      "deathDate": "1903",
+      "photoUrl": null,
+      "family": "gierczak",
+      "spouseIds": [105, 106],
+      "childIds": [66, 67],
+      "parentIds": [4, 8],
+      "marriages": [
+        { "spouseId": 105, "date": "1848" },
+        { "spouseId": 106, "date": "1893" }
+      ],
+      "biography": {
+        "pl": "Syn Ambrożego i Kunegundy. Pierwszą żoną była Marianna Moskwa, z którą miał dwoje dzieci. Po jej śmierci, w 1893 ożenił się z wdową Franciszką Mortką.",
+        "en": "Son of Ambroży and Kunegunda. His first wife was Marianna Moskwa, with whom he had two children. After her death, in 1893, he married the widow Franciszka Mortka."
+      }
+    },
+    {
+      "id": 64,
+      "firstName": "Ludwika",
+      "lastName": "Gerczak vel Gierczak",
+      "birthDate": "1831",
+      "deathDate": null,
+      "photoUrl": null,
+      "family": "gierczak",
+      "spouseIds": [],
+      "childIds": [],
+      "parentIds": [4, 8],
+      "biography": {
+        "pl": "Córka Ambrożego i Kunegundy.",
+        "en": "Daughter of Ambroży and Kunegunda."
+      }
+    },
+    {
+      "id": 65,
+      "firstName": "Franciszka",
+      "lastName": "Gerczak vel Gierczak",
+      "birthDate": "1835",
+      "deathDate": null,
+      "photoUrl": null,
+      "family": "gierczak",
+      "spouseIds": [],
+      "childIds": [],
+      "parentIds": [4, 8],
+      "biography": {
+        "pl": "Córka Ambrożego i Kunegundy.",
+        "en": "Daughter of Ambroży and Kunegunda."
+      }
+    },
+    {
+      "id": 66,
+      "firstName": "Marianna",
+      "lastName": "Gerczak vel Gierczak",
+      "birthDate": "1857",
+      "deathDate": "1860",
+      "photoUrl": null,
+      "family": "gierczak",
+      "spouseIds": [],
+      "childIds": [],
+      "parentIds": [63, 105],
+      "biography": {
+        "pl": "Córka Kacpra i jego pierwszej żony, Marianny Moskwy.",
+        "en": "Daughter of Kacper and his first wife, Marianna Moskwa."
+      }
+    },
+    {
+      "id": 67,
+      "firstName": "Jędrzej",
+      "lastName": "Gerczak vel Gierczak",
+      "birthDate": "1859",
+      "deathDate": null,
+      "photoUrl": null,
+      "family": "gierczak",
+      "spouseIds": [],
+      "childIds": [],
+      "parentIds": [63, 105],
+      "biography": {
+        "pl": "Syn Kacpra i jego pierwszej żony, Marianny Moskwy.",
+        "en": "Son of Kacper and his first wife, Marianna Moskwa."
+      }
+    },
+    {
+      "id": 68,
+      "firstName": "Antonina",
+      "lastName": "Gerczak vel Gierczak",
+      "birthDate": "1869",
+      "deathDate": null,
+      "photoUrl": null,
+      "family": "gierczak",
+      "spouseIds": [],
+      "childIds": [],
+      "parentIds": [13, 18],
+      "biography": {
+        "pl": "Córka Karola i Tekli.",
+        "en": "Daughter of Karol and Tekla."
+      }
+    },
+    {
+      "id": 69,
+      "firstName": "Józefa",
+      "lastName": "Gerczak vel Gierczak",
+      "birthDate": "1872",
+      "deathDate": "1880",
+      "photoUrl": null,
+      "family": "gierczak",
+      "spouseIds": [],
+      "childIds": [],
+      "parentIds": [13, 18],
+      "biography": {
+        "pl": "Córka Karola i Tekli.",
+        "en": "Daughter of Karol and Tekla."
+      }
+    },
+    {
+      "id": 70,
+      "firstName": "Józefa",
+      "lastName": "Walczak",
+      "maidenName": "Gerczak vel Gierczak",
+      "birthDate": null,
+      "deathDate": null,
+      "photoUrl": null,
+      "family": "gierczak",
+      "spouseIds": [111],
+      "childIds": [],
+      "parentIds": [19, 22],
+      "marriages": [{ "spouseId": 111, "date": "1928" }],
+      "biography": {
+        "pl": "Córka Pawła i Katarzyny. Wyszła za mąż w 1928 za wdowca Władysława Walczaka.",
+        "en": "Daughter of Paweł and Katarzyna. She married the widower Władysław Walczak in 1928."
+      }
+    },
+    {
+      "id": 71,
+      "firstName": "Adam",
+      "lastName": "Gerczak vel Gierczak",
+      "birthDate": "1888",
+      "deathDate": "1889-03-06",
+      "photoUrl": null,
+      "family": "gierczak",
+      "spouseIds": [],
+      "childIds": [],
+      "parentIds": [19, 22],
+      "biography": {
+        "pl": "Syn Pawła i Katarzyny. Zmarł jako 3-miesięczne dziecko.",
+        "en": "Son of Paweł and Katarzyna. Died as a 3-month-old infant."
+      }
+    },
+    {
+      "id": 72,
+      "firstName": "Józef",
+      "lastName": "Gerczak vel Gierczak",
+      "birthDate": "1890",
+      "deathDate": "1890",
+      "photoUrl": null,
+      "family": "gierczak",
+      "spouseIds": [],
+      "childIds": [],
+      "parentIds": [19, 22],
+      "biography": {
+        "pl": "Syn Pawła i Katarzyny. Zmarł po 6 tygodniach.",
+        "en": "Son of Paweł and Katarzyna. Died after 6 weeks."
+      }
+    },
+    {
+      "id": 73,
+      "firstName": "Stanisław",
+      "lastName": "Gerczak vel Gierczak",
+      "birthDate": "1893",
+      "deathDate": null,
+      "photoUrl": null,
+      "family": "gierczak",
+      "spouseIds": [108],
+      "childIds": [],
+      "parentIds": [19, 22],
+      "marriages": [{ "spouseId": 108, "date": "1921" }],
+      "biography": {
+        "pl": "Syn Pawła i Katarzyny. Ożenił się w 1921 z Anielą Burakowską c. Andrzeja i Teofili w parafii Błotnica.",
+        "en": "Son of Paweł and Katarzyna. He married Aniela Burakowska, daughter of Andrzej and Teofila, in the Błotnica parish in 1921."
+      }
+    },
+    {
+      "id": 74,
+      "firstName": "Zofia",
+      "lastName": "Gerczak vel Gierczak",
+      "birthDate": "1900",
+      "deathDate": null,
+      "photoUrl": null,
+      "family": "gierczak",
+      "spouseIds": [],
+      "childIds": [],
+      "parentIds": [19, 22],
+      "biography": {
+        "pl": "Córka Pawła i Katarzyny.",
+        "en": "Daughter of Paweł and Katarzyna."
+      }
+    },
+    {
+      "id": 75,
+      "firstName": "Antoni",
+      "lastName": "Gerczak vel Gierczak",
+      "birthDate": "1903",
+      "deathDate": null,
+      "photoUrl": null,
+      "family": "gierczak",
+      "spouseIds": [109],
+      "childIds": [],
+      "parentIds": [19, 22],
+      "marriages": [{ "spouseId": 109, "date": "1931" }],
+      "biography": {
+        "pl": "Syn Pawła i Katarzyny. Wziął za żonę Honoratę Musiałek c. Franciszka i Józefy Banasiak. Ślub odbył się w 1931 w Zakrzewie.",
+        "en": "Son of Paweł and Katarzyna. He married Honorata Musiałek, daughter of Franciszek and Józefa Banasiak. The wedding took place in Zakrzew in 1931."
+      }
+    },
+    {
+      "id": 76,
+      "firstName": "Rozalia",
+      "lastName": "Gerczak vel Gierczak",
+      "birthDate": null,
+      "deathDate": "1906",
+      "photoUrl": null,
+      "family": "gierczak",
+      "spouseIds": [],
+      "childIds": [],
+      "parentIds": [19, 22],
+      "biography": {
+        "pl": "Córka Pawła i Katarzyny.",
+        "en": "Daughter of Paweł and Katarzyna."
+      }
+    },
+    {
+      "id": 77,
+      "firstName": "Franciszek",
+      "lastName": "Gerczak vel Gierczak",
+      "birthDate": "1910",
+      "deathDate": null,
+      "photoUrl": null,
+      "family": "gierczak",
+      "spouseIds": [110],
+      "childIds": [],
+      "parentIds": [19, 22],
+      "marriages": [{ "spouseId": 110, "date": "1932" }],
+      "biography": {
+        "pl": "Syn Pawła i Katarzyny. Ożenił się w 1932 z Feliksą Szczygłowską c. Jana i Karoliny Kozłowskiej. Ślub odbył się w parafii Kowala-Stępocina.",
+        "en": "Son of Paweł and Katarzyna. He married Feliksa Szczygłowska, daughter of Jan and Karolina Kozłowska, in 1932. The wedding took place in the Kowala-Stępocina parish."
+      }
+    },
+    {
+      "id": 78,
+      "firstName": "Stanisława",
+      "lastName": "Gerczak vel Gierczak",
+      "birthDate": "1911",
+      "deathDate": "1911",
+      "photoUrl": null,
+      "family": "gierczak",
+      "spouseIds": [],
+      "childIds": [],
+      "parentIds": [19, 22],
+      "biography": {
+        "pl": "Córka Pawła i Katarzyny. Zmarła po 3 tygodniach.",
+        "en": "Daughter of Paweł and Katarzyna. Died after 3 weeks."
+      }
+    },
+    {
+      "id": 79,
+      "firstName": "Jan",
+      "lastName": "Gierczak",
+      "birthDate": "1918",
+      "deathDate": "1918",
+      "photoUrl": null,
+      "family": "gierczak",
+      "spouseIds": [],
+      "childIds": [],
+      "parentIds": [26, 32],
+      "biography": {
+        "pl": "Syn Jana i Agnieszki. Żył 2 dni.",
+        "en": "Son of Jan and Agnieszka. Lived for 2 days."
+      }
+    },
+    {
+      "id": 80,
+      "firstName": "Marianna",
+      "lastName": "Gierczak",
+      "birthDate": "1918",
+      "deathDate": "1918",
+      "photoUrl": null,
+      "family": "gierczak",
+      "spouseIds": [],
+      "childIds": [],
+      "parentIds": [26, 32],
+      "biography": {
+        "pl": "Córka Jana i Agnieszki. Żyła 2 tygodnie.",
+        "en": "Daughter of Jan and Agnieszka. Lived for 2 weeks."
+      }
+    },
+    {
+      "id": 81,
+      "firstName": "Janina",
+      "lastName": "Gierczak",
+      "birthDate": "1920",
+      "deathDate": "1920",
+      "photoUrl": null,
+      "family": "gierczak",
+      "spouseIds": [],
+      "childIds": [],
+      "parentIds": [26, 32],
+      "biography": {
+        "pl": "Córka Jana i Agnieszki. Żyła 8 tygodni.",
+        "en": "Daughter of Jan and Agnieszka. Lived for 8 weeks."
+      }
+    },
+    {
+      "id": 82,
+      "firstName": "Stefan",
+      "lastName": "Gierczak",
+      "birthDate": "1921",
+      "deathDate": "2017",
+      "photoUrl": null,
+      "family": "gierczak",
+      "spouseIds": [],
+      "childIds": [],
+      "parentIds": [26, 32],
+      "biography": {
+        "pl": "Syn Jana i Agnieszki.",
+        "en": "Son of Jan and Agnieszka."
+      }
+    },
+    {
+      "id": 83,
+      "firstName": "Władysław",
+      "lastName": "Gierczak",
+      "birthDate": "1923-02-01",
+      "deathDate": "2004-12-02",
+      "photoUrl": null,
+      "family": "gierczak",
+      "spouseIds": [],
+      "childIds": [],
+      "parentIds": [26, 32],
+      "biography": {
+        "pl": "Syn Jana i Agnieszki.",
+        "en": "Son of Jan and Agnieszka."
+      }
+    },
+    {
+      "id": 84,
+      "firstName": "Tadeusz",
+      "lastName": "Gierczak",
+      "birthDate": "192x",
+      "deathDate": "1974",
+      "photoUrl": null,
+      "family": "gierczak",
+      "spouseIds": [],
+      "childIds": [],
+      "parentIds": [26, 32],
+      "biography": {
+        "pl": "Syn Jana i Agnieszki.",
+        "en": "Son of Jan and Agnieszka."
+      }
+    },
+    {
+      "id": 85,
+      "firstName": "Zofia",
+      "lastName": "Gierczak",
+      "birthDate": "19xx",
+      "deathDate": "2022",
+      "photoUrl": null,
+      "family": "gierczak",
+      "spouseIds": [],
+      "childIds": [],
+      "parentIds": [26, 32],
+      "biography": {
+        "pl": "Córka Jana i Agnieszki.",
+        "en": "Daughter of Jan and Agnieszka."
+      }
+    },
+    {
+      "id": 86,
+      "firstName": "Witold",
+      "lastName": "Gierczak",
+      "photoUrl": null,
+      "family": "gierczak",
+      "spouseIds": [],
+      "childIds": [],
+      "parentIds": [39, 41],
+      "biography": {
+        "pl": "Syn Józefa i Marianny. Zmarł jako roczne dziecko.",
+        "en": "Son of Józef and Marianna. Died as a one-year-old child."
+      }
+    },
+    {
+      "id": 87,
+      "firstName": "Adam",
+      "lastName": "Gierczak",
+      "birthDate": "1956-07-10",
+      "deathDate": null,
+      "photoUrl": "/images/6.jpeg",
+      "family": "gierczak",
+      "spouseIds": [],
+      "childIds": [],
+      "parentIds": [39, 41],
+      "biography": {
+        "pl": "Syn Józefa i Marianny.",
+        "en": "Son of Józef and Marianna."
+      }
+    },
+    {
+      "id": 88,
+      "firstName": "Maria",
+      "lastName": "Gierczak",
+      "birthDate": "1958-03-25",
+      "deathDate": null,
+      "photoUrl": "/images/7.jfif",
+      "family": "gierczak",
+      "spouseIds": [],
+      "childIds": [],
+      "parentIds": [39, 41],
+      "biography": {
+        "pl": "Córka Józefa i Marianny, siostra autora.",
+        "en": "Daughter of Józef and Marianna, the author's sister."
+      }
+    },
+    {
+      "id": 89,
+      "firstName": "Ignacy",
+      "lastName": "Ofiara",
+      "birthDate": null,
+      "deathDate": null,
+      "photoUrl": null,
+      "family": "ofiara",
+      "spouseIds": [112],
+      "childIds": [],
+      "parentIds": [57, 58],
+      "marriages": [{ "spouseId": 112, "date": "1908" }],
+      "biography": {
+        "pl": "Syn Andrzeja i Franciszki. W 1908 ożenił się z wdową Katarzyną Sikorską (Jurczak) c. Andrzeja i Marianny Hudzik.",
+        "en": "Son of Andrzej and Franciszka. In 1908, he married the widow Katarzyna Sikorska (Jurczak), daughter of Andrzej and Marianna Hudzik."
+      }
+    },
+    {
+      "id": 90,
+      "firstName": "Antoni",
+      "lastName": "Ofiara",
+      "birthDate": null,
+      "deathDate": null,
+      "photoUrl": null,
+      "family": "ofiara",
+      "spouseIds": [113],
+      "childIds": [],
+      "parentIds": [57, 58],
+      "marriages": [{ "spouseId": 113, "date": "1910" }],
+      "biography": {
+        "pl": "Syn Andrzeja i Franciszki. Ożenił się w 1910 z wdową Rozalią Rojek (Drużdżel) c. Kazimierza i Małgorzaty Podkowiak.",
+        "en": "Son of Andrzej and Franciszka. In 1910, he married the widow Rozalia Rojek (Drużdżel), daughter of Kazimierz and Małgorzata Podkowiak."
+      }
+    },
+    {
+      "id": 91,
+      "firstName": "Katarzyna",
+      "lastName": "Piwowarczyk",
+      "maidenName": "Ofiara",
+      "birthDate": null,
+      "deathDate": "1944-11-09",
+      "photoUrl": null,
+      "family": "ofiara",
+      "spouseIds": [],
+      "childIds": [],
+      "parentIds": [57, 58],
+      "biography": {
+        "pl": "Córka Andrzeja i Franciszki.",
+        "en": "Daughter of Andrzej and Franciszka."
+      }
+    },
+    {
+      "id": 92,
+      "firstName": "Stanisław",
+      "lastName": "Ofiara",
+      "birthDate": "1919",
+      "deathDate": null,
+      "photoUrl": null,
+      "family": "ofiara",
+      "spouseIds": [],
+      "childIds": [],
+      "parentIds": [45, 47],
+      "biography": {
+        "pl": "Syn Józefa Ofiary i jego pierwszej żony, Rozalii z d. Mitak.",
+        "en": "Son of Józef Ofiara and his first wife, Rozalia née Mitak."
+      }
+    },
+    {
+      "id": 93,
+      "firstName": "Piotr",
+      "lastName": "Ofiara",
+      "birthDate": "1921",
+      "deathDate": "2004-06-03",
+      "photoUrl": null,
+      "family": "ofiara",
+      "spouseIds": [],
+      "childIds": [],
+      "parentIds": [45, 47],
+      "biography": {
+        "pl": "Syn Józefa Ofiary i jego pierwszej żony, Rozalii z d. Mitak.",
+        "en": "Son of Józef Ofiara and his first wife, Rozalia née Mitak."
+      }
+    },
+    {
+      "id": 94,
+      "firstName": "Jan",
+      "lastName": "Ofiara",
+      "birthDate": "1925",
+      "deathDate": "2001-04-30",
+      "photoUrl": null,
+      "family": "ofiara",
+      "spouseIds": [],
+      "childIds": [],
+      "parentIds": [45, 47],
+      "biography": {
+        "pl": "Syn Józefa Ofiary i jego pierwszej żony, Rozalii z d. Mitak.",
+        "en": "Son of Józef Ofiara and his first wife, Rozalia née Mitak."
+      }
+    },
+    {
+      "id": 95,
+      "firstName": "Józef",
+      "lastName": "Ofiara",
+      "birthDate": null,
+      "deathDate": "1927-01-09",
+      "photoUrl": null,
+      "family": "ofiara",
+      "spouseIds": [],
+      "childIds": [],
+      "parentIds": [45, 46],
+      "biography": {
+        "pl": "Syn Józefa Ofiary i Heleny z d. Sobień. Zmarł jako 2-tygodniowe dziecko.",
+        "en": "Son of Józef Ofiara and Helena née Sobień. Died as a 2-week-old infant."
+      }
+    },
+    {
+      "id": 96,
+      "firstName": "Andrzej",
+      "lastName": "Ofiara",
+      "birthDate": null,
+      "deathDate": "1928-01-07",
+      "photoUrl": null,
+      "family": "ofiara",
+      "spouseIds": [],
+      "childIds": [],
+      "parentIds": [45, 46],
+      "biography": {
+        "pl": "Syn Józefa Ofiary i Heleny z d. Sobień. Zmarł jako 2-tygodniowe dziecko.",
+        "en": "Son of Józef Ofiara and Helena née Sobień. Died as a 2-week-old infant."
+      }
+    },
+    {
+      "id": 97,
+      "firstName": "Genowefa",
+      "lastName": "Ofiara",
+      "birthDate": null,
+      "deathDate": "1930-08-16",
+      "photoUrl": null,
+      "family": "ofiara",
+      "spouseIds": [],
+      "childIds": [],
+      "parentIds": [45, 46],
+      "biography": {
+        "pl": "Córka Józefa Ofiary i Heleny z d. Sobień. Zmarła jako 3-tygodniowe dziecko.",
+        "en": "Daughter of Józef Ofiara and Helena née Sobień. Died as a 3-week-old infant."
+      }
+    },
+    {
+      "id": 98,
+      "firstName": "Kazimiera",
+      "lastName": "Ofiara",
+      "birthDate": "1934",
+      "deathDate": "1935-08-09",
+      "photoUrl": null,
+      "family": "ofiara",
+      "spouseIds": [],
+      "childIds": [],
+      "parentIds": [45, 46],
+      "biography": {
+        "pl": "Córka Józefa Ofiary i Heleny z d. Sobień. Zmarła jako półtoraroczne dziecko.",
+        "en": "Daughter of Józef Ofiara and Helena née Sobień. Died as a one-and-a-half-year-old child."
+      }
+    },
+    {
+      "id": 99,
+      "firstName": "Roman",
+      "lastName": "Ofiara",
+      "photoUrl": null,
+      "family": "ofiara",
+      "spouseIds": [],
+      "childIds": [],
+      "parentIds": [45, 46],
+      "biography": {
+        "pl": "Syn Józefa Ofiary i Heleny z d. Sobień.",
+        "en": "Son of Józef Ofiara and Helena née Sobień."
+      }
+    },
+    {
+      "id": 101,
+      "firstName": "Teresa",
+      "lastName": "Gerczak vel Gierczak",
+      "maidenName": "Pączek",
+      "photoUrl": null,
+      "family": "gierczak",
+      "spouseIds": [6],
+      "childIds": [],
+      "parentIds": [],
+      "marriages": [{ "spouseId": 6, "date": "1837" }],
+      "biography": {
+        "pl": "Żona Andrzeja Gerczaka (syna Tomasza). Jej rodzicami byli Jakub i Magdalena.",
+        "en": "Wife of Andrzej Gerczak (son of Tomasz). Her parents were Jakub and Magdalena."
+      }
+    },
+    {
+      "id": 102,
+      "firstName": "Józef",
+      "lastName": "Wieracha",
+      "photoUrl": null,
+      "family": "gierczak",
+      "spouseIds": [59],
+      "childIds": [],
+      "parentIds": [],
+      "marriages": [{ "spouseId": 59, "date": "1841" }],
+      "biography": {
+        "pl": "Mąż Józefy Gerczak (córki Ambrożego).",
+        "en": "Husband of Józefa Gerczak (daughter of Ambroży)."
+      }
+    },
+    {
+      "id": 103,
+      "firstName": "Franciszek",
+      "lastName": "Kornafel",
+      "photoUrl": null,
+      "family": "gierczak",
+      "spouseIds": [60],
+      "childIds": [],
+      "parentIds": [],
+      "marriages": [{ "spouseId": 60, "date": "1842" }],
+      "biography": {
+        "pl": "Mąż Jadwigi Gerczak (córki Ambrożego).",
+        "en": "Husband of Jadwiga Gerczak (daughter of Ambroży)."
+      }
+    },
+    {
+      "id": 104,
+      "firstName": "Antoni",
+      "lastName": "Stępień",
+      "photoUrl": null,
+      "family": "gierczak",
+      "spouseIds": [61],
+      "childIds": [],
+      "parentIds": [],
+      "marriages": [{ "spouseId": 61, "date": "1852" }],
+      "biography": {
+        "pl": "Mąż Marianny Gerczak (córki Ambrożego).",
+        "en": "Husband of Marianna Gerczak (daughter of Ambroży)."
+      }
+    },
+    {
+      "id": 105,
+      "firstName": "Marianna",
+      "lastName": "Gerczak vel Gierczak",
+      "maidenName": "Moskwa vel Moskwina",
+      "deathDate": "przed 1893",
+      "photoUrl": null,
+      "family": "gierczak",
+      "spouseIds": [63],
+      "childIds": [66, 67],
+      "parentIds": [],
+      "marriages": [{ "spouseId": 63, "date": "1848" }],
+      "biography": {
+        "pl": "Pierwsza żona Kacpra Gerczaka. Matka Jędrzeja i Marianny.",
+        "en": "First wife of Kacper Gerczak. Mother of Jędrzej and Marianna."
+      }
+    },
+    {
+      "id": 106,
+      "firstName": "Franciszka",
+      "lastName": "Gerczak vel Gierczak",
+      "maidenName": "Mortka z d. Indrzejoska",
+      "photoUrl": null,
+      "family": "gierczak",
+      "spouseIds": [63],
+      "childIds": [],
+      "parentIds": [],
+      "marriages": [{ "spouseId": 63, "date": "1893" }],
+      "biography": {
+        "pl": "Druga żona Kacpra Gerczaka, którą poślubił jako wdowiec w 1893 roku.",
+        "en": "Second wife of Kacper Gerczak, whom he married as a widower in 1893."
+      }
+    },
+    {
+      "id": 107,
+      "firstName": "Mikołaj",
+      "lastName": "Remisiewski",
+      "photoUrl": null,
+      "family": "gierczak",
+      "spouseIds": [8],
+      "childIds": [],
+      "parentIds": [],
+      "marriages": [{ "spouseId": 8, "date": "1837" }],
+      "biography": {
+        "pl": "Drugi mąż Kunegundy z d. Kania, wdowy po Ambrożym Gerczaku. Syn Łukasza i Moniki Łosiak.",
+        "en": "Second husband of Kunegunda née Kania, widow of Ambroży Gerczak. Son of Łukasz and Monika Łosiak."
+      }
+    },
+    {
+      "id": 108,
+      "firstName": "Aniela",
+      "lastName": "Gerczak vel Gierczak",
+      "maidenName": "Burakowska",
+      "photoUrl": null,
+      "family": "gierczak",
+      "spouseIds": [73],
+      "childIds": [],
+      "parentIds": [],
+      "marriages": [{ "spouseId": 73, "date": "1921" }],
+      "biography": {
+        "pl": "Żona Stanisława Gerczaka (syna Pawła). Córka Andrzeja i Teofili. Ślub w parafii Błotnica w 1921 r.",
+        "en": "Wife of Stanisław Gerczak (son of Paweł). Daughter of Andrzej and Teofila. Wedding in the Błotnica parish in 1921."
+      }
+    },
+    {
+      "id": 109,
+      "firstName": "Honorata",
+      "lastName": "Gerczak vel Gierczak",
+      "maidenName": "Musiałek",
+      "photoUrl": null,
+      "family": "gierczak",
+      "spouseIds": [75],
+      "childIds": [],
+      "parentIds": [],
+      "marriages": [{ "spouseId": 75, "date": "1931" }],
+      "biography": {
+        "pl": "Żona Antoniego Gerczaka (syna Pawła). Córka Franciszka i Józefy Banasiak. Ślub w Zakrzewie w 1931 r.",
+        "en": "Wife of Antoni Gerczak (son of Paweł). Daughter of Franciszek and Józefa Banasiak. Wedding in Zakrzew in 1931."
+      }
+    },
+    {
+      "id": 110,
+      "firstName": "Feliksa",
+      "lastName": "Gerczak vel Gierczak",
+      "maidenName": "Szczygłowska",
+      "photoUrl": null,
+      "family": "gierczak",
+      "spouseIds": [77],
+      "childIds": [],
+      "parentIds": [],
+      "marriages": [{ "spouseId": 77, "date": "1932" }],
+      "biography": {
+        "pl": "Żona Franciszka Gerczaka (syna Pawła). Córka Jana i Karoliny Kozłowskiej. Ślub w parafii Kowala-Stępocina w 1932 r.",
+        "en": "Wife of Franciszek Gerczak (son of Paweł). Daughter of Jan and Karolina Kozłowska. Wedding in the Kowala-Stępocina parish in 1932."
+      }
+    },
+    {
+      "id": 111,
+      "firstName": "Władysław",
+      "lastName": "Walczak",
+      "photoUrl": null,
+      "family": "gierczak",
+      "spouseIds": [70],
+      "childIds": [],
+      "parentIds": [],
+      "marriages": [{ "spouseId": 70, "date": "1928" }],
+      "biography": {
+        "pl": "Mąż Józefy Gerczak (córki Pawła). Ślub w 1928 r.",
+        "en": "Husband of Józefa Gerczak (daughter of Paweł). Wedding in 1928."
+      }
+    },
+    {
+      "id": 112,
+      "firstName": "Katarzyna",
+      "lastName": "Ofiara",
+      "maidenName": "Sikorska (Jurczak)",
+      "photoUrl": null,
+      "family": "ofiara",
+      "spouseIds": [89],
+      "childIds": [],
+      "parentIds": [],
+      "marriages": [{ "spouseId": 89, "date": "1908" }],
+      "biography": {
+        "pl": "Żona Ignacego Ofiary. Córka Andrzeja i Marianny Hudzik. Ślub w Błotnicy w 1908 r.",
+        "en": "Wife of Ignacy Ofiara. Daughter of Andrzej and Marianna Hudzik. Wedding in the Błotnica parish in 1908."
+      }
+    },
+    {
+      "id": 113,
+      "firstName": "Rozalia",
+      "lastName": "Ofiara",
+      "maidenName": "Rojek (Drużdżel)",
+      "photoUrl": null,
+      "family": "ofiara",
+      "spouseIds": [90],
+      "childIds": [],
+      "parentIds": [],
+      "marriages": [{ "spouseId": 90, "date": "1910" }],
+      "biography": {
+        "pl": "Żona Antoniego Ofiary. Córka Kazimierza i Małgorzaty Podkowiak. Ślub w 1910 r.",
+        "en": "Wife of Antoni Ofiara. Daughter of Kazimierz and Małgorzata Podkowiak. Wedding in 1910."
+      }
+    },
+    {
+      "id": 114,
+      "firstName": "Franciszka",
+      "lastName": "Sobień",
+      "maidenName": "Sobień",
+      "birthDate": "1895-07-15",
+      "deathDate": null,
+      "photoUrl": null,
+      "family": "ofiara",
+      "spouseIds": [],
+      "childIds": [],
+      "parentIds": [119, 120],
+      "biography": {
+        "pl": "Siostra Heleny Ofiary (z d. Sobień). Córka Karola i Ewy.",
+        "en": "Sister of Helena Ofiara (née Sobień). Daughter of Karol and Ewa."
+      }
+    },
+    {
+      "id": 115,
+      "firstName": "Anna",
+      "lastName": "Kozyra",
+      "maidenName": "Sobień",
+      "birthDate": "1898",
+      "deathDate": "1927",
+      "photoUrl": null,
+      "family": "ofiara",
+      "spouseIds": [126],
+      "childIds": [],
+      "parentIds": [119, 120],
+      "marriages": [{ "spouseId": 126, "date": "1920" }],
+      "biography": {
+        "pl": "Siostra Heleny Ofiary (z d. Sobień). Córka Karola i Ewy. W 1920 r. wyszła za mąż za Władysława Kozyrę.",
+        "en": "Sister of Helena Ofiara (née Sobień). Daughter of Karol and Ewa. In 1920, she married Władysław Kozyra."
+      }
+    },
+    {
+      "id": 116,
+      "firstName": "Zofia",
+      "lastName": "Odzimek",
+      "maidenName": "Sobień",
+      "birthDate": "1903",
+      "deathDate": null,
+      "photoUrl": null,
+      "family": "ofiara",
+      "spouseIds": [127],
+      "childIds": [],
+      "parentIds": [119, 120],
+      "marriages": [{ "spouseId": 127, "date": "1922" }],
+      "biography": {
+        "pl": "Siostra Heleny Ofiary (z d. Sobień). Córka Karola i Ewy. W 1922 r. wyszła za mąż za Michała Odzimka.",
+        "en": "Sister of Helena Ofiara (née Sobień). Daughter of Karol and Ewa. In 1922, she married Michał Odzimek."
+      }
+    },
+    {
+      "id": 117,
+      "firstName": "Jan",
+      "lastName": "Sobień",
+      "birthDate": "1900-12-12",
+      "deathDate": null,
+      "photoUrl": null,
+      "family": "ofiara",
+      "spouseIds": [128],
+      "childIds": [],
+      "parentIds": [119, 120],
+      "marriages": [{ "spouseId": 128, "date": "1926" }],
+      "biography": {
+        "pl": "Brat Heleny Ofiary (z d. Sobień). Syn Karola i Ewy. W 1926 r. ożenił się ze Stanisławą Bocheńską.",
+        "en": "Brother of Helena Ofiara (née Sobień). Son of Karol and Ewa. In 1926, he married Stanisława Bocheńska."
+      }
+    },
+    {
+      "id": 118,
+      "firstName": "Józef",
+      "lastName": "Sobień",
+      "birthDate": "1908",
+      "deathDate": null,
+      "photoUrl": null,
+      "family": "ofiara",
+      "spouseIds": [],
+      "childIds": [],
+      "parentIds": [119, 120],
+      "biography": {
+        "pl": "Brat Heleny Ofiary (z d. Sobień). Syn Karola i Ewy.",
+        "en": "Brother of Helena Ofiara (née Sobień). Son of Karol and Ewa."
+      }
+    },
+    {
+      "id": 119,
+      "firstName": "Karol",
+      "lastName": "Sobień",
+      "photoUrl": null,
+      "family": "ofiara",
+      "spouseIds": [120],
+      "childIds": [114, 115, 116, 46, 117, 118],
+      "parentIds": [],
+      "marriages": [{ "spouseId": 120, "date": null }],
+      "biography": {
+        "pl": "Ojciec Heleny Ofiary (z d. Sobień), mąż Ewy Drużdżel.",
+        "en": "Father of Helena Ofiara (née Sobień), husband of Ewa Drużdżel."
+      }
+    },
+    {
+      "id": 120,
+      "firstName": "Ewa",
+      "lastName": "Sobień",
+      "maidenName": "Drużdżel",
+      "photoUrl": null,
+      "family": "ofiara",
+      "spouseIds": [121, 119],
+      "childIds": [122, 123, 47, 125, 114, 115, 116, 46, 117, 118],
+      "parentIds": [],
+      "marriages": [
+        { "spouseId": 121, "date": null },
+        { "spouseId": 119, "date": null }
+      ],
+      "biography": {
+        "pl": "Matka Heleny Ofiary (z d. Sobień). Jej pierwszym mężem był Michał Mitak, z którym miała czworo dzieci. Drugim mężem był Karol Sobień, z którym miała sześcioro dzieci.",
+        "en": "Mother of Helena Ofiara (née Sobień). Her first husband was Michał Mitak, with whom she had four children. Her second husband was Karol Sobień, with whom she had six children."
+      }
+    },
+    {
+      "id": 121,
+      "firstName": "Michał",
+      "lastName": "Mitak",
+      "deathDate": "przed 1895",
+      "photoUrl": null,
+      "family": "ofiara",
+      "spouseIds": [120],
+      "childIds": [122, 123, 47, 125],
+      "parentIds": [],
+      "marriages": [{ "spouseId": 120, "date": null }],
+      "biography": {
+        "pl": "Pierwszy mąż Ewy Drużdżel. Ojciec Weroniki, Marianny, Rozalii i Jana.",
+        "en": "First husband of Ewa Drużdżel. Father of Weronika, Marianna, Rozalia, and Jan."
+      }
+    },
+    {
+      "id": 122,
+      "firstName": "Weronika",
+      "lastName": "Mitak",
+      "maidenName": "Mitak",
+      "birthDate": "1886",
+      "deathDate": "1998-12-27",
+      "photoUrl": null,
+      "family": "ofiara",
+      "spouseIds": [],
+      "childIds": [],
+      "parentIds": [121, 120],
+      "biography": {
+        "pl": "Córka Michała Mitaka i Ewy Drużdżel. Przyrodnia siostra Heleny Ofiary.",
+        "en": "Daughter of Michał Mitak and Ewa Drużdżel. Half-sister of Helena Ofiara."
+      }
+    },
+    {
+      "id": 123,
+      "firstName": "Marianna",
+      "lastName": "Mitak",
+      "maidenName": "Mitak",
+      "birthDate": "1889",
+      "deathDate": "1980-04-10",
+      "photoUrl": null,
+      "family": "ofiara",
+      "spouseIds": [],
+      "childIds": [],
+      "parentIds": [121, 120],
+      "biography": {
+        "pl": "Córka Michała Mitaka i Ewy Drużdżel. Przyrodnia siostra Heleny Ofiary.",
+        "en": "Daughter of Michał Mitak and Ewa Drużdżel. Half-sister of Helena Ofiara."
+      }
+    },
+    {
+      "id": 125,
+      "firstName": "Jan",
+      "lastName": "Mitak",
+      "birthDate": "1894",
+      "deathDate": null,
+      "photoUrl": null,
+      "family": "ofiara",
+      "spouseIds": [],
+      "childIds": [],
+      "parentIds": [121, 120],
+      "biography": {
+        "pl": "Syn Michała Mitaka i Ewy Drużdżel. Przyrodni brat Heleny Ofiary.",
+        "en": "Son of Michał Mitak and Ewa Drużdżel. Half-brother of Helena Ofiara."
+      }
+    },
+    {
+      "id": 126,
+      "firstName": "Władysław",
+      "lastName": "Kozyra",
+      "photoUrl": null,
+      "family": "ofiara",
+      "spouseIds": [115],
+      "childIds": [],
+      "parentIds": [],
+      "marriages": [{ "spouseId": 115, "date": "1920" }],
+      "biography": {
+        "pl": "Mąż Anny Sobień. Syn Józefa i Weroniki Korczak.",
+        "en": "Husband of Anna Sobień. Son of Józef and Weronika Korczak."
+      }
+    },
+    {
+      "id": 127,
+      "firstName": "Michał",
+      "lastName": "Odzimek",
+      "photoUrl": null,
+      "family": "ofiara",
+      "spouseIds": [116],
+      "childIds": [],
+      "parentIds": [],
+      "marriages": [{ "spouseId": 116, "date": "1922" }],
+      "biography": {
+        "pl": "Mąż Zofii Sobień. Syn Walentego i Zofii Kowalik.",
+        "en": "Husband of Zofia Sobień. Son of Walenty and Zofia Kowalik."
+      }
+    },
+    {
+      "id": 128,
+      "firstName": "Stanisława",
+      "lastName": "Sobień",
+      "maidenName": "Bocheńska",
+      "photoUrl": null,
+      "family": "ofiara",
+      "spouseIds": [117],
+      "childIds": [],
+      "parentIds": [],
+      "marriages": [{ "spouseId": 117, "date": "1926" }],
+      "biography": {
+        "pl": "Żona Jana Sobienia. Córka Walentego i Marianny Zarębskiej.",
+        "en": "Wife of Jan Sobień. Daughter of Walenty and Marianna Zarębska."
+      }
+    }
+  ],
+  "documents": [],
+  "places": [
+    {
+      "id": "jaszowice",
+      "name": "Jaszowice",
+      "description": {
+        "pl": "Główna miejscowość rodu Gierczaków",
+        "en": "The main locality of the Gierczak family"
+      },
+      "imageUrl": "/images/4.avif"
+    },
+    {
+      "id": "ludwikow",
+      "name": "Ludwików",
+      "description": {
+        "pl": "Miejsce pochodzenia rodu Ofiarów",
+        "en": "The place of origin of the Ofiara family"
+      },
+      "imageUrl": "/images/ludwikow.png"
+    },
+    {
+      "id": "gulinek_gierczak",
+      "name": "Gulinek",
+      "context": "gierczak",
+      "description": {
+        "pl": "W Gulinku zamieszkali Paweł Gierczak z Katarzyną Czerwińską.",
+        "en": "Paweł Gierczak and Katarzyna Czerwińska settled in Gulinek."
+      },
+      "imageUrl": "/images/gulinek.png"
+    },
+    {
+      "id": "gulinek_ofiara",
+      "name": "Gulinek",
+      "context": "ofiara",
+      "description": {
+        "pl": "Tutaj zamieszkali Józef Ofiara z Rozalią Mitak, a po jej śmierci z Heleną Sobień.",
+        "en": "Józef Ofiara settled here with Rozalia Mitak, and after her death, with Helena Sobień."
+      },
+      "imageUrl": "/images/gulinek.png"
+    }
+  ]
+}
+
+
+----------------------------
+
+import { Link } from "wouter";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+import { Eye, BookOpen, Users, Images } from "lucide-react";
+import SEO from "@/components/SEO";
+import { useLanguage } from "@/hooks/useLanguage";
+
+export default function Home() {
+  const { t, p } = useLanguage();
+
+  // ZMIANA 1: Dodaj tę funkcję obsługi przewijania
+  const handleScrollToAbout = (e: React.MouseEvent<HTMLButtonElement>) => {
+    e.preventDefault();
+    const aboutSection = document.getElementById("about");
+    if (aboutSection) {
+      aboutSection.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
+
+  return (
+    <>
+      <SEO />
+
+      <section className="heritage-bg py-16 lg:py-24">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center">
+            <h1 className="font-serif text-4xl md:text-6xl font-bold heritage-text mb-6">
+              {t("home.title")}
+              <br />
+              <span className="heritage-gradient-text">Gierczak i Ofiara</span>
+            </h1>
+            <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
+              {t("home.description")}
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Button
+                asChild
+                className="btn-heritage-burgundy px-8 py-3 text-lg"
+              >
+                <Link href={p("tree")}>
+                  <Eye className="w-5 h-5 mr-2" />
+                  {t("home.cta.tree")}
+                </Link>
+              </Button>
+
+              {/* ZMIANA 2: Zastąp stary przycisk tym nowym */}
+              <Button
+                variant="outline"
+                className="px-8 py-3 text-lg heritage-border heritage-text hover:bg-heritage-cream"
+                onClick={handleScrollToAbout}
+              >
+                <BookOpen className="w-5 h-5 mr-2" />
+                {t("home.cta.history")}
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Ten element pozostaje bez zmian. To do niego przewijamy stronę */}
+      <section id="about" className="py-16 lg:py-24">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="font-serif text-3xl md:text-4xl font-semibold heritage-text mb-6">
+                {t("home.about.title")}
+              </h2>
+              <div className="prose prose-lg max-w-none">
+                <p className="text-stone-600 mb-6 leading-relaxed">
+                  {t("home.about.p1")}
+                </p>
+                <p className="text-stone-600 mb-6 leading-relaxed">
+                  {t("home.about.p2")}
+                </p>
+              </div>
+              <div className="flex flex-col sm:flex-row gap-4 mt-8">
+                <Button asChild className="btn-heritage-teal px-6 py-3">
+                  <Link href={`${p("familyBase")}/gierczak`}>
+                    <Users className="w-5 h-5 mr-2" />
+                    {t("family.gierczak")}
+                  </Link>
+                </Button>
+                <Button asChild className="btn-heritage-burgundy px-6 py-3">
+                  <Link href={`${p("familyBase")}/ofiara`}>
+                    <Users className="w-5 h-5 mr-2" />
+                    {t("family.ofiara")}
+                  </Link>
+                </Button>
+              </div>
+            </div>
+            <div className="lg:pl-8">
+              <img
+                src="/images/pok.png"
+                alt="Stary dokument genealogiczny z zapisami rodzinnymi"
+                className="rounded-xl shadow-lg w-full h-auto"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Reszta pliku bez zmian... */}
+      <section className="py-16 lg:py-24 bg-stone-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="font-serif text-3xl md:text-4xl font-semibold heritage-text mb-6">
+              {t("home.branches.title")}
+            </h2>
+            <p className="text-xl text-stone-600 max-w-3xl mx-auto">
+              {t("home.branches.subtitle")}
+            </p>
+          </div>
+
+          <div className="grid lg:grid-cols-2 gap-8">
+            <Card className="overflow-hidden hover:shadow-xl transition-shadow">
+              <div className="relative h-80">
+                <img
+                  src="/images/jaszowice.png"
+                  alt="Chata w Jaszowicach"
+                  className="w-full h-full object-cover"
+                  loading="lazy"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                <div className="absolute bottom-4 left-4">
+                  <h3 className="font-serif text-2xl font-semibold text-white mb-1">
+                    {t("family.gierczak")}
+                  </h3>
+                  <p className="text-white/90 text-sm">Jaszowice, Gulinek</p>
+                </div>
+              </div>
+              <CardContent className="p-6">
+                <p className="text-stone-600 mb-6 leading-relaxed">
+                  {t("home.about.gierczak.desc")}
+                </p>
+                <Button asChild className="w-full btn-heritage-burgundy">
+                  <Link href={`${p("familyBase")}/gierczak`}>
+                    <Users className="w-4 h-4 mr-2" />
+                    {t("home.branches.gierczak.cta")}
+                  </Link>
+                </Button>
+              </CardContent>
+            </Card>
+
+            <Card className="overflow-hidden hover:shadow-xl transition-shadow">
+              <div className="relative h-80">
+                <img
+                  src="/images/gulinek.png"
+                  alt="Wieś Ludwików - miejsce pochodzenia rodu Ofiarów"
+                  className="w-full h-full object-cover"
+                  loading="lazy"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                <div className="absolute bottom-4 left-4">
+                  <h3 className="font-serif text-2xl font-semibold text-white mb-1">
+                    {t("family.ofiara")}
+                  </h3>
+                  <p className="text-white/90 text-sm">Ludwików, Gulinek</p>
+                </div>
+              </div>
+              <CardContent className="p-6">
+                <p className="text-stone-600 mb-6 leading-relaxed">
+                  {t("home.about.ofiara.desc")}
+                </p>
+                <Button asChild className="w-full btn-heritage-teal">
+                  <Link href={`${p("familyBase")}/ofiara`}>
+                    <Users className="w-4 h-4 mr-2" />
+                    {t("home.branches.ofiara.cta")}
+                  </Link>
+                </Button>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="font-serif text-3xl font-semibold heritage-text mb-4">
+              {t("home.explore.title")}
+            </h2>
+            <p className="text-stone-600">{t("home.explore.subtitle")}</p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-6">
+            <Card className="text-center hover:shadow-lg transition-shadow cursor-pointer">
+              <Link href={p("tree")}>
+                <CardContent className="p-6">
+                  <Eye className="w-12 h-12 heritage-burgundy mx-auto mb-4" />
+                  <h3 className="font-semibold heritage-text mb-2">
+                    {t("home.explore.tree.title")}
+                  </h3>
+                  <p className="text-sm text-stone-600">
+                    {t("home.explore.tree.desc")}
+                  </p>
+                </CardContent>
+              </Link>
+            </Card>
+
+            <Card className="text-center hover:shadow-lg transition-shadow cursor-pointer">
+              <Link href={p("index")}>
+                <CardContent className="p-6">
+                  <Users className="w-12 h-12 heritage-teal mx-auto mb-4" />
+                  <h3 className="font-semibold heritage-text mb-2">
+                    {t("home.explore.index.title")}
+                  </h3>
+                  <p className="text-sm text-stone-600">
+                    {t("home.explore.index.desc")}
+                  </p>
+                </CardContent>
+              </Link>
+            </Card>
+
+            <Card className="text-center hover:shadow-lg transition-shadow cursor-pointer">
+              <Link href={p("gallery")}>
+                <CardContent className="p-6">
+                  <Images className="w-12 h-12 heritage-burgundy mx-auto mb-4" />
+                  <h3 className="font-semibold heritage-text mb-2">
+                    {t("home.explore.gallery.title")}
+                  </h3>
+                  <p className="text-sm text-stone-600">
+                    {t("home.explore.gallery.desc")}
+                  </p>
+                </CardContent>
+              </Link>
+            </Card>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}
+
+
+----------------------------
+
+import { Link } from "wouter";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+import { Eye, BookOpen, Users, Images } from "lucide-react";
+import SEO from "@/components/SEO";
+import { useLanguage } from "@/hooks/useLanguage";
+
+export default function Home() {
+  const { t, p } = useLanguage();
+
+  const handleScrollToAbout = (e: React.MouseEvent<HTMLButtonElement>) => {
+    e.preventDefault();
+    const aboutSection = document.getElementById("about");
+    if (aboutSection) {
+      aboutSection.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
+
+  return (
+    <>
+      <SEO />
+
+      <section className="heritage-bg py-16 lg:py-24">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center">
+            <h1 className="font-serif text-4xl md:text-6xl font-bold heritage-text mb-6">
+              {t("home.title")}
+              <br />
+              <span className="heritage-gradient-text">Gierczak i Ofiara</span>
+            </h1>
+            <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
+              {t("home.description")}
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Button
+                asChild
+                className="btn-heritage-burgundy px-8 py-3 text-lg"
+              >
+                <Link href={p("tree")}>
+                  <Eye className="w-5 h-5 mr-2" />
+                  {t("home.cta.tree")}
+                </Link>
+              </Button>
+              <Button
+                variant="outline"
+                className="px-8 py-3 text-lg heritage-border heritage-text hover:bg-heritage-cream"
+                onClick={handleScrollToAbout}
+              >
+                <BookOpen className="w-5 h-5 mr-2" />
+                {t("home.cta.history")}
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" className="py-16 lg:py-24">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="font-serif text-3xl md:text-4xl font-semibold heritage-text mb-6">
+                {t("home.about.title")}
+              </h2>
+              <div className="prose prose-lg max-w-none">
+                <p className="text-stone-600 mb-6 leading-relaxed">
+                  {t("home.about.gierczak.desc")}
+                </p>
+                <p className="text-stone-600 mb-6 leading-relaxed">
+                  {t("home.about.ofiara.desc")}
+                </p>
+              </div>
+              <div className="flex flex-col sm:flex-row gap-4 mt-8">
+                <Button asChild className="btn-heritage-teal px-6 py-3">
+                  <Link href={`${p("familyBase")}/gierczak`}>
+                    <Users className="w-5 h-5 mr-2" />
+                    {t("family.gierczak")}
+                  </Link>
+                </Button>
+                <Button asChild className="btn-heritage-burgundy px-6 py-3">
+                  <Link href={`${p("familyBase")}/ofiara`}>
+                    <Users className="w-5 h-5 mr-2" />
+                    {t("family.ofiara")}
+                  </Link>
+                </Button>
+              </div>
+            </div>
+            <div className="lg:pl-8">
+              <img
+                src="/images/pok.png"
+                alt="Stary dokument genealogiczny z zapisami rodzinnymi"
+                className="rounded-xl shadow-lg w-full h-auto"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16 lg:py-24 bg-stone-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="font-serif text-3xl md:text-4xl font-semibold heritage-text mb-6">
+              {t("home.branches.title")}
+            </h2>
+            <p className="text-xl text-stone-600 max-w-3xl mx-auto">
+              {t("home.branches.subtitle")}
+            </p>
+          </div>
+
+          <div className="grid lg:grid-cols-2 gap-8">
+            <Card className="overflow-hidden hover:shadow-xl transition-shadow">
+              <div className="relative h-80">
+                <img
+                  src="/images/jaszowice.png"
+                  alt="Chata w Jaszowicach"
+                  className="w-full h-full object-cover"
+                  loading="lazy"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                <div className="absolute bottom-4 left-4">
+                  <h3 className="font-serif text-2xl font-semibold text-white mb-1">
+                    {t("family.gierczak")}
+                  </h3>
+                  <p className="text-white/90 text-sm">Jaszowice, Gulinek</p>
+                </div>
+              </div>
+              <CardContent className="p-6">
+                <p className="text-stone-600 mb-6 leading-relaxed">
+                  {t("home.about.gierczak.desc")}
+                </p>
+                <Button asChild className="w-full btn-heritage-burgundy">
+                  <Link href={`${p("familyBase")}/gierczak`}>
+                    <Users className="w-4 h-4 mr-2" />
+                    {t("home.branches.gierczak.cta")}
+                  </Link>
+                </Button>
+              </CardContent>
+            </Card>
+
+            <Card className="overflow-hidden hover:shadow-xl transition-shadow">
+              <div className="relative h-80">
+                <img
+                  src="/images/gulinek.png"
+                  alt="Wieś Ludwików - miejsce pochodzenia rodu Ofiarów"
+                  className="w-full h-full object-cover"
+                  loading="lazy"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                <div className="absolute bottom-4 left-4">
+                  <h3 className="font-serif text-2xl font-semibold text-white mb-1">
+                    {t("family.ofiara")}
+                  </h3>
+                  <p className="text-white/90 text-sm">Ludwików, Gulinek</p>
+                </div>
+              </div>
+              <CardContent className="p-6">
+                <p className="text-stone-600 mb-6 leading-relaxed">
+                  {t("home.about.ofiara.desc")}
+                </p>
+                <Button asChild className="w-full btn-heritage-teal">
+                  <Link href={`${p("familyBase")}/ofiara`}>
+                    <Users className="w-4 h-4 mr-2" />
+                    {t("home.branches.ofiara.cta")}
+                  </Link>
+                </Button>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="font-serif text-3xl font-semibold heritage-text mb-4">
+              {t("home.explore.title")}
+            </h2>
+            <p className="text-stone-600">{t("home.explore.subtitle")}</p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-6">
+            <Card className="text-center hover:shadow-lg transition-shadow cursor-pointer">
+              <Link href={p("tree")}>
+                <CardContent className="p-6">
+                  <Eye className="w-12 h-12 heritage-burgundy mx-auto mb-4" />
+                  <h3 className="font-semibold heritage-text mb-2">
+                    {t("home.explore.tree.title")}
+                  </h3>
+                  <p className="text-sm text-stone-600">
+                    {t("home.explore.tree.desc")}
+                  </p>
+                </CardContent>
+              </Link>
+            </Card>
+
+            <Card className="text-center hover:shadow-lg transition-shadow cursor-pointer">
+              <Link href={p("index")}>
+                <CardContent className="p-6">
+                  <Users className="w-12 h-12 heritage-teal mx-auto mb-4" />
+                  <h3 className="font-semibold heritage-text mb-2">
+                    {t("home.explore.index.title")}
+                  </h3>
+                  <p className="text-sm text-stone-600">
+                    {t("home.explore.index.desc")}
+                  </p>
+                </CardContent>
+              </Link>
+            </Card>
+
+            <Card className="text-center hover:shadow-lg transition-shadow cursor-pointer">
+              <Link href={p("gallery")}>
+                <CardContent className="p-6">
+                  <Images className="w-12 h-12 heritage-burgundy mx-auto mb-4" />
+                  <h3 className="font-semibold heritage-text mb-2">
+                    {t("home.explore.gallery.title")}
+                  </h3>
+                  <p className="text-sm text-stone-600">
+                    {t("home.explore.gallery.desc")}
+                  </p>
+                </CardContent>
+              </Link>
+            </Card>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}
+
+
+--------------------------------------
+
+import { createContext, useContext, useState } from "react";
+import { useLocation } from "wouter";
+
+type Language = "pl" | "en";
+
+type LanguageProviderProps = {
+  children: React.ReactNode;
+  defaultLanguage?: Language;
+};
+
+type LanguageProviderState = {
+  language: Language;
+  setLanguage: (language: Language) => void;
+  t: (key: string, replacements?: Record<string, string | number>) => string;
+  p: (key: string) => string;
+};
+
+const translations = {
+  pl: {
+    "nav.title": "Korzenie rodu Gierczak i Ofiara",
+    "nav.title.mobile": "Genealogia",
+    "nav.home": "Strona Główna",
+    "nav.tree": "Drzewo Interaktywne",
+    "nav.families": "Rody",
+    "nav.index": "Indeks Osób",
+    "nav.gallery": "Galeria",
+    "nav.sources": "Źródła",
+
+    "theme.light": "Jasny",
+    "theme.dark": "Ciemny",
+    "theme.system": "System",
+
+    "family.gierczak": "Ród Gierczaków",
+    "family.ofiara": "Ród Ofiarów",
+
+    "home.title": "Historia Rodów",
+    "home.description":
+      "Odkryj fascynującą historię dwóch rodów z okolic Radomia. Prześledź losy pokoleń, poznaj ich historie i zobacz, jak przeplatały się ich życiowe ścieżki.",
+    "home.cta.tree": "Zobacz Interaktywne Drzewo",
+    "home.cta.history": "Poznaj Historię",
+    "home.about.title": "Początki Rodów",
+    "home.about.gierczak.desc":
+      "Ród Gierczaków, wywodzący się z Jaszowic koło Radomia, to historia chłopskiej rodziny, której korzenie sięgają Tomasza Gierczaka żyjącego na przełomie XVIII i XIX wieku. Kolejne pokolenia, poprzez małżeństwa i dziedziczenie ziemi, rozprzestrzeniły się, osiedlając się m.in. w Gulinku. Ich losy to opowieść o ciężkiej pracy na roli, trudach codziennego życia i sile więzów rodzinnych na przestrzeni niemal dwóch stuleci.",
+    "home.about.ofiara.desc":
+      "Historia rodu Ofiarów nierozerwalnie związana jest z miejscowością Ludwików w ziemi radomskiej. Jego protoplastą jest Andrzej Ofiara, którego potomkowie przez dekady tworzyli lokalną społeczność. Szczególnie barwne są losy jego syna Józefa, którego dwie małżonki – Rozalia z Mitaków i Helena z Sobieniów – dały początek licznym gałęziom rodziny. To właśnie z tej linii wywodzi się Marianna, która połączyła losy obu rodów, wychodząc za mąż za Józefa Gierczaka.",
+    "home.branches.title": "Gałęzie Rodzinne",
+    "home.branches.subtitle": "Poznaj historię i pochodzenie każdego z rodów",
+    "home.branches.gierczak.cta": "Poznaj Wszystkich Gierczaków",
+    "home.branches.ofiara.cta": "Poznaj Wszystkich Ofiarów",
+    "home.explore.title": "Rozpocznij Eksplorację",
+    "home.explore.subtitle":
+      "Wybierz jeden ze sposobów poznawania historii rodzin",
+    "home.explore.tree.title": "Drzewo Genealogiczne",
+    "home.explore.tree.desc":
+      "Interaktywne drzewo z wszystkimi członkami rodzin",
+    "home.explore.index.title": "Indeks Osób",
+    "home.explore.index.desc": "Alfabetyczna lista wszystkich osób w bazie",
+    "home.explore.gallery.title": "Galeria",
+    "home.explore.gallery.desc":
+      "Zdjęcia, dokumenty i miejsca związane z rodzinami",
+
+    "tree.title": "Interaktywne Drzewo Genealogiczne",
+    "tree.subtitle":
+      "Eksploruj powiązania rodzinne. Kliknij na osobę, aby zobaczyć szczegóły",
+    "tree.filter.all": "Wszystkie Rodziny",
+    "tree.legend.descendants": "Potomkowie",
+    "tree.legend.marriages": "Małżeństwa",
+
+    "index.title": "Indeks Osób",
+    "index.subtitle":
+      "Alfabetyczny spis wszystkich osób w bazie genealogicznej",
+    "index.searchPlaceholder": "Szukaj osoby...",
+    "index.clear": "Wyczyść",
+    "index.resultsFound": "Znaleziono {count} osób",
+    "index.resultsForLetter": ' na literę "{letter}"',
+    "index.resultsForSearch": ' pasujących do "{term}"',
+    "index.noResults.title": "Nie znaleziono osób",
+    "index.noResults.desc":
+      "Spróbuj zmienić kryteria wyszukiwania lub wyczyść filtry.",
+    "index.noResults.cta": "Wyczyść filtry",
+    "index.showMore": "Pokaż więcej osób",
+
+    "gallery.title": "Galeria Rodzinna",
+    "gallery.subtitle":
+      "Portrety, dokumenty i miejsca związane z historią rodzin.",
+    "gallery.filter.all": "Wszystkie",
+    "gallery.filter.portraits": "Portrety",
+    "gallery.filter.documents": "Dokumenty",
+    "gallery.filter.places": "Miejsca",
+    "gallery.results": "{count} elementów",
+    "gallery.zoom": "Powiększ",
+    "gallery.noResults.title": "Brak zdjęć w tej kategorii",
+    "gallery.noResults.desc": "Wybierz inną kategorię, aby zobaczyć zdjęcia.",
+    "gallery.noResults.cta": "Pokaż wszystkie",
+
+    "gallery.item.portrait-1.title": "Portret rodzinny",
+    "gallery.item.portrait-1.desc": "Rodzina (Sobień?), około 1940 roku",
+    "gallery.item.portrait-2.title": "Zdjęcie portretowe",
+    "gallery.item.portrait-2.desc": "Marianna Ofiara",
+    "gallery.item.portrait-3.title": "Portret przodka",
+    "gallery.item.portrait-3.desc":
+      "Jeden z najstarszych członków rodu z czasów pańszczyźnianych",
+    "gallery.item.portrait-4.title": "Portret prababci i pradziadka (?)",
+    "gallery.item.portrait-4.desc": "Członkowie rodziny Sobień (Drużdżel)",
+    "gallery.item.doc-1.title":
+      "Akt ślubu Jana i Agnieszki Gierczak 14.11.1917",
+    "gallery.item.doc-1.desc": "Księga parafialna w Zakrzowie (Zakrzewie)",
+    "gallery.item.doc-2.title": "Gulinek, 1960",
+    "gallery.item.doc-2.desc":
+      "I Komunia Św. Zofii Bilskiej, moja mama jako matka chrzestna",
+    "gallery.item.doc-3.title": "Dokument prawny",
+    "gallery.item.doc-3.desc":
+      "Zapis w Księdze Parafialnej w Zakrzowie (Zakrzewie)",
+    "gallery.item.doc-4.title": "Drzewo genealogiczne",
+    "gallery.item.doc-4.desc": "Ręcznie sporządzone drzewo rodzinne",
+    "gallery.item.place-1.title": "I Komunia Św. wujka Romana Ofiary",
+    "gallery.item.place-1.desc": "Roman Ofiara z babcią Heleną",
+    "gallery.item.place-2.title": "Wieś Jaszowice",
+    "gallery.item.place-2.desc": "Główne miejsce zamieszkania rodu Gierczaków",
+    "gallery.item.place-3.title": "Stary cmentarz",
+    "gallery.item.place-3.desc":
+      "Miejsce spoczynku przodków, prababci Ewy i pradziadka Karola",
+
+    "sources.title": "Źródła i Bibliografia",
+    "sources.subtitle":
+      "Dokumentacja źródeł wykorzystanych w badaniach genealogicznych.",
+    "sources.about.title": "O projekcie",
+    "sources.about.p1":
+      "Ten projekt genealogiczny powstał w wyniku wieloletnich badań nad historią rodów Gierczak i Ofiara z okolic Radomia. Zebrane informacje pochodzą z różnorodnych źródeł archiwalnych, kościelnych oraz przekazów rodzinnych.",
+    "sources.about.p2":
+      "Wszystkie dane zostały starannie zweryfikowane i skonfrontowane z dostępnymi dokumentami. Projekt jest kontynuowany - nowe informacje są regularnie dodawane do bazy danych.",
+    "sources.archive.title": "Źródła archiwalne",
+    "sources.contact.title": "Masz dodatkowe informacje?",
+    "sources.contact.desc":
+      "Jeśli posiadasz dokumenty, zdjęcia lub wspomnienia związane z rodzinami Gierczak i Ofiara, skontaktuj się z nami. Każda informacja jest cenna dla uzupełnienia historii rodzin.",
+    "sources.section.stateArchives.title": "Archiwa państwowe",
+    "sources.section.stateArchives.item1":
+      "Archiwum Państwowe w Radomiu - księgi metrykalne parafii Cerekiew",
+    "sources.section.stateArchives.item2":
+      "Archiwum Diecezjalne w Sandomierzu - akta parafialne XVIII-XX w.",
+    "sources.section.stateArchives.item3":
+      "Urząd Stanu Cywilnego w Radomiu - akty stanu cywilnego",
+    "sources.section.churchSources.title": "Źródła kościelne",
+    "sources.section.churchSources.item1":
+      "Księgi chrztów parafii pw. św. Stanisława w Cerekwi (1780-1950)",
+    "sources.section.churchSources.item2":
+      "Księgi ślubów parafii Cerekiew (1790-1940)",
+    "sources.section.churchSources.item3":
+      "Księgi zmarłych cmentarza parafialnego w Cerekwi i Zakrzowie (Zakrzewie)",
+    "sources.section.churchSources.item4":
+      "Kronika parafialna - zapisy o mieszkańcach Jaszowic i Ludwikowa",
+    "sources.section.familyAccounts.title": "Przekazy rodzinne",
+    "sources.section.familyAccounts.item1":
+      "Dokumenty osobiste zachowane w rodzinie",
+    "sources.section.familyAccounts.item2":
+      "Relacje ustne przekazywane przez pokolenia",
+    "sources.section.familyAccounts.item3":
+      "Fotografie rodzinne z XIX i XX wieku",
+    "sources.section.familyAccounts.item4":
+      "Korespondencja między członkami rodzin",
+    "sources.section.literature.title": "Literatura i opracowania",
+    "sources.section.literature.item1":
+      "„Osadnictwo i gospodarka powiatu radomskiego w XVI–XVIII wieku”, Z. Guldon, W. Kowalski, J. Muszyńska, S. Zieliński, 1995",
+    "sources.section.literature.item2":
+      "„Rody szlacheckie ziemi radomskiej”, D. Kupisz, 2009",
+    "sources.section.literature.item3":
+      "„Wieś Radomska”, cykl periodyczny, tomy z różnych lat, Muzeum Wsi Radomskiej",
+
+    "familyBranch.history.title": "Historia rodu",
+    "familyBranch.history.places": "Główne miejscowości",
+    "familyBranch.history.membersInDb": "osób w bazie",
+    "familyBranch.members.title": "Członkowie rodziny",
+    "familyBranch.members.viewInTree": "Zobacz w drzewie",
+    "familyBranch.members.noData.title": "Brak danych",
+    "familyBranch.members.noData.desc":
+      "Nie znaleziono osób z tej gałęzi rodziny w bazie danych.",
+    "familyBranch.places.title": "Kluczowe miejsca",
+    "familyBranch.notFound.title": "Nieznana rodzina",
+    "familyBranch.notFound.desc": "Wybierz prawidłową gałąź rodzinną.",
+
+    "person.born": "ur.",
+    "person.bornIn": "Ur.",
+    "person.died": "zm.",
+    "person.maidenName": "z d.",
+    "person.occupation": "Zawód",
+    "person.biography": "Biografia",
+    "person.family": "Rodzina",
+    "person.parents": "Rodzice",
+    "person.spouse": "Małżonkowie",
+    "person.children": "Dzieci",
+    "person.marriedOn": "ślub",
+
+    "footer.title": "Korzenie rodu",
+    "footer.description":
+      "Cyfrowe archiwum i interaktywne drzewo genealogiczne rodów Gierczak i Ofiara z okolic Radomia.",
+    "footer.nav.title": "Nawigacja",
+    "footer.nav.home": "Strona Główna",
+    "footer.nav.tree": "Drzewo Interaktywne",
+    "footer.nav.gierczak": "Ród Gierczaków",
+    "footer.nav.ofiara": "Ród Ofiarów",
+    "footer.nav.gallery": "Galeria",
+    "footer.contact.title": "Kontakt",
+    "footer.contact.email": "[kontakt@genealogia.pl]",
+    "footer.contact.location": "Okolice Radomia",
+    "footer.contact.projectInfo":
+      "Projekt genealogiczny\nzachowujący pamięć o przodkach",
+    "footer.copyright":
+      "© {year} Korzenie rodu Gierczak i Ofiara. Wszystkie prawa zastrzeżone.",
+
+    paths: {
+      home: "/",
+      tree: "/drzewo",
+      index: "/indeks-osob",
+      gallery: "/galeria",
+      sources: "/zrodla",
+      familyBase: "/rod",
+    },
+  },
+  en: {
+    "nav.title": "Roots of the Gierczak & Ofiara Family",
+    "nav.title.mobile": "Genealogy",
+    "nav.home": "Home",
+    "nav.tree": "Interactive Tree",
+    "nav.families": "Families",
+    "nav.index": "Person Index",
+    "nav.gallery": "Gallery",
+    "nav.sources": "Sources",
+
+    "theme.light": "Light",
+    "theme.dark": "Dark",
+    "theme.system": "System",
+
+    "family.gierczak": "Gierczak Family",
+    "family.ofiara": "Ofiara Family",
+
+    "home.title": "History of the Families",
+    "home.description":
+      "Discover the fascinating history of two families from the Radom area. Trace the fate of generations, learn their stories and see how their life paths intertwined.",
+    "home.cta.tree": "View Interactive Tree",
+    "home.cta.history": "Learn the History",
+    "home.about.title": "The Beginnings of the Families",
+    "home.about.gierczak.desc":
+      "The Gierczak family, originating from Jaszowice near Radom, is a story of a peasant family whose roots trace back to Tomasz Gierczak, who lived at the turn of the 18th and 19th centuries. Subsequent generations, through marriage and land inheritance, spread out, settling in places like Gulinek. Their fate is a tale of hard work on the land, the hardships of daily life, and the strength of family bonds over nearly two centuries.",
+    "home.about.ofiara.desc":
+      "The history of the Ofiara family is inseparably linked with the locality of Ludwików in the Radom land. Its progenitor is Andrzej Ofiara, whose descendants formed the local community for decades. Particularly colorful are the fates of his son Józef, whose two wives – Rozalia née Mitak and Helena née Sobień – gave rise to numerous branches of the family. It is from this line that Marianna comes, who united the fates of both families by marrying Józef Gierczak.",
+    "home.branches.title": "Family Branches",
+    "home.branches.subtitle": "Learn the history and origin of each family",
+    "home.branches.gierczak.cta": "Meet All the Gierczaks",
+    "home.branches.ofiara.cta": "Meet All the Ofiaras",
+    "home.explore.title": "Start Exploring",
+    "home.explore.subtitle":
+      "Choose one of the ways to learn the family history",
+    "home.explore.tree.title": "Genealogical Tree",
+    "home.explore.tree.desc": "Interactive tree with all family members",
+    "home.explore.index.title": "Person Index",
+    "home.explore.index.desc":
+      "Alphabetical list of all people in the database",
+    "home.explore.gallery.title": "Gallery",
+    "home.explore.gallery.desc":
+      "Photos, documents, and places related to the families",
+
+    "tree.title": "Interactive Genealogical Tree",
+    "tree.subtitle":
+      "Explore family connections. Click on a person to see details",
+    "tree.filter.all": "All Families",
+    "tree.legend.descendants": "Descendants",
+    "tree.legend.marriages": "Marriages",
+
+    "index.title": "Person Index",
+    "index.subtitle":
+      "Alphabetical list of all people in the genealogical database",
+    "index.searchPlaceholder": "Search for a person...",
+    "index.clear": "Clear",
+    "index.resultsFound": "Found {count} people",
+    "index.resultsForLetter": ' for letter "{letter}"',
+    "index.resultsForSearch": ' matching "{term}"',
+    "index.noResults.title": "No People Found",
+    "index.noResults.desc":
+      "Try changing the search criteria or clearing the filters.",
+    "index.noResults.cta": "Clear filters",
+    "index.showMore": "Show more people",
+
+    "gallery.title": "Family Gallery",
+    "gallery.subtitle":
+      "Portraits, documents, and places related to the family history.",
+    "gallery.filter.all": "All",
+    "gallery.filter.portraits": "Portraits",
+    "gallery.filter.documents": "Documents",
+    "gallery.filter.places": "Places",
+    "gallery.results": "{count} items",
+    "gallery.zoom": "Zoom",
+    "gallery.noResults.title": "No images in this category",
+    "gallery.noResults.desc": "Please select another category to view images.",
+    "gallery.noResults.cta": "Show all",
+
+    "gallery.item.portrait-1.title": "Family Portrait",
+    "gallery.item.portrait-1.desc": "Sobień (?) family, around 1940",
+    "gallery.item.portrait-2.title": "Portrait Photo",
+    "gallery.item.portrait-2.desc": "Marianna Ofiara",
+    "gallery.item.portrait-3.title": "Ancestor's Portrait",
+    "gallery.item.portrait-3.desc":
+      "One of the oldest family members from the times of serfdom",
+    "gallery.item.portrait-4.title":
+      "Great-grandmother and great-grandfather's portrait (?)",
+    "gallery.item.portrait-4.desc": "Members of the Sobień (Drużdżel) family",
+    "gallery.item.doc-1.title":
+      "Marriage certificate of Jan and Agnieszka Gierczak 11/14/1917",
+    "gallery.item.doc-1.desc": "Parish register in Zakrzów (Zakrzew)",
+    "gallery.item.doc-2.title": "Gulinek, 1960",
+    "gallery.item.doc-2.desc":
+      "First Holy Communion of Zofia Bilska, my mother as godmother",
+    "gallery.item.doc-3.title": "Legal Document",
+    "gallery.item.doc-3.desc":
+      "Entry in the Parish Register of Zakrzów (Zakrzew)",
+    "gallery.item.doc-4.title": "Genealogical Tree",
+    "gallery.item.doc-4.desc": "Hand-drawn family tree",
+    "gallery.item.place-1.title":
+      "First Holy Communion of my uncle Roman Ofiara",
+    "gallery.item.place-1.desc": "Roman Ofiara with grandmother Helena",
+    "gallery.item.place-2.title": "Jaszowice Village",
+    "gallery.item.place-2.desc":
+      "The main place of residence of the Gierczak family",
+    "gallery.item.place-3.title": "Old Cemetery",
+    "gallery.item.place-3.desc":
+      "Resting place of ancestors, great-grandmother Ewa and great-grandfather Karol",
+
+    "sources.title": "Sources and Bibliography",
+    "sources.subtitle":
+      "Documentation of sources used in genealogical research.",
+    "sources.about.title": "About the project",
+    "sources.about.p1":
+      "This genealogical project is the result of many years of research into the history of the Gierczak and Ofiara families from the Radom area. The information gathered comes from a variety of archival, church, and family sources.",
+    "sources.about.p2":
+      "All data has been carefully verified and cross-referenced with available documents. The project is ongoing - new information is regularly added to the database.",
+    "sources.archive.title": "Archival Sources",
+    "sources.contact.title": "Do you have additional information?",
+    "sources.contact.desc":
+      "If you have documents, photos, or memories related to the Gierczak and Ofiara families, please contact us. Every piece of information is valuable for completing the family history.",
+    "sources.section.stateArchives.title": "State Archives",
+    "sources.section.stateArchives.item1":
+      "State Archives in Radom - parish registers of the Cerekiew parish",
+    "sources.section.stateArchives.item2":
+      "Diocesan Archives in Sandomierz - parish records from the 18th-20th centuries",
+    "sources.section.stateArchives.item3":
+      "Civil Registry Office in Radom - civil status records",
+    "sources.section.churchSources.title": "Church Sources",
+    "sources.section.churchSources.item1":
+      "Baptismal records of the St. Stanislaus parish in Cerekiew (1780-1950)",
+    "sources.section.churchSources.item2":
+      "Marriage records of the Cerekiew parish (1790-1940)",
+    "sources.section.churchSources.item3":
+      "Death records from the parish cemetery in Cerekiew and Zakrzów (Zakrzew)",
+    "sources.section.churchSources.item4":
+      "Parish chronicle - records about the inhabitants of Jaszowice and Ludwików",
+    "sources.section.familyAccounts.title": "Family Accounts",
+    "sources.section.familyAccounts.item1":
+      "Personal documents preserved in the family",
+    "sources.section.familyAccounts.item2":
+      "Oral accounts passed down through generations",
+    "sources.section.familyAccounts.item3":
+      "Family photographs from the 19th and 20th centuries",
+    "sources.section.familyAccounts.item4":
+      "Correspondence between family members",
+    "sources.section.literature.title": "Literature and Studies",
+    "sources.section.literature.item1":
+      "“Settlement and Economy of the Radom County in the 16th–18th Centuries”, Z. Guldon, W. Kowalski, J. Muszyńska, S. Zieliński, 1995",
+    "sources.section.literature.item2":
+      "“Noble Families of the Radom Land”, D. Kupisz, 2009",
+    "sources.section.literature.item3":
+      "“Wieś Radomska” (periodical series), volumes from various years, Museum of the Radom Village",
+
+    "familyBranch.history.title": "History of the Family",
+    "familyBranch.history.places": "Main Locations",
+    "familyBranch.history.membersInDb": "people in database",
+    "familyBranch.members.title": "Family Members",
+    "familyBranch.members.viewInTree": "View in Tree",
+    "familyBranch.members.noData.title": "No Data",
+    "familyBranch.members.noData.desc":
+      "No people from this family branch were found in the database.",
+    "familyBranch.places.title": "Key Places",
+    "familyBranch.notFound.title": "Unknown family",
+    "familyBranch.notFound.desc": "Please select a valid family branch.",
+
+    "person.born": "b.",
+    "person.bornIn": "Born",
+    "person.died": "d.",
+    "person.maidenName": "née",
+    "person.occupation": "Occupation",
+    "person.biography": "Biography",
+    "person.family": "Family",
+    "person.parents": "Parents",
+    "person.spouse": "Spouses",
+    "person.children": "Children",
+    "person.marriedOn": "m.",
+
+    "footer.title": "Family Roots",
+    "footer.description":
+      "A digital archive and interactive genealogical tree of the Gierczak and Ofiara families from the Radom area.",
+    "footer.nav.title": "Navigation",
+    "footer.nav.home": "Home",
+    "footer.nav.tree": "Interactive Tree",
+    "footer.nav.gierczak": "Gierczak Family",
+    "footer.nav.ofiara": "Ofiara Family",
+    "footer.nav.gallery": "Gallery",
+    "footer.contact.title": "Contact",
+    "footer.contact.email": "[contact@genealogy.com]",
+    "footer.contact.location": "Radom Area",
+    "footer.contact.projectInfo":
+      "A genealogical project\npreserving the memory of ancestors",
+    "footer.copyright":
+      "© {year} Roots of the Gierczak & Ofiara Family. All rights reserved.",
+
+    paths: {
+      home: "/",
+      tree: "/tree",
+      index: "/person-index",
+      gallery: "/gallery",
+      sources: "/sources",
+      familyBase: "/family",
+    },
+  },
+};
+
+const initialState: LanguageProviderState = {
+  language: "pl",
+  setLanguage: () => null,
+  t: () => "",
+  p: () => "",
+};
+
+const LanguageProviderContext =
+  createContext<LanguageProviderState>(initialState);
+
+export function LanguageProvider({
+  children,
+  defaultLanguage = "pl",
+  ...props
+}: LanguageProviderProps) {
+  const [language, setLanguage] = useState<Language>(
+    () =>
+      (localStorage.getItem("genealogy-language") as Language) ||
+      defaultLanguage
+  );
+
+  const [location, setLocation] = useLocation();
+
+  const t = (
+    key: string,
+    replacements?: Record<string, string | number>
+  ): string => {
+    let translation = (translations[language] as any)[key] || key;
+    if (replacements) {
+      Object.keys(replacements).forEach((rKey) => {
+        translation = translation.replace(
+          `{${rKey}}`,
+          String(replacements[rKey])
+        );
+      });
+    }
+    return translation;
+  };
+
+  const p = (key: string): string => {
+    return (translations[language].paths as any)[key] || "/";
+  };
+
+  const handleSetLanguage = (newLanguage: Language) => {
+    if (language !== newLanguage) {
+      localStorage.setItem("genealogy-language", newLanguage);
+      setLanguage(newLanguage);
+
+      const currentPathKey = Object.keys(translations[language].paths).find(
+        (key) => (translations[language].paths as any)[key] === location
+      );
+
+      if (currentPathKey) {
+        const newPath = (translations[newLanguage].paths as any)[
+          currentPathKey
+        ];
+        setLocation(newPath || "/");
+      } else {
+        setLocation(translations[newLanguage].paths.home);
+      }
+    }
+  };
+
+  const value = {
+    language,
+    setLanguage: handleSetLanguage,
+    t,
+    p,
+  };
+
+  return (
+    <LanguageProviderContext.Provider {...props} value={value}>
+      {children}
+    </LanguageProviderContext.Provider>
+  );
+}
+
+export const useLanguage = () => {
+  const context = useContext(LanguageProviderContext);
+  if (context === undefined)
+    throw new Error("useLanguage must be used within a LanguageProvider");
+  return context;
+};

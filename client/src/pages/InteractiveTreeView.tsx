@@ -1,25 +1,49 @@
-import { useState } from 'react';
-import { useQuery } from '@tanstack/react-query';
-import InteractiveTree from '@/components/tree/InteractiveTree';
-import PersonModal from '@/components/ui/PersonModal';
-import { Person } from '@shared/schema';
-import { Skeleton } from '@/components/ui/skeleton';
-import { Alert, AlertDescription } from '@/components/ui/alert';
-import { Button } from '@/components/ui/button';
-import { AlertCircle } from 'lucide-react';
-import SEO from '@/components/SEO';
-import { useLanguage } from '@/hooks/useLanguage';
-import genealogyData from '@/data/genealogy.json';
+import { useState } from "react";
+import InteractiveTree from "@/components/tree/InteractiveTree";
+import PersonModal from "@/components/ui/PersonModal";
+import { Person } from "@shared/schema";
+import { Skeleton } from "@/components/ui/skeleton";
+import { Alert, AlertDescription } from "@/components/ui/alert";
+import { AlertCircle, Check, Settings } from "lucide-react";
+import SEO from "@/components/SEO";
+import { useLanguage } from "@/hooks/useLanguage";
+import genealogyData from "@/data/genealogy.json";
+
+// Komponent pomocniczy dla przełącznika w nowym panelu
+const ControlCheckbox = ({
+  label,
+  checked,
+  onToggle,
+  colorClass = "",
+}: {
+  label: string;
+  checked: boolean;
+  onToggle: () => void;
+  colorClass?: string;
+}) => (
+  <button
+    onClick={onToggle}
+    className="flex items-center cursor-pointer text-sm gap-2 text-foreground"
+  >
+    <div className="w-4 h-4 border rounded flex items-center justify-center bg-background">
+      {checked && <Check className={`w-3 h-3 ${colorClass}`} />}
+    </div>
+    {label}
+  </button>
+);
 
 export default function InteractiveTreeView() {
   const { t } = useLanguage();
   const [selectedPerson, setSelectedPerson] = useState<Person | null>(null);
   const [modalOpen, setModalOpen] = useState(false);
-  const [selectedFamily, setSelectedFamily] = useState<'all' | 'gierczak' | 'ofiara'>('all');
 
-  // Use local genealogy data
-  const allPeople = genealogyData.people;
-  const people = selectedFamily === 'all' ? allPeople : allPeople.filter(person => person.family === selectedFamily);
+  // Stany do zarządzania widocznością wszystkich elementów
+  const [showGierczak, setShowGierczak] = useState(true);
+  const [showOfiara, setShowOfiara] = useState(true);
+  const [showDescendants, setShowDescendants] = useState(true);
+  const [showMarriages, setShowMarriages] = useState(true);
+
+  const allPeople = genealogyData.people as Person[];
   const isLoading = false;
   const error = null;
 
@@ -39,10 +63,6 @@ export default function InteractiveTreeView() {
         <div className="text-center space-y-4">
           <Skeleton className="h-8 w-64 mx-auto" />
           <Skeleton className="h-4 w-48 mx-auto" />
-          <div className="space-y-2">
-            <Skeleton className="h-20 w-20 rounded-full mx-auto" />
-            <Skeleton className="h-4 w-32 mx-auto" />
-          </div>
         </div>
       </div>
     );
@@ -54,7 +74,8 @@ export default function InteractiveTreeView() {
         <Alert className="max-w-md">
           <AlertCircle className="h-4 w-4" />
           <AlertDescription>
-            Nie udało się załadować danych genealogicznych. Spróbuj ponownie później.
+            Nie udało się załadować danych genealogicznych. Spróbuj ponownie
+            później.
           </AlertDescription>
         </Alert>
       </div>
@@ -63,99 +84,68 @@ export default function InteractiveTreeView() {
 
   return (
     <>
-      <SEO
-        title={t('tree.title')}
-        description="Eksploruj interaktywne drzewo genealogiczne rodów Gierczak i Ofiara. Kliknij na dowolną osobę, aby poznać jej historię i powiązania rodzinne."
-      />
+      <SEO title={t("tree.title")} description={t("tree.subtitle")} />
 
-      <div className="min-h-screen bg-background">
-        {/* Header */}
-        <div className="bg-card shadow-sm border-b heritage-border">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-            <div className="text-center">
-              <h1 className="font-serif text-3xl md:text-4xl font-semibold heritage-gradient-text mb-4">
-                {t('tree.title')}
-              </h1>
-              <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-6">
-                {t('tree.subtitle')}. Kliknij na dowolną osobę, aby poznać jej historię.
-              </p>
-              
-              {/* Family Filter Buttons */}
-              <div className="flex justify-center gap-4 mb-4">
-                <button
-                  onClick={() => setSelectedFamily('all')}
-                  className={`px-6 py-2 rounded-lg font-medium transition-all duration-200 ${
-                    selectedFamily === 'all'
-                      ? 'bg-heritage-burgundy text-white shadow-md'
-                      : 'bg-white text-heritage-burgundy border border-heritage-burgundy hover:bg-heritage-cream'
-                  }`}
-                >
-                  {t('tree.filter.all')}
-                </button>
-                <button
-                  onClick={() => setSelectedFamily('gierczak')}
-                  className={`px-6 py-2 rounded-lg font-medium transition-all duration-200 ${
-                    selectedFamily === 'gierczak'
-                      ? 'bg-heritage-burgundy text-white shadow-md'
-                      : 'bg-white text-heritage-burgundy border border-heritage-burgundy hover:bg-heritage-cream'
-                  }`}
-                >
-                  {t('family.gierczak')}
-                </button>
-                <button
-                  onClick={() => setSelectedFamily('ofiara')}
-                  className={`px-6 py-2 rounded-lg font-medium transition-all duration-200 ${
-                    selectedFamily === 'ofiara'
-                      ? 'bg-heritage-teal text-white shadow-md'
-                      : 'bg-white text-heritage-teal border border-heritage-teal hover:bg-heritage-cream'
-                  }`}
-                >
-                  {t('family.ofiara')}
-                </button>
-              </div>
-            </div>
+      <div className="min-h-screen dark:bg-background flex flex-col">
+        <div className="bg-white dark:bg-background-alt shadow-sm border-b heritage-border">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 text-center">
+            <h1 className="font-serif text-3xl md:text-4xl font-semibold heritage-gradient-text mb-4">
+              {t("tree.title")}
+            </h1>
+            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+              {t("tree.subtitle")}
+            </p>
           </div>
         </div>
 
-        {/* Tree Container */}
-        <div className="h-[calc(100vh-200px)]">
-          <div className="heritage-card mx-4 my-4 rounded-xl h-full relative">
-            <InteractiveTree 
-              people={people}
-              onPersonClick={handlePersonClick}
+        <div className="flex-grow h-[calc(100vh-164px)] relative">
+          <InteractiveTree
+            allPeople={allPeople}
+            onPersonClick={handlePersonClick}
+            showGierczak={showGierczak}
+            showOfiara={showOfiara}
+            showDescendants={showDescendants}
+            showMarriages={showMarriages}
+          />
+
+          <div className="absolute bottom-4 left-4 bg-card/95 backdrop-blur-sm rounded-lg p-3 shadow-lg heritage-border flex items-center flex-wrap gap-x-6 gap-y-2">
+            <div className="flex items-center text-sm font-semibold heritage-text mr-2">
+              <Settings className="w-4 h-4 mr-2" />
+              {t("tree.viewFilters")}
+            </div>
+            <ControlCheckbox
+              label={t("family.gierczak")}
+              checked={showGierczak}
+              onToggle={() => setShowGierczak(!showGierczak)}
+              colorClass="heritage-burgundy"
             />
-            
-            {/* Legend */}
-            <div className="absolute bottom-4 left-4 bg-card/95 backdrop-blur-sm rounded-lg p-4 shadow-md heritage-border">
-              <div className="flex flex-wrap gap-6 text-sm">
-                <div className="flex items-center">
-                  <div className="w-4 h-4 border-2 border-[hsl(var(--heritage-burgundy))] bg-card rounded mr-2"></div>
-                  <span className="heritage-text">{t('family.gierczak')}</span>
-                </div>
-                <div className="flex items-center">
-                  <div className="w-4 h-4 border-2 border-[hsl(var(--heritage-teal))] bg-card rounded mr-2"></div>
-                  <span className="heritage-text">{t('family.ofiara')}</span>
-                </div>
-                <div className="flex items-center">
-                  <div className="w-6 h-0.5 bg-[hsl(var(--heritage-burgundy))] mr-2"></div>
-                  <span className="heritage-text">Potomkowie</span>
-                </div>
-                <div className="flex items-center">
-                  <div className="w-6 h-0.5 bg-[hsl(var(--heritage-teal))] border-dashed border-t-2 mr-2"></div>
-                  <span className="heritage-text">Małżeństwa</span>
-                </div>
-              </div>
-            </div>
+            <ControlCheckbox
+              label={t("family.ofiara")}
+              checked={showOfiara}
+              onToggle={() => setShowOfiara(!showOfiara)}
+              colorClass="heritage-teal"
+            />
+            <ControlCheckbox
+              label={t("tree.legend.descendants")}
+              checked={showDescendants}
+              onToggle={() => setShowDescendants(!showDescendants)}
+              colorClass="heritage-burgundy"
+            />
+            <ControlCheckbox
+              label={t("tree.legend.marriages")}
+              checked={showMarriages}
+              onToggle={() => setShowMarriages(!showMarriages)}
+              colorClass="heritage-teal"
+            />
           </div>
         </div>
 
-        {/* Person Modal */}
         <PersonModal
           person={selectedPerson}
           isOpen={modalOpen}
           onClose={handleModalClose}
           onPersonClick={handlePersonClick}
-          allPeople={people}
+          allPeople={allPeople}
         />
       </div>
     </>

@@ -1,182 +1,292 @@
-import React, { useCallback, useMemo } from 'react';
+import React, { useLayoutEffect } from "react";
 import ReactFlow, {
   Background,
   Controls,
   MiniMap,
-  Node,
-  Edge,
   useNodesState,
   useEdgesState,
-  ConnectionMode,
-} from 'reactflow';
-import 'reactflow/dist/style.css';
-import PersonNode from './PersonNode';
-import { Person } from '@shared/schema';
+  MarkerType,
+  Edge,
+  Node,
+  NodeTypes,
+  Position,
+} from "reactflow";
+import "reactflow/dist/style.css";
+import PersonNode from "./PersonNode";
+import { Person } from "@shared/schema";
+import dagre from "dagre";
+import { useTheme } from "@/hooks/useTheme";
 
 interface InteractiveTreeProps {
-  people: Person[];
+  allPeople: Person[];
   onPersonClick: (person: Person) => void;
+  showGierczak: boolean;
+  showOfiara: boolean;
+  showDescendants: boolean;
+  showMarriages: boolean;
 }
 
-const nodeTypes = {
+type LayoutEdge = Edge & {
+  minlen?: number;
+  weight?: number;
+};
+
+const dagreGraph = new dagre.graphlib.Graph();
+dagreGraph.setDefaultEdgeLabel(() => ({}));
+
+const nodeWidth = 260;
+const nodeHeight = 130;
+
+const nodeTypes: NodeTypes = {
   person: PersonNode,
 };
 
-export default function InteractiveTree({ people, onPersonClick }: InteractiveTreeProps) {
-  const { nodes, edges } = useMemo(() => {
-    if (!people || people.length === 0) {
-      return { nodes: [], edges: [] };
+const getLayoutedElements = (nodes: Node[], edges: LayoutEdge[]) => {
+  dagreGraph.setGraph({ rankdir: "TB", nodesep: 25, ranksep: 90 });
+
+  nodes.forEach((node) => {
+    const width = node.id.startsWith("union-") ? 0 : nodeWidth;
+    const height = node.id.startsWith("union-") ? 0 : nodeHeight;
+    dagreGraph.setNode(node.id, { width, height });
+  });
+
+  edges.forEach((edge) => {
+    dagreGraph.setEdge(edge.source, edge.target, {
+      minlen: edge.minlen || 1,
+      weight: edge.weight || 1,
+    });
+  });
+
+  dagre.layout(dagreGraph);
+
+  nodes.forEach((node) => {
+    const n = dagreGraph.node(node.id);
+    if (n) {
+      node.targetPosition = Position.Top;
+      node.sourcePosition = Position.Bottom;
+      node.position = {
+        x: n.x - n.width / 2,
+        y: n.y - n.height / 2,
+      };
+    }
+  });
+
+  return { nodes };
+};
+
+export default function InteractiveTree({
+  allPeople,
+  onPersonClick,
+  showGierczak,
+  showOfiara,
+  showDescendants,
+  showMarriages,
+}: InteractiveTreeProps) {
+  const [nodes, setNodes, onNodesChange] = useNodesState<Node[]>([]);
+  const [edges, setEdges, onEdgesChange] = useEdgesState<Edge[]>([]);
+  const { theme } = useTheme();
+
+  useLayoutEffect(() => {
+    if (!allPeople || allPeople.length === 0) {
+      setNodes([]);
+      setEdges([]);
+      return;
     }
 
-    const nodeMap = new Map<number, Node>();
-    const edgeList: Edge[] = [];
+    const isDarkMode = theme === "dark";
 
-    // Calculate generations for proper positioning
-    const generations = new Map<number, number>();
-    const visited = new Set<number>();
+    const descendantColor = isDarkMode
+      ? "hsl(35, 70%, 75%)"
+      : "hsl(0, 65%, 45%)";
+    const marriageColor = isDarkMode
+      ? "hsl(200, 60%, 70%)"
+      : "hsl(220, 50%, 45%)";
 
-    // Find root nodes (those without parents)
-    const roots = people.filter(person => !person.parentIds || person.parentIds.length === 0);
-    
-    // BFS to assign generation levels
-    const queue: { person: Person, generation: number }[] = roots.map(p => ({ person: p, generation: 0 }));
-    
-    while (queue.length > 0) {
-      const { person, generation } = queue.shift()!;
-      
-      if (visited.has(person.id)) continue;
-      visited.add(person.id);
-      generations.set(person.id, generation);
+    const allPersonNodes: Node[] = allPeople.map((person) => ({
+      id: person.id.toString(),
+      type: "person",
+      data: {
+        person,
+        onClick: () => onPersonClick(person),
+        family: person.family,
+      },
+      position: { x: 0, y: 0 },
+    }));
 
-      // Add children to queue
-      if (person.childIds) {
-        person.childIds.forEach(childId => {
-          const child = people.find(p => p.id === childId);
-          if (child && !visited.has(childId)) {
-            queue.push({ person: child, generation: generation + 1 });
-          }
+    const unionNodes: Node[] = [];
+    const layoutEdges: LayoutEdge[] = [];
+
+    allPeople.forEach((person) => {
+      const pid = person.id.toString();
+
+      if (person.parentIds?.length === 2) {
+        const [p1, p2] = person.parentIds.sort((a, b) => a - b);
+        const coupleKey = `${p1}-${p2}`;
+        const unionId = `union-${coupleKey}`;
+
+        if (!unionNodes.find((u) => u.id === unionId)) {
+          unionNodes.push({
+            id: unionId,
+            type: "default",
+            position: { x: 0, y: 0 },
+            data: {},
+            sourcePosition: Position.Bottom,
+            targetPosition: Position.Top,
+          });
+          layoutEdges.push({
+            id: `l-${p1}-${unionId}`,
+            source: p1.toString(),
+            target: unionId,
+            weight: 2,
+          });
+          layoutEdges.push({
+            id: `l-${p2}-${unionId}`,
+            source: p2.toString(),
+            target: unionId,
+            weight: 2,
+          });
+        }
+        layoutEdges.push({
+          id: `l-${unionId}-${pid}`,
+          source: unionId,
+          target: pid,
+          weight: 2,
+        });
+      } else if (person.parentIds?.length === 1) {
+        const p = person.parentIds[0].toString();
+        layoutEdges.push({
+          id: `l-${p}-${pid}`,
+          source: p,
+          target: pid,
+          weight: 2,
         });
       }
-    }
 
-    // Group people by generation for layout
-    const generationGroups = new Map<number, Person[]>();
-    people.forEach(person => {
-      const gen = generations.get(person.id) || 0;
-      if (!generationGroups.has(gen)) {
-        generationGroups.set(gen, []);
-      }
-      generationGroups.get(gen)!.push(person);
-    });
-
-    // Create nodes with proper positioning
-    people.forEach((person) => {
-      const generation = generations.get(person.id) || 0;
-      const generationPeople = generationGroups.get(generation) || [];
-      const indexInGeneration = generationPeople.indexOf(person);
-      
-      const isGierczak = person.family === 'gierczak';
-      
-      nodeMap.set(person.id, {
-        id: person.id.toString(),
-        type: 'person',
-        position: {
-          x: indexInGeneration * 280 + (isGierczak ? 0 : 140), // Offset families slightly
-          y: generation * 200,
-        },
-        data: {
-          person,
-          onClick: () => onPersonClick(person),
-          family: person.family,
-        },
-        className: isGierczak ? 'family-gierczak' : 'family-ofiara',
+      person.spouseIds?.forEach((sid) => {
+        if (person.id < sid) {
+          layoutEdges.push({
+            id: `rank-${person.id}-${sid}`,
+            source: person.id.toString(),
+            target: sid.toString(),
+            minlen: 1,
+            weight: 10,
+          });
+        }
       });
     });
 
-    // Create edges for family relationships
-    people.forEach(person => {
-      // Child-parent relationships
-      if (person.parentIds) {
-        person.parentIds.forEach(parentId => {
-          const parentNode = nodeMap.get(parentId);
-          const childNode = nodeMap.get(person.id);
-          if (parentNode && childNode) {
-            edgeList.push({
-              id: `parent-${parentId}-child-${person.id}`,
-              source: parentId.toString(),
-              target: person.id.toString(),
-              type: 'smoothstep',
-              style: { 
-                stroke: person.family === 'gierczak' ? 'hsl(var(--heritage-burgundy))' : 'hsl(var(--heritage-teal))',
-                strokeWidth: 2 
-              },
-              animated: false,
-            });
-          }
-        });
-      }
-
-      // Spouse relationships
-      if (person.spouseIds) {
-        person.spouseIds.forEach(spouseId => {
-          const spouseNode = nodeMap.get(spouseId);
-          const personNode = nodeMap.get(person.id);
-          if (spouseNode && personNode && person.id < spouseId) { // Avoid duplicate edges
-            edgeList.push({
-              id: `spouse-${person.id}-${spouseId}`,
-              source: person.id.toString(),
-              target: spouseId.toString(),
-              type: 'straight',
-              style: { 
-                stroke: 'hsl(var(--heritage-teal))',
-                strokeWidth: 2,
-                strokeDasharray: '5,5'
-              },
-              animated: false,
-            });
-          }
-        });
-      }
+    layoutEdges.push({
+      id: "stacking-edge",
+      source: "1",
+      target: "57",
+      minlen: 3,
+      weight: 1,
     });
 
-    return {
-      nodes: Array.from(nodeMap.values()),
-      edges: edgeList,
-    };
-  }, [people, onPersonClick]);
+    const allNodesForLayout = [...allPersonNodes, ...unionNodes];
+    const { nodes: positionedNodes } = getLayoutedElements(
+      allNodesForLayout,
+      layoutEdges
+    );
 
-  const [nodesState, setNodes, onNodesChange] = useNodesState(nodes);
-  const [edgesState, setEdges, onEdgesChange] = useEdgesState(edges);
+    const visibleIds = new Set(
+      allPeople
+        .filter(
+          (p) =>
+            (p.family === "gierczak" && showGierczak) ||
+            (p.family === "ofiara" && showOfiara)
+        )
+        .map((p) => p.id.toString())
+    );
 
-  // Update nodes and edges when they change
-  React.useEffect(() => {
-    setNodes(nodes);
-    setEdges(edges);
-  }, [nodes, edges, setNodes, setEdges]);
+    const finalNodes = positionedNodes.filter(
+      (node) => !node.id.startsWith("union-") && visibleIds.has(node.id)
+    );
+
+    const finalEdges: Edge[] = [];
+
+    if (showDescendants) {
+      allPeople.forEach((p) => {
+        p.parentIds?.forEach((par) => {
+          const cid = p.id.toString(),
+            pid = par.toString();
+          if (visibleIds.has(cid) && visibleIds.has(pid)) {
+            finalEdges.push({
+              id: `s-${pid}-${cid}`,
+              source: pid,
+              target: cid,
+              type: "smoothstep",
+              markerEnd: {
+                type: MarkerType.ArrowClosed,
+                color: descendantColor,
+              },
+              style: { stroke: descendantColor, strokeWidth: 2 },
+            });
+          }
+        });
+      });
+    }
+
+    if (showMarriages) {
+      allPeople.forEach((p) => {
+        p.spouseIds?.forEach((sid) => {
+          const sidStr = sid.toString(),
+            pidStr = p.id.toString();
+          if (p.id < sid && visibleIds.has(pidStr) && visibleIds.has(sidStr)) {
+            finalEdges.push({
+              id: `m-${pidStr}-${sidStr}`,
+              source: pidStr,
+              target: sidStr,
+              type: "straight",
+              style: {
+                stroke: marriageColor,
+                strokeWidth: 2,
+                strokeDasharray: "5,5",
+              },
+            });
+          }
+        });
+      });
+    }
+
+    setNodes(finalNodes);
+    setEdges(finalEdges);
+  }, [
+    allPeople,
+    onPersonClick,
+    showGierczak,
+    showOfiara,
+    showDescendants,
+    showMarriages,
+    setNodes,
+    setEdges,
+    theme,
+  ]);
 
   return (
-    <div className="w-full h-full">
+    <div className="w-full h-full bg-stone-50 dark:bg-card">
       <ReactFlow
-        nodes={nodesState}
-        edges={edgesState}
+        nodes={nodes}
+        edges={edges}
         onNodesChange={onNodesChange}
         onEdgesChange={onEdgesChange}
         nodeTypes={nodeTypes}
-        connectionMode={ConnectionMode.Loose}
         fitView
-        minZoom={0.2}
-        maxZoom={1.5}
-        defaultViewport={{ x: 0, y: 0, zoom: 0.8 }}
+        minZoom={0.1}
+        style={{ zIndex: 10 }}
+        className="react-flow-heritage"
       >
         <Background />
         <Controls />
-        <MiniMap 
-          className="!bg-card border heritage-border"
+        <MiniMap
+          className="!bg-background border heritage-border"
           nodeStrokeWidth={3}
           nodeColor={(node) => {
-            return node.className?.includes('gierczak') 
-              ? 'hsl(var(--heritage-burgundy))' 
-              : 'hsl(var(--heritage-teal))';
+            if (node.data?.family === "gierczak")
+              return "hsl(var(--heritage-burgundy))";
+            if (node.data?.family === "ofiara")
+              return "hsl(var(--heritage-teal))";
+            return "hsl(var(--muted))";
           }}
         />
       </ReactFlow>

@@ -1,44 +1,71 @@
-
-import { Route, Switch } from "wouter";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { ThemeProvider } from "@/hooks/useTheme";
-import { LanguageProvider } from "@/hooks/useLanguage";
+import { LanguageProvider, useLanguage } from "@/hooks/useLanguage";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { Route, Switch, Router, useLocation } from "wouter";
+import { useEffect } from "react";
 import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
+
 import Home from "@/pages/Home";
 import InteractiveTreeView from "@/pages/InteractiveTreeView";
 import PersonIndex from "@/pages/PersonIndex";
 import GalleryView from "@/pages/GalleryView";
 import SourcesView from "@/pages/SourcesView";
 import FamilyBranchView from "@/pages/FamilyBranchView";
+import Terms from "@/pages/Terms";
+import Privacy from "@/pages/Privacy";
 import NotFound from "@/pages/not-found";
-import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
 const queryClient = new QueryClient();
+
+const ScrollToTop = () => {
+  const [location] = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
+
+  return null;
+};
+
+function AppRoutes() {
+  const { p } = useLanguage();
+
+  return (
+    <Switch>
+      <Route path={p("home")} component={Home} />
+      <Route path={p("tree")} component={InteractiveTreeView} />
+      <Route path={p("index")} component={PersonIndex} />
+      <Route path={p("gallery")} component={GalleryView} />
+      <Route path={p("sources")} component={SourcesView} />
+      <Route path={`${p("familyBase")}/:family`} component={FamilyBranchView} />
+      <Route path={p("terms")} component={Terms} />
+      <Route path={p("privacy")} component={Privacy} />
+      <Route component={NotFound} />
+    </Switch>
+  );
+}
 
 function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <ThemeProvider defaultTheme="light" storageKey="genealogy-theme">
-        <LanguageProvider defaultLanguage="pl">
-          <TooltipProvider>
-            <div className="min-h-screen bg-background">
-              <Navbar />
-              <main>
-                <Switch>
-                  <Route path="/" component={Home} />
-                  <Route path="/drzewo" component={InteractiveTreeView} />
-                  <Route path="/indeks-osob" component={PersonIndex} />
-                  <Route path="/galeria" component={GalleryView} />
-                  <Route path="/zrodla" component={SourcesView} />
-                  <Route path="/rod/:family" component={FamilyBranchView} />
-                  <Route component={NotFound} />
-                </Switch>
-              </main>
-              <Toaster />
-            </div>
-          </TooltipProvider>
-        </LanguageProvider>
+        <Router>
+          <LanguageProvider defaultLanguage="pl">
+            <TooltipProvider>
+              <ScrollToTop />
+              <div className="flex flex-col min-h-screen dark:bg-card pt-16">
+                <Navbar />
+                <main className="flex-grow">
+                  <AppRoutes />
+                </main>
+                <Footer />
+                <Toaster />
+              </div>
+            </TooltipProvider>
+          </LanguageProvider>
+        </Router>
       </ThemeProvider>
     </QueryClientProvider>
   );
