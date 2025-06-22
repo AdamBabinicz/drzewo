@@ -13,15 +13,11 @@ export default defineConfig({
   },
   root: "client",
   build: {
-    outDir: "../dist/public",
+    outDir: "dist", // 👈 TO JEST KLUCZOWA ZMIANA
     emptyOutDir: true,
     rollupOptions: {
-      external: [
-        // Tymczasowo oznacz jako external jeśli nie istnieją
-        // "@/components/ui/toaster"
-      ],
+      external: [],
       onwarn(warning, warn) {
-        // Ignoruj ostrzeżenia o brakujących importach podczas buildu
         if (warning.code === "UNRESOLVED_IMPORT") return;
         warn(warning);
       },
