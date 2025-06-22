@@ -46,7 +46,7 @@ export default function GalleryView() {
     },
     {
       id: "portrait-3",
-      src: "/images/przodek.png",
+      src: "/images/przod.jpg",
       alt: "Portret starszego człowieka w tradycyjnym stroju",
       category: "portraits",
       titleKey: "gallery.item.portrait-3.title",
@@ -78,7 +78,7 @@ export default function GalleryView() {
     },
     {
       id: "doc-3",
-      src: "/images/12.png",
+      src: "/images/rozalia-mitak.jpg",
       alt: "Stary dokument prawny z pieczęcią woskową",
       category: "documents",
       titleKey: "gallery.item.doc-3.title",
