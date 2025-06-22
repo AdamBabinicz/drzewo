@@ -13,7 +13,7 @@ export default defineConfig({
   },
   root: "client",
   build: {
-    outDir: "../dist/public", // 👈 TO JEST KLUCZOWA ZMIANA
+    outDir: "../dist/public",
     emptyOutDir: true,
     rollupOptions: {
       external: [],
