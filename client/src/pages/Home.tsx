@@ -91,7 +91,7 @@ export default function Home() {
             </div>
             <div className="lg:pl-8">
               <img
-                src="/images/poko.avif"
+                src="/images/boc.avif"
                 alt="Stary dokument genealogiczny z zapisami rodzinnymi"
                 className="rounded-xl shadow-lg w-full h-auto"
                 loading="lazy"
