@@ -89,9 +89,9 @@ export default function InteractiveTreeView() {
       <div className="min-h-screen dark:bg-background flex flex-col">
         <div className="bg-white dark:bg-background-alt shadow-sm border-b heritage-border">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 text-center">
-            <h1 className="font-serif text-3xl md:text-4xl font-semibold heritage-gradient-text mb-4">
+            <h2 className="font-serif text-3xl md:text-4xl font-semibold heritage-gradient-text mb-4">
               {t("tree.title")}
-            </h1>
+            </h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
               {t("tree.subtitle")}
             </p>

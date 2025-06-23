@@ -52,9 +52,9 @@ export default function SourcesView() {
         <div className="heritage-bg py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <FileText className="w-16 h-16 heritage-gold mx-auto mb-4" />
-            <h1 className="font-serif text-4xl md:text-5xl font-bold heritage-text mb-4">
+            <h2 className="font-serif text-4xl md:text-5xl font-bold heritage-text mb-4">
               {t("sources.title")}
-            </h1>
+            </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               {t("sources.subtitle")}
             </p>
