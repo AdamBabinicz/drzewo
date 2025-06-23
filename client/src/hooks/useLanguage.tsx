@@ -19,12 +19,16 @@ const translations = {
   pl: {
     "nav.title": "Korzenie rodu Gierczak i Ofiara",
     "nav.title.mobile": "Genealogia",
+    "nav.description": "Nawigacja po historii rodu",
     "nav.home": "Strona Główna",
     "nav.tree": "Drzewo Interaktywne",
     "nav.families": "Rody",
     "nav.index": "Indeks Osób",
     "nav.gallery": "Galeria",
     "nav.sources": "Źródła",
+    "nav.toggleTheme": "Zmień motyw",
+    "nav.toggleLanguage": "Zmień język",
+    "nav.openMenu": "Otwórz menu nawigacji",
 
     "theme.light": "Jasny",
     "theme.dark": "Ciemny",
@@ -335,12 +339,16 @@ const translations = {
   en: {
     "nav.title": "Roots of the Gierczak & Ofiara Family",
     "nav.title.mobile": "Genealogy",
+    "nav.description": "Navigate the family history",
     "nav.home": "Home",
     "nav.tree": "Interactive Tree",
     "nav.families": "Families",
     "nav.index": "Person Index",
     "nav.gallery": "Gallery",
     "nav.sources": "Sources",
+    "nav.toggleTheme": "Toggle theme",
+    "nav.toggleLanguage": "Change language",
+    "nav.openMenu": "Open navigation menu",
 
     "theme.light": "Light",
     "theme.dark": "Dark",

@@ -16,13 +16,12 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-// ZMIANA 1: Dodaj `SheetDescription` do importów
 import {
   Sheet,
   SheetContent,
   SheetHeader,
   SheetTitle,
-  SheetDescription, // <-- Dodany import
+  SheetDescription,
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { useTheme } from "@/hooks/useTheme";
@@ -72,7 +71,6 @@ export default function Navbar() {
             </h2>
           </Link>
 
-          {/* ... reszta kodu bez zmian ... */}
           <div className="hidden md:flex items-center space-x-6">
             <div className="flex items-baseline space-x-4">
               {navigation.map((item) => (
@@ -109,7 +107,12 @@ export default function Navbar() {
             <div className="flex items-center space-x-2 border-l pl-4 heritage-border">
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>
-                  <Button variant="ghost" size="sm" className="h-8 w-8 px-0">
+                  <Button
+                    variant="ghost"
+                    size="sm"
+                    className="h-8 w-8 px-0"
+                    aria-label={t("nav.toggleLanguage")}
+                  >
                     <Globe className="h-4 w-4" />
                   </Button>
                 </DropdownMenuTrigger>
@@ -124,7 +127,12 @@ export default function Navbar() {
               </DropdownMenu>
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>
-                  <Button variant="ghost" size="sm" className="h-8 w-8 px-0">
+                  <Button
+                    variant="ghost"
+                    size="sm"
+                    className="h-8 w-8 px-0"
+                    aria-label={t("nav.toggleTheme")}
+                  >
                     <Sun className="h-4 w-4 rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
                     <Moon className="absolute h-4 w-4 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
                   </Button>
@@ -153,6 +161,7 @@ export default function Navbar() {
               size="sm"
               onClick={() => setLanguage(language === "pl" ? "en" : "pl")}
               className="h-8 px-2 text-xs heritage-text"
+              aria-label={t("nav.toggleLanguage")}
             >
               {language.toUpperCase()}
             </Button>
@@ -161,20 +170,25 @@ export default function Navbar() {
               size="sm"
               onClick={() => setTheme(theme === "light" ? "dark" : "light")}
               className="h-8 w-8 px-0"
+              aria-label={t("nav.toggleTheme")}
             >
               <Sun className="h-4 w-4 rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
               <Moon className="absolute h-4 w-4 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
             </Button>
             <Sheet open={mobileMenuOpen} onOpenChange={setMobileMenuOpen}>
               <SheetTrigger asChild>
-                <Button variant="ghost" size="icon" className="heritage-text">
+                <Button
+                  variant="ghost"
+                  size="icon"
+                  className="heritage-text"
+                  aria-label={t("nav.openMenu")}
+                >
                   <Menu className="w-5 h-5" />
                 </Button>
               </SheetTrigger>
               <SheetContent side="right" className="w-80 heritage-card">
                 <SheetHeader className="mb-4 text-left">
                   <SheetTitle>{t("nav.title")}</SheetTitle>
-                  {/* ZMIANA 2: Dodaj komponent opisu */}
                   <SheetDescription>{t("nav.description")}</SheetDescription>
                 </SheetHeader>
                 <div className="flex flex-col space-y-4">
