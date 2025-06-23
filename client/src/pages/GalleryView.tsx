@@ -30,7 +30,7 @@ export default function GalleryView() {
   const galleryItems: GalleryItem[] = [
     {
       id: "portrait-1",
-      src: "/images/6.jpg",
+      src: "/images/5.avif",
       alt: "Portret rodzinny z początku XX wieku",
       category: "portraits",
       titleKey: "gallery.item.portrait-1.title",
@@ -38,7 +38,7 @@ export default function GalleryView() {
     },
     {
       id: "portrait-2",
-      src: "/images/33.png",
+      src: "/images/33.avif",
       alt: "Zdjęcie mojej mamy z okresu powojennego",
       category: "portraits",
       titleKey: "gallery.item.portrait-2.title",
@@ -46,7 +46,7 @@ export default function GalleryView() {
     },
     {
       id: "portrait-3",
-      src: "/images/przod.jpg",
+      src: "/images/przod.avif",
       alt: "Portret starszego człowieka w tradycyjnym stroju",
       category: "portraits",
       titleKey: "gallery.item.portrait-3.title",
@@ -54,7 +54,7 @@ export default function GalleryView() {
     },
     {
       id: "portrait-4",
-      src: "/images/28.png",
+      src: "/images/28.avif",
       alt: "Portret rodzinny z początku XX wieku",
       category: "portraits",
       titleKey: "gallery.item.portrait-4.title",
@@ -62,7 +62,7 @@ export default function GalleryView() {
     },
     {
       id: "doc-1",
-      src: "/images/14.jpg",
+      src: "/images/14.avif",
       alt: "Akt ślubu Jana i Agnieszki",
       category: "documents",
       titleKey: "gallery.item.doc-1.title",
@@ -70,7 +70,7 @@ export default function GalleryView() {
     },
     {
       id: "doc-2",
-      src: "/images/11.jpg",
+      src: "/images/11.avif",
       alt: "Moja mama jako matka chrzestna Zofii Bilskiej",
       category: "portraits",
       titleKey: "gallery.item.doc-2.title",
@@ -78,7 +78,7 @@ export default function GalleryView() {
     },
     {
       id: "doc-3",
-      src: "/images/rozalia-mitak.jpg",
+      src: "/images/rozalia-mitak.avif",
       alt: "Stary dokument prawny z pieczęcią woskową",
       category: "documents",
       titleKey: "gallery.item.doc-3.title",
@@ -86,7 +86,7 @@ export default function GalleryView() {
     },
     {
       id: "doc-4",
-      src: "/images/1.png",
+      src: "/images/1.avif",
       alt: "Ręcznie napisane drzewo genealogiczne",
       category: "documents",
       titleKey: "gallery.item.doc-4.title",
@@ -94,7 +94,7 @@ export default function GalleryView() {
     },
     {
       id: "place-1",
-      src: "/images/31.png",
+      src: "/images/31.avif",
       alt: "I Komunia Św. mojego wujka Romana Ofiary",
       category: "portraits",
       titleKey: "gallery.item.place-1.title",
@@ -102,7 +102,7 @@ export default function GalleryView() {
     },
     {
       id: "place-2",
-      src: "/images/24.jpg",
+      src: "/images/24.avif",
       alt: "Historyczne zabudowania wsi Jaszowice",
       category: "places",
       titleKey: "gallery.item.place-2.title",
@@ -110,7 +110,7 @@ export default function GalleryView() {
     },
     {
       id: "place-3",
-      src: "/images/1.jfif",
+      src: "/images/2.avif",
       alt: "Stary cmentarz z nagrobkami rodzinnymi",
       category: "places",
       titleKey: "gallery.item.place-3.title",

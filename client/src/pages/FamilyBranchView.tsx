@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import PersonCard from "@/components/ui/PersonCard";
 import PersonModal from "@/components/ui/PersonModal";
 import { Person } from "@shared/schema";
-import { MapPin, Users, Eye } from "lucide-react";
+import { MapPin, Users, Eye, BookText, ChevronDown } from "lucide-react";
 import { useState } from "react";
 import SEO from "@/components/SEO";
 import genealogyData from "@/data/genealogy.json";
@@ -19,6 +19,7 @@ export default function FamilyBranchView() {
 
   const [selectedPerson, setSelectedPerson] = useState<Person | null>(null);
   const [modalOpen, setModalOpen] = useState(false);
+  const [etymologyOpen, setEtymologyOpen] = useState(false);
 
   const { data: allPeople = [] } = useQuery({
     queryKey: ["/api/people"],
@@ -34,7 +35,7 @@ export default function FamilyBranchView() {
       places: ["Jaszowice", "Gulinek"],
       color: "heritage-burgundy",
       btnColor: "btn-heritage-burgundy",
-      imageUrl: "/images/jaszowice.png",
+      imageUrl: "/images/jaszowice.avif",
       placeIds: ["jaszowice", "gulinek_gierczak"],
     },
     ofiara: {
@@ -43,7 +44,7 @@ export default function FamilyBranchView() {
       places: ["Ludwików", "Gulinek"],
       color: "heritage-teal",
       btnColor: "btn-heritage-teal",
-      imageUrl: "/images/ludwikow.png",
+      imageUrl: "/images/ludwikow.avif",
       placeIds: ["ludwikow", "gulinek_ofiara"],
     },
   };
@@ -85,6 +86,50 @@ export default function FamilyBranchView() {
       currentFamily.placeIds.includes(place.id)
     ) || [];
 
+  const GierczakEtymology = () => (
+    <div className="prose prose-sm dark:prose-invert max-w-none">
+      <h4>{t("familyBranch.etymology.gierczak.h1")}</h4>
+      <p>{t("familyBranch.etymology.gierczak.p1")}</p>
+      <p>{t("familyBranch.etymology.gierczak.p2")}</p>
+      <ul>
+        <li>{t("familyBranch.etymology.gierczak.l1")}</li>
+        <li>{t("familyBranch.etymology.gierczak.l2")}</li>
+      </ul>
+      <h4>{t("familyBranch.etymology.gierczak.h2")}</h4>
+      <p>{t("familyBranch.etymology.gierczak.p3")}</p>
+      <h5>{t("familyBranch.etymology.gierczak.h3")}</h5>
+      <p>{t("familyBranch.etymology.gierczak.p4")}</p>
+      <p>{t("familyBranch.etymology.gierczak.p5")}</p>
+      <h5>{t("familyBranch.etymology.gierczak.h4")}</h5>
+      <p>{t("familyBranch.etymology.gierczak.p6")}</p>
+      <h5>{t("familyBranch.etymology.gierczak.h5")}</h5>
+      <p>{t("familyBranch.etymology.gierczak.p7")}</p>
+      <h4>{t("familyBranch.etymology.gierczak.h6")}</h4>
+      <p>{t("familyBranch.etymology.gierczak.p8")}</p>
+      <h4>{t("familyBranch.etymology.gierczak.h7")}</h4>
+      <p>{t("familyBranch.etymology.gierczak.p9")}</p>
+    </div>
+  );
+
+  const OfiaraEtymology = () => (
+    <div className="prose prose-sm dark:prose-invert max-w-none">
+      <h4>{t("familyBranch.etymology.ofiara.h1")}</h4>
+      <p>{t("familyBranch.etymology.ofiara.p1")}</p>
+      <h4>{t("familyBranch.etymology.ofiara.h2")}</h4>
+      <p>{t("familyBranch.etymology.ofiara.p2")}</p>
+      <h5>{t("familyBranch.etymology.ofiara.h3")}</h5>
+      <p>{t("familyBranch.etymology.ofiara.p3")}</p>
+      <h5>{t("familyBranch.etymology.ofiara.h4")}</h5>
+      <p>{t("familyBranch.etymology.ofiara.p4")}</p>
+      <h4>{t("familyBranch.etymology.ofiara.h5")}</h4>
+      <p>{t("familyBranch.etymology.ofiara.p5")}</p>
+      <h5>{t("familyBranch.etymology.ofiara.h6")}</h5>
+      <p>{t("familyBranch.etymology.ofiara.p6")}</p>
+      <h4>{t("familyBranch.etymology.ofiara.h7")}</h4>
+      <p>{t("familyBranch.etymology.ofiara.p7")}</p>
+    </div>
+  );
+
   return (
     <>
       <SEO
@@ -124,9 +169,32 @@ export default function FamilyBranchView() {
                     <h2 className="font-serif text-2xl font-semibold heritage-text mb-4">
                       {t("familyBranch.history.title")}
                     </h2>
-                    <p className="text-muted-foreground leading-relaxed mb-6">
+                    <p className="text-muted-foreground leading-relaxed mb-4">
                       {currentFamily.description}
                     </p>
+
+                    <div className="mb-6">
+                      <Button
+                        variant="ghost"
+                        onClick={() => setEtymologyOpen(!etymologyOpen)}
+                        className="text-sm text-muted-foreground hover:text-foreground p-1 h-auto"
+                      >
+                        <BookText className="w-4 h-4 mr-2" />
+                        {t("familyBranch.etymology.title")}
+                        <ChevronDown
+                          className={`w-4 h-4 ml-1 transition-transform ${
+                            etymologyOpen ? "rotate-180" : ""
+                          }`}
+                        />
+                      </Button>
+                      {etymologyOpen && (
+                        <div className="mt-4 p-4 rounded-md border bg-background/50">
+                          {family === "gierczak" && <GierczakEtymology />}
+                          {family === "ofiara" && <OfiaraEtymology />}
+                        </div>
+                      )}
+                    </div>
+
                     <div className="flex items-center space-x-4 text-sm text-muted-foreground">
                       <div className="flex items-center">
                         <MapPin className="w-4 h-4 mr-1" />

@@ -91,7 +91,7 @@ export default function Home() {
             </div>
             <div className="lg:pl-8">
               <img
-                src="/images/poko.png"
+                src="/images/poko.avif"
                 alt="Stary dokument genealogiczny z zapisami rodzinnymi"
                 className="rounded-xl shadow-lg w-full h-auto"
                 loading="lazy"
@@ -116,7 +116,7 @@ export default function Home() {
             <Card className="overflow-hidden hover:shadow-xl transition-shadow">
               <div className="relative h-80">
                 <img
-                  src="/images/jaszowice.png"
+                  src="/images/jaszowice.avif"
                   alt="Chata w Jaszowicach"
                   className="w-full h-full object-cover"
                   loading="lazy"
@@ -145,7 +145,7 @@ export default function Home() {
             <Card className="overflow-hidden hover:shadow-xl transition-shadow">
               <div className="relative h-80">
                 <img
-                  src="/images/gulinek.png"
+                  src="/images/gulinek.avif"
                   alt="Wieś Ludwików - miejsce pochodzenia rodu Ofiarów"
                   className="w-full h-full object-cover"
                   loading="lazy"

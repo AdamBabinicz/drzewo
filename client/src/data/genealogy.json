@@ -6,7 +6,7 @@
       "lastName": "Gerczak vel Gierczak",
       "birthDate": null,
       "deathDate": null,
-      "photoUrl": "/images/tomasz.png",
+      "photoUrl": "/images/tomasz.avif",
       "family": "gierczak",
       "spouseIds": [2],
       "childIds": [3, 4, 5, 6, 7],
@@ -57,7 +57,7 @@
       "lastName": "Gierczak",
       "birthDate": "ok. 1800",
       "deathDate": "1836",
-      "photoUrl": "/images/ambrozy.png",
+      "photoUrl": "/images/ambrozy.avif",
       "family": "gierczak",
       "spouseIds": [8],
       "childIds": [59, 60, 61, 62, 63, 13, 64, 65],
@@ -143,7 +143,7 @@
       "lastName": "Gierczak",
       "birthDate": "1828",
       "deathDate": "1903",
-      "photoUrl": "/images/Karol.jpg",
+      "photoUrl": "/images/Karol.avif",
       "family": "gierczak",
       "spouseIds": [18],
       "childIds": [19, 68, 69],
@@ -179,7 +179,7 @@
       "lastName": "Gierczak",
       "birthDate": "1867-01-11",
       "deathDate": "1935-07-29",
-      "photoUrl": "/images/Pawel.jpg",
+      "photoUrl": "/images/Pawel.avif",
       "family": "gierczak",
       "spouseIds": [22],
       "childIds": [70, 71, 72, 26, 73, 74, 75, 76, 77, 78],
@@ -213,7 +213,7 @@
       "lastName": "Gierczak",
       "birthDate": "1891-06-18",
       "deathDate": "1958-11-07",
-      "photoUrl": "/images/30.jpg",
+      "photoUrl": "/images/30.avif",
       "family": "gierczak",
       "spouseIds": [32],
       "childIds": [79, 80, 81, 82, 83, 84, 39, 85],
@@ -265,7 +265,7 @@
       "lastName": "Gierczak",
       "birthDate": "1930-02-23",
       "deathDate": "1996-08-08",
-      "photoUrl": "/images/51.png",
+      "photoUrl": "/images/51.avif",
       "family": "gierczak",
       "spouseIds": [41],
       "childIds": [86, 87, 88],
@@ -298,7 +298,7 @@
       "maidenName": "Ofiara",
       "birthDate": "1931-12-08",
       "deathDate": "1987-01-26",
-      "photoUrl": "/images/42.png",
+      "photoUrl": "/images/42.avif",
       "family": "ofiara",
       "spouseIds": [39],
       "childIds": [86, 87, 88],
@@ -353,7 +353,7 @@
       "maidenName": "Sobień",
       "birthDate": "1905-01-09",
       "deathDate": "1978-09-06",
-      "photoUrl": "/images/8.png",
+      "photoUrl": "/images/8.avif",
       "family": "ofiara",
       "spouseIds": [45],
       "childIds": [95, 96, 97, 98, 41, 99],
@@ -400,7 +400,7 @@
       "id": 57,
       "firstName": "Andrzej",
       "lastName": "Ofiara",
-      "photoUrl": "/images/andrzej.png",
+      "photoUrl": "/images/andrzej.avif",
       "family": "ofiara",
       "spouseIds": [58],
       "childIds": [89, 90, 45, 91],
@@ -895,7 +895,7 @@
       "lastName": "Gierczak",
       "birthDate": "1956",
       "deathDate": null,
-      "photoUrl": "/images/4.jpeg",
+      "photoUrl": "/images/3.avif",
       "family": "gierczak",
       "spouseIds": [],
       "childIds": [],
@@ -912,7 +912,7 @@
       "maidenName": "Gierczak",
       "birthDate": "1958",
       "deathDate": null,
-      "photoUrl": "/images/7.avif",
+      "photoUrl": "/images/9.avif",
       "family": "gierczak",
       "spouseIds": [],
       "childIds": [],
@@ -1554,7 +1554,7 @@
         "pl": "Miejsce pochodzenia rodu Ofiarów",
         "en": "The place of origin of the Ofiara family"
       },
-      "imageUrl": "/images/ludwikow.png"
+      "imageUrl": "/images/ludwikow.avif"
     },
     {
       "id": "gulinek_gierczak",
@@ -1564,7 +1564,7 @@
         "pl": "W Gulinku zamieszkali Paweł Gierczak z Katarzyną Czerwińską.",
         "en": "Paweł Gierczak and Katarzyna Czerwińska settled in Gulinek."
       },
-      "imageUrl": "/images/gulinek.png"
+      "imageUrl": "/images/gulinek.avif"
     },
     {
       "id": "gulinek_ofiara",
@@ -1574,7 +1574,7 @@
         "pl": "Tutaj zamieszkali Józef Ofiara z Rozalią Mitak, a po jej śmierci z Heleną Sobień.",
         "en": "Józef Ofiara settled here with Rozalia Mitak, and after her death, with Helena Sobień."
       },
-      "imageUrl": "/images/gulinek.png"
+      "imageUrl": "/images/gulinek.avif"
     }
   ]
 }

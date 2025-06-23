@@ -182,6 +182,61 @@ const translations = {
     "familyBranch.places.title": "Kluczowe miejsca",
     "familyBranch.notFound.title": "Nieznana rodzina",
     "familyBranch.notFound.desc": "Wybierz prawidłową gałąź rodzinną.",
+    "familyBranch.etymology.title": "Pochodzenie nazwiska",
+
+    "familyBranch.etymology.gierczak.h1": "Budowa morfologiczna",
+    "familyBranch.etymology.gierczak.p1":
+      "Nazwisko Gierczak ma typową dla języka polskiego, dwuczłonową budowę: Podstawa (rdzeń): Gier- i Formant (sufiks): -czak.",
+    "familyBranch.etymology.gierczak.p2":
+      'Sufiks -czak jest jednym z najpopularniejszych w polszczyźnie formantów patronimicznych (odojcowskich). Jego pierwotną funkcją było tworzenie nazw oznaczających potomka, najczęściej syna osoby, której imię lub przezwisko stanowiło podstawę. Nazwisko oznaczało więc "syn Giera" lub "potomek Giera".',
+    "familyBranch.etymology.gierczak.h2": "Etymologia podstawy 'Gier-'",
+    "familyBranch.etymology.gierczak.p3":
+      "To kluczowy i najbardziej złożony element analizy. Istnieje kilka hipotez dotyczących pochodzenia tego rdzenia.",
+    "familyBranch.etymology.gierczak.h3":
+      "Hipoteza 1 (Najbardziej prawdopodobna): Pochodzenie od imienia germańskiego",
+    "familyBranch.etymology.gierczak.p4":
+      'Podstawa Gier- pochodzi od starogermańskiego imienia, którego rdzeń gēr oznaczał "włócznia" lub "oszczep". Imiona germańskie były popularne w średniowiecznej Polsce. Rdzeń Ger- był częścią imion takich jak Gerhard (spolszczone jako Gierard lub Gierałt).',
+    "familyBranch.etymology.gierczak.p5":
+      "Od pełnych imion, jak Gierard, w mowie potocznej tworzono skróty. Najprostszą formą było Gier. Zatem nazwisko Gierczak powstało w następujący sposób: Gerhard (imię) -> Gierard (spolszczenie) -> Gier (przezwisko/skrót) -> Gierczak (syn Giera).",
+    "familyBranch.etymology.gierczak.h4":
+      "Hipoteza 2 (Mniej prawdopodobna): Pochodzenie od imienia słowiańskiego",
+    "familyBranch.etymology.gierczak.p6":
+      "Niektórzy badacze dopuszczają, że Gier- jest formą skróconą od słowiańskiego imienia Grzegorz (Grzegorz -> Gierosz -> Gier). Jest to jednak uznawane za hipotezę drugorzędną.",
+    "familyBranch.etymology.gierczak.h5":
+      "Hipoteza 3 (Najmniej prawdopodobna): Pochodzenie odapelatywne",
+    "familyBranch.etymology.gierczak.p7":
+      'Teoretycznie, podstawa mogłaby pochodzić od słowa "gier" lub "giera", które w dawnej polszczyźnie oznaczało grę lub zabawę. W takim scenariuszu "Gierczak" byłby przezwiskiem syna zapalonego gracza.',
+    "familyBranch.etymology.gierczak.h6": "Kontekst historyczny",
+    "familyBranch.etymology.gierczak.p8":
+      "Nazwiska z formantem -czak zaczęły się masowo kształtować w okresie od późnego średniowiecza do XVII wieku. Czas ten zbiega się z okresem silnych wpływów niemieckich, co dodatkowo wzmacnia hipotezę o germańskim pochodzeniu imienia bazowego.",
+    "familyBranch.etymology.gierczak.h7": "Podsumowanie",
+    "familyBranch.etymology.gierczak.p9":
+      'Nazwisko Gierczak jest z największym prawdopodobieństwem nazwiskiem patronimicznym, utworzonym od skróconej formy spolszczonego imienia germańskiego, najpewniej Gierard. Pierwotne znaczenie to "syn Gierarda".',
+    "familyBranch.etymology.gierczak.l1": "Podstawa (rdzeń): Gier-",
+    "familyBranch.etymology.gierczak.l2": "Formant (sufiks): -czak",
+
+    "familyBranch.etymology.ofiara.h1": "Budowa morfologiczna",
+    "familyBranch.etymology.ofiara.p1":
+      "Nazwisko Ofiara ma najprostszą możliwą strukturę – jest to tzw. nazwisko odapelatywne niemodyfikowane. Jego forma jest identyczna z rzeczownikiem pospolitym, od którego pochodzi, bez dodawania jakichkolwiek formantów. Taka budowa jest typowa dla jednej z najstarszych warstw nazwisk polskich.",
+    "familyBranch.etymology.ofiara.h2": "Etymologia i semantyka",
+    "familyBranch.etymology.ofiara.p2":
+      "Słowo \"ofiara\" pochodzi z łacińskiego 'offerre' (ofiarować). W polszczyźnie było związane z kontekstem religijnym (dar dla bóstwa), ale z czasem nabrało znaczeń przenośnych, kluczowych dla powstania nazwiska.",
+    "familyBranch.etymology.ofiara.h3": "Znaczenie przenośne (źródło nazwiska)",
+    "familyBranch.etymology.ofiara.p3":
+      'Przezwisko "Ofiara" najprawdopodobniej pochodzi od jednego z potocznych znaczeń słowa: osoba pechowa, niezaradna ("ofiara losu"), osoba cierpiąca lub pokrzywdzona, osoba bardzo pobożna (czasem ironicznie) lub ktoś powolny i niezdarny.',
+    "familyBranch.etymology.ofiara.h4":
+      "Hipotezy dotyczące motywacji (najbardziej prawdopodobna)",
+    "familyBranch.etymology.ofiara.p4":
+      'Pierwszy "Ofiara" był najpewniej postrzegany przez społeczność jako wyjątkowo nieszczęśliwy, pechowy lub niezaradny. Było to przezwisko opisowe, być może z nutą współczucia lub drwiny. Mechanizm tworzenia przezwisk od cech charakteru lub losu był niezwykle powszechny.',
+    "familyBranch.etymology.ofiara.h5": "Inne motywacje",
+    "familyBranch.etymology.ofiara.p5":
+      "Mniej prawdopodobne, ale możliwe, jest pochodzenie przezwiska od konkretnego, tragicznego wydarzenia (np. pożaru, napadu), którego dana osoba była ofiarą, lub od jej wyjątkowej, być może na pokaz, religijności.",
+    "familyBranch.etymology.ofiara.h6": "Kontekst historyczny",
+    "familyBranch.etymology.ofiara.p6":
+      "Nazwiska odapelatywne, takie jak Ofiara, należą do najstarszej warstwy nazwiskowej w Polsce. Mogły funkcjonować jako przezwiska już w późnym średniowieczu (XIV-XV w.), a jako dziedziczne nazwiska utrwaliły się ostatecznie w okresie od XVI do XVIII wieku.",
+    "familyBranch.etymology.ofiara.h7": "Podsumowanie",
+    "familyBranch.etymology.ofiara.p7":
+      "Nazwisko Ofiara pochodzi bezpośrednio od rzeczownika pospolitego. Najbardziej prawdopodobna motywacja nadania takiego przezwiska była związana z cechą charakteru lub losem pierwszego nosiciela – osoby postrzeganej jako pechowa, niezaradna lub pokrzywdzona przez los.",
 
     "person.born": "ur.",
     "person.bornIn": "Ur.",
@@ -446,6 +501,62 @@ const translations = {
     "familyBranch.places.title": "Key Places",
     "familyBranch.notFound.title": "Unknown family",
     "familyBranch.notFound.desc": "Please select a valid family branch.",
+    "familyBranch.etymology.title": "Surname Origin",
+
+    "familyBranch.etymology.gierczak.h1": "Morphological Structure",
+    "familyBranch.etymology.gierczak.p1":
+      "The surname Gierczak has a typical two-part structure for the Polish language: a base (root): Gier- and a formant (suffix): -czak.",
+    "familyBranch.etymology.gierczak.p2":
+      'The -czak suffix is one of the most popular patronymic (from the father) formants in Polish. Its primary function was to create names meaning a descendant, most often the son of the person whose name or nickname formed the base. The surname thus meant "son of Gier" or "descendant of Gier".',
+    "familyBranch.etymology.gierczak.h2": "Etymology of the 'Gier-' Root",
+    "familyBranch.etymology.gierczak.p3":
+      "This is the key and most complex part of the analysis. There are several hypotheses about the origin of this root.",
+    "familyBranch.etymology.gierczak.h3":
+      "Hypothesis 1 (Most Probable): Origin from a Germanic name",
+    "familyBranch.etymology.gierczak.p4":
+      'The root Gier- comes from an Old Germanic name whose root gēr meant "spear". Germanic names were popular in medieval Poland. The root Ger- was part of names like Gerhard (Polonized as Gierard or Gierałt).',
+    "familyBranch.etymology.gierczak.p5":
+      "From full names like Gierard, diminutives were created in common speech. The simplest form was Gier. Thus, the surname Gierczak was formed as follows: Gerhard (name) -> Gierard (Polonization) -> Gier (nickname/short form) -> Gierczak (son of Gier).",
+    "familyBranch.etymology.gierczak.h4":
+      "Hypothesis 2 (Less Probable): Origin from a Slavic name",
+    "familyBranch.etymology.gierczak.p6":
+      "Some researchers suggest that Gier- is a short form of the Slavic name Grzegorz (Gregory) (Grzegorz -> Gierosz -> Gier). However, this is considered a secondary hypothesis.",
+    "familyBranch.etymology.gierczak.h5":
+      "Hypothesis 3 (Least Probable): Appellative origin",
+    "familyBranch.etymology.gierczak.p7":
+      'Theoretically, the base could come from the word "gier" or "giera", which in old Polish meant a game. In this scenario, "Gierczak" would be a nickname for the son of an avid gamer.',
+    "familyBranch.etymology.gierczak.h6": "Historical Context",
+    "familyBranch.etymology.gierczak.p8":
+      "Surnames with the -czak formant began to form en masse from the late Middle Ages to the 17th century. This period coincides with strong German influences, which further strengthens the hypothesis of the Germanic origin of the base name.",
+    "familyBranch.etymology.gierczak.h7": "Summary",
+    "familyBranch.etymology.gierczak.p9":
+      'The surname Gierczak is most likely a patronymic surname, formed from a shortened, Polonized version of a Germanic name, most likely Gierard. The original meaning is "son of Gierard".',
+    "familyBranch.etymology.gierczak.l1": "Base (root): Gier-",
+    "familyBranch.etymology.gierczak.l2": "Formant (suffix): -czak",
+
+    "familyBranch.etymology.ofiara.h1": "Morphological Structure",
+    "familyBranch.etymology.ofiara.p1":
+      "The surname Ofiara has the simplest possible structure - it is a so-called unmodified appellative surname. Its form is identical to the common noun from which it originates, without any added formants. This structure is typical of one of the oldest layers of Polish surnames.",
+    "familyBranch.etymology.ofiara.h2": "Etymology and Semantics",
+    "familyBranch.etymology.ofiara.p2":
+      "The word \"ofiara\" (victim/offering) comes from the Latin 'offerre' (to offer). In Polish, it was linked to a religious context (an offering to a deity), but over time it acquired metaphorical meanings crucial for the surname's origin.",
+    "familyBranch.etymology.ofiara.h3":
+      "Metaphorical Meaning (Source of the Surname)",
+    "familyBranch.etymology.ofiara.p3":
+      'The nickname "Ofiara" most likely derives from one of the colloquial meanings of the word: an unlucky, helpless person ("victim of fate"), a suffering or wronged person, a very pious person (sometimes ironically), or someone slow and clumsy.',
+    "familyBranch.etymology.ofiara.h4":
+      "Hypotheses on Motivation (Most Probable)",
+    "familyBranch.etymology.ofiara.p4":
+      'The first "Ofiara" was most likely perceived by the community as exceptionally unlucky, unfortunate, or helpless. It was a descriptive nickname, perhaps with a hint of pity or mockery. The mechanism of creating nicknames from character traits or fate was extremely common.',
+    "familyBranch.etymology.ofiara.h5": "Other Motivations",
+    "familyBranch.etymology.ofiara.p5":
+      "Less probable, but possible, is the origin of the nickname from a specific tragic event (e.g., a fire, an attack) of which the person was a victim, or from their exceptional, perhaps feigned, piety.",
+    "familyBranch.etymology.ofiara.h6": "Historical Context",
+    "familyBranch.etymology.ofiara.p6":
+      "Appellative surnames like Ofiara belong to the oldest layer of surnames in Poland. They could have functioned as nicknames as early as the late Middle Ages (14th-15th c.), and became hereditary surnames between the 16th and 18th centuries.",
+    "familyBranch.etymology.ofiara.h7": "Summary",
+    "familyBranch.etymology.ofiara.p7":
+      "The surname Ofiara comes directly from the common noun. The most likely motivation for giving such a nickname was related to the character or fate of the first bearer - a person perceived as unlucky, helpless, or wronged by fate.",
 
     "person.born": "b.",
     "person.bornIn": "Born",
