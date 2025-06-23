@@ -250,4 +250,17 @@
     -webkit-text-fill-color: transparent;
     font-weight: 600;
   }
+
+  .scroll-to-top-btn {
+    background-color: var(--heritage-brown);
+    color: var(--parchment);
+    border: 1px solid var(--heritage-gray);
+    @apply opacity-80 hover:opacity-100 transition-all duration-300 ease-in-out hover:scale-110 hover:shadow-2xl;
+  }
+
+  .dark .scroll-to-top-btn {
+    background-color: var(--primary);
+    color: var(--primary-foreground);
+    border: 1px solid hsl(42, 78%, 70%);
+  }
 }

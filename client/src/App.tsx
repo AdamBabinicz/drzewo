@@ -7,6 +7,7 @@ import { Route, Switch, Router, useLocation } from "wouter";
 import { useEffect } from "react";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
+import ScrollToTopButton from "@/components/ui/ScrollToTopButton";
 
 import Home from "@/pages/Home";
 import InteractiveTreeView from "@/pages/InteractiveTreeView";
@@ -62,6 +63,7 @@ function App() {
                 </main>
                 <Footer />
                 <Toaster />
+                <ScrollToTopButton />
               </div>
             </TooltipProvider>
           </LanguageProvider>

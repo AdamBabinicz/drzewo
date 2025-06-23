@@ -29,6 +29,7 @@ const translations = {
     "nav.toggleTheme": "Zmień motyw",
     "nav.toggleLanguage": "Zmień język",
     "nav.openMenu": "Otwórz menu nawigacji",
+    "nav.scrollToTop": "Przewiń do góry",
 
     "theme.light": "Jasny",
     "theme.dark": "Ciemny",
@@ -349,6 +350,7 @@ const translations = {
     "nav.toggleTheme": "Toggle theme",
     "nav.toggleLanguage": "Change language",
     "nav.openMenu": "Open navigation menu",
+    "nav.scrollToTop": "Scroll to top",
 
     "theme.light": "Light",
     "theme.dark": "Dark",
@@ -357,7 +359,7 @@ const translations = {
     "family.gierczak": "Gierczak Family",
     "family.ofiara": "Ofiara Family",
 
-    "home.title": "The History of Peasant Lineages",
+    "home.title": "History of Peasant Families",
     "home.description":
       "Explore the history of the Gierczak and Ofiara families from near Radom, Poland. Browse the interactive family tree and discover the lives of generations.",
     "home.cta.tree": "View Interactive Tree",

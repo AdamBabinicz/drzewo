@@ -34,17 +34,27 @@ export type Person = {
   anecdotes?: Anecdote[];
 };
 
+export type DocumentType =
+  | "marriage_record"
+  | "death_record"
+  | "birth_record"
+  | "photo"
+  | "genealogy_chart"
+  | "other";
+
 export type Document = {
   id: number;
   personId?: number;
   title: string;
-  type: string;
+  type: DocumentType;
   description?: string;
   imageUrl: string;
 };
 
 export type Place = {
+  id: string;
   name: string;
+  context?: "gierczak" | "ofiara";
   description: LocalizedString | string;
   imageUrl: string;
 };
