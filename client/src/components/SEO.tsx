@@ -17,7 +17,7 @@ export default function SEO({
   const { language, t } = useLanguage();
 
   const defaultTitle = t("home.title");
-  const defaultDescription = t("home.subtitle");
+  const defaultDescription = t("home.description");
 
   const siteTitle = title ? `${title} - ${defaultTitle}` : defaultTitle;
   const siteDescription = description || defaultDescription;
