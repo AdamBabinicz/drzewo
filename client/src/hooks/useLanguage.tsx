@@ -125,7 +125,7 @@ const translations = {
     "gallery.item.doc-4.title": "Drzewo genealogiczne",
     "gallery.item.doc-4.desc": "Ręcznie sporządzone drzewo rodzinne",
     "gallery.item.place-1.title": "I Komunia Św. wujka Romana Ofiary",
-    "gallery.item.place-1.desc": "Roman Ofiara z babcią Helena",
+    "gallery.item.place-1.desc": "Roman Ofiara z babcią Heleną",
     "gallery.item.place-2.title": "Wieś Jaszowice",
     "gallery.item.place-2.desc": "Główne miejsce zamieszkania rodu Gierczaków",
     "gallery.item.place-3.title": "Stary cmentarz",
