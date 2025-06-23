@@ -18,9 +18,8 @@ export default function Home() {
 
   return (
     <>
-      <SEO />
+      <SEO schema={{ type: "website", data: {} }} />
 
-      {/* SEKCJA 1: Hero - Główne tło */}
       <section className="heritage-bg py-16 lg:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
