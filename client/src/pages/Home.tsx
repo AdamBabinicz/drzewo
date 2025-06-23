@@ -27,8 +27,11 @@ export default function Home() {
             <h1 className="font-serif text-4xl md:text-6xl font-bold heritage-text mb-6">
               {t("home.title")}
               <br />
-              <span className="heritage-gradient-text">Gierczak i Ofiara</span>
+              <span className="heritage-gradient-text">
+                {t("home.subtitle")}
+              </span>
             </h1>
+            {/* --- KONIEC POPRAWKI --- */}
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
               {t("home.description")}
             </p>

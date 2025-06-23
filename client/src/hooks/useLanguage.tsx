@@ -39,6 +39,7 @@ const translations = {
     "family.ofiara": "Ród Ofiarów",
 
     "home.title": "Historia Rodów Chłopskich",
+    "home.subtitle": "Gierczak i Ofiara",
     "home.description":
       "Odkryj historię rodów Gierczak i Ofiara z okolic Radomia. Przeglądaj interaktywne drzewo genealogiczne, poznaj losy pokoleń i miejsca ich życia.",
     "home.cta.tree": "Zobacz Interaktywne Drzewo",
@@ -360,6 +361,7 @@ const translations = {
     "family.ofiara": "Ofiara Family",
 
     "home.title": "History of Peasant Families",
+    "home.subtitle": "Gierczak & Ofiara",
     "home.description":
       "Explore the history of the Gierczak and Ofiara families from near Radom, Poland. Browse the interactive family tree and discover the lives of generations.",
     "home.cta.tree": "View Interactive Tree",
