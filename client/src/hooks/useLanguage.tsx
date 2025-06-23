@@ -37,7 +37,8 @@ const translations = {
     "family.gierczak": "Ród Gierczaków",
     "family.ofiara": "Ród Ofiarów",
 
-    "home.title": "Historia Rodów",
+    "home.title":
+      "Zapraszamy do poznania historii rodzin Gierczak oraz Ofiara.",
     "home.description":
       "Odkryj fascynującą historię dwóch rodów z okolic Radomia. Prześledź losy pokoleń, poznaj ich historie i zobacz, jak przeplatały się ich życiowe ścieżki.",
     "home.cta.tree": "Zobacz Interaktywne Drzewo",
@@ -357,7 +358,7 @@ const translations = {
     "family.gierczak": "Gierczak Family",
     "family.ofiara": "Ofiara Family",
 
-    "home.title": "History of the Families",
+    "home.title": "Discover the history of the Gierczak and Ofiara families",
     "home.description":
       "Discover the fascinating history of two families from the Radom area. Trace the fate of generations, learn their stories and see how their life paths intertwined.",
     "home.cta.tree": "View Interactive Tree",
