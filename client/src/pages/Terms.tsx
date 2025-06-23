@@ -1,7 +1,15 @@
 import { useLanguage } from "@/hooks/useLanguage";
+import SEO from "@/components/SEO";
 
 export default function Terms() {
-  const { t } = useLanguage();
+  const { t, language, p } = useLanguage();
+
+  const dateFormatter = new Intl.DateTimeFormat(language, {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
+  const currentDate = dateFormatter.format(new Date());
 
   const renderSection = (sectionKey: string) => (
     <div className="space-y-3">
@@ -23,21 +31,24 @@ export default function Terms() {
   );
 
   return (
-    <div className="bg-white dark:bg-card">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <h2 className="text-4xl font-serif heritage-gradient-text text-center mb-8">
-          {t("terms.title")}
-        </h2>
-        <p className="text-center text-muted-foreground mb-12">
-          {t("terms.lastUpdated")}
-        </p>
+    <>
+      <SEO title={t("terms.title")} path={p("terms")} />
+      <div className="bg-white dark:bg-card">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+          <h1 className="text-4xl font-serif heritage-gradient-text text-center mb-4">
+            {t("terms.title")}
+          </h1>
+          <p className="text-center text-muted-foreground mb-12">
+            {t("terms.lastUpdated", { date: currentDate })}
+          </p>
 
-        {renderSection("section1")}
-        {renderSection("section2")}
-        {renderSection("section3")}
-        {renderSection("section4")}
-        {renderSection("section5")}
+          {renderSection("section1")}
+          {renderSection("section2")}
+          {renderSection("section3")}
+          {renderSection("section4")}
+          {renderSection("section5")}
+        </div>
       </div>
-    </div>
+    </>
   );
 }

@@ -278,7 +278,7 @@ const translations = {
     "footer.copyright": "{year} Radom, Korzenie rodu Gierczak i Ofiara.",
 
     "terms.title": "Regulamin Strony",
-    "terms.lastUpdated": "Ostatnia aktualizacja: 24 maja 2024",
+    "terms.lastUpdated": "Ostatnia aktualizacja: {date}",
     "terms.section1.title": "1. Postanowienia ogólne",
     "terms.section1.p1":
       "Niniejsza strona internetowa jest prywatnym, niekomercyjnym projektem genealogicznym, którego celem jest dokumentowanie i udostępnianie historii rodzin Gierczak i Ofiara.",
@@ -306,7 +306,7 @@ const translations = {
       "W sprawach nieuregulowanych niniejszym regulaminem, a także w celu zgłoszenia uwag lub prośby o korektę danych, prosimy o kontakt mailowy pod adresem podanym w stopce strony.",
 
     "privacy.title": "Polityka Prywatności",
-    "privacy.lastUpdated": "Ostatnia aktualizacja: 24 maja 2024",
+    "privacy.lastUpdated": "Ostatnia aktualizacja: {date}",
     "privacy.section1.title": "1. Administrator danych",
     "privacy.section1.p1":
       "Administratorem danych osobowych w ramach tego prywatnego projektu jest autor strony. Kontakt możliwy jest poprzez adres e-mail podany w stopce.",
@@ -604,7 +604,7 @@ const translations = {
     "footer.copyright": "{year} Radom, Roots of the Gierczak & Ofiara Family.",
 
     "terms.title": "Terms of Service",
-    "terms.lastUpdated": "Last updated: May 24, 2024",
+    "terms.lastUpdated": "Last updated: {date}",
     "terms.section1.title": "1. General Provisions",
     "terms.section1.p1":
       "This website is a private, non-commercial genealogical project aimed at documenting and sharing the history of the Gierczak and Ofiara families.",
@@ -632,7 +632,7 @@ const translations = {
       "For matters not covered by these terms, or to submit comments or request data correction, please contact us via the email address provided in the footer.",
 
     "privacy.title": "Privacy Policy",
-    "privacy.lastUpdated": "Last updated: May 24, 2024",
+    "privacy.lastUpdated": "Last updated: {date}",
     "privacy.section1.title": "1. Data Administrator",
     "privacy.section1.p1":
       "The administrator of personal data within this private project is the author of the site. Contact is possible via the email address provided in the footer.",

@@ -140,15 +140,15 @@ export default function Navbar() {
                 <DropdownMenuContent className="heritage-card">
                   <DropdownMenuItem onClick={() => setTheme("light")}>
                     <Sun className="mr-2 h-4 w-4" />
-                    {language === "pl" ? "Jasny" : "Light"}
+                    {t("theme.light")}
                   </DropdownMenuItem>
                   <DropdownMenuItem onClick={() => setTheme("dark")}>
                     <Moon className="mr-2 h-4 w-4" />
-                    {language === "pl" ? "Ciemny" : "Dark"}
+                    {t("theme.dark")}
                   </DropdownMenuItem>
                   <DropdownMenuItem onClick={() => setTheme("system")}>
                     <Languages className="mr-2 h-4 w-4" />
-                    {language === "pl" ? "System" : "System"}
+                    {t("theme.system")}
                   </DropdownMenuItem>
                 </DropdownMenuContent>
               </DropdownMenu>
@@ -191,29 +191,31 @@ export default function Navbar() {
                   <SheetTitle>{t("nav.title")}</SheetTitle>
                   <SheetDescription>{t("nav.description")}</SheetDescription>
                 </SheetHeader>
-                <div className="flex flex-col space-y-4">
+                <div className="flex flex-col space-y-2">
                   {navigation.map((item) => (
                     <Link
                       key={item.href}
                       href={item.href}
-                      className={`block px-4 py-3 text-base font-medium transition-all duration-200 ${
+                      className={`block px-4 py-3 text-base font-medium transition-all duration-200 rounded-lg ${
                         isActive(item.href)
                           ? "heritage-burgundy bg-heritage-cream"
                           : "heritage-text hover:text-[hsl(var(--heritage-burgundy))] hover:bg-heritage-cream/50"
-                      } rounded-lg`}
+                      }`}
                       onClick={() => setMobileMenuOpen(false)}
                     >
                       {item.name}
                     </Link>
                   ))}
-                  <div className="elegant-separator">
-                    <span>{t("nav.families")}</span>
-                  </div>
+
+                  <p className="px-4 pt-4 pb-1 text-sm font-semibold text-muted-foreground">
+                    {t("nav.families")}
+                  </p>
+
                   {familyLinks.map((item) => (
                     <Link
                       key={item.href}
                       href={item.href}
-                      className="block px-6 py-3 text-base font-medium heritage-text hover:text-[hsl(var(--heritage-burgundy))] hover:bg-heritage-cream/50 rounded-lg transition-all duration-200"
+                      className="block pl-8 pr-4 py-3 text-base font-medium heritage-text hover:text-[hsl(var(--heritage-burgundy))] hover:bg-heritage-cream/50 rounded-lg transition-all duration-200"
                       onClick={() => setMobileMenuOpen(false)}
                     >
                       {item.name}
