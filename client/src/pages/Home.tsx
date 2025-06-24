@@ -1,3 +1,5 @@
+// --- Plik: Home.tsx ---
+
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -7,6 +9,13 @@ import { useLanguage } from "@/hooks/useLanguage";
 
 export default function Home() {
   const { t, p } = useLanguage();
+
+  // 1. Stwórz zmienną z pełnym tytułem dla SEO
+  const seoTitle = `${t("home.title")} ${t(
+    "home.subtitle"
+  )} | Genealogia Rodzinna`;
+  // Przykład dla PL: "Historia Rodów Chłopskich Gierczak i Ofiara | Genealogia Rodzinna" (długość: 65)
+  // To jest idealny tytuł - opisowy i o właściwej długości.
 
   const handleScrollToAbout = (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
@@ -18,11 +27,16 @@ export default function Home() {
 
   return (
     <>
-      <SEO schema={{ type: "website", data: {} }} />
+      {/* 2. Przekaż stworzony tytuł jako prop do komponentu SEO */}
+      <SEO
+        title={seoTitle} // <-- DODANA WŁAŚCIWOŚĆ
+        schema={{ type: "website", data: {} }}
+      />
 
       <section className="heritage-bg py-16 lg:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
+            {/* Ten fragment pozostaje bez zmian, bo odpowiada za wygląd wizualny */}
             <h1 className="font-serif text-4xl md:text-6xl font-bold heritage-text mb-6">
               {t("home.title")}
               <br />
@@ -30,7 +44,6 @@ export default function Home() {
                 {t("home.subtitle")}
               </span>
             </h1>
-            {/* --- KONIEC POPRAWKI --- */}
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
               {t("home.description")}
             </p>
@@ -57,7 +70,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* SEKCJA 2: O rodach - Jaśniejszy, alternatywny odcień tła */}
+      {/* ... reszta komponentu bez zmian ... */}
       <section
         id="about"
         className="py-16 lg:py-24 bg-stone-50 dark:bg-background-alt"
@@ -103,7 +116,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* SEKCJA 3: Gałęzie rodzinne - Tło z gradientem */}
       <section className="py-16 lg:py-24 bg-white dark:bg-gradient-s-brown">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
@@ -176,7 +188,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* SEKCJA 4: Eksploracja - Ponownie jaśniejsze tło dla spójności */}
       <section className="py-16 bg-stone-50 dark:bg-background-alt">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
