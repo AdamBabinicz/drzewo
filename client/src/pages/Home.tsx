@@ -90,13 +90,19 @@ export default function Home() {
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row gap-4 mt-8">
-                <Button asChild className="btn-heritage-burgundy px-6 py-3">
+                <Button
+                  asChild
+                  className="btn-heritage-burgundy px-6 py-3 transition-all"
+                >
                   <Link href={`${p("familyBase")}/gierczak`}>
                     <Users className="w-5 h-5 mr-2" />
                     {t("family.gierczak")}
                   </Link>
                 </Button>
-                <Button asChild className="btn-heritage-teal px-6 py-3">
+                <Button
+                  asChild
+                  className="btn-heritage-teal px-6 py-3 transition-all"
+                >
                   <Link href={`${p("familyBase")}/ofiara`}>
                     <Users className="w-5 h-5 mr-2" />
                     {t("family.ofiara")}
@@ -147,7 +153,10 @@ export default function Home() {
                 <p className="text-stone-600 dark:text-stone-300 mb-6 leading-relaxed">
                   {t("home.branches.gierczak.desc")}
                 </p>
-                <Button asChild className="w-full btn-heritage-burgundy">
+                <Button
+                  asChild
+                  className="w-full btn-heritage-burgundy transition-all"
+                >
                   <Link href={`${p("familyBase")}/gierczak`}>
                     <Users className="w-4 h-4 mr-2" />
                     {t("home.branches.gierczak.cta")}
@@ -176,7 +185,10 @@ export default function Home() {
                 <p className="text-stone-600 dark:text-stone-300 mb-6 leading-relaxed">
                   {t("home.branches.ofiara.desc")}
                 </p>
-                <Button asChild className="w-full btn-heritage-teal">
+                <Button
+                  asChild
+                  className="w-full btn-heritage-teal transition-all"
+                >
                   <Link href={`${p("familyBase")}/ofiara`}>
                     <Users className="w-4 h-4 mr-2" />
                     {t("home.branches.ofiara.cta")}

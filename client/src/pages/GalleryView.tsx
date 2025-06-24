@@ -177,7 +177,9 @@ export default function GalleryView() {
                     className={`px-4 py-2 sm:px-6 sm:py-2 transition-all duration-200 ${
                       isActive
                         ? "btn-heritage-burgundy scale-105 shadow-lg"
-                        : "heritage-border heritage-text hover:bg-heritage-cream dark:hover:bg-card"
+                        : `heritage-border heritage-text
+                   hover:bg-yellow-100 dark:hover:bg-muted
+                   hover:text-heritage-burgundy dark:hover:text-white`
                     }`}
                     onClick={() => setSelectedCategory(category.id)}
                   >
@@ -189,7 +191,6 @@ export default function GalleryView() {
             </div>
           </div>
         </div>
-
         <div className="bg-white dark:bg-gradient-dark-brown py-12">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-8">
@@ -209,7 +210,6 @@ export default function GalleryView() {
                     className="group cursor-pointer hover:shadow-xl transition-all overflow-hidden heritage-card"
                     onClick={() => handleImageClick(item)}
                   >
-                    {/* 1. ZMIANA: Kontener z obrazem ma teraz stałe proporcje (kwadrat) */}
                     <div className="relative aspect-square">
                       <img
                         src={item.src}
@@ -231,7 +231,6 @@ export default function GalleryView() {
                       <h3 className="font-semibold heritage-text text-base mb-1 truncate">
                         {t(item.titleKey)}
                       </h3>
-                      {/* 2. ZMIANA: Paragraf z opisem ma stałą wysokość (2 linie tekstu) */}
                       <p className="text-sm text-muted-foreground line-clamp-2 h-10">
                         {item.descriptionKey ? t(item.descriptionKey) : ""}
                       </p>
