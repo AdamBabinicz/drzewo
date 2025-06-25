@@ -8,8 +8,9 @@ import { useLanguage } from "@/hooks/useLanguage";
 export default function Home() {
   const { t, p } = useLanguage();
 
-  const seoTitle =
-    "Rody Gierczak i Ofiara – Drzewo Genealogiczne i Dzieje Rodu.";
+  const seoTitle = `${t("home.title")} ${t(
+    "home.subtitle"
+  )} | Genealogia Rodzinna`;
 
   const handleScrollToAbout = (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
@@ -21,11 +22,7 @@ export default function Home() {
 
   return (
     <>
-      <SEO
-        title={seoTitle}
-        isHomePage={true}
-        schema={{ type: "website", data: {} }}
-      />
+      <SEO title={seoTitle} schema={{ type: "website", data: {} }} />
 
       <section className="heritage-bg py-16 lg:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
