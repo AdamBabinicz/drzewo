@@ -122,7 +122,7 @@ const translations = {
     "gallery.item.doc-2.title": "Gulinek, 1960",
     "gallery.item.doc-2.desc":
       "I Komunia Św. Zofii Bilskiej, moja mama jako matka chrzestna",
-    "gallery.item.doc-3.title": "Dokument prawny",
+    "gallery.item.doc-3.title": "Dokument kościelny",
     "gallery.item.doc-3.desc":
       "Zapis w Księdze Parafialnej w Zakrzowie (Zakrzewie)",
     "gallery.item.doc-4.title": "Drzewo genealogiczne",
@@ -452,7 +452,7 @@ const translations = {
     "gallery.item.doc-2.title": "Gulinek, 1960",
     "gallery.item.doc-2.desc":
       "First Holy Communion of Zofia Bilska, my mother as godmother",
-    "gallery.item.doc-3.title": "Legal Document",
+    "gallery.item.doc-3.title": "Church document",
     "gallery.item.doc-3.desc":
       "Entry in the Parish Register of Zakrzów (Zakrzew)",
     "gallery.item.doc-4.title": "Genealogical Tree",
