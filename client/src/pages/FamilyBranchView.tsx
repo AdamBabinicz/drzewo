@@ -236,7 +236,10 @@ export default function FamilyBranchView() {
                 <h2 className="font-serif text-3xl font-semibold heritage-text">
                   {t("familyBranch.members.title")}
                 </h2>
-                <Button asChild className={currentFamily.btnColor}>
+                <Button
+                  asChild
+                  className={`${currentFamily.btnColor} transition-all duration-300 hover:scale-105 hover:shadow-md`}
+                >
                   <Link href={p("tree")}>
                     <Eye className="w-4 h-4 mr-2" />
                     {t("familyBranch.members.viewInTree")}
