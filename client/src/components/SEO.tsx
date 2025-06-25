@@ -1,5 +1,3 @@
-// --- Plik: SEO.tsx ---
-
 import { Helmet } from "react-helmet-async";
 import { useLanguage } from "@/hooks/useLanguage";
 
@@ -28,7 +26,7 @@ export default function SEO({
   image = defaultImage,
   path,
   schema,
-  isHomePage = false, // <-- Ustawiamy domyślną wartość na false
+  isHomePage = false,
 }: SEOProps) {
   const { language, t } = useLanguage();
 
@@ -37,18 +35,16 @@ export default function SEO({
     t("home.description") ||
     "Cyfrowe archiwum i interaktywne drzewo genealogiczne rodów Gierczak i Ofiara z okolic Radomia.";
 
-  // ZAKTUALIZOWANA LOGIKA TWORZENIA TYTUŁU
   const pageTitle = title
     ? isHomePage
-      ? title // Jeśli to strona główna, użyj tytułu bez zmian
-      : `${title} - ${siteName}` // W przeciwnym razie, dodaj nazwę strony
+      ? title
+      : `${title} - ${siteName}`
     : defaultTitle;
 
   const pageDescription = description || defaultDescription;
   const canonicalUrl = `${siteUrl}${path || window.location.pathname}`;
 
   const generateSchema = () => {
-    // ... reszta funkcji generateSchema bez zmian
     if (!schema) return null;
 
     let schemaData: object | null = null;

@@ -10,12 +10,9 @@ import { useLanguage } from "@/hooks/useLanguage";
 export default function Home() {
   const { t, p } = useLanguage();
 
-  // 1. Stwórz zmienną z pełnym tytułem dla SEO
-  const seoTitle = `${t("home.title")} ${t(
-    "home.subtitle"
-  )} | Genealogia Rodzinna`;
-  // Przykład dla PL: "Historia Rodów Chłopskich Gierczak i Ofiara | Genealogia Rodzinna" (długość: 65)
-  // To jest idealny tytuł - opisowy i o właściwej długości.
+  // ZMIANA 1: Stworzenie zwięzłego, zoptymalizowanego tytułu o długości 60 znaków.
+  const seoTitle =
+    "Rody Gierczak i Ofiara – Drzewo Genealogiczne i Historia Rodu";
 
   const handleScrollToAbout = (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
@@ -27,16 +24,16 @@ export default function Home() {
 
   return (
     <>
-      {/* 2. Przekaż stworzony tytuł jako prop do komponentu SEO */}
+      {/* ZMIANA 2: Dodanie "isHomePage={true}", aby tytuł nie był modyfikowany przez komponent SEO. */}
       <SEO
-        title={seoTitle} // <-- DODANA WŁAŚCIWOŚĆ
+        title={seoTitle}
+        isHomePage={true}
         schema={{ type: "website", data: {} }}
       />
 
       <section className="heritage-bg py-16 lg:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            {/* Ten fragment pozostaje bez zmian, bo odpowiada za wygląd wizualny */}
             <h1 className="font-serif text-4xl md:text-6xl font-bold heritage-text mb-6">
               {t("home.title")}
               <br />
@@ -70,7 +67,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ... reszta komponentu bez zmian ... */}
       <section
         id="about"
         className="py-16 lg:py-24 bg-stone-50 dark:bg-background-alt"
