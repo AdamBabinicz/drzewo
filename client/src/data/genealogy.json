@@ -9,12 +9,12 @@
       "photoUrl": "/images/tomasz.avif",
       "family": "gierczak",
       "spouseIds": [2],
-      "childIds": [3, 4, 5, 6, 7],
+      "childIds": [3, 4, 5, 6],
       "parentIds": [],
       "marriages": [{ "spouseId": 2, "date": "?" }],
       "biography": {
-        "pl": "Protoplasta rodu Gierczak. Ożenił się z Zofią Giel vel Gielowską. Mieli 5 dzieci. Mieszkali we wsi Jaszowice k. Radomia.",
-        "en": "Progenitor of the Gierczak family. He married Zofia Giel vel Gielowska. They had 5 children. They lived in the village of Jaszowice near Radom."
+        "pl": "Protoplasta rodu Gierczak. Ożenił się z Zofią Giel vel Gielowską. Mieli 4 dzieci. Mieszkali we wsi Jaszowice k. Radomia.",
+        "en": "Progenitor of the Gierczak family. He married Zofia Giel vel Gielowska. They had 4 children. They lived in the village of Jaszowice near Radom."
       }
     },
     {
@@ -27,7 +27,7 @@
       "photoUrl": null,
       "family": "gierczak",
       "spouseIds": [1],
-      "childIds": [3, 4, 5, 6, 7],
+      "childIds": [3, 4, 5, 6],
       "parentIds": [],
       "marriages": [{ "spouseId": 1, "date": "?" }],
       "biography": {
@@ -100,22 +100,6 @@
       "biography": {
         "pl": "Syn Tomasza i Zofii. Ożenił się w 1837 z Teresą Pączek, której rodzicami byli Jakub i Magdalena. Ślub odbył się w parafii Cerekiew.",
         "en": "Son of Tomasz and Zofia. He married Teresa Pączek in 1837, whose parents were Jakub and Magdalena. The wedding took place in the Cerekiew parish."
-      }
-    },
-    {
-      "id": 7,
-      "firstName": "Marianna",
-      "lastName": "Gierczak",
-      "birthDate": null,
-      "deathDate": "1916",
-      "photoUrl": null,
-      "family": "gierczak",
-      "spouseIds": [],
-      "childIds": [],
-      "parentIds": [1, 2],
-      "biography": {
-        "pl": "Córka Tomasza i Zofii Gierczak.",
-        "en": "Daughter of Tomasz and Zofia Gierczak."
       }
     },
     {
