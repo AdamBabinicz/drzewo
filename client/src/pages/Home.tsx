@@ -8,8 +8,7 @@ import { useLanguage } from "@/hooks/useLanguage";
 export default function Home() {
   const { t, p } = useLanguage();
 
-  const seoTitle =
-    "Rody Gierczak i Ofiara – Drzewo Genealogiczne i Dzieje Rodów";
+  const seoTitle = t("home.seo_title");
 
   const handleScrollToAbout = (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
