@@ -49,6 +49,16 @@ function AppRoutes() {
 }
 
 function App() {
+  useEffect(() => {
+    const cookieLink = document.getElementById("cookiescript_link");
+    if (cookieLink && !cookieLink.getAttribute("rel")?.includes("noopener")) {
+      const currentRel = cookieLink.getAttribute("rel") || "";
+      cookieLink.setAttribute(
+        "rel",
+        `${currentRel} noopener noreferrer`.trim()
+      );
+    }
+  }, []);
   return (
     <QueryClientProvider client={queryClient}>
       <ThemeProvider defaultTheme="light" storageKey="genealogy-theme">
