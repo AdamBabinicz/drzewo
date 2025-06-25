@@ -32,7 +32,7 @@ export default function Lightbox({ isOpen, onClose, image }: LightboxProps) {
           <Button
             variant="ghost"
             size="icon"
-            className="absolute top-4 right-4 text-white hover:bg-white/20"
+            className="absolute top-4 right-4 text-white hover:text-white/40 hover:bg-white/20"
             onClick={onClose}
           >
             <X className="w-6 h-6" />
