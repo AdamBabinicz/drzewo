@@ -26,6 +26,16 @@ export default function SourcesView() {
       ],
     },
     {
+      categoryKey: "sources.section.onlineSources.title",
+      // ZMIANA: Dodajemy mapowanie do obiektu z linkiem
+      itemKeys: [
+        {
+          key: "sources.section.onlineSources.item1",
+          url: "https://geneteka.genealodzy.pl/index.php?op=gt&lang=pl&w=07mz&rid=1894",
+        },
+      ],
+    },
+    {
       categoryKey: "sources.section.familyAccounts.title",
       itemKeys: [
         "sources.section.familyAccounts.item1",
@@ -43,6 +53,33 @@ export default function SourcesView() {
       ],
     },
   ];
+
+  // NOWA FUNKCJA DO RENDEROWANIA LINKÓW
+  const renderSourceItem = (text: string, url?: string) => {
+    const linkRegex = /<link>(.*?)<\/link>/;
+    const match = text.match(linkRegex);
+
+    if (match && url) {
+      const beforeText = text.substring(0, match.index);
+      const linkText = match[1];
+      const afterText = text.substring(match.index! + match[0].length);
+      return (
+        <>
+          {beforeText}
+          <a
+            href={url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-heritage-burgundy hover:underline underline-offset-4"
+          >
+            {linkText}
+          </a>
+          {afterText}
+        </>
+      );
+    }
+    return text;
+  };
 
   return (
     <>
@@ -98,17 +135,24 @@ export default function SourcesView() {
                     </CardHeader>
                     <CardContent>
                       <ul className="space-y-3">
-                        {source.itemKeys.map((itemKey, itemIndex) => (
-                          <li
-                            key={itemIndex}
-                            className="flex items-start space-x-3"
-                          >
-                            <div className="w-2 h-2 bg-heritage-gold rounded-full flex-shrink-0 mt-2"></div>
-                            <span className="text-muted-foreground">
-                              {t(itemKey)}
-                            </span>
-                          </li>
-                        ))}
+                        {source.itemKeys.map((item, itemIndex) => {
+                          // ZMIANA TUTAJ - Sprawdzamy typ elementu
+                          const isLinkObject = typeof item === "object";
+                          const itemKey = isLinkObject ? item.key : item;
+                          const url = isLinkObject ? item.url : undefined;
+
+                          return (
+                            <li
+                              key={itemIndex}
+                              className="flex items-start space-x-3"
+                            >
+                              <div className="w-2 h-2 bg-heritage-gold rounded-full flex-shrink-0 mt-2"></div>
+                              <span className="text-muted-foreground">
+                                {renderSourceItem(t(itemKey), url)}
+                              </span>
+                            </li>
+                          );
+                        })}
                       </ul>
                     </CardContent>
                   </Card>

@@ -163,6 +163,10 @@ const translations = {
       "Księgi zmarłych cmentarza parafialnego w Cerekwi i Zakrzowie (Zakrzewie)",
     "sources.section.churchSources.item4":
       "Kronika parafialna - zapisy o mieszkańcach Jaszowic i Ludwikowa",
+    "sources.section.onlineSources.title": "Źródła internetowe",
+    // ZMIANA TUTAJ
+    "sources.section.onlineSources.item1":
+      "<link>Geneteka - Ogólnopolska Baza Indeksów Metrykalnych</link>, Parafia Cerekiew (woj. mazowieckie)",
     "sources.section.familyAccounts.title": "Przekazy rodzinne",
     "sources.section.familyAccounts.item1":
       "Dokumenty osobiste zachowane w rodzinie",
@@ -491,6 +495,10 @@ const translations = {
       "Death records from the parish cemetery in Cerekiew and Zakrzów (Zakrzew)",
     "sources.section.churchSources.item4":
       "Parish chronicle - records about the inhabitants of Jaszowice and Ludwików",
+    "sources.section.onlineSources.title": "Online Sources",
+    // ZMIANA TUTAJ
+    "sources.section.onlineSources.item1":
+      "<link>Geneteka - The National Database of Metrical Indexes</link>, Cerekiew Parish (Masovian Voivodeship)",
     "sources.section.familyAccounts.title": "Family Accounts",
     "sources.section.familyAccounts.item1":
       "Personal documents preserved in the family",
