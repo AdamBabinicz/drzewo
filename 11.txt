@@ -1,0 +1,282 @@
+ <Button
+                     key={category.id}
+                     variant={isActive ? "default" : "outline"}
+                     className={`px-4 py-2 sm:px-6 sm:py-2 transition-all duration-200 ${
+                       isActive
+                         ? "btn-heritage-burgundy scale-105 shadow-lg"
+                         : "heritage-border heritage-text hover:bg-heritage-cream dark:hover:bg-card"
+                     }`}
+                     onClick={() => setSelectedCategory(category.id)}
+                   >
+                     <IconComponent className="w-4 h-4 mr-2" />
+                     {category.name}
+                   </Button>
+
+----------------------------------
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Lato:wght@300;400;500;600&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(45, 20%, 98%);
+  --foreground: hsl(30, 8%, 15%);
+  --muted: hsl(45, 15%, 94%);
+  --muted-foreground: hsl(30, 5%, 45%);
+  --popover: hsl(45, 20%, 98%);
+  --popover-foreground: hsl(30, 8%, 15%);
+  --card: hsl(0, 0%, 100%);
+  --card-foreground: hsl(30, 8%, 15%);
+  --border: hsl(45, 12%, 88%);
+  --input: hsl(45, 12%, 92%);
+  --primary: hsl(355, 65%, 42%);
+  --primary-foreground: hsl(0, 0%, 98%);
+  --secondary: hsl(45, 15%, 94%);
+  --secondary-foreground: hsl(30, 8%, 15%);
+  --accent: hsl(174, 70%, 25%);
+  --accent-foreground: hsl(0, 0%, 98%);
+  --destructive: hsl(0, 84.2%, 60.2%);
+  --destructive-foreground: hsl(60, 9.1%, 97.8%);
+  --ring: hsl(30, 8%, 15%);
+  --radius: 0.75rem;
+
+  /* Heritage color palette - Light Theme */
+  --heritage-burgundy: hsl(355, 65%, 42%);
+  --heritage-teal: hsl(174, 70%, 25%);
+  --heritage-brown: hsl(30, 8%, 15%);
+  --heritage-gray: hsl(45, 12%, 88%);
+  --heritage-gray-dark: hsl(45, 15%, 82%);
+  --parchment: hsl(45, 20%, 98%);
+  --parchment-dark: hsl(45, 18%, 95%);
+  --heritage-gold: hsl(42, 78%, 60%);
+  --heritage-cream: hsl(45, 25%, 96%);
+}
+
+.dark {
+  /* --- NOWA PALETA BARW DLA MOTYWU CIEMNEGO (BRĄZ I ZŁOTO) --- */
+  --background: hsl(28, 25%, 12%); /* Głęboki, czekoladowy brąz */
+  --background-alt: hsl(28, 20%, 18%); /* Jaśniejszy, ciepły brąz (toffi) */
+  --card: hsl(28, 25%, 16%); /* Brąz dla kart */
+  --popover: hsl(28, 25%, 14%);
+
+  --foreground: hsl(35, 30%, 94%);
+  --card-foreground: hsl(35, 30%, 94%);
+  --popover-foreground: hsl(35, 30%, 94%);
+  --muted-foreground: hsl(35, 20%, 65%);
+
+  --border: hsl(28, 15%, 28%);
+  --input: hsl(28, 15%, 25%);
+  --muted: hsl(28, 15%, 22%);
+  --secondary: hsl(28, 15%, 22%);
+  --secondary-foreground: hsl(35, 30%, 94%);
+
+  --primary: hsl(42, 78%, 60%);
+  --primary-foreground: hsl(25, 35%, 15%);
+  --accent: hsl(38, 90%, 65%);
+  --accent-foreground: hsl(25, 35%, 15%);
+  --ring: hsl(42, 78%, 65%);
+
+  --heritage-burgundy: hsl(42, 78%, 60%);
+  --heritage-teal: hsl(40, 85%, 65%);
+  --heritage-brown: hsl(35, 30%, 94%);
+  --heritage-gray: hsl(28, 15%, 28%);
+  --heritage-gray-dark: hsl(28, 15%, 32%);
+  --parchment: var(--background);
+  --parchment-dark: var(--card);
+  --heritage-gold: hsl(42, 95%, 70%);
+  --heritage-cream: var(--card);
+
+  --destructive: hsl(0, 70%, 50%);
+  --destructive-foreground: hsl(0, 0%, 100%);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: "Lato", sans-serif;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Playfair Display", serif;
+  }
+}
+
+@layer components {
+  .heritage-bg {
+    background: var(--parchment);
+    position: relative;
+  }
+  .dark .heritage-bg {
+    background: var(--background);
+  }
+  .heritage-bg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: radial-gradient(
+        circle at 25% 25%,
+        hsla(42, 78%, 60%, 0.05) 0%,
+        transparent 50%
+      ),
+      radial-gradient(
+        circle at 75% 75%,
+        hsla(45, 80%, 55%, 0.03) 0%,
+        transparent 50%
+      );
+    pointer-events: none;
+    opacity: 0.5;
+  }
+
+  /* Klasy do zróżnicowania tła sekcji */
+  .bg-background-alt {
+    background-color: var(--background-alt);
+  }
+  .bg-gradient-s-brown {
+    background-image: linear-gradient(
+      160deg,
+      var(--background-alt) 0%,
+      var(--background) 100%
+    );
+  }
+  .bg-gradient-dark-brown {
+    background-image: linear-gradient(
+      180deg,
+      hsl(28, 25%, 15%) 0%,
+      hsl(28, 25%, 12%) 100%
+    );
+  }
+
+  .heritage-text {
+    color: var(--heritage-brown);
+  }
+  .heritage-burgundy {
+    color: var(--heritage-burgundy);
+  }
+  .heritage-teal {
+    color: var(--heritage-teal);
+  }
+  .heritage-gold {
+    color: var(--heritage-gold);
+  }
+
+  .btn-heritage-burgundy {
+    background: var(--heritage-burgundy);
+    color: var(--primary-foreground);
+    border: 1px solid hsla(42, 78%, 50%, 0.5);
+    @apply hover:shadow-lg hover:scale-105 transition-all duration-200;
+  }
+  .dark .btn-heritage-burgundy {
+    box-shadow: 0 4px 20px hsla(42, 78%, 60%, 0.15);
+  }
+
+  .btn-heritage-teal {
+    background: var(--heritage-teal);
+    color: var(--accent-foreground);
+    border: 1px solid hsla(40, 85%, 55%, 0.5);
+    @apply hover:shadow-lg hover:scale-105 transition-all duration-200;
+  }
+  .dark .btn-heritage-teal {
+    box-shadow: 0 4px 20px hsla(40, 85%, 65%, 0.15);
+  }
+
+  .heritage-border {
+    border-color: var(--heritage-gray);
+  }
+
+  .heritage-card {
+    background: var(--card);
+    border: 1px solid var(--heritage-gray);
+    border-radius: var(--radius);
+    box-shadow: 0 4px 12px hsla(30, 8%, 15%, 0.05);
+    @apply transition-all duration-200 hover:shadow-lg hover:border-opacity-60;
+  }
+
+  .person-node {
+    @apply cursor-pointer transition-all duration-300 hover:shadow-xl hover:scale-105;
+    background: var(--card);
+    border: 2px solid var(--heritage-gray);
+    border-radius: 12px;
+    box-shadow: 0 4px 20px hsla(25, 20%, 12%, 0.2);
+  }
+  .person-node:hover {
+    box-shadow: 0 8px 32px hsla(25, 20%, 12%, 0.3);
+  }
+
+  .family-gierczak {
+    border-color: var(--heritage-burgundy);
+  }
+  .family-ofiara {
+    border-color: var(--heritage-teal);
+  }
+
+  .elegant-separator {
+    position: relative;
+    text-align: center;
+    margin: 2rem 0;
+  }
+  .elegant-separator::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      var(--heritage-gray),
+      transparent
+    );
+  }
+  .elegant-separator span {
+    background: var(--background);
+    padding: 0 1rem;
+    color: var(--heritage-brown);
+    font-weight: 500;
+  }
+
+  .heritage-gradient-text {
+    background: linear-gradient(
+      135deg,
+      var(--heritage-burgundy) 0%,
+      var(--heritage-teal) 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+  }
+
+  .scroll-to-top-btn {
+    background-color: var(--heritage-brown);
+    color: var(--parchment);
+    border: 1px solid var(--heritage-gray);
+    @apply opacity-80 hover:opacity-100 transition-all duration-300 ease-in-out hover:scale-110 hover:shadow-2xl;
+  }
+
+  .dark .scroll-to-top-btn {
+    background-color: var(--primary);
+    color: var(--primary-foreground);
+    border: 1px solid hsl(42, 78%, 70%);
+  }
+}

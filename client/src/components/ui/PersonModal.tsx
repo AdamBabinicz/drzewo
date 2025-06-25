@@ -115,6 +115,7 @@ export default function PersonModal({
                       src={person.photoUrl}
                       alt={`${person.firstName} ${person.lastName}`}
                       className="w-full h-full rounded-lg object-cover"
+                      loading="lazy"
                     />
                   ) : (
                     <User className="w-16 h-16 text-muted-foreground" />
