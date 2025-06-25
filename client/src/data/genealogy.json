@@ -1090,7 +1090,7 @@
       "id": 99,
       "firstName": "Roman",
       "lastName": "Ofiara",
-      "photoUrl": null,
+      "photoUrl": "/images/roman.png",
       "family": "ofiara",
       "birthDate": "1939",
       "spouseIds": [],
