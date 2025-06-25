@@ -117,7 +117,7 @@ const translations = {
     "gallery.item.portrait-4.title": "Portret prababci i pradziadka (?)",
     "gallery.item.portrait-4.desc": "Członkowie rodziny Sobień (Drużdżel)",
     "gallery.item.doc-1.title":
-      "Akt ślubu Jana i Agnieszki Gierczak 14.11.1917",
+      "Zapis ślubu Jana Gierczaka i Agnieszki Baćmagi 14.11.1917",
     "gallery.item.doc-1.desc": "Księga parafialna w Zakrzowie (Zakrzewie)",
     "gallery.item.doc-2.title": "Gulinek, 1960",
     "gallery.item.doc-2.desc":
@@ -447,7 +447,7 @@ const translations = {
       "Great-grandmother and great-grandfather's portrait (?)",
     "gallery.item.portrait-4.desc": "Members of the Sobień (Drużdżel) family",
     "gallery.item.doc-1.title":
-      "Marriage certificate of Jan and Agnieszka Gierczak 11/14/1917",
+      "Marriage record of Jan Gierczak and Agnieszka Baćmaga 14.11.1917",
     "gallery.item.doc-1.desc": "Parish register in Zakrzów (Zakrzew)",
     "gallery.item.doc-2.title": "Gulinek, 1960",
     "gallery.item.doc-2.desc":
