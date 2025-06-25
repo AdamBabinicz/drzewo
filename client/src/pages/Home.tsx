@@ -9,7 +9,7 @@ export default function Home() {
   const { t, p } = useLanguage();
 
   const seoTitle =
-    "Rody Gierczak i Ofiara – Drzewo Genealogiczne i Dzieje Rodu.";
+    "Rody Gierczak i Ofiara – Drzewo Genealogiczne i Dzieje Rodów";
 
   const handleScrollToAbout = (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
