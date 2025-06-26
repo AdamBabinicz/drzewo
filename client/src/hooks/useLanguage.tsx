@@ -1,3 +1,4 @@
+// src/hooks/useLanguage.tsx
 import { createContext, useContext, useState } from "react";
 import { useLocation } from "wouter";
 
@@ -164,7 +165,6 @@ const translations = {
     "sources.section.churchSources.item4":
       "Kronika parafialna - zapisy o mieszkańcach Jaszowic i Ludwikowa",
     "sources.section.onlineSources.title": "Źródła internetowe",
-    // ZMIANA TUTAJ
     "sources.section.onlineSources.item1":
       "<link>Geneteka - Ogólnopolska Baza Indeksów Metrykalnych</link>, Parafia Cerekiew (woj. mazowieckie)",
     "sources.section.familyAccounts.title": "Przekazy rodzinne",
@@ -196,6 +196,8 @@ const translations = {
     "familyBranch.notFound.title": "Nieznana rodzina",
     "familyBranch.notFound.desc": "Wybierz prawidłową gałąź rodzinną.",
     "familyBranch.etymology.title": "Pochodzenie nazwiska",
+    "familyBranch.progenitorTitle": "Protoplasta Rodu",
+    "familyBranch.descendantsTitle": "Potomkowie",
 
     "familyBranch.etymology.gierczak.h1": "Budowa morfologiczna",
     "familyBranch.etymology.gierczak.p1":
@@ -264,6 +266,9 @@ const translations = {
     "person.marriedOn": "ślub",
     "person.anecdotes": "Wspomnienia i anegdoty",
     "person.hasAnecdotes": "Kliknij, aby przeczytać wspomnienia",
+
+    "familyUnit.parents": "Rodzice",
+    "familyUnit.children": "Dzieci",
 
     "footer.title": "Korzenie rodu",
     "footer.description":
@@ -496,7 +501,6 @@ const translations = {
     "sources.section.churchSources.item4":
       "Parish chronicle - records about the inhabitants of Jaszowice and Ludwików",
     "sources.section.onlineSources.title": "Online Sources",
-    // ZMIANA TUTAJ
     "sources.section.onlineSources.item1":
       "<link>Geneteka - The National Database of Metrical Indexes</link>, Cerekiew Parish (Masovian Voivodeship)",
     "sources.section.familyAccounts.title": "Family Accounts",
@@ -528,6 +532,8 @@ const translations = {
     "familyBranch.notFound.title": "Unknown family",
     "familyBranch.notFound.desc": "Please select a valid family branch.",
     "familyBranch.etymology.title": "Surname Origin",
+    "familyBranch.progenitorTitle": "Family Progenitor",
+    "familyBranch.descendantsTitle": "Descendants",
 
     "familyBranch.etymology.gierczak.h1": "Morphological Structure",
     "familyBranch.etymology.gierczak.p1":
@@ -597,6 +603,9 @@ const translations = {
     "person.marriedOn": "m.",
     "person.anecdotes": "Memories and Anecdotes",
     "person.hasAnecdotes": "Click to read anecdotes",
+
+    "familyUnit.parents": "Parents",
+    "familyUnit.children": "Children",
 
     "footer.title": "Family Roots",
     "footer.description":

@@ -1,16 +1,18 @@
+// src/components/FamilyBranchView.tsx
 import { useRoute } from "wouter";
 import { useQuery } from "@tanstack/react-query";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import PersonCard from "@/components/ui/PersonCard";
 import PersonModal from "@/components/ui/PersonModal";
 import { Person } from "@shared/schema";
-import { MapPin, Users, Eye, BookText, ChevronDown } from "lucide-react";
-import { useState } from "react";
+import { MapPin, Users, Eye, BookText, ChevronDown, Award } from "lucide-react";
+import { useMemo, useState } from "react";
 import SEO from "@/components/SEO";
 import genealogyData from "@/data/genealogy.json";
 import { Link } from "wouter";
 import { useLanguage } from "@/hooks/useLanguage";
+import { getFamilyStructure } from "@/lib/genealogyUtils";
+import FamilyUnitCard from "@/components/ui/FamilyUnitCard";
 
 export default function FamilyBranchView() {
   const { t, p, language } = useLanguage();
@@ -26,14 +28,20 @@ export default function FamilyBranchView() {
     queryFn: () => Promise.resolve(genealogyData.people as Person[]),
   });
 
-  const familyPeople = allPeople.filter((person) => person.family === family);
+  // ZMIANA TUTAJ: Wywołujemy logikę w nowy sposób
+  const { progenitorUnit, descendantUnits } = useMemo(() => {
+    if (family && allPeople.length > 0) {
+      return getFamilyStructure(family, allPeople);
+    }
+    return { progenitorUnit: null, descendantUnits: [] };
+  }, [family, allPeople]);
 
   const familyInfo = {
     gierczak: {
       name: t("family.gierczak"),
       description: t("home.branches.gierczak.desc"),
-      places: ["Jaszowice", "Gulinek"],
       color: "heritage-burgundy",
+      borderColor: "border-heritage-burgundy",
       btnColor: "btn-heritage-burgundy",
       imageUrl: "/images/jaszowice.avif",
       placeIds: ["jaszowice", "gulinek_gierczak"],
@@ -41,8 +49,8 @@ export default function FamilyBranchView() {
     ofiara: {
       name: t("family.ofiara"),
       description: t("home.branches.ofiara.desc"),
-      places: ["Ludwików", "Gulinek"],
       color: "heritage-teal",
+      borderColor: "border-heritage-teal",
       btnColor: "btn-heritage-teal",
       imageUrl: "/images/ludwikow.avif",
       placeIds: ["ludwikow", "gulinek_ofiara"],
@@ -65,6 +73,17 @@ export default function FamilyBranchView() {
       </div>
     );
   }
+
+  // Obliczamy liczbę osób dynamicznie na podstawie zwróconej struktury
+  const totalPeopleInBranch = useMemo(() => {
+    if (!progenitorUnit) return 0;
+    const allIds = new Set<number>();
+    [progenitorUnit, ...descendantUnits].forEach((unit) => {
+      unit.parents.forEach((p) => allIds.add(p.id));
+      unit.children.forEach((c) => allIds.add(c.id));
+    });
+    return allIds.size;
+  }, [progenitorUnit, descendantUnits]);
 
   const handlePersonClick = (person: Person) => {
     setSelectedPerson(person);
@@ -172,7 +191,6 @@ export default function FamilyBranchView() {
                     <p className="text-muted-foreground leading-relaxed mb-4">
                       {currentFamily.description}
                     </p>
-
                     <div className="mb-6">
                       <Button
                         variant="ghost"
@@ -194,7 +212,6 @@ export default function FamilyBranchView() {
                         </div>
                       )}
                     </div>
-
                     <div className="flex items-center space-x-4 text-sm text-muted-foreground">
                       <div className="flex items-center">
                         <MapPin className="w-4 h-4 mr-1" />
@@ -219,7 +236,7 @@ export default function FamilyBranchView() {
                       <Users className={`w-12 h-12 ${currentFamily.color}`} />
                     </div>
                     <p className="text-3xl font-bold heritage-text">
-                      {familyPeople.length}
+                      {totalPeopleInBranch}
                     </p>
                     <p className="text-muted-foreground">
                       {t("familyBranch.history.membersInDb")}
@@ -231,90 +248,70 @@ export default function FamilyBranchView() {
           </div>
 
           <div className="bg-white dark:bg-gradient-dark-brown rounded-lg p-4 sm:p-8">
-            <div className="mb-12">
-              <div className="flex flex-wrap items-center justify-between gap-4 mb-6">
-                <h2 className="font-serif text-3xl font-semibold heritage-text">
-                  {t("familyBranch.members.title")}
-                </h2>
-                <Button
-                  asChild
-                  className={`${currentFamily.btnColor} transition-all duration-300 hover:scale-105 hover:shadow-md`}
-                >
-                  <Link href={p("tree")}>
-                    <Eye className="w-4 h-4 mr-2" />
-                    {t("familyBranch.members.viewInTree")}
-                  </Link>
-                </Button>
-              </div>
+            <div className="flex flex-wrap items-center justify-between gap-4 mb-6">
+              <h2 className="font-serif text-3xl font-semibold heritage-text">
+                {t("familyBranch.members.title")}
+              </h2>
+              <Button
+                asChild
+                className={`${currentFamily.btnColor} transition-all duration-300 hover:scale-105 hover:shadow-md`}
+              >
+                <Link href={p("tree")}>
+                  <Eye className="w-4 h-4 mr-2" />
+                  {t("familyBranch.members.viewInTree")}
+                </Link>
+              </Button>
+            </div>
 
-              {familyPeople.length > 0 ? (
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                  {familyPeople
-                    .sort((a, b) => {
-                      const birthYearA = a.birthDate
-                        ? parseInt(a.birthDate)
-                        : 0;
-                      const birthYearB = b.birthDate
-                        ? parseInt(b.birthDate)
-                        : 0;
-                      return birthYearA - birthYearB;
-                    })
-                    .map((person) => (
-                      <PersonCard
-                        key={person.id}
-                        person={person}
-                        onClick={() => handlePersonClick(person)}
+            {progenitorUnit ? (
+              <div>
+                <div className="mb-12">
+                  <div className="flex items-center mb-4">
+                    <Award className="w-6 h-6 mr-3 text-amber-500" />
+                    <h2 className="font-serif text-2xl font-semibold heritage-text">
+                      {t("familyBranch.progenitorTitle")}
+                    </h2>
+                  </div>
+                  <div
+                    className={`p-4 rounded-lg bg-stone-50 dark:bg-background-alt border-t-4 ${currentFamily.borderColor}`}
+                  >
+                    <FamilyUnitCard
+                      unit={progenitorUnit}
+                      onPersonClick={handlePersonClick}
+                      familyColor={currentFamily.borderColor}
+                    />
+                  </div>
+                </div>
+
+                {descendantUnits.length > 0 && (
+                  <div>
+                    <h2 className="font-serif text-2xl font-semibold heritage-text mb-4">
+                      {t("familyBranch.descendantsTitle")}
+                    </h2>
+                    {descendantUnits.map((unit, index) => (
+                      <FamilyUnitCard
+                        key={index}
+                        unit={unit}
+                        onPersonClick={handlePersonClick}
+                        familyColor={currentFamily.borderColor}
                       />
                     ))}
-                </div>
-              ) : (
-                <Card className="heritage-card">
-                  <CardContent className="p-8 text-center">
-                    <Users className="w-12 h-12 text-muted-foreground mx-auto mb-4" />
-                    <h3 className="text-lg font-semibold heritage-text mb-2">
-                      {t("familyBranch.members.noData.title")}
-                    </h3>
-                    <p className="text-muted-foreground">
-                      {t("familyBranch.members.noData.desc")}
-                    </p>
-                  </CardContent>
-                </Card>
-              )}
-            </div>
-
-            <div>
-              <h2 className="font-serif text-3xl font-semibold heritage-text mb-6">
-                {t("familyBranch.places.title")}
-              </h2>
-              <div className="grid md:grid-cols-2 gap-6">
-                {familyPlaces.map((place) => (
-                  <Card
-                    key={place.id}
-                    className="overflow-hidden heritage-card"
-                  >
-                    <div className="relative h-64">
-                      <img
-                        src={place.imageUrl}
-                        alt={place.name}
-                        className="w-full h-full object-cover"
-                        loading="lazy"
-                      />
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-                      <div className="absolute bottom-4 left-4">
-                        <h3 className="font-serif text-xl font-semibold text-white">
-                          {place.name}
-                        </h3>
-                      </div>
-                    </div>
-                    <CardContent className="p-4">
-                      <p className="text-muted-foreground">
-                        {getDynamicText(place.description)}
-                      </p>
-                    </CardContent>
-                  </Card>
-                ))}
+                  </div>
+                )}
               </div>
-            </div>
+            ) : (
+              <Card className="heritage-card">
+                <CardContent className="p-8 text-center">
+                  <Users className="w-12 h-12 text-muted-foreground mx-auto mb-4" />
+                  <h3 className="text-lg font-semibold heritage-text mb-2">
+                    {t("familyBranch.members.noData.title")}
+                  </h3>
+                  <p className="text-muted-foreground">
+                    {t("familyBranch.members.noData.desc")}
+                  </p>
+                </CardContent>
+              </Card>
+            )}
           </div>
         </div>
 
