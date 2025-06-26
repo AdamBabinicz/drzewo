@@ -195,7 +195,7 @@ export default function FamilyBranchView() {
                       <Button
                         variant="ghost"
                         onClick={() => setEtymologyOpen(!etymologyOpen)}
-                        className="text-sm text-muted-foreground hover:text-foreground p-1 h-auto"
+                        className="text-sm text-muted-foreground dark:hover:text-popover p-1 h-auto"
                       >
                         <BookText className="w-4 h-4 mr-2" />
                         {t("familyBranch.etymology.title")}
