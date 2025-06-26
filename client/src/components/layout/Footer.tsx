@@ -1,4 +1,12 @@
-import { Network, Mail, MapPin } from "lucide-react";
+import {
+  Network,
+  Mail,
+  MapPin,
+  Facebook,
+  Twitter,
+  Github,
+  Instagram,
+} from "lucide-react";
 import { Link } from "wouter";
 import { useLanguage } from "@/hooks/useLanguage";
 
@@ -18,6 +26,36 @@ export default function Footer() {
             <p className="text-white/80 leading-relaxed">
               {t("footer.description")}
             </p>
+
+            <div className="mt-6 flex items-center gap-5">
+              <a
+                href="https://www.facebook.com/adam.gierczak.334"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={t("footer.social.facebook")}
+                className="text-white/80 hover:text-white transition-colors"
+              >
+                <Facebook className="w-6 h-6" />
+              </a>
+              <a
+                href="https://twitter.com/AdamBabinicz"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={t("footer.social.x")}
+                className="text-white/80 hover:text-white transition-colors"
+              >
+                <Twitter className="w-6 h-6" />
+              </a>
+              <a
+                href="https://github.com/AdamBabinicz"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={t("footer.social.github")}
+                className="text-white/80 hover:text-white transition-colors"
+              >
+                <Github className="w-6 h-6" />
+              </a>
+            </div>
           </div>
 
           <div>

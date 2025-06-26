@@ -288,6 +288,10 @@ const translations = {
     "footer.contact.projectInfo":
       "Projekt genealogiczny\nzachowujący pamięć o przodkach",
     "footer.copyright": "{year} Radom, Korzenie rodu Gierczak i Ofiara.",
+    "footer.social.facebook": "Odwiedź nasz profil na Facebooku",
+    "footer.social.x": "Odwiedź nasz profil na X (dawniej Twitter)",
+    "footer.social.github": "Zobacz nasz projekt na GitHubie",
+    "footer.social.instagram": "Obserwuj nas na Instagramie",
 
     "terms.title": "Regulamin Strony",
     "terms.lastUpdated": "Ostatnia aktualizacja: {date}",
@@ -625,6 +629,12 @@ const translations = {
     "footer.contact.projectInfo":
       "A genealogical project\npreserving the memory of ancestors",
     "footer.copyright": "{year} Radom, Roots of the Gierczak & Ofiara Family.",
+    // --- NOWE TŁUMACZENIA DLA SOCIAL MEDIÓW (EN) ---
+    "footer.social.facebook": "Visit our profile on Facebook",
+    "footer.social.x": "Visit our profile on X (formerly Twitter)",
+    "footer.social.github": "Check out our project on GitHub",
+    "footer.social.instagram": "Follow us on Instagram",
+    // --- KONIEC NOWYCH TŁUMACZEŃ ---
 
     "terms.title": "Terms of Service",
     "terms.lastUpdated": "Last updated: {date}",
