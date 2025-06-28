@@ -1,3 +1,5 @@
+// src/components/PersonNode.tsx
+
 import React from "react";
 import { Handle, Position, NodeProps } from "reactflow";
 import { User, Calendar, MessageSquare } from "lucide-react";
@@ -16,22 +18,29 @@ type PersonNodeData = {
   family: "gierczak" | "ofiara";
 };
 
-const formatDate = (dateString: string | null | undefined, locale: string) => {
+// ZAKTUALIZOWANA FUNKCJA formatDate
+const formatDate = (dateString: string | null | undefined) => {
   if (!dateString) return "?";
+  // Jeśli zawiera litery (np. "ok.", "przed"), zwróć tekst bez zmian
+  if (/[a-zA-Z]/.test(dateString)) {
+    return dateString;
+  }
+  // Jeśli to tylko rok, zwróć rok
   if (/^\d{4}$/.test(dateString)) {
     return dateString;
   }
   try {
     const date = new Date(dateString);
     if (isNaN(date.getTime())) return dateString;
-    return new Intl.DateTimeFormat(locale).format(date);
+    // Format "YYYY-MM-DD" lub podobny - dla uproszczenia zwracamy bez formatowania
+    return dateString.split(" ")[0]; // Zwraca tylko część daty bez godziny
   } catch (e) {
     return dateString;
   }
 };
 
 export default function PersonNode({ data }: NodeProps<PersonNodeData>) {
-  const { t, language } = useLanguage();
+  const { t } = useLanguage();
   const { person, onClick, family } = data;
   const isGierczak = family === "gierczak";
 
@@ -39,8 +48,10 @@ export default function PersonNode({ data }: NodeProps<PersonNodeData>) {
     ? "border-heritage-burgundy"
     : "border-heritage-teal";
 
-  const birth = formatDate(person.birthDate, language);
-  const death = formatDate(person.deathDate, language);
+  // KLUCZOWA ZMIANA: Wybieramy właściwe pole
+  const birthInfo = person.birthDateNote || person.birthDate;
+  const birth = formatDate(birthInfo);
+  const death = formatDate(person.deathDate);
   const lifeSpan = `${birth} - ${death}`;
   const hasAnecdotes = person.anecdotes && person.anecdotes.length > 0;
 
@@ -83,7 +94,8 @@ export default function PersonNode({ data }: NodeProps<PersonNodeData>) {
                 </Tooltip>
               )}
             </div>
-            {(person.birthDate || person.deathDate) && (
+            {/* KLUCZOWA ZMIANA: Używamy 'birthInfo' */}
+            {(birthInfo || person.deathDate) && (
               <p className="text-xs text-stone-600 dark:text-stone-400 flex items-center">
                 <Calendar className="w-3 h-3 mr-1.5 flex-shrink-0" />
                 <span>{lifeSpan}</span>

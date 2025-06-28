@@ -1,3 +1,5 @@
+// src/components/PersonModal.tsx
+
 import { useState } from "react";
 import {
   Dialog,
@@ -29,8 +31,13 @@ interface PersonModalProps {
   allPeople: Person[];
 }
 
+// ZAKTUALIZOWANA FUNKCJA formatDate
 const formatDate = (dateString: string | null | undefined, locale: string) => {
   if (!dateString || dateString === "?") return "?";
+  // Jeśli zawiera litery (np. "ok.", "przed"), zwróć tekst bez zmian
+  if (/[a-zA-Z]/.test(dateString)) {
+    return dateString;
+  }
   if (
     /^\d{4}$/.test(dateString) ||
     /^\d{4}s$/.test(dateString) ||
@@ -123,14 +130,20 @@ export default function PersonModal({
                 </div>
               </div>
               <div className="md:w-2/3 space-y-4">
-                {(person.birthDate || person.deathDate) && (
+                {(person.birthDate ||
+                  person.birthDateNote ||
+                  person.deathDate) && (
                   <div className="flex items-start space-x-3">
                     <Calendar className="w-4 h-4 text-muted-foreground mt-1" />
                     <div>
-                      {person.birthDate && (
+                      {/* KLUCZOWA ZMIANA: Używamy 'birthDateNote' */}
+                      {(person.birthDate || person.birthDateNote) && (
                         <span className="heritage-text">
                           {t("person.born")}:{" "}
-                          {formatDate(person.birthDate, language)}
+                          {formatDate(
+                            person.birthDateNote || person.birthDate,
+                            language
+                          )}
                         </span>
                       )}
                       {person.deathDate && (

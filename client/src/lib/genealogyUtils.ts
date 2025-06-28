@@ -7,9 +7,24 @@ export interface FamilyUnit {
 }
 
 const sortByBirthDate = (a: Person, b: Person): number => {
-  const getYear = (p: Person) => {
-    const yearStr = p.birthDate?.substring(0, 4);
-    return yearStr && !isNaN(parseInt(yearStr)) ? parseInt(yearStr) : 9999;
+  const getYear = (p: Person): number => {
+    // 1. Spróbuj użyć precyzyjnej daty
+    if (p.birthDate) {
+      const yearStr = p.birthDate.substring(0, 4);
+      if (!isNaN(parseInt(yearStr))) {
+        return parseInt(yearStr);
+      }
+    }
+    // 2. Jeśli nie ma precyzyjnej daty, sprawdź notatkę
+    if (p.birthDateNote) {
+      // Wyszukaj pierwszą 4-cyfrową liczbę w tekście (np. "1800" w "ok. 1800")
+      const match = p.birthDateNote.match(/\d{4}/);
+      if (match && match[0]) {
+        return parseInt(match[0]);
+      }
+    }
+    // 3. Jeśli nigdzie nie znaleziono roku, użyj wartości domyślnej
+    return 9999;
   };
   return getYear(a) - getYear(b);
 };
@@ -119,7 +134,6 @@ export function getFamilyStructure(
         )
         .sort(sortByBirthDate);
 
-      // KLUCZOWA ZMIANA: Twórz jednostkę tylko jeśli osoba ma dzieci
       if ((child.childIds ?? []).length > 0) {
         processedParentIds.add(child.id);
 
@@ -134,7 +148,6 @@ export function getFamilyStructure(
           children: grandChildren,
         });
 
-        // Kontynuuj rekurencję tylko dla tych, którzy mieli dzieci
         if (grandChildren.length > 0) {
           buildDescendantUnits(grandChildren);
         }

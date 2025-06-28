@@ -1,3 +1,5 @@
+// src/components/PersonCard.tsx
+
 import { User, Calendar, MapPin, MessageSquare } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Person } from "@shared/schema";
@@ -33,6 +35,9 @@ export default function PersonCard({ person, onClick }: PersonCardProps) {
   };
 
   const occupationText = getOccupationText(person);
+
+  // KLUCZOWA ZMIANA: Wybieramy właściwą informację o dacie urodzenia
+  const birthInfo = person.birthDateNote || person.birthDate;
 
   return (
     <TooltipProvider delayDuration={200}>
@@ -77,10 +82,11 @@ export default function PersonCard({ person, onClick }: PersonCardProps) {
                 )}
               </div>
 
-              {(person.birthDate || person.deathDate) && (
+              {/* KLUCZOWA ZMIANA: Używamy nowej zmiennej 'birthInfo' */}
+              {(birthInfo || person.deathDate) && (
                 <p className="text-sm text-stone-600 dark:text-slate-300 flex items-center">
                   <Calendar className="w-3 h-3 mr-1" />
-                  {person.birthDate}
+                  {birthInfo}
                   {person.deathDate ? `-${person.deathDate}` : ""}
                 </p>
               )}

@@ -20,7 +20,9 @@ export type Person = {
   lastName: string;
   maidenName?: string | null;
   birthDate?: string | null;
+  birthDateNote?: string | null;
   deathDate?: string | null;
+  deathDateNote?: string | null;
   birthPlace?: string | null;
   deathPlace?: string | null;
   occupation: LocalizedString | string | null;
