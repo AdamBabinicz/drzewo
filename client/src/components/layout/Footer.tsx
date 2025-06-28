@@ -3,10 +3,10 @@ import {
   Mail,
   MapPin,
   Facebook,
-  Twitter,
   Github,
   Instagram,
 } from "lucide-react";
+import { FaXTwitter } from "react-icons/fa6";
 import { Link } from "wouter";
 import { useLanguage } from "@/hooks/useLanguage";
 
@@ -44,7 +44,7 @@ export default function Footer() {
                 aria-label={t("footer.social.x")}
                 className="text-white/80 hover:text-white transition-colors"
               >
-                <Twitter className="w-6 h-6" />
+                <FaXTwitter className="w-6 h-6" />
               </a>
               <a
                 href="https://github.com/AdamBabinicz"
