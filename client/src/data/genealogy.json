@@ -1647,13 +1647,14 @@
       "firstName": "Franciszka",
       "lastName": "Ofiara",
       "birthDate": "1839-09-19",
+      "deathDate": "1841-08-15",
       "family": "ofiara",
       "parentIds": [133, 134],
       "spouseIds": [],
       "childIds": [],
       "biography": {
-        "pl": "Córka Stefana i Małgorzaty z d. Kowalczyk.",
-        "en": "Daughter of Stefan and Małgorzata née Kowalczyk."
+        "pl": "Córka Stefana i Małgorzaty z d. Kowalczyk. Żyła 2 lata",
+        "en": "Daughter of Stefan and Małgorzata née Kowalczyk. Lived for 2 years."
       }
     },
     {
