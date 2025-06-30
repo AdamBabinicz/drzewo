@@ -234,12 +234,16 @@
       },
       "anecdotes": [
         {
-          "pl": "Z opowiadania wiem, że pewnego razu babcia spojrzała w górę na wiśnię lub czereśnię i wówczas mała gałązka oderwała się z drzewa i trafiła babcię w oko. Od tamtej pory miała problem z widzeniem przez uszkodzone oko.",
-          "en": "I know from a story that one time grandma looked up at a cherry tree, and a small branch broke off and hit her in the eye. From that moment on, she had trouble seeing with the injured eye."
+          "pl": "Z opowiadania wiem, że pewnego razu babcia spojrzała w górę na wiśnię lub czereśnię, a wtedy mała gałązka oderwała się z drzewa i trafiła ją w oko. Od tego czasu miała problem z widzeniem przez uszkodzone oko.",
+          "en": "From the story, I know that one time grandma looked up at a cherry or sour cherry tree, and a small branch broke off and hit her in the eye. Since then, she had trouble seeing through the injured eye."
         },
         {
-          "pl": "Kiedyś babcia Agnieszka odwiedziła nas w mieszkaniu na ul. Czarnej. Była bardzo zaciekawiona telewizorem i nie mogła nadziwić się, że poruszają się w nim osoby. W pewnym momencie żartując zapytała: 'czy w środku są małe ludziki?'.",
-          "en": "Once, grandma Agnieszka visited us in our apartment on Czarna Street. She was very curious about the television and couldn't get over the fact that people were moving inside it. At one point, she jokingly asked: 'are there little people inside?'."
+          "pl": "Kiedyś babcia Agnieszka odwiedziła nas w mieszkaniu na ulicy Czarnej. Była bardzo zaciekawiona telewizorem i nie mogła uwierzyć, że poruszające się na ekranie osoby są prawdziwe.",
+          "en": "Once, Grandma Agnieszka visited us at our apartment on Czarna Street. She was very curious about the television and couldn’t believe that the moving people on the screen were real."
+        },
+        {
+          "pl": "W pewnym momencie, żartując, zapytała: 'Czy w środku są małe ludziki?'.",
+          "en": "At one point, jokingly, she asked, 'Are there little people inside?'"
         }
       ]
     },
@@ -262,16 +266,12 @@
       },
       "anecdotes": [
         {
-          "pl": "Po zawarciu małżeństwa, podobnie jak jego brat Tadek, opuścił ojcowiznę i zamieszkał w Radomiu. Pozostałe rodzeństwo, Stefek i Zosia, osiedliło się w pobliskich wsiach, a na gospodarce pozostał Władek. Józek uczył się zawodu szewskiego, ale ostatecznie znalazł pracę w 'Walterze' - największym w Radomiu zakładzie. Pracował tam jako tokarz, frezer i ślifierz aż do przejścia na rentę.",
-          "en": "After getting married, like his brother Tadek, he left his family home and moved to Radom. His other siblings, Stefek and Zosia, settled in nearby villages, while Władek remained on the farm. Józek trained as a shoemaker but eventually found a job at 'Walter' - the largest factory in Radom. He worked there as a lathe operator, miller, and grinder until his retirement."
+          "pl": "Mój tata, podobnie jak jego brat Tadek, po ślubie opuścił rodzinne gospodarstwo i osiedlił się w Radomiu. Pozostali z rodzeństwa, Stefek i Zosia, również po założeniu rodzin zamieszkali w pobliskich miejscowościach – Dąbrówce i Klwatach. Na ojcowiźnie pozostał jedynie Władek. Józek z kolei rozpoczął naukę zawodu szewca, jednak ostatecznie zatrudnił się w zakładach „Walter” – największym zakładzie przemysłowym w Radomiu. Pracował tam przez wiele lat jako tokarz, frezer i ślusarz, aż do momentu przejścia na rentę. Pamiętam, jak opowiadał mi historię z lat 50., kiedy to idąc do pracy, wpadł do rzeki Mlecznej, przechodząc przez kładkę.",
+          "en": "After getting married, my father—like his brother Tadek—left the family farm and settled in Radom. His other siblings, Stefek and Zosia, also moved away after starting their own families, settling in nearby villages: Dąbrówka and Klwaty. Only Władek stayed on the family land. Józek began training as a shoemaker but eventually found work at 'Walter,' the largest industrial plant in Radom. He worked there for many years as a turner, miller, and metalworker until he retired on disability. I remember him telling me a story from the 1950s, when he was walking to work and fell into the Mleczna River while crossing a footbridge."
         },
         {
-          "pl": "Opowiadał mi kiedyś historię z lat 50-tych, że idąc do pracy przechodził po kładce nad rzeczką Mleczną i wpadł do wody.",
-          "en": "He once told me a story from the 1950s that while walking to work, he was crossing a footbridge over the Mleczna river and fell into the water."
-        },
-        {
-          "pl": "Chętnie jeździł na rodzinną wieś i pomagał w pracach polowych, zwłaszcza w porze żniw. Za pomoc dostawał ziemniaki, warzywa, owoce i jajka. Był człowiekiem bardzo uczynnym. Razem z bratankiem Kazikiem wykonywali na sprzedaż elektryczne, blaszane piekarniki. Później razem ze mną jeździł 2-3 razy w tygodniu na jarmarki i pomagał mi w sprzedaży szytej przeze mnie odzieży.",
-          "en": "He eagerly visited the family village and helped with farm work, especially during harvest time. In return for his help, he received potatoes, vegetables, fruits, and eggs. He was a very helpful man. Together with his nephew Kazik, they made and sold electric tin ovens. Later, he would go with me 2-3 times a week to local markets to help me sell clothes I had sewn."
+          "pl": "Tata chętnie wracał na wieś, aby pomagać przy pracach polowych, zwłaszcza podczas żniw. W zamian za swoją pomoc dostawał ziemniaki, warzywa, owoce i jajka. Był osobą niezwykle uczynną i bezinteresowną. Wraz ze swoim bratankiem Kazikiem konstruowali elektryczne piekarniki z blachy, które cieszyły się dużą popularnością w latach 80. XX wieku. Później jeździł ze mną 2–3 razy w tygodniu na jarmarki, gdzie pomagał mi w sprzedaży ubrań, które samodzielnie szyłem.",
+          "en": "My father often returned to the village to help with fieldwork, especially during harvest time. In return, he received potatoes, vegetables, fruit, and eggs. He was extremely kind and generous. Together with his nephew Kazik, he built electric ovens made of sheet metal, which became very popular in the 1980s. Later on, he would travel with me two or three times a week to markets, where he helped me sell the clothes I had sewn myself."
         }
       ]
     },
@@ -294,12 +294,12 @@
       },
       "anecdotes": [
         {
-          "pl": "Była osobą bardzo pogodną. Znakomicie gotowała i potrafiła przyrządzać wyroby z wieprzowiny (szynkę, kiełbasę, kaszankę). Pracowała jako sprzątaczka, w pralni chemicznej, a później w fabryce kuchenek. Po pracy szyła w domu pikowane kurtki, a z czasem fartuszki i czapeczki, które sama sprzedawała 'pod dworcem'.",
-          "en": "She was a very cheerful person. She was an excellent cook and could prepare pork products (ham, sausage, black pudding). She worked as a cleaner, in a dry cleaner's, and later in a stove factory. After work, she sewed quilted jackets at home, and eventually aprons and caps, which she sold herself 'by the station'."
+          "pl": "Moja mama była osobą pełną pogody ducha. Świetnie gotowała i potrafiła przygotować domowe wyroby z wieprzowiny, takie jak szynka, kiełbasa, kaszanka czy salceson. Pracowała jako sprzątaczka w Starostwie, a dodatkowo prała w pralni chemicznej, gdzie używało się szczoty ryżowej. Później zatrudniła się w fabryce kuchenek, zwanej potocznie \"blaszanką\". Po pracy dorabiała w domu, szyjąc pikowane kurtki ortalionowe dla sprzedawców z targu. Z czasem zaczęła robić fartuszki dla gospodyń oraz krochmalone czapeczki dla dzieci, które sprzedawała w pobliżu dworca i na osiedlu zwanym \"Koreą\". Była bardzo związana ze swoim bratem Romkiem oraz przyrodnim rodzeństwem: Piotrkiem, Staśkiem i Jankiem. Okazywała głęboki szacunek swoim rodzicom, czyli moim dziadkom. W dzieciństwie, które przypadło częściowo na czas wojny i okupacji, zwracała się do ojca \"tatuniu\", a do matki \"mamuniu\". Jako jedyna dziewczynka w rodzinie miała na sobie większość obowiązków domowych związanych z utrzymaniem porządku. Wspominała, że największą radością była dla niej słodka bułka, którą \"tatunio\" czasem przywoził z jarmarku.",
+          "en": "My mother was a cheerful and optimistic person. She was an excellent cook and could prepare homemade pork products such as ham, sausage, black pudding, and head cheese. She worked as a cleaner at the County Office and also did laundry at a dry cleaner's, where she used a rice brush. Later, she got a job at a stove factory, colloquially called the \"blaszanka\". After work, she earned extra money at home by sewing quilted nylon jackets for market vendors. Over time, she also began making aprons for housewives and starched caps for children, which she sold near the train station and in a neighborhood known as \"Korea\". She was very close to her brother Romek and her half-siblings: Piotrek, Stasiek, and Janek. She showed deep respect for her parents, my grandparents. During her childhood, which partially took place during the war and occupation, she addressed her father as \"tatuniu\" and her mother as \"mamuniu\". As the only girl in the family, she bore most of the household responsibilities related to maintaining order. She used to say that her greatest joy was a sweet roll that her \"tatunio\" would sometimes bring her from the fair."
         },
         {
-          "pl": "Ze swoim bratem Romkiem i przyrodnim rodzeństwem była bardzo zżyta. Do swoich rodziców, a moich dziadków żywiła ogromny szacunek. W dzieciństwie, które przypadło na lata wojny, do ojca mówiła 'tatuniu', a do matki 'mamuniu'. Opowiadała mi, że największą radością dla niej była 'słodka bułka', którą czasami 'tatunio' przywiózł jej z jarmaku.",
-          "en": "She was very close with her brother Romek and her half-siblings. She had immense respect for her parents, my grandparents. During her childhood, which partly took place during the war, she called her father 'tatuniu' (daddy) and her mother 'mamuniu' (mommy). She told me that her greatest joy was a 'sweet roll' that her 'tatuniu' sometimes brought her from the market."
+          "pl": "Ze swoim bratem Romkiem i przyrodnim rodzeństwem była bardzo zżyta. Do swoich rodziców, a moich dziadków żywiła ogromny szacunek. W dzieciństwie, które przypadło na lata wojny, do ojca mówiła \"tatuniu\", a do matki \"mamuniu\". Opowiadała mi, że największą radością dla niej była \"słodka bułka\", którą czasami \"tatunio\" przywiózł jej z jarmaku.",
+          "en": "She was very close with her brother Romek and her half-siblings. She had great respect for her parents, who were my grandparents. During her childhood, which took place during the war years, she called her father \"tatuniu\" and her mother \"mamuniu\". She told me that her greatest joy was a \"sweet roll\" that her \"tatunio\" would sometimes bring her from the fair."
         }
       ]
     },
@@ -325,8 +325,8 @@
       },
       "anecdotes": [
         {
-          "pl": "Dziadek opowiadał, że gdy zbliżał się front, podkuł swojego konia gwoździem, aby Niemcy nie zabrali go razem z wozem, widząc, że koń kuleje. Po ucieczce Niemców, dziadek gwóźdź wyjął i koń chodził normalnie. Dzięki temu fortelowi, ocalił wóz i konia.",
-          "en": "Grandfather told a story that when the war front was approaching, he deliberately lamed his horse with a nail so that the Germans, seeing the limping animal, wouldn't take it along with the cart. After the Germans fled, he removed the nail, and the horse walked normally. Thanks to this trick, he saved his cart and horse."
+          "pl": "Podczas okupacji hitlerowscy żołnierze stacjonowali w większej izbie, a w mniejszej przebywała siedmioosobowa rodzina. Dziadek opowiadał, że gdy zbliżał się front, podkuł swojego konia gwoździem, żeby udawał kulawego. Niemcy, myśląc, że koń jest niezdolny do pracy, nie zabrali go z wozem. Po ich ucieczce dziadek wyjął gwóźdź i koń chodził normalnie. Dzięki temu sprytnemu zabiegowi udało się ocalić nie tylko zwierzę, ale i wóz niezbędny do pracy w gospodarstwie.",
+          "en": "During the occupation, Nazi soldiers were stationed in the larger room, while the smaller one housed the seven-member family. Grandpa told me that as the front approached, he nailed his horse’s hoof to make it seem lame. The Nazis, thinking the horse was unfit for work, left it with the cart. After they fled, Grandpa removed the nail, and the horse walked normally. Thanks to this clever trick, he managed to save both the horse and the cart, which were essential for farm work."
         }
       ]
     },
@@ -349,16 +349,12 @@
       },
       "anecdotes": [
         {
-          "pl": "Babcia Helena potrafiła pisać i czytać. Pamiętam naszą rozmowę z mojego wczesnego dzieciństwa na temat śmierci. Babcia powiedziała mi, że wszyscy kiedyś umrą. Częściowo zgodziłem się z nią, ale odpowiedziałem jej, że 'ja nie umrę'.",
-          "en": "Grandma Helena could read and write. I remember a conversation from my early childhood about death. Grandma told me that everyone dies eventually. I partially agreed with her, but replied, 'I won't die'."
+          "pl": "Babcia Helena potrafiła czytać i pisać. Pamiętam rozmowę z nią z czasów mojego wczesnego dzieciństwa, gdy poruszyliśmy temat śmierci. Babcia powiedziała, że każdy kiedyś umrze. W części się z nią zgodziłem, ale odpowiedziałem z dziecięcą pewnością: 'Ja nie umrę'. W jej izbie stał duży kufer, w którym trzymała różne rzeczy, w tym wycofane z obiegu papierowe pieniądze. Poprosiłem ją o kilka banknotów i zrobiłem z nich wycinanki.",
+          "en": "Grandma Helena knew how to read and write. I remember a conversation we had during my early childhood about death. She told me that everyone would die one day. I partially agreed with her but replied with childlike certainty, 'I won’t die.' In her room, she had a large chest where she kept various items, including old, withdrawn paper money. I asked her for a few banknotes and used them to make paper cutouts."
         },
         {
-          "pl": "Babcia miała w izbie kufer, w którym trzymała różne rzeczy, między innymi wycofane papierowe pieniądze. Poprosiłem ją o kilka banknotów, z których zrobiłem wycinanki.",
-          "en": "Grandma had a chest in her room where she kept various things, including old, withdrawn paper money. I asked her for a few banknotes, which I then used to make paper cutouts."
-        },
-        {
-          "pl": "W izbie u babci znajdował się kołowrotek do przędzy, maselnica i prasa do sera. Oprócz kołowrotka, stale ich używała. Sama piekła chleb w piecu. Dom był drewniany, kryty słomą. Słyszałem, że dziadek Józef przywiózł go w częściach i postawił na nowo. W czasie okupacji w większej izbie stacjonowali niemieccy żołnierze, a w mniejszej gnieździła się cała rodzina.",
-          "en": "In grandma's room, there was a spinning wheel, a butter churn, and a cheese press. Except for the spinning wheel, she used them constantly. She baked her own bread in an oven. The house was wooden with a thatched roof. I heard that grandpa Józef brought it in parts and reassembled it. During the occupation, German soldiers were stationed in the larger room, while the entire family crowded into the smaller one."
+          "pl": "W izbie babci znajdowały się tradycyjne sprzęty z drewna, takie jak kołowrotek do przędzy, maselnica i prasa do sera. Choć z kołowrotka już nie korzystała, to pozostałe narzędzia były w ciągłym użyciu. Babcia samodzielnie piekła chleb w piecu chlebowym. Jej dom był drewniany, kryty strzechą. Podobno dziadek Józef przywiózł go z innej wsi w częściach i zbudował na nowo. Wewnątrz były dwie izby z drewnianą podłogą, przedsionek, komora i strych.",
+          "en": "In Grandma’s room were traditional wooden tools such as a spinning wheel, a butter churn, and a cheese press. Although she no longer used the spinning wheel, the other tools were still in regular use. She baked bread herself in a wood-fired bread oven. Her house was wooden and had a thatched roof. I heard that Grandpa Józef brought it in parts from another village and rebuilt it. Inside were two rooms with wooden floors, a vestibule, a pantry, and an attic."
         }
       ]
     },
@@ -890,7 +886,37 @@
       "biography": {
         "pl": "Syn Józefa i Marianny.",
         "en": "Son of Józef and Marianna."
-      }
+      },
+      "anecdotes": [
+        {
+          "pl": "Jako bardzo małe dziecko nie lubiłem jeździć na wieś. Nie widziałem tam dla siebie żadnych atrakcji. Zwłaszcza byłem niepocieszony, gdy musiałem nocować.",
+          "en": "As a very young child, I didn’t like going to the countryside. I didn’t see anything enjoyable there. I was especially upset when I had to stay overnight."
+        },
+        {
+          "pl": "Dom dziadków Ofiarów był lepszy niż dom rodziców mojego ojca, bo była w nim drewniana podłoga (zapewne dlatego hitlerowscy okupanci stacjonowali w dużej izbie u Ofiarów, a nie u Gierczaków, gdzie podłoga była gliniana).",
+          "en": "My grandparents’ house, the Ofiar family’s, was better than my father’s parents’ house because it had a wooden floor (likely the reason why the Nazi occupiers were stationed in the larger room at the Ofiar home and not at the Gierczak home, where the floor was made of clay)."
+        },
+        {
+          "pl": "Najbardziej, co zapamiętałem z tamtego wczesnego okresu, to zapachy palącego się i dymiącego drewna w kuchni kaflowej, zapach nafty w lampie naftowej oraz przeróżne smaki np. młodych, czerwonkawych kartofli, zsiadłego mleka, czerwonego barszczu z wiśni.",
+          "en": "What I remember most from that early time are the smells of burning wood in the tiled kitchen stove, the scent of kerosene from the oil lamp, and the various tastes—like young reddish potatoes, sour milk, and red cherry borscht."
+        },
+        {
+          "pl": "Później już w czasach licealnych moja optyka i postrzeganie wsi rodzinnej moich rodziców zmieniła się. Dużo rysowałem i malowałem przed egzaminem na Akademię Sztuk Pięknych.",
+          "en": "Later, during high school, my view and perception of my parents’ home village changed. I drew and painted a lot in preparation for my entrance exam to the Academy of Fine Arts."
+        },
+        {
+          "pl": "Sceneria wiejska była idealna do moich rysunków ołówkiem, węglem i akwarel. Wtedy w latach 1974–1976 powstały portrety mojej babci Heleny, śpiącego Marka, jej wnuka, akwarele przedstawiające drewniany dom kryty strzechą oraz szkice krów i konia.",
+          "en": "The rural scenery was perfect for my pencil, charcoal, and watercolor drawings. Between 1974 and 1976, I created portraits of my grandmother Helena, her sleeping grandson Marek, watercolors of the thatched wooden house, and sketches of cows and a horse."
+        },
+        {
+          "pl": "W większości prace te są w posiadaniu moich znajomych ze szkoły średniej oraz rodziny (kilka akwarel znajduje się w Kanadzie w rodzinie Gutkowskich). <link>Zobacz rysunki online</link>",
+          "en": "Most of these works are in the possession of my high school friends and family (a few watercolors are in Canada with the Gutkowski family). <link>See the drawings online</link>"
+        },
+        {
+          "pl": "Tej wsi, która była na moich rysunkach i w moich wspomnieniach, już nie ma. Nie ma domów, ani ludzi, którzy odeszli, a nawet nie ma ojcowizny rodu Gierczaków (pozostały tylko dwa siedziska, a ziemia trafiła w obce ręce).",
+          "en": "The village that appeared in my drawings and memories no longer exists. The houses are gone, the people have passed away, and even the Gierczak family homestead is no more (only two seats remain, and the land has ended up in foreign hands)."
+        }
+      ]
     },
     {
       "id": 88,

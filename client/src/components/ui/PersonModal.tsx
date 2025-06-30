@@ -1,6 +1,3 @@
-// src/components/PersonModal.tsx
-
-import { useState } from "react";
 import {
   Dialog,
   DialogContent,
@@ -31,10 +28,8 @@ interface PersonModalProps {
   allPeople: Person[];
 }
 
-// ZAKTUALIZOWANA FUNKCJA formatDate
 const formatDate = (dateString: string | null | undefined, locale: string) => {
   if (!dateString || dateString === "?") return "?";
-  // Jeśli zawiera litery (np. "ok.", "przed"), zwróć tekst bez zmian
   if (/[a-zA-Z]/.test(dateString)) {
     return dateString;
   }
@@ -56,6 +51,31 @@ const formatDate = (dateString: string | null | undefined, locale: string) => {
   } catch (e) {
     return dateString;
   }
+};
+
+const renderTextWithLinks = (text: string) => {
+  const parts = text.split(/<link>(.*?)<\/link>/g);
+  return (
+    <>
+      {parts.map((part, index) => {
+        if (index % 2 === 1) {
+          return (
+            <a
+              key={index}
+              href="https://ognisko.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-heritage-burgundy hover:underline"
+              onClick={(e) => e.stopPropagation()}
+            >
+              {part}
+            </a>
+          );
+        }
+        return part;
+      })}
+    </>
+  );
 };
 
 export default function PersonModal({
@@ -136,7 +156,6 @@ export default function PersonModal({
                   <div className="flex items-start space-x-3">
                     <Calendar className="w-4 h-4 text-muted-foreground mt-1" />
                     <div>
-                      {/* KLUCZOWA ZMIANA: Używamy 'birthDateNote' */}
                       {(person.birthDate || person.birthDateNote) && (
                         <span className="heritage-text">
                           {t("person.born")}:{" "}
@@ -194,7 +213,7 @@ export default function PersonModal({
                       key={index}
                       className="border-l-4 border-heritage-gray dark:border-heritage-gold pl-4 italic text-muted-foreground"
                     >
-                      {getDynamicText(anecdote)}
+                      {renderTextWithLinks(getDynamicText(anecdote) || "")}
                     </blockquote>
                   ))}
                 </div>

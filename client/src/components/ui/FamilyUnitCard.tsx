@@ -1,14 +1,15 @@
-// src/components/ui/FamilyUnitCard.tsx
 import { Person } from "@shared/schema";
-import PersonCard from "./PersonCard";
-import { Users, GitBranch } from "lucide-react";
 import { useLanguage } from "@/hooks/useLanguage";
+import PersonCard from "./PersonCard";
+import { Heart } from "lucide-react";
+
+interface FamilyUnit {
+  parents: Person[];
+  children: Person[];
+}
 
 interface FamilyUnitCardProps {
-  unit: {
-    parents: Person[];
-    children: Person[];
-  };
+  unit: FamilyUnit;
   onPersonClick: (person: Person) => void;
   familyColor: string;
 }
@@ -20,34 +21,24 @@ export default function FamilyUnitCard({
 }: FamilyUnitCardProps) {
   const { t } = useLanguage();
 
-  if (unit.parents.length === 0) return null;
-
   return (
-    <div className={`mb-8 p-4 border-l-4 ${familyColor}`}>
-      <div className="flex items-center mb-4">
-        <Users className="w-5 h-5 mr-3 text-muted-foreground" />
-        <h3 className="text-xl font-semibold heritage-text">
-          {t("familyUnit.parents")}
-        </h3>
-      </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
-        {unit.parents.map((parent) => (
-          <PersonCard
-            key={parent.id}
-            person={parent}
-            onClick={() => onPersonClick(parent)}
-          />
+    <div className={`mb-8 p-4 rounded-lg border-l-4 ${familyColor} bg-card`}>
+      <div className="flex flex-wrap items-center gap-x-4 gap-y-2 mb-4">
+        {unit.parents.map((parent, index) => (
+          <div key={parent.id} className="flex items-center">
+            <PersonCard person={parent} onClick={() => onPersonClick(parent)} />
+            {index === 0 && unit.parents.length > 1 && (
+              <Heart className="w-5 h-5 text-red-400 mx-2" />
+            )}
+          </div>
         ))}
       </div>
 
       {unit.children.length > 0 && (
         <>
-          <div className="flex items-center mt-6 mb-4">
-            <GitBranch className="w-5 h-5 mr-3 text-muted-foreground" />
-            <h3 className="text-xl font-semibold heritage-text">
-              {t("familyUnit.children")}
-            </h3>
-          </div>
+          <h4 className="font-semibold text-sm uppercase text-muted-foreground mt-6 mb-2">
+            {t("person.children")}
+          </h4>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {unit.children.map((child) => (
               <PersonCard
