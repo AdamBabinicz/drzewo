@@ -14,6 +14,17 @@ export type Anecdote = {
   en: string;
 };
 
+export type EventSource = {
+  documentId: number;
+};
+
+export type Event = {
+  type: "birth" | "death" | "marriage";
+  date: string;
+  place: string;
+  source: EventSource;
+};
+
 export type Person = {
   id: number;
   firstName: string;
@@ -21,8 +32,10 @@ export type Person = {
   maidenName?: string | null;
   birthDate?: string | null;
   birthDateNote?: string | null;
+  birthTime?: string | null;
   deathDate?: string | null;
   deathDateNote?: string | null;
+  deathTime?: string | null;
   birthPlace?: string | null;
   deathPlace?: string | null;
   occupation: LocalizedString | string | null;
@@ -34,6 +47,7 @@ export type Person = {
   childIds?: number[];
   marriages?: Marriage[];
   anecdotes?: Anecdote[];
+  events?: Event[];
 };
 
 export type DocumentType =
@@ -44,13 +58,24 @@ export type DocumentType =
   | "genealogy_chart"
   | "other";
 
+type ExtractedDataItem = {
+  label_pl: string;
+  label_en: string;
+  value: string;
+};
+
 export type Document = {
   id: number;
   personId?: number;
   title: string;
+  title_pl?: string;
+  title_en?: string;
   type: DocumentType;
   description?: string;
   imageUrl: string;
+  transcription?: string;
+  translation_pl?: string;
+  extracted_data?: ExtractedDataItem[];
 };
 
 export type Place = {

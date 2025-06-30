@@ -128,8 +128,7 @@ const translations = {
     "gallery.item.doc-4.title": "Drzewo genealogiczne",
     "gallery.item.doc-4.desc": "Ręcznie sporządzone drzewo rodzinne",
     "gallery.item.doc-5.title": "Zapis o zgonie Andrzeja Ofiary 17.12.1922",
-    "gallery.item.doc-5.desc":
-      "Księga zgonów parafii rzymskokatolickiej pw. Świętych Apostołów Piotra i Andrzeja w Jedlińsku",
+    "gallery.item.doc-5.desc": "Księga zgonów parafii Cerekiew",
     "gallery.item.place-1.title": "I Komunia Św. wujka Romana Ofiary",
     "gallery.item.place-1.desc": "Roman ze swoją mamą Heleną",
     "gallery.item.place-2.title": "Wieś Jaszowice",
@@ -258,6 +257,8 @@ const translations = {
     "person.born": "ur.",
     "person.bornIn": "Ur.",
     "person.died": "zm.",
+    "person.birthTime": "Godzina ur.",
+    "person.deathTime": "Godzina zg.",
     "person.maidenName": "z d.",
     "person.occupation": "Zawód",
     "person.biography": "Biografia",
@@ -268,6 +269,7 @@ const translations = {
     "person.marriedOn": "ślub",
     "person.anecdotes": "Wspomnienia i anegdoty",
     "person.hasAnecdotes": "Kliknij, aby przeczytać wspomnienia",
+    "time.morning": "rano",
 
     "familyUnit.parents": "Rodzice",
     "familyUnit.children": "Dzieci",
@@ -469,8 +471,7 @@ const translations = {
     "gallery.item.doc-4.title": "Genealogical Tree",
     "gallery.item.doc-4.desc": "Hand-drawn family tree",
     "gallery.item.doc-5.title": "Death record of Andrzej Ofiara 17.12.1922",
-    "gallery.item.doc-5.desc":
-      "Death register of the Roman Catholic parish of Saints Peter and Andrew in Jedlińsk",
+    "gallery.item.doc-5.desc": "Cerekiew parish death records",
     "gallery.item.place-1.title":
       "First Holy Communion of my uncle Roman Ofiara",
     "gallery.item.place-1.desc": "Roman with his mother Helena",
@@ -602,6 +603,8 @@ const translations = {
     "person.born": "b.",
     "person.bornIn": "Born",
     "person.died": "d.",
+    "person.birthTime": "Time of birth",
+    "person.deathTime": "Time of death",
     "person.maidenName": "née",
     "person.occupation": "Occupation",
     "person.biography": "Biography",
@@ -612,6 +615,7 @@ const translations = {
     "person.marriedOn": "m.",
     "person.anecdotes": "Memories and Anecdotes",
     "person.hasAnecdotes": "Click to read anecdotes",
+    "time.morning": "in the morning",
 
     "familyUnit.parents": "Parents",
     "familyUnit.children": "Children",
