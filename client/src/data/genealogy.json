@@ -1680,7 +1680,7 @@
       "title": "Akt ślubu Jana Gierczaka i Agnieszki Baćmaga",
       "type": "marriage_record",
       "description": "Dokument ślubu z 14 listopada 1917 roku, parafia Zakrzew.",
-      "imageUrl": "/images/doc-slub-jan-agnieszka.jpg"
+      "imageUrl": "/images/doc-slub-jan-agnieszka.avif"
     },
     {
       "id": 2,
@@ -1688,14 +1688,14 @@
       "title": "Wpis o śmierci Pawła Gierczaka",
       "type": "death_record",
       "description": "Dokument zgonu z 29 lipca 1935 roku.",
-      "imageUrl": "/images/doc-zgon-pawel.jpg"
+      "imageUrl": "/images/doc-zgon-pawel.avif"
     },
     {
       "id": 3,
       "title": "Ręcznie sporządzone drzewo genealogiczne",
       "type": "genealogy_chart",
       "description": "Wczesna, odręczna wersja drzewa genealogicznego rodów.",
-      "imageUrl": "/images/doc-drzewo-reczne.jpg"
+      "imageUrl": "/images/doc-drzewo-reczne.avif"
     },
     {
       "id": 4,
@@ -1703,7 +1703,7 @@
       "title": "Pamiątka I Komunii Świętej Romana Ofiary",
       "type": "photo",
       "description": "Zdjęcie Romana Ofiary z babcią Heleną Sobień (później Ofiara).",
-      "imageUrl": "/images/komunia-roman.jpg"
+      "imageUrl": "/images/komunia-roman.avif"
     },
     {
       "id": 5,
@@ -1711,7 +1711,7 @@
       "title": "Akt ślubu Józefa Gierczaka i Marianny Ofiara",
       "type": "marriage_record",
       "description": "Dokument ślubu z 26 listopada 1952 roku.",
-      "imageUrl": "/images/doc-slub-jozef-marianna.jpg"
+      "imageUrl": "/images/doc-slub-jozef-marianna.avif"
     }
   ],
   "places": [

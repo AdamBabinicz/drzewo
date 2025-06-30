@@ -127,6 +127,9 @@ const translations = {
       "Zapis w Księdze Parafialnej w Zakrzowie (Zakrzewie)",
     "gallery.item.doc-4.title": "Drzewo genealogiczne",
     "gallery.item.doc-4.desc": "Ręcznie sporządzone drzewo rodzinne",
+    "gallery.item.doc-5.title": "Zapis o zgonie Andrzeja Ofiary 17.12.1922",
+    "gallery.item.doc-5.desc":
+      "Księga zgonów parafii rzymskokatolickiej pw. Świętych Apostołów Piotra i Andrzeja w Jedlińsku",
     "gallery.item.place-1.title": "I Komunia Św. wujka Romana Ofiary",
     "gallery.item.place-1.desc": "Roman ze swoją mamą Heleną",
     "gallery.item.place-2.title": "Wieś Jaszowice",
@@ -344,13 +347,13 @@ const translations = {
 
     paths: {
       home: "/",
-      tree: "/tree",
-      index: "/person-index",
-      gallery: "/gallery",
-      sources: "/sources",
-      familyBase: "/family",
-      terms: "/terms-of-service",
-      privacy: "/privacy-policy",
+      tree: "/drzewo",
+      index: "/indeks-osob",
+      gallery: "/galeria",
+      sources: "/zrodla",
+      familyBase: "/rod",
+      terms: "/regulamin",
+      privacy: "/polityka-prywatnosci",
     },
   },
   en: {
@@ -465,6 +468,9 @@ const translations = {
       "Entry in the Parish Register of Zakrzów (Zakrzew)",
     "gallery.item.doc-4.title": "Genealogical Tree",
     "gallery.item.doc-4.desc": "Hand-drawn family tree",
+    "gallery.item.doc-5.title": "Death record of Andrzej Ofiara 17.12.1922",
+    "gallery.item.doc-5.desc":
+      "Death register of the Roman Catholic parish of Saints Peter and Andrew in Jedlińsk",
     "gallery.item.place-1.title":
       "First Holy Communion of my uncle Roman Ofiara",
     "gallery.item.place-1.desc": "Roman with his mother Helena",
