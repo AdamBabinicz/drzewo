@@ -1537,8 +1537,8 @@
       "occupation": { "pl": "Gospodarz", "en": "Farmer" },
       "marriages": [{ "spouseId": 130, "date": null }],
       "biography": {
-        "pl": "Syn Stefana i Małgorzaty z d. Kowalczyk. Mąż Marianny Wieczorek. Mieszkał z rodziną w Woli Gutowskiej k. Jedlińska.",
-        "en": "Son of Stefan and Małgorzata née Kowalczyk. Husband of Marianna Wieczorek. Lived with his family in Wola Gutowska near Jedlińsk."
+        "pl": "Syn Stefana i Małgorzaty z d. Kowalczyk. Mąż Marianny Wieczorek. Mieszkał z rodziną w Woli Gutowskiej k. Jedlińska, (wdowiec).",
+        "en": "Son of Stefan and Małgorzata née Kowalczyk. Husband of Marianna Wieczorek. Lived with his family in Wola Gutowska near Jedlińsk, (widower)."
       }
     },
     {
@@ -1667,8 +1667,8 @@
       "spouseIds": [],
       "childIds": [],
       "biography": {
-        "pl": "Syn Stefana i Małgorzaty z d. Kowalczyk.",
-        "en": "Son of Stefan and Małgorzata née Kowalczyk."
+        "pl": "Syn Stefana i Małgorzaty z d. Kowalczyk, (wdowiec).",
+        "en": "Son of Stefan and Małgorzata née Kowalczyk, (widower)."
       }
     }
   ],
