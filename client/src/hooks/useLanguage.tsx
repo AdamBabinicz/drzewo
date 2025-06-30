@@ -1,4 +1,3 @@
-// src/hooks/useLanguage.tsx
 import { createContext, useContext, useState } from "react";
 import { useLocation } from "wouter";
 
@@ -59,7 +58,7 @@ const translations = {
     "home.branches.gierczak.desc":
       "Ród Gierczaków, wywodzący się z Jaszowic, to historia chłopskiej rodziny, której korzenie sięgają Tomasza Gierczaka. Kolejne pokolenia, poprzez małżeństwa i dziedziczenie ziemi, rozprzestrzeniły się, osiedlając się m.in. w Gulinku.",
     "home.branches.ofiara.desc":
-      "Historia rodu Ofiarów nierozerwalnie związana jest z Ludwikowem. Jego protoplastą jest Andrzej Ofiara, którego potomkowie przez dekady tworzyli lokalną społeczność, a ich losy połączyły się z rodem Gierczaków.",
+      "Historia rodu Ofiarów nierozerwalnie związana jest z Wolą Gutowską i Ludwikowem. Jego protoplastą jest Jakub Ofiara, którego potomkowie przez dekady tworzyli lokalną społeczność, a ich losy połączyły się z rodem Gierczaków.",
     "home.explore.title": "Rozpocznij Eksplorację",
     "home.explore.subtitle":
       "Wybierz jeden ze sposobów poznawania historii rodzin",
@@ -345,13 +344,13 @@ const translations = {
 
     paths: {
       home: "/",
-      tree: "/drzewo",
-      index: "/indeks-osob",
-      gallery: "/galeria",
-      sources: "/zrodla",
-      familyBase: "/rod",
-      terms: "/regulamin",
-      privacy: "/polityka-prywatnosci",
+      tree: "/tree",
+      index: "/person-index",
+      gallery: "/gallery",
+      sources: "/sources",
+      familyBase: "/family",
+      terms: "/terms-of-service",
+      privacy: "/privacy-policy",
     },
   },
   en: {
@@ -396,7 +395,7 @@ const translations = {
     "home.branches.gierczak.desc":
       "The Gierczak family, originating from Jaszowice, is a story of a peasant family whose roots trace back to Tomasz Gierczak. Subsequent generations, through marriage and land inheritance, spread out, settling in places like Gulinek.",
     "home.branches.ofiara.desc":
-      "The history of the Ofiara family is inseparably linked with Ludwików. Its progenitor is Andrzej Ofiara, whose descendants formed the local community for decades, and their fates merged with the Gierczak family.",
+      "The history of the Ofiara family is inseparably linked with Wola Gutowska and Ludwików. Its progenitor is Jakub Ofiara, whose descendants formed the local community for decades, and their fates merged with the Gierczak family.",
     "home.explore.title": "Start Exploring",
     "home.explore.subtitle":
       "Choose one of the ways to learn the family history",
@@ -629,12 +628,10 @@ const translations = {
     "footer.contact.projectInfo":
       "A genealogical project\npreserving the memory of ancestors",
     "footer.copyright": "{year} Radom, Roots of the Gierczak & Ofiara Family.",
-    // --- NOWE TŁUMACZENIA DLA SOCIAL MEDIÓW (EN) ---
     "footer.social.facebook": "Visit our profile on Facebook",
     "footer.social.x": "Visit our profile on X (formerly Twitter)",
     "footer.social.github": "Check out our project on GitHub",
     "footer.social.instagram": "Follow us on Instagram",
-    // --- KONIEC NOWYCH TŁUMACZEŃ ---
 
     "terms.title": "Terms of Service",
     "terms.lastUpdated": "Last updated: {date}",
@@ -697,7 +694,7 @@ const translations = {
       privacy: "/privacy-policy",
     },
   },
-};
+} as const;
 
 const initialState: LanguageProviderState = {
   language: "pl",

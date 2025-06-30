@@ -28,7 +28,6 @@ export default function FamilyBranchView() {
     queryFn: () => Promise.resolve(genealogyData.people as Person[]),
   });
 
-  // ZMIANA TUTAJ: Wywołujemy logikę w nowy sposób
   const { progenitorUnit, descendantUnits } = useMemo(() => {
     if (family && allPeople.length > 0) {
       return getFamilyStructure(family, allPeople);
@@ -53,7 +52,8 @@ export default function FamilyBranchView() {
       borderColor: "border-heritage-teal",
       btnColor: "btn-heritage-teal",
       imageUrl: "/images/ludwikow.avif",
-      placeIds: ["ludwikow", "gulinek_ofiara"],
+      // ZMIANA TUTAJ: Zmieniona kolejność wyświetlania miejsc
+      placeIds: ["wola_gutowska", "ludwikow", "gulinek_ofiara"],
     },
   };
 
@@ -74,7 +74,6 @@ export default function FamilyBranchView() {
     );
   }
 
-  // Obliczamy liczbę osób dynamicznie na podstawie zwróconej struktury
   const totalPeopleInBranch = useMemo(() => {
     if (!progenitorUnit) return 0;
     const allIds = new Set<number>();
@@ -101,9 +100,14 @@ export default function FamilyBranchView() {
   };
 
   const familyPlaces =
-    genealogyData.places?.filter((place) =>
-      currentFamily.placeIds.includes(place.id)
-    ) || [];
+    genealogyData.places
+      ?.filter((place) => currentFamily.placeIds.includes(place.id))
+      // ZMIANA TUTAJ: Sortowanie miejsc zgodnie z nową kolejnością
+      .sort(
+        (a, b) =>
+          currentFamily.placeIds.indexOf(a.id) -
+          currentFamily.placeIds.indexOf(b.id)
+      ) || [];
 
   const GierczakEtymology = () => (
     <div className="prose prose-sm dark:prose-invert max-w-none">

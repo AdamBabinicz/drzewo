@@ -5,7 +5,6 @@
       "firstName": "Tomasz",
       "lastName": "Gerczak vel Gierczak",
       "birthDate": null,
-      "deathDate": null,
       "photoUrl": "/images/tomasz.avif",
       "family": "gierczak",
       "spouseIds": [2],
@@ -385,16 +384,18 @@
       "id": 57,
       "firstName": "Andrzej",
       "lastName": "Ofiara",
+      "birthDate": "1854",
+      "deathDate": "1922-12-17",
       "photoUrl": "/images/andrzej.avif",
       "family": "ofiara",
       "spouseIds": [58],
       "childIds": [89, 90, 45, 91],
-      "parentIds": [],
+      "parentIds": [129, 130],
       "occupation": { "pl": "Gospodarz", "en": "Farmer" },
       "marriages": [{ "spouseId": 58, "date": "18xx" }],
       "biography": {
-        "pl": "Pradziadek autora. Ożenił się z Franciszką Szaruch (Saruch). Mieli 4 dzieci.",
-        "en": "The author's great-grandfather. He married Franciszka Szaruch (Saruch). They had 4 children."
+        "pl": "Pradziadek autora. Syn Jakuba i Marianny z d. Wieczorek. Ożenił się z Franciszką Szaruch (Saruch). Mieli 4 dzieci.",
+        "en": "The author's great-grandfather. Son of Jakub and Marianna née Wieczorek. He married Franciszka Szaruch (Saruch). They had 4 children."
       }
     },
     {
@@ -1521,6 +1522,152 @@
         "pl": "Żona Jana Sobienia. Córka Walentego i Marianny Zarębskiej.",
         "en": "Wife of Jan Sobień. Daughter of Walenty and Marianna Zarębska."
       }
+    },
+    {
+      "id": 129,
+      "firstName": "Jakub",
+      "lastName": "Ofiara",
+      "family": "ofiara",
+      "birthDate": "1833-07-22",
+      "deathDate": "1919-11-22",
+      "photoUrl": "/images/jakub.png",
+      "spouseIds": [130],
+      "childIds": [57, 131, 132],
+      "parentIds": [133, 134],
+      "occupation": { "pl": "Gospodarz", "en": "Farmer" },
+      "marriages": [{ "spouseId": 130, "date": null }],
+      "biography": {
+        "pl": "Syn Stefana i Małgorzaty z d. Kowalczyk. Mąż Marianny Wieczorek. Mieszkał z rodziną w Woli Gutowskiej k. Jedlińska.",
+        "en": "Son of Stefan and Małgorzata née Kowalczyk. Husband of Marianna Wieczorek. Lived with his family in Wola Gutowska near Jedlińsk."
+      }
+    },
+    {
+      "id": 130,
+      "firstName": "Marianna",
+      "lastName": "Ofiara",
+      "maidenName": "Wieczorek",
+      "family": "ofiara",
+      "spouseIds": [129],
+      "childIds": [57, 131, 132],
+      "parentIds": [],
+      "marriages": [{ "spouseId": 129, "date": null }],
+      "biography": {
+        "pl": "Żona Jakuba Ofiary. Matka Andrzeja, Zofii i Agnieszki.",
+        "en": "Wife of Jakub Ofiara. Mother of Andrzej, Zofia, and Agnieszka."
+      }
+    },
+    {
+      "id": 131,
+      "firstName": "Zofia",
+      "lastName": "Ofiara",
+      "birthDateNote": "ok. 1863",
+      "deathDate": "1872",
+      "family": "ofiara",
+      "spouseIds": [],
+      "childIds": [],
+      "parentIds": [129, 130],
+      "biography": {
+        "pl": "Córka Jakuba i Marianny. Zmarła w wieku 9 lat.",
+        "en": "Daughter of Jakub and Marianna. Died at the age of 9."
+      }
+    },
+    {
+      "id": 132,
+      "firstName": "Agnieszka",
+      "lastName": "Ofiara",
+      "birthDate": "1872-10-06",
+      "family": "ofiara",
+      "spouseIds": [],
+      "childIds": [],
+      "parentIds": [129, 130],
+      "biography": {
+        "pl": "Córka Jakuba i Marianny. Urodzona w Woli Gutowskiej.",
+        "en": "Daughter of Jakub and Marianna. Born in Wola Gutowska."
+      }
+    },
+    {
+      "id": 133,
+      "firstName": "Stefan",
+      "lastName": "Ofiara",
+      "family": "ofiara",
+      "spouseIds": [134],
+      "childIds": [129, 135, 136, 137, 138],
+      "parentIds": [],
+      "biography": {
+        "pl": "Protoplasta rodu Ofiara. Mąż Małgorzaty Kowalczyk. Ojciec Jakuba, Kacpra, Anny, Franciszki i Wojciecha.",
+        "en": "Progenitor of the Ofiara family. Husband of Małgorzata Kowalczyk. Father of Jakub, Kacper, Anna, Franciszka, and Wojciech."
+      }
+    },
+    {
+      "id": 134,
+      "firstName": "Małgorzata",
+      "lastName": "Ofiara",
+      "maidenName": "Kowalczyk",
+      "family": "ofiara",
+      "spouseIds": [133],
+      "childIds": [129, 135, 136, 137, 138],
+      "parentIds": [],
+      "biography": {
+        "pl": "Matka Jakuba, Kacpra, Anny, Franciszki i Wojciecha. Żona Stefana Ofiary.",
+        "en": "Mother of Jakub, Kacper, Anna, Franciszka, and Wojciech. Wife of Stefan Ofiara."
+      }
+    },
+    {
+      "id": 135,
+      "firstName": "Kacper",
+      "lastName": "Ofiara",
+      "birthDate": "1829-01-02",
+      "deathDate": "1829-01-09",
+      "family": "ofiara",
+      "parentIds": [133, 134],
+      "spouseIds": [],
+      "childIds": [],
+      "biography": {
+        "pl": "Syn Stefana i Małgorzaty z d. Kowalczyk. Żył 7 dni.",
+        "en": "Son of Stefan and Małgorzata née Kowalczyk. Lived for 7 days."
+      }
+    },
+    {
+      "id": 136,
+      "firstName": "Anna",
+      "lastName": "Ofiara",
+      "birthDate": "1835-07-03",
+      "family": "ofiara",
+      "parentIds": [133, 134],
+      "spouseIds": [],
+      "childIds": [],
+      "biography": {
+        "pl": "Córka Stefana i Małgorzaty z d. Kowalczyk.",
+        "en": "Daughter of Stefan and Małgorzata née Kowalczyk."
+      }
+    },
+    {
+      "id": 137,
+      "firstName": "Franciszka",
+      "lastName": "Ofiara",
+      "birthDate": "1839-09-19",
+      "family": "ofiara",
+      "parentIds": [133, 134],
+      "spouseIds": [],
+      "childIds": [],
+      "biography": {
+        "pl": "Córka Stefana i Małgorzaty z d. Kowalczyk.",
+        "en": "Daughter of Stefan and Małgorzata née Kowalczyk."
+      }
+    },
+    {
+      "id": 138,
+      "firstName": "Wojciech",
+      "lastName": "Ofiara",
+      "birthDate": "1842-04-12",
+      "family": "ofiara",
+      "parentIds": [133, 134],
+      "spouseIds": [],
+      "childIds": [],
+      "biography": {
+        "pl": "Syn Stefana i Małgorzaty z d. Kowalczyk.",
+        "en": "Son of Stefan and Małgorzata née Kowalczyk."
+      }
     }
   ],
   "documents": [
@@ -1572,14 +1719,14 @@
         "pl": "Główna miejscowość rodu Gierczaków",
         "en": "The main locality of the Gierczak family"
       },
-      "imageUrl": "/images/4.avif"
+      "imageUrl": "/images/jaszowice.avif"
     },
     {
       "id": "ludwikow",
       "name": "Ludwików",
       "description": {
-        "pl": "Miejsce pochodzenia rodu Ofiarów",
-        "en": "The place of origin of the Ofiara family"
+        "pl": "Jedno z głównych miejsc zamieszkania rodu Ofiarów",
+        "en": "One of the main places of residence of the Ofiara family"
       },
       "imageUrl": "/images/ludwikow.avif"
     },
@@ -1602,6 +1749,15 @@
         "en": "Józef Ofiara settled here with Rozalia Mitak, and after her death — with Helena Sobień."
       },
       "imageUrl": "/images/gulinek.avif"
+    },
+    {
+      "id": "wola_gutowska",
+      "name": "Wola Gutowska",
+      "description": {
+        "pl": "Miejsce pochodzenia protoplasty rodu Ofiarów, Jakuba.",
+        "en": "The place of origin of the Ofiara family's progenitor, Jakub."
+      },
+      "imageUrl": "/images/ludwikow.avif"
     }
   ]
 }

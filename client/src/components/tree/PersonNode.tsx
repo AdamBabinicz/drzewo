@@ -1,5 +1,3 @@
-// src/components/PersonNode.tsx
-
 import React from "react";
 import { Handle, Position, NodeProps } from "reactflow";
 import { User, Calendar, MessageSquare } from "lucide-react";
@@ -18,22 +16,18 @@ type PersonNodeData = {
   family: "gierczak" | "ofiara";
 };
 
-// ZAKTUALIZOWANA FUNKCJA formatDate
 const formatDate = (dateString: string | null | undefined) => {
   if (!dateString) return "?";
-  // Jeśli zawiera litery (np. "ok.", "przed"), zwróć tekst bez zmian
   if (/[a-zA-Z]/.test(dateString)) {
     return dateString;
   }
-  // Jeśli to tylko rok, zwróć rok
   if (/^\d{4}$/.test(dateString)) {
     return dateString;
   }
   try {
     const date = new Date(dateString);
     if (isNaN(date.getTime())) return dateString;
-    // Format "YYYY-MM-DD" lub podobny - dla uproszczenia zwracamy bez formatowania
-    return dateString.split(" ")[0]; // Zwraca tylko część daty bez godziny
+    return dateString.split(" ")[0];
   } catch (e) {
     return dateString;
   }
@@ -48,7 +42,6 @@ export default function PersonNode({ data }: NodeProps<PersonNodeData>) {
     ? "border-heritage-burgundy"
     : "border-heritage-teal";
 
-  // KLUCZOWA ZMIANA: Wybieramy właściwe pole
   const birthInfo = person.birthDateNote || person.birthDate;
   const birth = formatDate(birthInfo);
   const death = formatDate(person.deathDate);
@@ -57,6 +50,34 @@ export default function PersonNode({ data }: NodeProps<PersonNodeData>) {
 
   return (
     <TooltipProvider delayDuration={200}>
+      {/* ================== POCZĄTEK DODANEGO KODU ================== */}
+      {/* Niewidoczne uchwyty dla połączeń bocznych (małżeństwa)      */}
+      <Handle
+        type="source"
+        position={Position.Left}
+        id={Position.Left}
+        style={{ background: "transparent", border: "none" }}
+      />
+      <Handle
+        type="target"
+        position={Position.Left}
+        id={Position.Left}
+        style={{ background: "transparent", border: "none" }}
+      />
+      <Handle
+        type="source"
+        position={Position.Right}
+        id={Position.Right}
+        style={{ background: "transparent", border: "none" }}
+      />
+      <Handle
+        type="target"
+        position={Position.Right}
+        id={Position.Right}
+        style={{ background: "transparent", border: "none" }}
+      />
+      {/* =================== KONIEC DODANEGO KODU =================== */}
+
       <div
         className={`person-node bg-white dark:bg-stone-800 border-2 ${borderColor} rounded-lg p-3 shadow-md cursor-pointer hover:shadow-lg transition-all w-[240px]`}
         onClick={onClick}
@@ -94,7 +115,6 @@ export default function PersonNode({ data }: NodeProps<PersonNodeData>) {
                 </Tooltip>
               )}
             </div>
-            {/* KLUCZOWA ZMIANA: Używamy 'birthInfo' */}
             {(birthInfo || person.deathDate) && (
               <p className="text-xs text-stone-600 dark:text-stone-400 flex items-center">
                 <Calendar className="w-3 h-3 mr-1.5 flex-shrink-0" />

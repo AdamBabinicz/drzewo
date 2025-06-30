@@ -34,8 +34,8 @@ type LayoutEdge = Edge & {
 const dagreGraph = new dagre.graphlib.Graph();
 dagreGraph.setDefaultEdgeLabel(() => ({}));
 
-const nodeWidth = 260;
-const nodeHeight = 130;
+const nodeWidth = 240;
+const nodeHeight = 100;
 
 const nodeTypes: NodeTypes = {
   person: PersonNode,
@@ -130,6 +130,7 @@ export default function InteractiveTree({
             type: "default",
             position: { x: 0, y: 0 },
             data: {},
+            style: { width: 0, height: 0 },
             sourcePosition: Position.Bottom,
             targetPosition: Position.Top,
           });
@@ -178,8 +179,8 @@ export default function InteractiveTree({
     layoutEdges.push({
       id: "stacking-edge",
       source: "1",
-      target: "57",
-      minlen: 3,
+      target: "133",
+      minlen: 1,
       weight: 1,
     });
 
@@ -198,6 +199,24 @@ export default function InteractiveTree({
         )
         .map((p) => p.id.toString())
     );
+
+    const allPeopleMap = new Map(allPeople.map((p) => [p.id, p]));
+    allPeople.forEach((p) => {
+      if (p.parentIds?.length === 2) {
+        const p1 = allPeopleMap.get(p.parentIds[0]);
+        const p2 = allPeopleMap.get(p.parentIds[1]);
+        if (p1 && p2 && p1.family !== p2.family) {
+          if (
+            visibleIds.has(p1.id.toString()) ||
+            visibleIds.has(p2.id.toString())
+          ) {
+            visibleIds.add(p.id.toString());
+            visibleIds.add(p1.id.toString());
+            visibleIds.add(p2.id.toString());
+          }
+        }
+      }
+    });
 
     const finalNodes = positionedNodes.filter(
       (node) => !node.id.startsWith("union-") && visibleIds.has(node.id)
@@ -228,22 +247,34 @@ export default function InteractiveTree({
     }
 
     if (showMarriages) {
+      const positionedNodesMap = new Map(finalNodes.map((n) => [n.id, n]));
       allPeople.forEach((p) => {
         p.spouseIds?.forEach((sid) => {
-          const sidStr = sid.toString(),
-            pidStr = p.id.toString();
+          const pidStr = p.id.toString();
+          const sidStr = sid.toString();
           if (p.id < sid && visibleIds.has(pidStr) && visibleIds.has(sidStr)) {
-            finalEdges.push({
-              id: `m-${pidStr}-${sidStr}`,
-              source: pidStr,
-              target: sidStr,
-              type: "straight",
-              style: {
-                stroke: marriageColor,
-                strokeWidth: 2,
-                strokeDasharray: "5,5",
-              },
-            });
+            const sourceNode = positionedNodesMap.get(pidStr);
+            const targetNode = positionedNodesMap.get(sidStr);
+
+            if (sourceNode && targetNode) {
+              const isSourceOnLeft =
+                sourceNode.position.x < targetNode.position.x;
+
+              finalEdges.push({
+                id: `m-${pidStr}-${sidStr}`,
+                type: "default",
+                source: pidStr,
+                target: sidStr,
+                sourceHandle: isSourceOnLeft ? Position.Right : Position.Left,
+                targetHandle: isSourceOnLeft ? Position.Left : Position.Right,
+                zIndex: 1,
+                style: {
+                  stroke: marriageColor,
+                  strokeWidth: 2,
+                  strokeDasharray: "5,5",
+                },
+              });
+            }
           }
         });
       });
