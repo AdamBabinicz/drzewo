@@ -65,8 +65,8 @@
       "occupation": { "pl": "Gospodarz", "en": "Farmer" },
       "marriages": [{ "spouseId": 8, "date": "1820 ?" }],
       "biography": {
-        "pl": "3 x pradziadek. Urodził się pod koniec XVIII w. lub na początku XIX w. Ożenił się prawdopodobnie w 1820 z Kunegundą Kanią. Mieli 8 dzieci.",
-        "en": "3rd great-grandfather. Born at the end of the 18th or beginning of the 19th century. He probably married Kunegunda Kania in 1820. They had 8 children."
+        "pl": "3 x pradziadek. Urodził się na początku XIX w. Ożenił się prawdopodobnie w 1820 z Kunegundą Kanią. Mieli 8 dzieci.",
+        "en": "3x great-grandfather. He was born at the beginning of the 19th century. He likely married Kunegunda Kania in 1820. They had 8 children."
       },
       "events": [
         {
