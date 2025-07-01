@@ -27,6 +27,7 @@ export default function Lightbox({ isOpen, onClose, image }: LightboxProps) {
             src={image.src}
             alt={image.alt}
             className="max-w-full max-h-[80vh] object-contain rounded-lg"
+            loading="lazy"
           />
 
           <Button

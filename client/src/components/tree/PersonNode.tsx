@@ -94,6 +94,7 @@ export default function PersonNode({ data }: NodeProps<PersonNodeData>) {
                 src={person.photoUrl}
                 alt={`${person.firstName} ${person.lastName}`}
                 className="w-full h-full rounded-full object-cover"
+                loading="lazy"
               />
             ) : (
               <User className="w-8 h-8 text-stone-500" />

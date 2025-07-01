@@ -187,6 +187,7 @@
       "lastName": "Gierczak",
       "birthDate": "1867-01-11",
       "deathDate": "1935-07-29",
+      "deathTime": "14:00",
       "photoUrl": "/images/Pawel.avif",
       "family": "gierczak",
       "spouseIds": [22],
@@ -197,7 +198,15 @@
       "biography": {
         "pl": "Syn Karola i Tekli. Pojął za żonę w 1887 Katarzynę Czerwińską. Mieli 10 dzieci. Był dziadkiem Józefa ur. w 1930.",
         "en": "Son of Karol and Tekla. He married Katarzyna Czerwińska in 1887. They had 10 children. He was the grandfather of Józef, born in 1930."
-      }
+      },
+      "events": [
+        {
+          "type": "death",
+          "date": "1935-07-29",
+          "place": "Gulinek",
+          "source": { "documentId": 108 }
+        }
+      ]
     },
     {
       "id": 22,
@@ -227,7 +236,13 @@
       "childIds": [79, 80, 81, 82, 83, 84, 39, 85],
       "parentIds": [19, 22],
       "occupation": { "pl": "Gospodarz", "en": "Farmer" },
-      "marriages": [{ "spouseId": 32, "date": "1917-11-14" }],
+      "marriages": [
+        {
+          "spouseId": 32,
+          "date": "1917-11-14",
+          "source": { "documentId": 107 }
+        }
+      ],
       "biography": {
         "pl": "Syn Pawła i Katarzyny. Ojciec Józefa ur. 1930. Z Agnieszką Baćmagą ożenił się w 1917. Mieli ośmioro dzieci.",
         "en": "Son of Paweł and Katarzyna. Father of Józef, born in 1930. He married Agnieszka Baćmaga in 1917. They had eight children."
@@ -251,7 +266,13 @@
       "spouseIds": [26],
       "childIds": [79, 80, 81, 82, 83, 84, 39, 85],
       "parentIds": [],
-      "marriages": [{ "spouseId": 26, "date": "1917-11-14" }],
+      "marriages": [
+        {
+          "spouseId": 26,
+          "date": "1917-11-14",
+          "source": { "documentId": 107 }
+        }
+      ],
       "biography": {
         "pl": "Żona Jana, babcia autora. Urodziła się z rodziców Kazimierza i Antonimy Szewczyk. Mieli ośmioro dzieci.",
         "en": "Wife of Jan, the author's grandmother. She was born to Kazimierz and Antonina Szewczyk. They had eight children."
@@ -661,7 +682,7 @@
       "id": 71,
       "firstName": "Adam",
       "lastName": "Gierczak",
-      "birthDate": "1888",
+      "birthDate": "1888-12-30",
       "deathDate": "1889-03-06",
       "photoUrl": null,
       "family": "gierczak",
@@ -671,7 +692,21 @@
       "biography": {
         "pl": "Syn Pawła i Katarzyny. Zmarł jako 3-miesięczne dziecko.",
         "en": "Son of Paweł and Katarzyna. Died as a 3-month-old infant."
-      }
+      },
+      "events": [
+        {
+          "type": "birth",
+          "date": "1888-12-30",
+          "place": "Gulinek",
+          "source": { "documentId": 109 }
+        },
+        {
+          "type": "death",
+          "date": "1889-03-06",
+          "place": "Gulinek",
+          "source": { "documentId": 110 }
+        }
+      ]
     },
     {
       "id": 72,
@@ -948,7 +983,7 @@
           "en": "Later, during high school, my view and perception of my parents’ home village changed. I drew and painted a lot in preparation for my entrance exam to the Academy of Fine Arts."
         },
         {
-          "pl": "Sceneria wiejska była idealna do moich rysunków ołówkiem, węglem i akwarel. Wtedy w latach 1974–1976 powstały portrety mojej babci Heleny, śpiącego Marka, jej wnuka, akwarele przedstawiające drewniany dom kryty strzechą oraz szkice krów i konia.",
+          "pl": "Sceneria wiejska była idealna dla moich rysunków ołówkiem, węglem i akwarel. Wtedy w latach 1974–1976 powstały portrety mojej babci Heleny, śpiącego Marka, jej wnuka, akwarele przedstawiające drewniany dom kryty strzechą oraz szkice krów i konia.",
           "en": "The rural scenery was perfect for my pencil, charcoal, and watercolor drawings. Between 1974 and 1976, I created portraits of my grandmother Helena, her sleeping grandson Marek, watercolors of the thatched wooden house, and sketches of cows and a horse."
         },
         {
@@ -1798,7 +1833,7 @@
       "title_en": "Death Record: Ambroży Gierczak (1836)",
       "type": "death_record",
       "description": "Parafia Cerekiew, akt nr 11, 1836 r.",
-      "imageUrl": "/images/k.png",
+      "imageUrl": "/images/k.avif",
       "transcription": "Działo się we wsi Cerekwi dnia dwudziestego czwartego Stycznia roku tysiąc osiemset trzydziestego szóstego o godzinie czwartej po południu. Stawili się Walenty Czerwiński lat pięćdziesiąt i Szymon Wawrzeńczyk lat czterdzieści mający, obywatele we wsi Jaszowicach zamieszkali, i oświadczyli iż w dniu dwudziestym drugim miesiąca i roku bieżącego o godzinie dziewiątej rano umarł Ambroży Gierczak, włościanin w Jaszowicach zamieszkały, lat trzydzieści sześć mający, urodzony w Jaszowicach, syn niegdy Tomasza i Zofii z Gielów małżonków Gierczaków. Zostawił po sobie owdowiałą żonę Kunegundę z Kaniów. Po naocznym przekonaniu się o zejściu Ambrożego Gierczaka, Akt ten stawającym i świadkom przeczytany, z powodu że pisać nie umieją przez nas tylko podpisany został. X. S. G. K. Proboszcz Parafii Cerekiewskiey",
       "translation_pl": "Zdarzyło się we wsi Cerekiew, dnia 24 stycznia 1836 roku, o godzinie czwartej po południu. Stawili się: Walenty Czerwiński, lat 50, oraz Szymon Wawrzeńczyk, lat 40, obywatele zamieszkali we wsi Jaszowice. Oświadczyli oni, że dnia 22 dnia bieżącego miesiąca i roku, o godzinie dziewiątej rano, zmarł Ambroży Gierczak, włościanin (chłop) zamieszkały w Jaszowicach, mający 36 lat. Urodził się w Jaszowicach, był synem zmarłego Tomasza i Zofii (z domu Giel) małżonków Gierczak. Zostawił po sobie owdowiałą żonę, Kunegundę (z domu Kania). Po naocznym upewnieniu się o zgonie Ambrożego Gierczaka, akt ten został stawającym się i świadkom odczytany, a ponieważ nie umieją pisać, został podpisany tylko przez nas.",
       "extracted_data": [
@@ -1821,7 +1856,7 @@
       "title_en": "Birth Record: Karol Gierczak (1828)",
       "type": "birth_record",
       "description": "Parafia Cerekiew, akt nr 97, 1828 r.",
-      "imageUrl": "/images/k.png",
+      "imageUrl": "/images/k.avif",
       "transcription": "Działo się we wsi Cerekwi dnia dwudziestego siódmego Października roku tysiąc osiemset dwudziestego ósmego o godzinie dziewiątej rano. Stawił się Ambroży Gierczak, włościanin w Jaszowicach zamieszkały, lat dwadzieścia ośm mający, w obecności Szymona Wawrzeńczyka lat trzydzieści pięć i Walentego Baćmagi lat czterdzieści mających, obydwóch włościanów w Jaszowicach zamieszkałych, i okazał Nam Dziecię płci męskiej, urodzone w Jaszowicach w dniu dwudziestym szóstym miesiąca i roku bieżącego o godzinie szóstej rano, z jego małżonki Kunegundy z Kaniów lat dwadzieścia siedm mającej. Dziecięciu temu na Chrzcie Świętym w dniu dzisieyszym odbytym nadane zostało imię Karol, a Rodzicami Chrzestnemi byli Andrzey Moskwa i Maryanna Włodawska, obydwoje włościanie w Jaszowicach zamieszkali. Akt ten stawającemu i świadkom przeczytany, pisać nie umiejących, przez Nas tylko podpisany został. X. S. G. K. Proboszcz Parafii Cerekiewskiey",
       "translation_pl": "Zdarzyło się we wsi Cerekiew, dnia 27 października 1828 roku, o godzinie dziewiątej rano. Stawił się Ambroży Gierczak, włościanin zamieszkały w Jaszowicach, mający 28 lat, w obecności Szymona Wawrzeńczyka (lat 35) i Walentego Baćmagi (lat 40), obu włościan zamieszkałych w Jaszowicach. Okazał nam dziecko płci męskiej, urodzone w Jaszowicach dnia 26 bieżącego miesiąca i roku, o godzinie szóstej rano, z jego żony Kunegundy z Kaniów, mającej 27 lat. Dziecku temu na Chrzcie Świętym, który odbył się dzisiaj, nadano imię Karol, a jego Rodzicami Chrzestnymi byli Andrzej Moskwa i Marianna Włodawska, oboje włościanie zamieszkali w Jaszowicach. Akt ten, po odczytaniu go stawiającemu i świadkom, którzy nie umieją pisać, został podpisany tylko przez nas.",
       "extracted_data": [
@@ -1848,8 +1883,8 @@
       "title_en": "Birth Record: Jakub Ofiara (1833)",
       "type": "birth_record",
       "description": "Parafia Jedlińsk, akt nr 47, 1833 r.",
-      "imageUrl": "/images/k.png",
-      "transcription": "Działo się we wsi Jedlińsku Miesiąca Lipca Dnia dwudziestego drugiego Roku tysiąc Osiemset trzydziestego trzeciego o godzinie dziewiątej rano. Stawił się Stefan Ofiara Mieszkaniec wsi Woli Gutowskiey lat czterdzieści mający, w obecności Wojciecha Gielowskiego lat czterdziestu i Jakóba Dobrowolskiego lat trzydziestu dwóch mających, obydwóch włościanów z Woli Gutowskiej zamieszkałych i okazał nam dziecię płci męskiej urodzone w tejże wsi w domu pod numerem piątym, urodzone dnia dwudziestego drugiego bieżącego miesiąca i roku o godzinie dziewiątej z rana z jego Małżonki Małgorzaty z Kowalczyków lat trzydzieści pięć mającej. Dziecięciu temu na Chrzcie Świętym w dniu dzisiejszym odbytym nadane zostało imie Jakób a Rodzicami jego Chrzestnemi byli: Wojciech Gielowski i Apolonia Kaimowa. Akt ten stawającemu i świadkom przeczytany, pisać nie umiejących, przez nas tylko podpisany został. X. Walenty Rudawski Dziekan i Proboszcz Jedliński",
+      "imageUrl": "/images/k.avif",
+      "transcription": "Działo się we wsi Jedlińsku Miesiąca Lipca Dnia dwudziestego drugiego Roku tysiąc Osiemset trzydziestego trzeciego o godzinie dziewiątej rano. Stawił się Stefan Ofiara Mieszkaniec wsi Woli Gutowskiey lat czterdzieści mający, w obecności Wojciecha Gielowskiego lat czterdziestu i Jakóba Dobrowolskiego lat trzydzieściu dwóch mających, obydwóch włościanów z Woli Gutowskiej zamieszkałych i okazał nam dziecię płci męskiej urodzone w tejże wsi w domu pod numerem piątym, urodzone dnia dwudziestego drugiego bieżącego miesiąca i roku o godzinie dziewiątej z rana z jego Małżonki Małgorzaty z Kowalczyków lat trzydzieści pięć mającej. Dziecięciu temu na Chrzcie Świętym w dniu dzisieyszym odbytym nadane zostało imie Jakób a Rodzicami jego Chrzestnemi byli: Wojciech Gielowski i Apolonia Kaimowa. Akt ten stawającemu i świadkom przeczytany, pisać nie umiejących, przez nas tylko podpisany został. X. Walenty Rudawski Dziekan i Proboszcz Jedliński",
       "translation_pl": "Zdarzyło się we wsi Jedlińsk, dnia 22 lipca 1833 roku o godzinie dziewiątej rano. Stawił się Stefan Ofiara, mieszkaniec wsi Wola Gutowska, lat 40, w obecności Wojciecha Gielowskiego, lat 40, i Jakuba Dobrowolskiego, lat 32, obydwóch włościan (chłopów) z Woli Gutowskiej. Okazał nam dziecko płci męskiej, urodzone w tejże wsi, w domu pod numerem 5, dnia 22 bieżącego miesiąca i roku o godzinie dziewiątej rano, z jego małżonki Małgorzaty z Kowalczyków, lat 35. Dziecku temu na chrzcie świętym odbytym w dniu dzisiejszym nadano imię Jakub, a jego rodzicami chrzestnymi byli Wojciech Gielowski i Apolonia Kaimowa. Akt ten stawającemu i świadkom, którzy pisać nie umieją, odczytano i tylko przez nas podpisano.",
       "extracted_data": [
         {
@@ -1875,7 +1910,7 @@
       "title_en": "Death Record: Andrzej Ofiara (1922)",
       "type": "death_record",
       "description": "Parafia Jankowice, akt nr 38, 1922 r.",
-      "imageUrl": "/images/k.png",
+      "imageUrl": "/images/k.avif",
       "transcription": "Działo się w Jankowicach dnia siódmego Grudnia tysiąc dziewięćset dwudziestego drugiego roku o godzinie dziewiątej rano. Stawili się Adam Błeszyński i Andrzej Dobosz, pełnoletni gospodarze z Ludwikowa, i oświadczyli iż we wsi Ludwikowie dnia wczorajszego bieżącego miesiąca i roku o godzinie ósmej z wieczora umarł Andrzej Ofiara, lat sześćdziesiąt osiem mający, gospodarz stały mieszkaniec wsi Ludwikowa, wdowiec po zmarłej żonie Franciszce z Popisów, syn zmarłych Jakóba i Maryanny z Wieczorków małżonków Ofiary. Akt ten stawającym świadkom niepiśmiennym przeczytany i przez nas został podpisany.",
       "translation_pl": "Zdarzyło się w Jankowicach, dnia 7 grudnia 1922 roku, o godzinie dziewiątej rano. Stawili się Adam Błeszyński i Andrzej Dobosz, pełnoletni gospodarze z Ludwikowa, i oświadczyli, że we wsi Ludwików, wczoraj, tj. 6 grudnia 1922 roku o godzinie ósmej wieczorem, zmarł Andrzej Ofiara. Miał 68 lat, był stałym mieszkańcem i gospodarzem we wsi Ludwików, wdowcem po zmarłej żonie Franciszce z domu Popis. Był synem zmarłych Jakuba i Marianny z domu Wieczorek, małżonków Ofiara. Akt ten odczytano stawiającym, niepiśmiennym świadkom i przez nas podpisano.",
       "extracted_data": [
@@ -1898,7 +1933,7 @@
       "title_en": "Marriage Record: Józef Ofiara & Helena Sobień (1926)",
       "type": "marriage_record",
       "description": "Parafia Zakrzew, akt nr 6, 1926 r.",
-      "imageUrl": "/images/k.png",
+      "imageUrl": "/images/k.avif",
       "transcription": "Działo się w Zakrzewie dnia dziewiątego Lutego tysiąc dziewięćset dwudziestego szóstego roku o godzinie dziesiątej. W obecności dwóch pełnoletnich świadków: Jana Bilskiego i Jana Baćmagi z Gulinka zawarte zostało dzisiaj w tutejszym kościele parafialnym religijne małżeństwo między: Józefem Ofiarą, wdowcem po Rozalji z Mitaków zmarłej w Gulinku dwudziestego drugiego listopada tysiąc dziewięćset dwudziestego piątego roku, lat dwadzieścia dziewięć mającym, synem Andrzeja i Franciszki z Szaruchów urodzonym w Ludwikowie parafji jankowice a zamieszkałym w Gulinku, a Heleną Sobień, panną lat dwadzieścia jeden mającą, córką Karola i Ewy z Drużdżelów urodzoną i zamieszkałą w Gulinie. Małżeństwo to poprzedziły trzy zapowiedzie ogłoszone w tutejszym parafialnym kościele w niedziele: dwudziestą czwartą, trzydziestą pierwszą stycznia i siódmą lutego bieżącego roku. Dyspensa od zachodzącego powinowactwa została udzielona przez Księdza Biskupa Ryxa w dniu trzydziestego stycznia bieżącego roku za Nr 12828. Obrzęd religijny dokonany został przez księdza Józefa Saermańskiego proboszcza. Akt ten nowożeńcom i świadkom przeczytany podpisaliśmy.",
       "translation_pl": "Zdarzyło się w Zakrzewie, dnia 9 lutego 1926 roku, o godzinie dziesiątej. W obecności dwóch pełnoletnich świadków, Jana Bilskiego i Jana Baćmagi z Gulinka, zostało dzisiaj zawarte w tutejszym kościele parafialnym religijne małżeństwo między: Józefem Ofiarą, wdowcem po Rozalii z domu Mitak (zmarłej w Gulinku 22 listopada 1925 roku), mającym 29 lat, synem Andrzeja i Franciszki z domu Szaruch, urodzonym w Ludwikowie (parafia Jankowice), a zamieszkałym w Gulinku, oraz Heleną Sobień, panną, mającą 21 lat, córką Karola i Ewy z domu Drużdżel, urodzoną i zamieszkałą w Gulinie. Małżeństwo to poprzedziły trzy zapowiedzi ogłoszone w tutejszym kościele parafialnym w niedziele: 24 i 31 stycznia oraz 7 lutego bieżącego roku. Dyspensa od zachodzącego powinowactwa została udzielona przez Księdza Biskupa Ryxa dnia 30 stycznia bieżącego roku za numerem 12828. Obrzęd religijny został dokonany przez księdza Józefa Saermańskiego, proboszcza. Akt ten, po przeczytaniu nowożeńcom i świadkom, podpisaliśmy.",
       "extracted_data": [
@@ -1935,7 +1970,7 @@
       "title_en": "Death Record: Karol Gierczak (1903)",
       "type": "death_record",
       "description": "Parafia Zakrzew (Zakrzów), akt nr 45, 1903 r.",
-      "imageUrl": "/images/k.png",
+      "imageUrl": "/images/k.avif",
       "transcription": "Состоялось въ деревнѣ Закшевѣ, двадцать девятаго сентября тысяча девятьсотъ третьяго года, въ десять часовъ вечера. Явились Янъ Береза сорокъ пять, и Владыславъ Буракъ, сорокъ два года имѣющіе, земледельцы изъ Гулинка, и объявили что сего дня, въ десять часовъ вечера, умеръ Карoль Герчакъ, семидесяти пяти лѣтъ отъ роду, земледелецъ, житель деревни Гулинка, сынъ покойныхъ Амврожія и Кунегунды урожденной Каня супруговъ Герчакъ. По наочномъ удостовѣреніи о кончинѣ Кароля Герчака, актъ сей прочитанъ Намъ и подписанъ.",
       "translation_pl": "Działo się we wsi Zakrzew, dwudziestego dziewiątego września tysiąc dziewięćset trzeciego roku, o godzinie dziesiątej wieczorem. Stawili się Jan Bereza, lat czterdzieści pięć, i Władysław Burak, lat czterdzieści dwa, rolnicy z Gulinka, i oświadczyli, że dzisiaj, o godzinie dziesiątej wieczorem, zmarł Karol Gierczak, lat siedemdziesiąt pięć, rolnik, mieszkaniec wsi Gulinek, syn zmarłych Ambrożego i Kunegundy z domu Kania małżonków Gierczak. Po naocznym stwierdzeniu zgonu Karola Gierczaka, akt ten został nam przeczytany i podpisany.",
       "extracted_data": [
@@ -1944,6 +1979,111 @@
           "label_pl": "Rodzice",
           "label_en": "Parents",
           "value": "Ambroży i Kunegunda z Kaniów"
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "title_pl": "Akt Ślubu: Jan Gierczak i Agnieszka Baćmaga (1917)",
+      "title_en": "Marriage Record: Jan Gierczak & Agnieszka Baćmaga (1917)",
+      "type": "marriage_record",
+      "description": "Parafia Zakrzew, akt nr 13, 1917 r.",
+      "imageUrl": "/images/k.avif",
+      "transcription": "Działo się w Zakrzewie dnia czternastego Listopada tysiąc dziewięćset siedemnastego roku o godzinie ósmej rano. Wiadomo czynimy iż w obecności Walentego Gierczaka i Jana Baćmagi, pełnoletnich mieszkańców wsi Gulinek, w dniu dzisiejszym zawarty został związek małżeński między Janem Gierczakiem, kawalerem, mającym lat dwadzieścia sześć, urodzonym i zamieszkałym w Gulinku, stałym mieszkańcem gminy Zakrzew, synem Pawła i Katarzyny z Czerwińskich, a Agnieszką Baćmagą panną, mającą lat dwadzieścia trzy, urodzoną i zamieszkałą w Gulinku, stałą mieszkanką gminy Zakrzew, córką Kazimierza i Antoniny z Szewczyków. Małżeństwo to poprzedziły trzy zapowiedzie ogłoszone w tutejszym kościele w dniach: dwudziestym pierwszym, dwudziestym ósmym Października i czwartym Listopada bieżącego roku. Małżonkowie oświadczają, iż umowy przedślubnej nie zawarli. Obrzęd ten religijny dopełniony został przez miejscowego proboszcza. Akt ten obecnym niepiśmiennym przeczytany, podpisaliśmy.",
+      "translation_pl": "Zdarzyło się w Zakrzewie, dnia 14 listopada 1917 roku, o godzinie ósmej rano. Wiadomo czynimy, że w obecności Walentego Gierczaka i Jana Baćmagi, pełnoletnich mieszkańców wsi Gulinek, w dniu dzisiejszym został zawarty związek małżeński między Janem Gierczakiem, kawalerem, mającym 26 lat, urodzonym i zamieszkałym w Gulinku, stałym mieszkańcem gminy Zakrzew, synem Pawła i Katarzyny z domu Czerwińskich, a Agnieszką Baćmagą, panną, mającą 23 lata, urodzoną i zamieszkałą w Gulinku, stałą mieszkanką gminy Zakrzew, córką Kazimierza i Antoniny z domu Szewczyk. Małżeństwo to poprzedziły trzy zapowiedzi ogłoszone w tutejszym kościele w dniach: 21 i 28 października oraz 4 listopada bieżącego roku. Małżonkowie oświadczają, że nie zawarli umowy przedślubnej. Obrzęd religijny został dopełniony przez miejscowego proboszcza. Akt ten, po przeczytaniu obecnym niepiśmiennym, podpisaliśmy.",
+      "extracted_data": [
+        {
+          "label_pl": "Pan Młody",
+          "label_en": "Groom",
+          "value": "Jan Gierczak, 26 lat, kawaler"
+        },
+        {
+          "label_pl": "Panna Młoda",
+          "label_en": "Bride",
+          "value": "Agnieszka Baćmaga, 23 lata, panna"
+        },
+        {
+          "label_pl": "Rodzice Pana Młodego",
+          "label_en": "Groom's Parents",
+          "value": "Paweł i Katarzyna z Czerwińskich"
+        },
+        {
+          "label_pl": "Rodzice Panny Młodej",
+          "label_en": "Bride's Parents",
+          "value": "Kazimierz i Antonina z Szewczyków"
+        },
+        {
+          "label_pl": "Świadkowie",
+          "label_en": "Witnesses",
+          "value": "Walenty Gierczak i Jan Baćmaga"
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "title_pl": "Akt Zgonu: Paweł Gierczak (1935)",
+      "title_en": "Death Record: Paweł Gierczak (1935)",
+      "type": "death_record",
+      "description": "Parafia Zakrzew (Zakrzów), akt nr 25, 1935 r.",
+      "imageUrl": "/images/k.avif",
+      "transcription": "Działo się w Zakrzowie dnia trzydziestego Lipca tysiąc dziewięćset trzydziestego piątego roku, o godzinie dziesiątej. Stawili się: Adam Sitek i Józef Rogala, obaj pełnoletni zamieszkali w Gulinku, i oświadczyli, iż dnia dwudziestego dziewiątego Lipca bieżącego roku, o godzinie drugiej zmarł w Gulinku Paweł Gierczak, lat sześćdziesiąt osiem mający, syn Karola i Tekli z Kozyrów, pozostawiwszy żonę Katarzynę z Kozyrów. Po naocznym przekonaniu się o śmierci Pawła Gierczaka, akt ten świadkom przeczytany, podpisaliśmy.",
+      "translation_pl": "Zdarzyło się w Zakrzowie dnia 30 lipca 1935 roku o godzinie dziesiątej. Stawili się Adam Sitek i Józef Rogala, obaj pełnoletni zamieszkali w Gulinku, i oświadczyli, że dnia 29 lipca bieżącego roku o godzinie drugiej zmarł w Gulinku Paweł Gierczak, lat 68, syn Karola i Tekli z domu Kozyra. Pozostawił żonę Katarzynę z domu Kozyra. Po naocznym stwierdzeniu śmierci Pawła Gierczaka, akt ten świadkom przeczytano i podpisaliśmy.",
+      "extracted_data": [
+        { "label_pl": "Wiek", "label_en": "Age", "value": "68 lat" },
+        {
+          "label_pl": "Rodzice",
+          "label_en": "Parents",
+          "value": "Karol i Tekla z Kozyrów"
+        },
+        {
+          "label_pl": "Małżonka",
+          "label_en": "Spouse",
+          "value": "Katarzyna z Kozyrów"
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "title_pl": "Akt Urodzenia: Adam Gierczak (1888)",
+      "title_en": "Birth Record: Adam Gierczak (1888)",
+      "type": "birth_record",
+      "description": "Parafia Zakrzew (Zakrzów), akt nr 50, 1888 r.",
+      "imageUrl": "/images/k.avif",
+      "transcription": "Состоялось въ деревнѣ Закшевѣ, двадцатого (тридцать перваго) Декабря тысяча восемьсотъ восемьдесятъ восьмого года, въ часъ по полудни. Явился Павелъ Герчакъ, тридцати двухъ лѣтъ отъ роду, земледелецъ, житель деревни Гулинекъ, въ присутствіи Станислава Плевінскаго пятьдесяти пяти, и Яна Чмура пятьдесяти двухъ лѣтъ отъ роду, обоихъ земледельцевъ изъ деревни Гулинекъ, и предъявилъ намъ младенца мужескаго пола, объявляя, что онъ родился въ деревнѣ Гулинекъ восемнадцатого (тридцатого) сего Декабря въ десять часовъ вечера, отъ его законной жены Катаржины урожденной Червинскихъ, двадцати трехъ лѣтъ отъ роду. Младенцу сему при святомъ крещеніи совершенномъ сего числа дано имя Адамъ, а воспріемниками его были: Станиславъ Плевінскій и Францишка Зелинская. Этотъ актъ объявляющему и свидѣтелямъ неграмотнымъ прочитанъ, Нами только подписанъ.",
+      "translation_pl": "Działo się we wsi Zakrzew, dwudziestego (trzydziestego pierwszego) grudnia tysiąc osiemset osiemdziesiątego ósmego roku, o godzinie pierwszej po południu. Stawił się Paweł Gierczak, lat trzydzieści dwa, rolnik, mieszkaniec wsi Gulinek, w obecności Stanisława Plewińskiego, lat pięćdziesiąt pięć, i Jana Czmura, lat pięćdziesiąt dwa, obu rolników ze wsi Gulinek, i okazał nam niemowlę płci męskiej, oświadczając, że urodziło się ono we wsi Gulinek osiemnastego (trzydziestego) bieżącego grudnia o godzinie dziesiątej wieczorem, z jego prawowitej żony Katarzyny z domu Czerwińskich, lat dwadzieścia trzy. Niemowlęciu temu przy chrzcie świętym, który odbył się dzisiaj, nadano imię Adam, a jego chrzestnymi byli: Stanisław Plewiński i Franciszka Zielińska. Akt ten oświadczającemu i świadkom, którzy są niepiśmienni, został przeczytany i tylko przez nas podpisany.",
+      "extracted_data": [
+        {
+          "label_pl": "Ojciec",
+          "label_en": "Father",
+          "value": "Paweł Gierczak, 32 lata"
+        },
+        {
+          "label_pl": "Matka",
+          "label_en": "Mother",
+          "value": "Katarzyna z Czerwińskich, 23 lata"
+        },
+        {
+          "label_pl": "Chrzestni",
+          "label_en": "Godparents",
+          "value": "Stanisław Plewiński i Franciszka Zielińska"
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "title_pl": "Akt Zgonu: Adam Gierczak (1889)",
+      "title_en": "Death Record: Adam Gierczak (1889)",
+      "type": "death_record",
+      "description": "Parafia Zakrzew (Zakrzów), akt nr 11, 1889 r.",
+      "imageUrl": "/images/k.avif",
+      "transcription": "Состоялось въ деревнѣ Закшевѣ, двадцатого Февраля (шестого Марта) тысяча восемьсотъ восемьдесятъ девятаго года, въ часъ по полудни. Явился Павелъ Герчакъ, тридцати трехъ лѣтъ, и Францишекъ Зелинскій, пятидесяти двухъ лѣтъ отъ роду, оба земледельцы изъ деревни Гулинекъ, и объявили, что вчерашняго дня въ полдень, умеръ Адамъ Герчакъ, трехъ мѣсяцевъ отъ роду, сынъ Павла и Катаржины урожденной Червинскихъ, земледельцевъ, удостовѣреніи о кончинѣ Адама Герчака, актъ сей присутствующимъ неграмотнымъ прочитанъ, и Нами только подписанъ.",
+      "translation_pl": "Działo się we wsi Zakrzew, dwudziestego lutego (szóstego marca) tysiąc osiemset osiemdziesiątego dziewiątego roku, o godzinie pierwszej po południu. Stawili się Paweł Gierczak, lat trzydzieści trzy, i Franciszek Zieliński, lat pięćdziesiąt dwa, obaj rolnicy ze wsi Gulinek, i oświadczyli, że wczoraj w południe zmarł Adam Gierczak, mający trzy miesiące, syn Pawła i Katarzyny z domu Czerwińskich, rolników. Po naocznym stwierdzeniu zgonu Adama Gierczaka, akt ten obecnym niepiśmiennym został przeczytany i tylko przez nas podpisany.",
+      "extracted_data": [
+        { "label_pl": "Wiek", "label_en": "Age", "value": "3 miesiące" },
+        {
+          "label_pl": "Rodzice",
+          "label_en": "Parents",
+          "value": "Paweł i Katarzyna z Czerwińskich"
         }
       ]
     }
