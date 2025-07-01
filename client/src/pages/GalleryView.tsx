@@ -54,9 +54,9 @@ export default function GalleryView() {
     },
     {
       id: "doc-1",
-      src: "/images/14.avif",
-      alt: "Akt ślubu Jana i Agnieszki",
-      category: "documents",
+      src: "/images/grobjan.avif",
+      alt: "Grób Jana Gierczaka",
+      category: "portraits",
       titleKey: "gallery.item.doc-1.title",
       descriptionKey: "gallery.item.doc-1.desc",
     },

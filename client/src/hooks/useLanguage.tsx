@@ -116,9 +116,8 @@ const translations = {
       "Jeden z najstarszych członków rodu z czasów pańszczyźnianych wygenerowany przez AI na podstawie 3 potomków",
     "gallery.item.portrait-4.title": "Portret prababci i pradziadka (?)",
     "gallery.item.portrait-4.desc": "Członkowie rodziny Sobień (Drużdżel)",
-    "gallery.item.doc-1.title":
-      "Zapis ślubu Jana Gierczaka i Agnieszki Baćmagi 14.11.1917",
-    "gallery.item.doc-1.desc": "Księga parafialna w Zakrzowie (Zakrzewie)",
+    "gallery.item.doc-1.title": "Grób Jana Gierczaka",
+    "gallery.item.doc-1.desc": "Cmentarz parafialny w Zakrzowie (Zakrzewie)",
     "gallery.item.doc-2.title": "Gulinek, 1960",
     "gallery.item.doc-2.desc":
       "I Komunia Św. Zofii Bilskiej, moja mama jako matka chrzestna",
@@ -460,9 +459,8 @@ const translations = {
     "gallery.item.portrait-4.title":
       "Great-grandmother and great-grandfather's portrait (?)",
     "gallery.item.portrait-4.desc": "Members of the Sobień (Drużdżel) family",
-    "gallery.item.doc-1.title":
-      "Marriage record of Jan Gierczak and Agnieszka Baćmaga 14.11.1917",
-    "gallery.item.doc-1.desc": "Parish register in Zakrzów (Zakrzew)",
+    "gallery.item.doc-1.title": "The grave of Jan Gierczak.",
+    "gallery.item.doc-1.desc": "Parish cemetery in Zakrzów (Zakrzew)",
     "gallery.item.doc-2.title": "Gulinek, 1960",
     "gallery.item.doc-2.desc":
       "First Holy Communion of Zofia Bilska, my mother as godmother",
