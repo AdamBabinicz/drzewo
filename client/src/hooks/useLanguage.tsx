@@ -121,13 +121,12 @@ const translations = {
     "gallery.item.doc-2.title": "Gulinek, 1960",
     "gallery.item.doc-2.desc":
       "I Komunia Św. Zofii Bilskiej, moja mama jako matka chrzestna",
-    "gallery.item.doc-3.title": "Dokument kościelny",
-    "gallery.item.doc-3.desc":
-      "Zapis w Księdze Parafialnej w Zakrzowie (Zakrzewie)",
+    "gallery.item.doc-3.title": "Wspólny grób Józefa, Rozalii i Heleny Ofiarów",
+    "gallery.item.doc-3.desc": "Cmentarz parafialny w Zakrzowie (Zakrzewie)",
     "gallery.item.doc-4.title": "Drzewo genealogiczne",
     "gallery.item.doc-4.desc": "Ręcznie sporządzone drzewo rodzinne",
-    "gallery.item.doc-5.title": "Zapis o zgonie Andrzeja Ofiary 17.12.1922",
-    "gallery.item.doc-5.desc": "Księga zgonów parafii Cerekiew",
+    "gallery.item.doc-5.title": "Grób Agnieszki Gierczak",
+    "gallery.item.doc-5.desc": "Cmentarz parafialny w Zakrzowie (Zakrzewie)",
     "gallery.item.place-1.title": "I Komunia Św. wujka Romana Ofiary",
     "gallery.item.place-1.desc": "Roman ze swoją mamą Heleną",
     "gallery.item.place-2.title": "Wieś Jaszowice",
@@ -464,9 +463,9 @@ const translations = {
     "gallery.item.doc-2.title": "Gulinek, 1960",
     "gallery.item.doc-2.desc":
       "First Holy Communion of Zofia Bilska, my mother as godmother",
-    "gallery.item.doc-3.title": "Church document",
-    "gallery.item.doc-3.desc":
-      "Entry in the Parish Register of Zakrzów (Zakrzew)",
+    "gallery.item.doc-3.title":
+      "The shared grave of Józef, Rozalia, and Helena Ofiara",
+    "gallery.item.doc-3.desc": "Parish cemetery in Zakrzów (Zakrzew)",
     "gallery.item.doc-4.title": "Genealogical Tree",
     "gallery.item.doc-4.desc": "Hand-drawn family tree",
     "gallery.item.doc-5.title": "Death record of Andrzej Ofiara 17.12.1922",
