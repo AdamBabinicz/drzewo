@@ -46,11 +46,12 @@ export default function DocumentModal({
 
         <div className="grid md:grid-cols-2 gap-6 max-h-[70vh]">
           <ScrollArea className="h-full">
-            <div className="bg-white dark:bg-card p-1 rounded-md">
+            <div className="hidden md:block bg-white dark:bg-card p-1 rounded-md">
               <img
                 src={document.imageUrl}
                 alt={title}
                 className="w-full h-auto rounded-md"
+                loading="lazy"
               />
             </div>
           </ScrollArea>
