@@ -54,7 +54,7 @@
       "id": 4,
       "firstName": "Ambroży",
       "lastName": "Gierczak",
-      "birthDateNote": "ok. 1800",
+      "birthDateNote": "1800",
       "deathDate": "1836-01-22",
       "deathTime": "9:00 rano",
       "photoUrl": "/images/ambrozy.avif",
@@ -135,7 +135,8 @@
       "lastName": "Gierczak",
       "birthDate": "1828-10-26",
       "birthTime": "6:00 rano",
-      "deathDate": "1903",
+      "deathDate": "1903-09-29",
+      "deathTime": "22:00",
       "photoUrl": "/images/Karol.avif",
       "family": "gierczak",
       "spouseIds": [18],
@@ -153,6 +154,12 @@
           "date": "1828-10-26",
           "place": "Jaszowice",
           "source": { "documentId": 102 }
+        },
+        {
+          "type": "death",
+          "date": "1903-09-29",
+          "place": "Gulinek",
+          "source": { "documentId": 106 }
         }
       ]
     },
@@ -334,11 +341,15 @@
       "occupation": { "pl": "Gospodarz", "en": "Farmer" },
       "marriages": [
         { "spouseId": 47, "date": "1918" },
-        { "spouseId": 46, "date": "1926-02-09" }
+        {
+          "spouseId": 46,
+          "date": "1926-02-09",
+          "source": { "documentId": 105 }
+        }
       ],
       "biography": {
-        "pl": "Dziadek autora. Syn Andrzeja Ofiary i Franciszki Szaruch. 06 listopada 1918 poślubił Rozalię Mitak (zm. 22 listopada 1925), z którą miał 3 synów. Po jej śmierci ożenił się 09 lutego 1926 z Heleną Sobień, z którą miał 6 dzieci.",
-        "en": "Author's grandfather. Son of Andrzej Ofiara and Franciszka Szaruch. On November 6, 1918, he married Rozalia Mitak (d. November 22, 1925), with whom he had three sons. After her death, he married Helena Sobień on February 9, 1926, with whom he had six children."
+        "pl": "Dziadek autora. Syn Andrzeja Ofiary i Franciszki z d. Szaruch. 06 listopada 1918 poślubił Rozalię Mitak (zm. 22 listopada 1925), z którą miał 3 synów. Po jej śmierci ożenił się 09 lutego 1926 z Heleną Sobień, z którą miał 6 dzieci.",
+        "en": "Author's grandfather. Son of Andrzej Ofiara and Franciszka née Szaruch. On November 6, 1918, he married Rozalia Mitak (d. November 22, 1925), with whom he had three sons. After her death, he married Helena Sobień on February 9, 1926, with whom he had six children."
       },
       "anecdotes": [
         {
@@ -359,7 +370,13 @@
       "spouseIds": [45],
       "childIds": [95, 96, 97, 98, 41, 99],
       "parentIds": [119, 120],
-      "marriages": [{ "spouseId": 45, "date": "1926-02-09" }],
+      "marriages": [
+        {
+          "spouseId": 45,
+          "date": "1926-02-09",
+          "source": { "documentId": 105 }
+        }
+      ],
       "biography": {
         "pl": "Babcia autora, druga żona Józefa Ofiary. Z Józefem miała sześcioro dzieci. Miała liczne rodzeństwo rodzone i przyrodnie.",
         "en": "The author's grandmother, the second wife of Józef Ofiara. She had six children with Józef. She had numerous full and half-siblings."
@@ -398,7 +415,8 @@
       "firstName": "Andrzej",
       "lastName": "Ofiara",
       "birthDate": "1854",
-      "deathDate": "1922-12-17",
+      "deathDate": "1922-12-06",
+      "deathTime": "20:00",
       "photoUrl": "/images/andrzej.avif",
       "family": "ofiara",
       "spouseIds": [58],
@@ -407,9 +425,17 @@
       "occupation": { "pl": "Gospodarz", "en": "Farmer" },
       "marriages": [{ "spouseId": 58, "date": "18xx" }],
       "biography": {
-        "pl": "Pradziadek autora. Syn Jakuba i Marianny z d. Wieczorek. Ożenił się z Franciszką Szaruch (Saruch). Mieli 4 dzieci.",
-        "en": "The author's great-grandfather. Son of Jakub and Marianna née Wieczorek. He married Franciszka Szaruch (Saruch). They had 4 children."
-      }
+        "pl": "Pradziadek autora. Syn Jakuba i Marianny z d. Wieczorek. Ożenił się z Franciszką Szaruch. Mieli 4 dzieci. Mieszkał i zmarł w Ludwikowie.",
+        "en": "The author's great-grandfather. Son of Jakub and Marianna née Wieczorek. He married Franciszka Szaruch. They had 4 children. He lived and died in Ludwików."
+      },
+      "events": [
+        {
+          "type": "death",
+          "date": "1922-12-06",
+          "place": "Ludwików",
+          "source": { "documentId": 104 }
+        }
+      ]
     },
     {
       "id": 58,
@@ -417,7 +443,7 @@
       "lastName": "Ofiara",
       "maidenName": "Szaruch",
       "birthDate": "1876",
-      "deathDate": null,
+      "deathDate": "przed 1922",
       "photoUrl": null,
       "family": "ofiara",
       "spouseIds": [57],
@@ -425,8 +451,8 @@
       "parentIds": [],
       "marriages": [{ "spouseId": 57, "date": "18xx" }],
       "biography": {
-        "pl": "Żona Andrzeja Ofiary. Brak danych.",
-        "en": "Wife of Andrzej Ofiara. No data available."
+        "pl": "Żona Andrzeja Ofiary. Zmarła przed 1922 rokiem.",
+        "en": "Wife of Andrzej Ofiara. Died before 1922."
       }
     },
     {
@@ -1572,6 +1598,7 @@
       "lastName": "Ofiara",
       "family": "ofiara",
       "birthDate": "1833-07-22",
+      "birthTime": "9:00 rano",
       "deathDate": "1919-11-22",
       "photoUrl": "/images/jakub.avif",
       "spouseIds": [130],
@@ -1582,7 +1609,15 @@
       "biography": {
         "pl": "Syn Stefana i Małgorzaty z d. Kowalczyk. Mąż Marianny Wieczorek. Mieszkał z rodziną w Woli Gutowskiej k. Jedlińska, (wdowiec).",
         "en": "Son of Stefan and Małgorzata née Kowalczyk. Husband of Marianna Wieczorek. Lived with his family in Wola Gutowska near Jedlińsk, (widower)."
-      }
+      },
+      "events": [
+        {
+          "type": "birth",
+          "date": "1833-07-22",
+          "place": "Wola Gutowska",
+          "source": { "documentId": 103 }
+        }
+      ]
     },
     {
       "id": 130,
@@ -1804,6 +1839,111 @@
           "label_pl": "Chrzestni",
           "label_en": "Godparents",
           "value": "Andrzej Moskwa i Marianna Włodawska"
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "title_pl": "Akt Urodzenia: Jakub Ofiara (1833)",
+      "title_en": "Birth Record: Jakub Ofiara (1833)",
+      "type": "birth_record",
+      "description": "Parafia Jedlińsk, akt nr 47, 1833 r.",
+      "imageUrl": "/images/k.png",
+      "transcription": "Działo się we wsi Jedlińsku Miesiąca Lipca Dnia dwudziestego drugiego Roku tysiąc Osiemset trzydziestego trzeciego o godzinie dziewiątej rano. Stawił się Stefan Ofiara Mieszkaniec wsi Woli Gutowskiey lat czterdzieści mający, w obecności Wojciecha Gielowskiego lat czterdziestu i Jakóba Dobrowolskiego lat trzydziestu dwóch mających, obydwóch włościanów z Woli Gutowskiej zamieszkałych i okazał nam dziecię płci męskiej urodzone w tejże wsi w domu pod numerem piątym, urodzone dnia dwudziestego drugiego bieżącego miesiąca i roku o godzinie dziewiątej z rana z jego Małżonki Małgorzaty z Kowalczyków lat trzydzieści pięć mającej. Dziecięciu temu na Chrzcie Świętym w dniu dzisiejszym odbytym nadane zostało imie Jakób a Rodzicami jego Chrzestnemi byli: Wojciech Gielowski i Apolonia Kaimowa. Akt ten stawającemu i świadkom przeczytany, pisać nie umiejących, przez nas tylko podpisany został. X. Walenty Rudawski Dziekan i Proboszcz Jedliński",
+      "translation_pl": "Zdarzyło się we wsi Jedlińsk, dnia 22 lipca 1833 roku o godzinie dziewiątej rano. Stawił się Stefan Ofiara, mieszkaniec wsi Wola Gutowska, lat 40, w obecności Wojciecha Gielowskiego, lat 40, i Jakuba Dobrowolskiego, lat 32, obydwóch włościan (chłopów) z Woli Gutowskiej. Okazał nam dziecko płci męskiej, urodzone w tejże wsi, w domu pod numerem 5, dnia 22 bieżącego miesiąca i roku o godzinie dziewiątej rano, z jego małżonki Małgorzaty z Kowalczyków, lat 35. Dziecku temu na chrzcie świętym odbytym w dniu dzisiejszym nadano imię Jakub, a jego rodzicami chrzestnymi byli Wojciech Gielowski i Apolonia Kaimowa. Akt ten stawającemu i świadkom, którzy pisać nie umieją, odczytano i tylko przez nas podpisano.",
+      "extracted_data": [
+        {
+          "label_pl": "Ojciec",
+          "label_en": "Father",
+          "value": "Stefan Ofiara, 40 lat"
+        },
+        {
+          "label_pl": "Matka",
+          "label_en": "Mother",
+          "value": "Małgorzata z Kowalczyków, 35 lat"
+        },
+        {
+          "label_pl": "Chrzestni",
+          "label_en": "Godparents",
+          "value": "Wojciech Gielowski i Apolonia Kaimowa"
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "title_pl": "Akt Zgonu: Andrzej Ofiara (1922)",
+      "title_en": "Death Record: Andrzej Ofiara (1922)",
+      "type": "death_record",
+      "description": "Parafia Jankowice, akt nr 38, 1922 r.",
+      "imageUrl": "/images/k.png",
+      "transcription": "Działo się w Jankowicach dnia siódmego Grudnia tysiąc dziewięćset dwudziestego drugiego roku o godzinie dziewiątej rano. Stawili się Adam Błeszyński i Andrzej Dobosz, pełnoletni gospodarze z Ludwikowa, i oświadczyli iż we wsi Ludwikowie dnia wczorajszego bieżącego miesiąca i roku o godzinie ósmej z wieczora umarł Andrzej Ofiara, lat sześćdziesiąt osiem mający, gospodarz stały mieszkaniec wsi Ludwikowa, wdowiec po zmarłej żonie Franciszce z Popisów, syn zmarłych Jakóba i Maryanny z Wieczorków małżonków Ofiary. Akt ten stawającym świadkom niepiśmiennym przeczytany i przez nas został podpisany.",
+      "translation_pl": "Zdarzyło się w Jankowicach, dnia 7 grudnia 1922 roku, o godzinie dziewiątej rano. Stawili się Adam Błeszyński i Andrzej Dobosz, pełnoletni gospodarze z Ludwikowa, i oświadczyli, że we wsi Ludwików, wczoraj, tj. 6 grudnia 1922 roku o godzinie ósmej wieczorem, zmarł Andrzej Ofiara. Miał 68 lat, był stałym mieszkańcem i gospodarzem we wsi Ludwików, wdowcem po zmarłej żonie Franciszce z domu Popis. Był synem zmarłych Jakuba i Marianny z domu Wieczorek, małżonków Ofiara. Akt ten odczytano stawiającym, niepiśmiennym świadkom i przez nas podpisano.",
+      "extracted_data": [
+        { "label_pl": "Wiek", "label_en": "Age", "value": "68 lat" },
+        {
+          "label_pl": "Rodzice",
+          "label_en": "Parents",
+          "value": "Jakub i Marianna z Wieczorków"
+        },
+        {
+          "label_pl": "Małżonka (zmarła)",
+          "label_en": "Spouse (deceased)",
+          "value": "Franciszka z Popisów"
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "title_pl": "Akt Ślubu: Józef Ofiara i Helena Sobień (1926)",
+      "title_en": "Marriage Record: Józef Ofiara & Helena Sobień (1926)",
+      "type": "marriage_record",
+      "description": "Parafia Zakrzew, akt nr 6, 1926 r.",
+      "imageUrl": "/images/k.png",
+      "transcription": "Działo się w Zakrzewie dnia dziewiątego Lutego tysiąc dziewięćset dwudziestego szóstego roku o godzinie dziesiątej. W obecności dwóch pełnoletnich świadków: Jana Bilskiego i Jana Baćmagi z Gulinka zawarte zostało dzisiaj w tutejszym kościele parafialnym religijne małżeństwo między: Józefem Ofiarą, wdowcem po Rozalji z Mitaków zmarłej w Gulinku dwudziestego drugiego listopada tysiąc dziewięćset dwudziestego piątego roku, lat dwadzieścia dziewięć mającym, synem Andrzeja i Franciszki z Szaruchów urodzonym w Ludwikowie parafji jankowice a zamieszkałym w Gulinku, a Heleną Sobień, panną lat dwadzieścia jeden mającą, córką Karola i Ewy z Drużdżelów urodzoną i zamieszkałą w Gulinie. Małżeństwo to poprzedziły trzy zapowiedzie ogłoszone w tutejszym parafialnym kościele w niedziele: dwudziestą czwartą, trzydziestą pierwszą stycznia i siódmą lutego bieżącego roku. Dyspensa od zachodzącego powinowactwa została udzielona przez Księdza Biskupa Ryxa w dniu trzydziestego stycznia bieżącego roku za Nr 12828. Obrzęd religijny dokonany został przez księdza Józefa Saermańskiego proboszcza. Akt ten nowożeńcom i świadkom przeczytany podpisaliśmy.",
+      "translation_pl": "Zdarzyło się w Zakrzewie, dnia 9 lutego 1926 roku, o godzinie dziesiątej. W obecności dwóch pełnoletnich świadków, Jana Bilskiego i Jana Baćmagi z Gulinka, zostało dzisiaj zawarte w tutejszym kościele parafialnym religijne małżeństwo między: Józefem Ofiarą, wdowcem po Rozalii z domu Mitak (zmarłej w Gulinku 22 listopada 1925 roku), mającym 29 lat, synem Andrzeja i Franciszki z domu Szaruch, urodzonym w Ludwikowie (parafia Jankowice), a zamieszkałym w Gulinku, oraz Heleną Sobień, panną, mającą 21 lat, córką Karola i Ewy z domu Drużdżel, urodzoną i zamieszkałą w Gulinie. Małżeństwo to poprzedziły trzy zapowiedzi ogłoszone w tutejszym kościele parafialnym w niedziele: 24 i 31 stycznia oraz 7 lutego bieżącego roku. Dyspensa od zachodzącego powinowactwa została udzielona przez Księdza Biskupa Ryxa dnia 30 stycznia bieżącego roku za numerem 12828. Obrzęd religijny został dokonany przez księdza Józefa Saermańskiego, proboszcza. Akt ten, po przeczytaniu nowożeńcom i świadkom, podpisaliśmy.",
+      "extracted_data": [
+        {
+          "label_pl": "Pan Młody",
+          "label_en": "Groom",
+          "value": "Józef Ofiara, 29 lat, wdowiec"
+        },
+        {
+          "label_pl": "Panna Młoda",
+          "label_en": "Bride",
+          "value": "Helena Sobień, 21 lat, panna"
+        },
+        {
+          "label_pl": "Rodzice Pana Młodego",
+          "label_en": "Groom's Parents",
+          "value": "Andrzej i Franciszka z Szaruchów"
+        },
+        {
+          "label_pl": "Rodzice Panny Młodej",
+          "label_en": "Bride's Parents",
+          "value": "Karol i Ewa z Drużdżelów"
+        },
+        {
+          "label_pl": "Świadkowie",
+          "label_en": "Witnesses",
+          "value": "Jan Bilski i Jan Baimaga"
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "title_pl": "Akt Zgonu: Karol Gierczak (1903)",
+      "title_en": "Death Record: Karol Gierczak (1903)",
+      "type": "death_record",
+      "description": "Parafia Zakrzew (Zakrzów), akt nr 45, 1903 r.",
+      "imageUrl": "/images/k.png",
+      "transcription": "Состоялось въ деревнѣ Закшевѣ, двадцать девятаго сентября тысяча девятьсотъ третьяго года, въ десять часовъ вечера. Явились Янъ Береза сорокъ пять, и Владыславъ Буракъ, сорокъ два года имѣющіе, земледельцы изъ Гулинка, и объявили что сего дня, въ десять часовъ вечера, умеръ Карoль Герчакъ, семидесяти пяти лѣтъ отъ роду, земледелецъ, житель деревни Гулинка, сынъ покойныхъ Амврожія и Кунегунды урожденной Каня супруговъ Герчакъ. По наочномъ удостовѣреніи о кончинѣ Кароля Герчака, актъ сей прочитанъ Намъ и подписанъ.",
+      "translation_pl": "Działo się we wsi Zakrzew, dwudziestego dziewiątego września tysiąc dziewięćset trzeciego roku, o godzinie dziesiątej wieczorem. Stawili się Jan Bereza, lat czterdzieści pięć, i Władysław Burak, lat czterdzieści dwa, rolnicy z Gulinka, i oświadczyli, że dzisiaj, o godzinie dziesiątej wieczorem, zmarł Karol Gierczak, lat siedemdziesiąt pięć, rolnik, mieszkaniec wsi Gulinek, syn zmarłych Ambrożego i Kunegundy z domu Kania małżonków Gierczak. Po naocznym stwierdzeniu zgonu Karola Gierczaka, akt ten został nam przeczytany i podpisany.",
+      "extracted_data": [
+        { "label_pl": "Wiek", "label_en": "Age", "value": "75 lat" },
+        {
+          "label_pl": "Rodzice",
+          "label_en": "Parents",
+          "value": "Ambroży i Kunegunda z Kaniów"
         }
       ]
     }

@@ -19,8 +19,9 @@ import {
   MessageSquareText,
   Clock,
   Book,
+  Heart,
 } from "lucide-react";
-import { Person } from "@shared/schema";
+import { Person, Marriage } from "@shared/schema";
 import { useLanguage } from "@/hooks/useLanguage";
 import DocumentModal from "./DocumentModal";
 import {
@@ -125,9 +126,6 @@ export default function PersonModal({
   const parents = person.parentIds
     ? allPeople.filter((p) => person.parentIds!.includes(p.id))
     : [];
-  const spouses = person.spouseIds
-    ? allPeople.filter((p) => person.spouseIds!.includes(p.id))
-    : [];
   const children = person.childIds
     ? allPeople.filter((p) => person.childIds!.includes(p.id))
     : [];
@@ -174,6 +172,7 @@ export default function PersonModal({
                 </div>
                 <div className="md:w-2/3 space-y-4">
                   <TooltipProvider>
+                    {/* --- BLOK URODZENIA / ZGONU --- */}
                     {(person.birthDate ||
                       person.birthDateNote ||
                       person.deathDate) && (
@@ -240,7 +239,62 @@ export default function PersonModal({
                         </div>
                       </div>
                     )}
+
+                    {/* --- NOWY, POPRAWIONY BLOK MAŁŻEŃSTWA --- */}
+                    {person.marriages && person.marriages.length > 0 && (
+                      <div className="flex items-start space-x-3">
+                        <Heart className="w-4 h-4 text-muted-foreground mt-1" />
+                        <div>
+                          {person.marriages.map((marriage) => {
+                            const spouse = allPeople.find(
+                              (p) => p.id === marriage.spouseId
+                            );
+                            if (!spouse) return null;
+
+                            return (
+                              <div key={marriage.spouseId} className="mb-2">
+                                <p
+                                  className="heritage-text cursor-pointer hover:underline"
+                                  onClick={() => onPersonClick(spouse)}
+                                >
+                                  <span className="font-semibold">
+                                    {t("person.marriedTo")}:
+                                  </span>{" "}
+                                  {spouse.firstName} {spouse.lastName}
+                                </p>
+                                {marriage.date && (
+                                  <div className="flex items-center gap-2">
+                                    <p className="text-sm text-muted-foreground">
+                                      {formatDate(marriage.date, language)}
+                                    </p>
+                                    {marriage.source && (
+                                      <Tooltip>
+                                        <TooltipTrigger asChild>
+                                          <Book
+                                            className="w-4 h-4 text-blue-500 cursor-pointer"
+                                            onClick={(e) => {
+                                              e.stopPropagation();
+                                              handleDocumentClick(
+                                                marriage.source!.documentId
+                                              );
+                                            }}
+                                          />
+                                        </TooltipTrigger>
+                                        <TooltipContent>
+                                          <p>Zobacz akt ślubu</p>
+                                        </TooltipContent>
+                                      </Tooltip>
+                                    )}
+                                  </div>
+                                )}
+                              </div>
+                            );
+                          })}
+                        </div>
+                      </div>
+                    )}
                   </TooltipProvider>
+
                   {(person.birthTime || person.deathTime) && (
                     <div className="flex items-start space-x-3">
                       <Clock className="w-4 h-4 text-muted-foreground mt-1" />
@@ -334,40 +388,9 @@ export default function PersonModal({
                       </div>
                     </div>
                   )}
-                  {spouses.length > 0 && (
-                    <div>
-                      <h5 className="font-medium text-sm heritage-text mb-2">
-                        {t("person.spouse")}:
-                      </h5>
-                      <div className="flex flex-col gap-2 items-start">
-                        {spouses.map((spouse) => {
-                          const marriage = person.marriages?.find(
-                            (m) => m.spouseId === spouse.id
-                          );
-                          return (
-                            <div
-                              key={spouse.id}
-                              className="flex items-center gap-2 bg-stone-100 dark:bg-card rounded-full pr-3"
-                            >
-                              <Badge
-                                variant="secondary"
-                                className="cursor-pointer bg-stone-100 dark:bg-card hover:bg-stone-200 dark:hover:bg-border rounded-full py-1"
-                                onClick={() => onPersonClick(spouse)}
-                              >
-                                {spouse.firstName} {spouse.lastName}
-                              </Badge>
-                              {marriage?.date && (
-                                <span className="text-xs text-muted-foreground">
-                                  ({t("person.marriedOn")}:{" "}
-                                  {formatDate(marriage.date, language)})
-                                </span>
-                              )}
-                            </div>
-                          );
-                        })}
-                      </div>
-                    </div>
-                  )}
+
+                  {/* USUNIĘTO BLOK MAŁŻONKÓW STĄD, BO JEST JUŻ NA GÓRZE */}
+
                   {children.length > 0 && (
                     <div>
                       <h5 className="font-medium text-sm heritage-text mb-2">

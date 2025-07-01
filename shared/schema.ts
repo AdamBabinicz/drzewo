@@ -7,6 +7,7 @@ export type Marriage = {
   spouseId: number;
   date?: string | null;
   place?: string | null;
+  source?: EventSource;
 };
 
 export type Anecdote = {
