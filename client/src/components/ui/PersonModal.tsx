@@ -21,7 +21,7 @@ import {
   Book,
   Heart,
 } from "lucide-react";
-import { Person, Marriage } from "@shared/schema";
+import { Person } from "@shared/schema";
 import { useLanguage } from "@/hooks/useLanguage";
 import DocumentModal from "./DocumentModal";
 import {
@@ -172,7 +172,6 @@ export default function PersonModal({
                 </div>
                 <div className="md:w-2/3 space-y-4">
                   <TooltipProvider>
-                    {/* --- BLOK URODZENIA / ZGONU --- */}
                     {(person.birthDate ||
                       person.birthDateNote ||
                       person.deathDate) && (
@@ -240,59 +239,57 @@ export default function PersonModal({
                       </div>
                     )}
 
-                    {/* --- NOWY, POPRAWIONY BLOK MAŁŻEŃSTWA --- */}
-                    {person.marriages && person.marriages.length > 0 && (
-                      <div className="flex items-start space-x-3">
-                        <Heart className="w-4 h-4 text-muted-foreground mt-1" />
-                        <div>
-                          {person.marriages.map((marriage) => {
-                            const spouse = allPeople.find(
-                              (p) => p.id === marriage.spouseId
-                            );
-                            if (!spouse) return null;
+                    {person.marriages?.map((marriage) => {
+                      const spouse = allPeople.find(
+                        (p) => p.id === marriage.spouseId
+                      );
+                      if (!spouse) return null;
 
-                            return (
-                              <div key={marriage.spouseId} className="mb-2">
-                                <p
-                                  className="heritage-text cursor-pointer hover:underline"
-                                  onClick={() => onPersonClick(spouse)}
-                                >
-                                  <span className="font-semibold">
-                                    {t("person.marriedTo")}:
-                                  </span>{" "}
-                                  {spouse.firstName} {spouse.lastName}
+                      return (
+                        <div
+                          key={marriage.spouseId}
+                          className="flex items-start space-x-3"
+                        >
+                          <Heart className="w-4 h-4 text-muted-foreground mt-1" />
+                          <div>
+                            <p
+                              className="heritage-text cursor-pointer hover:underline"
+                              onClick={() => onPersonClick(spouse)}
+                            >
+                              <span className="font-semibold">
+                                {t("person.marriedTo")}:
+                              </span>{" "}
+                              {spouse.firstName} {spouse.lastName}
+                            </p>
+                            {marriage.date && (
+                              <div className="flex items-center gap-2">
+                                <p className="text-sm text-muted-foreground">
+                                  {formatDate(marriage.date, language)}
                                 </p>
-                                {marriage.date && (
-                                  <div className="flex items-center gap-2">
-                                    <p className="text-sm text-muted-foreground">
-                                      {formatDate(marriage.date, language)}
-                                    </p>
-                                    {marriage.source && (
-                                      <Tooltip>
-                                        <TooltipTrigger asChild>
-                                          <Book
-                                            className="w-4 h-4 text-blue-500 cursor-pointer"
-                                            onClick={(e) => {
-                                              e.stopPropagation();
-                                              handleDocumentClick(
-                                                marriage.source!.documentId
-                                              );
-                                            }}
-                                          />
-                                        </TooltipTrigger>
-                                        <TooltipContent>
-                                          <p>Zobacz akt ślubu</p>
-                                        </TooltipContent>
-                                      </Tooltip>
-                                    )}
-                                  </div>
+                                {marriage.source && (
+                                  <Tooltip>
+                                    <TooltipTrigger asChild>
+                                      <Book
+                                        className="w-4 h-4 text-blue-500 cursor-pointer"
+                                        onClick={(e) => {
+                                          e.stopPropagation();
+                                          handleDocumentClick(
+                                            marriage.source!.documentId
+                                          );
+                                        }}
+                                      />
+                                    </TooltipTrigger>
+                                    <TooltipContent>
+                                      <p>Zobacz akt ślubu</p>
+                                    </TooltipContent>
+                                  </Tooltip>
                                 )}
                               </div>
-                            );
-                          })}
+                            )}
+                          </div>
                         </div>
-                      </div>
-                    )}
+                      );
+                    })}
                   </TooltipProvider>
 
                   {(person.birthTime || person.deathTime) && (
@@ -388,8 +385,6 @@ export default function PersonModal({
                       </div>
                     </div>
                   )}
-
-                  {/* USUNIĘTO BLOK MAŁŻONKÓW STĄD, BO JEST JUŻ NA GÓRZE */}
 
                   {children.length > 0 && (
                     <div>

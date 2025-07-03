@@ -1,5 +1,6 @@
+// src/lib/storage.ts (lub gdziekolwiek go masz)
 import { Person, Document } from "@shared/schema";
-import genealogyData from "@/data/genealogy.json";
+import genealogyData from "@/data/index"; // Zaktualizowany import
 
 export interface IStorage {
   getAllPeople(): Promise<Person[]>;
@@ -20,9 +21,8 @@ export class MemStorage implements IStorage {
   }
 
   private initializeData() {
-    // Wczytaj dane bezpośrednio z pliku JSON zamiast używać hardkodowanych wartości
-    const allPeople = genealogyData.people as Person[];
-    const allDocuments = genealogyData.documents as Document[];
+    const allPeople = genealogyData.people; // Bez asercji, bo już jest typowane
+    const allDocuments = genealogyData.documents; // Bez asercji
 
     allPeople.forEach((person) => this.people.set(person.id, person));
     allDocuments.forEach((doc) => this.documents.set(doc.id, doc));
@@ -46,9 +46,17 @@ export class MemStorage implements IStorage {
     return Array.from(this.documents.values());
   }
 
+  // Uwaga: Twoja oryginalna funkcja `getDocumentsByPersonId` miała pole `personId` w dokumencie.
+  // W twojej strukturze danych go nie ma. Dokumenty są powiązane z osobami przez pole `events` w osobie.
+  // Poniżej zostawiam Twoją funkcję, ale prawdopodobnie nie będzie działać zgodnie z oczekiwaniami.
   async getDocumentsByPersonId(personId: number): Promise<Document[]> {
-    return Array.from(this.documents.values()).filter(
-      (doc) => doc.personId === personId
+    const person = this.people.get(personId);
+    if (!person || !person.events) {
+      return [];
+    }
+    const documentIds = new Set(person.events.map((e) => e.source.documentId));
+    return Array.from(this.documents.values()).filter((doc) =>
+      documentIds.has(doc.id)
     );
   }
 }

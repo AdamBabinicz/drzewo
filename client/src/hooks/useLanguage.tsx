@@ -589,9 +589,6 @@ const translations = {
     "familyBranch.etymology.ofiara.p4":
       'The first "Ofiara" was most likely perceived by the community as exceptionally unlucky, unfortunate, or helpless. It was a descriptive nickname, perhaps with a hint of pity or mockery. The mechanism of creating nicknames from character traits or fate was extremely common.',
     "familyBranch.etymology.ofiara.h5": "Other Motivations",
-    "familyBranch.etymology.ofiara.p5":
-      "Less probable, but possible, is the origin of the nickname from a specific tragic event (e.g., a fire, an attack) of which the person was a victim, or from their exceptional, perhaps feigned, piety.",
-    "familyBranch.etymology.ofiara.h6": "Historical Context",
     "familyBranch.etymology.ofiara.p6":
       "Appellative surnames like Ofiara belong to the oldest layer of surnames in Poland. They could have functioned as nicknames as early as the late Middle Ages (14th-15th c.), and became hereditary surnames between the 16th and 18th centuries.",
     "familyBranch.etymology.ofiara.h7": "Summary",

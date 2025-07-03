@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "title_pl": "Akt ślubu Jana Gierczaka i Agnieszki Baćmaga",
+    "title_en": "Marriage Record: Jan Gierczak & Agnieszka Baćmaga",
+    "type": "marriage_record",
+    "description_pl": "Dokument ślubu z 14 listopada 1917 roku, parafia Zakrzew.",
+    "description_en": "Marriage document from November 14, 1917, Zakrzew parish.",
+    "imageUrl": "/images/doc-slub-jan-agnieszka.avif"
+  },
+  {
+    "id": 2,
+    "title_pl": "Wpis o śmierci Pawła Gierczaka",
+    "title_en": "Death Entry: Paweł Gierczak",
+    "type": "death_record",
+    "description_pl": "Dokument zgonu z 29 lipca 1935 roku.",
+    "description_en": "Death document from July 29, 1935.",
+    "imageUrl": "/images/k.avif"
+  },
+  {
+    "id": 3,
+    "title_pl": "Ręcznie sporządzone drzewo genealogiczne",
+    "title_en": "Hand-drawn Family Tree",
+    "type": "genealogy_chart",
+    "description_pl": "Wczesna, odręczna wersja drzewa genealogicznego rodów.",
+    "description_en": "An early, handwritten version of the family tree.",
+    "imageUrl": "/images/doc-drzewo-reczne.avif"
+  },
+  {
+    "id": 4,
+    "title_pl": "Pamiątka I Komunii Świętej Romana Ofiary",
+    "title_en": "First Holy Communion of Roman Ofiara",
+    "type": "photo",
+    "description_pl": "Zdjęcie Romana Ofiary z babcią Heleną Sobień (później Ofiara).",
+    "description_en": "Photo of Roman Ofiara with his grandmother Helena Sobień (later Ofiara).",
+    "imageUrl": "/images/komunia-roman.avif"
+  },
+  {
+    "id": 5,
+    "title_pl": "Akt ślubu Józefa Gierczaka i Marianny Ofiara",
+    "title_en": "Marriage Record: Józef Gierczak & Marianna Ofiara",
+    "type": "marriage_record",
+    "description_pl": "Dokument ślubu z 26 listopada 1952 roku.",
+    "description_en": "Marriage document from November 26, 1952.",
+    "imageUrl": "/images/doc-slub-jozef-marianna.avif"
+  },
+  {
+    "id": 101,
+    "title_pl": "Akt Zgonu: Ambroży Gierczak (1836)",
+    "title_en": "Death Record: Ambroży Gierczak (1836)",
+    "type": "death_record",
+    "description_pl": "Parafia Cerekiew, akt nr 11, 1836 r.",
+    "description_en": "Cerekiew Parish, record no. 11, 1836.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się we wsi Cerekwi dnia dwudziestego czwartego Stycznia roku tysiąc osiemset trzydziestego szóstego o godzinie czwartej po południu. Stawili się Walenty Czerwiński lat pięćdziesiąt i Szymon Wawrzeńczyk lat czterdzieści mający, obywatele we wsi Jaszowicach zamieszkali, i oświadczyli iż w dniu dwudziestym drugim miesiąca i roku bieżącego o godzinie dziewiątej rano umarł Ambroży Gierczak, włościanin w Jaszowicach zamieszkały, lat trzydzieści sześć mający, urodzony w Jaszowicach, syn niegdy Tomasza i Zofii z Gielów małżonków Gierczaków. Zostawił po sobie owdowiałą żonę Kunegundę z Kaniów. Po naocznym przekonaniu się o zejściu Ambrożego Gierczaka, Akt ten stawającym i świadkom przeczytany, z powodu że pisać nie umieją przez nas tylko podpisany został. X. S. G. K. Proboszcz Parafii Cerekiewskiey",
+    "translation_pl": "Zdarzyło się we wsi Cerekiew, dnia 24 stycznia 1836 roku, o godzinie czwartej po południu. Stawili się: Walenty Czerwiński, lat 50, oraz Szymon Wawrzeńczyk, lat 40, obywatele zamieszkali we wsi Jaszowice. Oświadczyli oni, że dnia 22 dnia bieżącego miesiąca i roku, o godzinie dziewiątej rano, zmarł Ambroży Gierczak, włościanin (chłop) zamieszkały w Jaszowicach, mający 36 lat. Urodził się w Jaszowicach, był synem zmarłego Tomasza i Zofii (z domu Giel) małżonków Gierczak. Zostawił po sobie owdowiałą żonę, Kunegundę (z domu Kania). Po naocznym upewnieniu się o zgonie Ambrożego Gierczaka, akt ten został stawającym się i świadkom odczytany, a ponieważ nie umieją pisać, został podpisany tylko przez nas.",
+    "translation_en": "It happened in the village of Cerekiew, on January 24, 1836, at four o'clock in the afternoon. Appeared: Walenty Czerwiński, 50 years old, and Szymon Wawrzeńczyk, 40 years old, citizens residing in the village of Jaszowice. They declared that on the 22nd day of the current month and year, at nine o'clock in the morning, Ambroży Gierczak, a peasant residing in Jaszowice, aged 36, passed away. He was born in Jaszowice, son of the late Tomasz and Zofia (née Giel) Gierczak. He is survived by his widowed wife, Kunegunda (née Kania). After visually confirming the death of Ambroży Gierczak, this act was read to the declarants and witnesses, and as they cannot write, it was signed only by us.",
+    "extracted_data": [
+      {
+        "label_pl": "Wiek",
+        "label_en": "Age",
+        "value_pl": "36 lat",
+        "value_en": "36 years"
+      },
+      {
+        "label_pl": "Rodzice",
+        "label_en": "Parents",
+        "value_pl": "Tomasz i Zofia z Gielów",
+        "value_en": "Tomasz and Zofia née Giel"
+      },
+      {
+        "label_pl": "Małżonka",
+        "label_en": "Spouse",
+        "value_pl": "Kunegunda z Kaniów",
+        "value_en": "Kunegunda née Kania"
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "title_pl": "Akt Urodzenia: Karol Gierczak (1828)",
+    "title_en": "Birth Record: Karol Gierczak (1828)",
+    "type": "birth_record",
+    "description_pl": "Parafia Cerekiew, akt nr 97, 1828 r.",
+    "description_en": "Cerekiew Parish, record no. 97, 1828.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się we wsi Cerekwi dnia dwudziestego siódmego Października roku tysiąc osiemset dwudziestego ósmego o godzinie dziewiątej rano. Stawił się Ambroży Gierczak, włościanin w Jaszowicach zamieszkały, lat dwadzieścia ośm mający, w obecności Szymona Wawrzeńczyka lat trzydzieści pięć i Walentego Baćmagi lat czterdzieści mających, obydwóch włościanów w Jaszowicach zamieszkałych, i okazał Nam Dziecię płci męskiej, urodzone w Jaszowicach w dniu dwudziestym szóstym miesiąca i roku bieżącego o godzinie szóstej rano, z jego małżonki Kunegundy z Kaniów lat dwadzieścia siedm mającej. Dziecięciu temu na Chrzcie Świętym w dniu dzisieyszym odbytym nadane zostało imię Karol, a Rodzicami Chrzestnemi byli Andrzey Moskwa i Maryanna Włodawska, obydwoje włościanie w Jaszowicach zamieszkali. Akt ten stawającemu i świadkom przeczytany, pisać nie umiejących, przez Nas tylko podpisany został. X. S. G. K. Proboszcz Parafii Cerekiewskiey",
+    "translation_pl": "Zdarzyło się we wsi Cerekiew, dnia 27 października 1828 roku, o godzinie dziewiątej rano. Stawił się Ambroży Gierczak, włościanin zamieszkały w Jaszowicach, mający 28 lat, w obecności Szymona Wawrzeńczyka (lat 35) i Walentego Baćmagi (lat 40), obu włościan zamieszkałych w Jaszowicach. Okazał nam dziecko płci męskiej, urodzone w Jaszowicach dnia 26 bieżącego miesiąca i roku, o godzinie szóstej rano, z jego żony Kunegundy z Kaniów, mającej 27 lat. Dziecku temu na Chrzcie Świętym, który odbył się dzisiaj, nadano imię Karol, a jego Rodzicami Chrzestnymi byli Andrzej Moskwa i Marianna Włodawska, oboje włościanie zamieszkali w Jaszowicach. Akt ten, po odczytaniu go stawiającemu i świadkom, którzy nie umieją pisać, został podpisany tylko przez nas.",
+    "translation_en": "It happened in the village of Cerekiew, on October 27, 1828, at nine o'clock in the morning. Appeared Ambroży Gierczak, a peasant residing in Jaszowice, aged 28, in the presence of Szymon Wawrzeńczyk (35 years old) and Walenty Baćmaga (40 years old), both peasants residing in Jaszowice. He showed us a male child, born in Jaszowice on the 26th day of the current month and year, at six o'clock in the morning, to his wife Kunegunda née Kania, aged 27. At the Holy Baptism held today, this child was given the name Karol, and his Godparents were Andrzej Moskwa and Marianna Włodawska, both peasants residing in Jaszowice. This act, after being read to the declarant and witnesses, who are illiterate, was signed only by us.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Ambroży Gierczak, 28 lat",
+        "value_en": "Ambroży Gierczak, 28 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Kunegunda z Kaniów, 27 lat",
+        "value_en": "Kunegunda née Kania, 27 years old"
+      },
+      {
+        "label_pl": "Chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Andrzej Moskwa i Marianna Włodawska",
+        "value_en": "Andrzej Moskwa and Marianna Włodawska"
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "title_pl": "Akt Urodzenia: Jakub Ofiara (1833)",
+    "title_en": "Birth Record: Jakub Ofiara (1833)",
+    "type": "birth_record",
+    "description_pl": "Parafia Jedlińsk, akt nr 47, 1833 r.",
+    "description_en": "Jedlińsk Parish, record no. 47, 1833.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się we wsi Jedlińsku Miesiąca Lipca Dnia dwudziestego drugiego Roku tysiąc Osiemset trzydziestego trzeciego o godzinie dziewiątej rano. Stawił się Stefan Ofiara Mieszkaniec wsi Woli Gutowskiey lat czterdzieści mający, w obecności Wojciecha Gielowskiego lat czterdziestu i Jakóba Dobrowolskiego lat trzydzieściu dwóch mających, obydwóch włościanów z Woli Gutowskiej zamieszkałych i okazał nam dziecię płci męskiej urodzone w tejże wsi w domu pod numerem piątym, urodzone dnia dwudziestego drugiego bieżącego miesiąca i roku o godzinie dziewiątej z rana z jego Małżonki Małgorzaty z Kowalczyków lat trzydzieści pięć mającej. Dziecięciu temu na Chrzcie Świętym w dniu dzisieyszym odbytym nadane zostało imie Jakób a Rodzicami jego Chrzestnemi byli: Wojciech Gielowski i Apolonia Kaimowa. Akt ten stawającemu i świadkom przeczytany, pisać nie umiejących, przez nas tylko podpisany został. X. Walenty Rudawski Dziekan i Proboszcz Jedliński",
+    "translation_pl": "Zdarzyło się we wsi Jedlińsk, dnia 22 lipca 1833 roku o godzinie dziewiątej rano. Stawił się Stefan Ofiara, mieszkaniec wsi Wola Gutowska, lat 40, w obecności Wojciecha Gielowskiego, lat 40, i Jakuba Dobrowolskiego, lat 32, obydwóch włościan (chłopów) z Woli Gutowskiej. Okazał nam dziecko płci męskiej, urodzone w tejże wsi, w domu pod numerem 5, dnia 22 bieżącego miesiąca i roku o godzinie dziewiątej rano, z jego małżonki Małgorzaty z Kowalczyków, lat 35. Dziecku temu na chrzcie świętym odbytym w dniu dzisiejszym nadano imię Jakub, a jego rodzicami chrzestnymi byli Wojciech Gielowski i Apolonia Kaimowa. Akt ten stawającemu i świadkom, którzy pisać nie umieją, odczytano i tylko przez nas podpisano.",
+    "translation_en": "It happened in the village of Jedlińsk, on July 22, 1833, at nine o'clock in the morning. Appeared Stefan Ofiara, a resident of the village of Wola Gutowska, aged 40, in the presence of Wojciech Gielowski, aged 40, and Jakub Dobrowolski, aged 32, both peasants from Wola Gutowska. He showed us a male child, born in the same village, in the house at number 5, on the 22nd day of the current month and year at nine o'clock in the morning, to his wife Małgorzata née Kowalczyk, aged 35. At the Holy Baptism held today, this child was given the name Jakub, and his godparents were Wojciech Gielowski and Apolonia Kaimowa. This act was read to the declarant and witnesses, who are illiterate, and was signed only by us.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Stefan Ofiara, 40 lat",
+        "value_en": "Stefan Ofiara, 40 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Małgorzata z Kowalczyków, 35 lat",
+        "value_en": "Małgorzata née Kowalczyk, 35 years old"
+      },
+      {
+        "label_pl": "Chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Wojciech Gielowski i Apolonia Kaimowa",
+        "value_en": "Wojciech Gielowski and Apolonia Kaimowa"
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "title_pl": "Akt Zgonu: Andrzej Ofiara (1922)",
+    "title_en": "Death Record: Andrzej Ofiara (1922)",
+    "type": "death_record",
+    "description_pl": "Parafia Jankowice, akt nr 38, 1922 r.",
+    "description_en": "Jankowice Parish, record no. 38, 1922.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się w Jankowicach dnia siódmego Grudnia tysiąc dziewięćset dwudziestego drugiego roku o godzinie dziewiątej rano. Stawili się Adam Błeszyński i Andrzej Dobosz, pełnoletni gospodarze z Ludwikowa, i oświadczyli iż we wsi Ludwikowie dnia wczorajszego bieżącego miesiąca i roku o godzinie ósmej z wieczora umarł Andrzej Ofiara, lat sześćdziesiąt osiem mający, gospodarz stały mieszkaniec wsi Ludwikowa, wdowiec po zmarłej żonie Franciszce z Popisów, syn zmarłych Jakóba i Maryanny z Wieczorków małżonków Ofiary. Akt ten stawającym świadkom niepiśmiennym przeczytany i przez nas został podpisany.",
+    "translation_pl": "Zdarzyło się w Jankowicach, dnia 7 grudnia 1922 roku, o godzinie dziewiątej rano. Stawili się Adam Błeszyński i Andrzej Dobosz, pełnoletni gospodarze z Ludwikowa, i oświadczyli, że we wsi Ludwików, wczoraj, tj. 6 grudnia 1922 roku o godzinie ósmej wieczorem, zmarł Andrzej Ofiara. Miał 68 lat, był stałym mieszkańcem i gospodarzem we wsi Ludwików, wdowcem po zmarłej żonie Franciszce z domu Popis. Był synem zmarłych Jakuba i Marianny z domu Wieczorek, małżonków Ofiara. Akt ten odczytano stawiającym, niepiśmiennym świadkom i przez nas podpisano.",
+    "translation_en": "It happened in Jankowice, on December 7, 1922, at nine o'clock in the morning. Appeared Adam Błeszyński and Andrzej Dobosz, adult farmers from Ludwików, and declared that in the village of Ludwików, yesterday, i.e., on December 6, 1922, at eight o'clock in the evening, Andrzej Ofiara passed away. He was 68 years old, a permanent resident and farmer in the village of Ludwików, a widower after his deceased wife Franciszka née Popis. He was the son of the late Jakub and Marianna née Wieczorek, spouses Ofiara. This act was read to the present, illiterate witnesses and was signed by us.",
+    "extracted_data": [
+      {
+        "label_pl": "Wiek",
+        "label_en": "Age",
+        "value_pl": "68 lat",
+        "value_en": "68 years"
+      },
+      {
+        "label_pl": "Rodzice",
+        "label_en": "Parents",
+        "value_pl": "Jakub i Marianna z Wieczorków",
+        "value_en": "Jakub and Marianna née Wieczorek"
+      },
+      {
+        "label_pl": "Małżonka (zmarła)",
+        "label_en": "Spouse (deceased)",
+        "value_pl": "Franciszka z Popisów",
+        "value_en": "Franciszka née Popis"
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "title_pl": "Akt Ślubu: Józef Ofiara i Helena Sobień (1926)",
+    "title_en": "Marriage Record: Józef Ofiara & Helena Sobień (1926)",
+    "type": "marriage_record",
+    "description_pl": "Parafia Zakrzew, akt nr 6, 1926 r.",
+    "description_en": "Zakrzew Parish, record no. 6, 1926.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się w Zakrzewie dnia dziewiątego Lutego tysiąc dziewięćset dwudziestego szóstego roku o godzinie dziesiątej. W obecności dwóch pełnoletnich świadków: Jana Bilskiego i Jana Baćmagi z Gulinka zawarte zostało dzisiaj w tuteyszym kościele parafialnym religijne małżeństwo między: Józefem Ofiarą, wdowcem po Rozalji z Mitaków zmarłej w Gulinku dwudziestego drugiego listopada tysiąc dziewięćset dwudziestego piątego roku, lat dwadzieścia dziewięć mającym, synem Andrzeja i Franciszki z Szaruchów urodzonym w Ludwikowie parafji jankowice a zamieszkałym w Gulinku, a Heleną Sobień, panną lat dwadzieścia jeden mającą, córką Karola i Ewy z Drużdżelów urodzoną i zamieszkałą w Gulinie. Małżeństwo to poprzedziły trzy zapowiedzie ogłoszone w tutejszym parafialnym kościele w niedziele: dwudziestą czwartą, trzydziestą pierwszą stycznia i siódmą lutego bieżącego roku. Dyspensa od zachodzącego powinowactwa została udzielona przez Księdza Biskupa Ryxa w dniu trzydziestogo stycznia bieżącego roku za Nr 12828. Obrzęd religijny dokonany został przez księdza Józefa Saermańskiego proboszcza. Akt ten nowożeńcom i świadkom przeczytany podpisaliśmy.",
+    "translation_pl": "Zdarzyło się w Zakrzewie, dnia 9 lutego 1926 roku, o godzinie dziesiątej. W obecności dwóch pełnoletnich świadków, Jana Bilskiego i Jana Baćmagi z Gulinka, zostało dzisiaj zawarte w tutejszym kościele parafialnym religijne małżeństwo między: Józefem Ofiarą, wdowcem po Rozalii z domu Mitak (zmarłej w Gulinku 22 listopada 1925 roku), mającym 29 lat, synem Andrzeja i Franciszki z domu Szaruch, urodzonym w Ludwikowie (parafia Jankowice), a zamieszkałym w Gulinku, oraz Heleną Sobień, panną, mającą 21 lat, córką Karola i Ewy z domu Drużdżel, urodzoną i zamieszkałą w Gulinie. Małżeństwo to poprzedziły trzy zapowiedzi ogłoszone w tutejszym kościele parafialnym w niedziele: 24 i 31 stycznia oraz 7 lutego bieżącego roku. Dyspensa od zachodzącego powinowactwa została udzielona przez Księdza Biskupa Ryxa dnia 30 stycznia bieżącego roku za numerem 12828. Obrzęd religijny został dokonany przez księdza Józefa Saermańskiego, proboszcza. Akt ten, po przeczytaniu nowożeńcom i świadkom, podpisaliśmy.",
+    "translation_en": "It happened in Zakrzew, on February 9, 1926, at ten o'clock. In the presence of two adult witnesses, Jan Bilski and Jan Baćmaga from Gulinek, a religious marriage was contracted today in the local parish church between: Józef Ofiara, a widower after Rozalia née Mitak (who died in Gulinek on November 22, 1925), aged 29, son of Andrzej and Franciszka née Szaruch, born in Ludwików (Jankowice parish) and residing in Gulinek, and Helena Sobień, a maiden, aged 21, daughter of Karol and Ewa née Drużdżel, born and residing in Gulinek. This marriage was preceded by three banns announced in the local parish church on the Sundays of January 24 and 31, and February 7 of the current year. A dispensation from the impediment of affinity was granted by Bishop Ryx on January 30 of the current year under number 12828. The religious ceremony was performed by Father Józef Saermański, the parish priest. This act, having been read to the newlyweds and witnesses, we signed.",
+    "extracted_data": [
+      {
+        "label_pl": "Pan Młody",
+        "label_en": "Groom",
+        "value_pl": "Józef Ofiara, 29 lat, wdowiec",
+        "value_en": "Józef Ofiara, 29 years old, widower"
+      },
+      {
+        "label_pl": "Panna Młoda",
+        "label_en": "Bride",
+        "value_pl": "Helena Sobień, 21 lat, panna",
+        "value_en": "Helena Sobień, 21 years old, maiden"
+      },
+      {
+        "label_pl": "Rodzice Pana Młodego",
+        "label_en": "Groom's Parents",
+        "value_pl": "Andrzej i Franciszka z Szaruchów",
+        "value_en": "Andrzej and Franciszka née Szaruch"
+      },
+      {
+        "label_pl": "Rodzice Panny Młodej",
+        "label_en": "Bride's Parents",
+        "value_pl": "Karol i Ewa z Drużdżelów",
+        "value_en": "Karol and Ewa née Drużdżel"
+      },
+      {
+        "label_pl": "Świadkowie",
+        "label_en": "Witnesses",
+        "value_pl": "Jan Bilski i Jan Baćmaga",
+        "value_en": "Jan Bilski and Jan Baćmaga"
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "title_pl": "Akt Zgonu: Karol Gierczak (1903)",
+    "title_en": "Death Record: Karol Gierczak (1903)",
+    "type": "death_record",
+    "description_pl": "Parafia Zakrzew (Zakrzów), akt nr 45, 1903 r.",
+    "description_en": "Zakrzew (Zakrzów) Parish, record no. 45, 1903.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Состоялось въ деревнѣ Закшевѣ, двадцать девятаго сентября тысяча девятьсотъ третьяго года, въ десять часовъ вечера. Явились Янъ Береза сорокъ пять, и Владыславъ Буракъ, сорокъ два года имѣющіе, земледельцы изъ Гулинка, и объявили что сего дня, въ десять часовъ вечера, умеръ Карoль Герчакъ, семидесяти пяти лѣтъ отъ роду, земледелецъ, житель деревни Гулинка, сынъ покойныхъ Амврожія и Кунегунды урожденной Каня супруговъ Герчакъ. По наочномъ удостовѣреніи о кончинѣ Кароля Герчака, актъ сей прочитанъ Намъ и подписанъ.",
+    "translation_pl": "Działo się we wsi Zakrzew, dwudziestego dziewiątego września tysiąc dziewięćset trzeciego roku, o godzinie dziesiątej wieczorem. Stawili się Jan Bereza, lat czterdzieści pięć, i Władysław Burak, lat czterdzieści dwa, rolnicy z Gulinka, i oświadczyli, że dzisiaj, o godzinie dziesiątej wieczorem, zmarł Karol Gierczak, lat siedemdziesiąt pięć, rolnik, mieszkaniec wsi Gulinek, syn zmarłych Ambrożego i Kunegundy z domu Kania małżonków Gierczak. Po naocznym stwierdzeniu zgonu Karola Gierczaka, akt ten został nam przeczytany i podpisany.",
+    "translation_en": "It happened in the village of Zakrzew, on the twenty-ninth of September, nineteen hundred and three, at ten o'clock in the evening. Appeared Jan Bereza, forty-five years old, and Władysław Burak, forty-two years old, farmers from Gulinek, and they declared that today, at ten o'clock in the evening, Karol Gierczak passed away, aged seventy-five, a farmer, resident of the village of Gulinek, son of the deceased Ambroży and Kunegunda née Kania, spouses Gierczak. After visually confirming the death of Karol Gierczak, this act was read to us and signed.",
+    "extracted_data": [
+      {
+        "label_pl": "Wiek",
+        "label_en": "Age",
+        "value_pl": "75 lat",
+        "value_en": "75 years"
+      },
+      {
+        "label_pl": "Rodzice",
+        "label_en": "Parents",
+        "value_pl": "Ambroży i Kunegunda z Kaniów",
+        "value_en": "Ambroży and Kunegunda née Kania"
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "title_pl": "Akt Ślubu: Jan Gierczak i Agnieszka Baćmaga (1917)",
+    "title_en": "Marriage Record: Jan Gierczak & Agnieszka Baćmaga (1917)",
+    "type": "marriage_record",
+    "description_pl": "Parafia Zakrzew, akt nr 13, 1917 r.",
+    "description_en": "Zakrzew Parish, record no. 13, 1917.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się w Zakrzewie dnia czternastego Listopada tysiąc dziewięćset siedemnastego roku o godzinie ósmej rano. Wiadomo czynimy iż w obecności Walentego Gierczaka i Jana Baćmagi, pełnoletnich mieszkańców wsi Gulinek, w dniu dzisiejszym zawarty został związek małżeński między Janem Gierczakiem, kawalerem, mającym lat dwadzieścia sześć, urodzonym i zamieszkałym w Gulinku, stałym mieszkańcem gminy Zakrzew, synem Pawła i Katarzyny z Czerwińskich, a Agnieszką Baćmagą panną, mającą lat dwadzieścia trzy, urodzoną i zamieszkałą w Gulinku, stałą mieszkanką gminy Zakrzew, córką Kazimierza i Antoniny z Szewczyków. Małżeństwo to poprzedziły trzy zapowiedzie ogłoszone w tutejszym kościele w dniach: dwudziestym pierwszym, dwudziestym ósmym Października i czwartym Listopada bieżącego roku. Małżonkowie oświadczają, iż umowy przedślubnej nie zawarli. Obrzęd ten religijny dopełniony został przez miejscowego proboszcza. Akt ten obecnym niepiśmiennym przeczytany, podpisaliśmy.",
+    "translation_pl": "Zdarzyło się w Zakrzewie, dnia 14 listopada 1917 roku, o godzinie ósmej rano. Wiadomo czynimy, że w obecności Walentego Gierczaka i Jana Baćmagi, pełnoletnich mieszkańców wsi Gulinek, w dniu dzisiejszym został zawarty związek małżeński między Janem Gierczakiem, kawalerem, mającym 26 lat, urodzonym i zamieszkałym w Gulinku, stałym mieszkańcem gminy Zakrzew, synem Pawła i Katarzyny z domu Czerwińskich, a Agnieszką Baćmagą, panną, mającą 23 lata, urodzoną i zamieszkałą w Gulinku, stałą mieszkanką gminy Zakrzew, córką Kazimierza i Antoniny z domu Szewczyk. Małżeństwo to poprzedziły trzy zapowiedzi ogłoszone w tutejszym kościele w dniach: 21 i 28 października oraz 4 listopada bieżącego roku. Małżonkowie oświadczają, że nie zawarli umowy przedślubnej. Obrzęd religijny został dopełniony przez miejscowego proboszcza. Akt ten, po przeczytaniu obecnym niepiśmiennym, podpisaliśmy.",
+    "translation_en": "It happened in Zakrzew, on November 14, 1917, at eight o'clock in the morning. We make it known that in the presence of Walenty Gierczak and Jan Baćmaga, adult residents of the village of Gulinek, a marriage was contracted today between Jan Gierczak, a bachelor, aged 26, born and residing in Gulinek, a permanent resident of the Zakrzew municipality, son of Paweł and Katarzyna née Czerwińska, and Agnieszka Baćmaga, a maiden, aged 23, born and residing in Gulinek, a permanent resident of the Zakrzew municipality, daughter of Kazimierz and Antonina née Szewczyk. This marriage was preceded by three banns announced in the local church on October 21 and 28, and November 4 of the current year. The spouses declare that they did not enter into a prenuptial agreement. The religious ceremony was performed by the local parish priest. This act, having been read to the illiterate persons present, we signed.",
+    "extracted_data": [
+      {
+        "label_pl": "Pan Młody",
+        "label_en": "Groom",
+        "value_pl": "Jan Gierczak, 26 lat, kawaler",
+        "value_en": "Jan Gierczak, 26 years old, bachelor"
+      },
+      {
+        "label_pl": "Panna Młoda",
+        "label_en": "Bride",
+        "value_pl": "Agnieszka Baćmaga, 23 lata, panna",
+        "value_en": "Agnieszka Baćmaga, 23 years old, maiden"
+      },
+      {
+        "label_pl": "Rodzice Pana Młodego",
+        "label_en": "Groom's Parents",
+        "value_pl": "Paweł i Katarzyna z Czerwińskich",
+        "value_en": "Paweł and Katarzyna née Czerwińska"
+      },
+      {
+        "label_pl": "Rodzice Panny Młodej",
+        "label_en": "Bride's Parents",
+        "value_pl": "Kazimierz i Antonina z Szewczyków",
+        "value_en": "Kazimierz and Antonina née Szewczyk"
+      },
+      {
+        "label_pl": "Świadkowie",
+        "label_en": "Witnesses",
+        "value_pl": "Walenty Gierczak i Jan Baćmaga",
+        "value_en": "Walenty Gierczak and Jan Baćmaga"
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "title_pl": "Akt Zgonu: Paweł Gierczak (1935)",
+    "title_en": "Death Record: Paweł Gierczak (1935)",
+    "type": "death_record",
+    "description_pl": "Parafia Zakrzew (Zakrzów), akt nr 25, 1935 r.",
+    "description_en": "Zakrzew (Zakrzów) Parish, record no. 25, 1935.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się w Zakrzowie dnia trzydziestego Lipca tysiąc dziewięćset trzydziestego piątego roku, o godzinie dziesiątej. Stawili się: Adam Sitek i Józef Rogala, obaj pełnoletni zamieszkali w Gulinku, i oświadczyli, iż dnia dwudziestego dziewiątego Lipca bieżącego roku, o godzinie drugiej zmarł w Gulinku Paweł Gierczak, lat sześćdziesiąt osiem mający, syn Karola i Tekli z Kozyrów, pozostawiwszy żonę Katarzynę z Kozyrów. Po naocznym przekonaniu się o śmierci Pawła Gierczaka, akt ten świadkom przeczytany, podpisaliśmy.",
+    "translation_pl": "Zdarzyło się w Zakrzowie dnia 30 lipca 1935 roku o godzinie dziesiątej. Stawili się Adam Sitek i Józef Rogala, obaj pełnoletni zamieszkali w Gulinku, i oświadczyli, że dnia 29 lipca bieżącego roku o godzinie drugiej zmarł w Gulinku Paweł Gierczak, lat 68, syn Karola i Tekli z domu Kozyra. Pozostawił żonę Katarzynę z domu Kozyra. Po naocznym stwierdzeniu śmierci Pawła Gierczaka, akt ten świadkom przeczytano i podpisaliśmy.",
+    "translation_en": "It happened in Zakrzów on July 30, 1935, at ten o'clock. Appeared Adam Sitek and Józef Rogala, both adults residing in Gulinek, and they declared that on July 29 of the current year at two o'clock, Paweł Gierczak passed away in Gulinek, aged 68, son of Karol and Tekla née Kozyra. He left behind his wife Katarzyna née Kozyra. After visually confirming the death of Paweł Gierczak, this act was read to the witnesses and we signed it.",
+    "extracted_data": [
+      {
+        "label_pl": "Wiek",
+        "label_en": "Age",
+        "value_pl": "68 lat",
+        "value_en": "68 years"
+      },
+      {
+        "label_pl": "Rodzice",
+        "label_en": "Parents",
+        "value_pl": "Karol i Tekla z Kozyrów",
+        "value_en": "Karol and Tekla née Kozyra"
+      },
+      {
+        "label_pl": "Małżonka",
+        "label_en": "Spouse",
+        "value_pl": "Katarzyna z Kozyrów",
+        "value_en": "Katarzyna née Kozyra"
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "title_pl": "Akt Urodzenia: Adam Gierczak (1888)",
+    "title_en": "Birth Record: Adam Gierczak (1888)",
+    "type": "birth_record",
+    "description_pl": "Parafia Zakrzew (Zakrzów), akt nr 50, 1888 r.",
+    "description_en": "Zakrzew (Zakrzów) Parish, record no. 50, 1888.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Состоялось въ деревнѣ Закшевѣ, двадцатого (тридцать перваго) Декабря тысяча восемьсотъ восемьдесятъ восьмого года, въ часъ по полудни. Явился Павелъ Герчакъ, тридцати двухъ лѣтъ отъ роду, земледелецъ, житель деревни Гулинекъ, въ присутствіи Станислава Плевінскаго пятьдесяти пяти, и Яна Чмура пятьдесяти двухъ лѣтъ отъ роду, обоихъ земледельцевъ изъ деревни Гулинекъ, и предъявилъ намъ младенца мужескаго пола, объявляя, что онъ родился въ деревнѣ Гулинекъ восемнадцатого (тридцатого) сего Декабря въ десять часовъ вечера, отъ jego законной жены Катаржины урожденной Червинскихъ, двадцати трехъ лѣтъ отъ роду. Младенцу сему при святомъ крещеніи совершенномъ сего числа дано имя Адамъ, а воспріемниками его были: Станиславъ Плевінскій и Францишка Зелинская. Этотъ актъ объявляющему и свидѣтелямъ неграмотнымъ прочитанъ, Нами только подписанъ.",
+    "translation_pl": "Działo się we wsi Zakrzew, dwudziestego (trzydziestego pierwszego) grudnia tysiąc osiemset osiemdziesiątego ósmego roku, o godzinie pierwszej po południu. Stawił się Paweł Gierczak, lat trzydzieści dwa, rolnik, mieszkaniec wsi Gulinek, w obecności Stanisława Plewińskiego, lat pięćdziesiąt pięć, i Jana Czmura, lat pięćdziesiąt dwa, obu rolników ze wsi Gulinek, i okazał nam niemowlę płci męskiej, oświadczając, że urodziło się ono we wsi Gulinek osiemnastego (trzydziestego) bieżącego grudnia o godzinie dziesiątej wieczorem, z jego prawowitej żony Katarzyny z domu Czerwińskich, lat dwadzieścia trzy. Niemowlęciu temu przy chrzcie świętym, który odbył się dzisiaj, nadano imię Adam, a jego chrzestnymi byli: Stanisław Plewiński i Franciszka Zielińska. Akt ten oświadczającemu i świadkom, którzy są niepiśmienni, został przeczytany i tylko przez nas podpisany.",
+    "translation_en": "It happened in the village of Zakrzew, on the twentieth (thirty-first) of December, eighteen hundred and eighty-eight, at one o'clock in the afternoon. Appeared Paweł Gierczak, thirty-two years old, a farmer, resident of the village of Gulinek, in the presence of Stanisław Plewiński, fifty-five years old, and Jan Czmura, fifty-two years old, both farmers from the village of Gulinek, and he presented to us a male infant, declaring that he was born in the village of Gulinek on the eighteenth (thirtieth) of the current December at ten o'clock in the evening, to his lawful wife Katarzyna née Czerwińska, twenty-three years old. At the holy baptism performed this day, this infant was given the name Adam, and his godparents were: Stanisław Plewiński and Franciszka Zielińska. This act was read to the declarant and the illiterate witnesses, and signed only by us.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Paweł Gierczak, 32 lata",
+        "value_en": "Paweł Gierczak, 32 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Katarzyna z Czerwińskich, 23 lata",
+        "value_en": "Katarzyna née Czerwińska, 23 years old"
+      },
+      {
+        "label_pl": "Chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Stanisław Plewiński i Franciszka Zielińska",
+        "value_en": "Stanisław Plewiński and Franciszka Zielińska"
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "title_pl": "Akt Zgonu: Adam Gierczak (1889)",
+    "title_en": "Death Record: Adam Gierczak (1889)",
+    "type": "death_record",
+    "description_pl": "Parafia Zakrzew (Zakrzów), akt nr 11, 1889 r.",
+    "description_en": "Zakrzew (Zakrzów) Parish, record no. 11, 1889.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Состоялось въ деревнѣ Закшевѣ, двадцатого Февраля (шестого Марта) тысяча восемьсотъ восемьдесятъ девятаго года, въ часъ по полудни. Явился Павелъ Герчакъ, тридцати трехъ лѣтъ, и Францишекъ Зелинскій, пятидесяти двухъ лѣтъ отъ роду, оба земледельцы изъ деревни Гулинекъ, и объявили, что вчерашняго дня въ полдень, умеръ Адамъ Герчакъ, трехъ мѣсяцевъ отъ роду, сынъ Павла и Катаржины урожденной Червинскихъ, земледельцевъ, удостовѣреніи о кончинѣ Адама Герчака, актъ сей присутствующимъ неграмотнымъ прочитанъ, и Нами только подписанъ.",
+    "translation_pl": "Działo się we wsi Zakrzew, dwudziestego lutego (szóstego marca) tysiąc osiemset osiemdziesiątego dziewiątego roku, o godzinie pierwszej po południu. Stawili się Paweł Gierczak, lat trzydzieści trzy, i Franciszek Zieliński, lat pięćdziesiąt dwa, obaj rolnicy ze wsi Gulinek, i oświadczyli, że wczoraj w południe zmarł Adam Gierczak, mający trzy miesiące, syn Pawła i Katarzyny z domu Czerwińskich, rolników. Po naocznym stwierdzeniu zgonu Adama Gierczaka, akt ten obecnym niepiśmiennym został przeczytany i tylko przez nas podpisany.",
+    "translation_en": "It happened in the village of Zakrzew, on the twentieth of February (sixth of March), eighteen hundred and eighty-nine, at one o'clock in the afternoon. Appeared Paweł Gierczak, thirty-three years old, and Franciszek Zieliński, fifty-two years old, both farmers from the village of Gulinek, and they declared that yesterday at noon, Adam Gierczak, three months old, son of Paweł and Katarzyna née Czerwińska, farmers, passed away. After visually confirming the death of Adam Gierczak, this act was read to the illiterate persons present and was signed only by us.",
+    "extracted_data": [
+      {
+        "label_pl": "Wiek",
+        "label_en": "Age",
+        "value_pl": "3 miesiące",
+        "value_en": "3 months"
+      },
+      {
+        "label_pl": "Rodzice",
+        "label_en": "Parents",
+        "value_pl": "Paweł i Katarzyna z Czerwińskich",
+        "value_en": "Paweł and Katarzyna née Czerwińska"
+      }
+    ]
+  },
+  {
+    "id": 201,
+    "title_pl": "Akt Urodzenia: Karol Sobień (1894)",
+    "title_en": "Birth Record: Karol Sobień (1894)",
+    "type": "birth_record",
+    "description_pl": "Parafia Zakrzew (Zakrzów), akt nr 21, 1894 r.",
+    "description_en": "Zakrzew (Zakrzów) Parish, record no. 21, 1894.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Состоялось въ деревнѣ Закшевѣ десятого (двадцать второго) Мая тысяча восемьсотъ девяносто четвертого года, въ часъ по полудни. Явился Мартинъ Собенъ, пятидесяти лѣтъ отъ роду, земледелецъ изъ деревни Гулинекъ, въ присутствіи Яна Плевы сорока пяти, и Андрея Вальчака, тридцати двухъ лѣтъ отъ роду, земледельцевъ изъ деревни Гулинекъ, и предъявилъ намъ младенца мужескаго пола, объявляя, что онъ родился въ деревнѣ Гулинекъ одиннадцатого (двадцать третьего) сего Мая въ восемь часовъ утра, отъ jego законной жены Евы урожденной Митакъ, двадцати восьми лѣтъ отъ роду. Младенцу сему при святомъ крещеніи совершенномъ сего числа дано имя Карoль, а воспріемниками его были: Янъ Плева и Маріанна Козыра. Этотъ актъ объявляющему и свидѣтелямъ неграмотнымъ прочитанъ, Нами только подписанъ.",
+    "translation_pl": "Działo się we wsi Zakrzew, dziesiątego (dwudziestego drugiego) maja tysiąc osiemset dziewięćdziesiątego czwartego roku, o godzinie pierwszej po południu. Stawił się Marcin Sobień, lat pięćdziesiąt, rolnik ze wsi Gulinek, w obecności Jana Plewy, lat czterdzieści pięć, i Andrzeja Walczaka, lat trzydzieści dwa, rolników ze wsi Gulinek, i okazał nam niemowlę płci męskiej, oświadczając, że urodziło się ono we wsi Gulinek jedenastego (dwudziestego trzeciego) bieżącego maja o godzinie ósmej rano, z jego prawowitej żony Ewy z domu Mitak, lat dwadzieścia osiem. Niemowlęciu temu przy chrzcie świętym, który odbył się dzisiaj, nadano imię Karol, a jego rodzicami chrzestnymi byli: Jan Plewa i Marianna Kozyra. Akt ten oświadczającemu i świadkom, którzy są niepiśmienni, został przeczytany i tylko przez nas podpisany.",
+    "translation_en": "It happened in the village of Zakrzew, on the tenth (twenty-second) of May, eighteen hundred and ninety-four, at one o'clock in the afternoon. Appeared Marcin Sobień, fifty years old, a farmer from the village of Gulinek, in the presence of Jan Plewa, forty-five years old, and Andrzej Walczak, thirty-two years old, farmers from the village of Gulinek, and he presented to us a male infant, declaring that he was born in the village of Gulinek on the eleventh (twenty-third) of the current May at eight o'clock in the morning, to his lawful wife Ewa née Mitak, twenty-eight years old. At the holy baptism performed this day, this infant was given the name Karol, and his godparents were: Jan Plewa and Marianna Kozyra. This act was read to the declarant and the illiterate witnesses, and signed only by us.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Marcin Sobień, 50 lat",
+        "value_en": "Marcin Sobień, 50 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Ewa z Mitaków, 28 lat",
+        "value_en": "Ewa née Mitak, 28 years old"
+      },
+      {
+        "label_pl": "Chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Jan Plewa i Marianna Kozyra",
+        "value_en": "Jan Plewa and Marianna Kozyra"
+      }
+    ]
+  },
+  {
+    "id": 202,
+    "title_pl": "Akt Urodzenia: Helena Sobień (1905)",
+    "title_en": "Birth Record: Helena Sobień (1905)",
+    "type": "birth_record",
+    "description_pl": "Parafia Zakrzew (Zakrzów), akt nr 4, 1905 r.",
+    "description_en": "Zakrzew (Zakrzów) Parish, record no. 4, 1905.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Состоялось въ деревнѣ Закшевѣ двадцать седьмого Декабря тысяча девятьсотъ четвертого года (девятого Января тысяча девятьсотъ пятаго года) въ девять часовъ утра. Явился Карoль Собенъ, сорока трехъ лѣтъ отъ роду, земледелецъ, житель деревни Гулинекъ, въ присутствіи Яна Ковальчика сорока восьми, и Яна Чмура сорока трехъ лѣтъ отъ роду, обоихъ земледельцевъ изъ деревни Гулинекъ, и предъявилъ намъ младенца женскаго пола, объявляя, что онъ родился въ деревнѣ Гулинекъ двадцать седьмого Декабря (девятого Января) сего года въ шесть часовъ утра, отъ jego законной жены Евы урожденной Дружджель, тридцати восьми лѣтъ отъ роду. Младенцу сему при святомъ крещеніи совершенномъ сего числа дано имя Хелена, а воспріемниками ея были: Янъ Ковальчикъ и Маріанна Митакъ. Этотъ актъ объявляющему и свидѣтелямъ неграмотнымъ прочитанъ, Нами только подписанъ.",
+    "translation_pl": "Działo się we wsi Zakrzew, dwudziestego siódmego grudnia tysiąc dziewięćset czwartego roku (dziewiątego stycznia tysiąc dziewięćset piątego roku), o godzinie dziewiątej rano. Stawił się Karol Sobień, lat czterdzieści trzy, rolnik, mieszkaniec wsi Gulinek, w obecności Jana Kowalczyka, lat czterdzieści osiem, i Jana Czmura, lat czterdzieści trzy, obu rolników ze wsi Gulinek, i okazał nam niemowlę płci żeńskiej, oświadczając, że urodziło się ono we wsi Gulinek dwudziestego siódmego grudnia (dziewiątego stycznia) bieżącego roku o godzinie szóstej rano, z jego prawowitej żony Ewy z domu Drużdżel, lat trzydzieści osiem. Niemowlęciu temu przy chrzcie świętym, który odbył się dzisiaj, nadano imię Helena, a jego rodzicami chrzestnymi byli: Jan Kowalczyk i Marianna Mitak. Akt ten oświadczającemu i świadkom, którzy są niepiśmienni, został przeczytany i tylko przez nas podpisany.",
+    "translation_en": "It happened in the village of Zakrzew, on the twenty-seventh of December, nineteen hundred and four (ninth of January, nineteen hundred and five), at nine o'clock in the morning. Appeared Karol Sobień, forty-three years old, a farmer, resident of the village of Gulinek, in the presence of Jan Kowalczyk, forty-eight years old, and Jan Czmura, forty-three years old, both farmers from the village of Gulinek, and he presented to us a female infant, declaring that she was born in the village of Gulinek on the twenty-seventh of December (ninth of January) of the current year at six o'clock in the morning, to his lawful wife Ewa née Drużdżel, thirty-eight years old. At the holy baptism performed this day, this infant was given the name Helena, and her godparents were: Jan Kowalczyk and Marianna Mitak. This act was read to the declarant and the illiterate witnesses, and signed only by us.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Karol Sobień, 43 lata",
+        "value_en": "Karol Sobień, 43 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Ewa z Drużdżelów, 38 lat",
+        "value_en": "Ewa née Drużdżel, 38 years old"
+      },
+      {
+        "label_pl": "Chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Jan Kowalczyk i Marianna Mitak",
+        "value_en": "Jan Kowalczyk and Marianna Mitak"
+      }
+    ]
+  },
+  {
+    "id": 204,
+    "title_pl": "Akt Ślubu: Michał Mitak i Ewa Drużdżel (1885)",
+    "title_en": "Marriage Record: Michał Mitak & Ewa Drużdżel (1885)",
+    "type": "marriage_record",
+    "description_pl": "Parafia Zakrzew (Zakrzów), akt nr 6, 1885 r.",
+    "description_en": "Zakrzew (Zakrzów) Parish, record no. 6, 1885.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Состоялось въ деревнѣ Закшевѣ шестого (осемнадцатого) Февраля тысяча восемьсотъ восемьдесятъ пятаго года въ десять часовъ утра. Объявляемъ, что въ присутствіи свидѣтелей Андрея Рогаля шестидесяти, и Яна Чмура пятидесяти лѣтъ отъ роду, земледельцевъ изъ деревни Гулинекъ, заключенъ въ этотъ день религіозный обрядъ бракосочетанія между Михаиломъ Митакомъ, вдовцомъ, тридцати шести лѣтъ отъ роду, сыномъ покойныхъ Шимона и Маріанны урожденной Адамской супруговъ, родившимся и проживающимъ въ деревнѣ Янишевѣ, и Евою урожденною Дружджель, дѣвицею, двадцати лѣтъ отъ роду, дочерью Яна и Маріанны урожденной Сикора супруговъ, родившеюся въ деревнѣ Гулинекъ и тамъ же проживающею при родителяхъ. Бракосочетанію этому предшествовали три оглашенія въ здѣшнемъ приходскомъ костелѣ. Новобрачные объявили, что брачнаго договора они между собою не заключали. Религіозный обрядъ совершенъ ксендзомъ Адамомъ Косиньскимъ. Этотъ актъ присутствующимъ и новобрачнымъ неграмотнымъ прочитанъ, нами только подписанъ.",
+    "translation_pl": "Działo się we wsi Zakrzew, szóstego (osiemnastego) lutego tysiąc osiemset osiemdziesiątego piątego roku, o godzinie dziesiątej rano. Oświadczamy, że w obecności świadków Andrzeja Rogali, lat sześćdziesiąt, i Jana Czmury, lat pięćdziesiąt, rolników ze wsi Gulinek, zawarty został dzisiaj religijny obrzęd zawarcia małżeństwa między Michałem Mitakiem, lat trzydzieści sześć, synem zmarłych Szymona i Marianny z domu Adamskiej, małżonków, urodzonym i zamieszkałym we wsi Janiszew, a Ewą z domu Drużdżel, panną, lat dwadzieścia, córką Jana i Marianny z domu Sikora, małżonków, urodzoną we wsi Gulinek i tamże zamieszkałą przy rodzicach. Małżeństwo to poprzedziły trzy zapowiedzi ogłoszone w tutejszym kościele parafialnym. Nowożeńcy oświadczyli, że nie zawarli między sobą umowy przedślubnej. Obrzęd religijny został dokonany przez księdza Adama Kosińskiego. Akt ten obecnym i nowożeńcom, którzy są niepiśmienni, został przeczytany i tylko przez nas podpisany.",
+    "translation_en": "It happened in the village of Zakrzew, on the sixth (eighteenth) of February, eighteen hundred and eighty-five, at ten o'clock in the morning. We declare that in the presence of witnesses Andrzej Rogala, sixty years old, and Jan Czmura, fifty years old, farmers from the village of Gulinek, a religious marriage ceremony was contracted today between Michał Mitak, thirty-six years old, son of the deceased Szymon and Marianna née Adamska, spouses, born and residing in the village of Janiszew, and Ewa née Drużdżel, a maiden, twenty years old, daughter of Jan and Marianna née Sikora, spouses, born in the village of Gulinek and residing there with her parents. This marriage was preceded by three banns announced in the local parish church. The newlyweds declared that they had not entered into a prenuptial agreement. The religious ceremony was performed by Father Adam Kosiński. This act was read to the present and to the illiterate newlyweds, and was signed only by us.",
+    "extracted_data": [
+      {
+        "label_pl": "Pan Młody",
+        "label_en": "Groom",
+        "value_pl": "Michał Mitak, 36 lat",
+        "value_en": "Michał Mitak, 36 years old"
+      },
+      {
+        "label_pl": "Panna Młoda",
+        "label_en": "Bride",
+        "value_pl": "Ewa z Drużdżelów, 20 lat, panna",
+        "value_en": "Ewa née Drużdżel, 20 years old, maiden"
+      },
+      {
+        "label_pl": "Rodzice Pana Młodego",
+        "label_en": "Groom's Parents",
+        "value_pl": "Szymon i Marianna z Adamskich",
+        "value_en": "Szymon and Marianna née Adamska"
+      },
+      {
+        "label_pl": "Rodzice Panny Młodej",
+        "label_en": "Bride's Parents",
+        "value_pl": "Jan i Marianna z Sikorów",
+        "value_en": "Jan and Marianna née Sikora"
+      },
+      {
+        "label_pl": "Świadkowie",
+        "label_en": "Witnesses",
+        "value_pl": "Andrzej Rogala i Jan Czmura",
+        "value_en": "Andrzej Rogala and Jan Czmura"
+      }
+    ]
+  },
+  {
+    "id": 205,
+    "imageUrl": "/images/k.avif",
+    "transcription": "Состоялось въ деревнѣ Закшевѣ двадцатого Іюня (второго Іюля) тысяча восемьсотъ девяносто пятаго года въ одинадцать часовъ утра. Объявляемъ, что въ присутствіи свидѣтелей Яна Ковальчика сорока восьми и Матеуша Коперскаго тридцати пяти лѣтъ отъ роду, земледельцевъ изъ деревни Гулинекъ, заключенъ въ этотъ день религіозный обрядъ бракосочетанія между Карoломъ Собеномъ, вдовцомъ по умершей Евѣ урожденной Митакъ, двадцати двухъ лѣтъ отъ роду, сыномъ покойныхъ Мартина и Агнешки урожденной Ягелло, земледельцевъ супруговъ, родившимся и проживающимъ въ деревнѣ Гулинекъ, и Евою урожденною Дружджель, вдовою по умершемъ Михаилѣ Митакѣ, тридцати лѣтъ отъ роду, дочерью покойныхъ Яна и Маріанны урожденной Сикора супруговъ, родившеюся въ деревнѣ Гулинекъ и тамъ же проживающею. Бракосочетанію этому предшествовали три оглашенія. Новобрачные объявили, что брачнаго договора они между собою не заключали. Религіозный обрядъ совершенъ ксендзомъ Адамомъ Косиньскимъ. Этотъ актъ присутствующимъ и новобрачнымъ неграмотнымъ прочитанъ, нами только подписанъ.",
+    "translation_pl": "Działo się we wsi Zakrzew, dzisiątego października tysiąc osiemset dziewięćdziesiątego czwartego roku, o godzinie jedenastej rano. Oświadczamy, że w obecności świadków Jana Kowalczyka, lat czterdzieści osiem, i Mateusza Koperskiego, lat trzydzieści pięć, rolników ze wsi Gulinek, zawarty został dzisiaj religijny obrzęd zawarcia małżeństwa między Karolem Sobieniem, mającym dwadzieścia trzy lata, synem zmarłych Marcina i Agnieszki z domu Jagieło, małżonków-rolników, urodzonym i zamieszkałym we wsi Gulinek, a Ewą z domu Drużdżel, wdową po zmarłym Michale Mitaku, mającą dwadzieścia dziewięć lat, córką zmarłych Jana i Marianny z domu Sikora, małżonków, urodzoną we wsi Gulinek i tamże zamieszkałą. Małżeństwo to poprzedziły trzy zapowiedzi. Nowożeńcy oświadczyli, że nie zawarli między sobą umowy przedślubnej. Obrzęd religijny został dokonany przez księdza Adama Kosińskiego. Akt ten obecnym i nowożeńcom, którzy są niepiśmienni, został przeczytany i tylko przez nas podpisany.",
+    "translation_en": "It took place in the village of Zakrzew, on the tenth day of October, eighteen ninety-four, at eleven o’clock in the morning. We declare that, in the presence of witnesses Jan Kowalczyk, aged forty-eight, and Mateusz Koperski, aged thirty-five, both farmers from the village of Gulinek, the religious rite of marriage was performed today between Karol Sobień, twenty-three years old, son of the deceased Marcin and Agnieszka née Jagieło, married farmers, born and residing in the village of Gulinek, and Ewa née Drużdżel, widow of the late Michał Mitak, twenty-nine years old, daughter of the deceased Jan and Marianna née Sikora, born and residing in the village of Gulinek. This marriage was preceded by three banns. The newlyweds declared that they had not entered into a prenuptial agreement. The religious ceremony was performed by priest Adam Kosiński. This act, having been read aloud to those present and to the newlyweds, who are illiterate, was signed only by us.",
+    "extracted_data": [
+      {
+        "label_pl": "Pan Młody",
+        "label_en": "Groom",
+        "value_pl": "Karol Sobień, 23 lata",
+        "value_en": "Karol Sobień, 23 years old"
+      },
+      {
+        "label_pl": "Panna Młoda",
+        "label_en": "Bride",
+        "value_pl": "Ewa z Drużdżelów (wdowa po Michale Mitaku), 29 lat",
+        "value_en": "Ewa née Drużdżel (widow of Michał Mitak), 29 years old"
+      },
+      {
+        "label_pl": "Rodzice Pana Młodego",
+        "label_en": "Groom's Parents",
+        "value_pl": "Marcin i Agnieszka z Jagiełów",
+        "value_en": "Marcin and Agnieszka née Jagieło"
+      },
+      {
+        "label_pl": "Rodzice Panny Młodej",
+        "label_en": "Bride's Parents",
+        "value_pl": "Jan i Marianna z Sikorów",
+        "value_en": "Jan and Marianna née Sikora"
+      },
+      {
+        "label_pl": "Świadkowie",
+        "label_en": "Witnesses",
+        "value_pl": "Jan Kowalczyk i Mateusz Koperski",
+        "value_en": "Jan Kowalczyk and Mateusz Koperski"
+      }
+    ]
+  },
+  {
+    "id": 206,
+    "title_pl": "Akt Zgonu: Rozalia Ofiara (1925)",
+    "title_en": "Death Record: Rozalia Ofiara (1925)",
+    "type": "death_record",
+    "description_pl": "Parafia Zakrzew (Zakrzów), akt nr 35, 1925 r.",
+    "description_en": "Zakrzew (Zakrzów) Parish, record no. 35, 1925.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się w Zakrzewie dwudziestego dziewiątego listopada tysiąc dziewięćset dwudziestego piątego roku, o godzinie ósmej. Stawili się: Adam Gierczak i Jan Bilski, obaj pełnoletni zamieszkali w Gulinku i oświadczyli, iż dnia dwudziestego drugiego listopada bieżącego roku o godzinie trzeciej zmarła w Gulinku Rozalia z Mitaków Ofiara, lat trzydzieści trzy mająca, córka Michała i Ewy z Drużdżelów, pozostawiwszy owdowiałego męża Józefa. Po naocznym przekonaniu się o śmierci Rozalji Ofiara, akt ten stwierdzamy własnoręcznym podpisem.",
+    "translation_pl": "Zdarzyło się w Zakrzewie, 29 listopada 1925 roku o godzinie ósmej. Stawili się: Adam Gierczak i Jan Bilski, obaj pełnoletni mieszkańcy Gulinka, i oświadczyli, że dnia 22 listopada bieżącego roku o godzinie trzeciej zmarła w Gulinku Rozalia z domu Mitak Ofiara. Miała 33 lata, była córką Michała i Ewy z domu Drużdżel. Pozostawiła owdowiałego męża Józefa. Po naocznym potwierdzeniu śmierci Rozalii Ofiary, akt ten potwierdzamy własnoręcznym podpisem.",
+    "translation_en": "It happened in Zakrzew on November 29, 1925, at eight o'clock. Appeared: Adam Gierczak and Jan Bilski, both adult residents of Gulinek, and they declared that on November 22 of the current year at three o'clock, Rozalia née Mitak Ofiara passed away in Gulinek. She was 33 years old, daughter of Michał and Ewa née Drużdżel. She left behind her widowed husband, Józef. After visually confirming the death of Rozalia Ofiara, we affirm this act with our own signature.",
+    "extracted_data": [
+      {
+        "label_pl": "Wiek",
+        "label_en": "Age",
+        "value_pl": "33 lata",
+        "value_en": "33 years"
+      },
+      {
+        "label_pl": "Rodzice",
+        "label_en": "Parents",
+        "value_pl": "Michał Mitak i Ewa z Drużdżelów",
+        "value_en": "Michał Mitak and Ewa née Drużdżel"
+      },
+      {
+        "label_pl": "Pozostawiła męża",
+        "label_en": "Survived by husband",
+        "value_pl": "Józef Ofiara",
+        "value_en": "Józef Ofiara"
+      }
+    ]
+  },
+  {
+    "id": 207,
+    "title_pl": "Akt Ślubu: Józef Ofiara i Rozalia Mitak (1918)",
+    "title_en": "Marriage Record: Józef Ofiara & Rozalia Mitak (1918)",
+    "type": "marriage_record",
+    "description_pl": "Parafia Zakrzew, akt nr 20, 1918 r.",
+    "description_en": "Zakrzew Parish, record no. 20, 1918.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się w Zakrzewie dnia szóstego listopada tysiąc dziewięćset osiemnastego roku o godzinie jedynastej rano. Wiadomo czynimy iż w obecności Kazimierza Drużdżela i Jana Bilskiego pełnoletnich mieszkańców wsi Gulinek, w dniu dzisiejszym zawarty został związek małżeński między Józefem Ofiarą, kawalerem mającym dwadzieścia dwa lat, urodzonym w Ludwikowie parafji Jankowice, stałym mieszkańcem gminy Błotnica, synem Andrzeja i Franciszki z Saruchów, a Rozalją Mitak panną, dwadzieścia lat mającą, urodzoną i zamieszkałą w Gulinku, córką Michała i Ewy z Drużdżelów. Małżeństwo to poprzedziły trzy zapowiedzie ogłoszone w tutejszym i Jankowickim kościołach w dniach: szóstego, trzynastego i dwudziestego października bieżącego roku. Małżonkowie oświadczają iż umowy przedślubnej nie zawarli. Obrzęd ten religijny dopełniony został przez miejscowego proboszcza. Akt ten obecnym niepiśmiennym przeczytany, podpisaliśmy.",
+    "translation_pl": "Zdarzyło się w Zakrzewie, dnia 6 listopada 1918 roku, o godzinie jedenastej rano. Czynimy wiadomo, że w obecności Kazimierza Drużdżela i Jana Bilskiego, pełnoletnich mieszkańców wsi Gulinek, w dniu dzisiejszym został zawarty związek małżeński między: Józefem Ofiarą, kawalerem, lat 22, urodzonym w Ludwikowie (parafia Jankowice), stałym mieszkańcem gminy Błotnica, synem Andrzeja i Franciszki z domu Saruch, oraz Rozalią Mitak, panną, lat 20, urodzoną i zamieszkałą w Gulinku, córką Michała i Ewy z domu Drużdżel. Małżeństwo to poprzedziły trzy zapowiedzi, ogłoszone w kościołach w Zakrzewie i Jankowicach w dniach 6, 13 i 20 października bieżącego roku. Małżonkowie oświadczają, że nie zawarli umowy przedślubnej. Obrzęd religijny został dopełniony przez miejscowego proboszcza. Akt ten, po przeczytaniu obecnym, którzy są niepiśmienni, podpisaliśmy.",
+    "translation_en": "It happened in Zakrzew, on November 6, 1918, at eleven o'clock in the morning. We make it known that in the presence of Kazimierz Drużdżel and Jan Bilski, adult residents of the village of Gulinek, a marriage was contracted today between: Józef Ofiara, a bachelor, 22 years old, born in Ludwików (Jankowice parish), a permanent resident of the Błotnica commune, son of Andrzej and Franciszka née Saruch, and Rozalia Mitak, a maiden, 20 years old, born and residing in Gulinek, daughter of Michał and Ewa née Drużdżel. This marriage was preceded by three banns, announced in the local and Jankowice churches on October 6, 13, and 20 of the current year. The spouses declare that they did not enter into a prenuptial agreement. The religious ceremony was performed by the local parish priest. This act, having been read to the illiterate persons present, we signed.",
+    "extracted_data": [
+      {
+        "label_pl": "Pan Młody",
+        "label_en": "Groom",
+        "value_pl": "Józef Ofiara, 22 lata, kawaler",
+        "value_en": "Józef Ofiara, 22 years old, bachelor"
+      },
+      {
+        "label_pl": "Rodzice Pana Młodego",
+        "label_en": "Groom's Parents",
+        "value_pl": "Andrzej i Franciszka z Saruchów",
+        "value_en": "Andrzej and Franciszka née Saruch"
+      },
+      {
+        "label_pl": "Panna Młoda",
+        "label_en": "Bride",
+        "value_pl": "Rozalia Mitak, 20 lat, panna",
+        "value_en": "Rozalia Mitak, 20 years old, maiden"
+      },
+      {
+        "label_pl": "Rodzice Panny Młodej",
+        "label_en": "Bride's Parents",
+        "value_pl": "Michał i Ewa z Drużdżelów",
+        "value_en": "Michał and Ewa née Drużdżel"
+      },
+      {
+        "label_pl": "Świadkowie",
+        "label_en": "Witnesses",
+        "value_pl": "Kazimierz Drużdżel i Jan Bilski",
+        "value_en": "Kazimierz Drużdżel and Jan Bilski"
+      }
+    ]
+  }
+]

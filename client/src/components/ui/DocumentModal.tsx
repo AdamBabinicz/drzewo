@@ -9,8 +9,7 @@ import {
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { X, BookText, FileText, CheckSquare } from "lucide-react";
 import { useLanguage } from "@/hooks/useLanguage";
-import genealogyData from "@/data/genealogy.json";
-import { Badge } from "./badge";
+import genealogyData from "@/data/index";
 
 interface DocumentModalProps {
   documentId: number | null;
@@ -28,11 +27,22 @@ export default function DocumentModal({
 
   if (!document) return null;
 
-  const title = language === "en" ? document.title_en : document.title_pl;
-  const translation =
-    language === "en" ? "Translation" : "Tłumaczenie na współczesny polski";
+  // Dynamiczne wybieranie wersji językowej dla każdego pola
+  const title =
+    (language === "en" ? document.title_en : document.title_pl) || "";
+  const description =
+    (language === "en" ? document.description_en : document.description_pl) ||
+    "";
   const transcriptionText = document.transcription || "";
-  const translationText = document.translation_pl || "";
+  const translationText =
+    (language === "en" ? document.translation_en : document.translation_pl) ||
+    "";
+
+  const keyInfoTitle =
+    language === "en" ? "Key Information" : "Kluczowe informacje";
+  const transcriptionTitle =
+    language === "en" ? "Transcription" : "Transkrypcja";
+  const translationTitle = language === "en" ? "Translation" : "Tłumaczenie";
 
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
@@ -41,7 +51,7 @@ export default function DocumentModal({
           <DialogTitle className="font-serif text-2xl heritage-text">
             {title}
           </DialogTitle>
-          <DialogDescription>{document.description}</DialogDescription>
+          {description && <DialogDescription>{description}</DialogDescription>}
         </DialogHeader>
 
         <div className="grid md:grid-cols-2 gap-6 max-h-[70vh]">
@@ -61,15 +71,17 @@ export default function DocumentModal({
                 <div>
                   <h4 className="font-semibold heritage-text mb-3 flex items-center">
                     <CheckSquare className="w-4 h-4 mr-2" />
-                    Kluczowe informacje
+                    {keyInfoTitle}
                   </h4>
                   <div className="space-y-1">
-                    {document.extracted_data.map((item: any, index: number) => (
+                    {document.extracted_data.map((item, index) => (
                       <div key={index} className="text-sm">
                         <span className="font-semibold text-muted-foreground">
                           {language === "en" ? item.label_en : item.label_pl}:
                         </span>{" "}
-                        <span className="heritage-text">{item.value}</span>
+                        <span className="heritage-text">
+                          {language === "en" ? item.value_en : item.value_pl}
+                        </span>
                       </div>
                     ))}
                   </div>
@@ -79,7 +91,7 @@ export default function DocumentModal({
                 <div>
                   <h4 className="font-semibold heritage-text mb-3 flex items-center">
                     <BookText className="w-4 h-4 mr-2" />
-                    Transkrypcja
+                    {transcriptionTitle}
                   </h4>
                   <p className="text-sm text-muted-foreground whitespace-pre-wrap leading-relaxed p-3 bg-white dark:bg-card rounded-md">
                     {transcriptionText}
@@ -90,7 +102,7 @@ export default function DocumentModal({
                 <div>
                   <h4 className="font-semibold heritage-text mb-3 flex items-center">
                     <FileText className="w-4 h-4 mr-2" />
-                    {translation}
+                    {translationTitle}
                   </h4>
                   <p className="text-sm text-muted-foreground whitespace-pre-wrap leading-relaxed p-3 bg-white dark:bg-card rounded-md">
                     {translationText}

@@ -7,9 +7,9 @@ import { Alert, AlertDescription } from "@/components/ui/alert";
 import { AlertCircle, Check, Settings } from "lucide-react";
 import SEO from "@/components/SEO";
 import { useLanguage } from "@/hooks/useLanguage";
-import genealogyData from "@/data/genealogy.json";
+import genealogyData from "@/data/index";
+// import genealogyData from "@/data/genealogy.json";
 
-// Komponent pomocniczy dla przełącznika w nowym panelu
 const ControlCheckbox = ({
   label,
   checked,

@@ -7,7 +7,8 @@ import PersonModal from "@/components/ui/PersonModal";
 import { Person } from "@shared/schema";
 import { Search } from "lucide-react";
 import SEO from "@/components/SEO";
-import genealogyData from "@/data/genealogy.json";
+import genealogyData from "@/data/index";
+// import genealogyData from "@/data/genealogy.json";
 import { useLanguage } from "@/hooks/useLanguage";
 
 export default function PersonIndex() {
@@ -106,7 +107,7 @@ export default function PersonIndex() {
                 className={`w-10 h-10 ${
                   selectedLetter === letter
                     ? "btn-heritage-burgundy"
-                    : "heritage-border heritage-text hover:bg-heritage-cream dark:hover:bg-background-alt"
+                    : "heritage-border heritage-text hover:text-slate-400 dark:text-white dark:hover:text-slate-400 hover:bg-heritage-cream dark:bg-background-alt transition-all"
                 }`}
                 onClick={() => handleLetterClick(letter)}
               >

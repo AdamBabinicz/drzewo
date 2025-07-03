@@ -62,20 +62,22 @@ export type DocumentType =
 type ExtractedDataItem = {
   label_pl: string;
   label_en: string;
-  value: string;
+  value_pl: string;
+  value_en: string;
 };
 
 export type Document = {
   id: number;
   personId?: number;
-  title: string;
   title_pl?: string;
   title_en?: string;
   type: DocumentType;
-  description?: string;
+  description_pl?: string;
+  description_en?: string;
   imageUrl: string;
   transcription?: string;
   translation_pl?: string;
+  translation_en?: string;
   extracted_data?: ExtractedDataItem[];
 };
 
