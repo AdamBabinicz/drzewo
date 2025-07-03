@@ -40,7 +40,7 @@ export default function Lightbox({ isOpen, onClose, image }: LightboxProps) {
           </Button>
 
           {image.alt && (
-            <div className="absolute bottom-4 left-4 right-4 text-white text-center bg-black/50 backdrop-blur-sm rounded-lg p-3">
+            <div className="absolute bottom-4 left-4 right-4 text-white text-center bg-black/50 backdrop-blur-sm rounded-lg p-3 md:w-1/2 mx-auto">
               {image.alt}
             </div>
           )}
