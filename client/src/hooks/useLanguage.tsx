@@ -56,9 +56,9 @@ const translations = {
     "home.branches.gierczak.cta": "Poznaj Wszystkich Gierczaków",
     "home.branches.ofiara.cta": "Poznaj Wszystkich Ofiarów",
     "home.branches.gierczak.desc":
-      "Ród Gierczaków, wywodzący się z Jaszowic, to historia chłopskiej rodziny, której korzenie sięgają Tomasza Gierczaka. Kolejne pokolenia, poprzez małżeństwa i dziedziczenie ziemi, rozprzestrzeniły się, osiedlając się m.in. w Gulinku.",
+      "Ród Gierczaków, wywodzący się z Jaszowic, to historia chłopskiej rodziny, której korzenie sięgają Tomasza Gierczaka. Kolejne pokolenia, poprzez małżeństwa i dziedziczenie ziemi, rozprzestrzeniły się, osiedlając się m.in. w Gulinku, Dąbrówce Nagórnej, Klwatach i Radomiu.",
     "home.branches.ofiara.desc":
-      "Historia rodu Ofiarów nierozerwalnie związana jest z Wolą Gutowską i Ludwikowem. Jego protoplastą jest Jakub Ofiara, którego potomkowie przez dekady tworzyli lokalną społeczność, a ich losy połączyły się z rodem Gierczaków.",
+      "Historia rodu Ofiarów nierozerwalnie związana jest z Wolą Gutowską i Ludwikowem. Jego protoplastą jest Stefan Ofiara, którego potomkowie przez dekady tworzyli lokalną społeczność, a ich losy połączyły się z rodem Gierczaków.",
     "home.explore.title": "Rozpocznij Eksplorację",
     "home.explore.subtitle":
       "Wybierz jeden ze sposobów poznawania historii rodzin",
@@ -397,9 +397,9 @@ const translations = {
     "home.branches.gierczak.cta": "Meet All the Gierczaks",
     "home.branches.ofiara.cta": "Meet All the Ofiaras",
     "home.branches.gierczak.desc":
-      "The Gierczak family, originating from Jaszowice, is a story of a peasant family whose roots trace back to Tomasz Gierczak. Subsequent generations, through marriage and land inheritance, spread out, settling in places like Gulinek.",
+      "The Gierczak family line, originating from Jaszowice, is the story of a peasant family whose roots trace back to Tomasz Gierczak. Over the generations, through marriages and land inheritance, the family spread out and settled in places such as Gulinek, Dąbrówka Nagórna, Klwaty, and Radom.",
     "home.branches.ofiara.desc":
-      "The history of the Ofiara family is inseparably linked with Wola Gutowska and Ludwików. Its progenitor is Jakub Ofiara, whose descendants formed the local community for decades, and their fates merged with the Gierczak family.",
+      "The history of the Ofiara family is inseparably linked with Wola Gutowska and Ludwików. Its progenitor is Stefan Ofiara, whose descendants formed the local community for decades, and their fates merged with the Gierczak family.",
     "home.explore.title": "Start Exploring",
     "home.explore.subtitle":
       "Choose one of the ways to learn the family history",

@@ -169,7 +169,9 @@ export default function Home() {
                   <h3 className="font-serif text-2xl font-semibold text-white mb-1">
                     {t("family.ofiara")}
                   </h3>
-                  <p className="text-white/90 text-sm">Ludwików, Gulinek</p>
+                  <p className="text-white/90 text-sm">
+                    Wola Gutowska, Ludwików, Gulinek
+                  </p>
                 </div>
               </div>
               <CardContent className="p-6">
