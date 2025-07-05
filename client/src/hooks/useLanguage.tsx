@@ -48,7 +48,7 @@ const translations = {
     "home.cta.history": "Poznaj Historię",
     "home.about.title": "Początki Rodów",
     "home.about.p1":
-      "Historia rodzin Gierczak i Ofiara sięga głęboko w przeszłość okolic radomskich. Te dwa rody, związane z Jaszowicami, Ludwikowem i Gulinkiem, tworzą fascynującą opowieść o życiu na ziemiach polskich na przestrzeni wieków.",
+      "Historia rodzin Gierczak i Ofiara sięga głęboko w przeszłość okolic radomskich. Te dwa rody, związane z Jaszowicami, Wolą Gutowską, Ludwikowem i Gulinkiem, tworzą fascynującą opowieść o życiu na ziemiach polskich regionu radomskiego na przestrzeni wieków.",
     "home.about.p2":
       "Dzięki zachowanym metrykom, aktom kościelnym i przekazom rodzinnym, możemy prześledzić losy pokoleń, poznać ich imiona, miejsca zamieszkania i najważniejsze wydarzenia z ich życia.",
     "home.branches.title": "Gałęzie Rodzinne",
@@ -389,7 +389,7 @@ const translations = {
     "home.cta.history": "Learn the History",
     "home.about.title": "The Beginnings of the Families",
     "home.about.p1":
-      "The history of the Gierczak and Ofiara families dates far back into the past of the Radom area. These two families, connected with Jaszowice, Ludwików and Gulinek, create a fascinating story of life on Polish lands over the centuries.",
+      "The history of the Gierczak and Ofiara families reaches deep into the past of the Radom region. These two families, associated with Jaszowice, Wola Gutowska, Ludwików and Gulinek, create a fascinating story of life in the Polish lands of the Radom region over the centuries.",
     "home.about.p2":
       "Thanks to preserved vital records, church documents, and family accounts, we can trace the fates of generations, learn their names, places of residence, and the most important events of their lives.",
     "home.branches.title": "Family Branches",
