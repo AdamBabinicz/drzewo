@@ -35,9 +35,9 @@ export default function Privacy() {
       <SEO title={t("privacy.title")} path={p("privacy")} />
       <div className="bg-white dark:bg-card">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          <h1 className="text-4xl font-serif heritage-gradient-text text-center mb-4">
+          <h2 className="text-4xl font-serif heritage-gradient-text text-center mb-4">
             {t("privacy.title")}
-          </h1>
+          </h2>
           <p className="text-center text-muted-foreground mb-12">
             {t("privacy.lastUpdated", { date: currentDate })}
           </p>

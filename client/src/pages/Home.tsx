@@ -51,7 +51,7 @@ export default function Home() {
               </Button>
               <Button
                 variant="outline"
-                className="px-8 py-3 text-lg heritage-border heritage-text hover:bg-heritage-cream"
+                className="px-8 py-3 text-lg heritage-border heritage-text dark:hover:bg-heritage-cream"
                 onClick={handleScrollToAbout}
               >
                 <BookOpen className="w-5 h-5 mr-2" />

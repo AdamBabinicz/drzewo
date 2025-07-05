@@ -1,6 +1,5 @@
 import { useState } from "react";
 import Lightbox, { type Slide } from "yet-another-react-lightbox";
-// Usuwamy import wtyczki Captions, bo jej nie użyjemy
 import "yet-another-react-lightbox/styles.css";
 import {
   Dialog,
@@ -15,7 +14,6 @@ import { X } from "lucide-react";
 import { useLanguage } from "@/hooks/useLanguage";
 import { Person, Keepsake } from "../../../../shared/schema";
 
-// Rozszerzamy typ Slide o nasze niestandardowe dane
 type CustomSlide = Slide & {
   customTitle?: string;
   customDescription?: string;
@@ -76,7 +74,7 @@ export default function KeepsakesModal({
           </DialogHeader>
 
           <ScrollArea className="max-h-[70vh] pr-4">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-1">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 p-1">
               {keepsakes.map((keepsake: Keepsake, index: number) => (
                 <div
                   key={index}
@@ -109,17 +107,17 @@ export default function KeepsakesModal({
       </Dialog>
 
       <Lightbox
+        className="custom-lightbox"
         open={lightboxOpen}
         close={() => setLightboxOpen(false)}
         slides={lightboxSlides}
         index={lightboxIndex}
-        // Używamy `render.slide` do pełnej kontroli
+        controller={{ closeOnBackdropClick: true }}
         render={{
-          slide: ({ slide, rect }) => {
+          slide: ({ slide }) => {
             const customSlide = slide as CustomSlide;
             return (
               <div className="relative w-full h-full">
-                {/* Kontener na obrazek */}
                 <div className="w-full h-full flex items-center justify-center">
                   <img
                     alt={customSlide.customTitle || ""}
@@ -127,13 +125,11 @@ export default function KeepsakesModal({
                     className="max-h-[85vh] max-w-[90vw] object-contain"
                   />
                 </div>
-
-                {/* Kontener na podpis, w pełni kontrolowany przez Tailwind */}
                 {(customSlide.customTitle || customSlide.customDescription) && (
                   <div className="absolute bottom-0 left-0 w-full p-8 text-center text-white bg-gradient-to-t from-black/80 to-transparent pointer-events-none">
-                    <div className="max-w-[50vw] mx-auto">
+                    <div className="max-w-full md:max-w-[50vw] mx-auto">
                       {customSlide.customTitle && (
-                        <h3 className="font-serif text-2xl font-semibold leading-tight">
+                        <h3 className="font-serif text-xl font-semibold leading-tight">
                           {customSlide.customTitle}
                         </h3>
                       )}

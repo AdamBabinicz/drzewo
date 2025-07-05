@@ -203,7 +203,6 @@
     border-color: var(--heritage-teal);
   }
 
-  /* Poprawiony selektor - text-align dotyczy tylko tego elementu */
   .elegant-separator {
     position: relative;
     text-align: center;
@@ -256,25 +255,14 @@
     border: 1px solid hsl(42, 78%, 70%);
   }
 
-  /* Ten blok pozostaje, jest poprawny i dotyczy tylko Lightboxa */
-  .custom-lightbox {
-    --yarl__caption_max_width: 50vw;
-    --yarl__caption_background_color: rgba(0, 0, 0, 0.6);
-    --yarl__caption_padding: 1rem 1rem 2rem;
+  .custom-lightbox .yarl__button {
+    opacity: 1 !important;
+    pointer-events: auto !important;
+    background-color: rgba(30, 30, 30, 0.2);
+    transition: background-color 0.2s;
   }
 
-  .custom-lightbox .yarl__caption_title {
-    font-family: "Playfair Display", serif;
-    font-size: 1.25rem;
-    font-weight: 600;
-    line-height: 1.4;
-    text-align: center;
-  }
-
-  .custom-lightbox .yarl__caption_description {
-    font-family: "Lato", sans-serif;
-    line-height: 1.6;
-    margin-top: 0.5rem;
-    text-align: center;
+  .custom-lightbox .yarl__button:hover {
+    background-color: rgba(30, 30, 30, 0.4);
   }
 }
