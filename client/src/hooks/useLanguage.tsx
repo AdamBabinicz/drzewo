@@ -56,7 +56,7 @@ const translations = {
     "home.branches.gierczak.cta": "Poznaj Wszystkich Gierczaków",
     "home.branches.ofiara.cta": "Poznaj Wszystkich Ofiarów",
     "home.branches.gierczak.desc":
-      "Ród Gierczaków, wywodzący się z Jaszowic, to historia chłopskiej rodziny, której korzenie sięgają Tomasza Gierczaka. Kolejne pokolenia, poprzez małżeństwa i dziedziczenie ziemi, rozprzestrzeniły się, osiedlając się m.in. w Gulinku, Dąbrówce Nagórnej, Klwatach i Radomiu.",
+      "Ród Gierczaków, wywodzący się z Jaszowic, to historia chłopskiej rodziny, której korzenie sięgają Tomasza Gierczaka. Kolejne pokolenia, poprzez małżeństwa, dziedziczenie ziemi i swoje decyzje, rozprzestrzeniły się, osiedlając się m.in. w Gulinku, Dąbrówce Nagórnej, Klwatach i Radomiu.",
     "home.branches.ofiara.desc":
       "Historia rodu Ofiarów nierozerwalnie związana jest z Wolą Gutowską i Ludwikowem. Jego protoplastą jest Stefan Ofiara, którego potomkowie przez dekady tworzyli lokalną społeczność, a ich losy połączyły się z rodem Gierczaków.",
     "home.explore.title": "Rozpocznij Eksplorację",
@@ -397,7 +397,7 @@ const translations = {
     "home.branches.gierczak.cta": "Meet All the Gierczaks",
     "home.branches.ofiara.cta": "Meet All the Ofiaras",
     "home.branches.gierczak.desc":
-      "The Gierczak family line, originating from Jaszowice, is the story of a peasant family whose roots trace back to Tomasz Gierczak. Over the generations, through marriages and land inheritance, the family spread out and settled in places such as Gulinek, Dąbrówka Nagórna, Klwaty, and Radom.",
+      "The Gierczak family, originating from Jaszowice, is a story of a peasant family whose roots go back to Tomasz Gierczak. Subsequent generations, through marriages, inheriting land and their own decisions, spread, settling in Gulinek, Dąbrówka Nagórna, Klwaty and Radom.",
     "home.branches.ofiara.desc":
       "The history of the Ofiara family is inseparably linked with Wola Gutowska and Ludwików. Its progenitor is Stefan Ofiara, whose descendants formed the local community for decades, and their fates merged with the Gierczak family.",
     "home.explore.title": "Start Exploring",
