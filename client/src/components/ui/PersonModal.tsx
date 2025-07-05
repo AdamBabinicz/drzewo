@@ -20,10 +20,12 @@ import {
   Clock,
   Book,
   Heart,
+  Archive,
 } from "lucide-react";
-import { Person } from "@shared/schema";
+import { Person, Anecdote, Event } from "../../../../shared/schema";
 import { useLanguage } from "@/hooks/useLanguage";
 import DocumentModal from "./DocumentModal";
+import KeepsakesModal from "./KeepsakesModal";
 import {
   Tooltip,
   TooltipContent,
@@ -101,6 +103,7 @@ export default function PersonModal({
   const [selectedDocumentId, setSelectedDocumentId] = useState<number | null>(
     null
   );
+  const [keepsakesModalOpen, setKeepsakesModalOpen] = useState(false);
 
   if (!person) return null;
 
@@ -122,6 +125,7 @@ export default function PersonModal({
   const occupationText = getDynamicText(person.occupation);
   const biographyText = getDynamicText(person.biography);
   const hasAnecdotes = person.anecdotes && person.anecdotes.length > 0;
+  const hasKeepsakes = person.keepsakes && person.keepsakes.length > 0;
 
   const parents = person.parentIds
     ? allPeople.filter((p) => person.parentIds!.includes(p.id))
@@ -135,8 +139,9 @@ export default function PersonModal({
   const familyColor =
     person.family === "gierczak" ? "heritage-burgundy" : "heritage-teal";
 
-  const birthEvent = person.events?.find((e) => e.type === "birth");
-  const deathEvent = person.events?.find((e) => e.type === "death");
+  // POPRAWKA TUTAJ:
+  const birthEvent = person.events?.find((e: Event) => e.type === "birth");
+  const deathEvent = person.events?.find((e: Event) => e.type === "death");
 
   return (
     <>
@@ -290,6 +295,25 @@ export default function PersonModal({
                         </div>
                       );
                     })}
+
+                    {hasKeepsakes && (
+                      <div className="flex items-start space-x-3">
+                        <Archive className="w-4 h-4 text-muted-foreground mt-1" />
+                        <div>
+                          <p
+                            className="heritage-text cursor-pointer hover:underline"
+                            onClick={() => setKeepsakesModalOpen(true)}
+                          >
+                            <span className="font-semibold">
+                              {t("person.keepsakes")}
+                            </span>
+                          </p>
+                          <p className="text-sm text-muted-foreground">
+                            {t("person.hasKeepsakesDesc")}
+                          </p>
+                        </div>
+                      </div>
+                    )}
                   </TooltipProvider>
 
                   {(person.birthTime || person.deathTime) && (
@@ -349,14 +373,16 @@ export default function PersonModal({
                     {t("person.anecdotes")}
                   </h4>
                   <div className="space-y-4">
-                    {person.anecdotes?.map((anecdote, index) => (
-                      <blockquote
-                        key={index}
-                        className="border-l-4 border-heritage-gray dark:border-heritage-gold pl-4 italic text-muted-foreground"
-                      >
-                        {renderTextWithLinks(getDynamicText(anecdote) || "")}
-                      </blockquote>
-                    ))}
+                    {person.anecdotes?.map(
+                      (anecdote: Anecdote, index: number) => (
+                        <blockquote
+                          key={index}
+                          className="border-l-4 border-heritage-gray dark:border-heritage-gold pl-4 italic text-muted-foreground"
+                        >
+                          {renderTextWithLinks(getDynamicText(anecdote) || "")}
+                        </blockquote>
+                      )
+                    )}
                   </div>
                 </div>
               )}
@@ -420,6 +446,13 @@ export default function PersonModal({
         onClose={() => setDocumentModalOpen(false)}
         documentId={selectedDocumentId}
       />
+      {hasKeepsakes && (
+        <KeepsakesModal
+          isOpen={keepsakesModalOpen}
+          onClose={() => setKeepsakesModalOpen(false)}
+          person={person}
+        />
+      )}
     </>
   );
 }

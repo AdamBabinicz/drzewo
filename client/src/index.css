@@ -24,8 +24,6 @@
   --destructive-foreground: hsl(60, 9.1%, 97.8%);
   --ring: hsl(30, 8%, 15%);
   --radius: 0.75rem;
-
-  /* Heritage color palette - Light Theme */
   --heritage-burgundy: hsl(355, 65%, 42%);
   --heritage-teal: hsl(174, 70%, 25%);
   --heritage-brown: hsl(30, 8%, 15%);
@@ -38,29 +36,24 @@
 }
 
 .dark {
-  /* --- NOWA PALETA BARW DLA MOTYWU CIEMNEGO (BRĄZ I ZŁOTO) --- */
-  --background: hsl(28, 25%, 12%); /* Głęboki, czekoladowy brąz */
-  --background-alt: hsl(28, 20%, 18%); /* Jaśniejszy, ciepły brąz (toffi) */
-  --card: hsl(28, 25%, 16%); /* Brąz dla kart */
+  --background: hsl(28, 25%, 12%);
+  --background-alt: hsl(28, 20%, 18%);
+  --card: hsl(28, 25%, 16%);
   --popover: hsl(28, 25%, 14%);
-
   --foreground: hsl(35, 30%, 94%);
   --card-foreground: hsl(35, 30%, 94%);
   --popover-foreground: hsl(35, 30%, 94%);
   --muted-foreground: hsl(35, 20%, 65%);
-
   --border: hsl(28, 15%, 28%);
   --input: hsl(28, 15%, 25%);
   --muted: hsl(28, 15%, 22%);
   --secondary: hsl(28, 15%, 22%);
   --secondary-foreground: hsl(35, 30%, 94%);
-
   --primary: hsl(42, 78%, 60%);
   --primary-foreground: hsl(25, 35%, 15%);
   --accent: hsl(38, 90%, 65%);
   --accent-foreground: hsl(25, 35%, 15%);
   --ring: hsl(42, 78%, 65%);
-
   --heritage-burgundy: hsl(42, 78%, 60%);
   --heritage-teal: hsl(40, 85%, 65%);
   --heritage-brown: hsl(35, 30%, 94%);
@@ -70,7 +63,6 @@
   --parchment-dark: var(--card);
   --heritage-gold: hsl(42, 95%, 70%);
   --heritage-cream: var(--card);
-
   --destructive: hsl(0, 70%, 50%);
   --destructive-foreground: hsl(0, 0%, 100%);
 }
@@ -131,7 +123,6 @@
     opacity: 0.5;
   }
 
-  /* Klasy do zróżnicowania tła sekcji */
   .bg-background-alt {
     background-color: var(--background-alt);
   }
@@ -212,11 +203,13 @@
     border-color: var(--heritage-teal);
   }
 
+  /* Poprawiony selektor - text-align dotyczy tylko tego elementu */
   .elegant-separator {
     position: relative;
     text-align: center;
     margin: 2rem 0;
   }
+
   .elegant-separator::before {
     content: "";
     position: absolute;
@@ -261,5 +254,27 @@
     background-color: var(--primary);
     color: var(--primary-foreground);
     border: 1px solid hsl(42, 78%, 70%);
+  }
+
+  /* Ten blok pozostaje, jest poprawny i dotyczy tylko Lightboxa */
+  .custom-lightbox {
+    --yarl__caption_max_width: 50vw;
+    --yarl__caption_background_color: rgba(0, 0, 0, 0.6);
+    --yarl__caption_padding: 1rem 1rem 2rem;
+  }
+
+  .custom-lightbox .yarl__caption_title {
+    font-family: "Playfair Display", serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.4;
+    text-align: center;
+  }
+
+  .custom-lightbox .yarl__caption_description {
+    font-family: "Lato", sans-serif;
+    line-height: 1.6;
+    margin-top: 0.5rem;
+    text-align: center;
   }
 }

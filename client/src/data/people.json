@@ -432,6 +432,30 @@
         "pl": "W dzieciństwie, które przypadło częściowo na czas wojny i okupacji, zwracała się do ojca \"tatuniu\", a do matki \"mamuniu\". Jako jedyna dziewczynka w rodzinie miała na sobie większość obowiązków domowych związanych z utrzymaniem porządku. Wspominała, że największą radością była dla niej słodka bułka, którą \"tatunio\" czasem przywoził z jarmarku.",
         "en": "During her childhood, which partially took place during the war and occupation, she addressed her father as 'tatuniu' and her mother as 'mamuniu'. As the only girl in the family, she bore most of the household responsibilities related to maintaining order. She used to say that her greatest joy was a sweet roll that her 'tatunio' would sometimes bring her from the fair."
       }
+    ],
+    "keepsakes": [
+      {
+        "imageUrl": "/images/sw1.avif",
+        "title": {
+          "pl": "Oryginalny dokument szkolny mojej mamy z czasów II wojny światowej, wystawiony w Generalnym Gubernatorstwie",
+          "en": "The original school document of my mother from the time of World War II, issued in the General Government."
+        },
+        "description": {
+          "pl": "Klasa IV rok szkolny 1941/42",
+          "en": "Grade IV, school year 1941/42"
+        }
+      },
+      {
+        "imageUrl": "/images/sw2.avif",
+        "title": {
+          "pl": "Oryginalny dokument szkolny mojej mamy z czasów II wojny światowej, wystawiony w Generalnym Gubernatorstwie",
+          "en": "The original school document of my mother from the time of World War II, issued in the General Government."
+        },
+        "description": {
+          "pl": "Klasa V rok szkolny 1942/43",
+          "en": "Grade V, school year 1942/43"
+        }
+      }
     ]
   },
   {

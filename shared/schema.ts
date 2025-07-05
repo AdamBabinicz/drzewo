@@ -15,6 +15,18 @@ export type Anecdote = {
   en: string;
 };
 
+export type Keepsake = {
+  imageUrl: string;
+  title: {
+    pl: string;
+    en: string;
+  };
+  description: {
+    pl: string;
+    en: string;
+  };
+};
+
 export type EventSource = {
   documentId: number;
 };
@@ -49,6 +61,7 @@ export type Person = {
   marriages?: Marriage[];
   anecdotes?: Anecdote[];
   events?: Event[];
+  keepsakes?: Keepsake[];
 };
 
 export type DocumentType =

@@ -46,9 +46,6 @@ export class MemStorage implements IStorage {
     return Array.from(this.documents.values());
   }
 
-  // Uwaga: Twoja oryginalna funkcja `getDocumentsByPersonId` miała pole `personId` w dokumencie.
-  // W twojej strukturze danych go nie ma. Dokumenty są powiązane z osobami przez pole `events` w osobie.
-  // Poniżej zostawiam Twoją funkcję, ale prawdopodobnie nie będzie działać zgodnie z oczekiwaniami.
   async getDocumentsByPersonId(personId: number): Promise<Document[]> {
     const person = this.people.get(personId);
     if (!person || !person.events) {
