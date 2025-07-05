@@ -18,8 +18,6 @@ export default function Lightbox({ isOpen, onClose, image }: LightboxProps) {
     <Dialog open={isOpen} onOpenChange={onClose}>
       <DialogContent
         className="max-w-4xl max-h-screen p-0 bg-black/90 border-none"
-        // --- KLUCZOWA POPRAWKA ---
-        // Dodajemy ten atrybut, aby wyciszyć ostrzeżenie o braku opisu.
         aria-describedby={undefined}
       >
         <div className="relative flex items-center justify-center min-h-[50vh]">

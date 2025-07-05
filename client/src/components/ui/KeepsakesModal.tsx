@@ -61,7 +61,7 @@ export default function KeepsakesModal({
   return (
     <>
       <Dialog open={isOpen} onOpenChange={onClose}>
-        <DialogContent className="w-[95%] max-w-4xl max-h-[90vh] bg-stone-50 dark:bg-background-alt">
+        <DialogContent className="w-[95%] max-w-4xl max-h-[90vh] bg-stone-50 dark:bg-background-alt top-4 translate-y-0 md:top-1/2 md:-translate-y-1/2">
           <DialogHeader>
             <DialogTitle className="font-serif text-2xl heritage-text">
               {t("keepsakes.modal.title", {
@@ -73,7 +73,7 @@ export default function KeepsakesModal({
             </DialogDescription>
           </DialogHeader>
 
-          <ScrollArea className="max-h-[70vh] pr-4">
+          <ScrollArea className="max-h-[70vh]">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 p-1">
               {keepsakes.map((keepsake: Keepsake, index: number) => (
                 <div
