@@ -74,7 +74,7 @@ export default function KeepsakesModal({
           </DialogHeader>
 
           <ScrollArea className="max-h-[70vh]">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 p-1">
+            <div className="grid gap-4 p-1 grid-cols-[repeat(auto-fit,minmax(300px,1fr))]">
               {keepsakes.map((keepsake: Keepsake, index: number) => (
                 <div
                   key={index}
@@ -85,7 +85,7 @@ export default function KeepsakesModal({
                     <img
                       src={keepsake.imageUrl}
                       alt={getDynamicText(keepsake.title) || ""}
-                      className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                      className="w-full h-full object-contain transition-transform duration-300 group-hover:scale-110"
                       loading="lazy"
                     />
                   </div>
@@ -112,17 +112,19 @@ export default function KeepsakesModal({
         close={() => setLightboxOpen(false)}
         slides={lightboxSlides}
         index={lightboxIndex}
+        // ZMIANA TUTAJ: Dodajemy właściwość, aby wyłączyć zapętlanie
+        carousel={{ finite: true }}
         controller={{ closeOnBackdropClick: true }}
         render={{
           slide: ({ slide }) => {
             const customSlide = slide as CustomSlide;
             return (
               <div className="relative w-full h-full">
-                <div className="w-full h-full flex items-center justify-center">
+                <div className="w-full h-full flex items-center justify-center p-4">
                   <img
                     alt={customSlide.customTitle || ""}
                     src={customSlide.src}
-                    className="max-h-[85vh] max-w-[90vw] object-contain"
+                    className="max-h-full max-w-full object-contain"
                   />
                 </div>
                 {(customSlide.customTitle || customSlide.customDescription) && (

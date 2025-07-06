@@ -139,44 +139,43 @@ export default function PersonModal({
   const familyColor =
     person.family === "gierczak" ? "heritage-burgundy" : "heritage-teal";
 
-  // POPRAWKA TUTAJ:
   const birthEvent = person.events?.find((e: Event) => e.type === "birth");
   const deathEvent = person.events?.find((e: Event) => e.type === "death");
 
   return (
     <>
       <Dialog open={isOpen} onOpenChange={onClose}>
-        <DialogContent className="w-[95%] max-w-2xl max-h-[90vh] bg-stone-50 dark:bg-background-alt">
-          <DialogHeader>
-            <DialogTitle className="font-serif text-2xl heritage-text">
-              {person.firstName} {person.lastName}
-              {person.maidenName &&
-                ` (${t("person.maidenName")} ${person.maidenName})`}
-            </DialogTitle>
-            <DialogDescription className={`${familyColor}`}>
-              {familyName}
-            </DialogDescription>
-          </DialogHeader>
+        <TooltipProvider>
+          <DialogContent className="w-[95%] max-w-2xl max-h-[90vh] bg-stone-50 dark:bg-background-alt">
+            <DialogHeader>
+              <DialogTitle className="font-serif text-2xl heritage-text">
+                {person.firstName} {person.lastName}
+                {person.maidenName &&
+                  ` (${t("person.maidenName")} ${person.maidenName})`}
+              </DialogTitle>
+              <DialogDescription className={`${familyColor}`}>
+                {familyName}
+              </DialogDescription>
+            </DialogHeader>
 
-          <ScrollArea className="max-h-[70vh] pr-4">
-            <div className="space-y-6">
-              <div className="flex flex-col md:flex-row gap-6">
-                <div className="md:w-1/3 flex-shrink-0">
-                  <div className="w-48 h-48 bg-stone-200 dark:bg-background rounded-lg mx-auto flex items-center justify-center">
-                    {person.photoUrl ? (
-                      <img
-                        src={person.photoUrl}
-                        alt={`${person.firstName} ${person.lastName}`}
-                        className="w-full h-full rounded-lg object-cover"
-                        loading="lazy"
-                      />
-                    ) : (
-                      <User className="w-16 h-16 text-muted-foreground" />
-                    )}
+            <ScrollArea className="max-h-[70vh] pr-4">
+              <div className="space-y-6">
+                <div className="flex flex-col md:flex-row gap-6">
+                  <div className="md:w-1/3 flex-shrink-0">
+                    <div className="w-48 h-48 bg-stone-200 dark:bg-background rounded-lg mx-auto flex items-center justify-center">
+                      {person.photoUrl ? (
+                        <img
+                          src={person.photoUrl}
+                          alt={`${person.firstName} ${person.lastName}`}
+                          className="w-full h-full rounded-lg object-cover"
+                          loading="lazy"
+                        />
+                      ) : (
+                        <User className="w-16 h-16 text-muted-foreground" />
+                      )}
+                    </div>
                   </div>
-                </div>
-                <div className="md:w-2/3 space-y-4">
-                  <TooltipProvider>
+                  <div className="md:w-2/3 space-y-4">
                     {(person.birthDate ||
                       person.birthDateNote ||
                       person.deathDate) && (
@@ -314,132 +313,134 @@ export default function PersonModal({
                         </div>
                       </div>
                     )}
-                  </TooltipProvider>
 
-                  {(person.birthTime || person.deathTime) && (
-                    <div className="flex items-start space-x-3">
-                      <Clock className="w-4 h-4 text-muted-foreground mt-1" />
-                      <div>
-                        {person.birthTime && (
-                          <p className="heritage-text">
-                            <span className="font-semibold">
-                              {t("person.birthTime")}:
-                            </span>{" "}
-                            {person.birthTime}
-                          </p>
-                        )}
-                        {person.deathTime && (
-                          <p className="heritage-text">
-                            <span className="font-semibold">
-                              {t("person.deathTime")}:
-                            </span>{" "}
-                            {person.deathTime}
-                          </p>
-                        )}
+                    {(person.birthTime || person.deathTime) && (
+                      <div className="flex items-start space-x-3">
+                        <Clock className="w-4 h-4 text-muted-foreground mt-1" />
+                        <div>
+                          {person.birthTime && (
+                            <p className="heritage-text">
+                              <span className="font-semibold">
+                                {t("person.birthTime")}:
+                              </span>{" "}
+                              {person.birthTime}
+                            </p>
+                          )}
+                          {person.deathTime && (
+                            <p className="heritage-text">
+                              <span className="font-semibold">
+                                {t("person.deathTime")}:
+                              </span>{" "}
+                              {person.deathTime}
+                            </p>
+                          )}
+                        </div>
                       </div>
-                    </div>
-                  )}
-                  {person.birthPlace && (
-                    <div className="flex items-center space-x-3">
-                      <MapPin className="w-4 h-4 text-muted-foreground" />
-                      <span className="heritage-text">
-                        {t("person.bornIn")}: {person.birthPlace}
-                      </span>
-                    </div>
-                  )}
-                  {occupationText && (
-                    <div className="flex items-center space-x-3">
-                      <Briefcase className="w-4 h-4 text-muted-foreground" />
-                      <span className="heritage-text">{occupationText}</span>
-                    </div>
-                  )}
-                </div>
-              </div>
-              {biographyText && (
-                <div>
-                  <h4 className="font-semibold heritage-text mb-3 flex items-center">
-                    <User className="w-4 h-4 mr-2" />
-                    {t("person.biography")}
-                  </h4>
-                  <p className="text-muted-foreground leading-relaxed whitespace-pre-wrap">
-                    {biographyText}
-                  </p>
-                </div>
-              )}
-              {hasAnecdotes && (
-                <div>
-                  <h4 className="font-semibold heritage-text mb-3 flex items-center">
-                    <MessageSquareText className="w-4 h-4 mr-2" />
-                    {t("person.anecdotes")}
-                  </h4>
-                  <div className="space-y-4">
-                    {person.anecdotes?.map(
-                      (anecdote: Anecdote, index: number) => (
-                        <blockquote
-                          key={index}
-                          className="border-l-4 border-heritage-gray dark:border-heritage-gold pl-4 italic text-muted-foreground"
-                        >
-                          {renderTextWithLinks(getDynamicText(anecdote) || "")}
-                        </blockquote>
-                      )
+                    )}
+                    {person.birthPlace && (
+                      <div className="flex items-center space-x-3">
+                        <MapPin className="w-4 h-4 text-muted-foreground" />
+                        <span className="heritage-text">
+                          {t("person.bornIn")}: {person.birthPlace}
+                        </span>
+                      </div>
+                    )}
+                    {occupationText && (
+                      <div className="flex items-center space-x-3">
+                        <Briefcase className="w-4 h-4 text-muted-foreground" />
+                        <span className="heritage-text">{occupationText}</span>
+                      </div>
                     )}
                   </div>
                 </div>
-              )}
-              <div>
-                <h4 className="font-semibold heritage-text mb-3 flex items-center">
-                  <Users className="w-4 h-4 mr-2" />
-                  {t("person.family")}
-                </h4>
-                <div className="space-y-4">
-                  {parents.length > 0 && (
-                    <div>
-                      <h5 className="font-medium text-sm heritage-text mb-2">
-                        {t("person.parents")}:
-                      </h5>
-                      <div className="flex flex-wrap gap-2">
-                        {parents.map((p) => (
-                          <Badge
-                            key={p.id}
-                            variant="secondary"
-                            className="cursor-pointer bg-stone-100 dark:bg-card hover:bg-stone-200 dark:hover:bg-border"
-                            onClick={() => onPersonClick(p)}
+                {biographyText && (
+                  <div>
+                    <h4 className="font-semibold heritage-text mb-3 flex items-center">
+                      <User className="w-4 h-4 mr-2" />
+                      {t("person.biography")}
+                    </h4>
+                    <p className="text-muted-foreground leading-relaxed whitespace-pre-wrap">
+                      {biographyText}
+                    </p>
+                  </div>
+                )}
+                {hasAnecdotes && (
+                  <div>
+                    <h4 className="font-semibold heritage-text mb-3 flex items-center">
+                      <MessageSquareText className="w-4 h-4 mr-2" />
+                      {t("person.anecdotes")}
+                    </h4>
+                    <div className="space-y-4">
+                      {person.anecdotes?.map(
+                        (anecdote: Anecdote, index: number) => (
+                          <blockquote
+                            key={index}
+                            className="border-l-4 border-heritage-gray dark:border-heritage-gold pl-4 italic text-muted-foreground"
                           >
-                            {p.firstName} {p.lastName}
-                          </Badge>
-                        ))}
-                      </div>
+                            {renderTextWithLinks(
+                              getDynamicText(anecdote) || ""
+                            )}
+                          </blockquote>
+                        )
+                      )}
                     </div>
-                  )}
+                  </div>
+                )}
+                <div>
+                  <h4 className="font-semibold heritage-text mb-3 flex items-center">
+                    <Users className="w-4 h-4 mr-2" />
+                    {t("person.family")}
+                  </h4>
+                  <div className="space-y-4">
+                    {parents.length > 0 && (
+                      <div>
+                        <h5 className="font-medium text-sm heritage-text mb-2">
+                          {t("person.parents")}:
+                        </h5>
+                        <div className="flex flex-wrap gap-2">
+                          {parents.map((p) => (
+                            <Badge
+                              key={p.id}
+                              variant="secondary"
+                              className="cursor-pointer bg-stone-100 dark:bg-card hover:bg-stone-200 dark:hover:bg-border"
+                              onClick={() => onPersonClick(p)}
+                            >
+                              {p.firstName} {p.lastName}
+                            </Badge>
+                          ))}
+                        </div>
+                      </div>
+                    )}
 
-                  {children.length > 0 && (
-                    <div>
-                      <h5 className="font-medium text-sm heritage-text mb-2">
-                        {t("person.children")}:
-                      </h5>
-                      <div className="flex flex-wrap gap-2">
-                        {children.map((p) => (
-                          <Badge
-                            key={p.id}
-                            variant="secondary"
-                            className="cursor-pointer bg-stone-100 dark:bg-card hover:bg-stone-200 dark:hover:bg-border"
-                            onClick={() => onPersonClick(p)}
-                          >
-                            {p.firstName} {p.lastName}
-                          </Badge>
-                        ))}
+                    {children.length > 0 && (
+                      <div>
+                        <h5 className="font-medium text-sm heritage-text mb-2">
+                          {t("person.children")}:
+                        </h5>
+                        <div className="flex flex-wrap gap-2">
+                          {children.map((p) => (
+                            <Badge
+                              key={p.id}
+                              variant="secondary"
+                              className="cursor-pointer bg-stone-100 dark:bg-card hover:bg-stone-200 dark:hover:bg-border"
+                              onClick={() => onPersonClick(p)}
+                            >
+                              {p.firstName} {p.lastName}
+                            </Badge>
+                          ))}
+                        </div>
                       </div>
-                    </div>
-                  )}
+                    )}
+                  </div>
                 </div>
               </div>
-            </div>
-          </ScrollArea>
-          <DialogClose className="absolute right-4 top-4 rounded-sm opacity-70 ring-offset-background transition-opacity hover:opacity-100 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:pointer-events-none data-[state=open]:bg-accent data-[state=open]:text-muted-foreground">
-            <X className="h-4 w-4" />
-            <span className="sr-only">Close</span>
-          </DialogClose>
-        </DialogContent>
+            </ScrollArea>
+            <DialogClose className="absolute right-4 top-4 rounded-sm opacity-70 ring-offset-background transition-opacity hover:opacity-100 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:pointer-events-none data-[state=open]:bg-accent data-[state=open]:text-muted-foreground">
+              <X className="h-4 w-4" />
+              <span className="sr-only">Close</span>
+            </DialogClose>
+          </DialogContent>
+        </TooltipProvider>
       </Dialog>
       <DocumentModal
         isOpen={documentModalOpen}

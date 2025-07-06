@@ -544,6 +544,19 @@
         "pl": "W izbie babci znajdowały się tradycyjne sprzęty z drewna, takie jak kołowrotek do przędzy, maselnica i prasa do sera. Choć z kołowrotka już nie korzystała, to pozostałe narzędzia były w ciągłym użyciu. Babcia samodzielnie piekła chleb w piecu chlebowym. Jej dom był drewniany, kryty strzechą. Podobno dziadek Józef przywiózł go z innej wsi w częściach i zbudował na nowo. Wewnątrz były dwie izby z drewnianą podłogą, przedsionek, komora i strych.",
         "en": "In Grandma’s room were traditional wooden tools such as a spinning wheel, a butter churn, and a cheese press. Although she no longer used the spinning wheel, the other tools were still in regular use. She baked bread herself in a wood-fired bread oven. Her house was wooden and had a thatched roof. I heard that Grandpa Józef brought it in parts from another village and rebuilt it. Inside were two rooms with wooden floors, a vestibule, a pantry, and an attic."
       }
+    ],
+    "keepsakes": [
+      {
+        "imageUrl": "/images/krucy.avif",
+        "title": {
+          "pl": "Stary metalowy krzyż katolicki vintage",
+          "en": "Old vintage Catholic metal cross"
+        },
+        "description": {
+          "pl": "Obecnie używany podczas Kolędy",
+          "en": "Currently used during the Christmas carol visits"
+        }
+      }
     ]
   },
   {
@@ -1338,7 +1351,7 @@
     "id": 95,
     "firstName": "Józef",
     "lastName": "Ofiara",
-    "birthDate": null,
+    "birthDate": "1926",
     "deathDate": "1927-01-09",
     "photoUrl": null,
     "family": "ofiara",
@@ -1354,7 +1367,7 @@
     "id": 96,
     "firstName": "Andrzej",
     "lastName": "Ofiara",
-    "birthDate": null,
+    "birthDate": "1927",
     "deathDate": "1928-01-07",
     "photoUrl": null,
     "family": "ofiara",
@@ -1370,7 +1383,7 @@
     "id": 97,
     "firstName": "Genowefa",
     "lastName": "Ofiara",
-    "birthDate": null,
+    "birthDate": "1930",
     "deathDate": "1930-08-16",
     "photoUrl": null,
     "family": "ofiara",
