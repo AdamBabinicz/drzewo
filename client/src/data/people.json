@@ -48,6 +48,8 @@
     "firstName": "Franciszek",
     "lastName": "Gierczak",
     "birthDate": "1816-11-24",
+    "birthTime": "7:00",
+    "birthTimeQualifier": "morning",
     "deathDate": null,
     "photoUrl": null,
     "family": "gierczak",
@@ -55,9 +57,19 @@
     "childIds": [],
     "parentIds": [1, 2],
     "biography": {
-      "pl": "Syn Tomasza i Zofii Gierczak.",
-      "en": "Son of Tomasz and Zofia Gierczak."
-    }
+      "pl": "Urodzony 24 listopada 1816 roku we Wrzosie, syn Tomasza Gierczaka (lat 30) i Zofii z Gielów (lat 25).",
+      "en": "Born on November 24, 1816, in Wrzos, son of Tomasz Gierczak (30 years old) and Zofia née Giel (25 years old)."
+    },
+    "events": [
+      {
+        "type": "birth",
+        "date": "1816-11-24",
+        "place": "Wrzos",
+        "source": {
+          "documentId": 111
+        }
+      }
+    ]
   },
   {
     "id": 4,
@@ -65,7 +77,8 @@
     "lastName": "Gierczak",
     "birthDateNote": "1800",
     "deathDate": "1836-01-22",
-    "deathTime": "9:00 rano",
+    "deathTime": "9:00",
+    "deathTimeQualifier": "morning",
     "photoUrl": "/images/ambrozy.avif",
     "family": "gierczak",
     "spouseIds": [8],
@@ -116,7 +129,7 @@
     "id": 6,
     "firstName": "Andrzej",
     "lastName": "Gierczak",
-    "birthDate": null,
+    "birthDate": "1811",
     "deathDate": "1868",
     "photoUrl": null,
     "family": "gierczak",
@@ -126,12 +139,15 @@
     "marriages": [
       {
         "spouseId": 101,
-        "date": "1837"
+        "date": "1837-11-26",
+        "source": {
+          "documentId": 208
+        }
       }
     ],
     "biography": {
-      "pl": "Syn Tomasza i Zofii. Ożenił się w 1837 z Teresą Pączek, której rodzicami byli Jakub i Magdalena. Ślub odbył się w parafii Cerekiew.",
-      "en": "Son of Tomasz and Zofia. He married Teresa Pączek in 1837, whose parents were Jakub and Magdalena. The wedding took place in the Cerekiew parish."
+      "pl": "Syn nieżyjącego Tomasza i Zofii z Gielowskich. W dniu 26 listopada 1837 r. w parafii Cerekiew poślubił Teresę Pączek. W akcie ślubu podano, że miał 26 lat.",
+      "en": "Son of the late Tomasz and Zofia née Gielowska. On November 26, 1837, in the Cerekiew parish, he married Teresa Pączek. The marriage record states he was 26 years old."
     }
   },
   {
@@ -164,7 +180,8 @@
     "firstName": "Karol",
     "lastName": "Gierczak",
     "birthDate": "1828-10-26",
-    "birthTime": "6:00 rano",
+    "birthTime": "6:00",
+    "birthTimeQualifier": "morning",
     "deathDate": "1903-09-29",
     "deathTime": "22:00",
     "photoUrl": "/images/Karol.avif",
@@ -566,7 +583,7 @@
     "maidenName": "Mitak",
     "birthDate": "1892",
     "deathDate": "1925-11-22",
-    "deathTime": "godz. 3:00",
+    "deathTime": "3:00",
     "photoUrl": null,
     "family": "ofiara",
     "spouseIds": [45],
@@ -1431,6 +1448,7 @@
     "firstName": "Teresa",
     "lastName": "Gierczak",
     "maidenName": "Pączek",
+    "birthDate": "1813",
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [6],
@@ -1439,12 +1457,15 @@
     "marriages": [
       {
         "spouseId": 6,
-        "date": "1837"
+        "date": "1837-11-26",
+        "source": {
+          "documentId": 208
+        }
       }
     ],
     "biography": {
-      "pl": "Żona Andrzeja Gierczaka (syna Tomasza). Jej rodzicami byli Jakub i Magdalena.",
-      "en": "Wife of Andrzej Gierczak (son of Tomasz). Her parents were Jakub and Magdalena."
+      "pl": "Żona Andrzeja Gierczaka. Córka nieżyjącego Jakuba i Magdaleny z Kaczorowskich, małżonków Pączek. W akcie ślubu podano, że miała 24 lata.",
+      "en": "Wife of Andrzej Gierczak. Daughter of the late Jakub and Magdalena née Kaczorowska, the married couple Pączek. The marriage record states she was 24 years old."
     }
   },
   {
@@ -1848,7 +1869,7 @@
     ],
     "biography": {
       "pl": "Córka Jana Drużdżela i Marianny z d. Sikora. Jej pierwszym mężem był Michał Mitak, z którym miała czworo dzieci. Po jego śmierci wyszła za mąż za Karola Sobienia, z którym miała sześcioro dzieci, w tym Helenę (babcię autora).",
-      "en": "Daughter of Jan Drużdżel and Marianna née Sikora. Her first husband was Michał Mitak, with whom she had four children. After his death, she married Karol Sobień, with whom she had six children, including Helena (the author's grandmother)."
+      "en": "Daughter of Jan Drużdżel and Marianna née Sikora. Her first husband was Michał Mitak, with whom he had four children. After his death, she married Karol Sobień, with whom he had six children, including Helena (the author's grandmother)."
     }
   },
   {
@@ -1993,7 +2014,8 @@
     "lastName": "Ofiara",
     "family": "ofiara",
     "birthDate": "1833-07-22",
-    "birthTime": "9:00 rano",
+    "birthTime": "9:00",
+    "birthTimeQualifier": "morning",
     "deathDate": "1919-11-22",
     "photoUrl": "/images/jakub.avif",
     "spouseIds": [130],

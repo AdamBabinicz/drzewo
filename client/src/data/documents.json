@@ -180,7 +180,7 @@
     "description_pl": "Parafia Zakrzew, akt nr 6, 1926 r.",
     "description_en": "Zakrzew Parish, record no. 6, 1926.",
     "imageUrl": "/images/k.avif",
-    "transcription": "Działo się w Zakrzewie dnia dziewiątego Lutego tysiąc dziewięćset dwudziestego szóstego roku o godzinie dziesiątej. W obecności dwóch pełnoletnich świadków: Jana Bilskiego i Jana Baćmagi z Gulinka zawarte zostało dzisiaj w tuteyszym kościele parafialnym religijne małżeństwo między: Józefem Ofiarą, wdowcem po Rozalji z Mitaków zmarłej w Gulinku dwudziestego drugiego listopada tysiąc dziewięćset dwudziestego piątego roku, lat dwadzieścia dziewięć mającym, synem Andrzeja i Franciszki z Szaruchów urodzonym w Ludwikowie parafji jankowice a zamieszkałym w Gulinku, a Heleną Sobień, panną lat dwadzieścia jeden mającą, córką Karola i Ewy z Drużdżelów urodzoną i zamieszkałą w Gulinie. Małżeństwo to poprzedziły trzy zapowiedzie ogłoszone w tutejszym parafialnym kościele w niedziele: dwudziestą czwartą, trzydziestą pierwszą stycznia i siódmą lutego bieżącego roku. Dyspensa od zachodzącego powinowactwa została udzielona przez Księdza Biskupa Ryxa w dniu trzydziestogo stycznia bieżącego roku za Nr 12828. Obrzęd religijny dokonany został przez księdza Józefa Saermańskiego proboszcza. Akt ten nowożeńcom i świadkom przeczytany podpisaliśmy.",
+    "transcription": "Działo się w Zakrzewie dnia dziewiątego Lutego tysiąc dziewięćset dwudziestego szóstego roku o godzinie dziesiątej. W obecności dwóch pełnoletnich świadków: Jana Bilskiego i Jana Baćmagi z Gulinka zawarte zostało dzisiaj w tuteyszym kościele parafialnym religijne małżeństwo między: Józefem Ofiarą, wdowcem po Rozalji z Mitaków zmarłej w Gulinku dwudziestego drugiego listopada tysiąc dziewięćset dwudziestego piątego roku, lat dwadzieścia dziewięć mającym, synem Andrzeja i Franciszki z Szaruchów urodzonym w Ludwikowie parafji jankowice a zamieszkałym w Gulinku, a Heleną Sobień, panną lat dwadzieścia jeden mającą, córką Karola i Ewy z Drużdżelów urodzoną i zamieszkałą w Gulinie. Małżeństwo to poprzedziły trzy zapowiedzie ogłoszone w tuteyszym parafialnym kościele w niedziele: dwudziestą czwartą, trzydziestą pierwszą stycznia i siódmą lutego bieżącego roku. Dyspensa od zachodzącego powinowactwa została udzielona przez Księdza Biskupa Ryxa w dniu trzydziestogo stycznia bieżącego roku za Nr 12828. Obrzęd religijny dokonany został przez księdza Józefa Saermańskiego proboszcza. Akt ten nowożeńcom i świadkom przeczytany podpisaliśmy.",
     "translation_pl": "Zdarzyło się w Zakrzewie, dnia 9 lutego 1926 roku, o godzinie dziesiątej. W obecności dwóch pełnoletnich świadków, Jana Bilskiego i Jana Baćmagi z Gulinka, zostało dzisiaj zawarte w tutejszym kościele parafialnym religijne małżeństwo między: Józefem Ofiarą, wdowcem po Rozalii z domu Mitak (zmarłej w Gulinku 22 listopada 1925 roku), mającym 29 lat, synem Andrzeja i Franciszki z domu Szaruch, urodzonym w Ludwikowie (parafia Jankowice), a zamieszkałym w Gulinku, oraz Heleną Sobień, panną, mającą 21 lat, córką Karola i Ewy z domu Drużdżel, urodzoną i zamieszkałą w Gulinie. Małżeństwo to poprzedziły trzy zapowiedzi ogłoszone w tutejszym kościele parafialnym w niedziele: 24 i 31 stycznia oraz 7 lutego bieżącego roku. Dyspensa od zachodzącego powinowactwa została udzielona przez Księdza Biskupa Ryxa dnia 30 stycznia bieżącego roku za numerem 12828. Obrzęd religijny został dokonany przez księdza Józefa Saermańskiego, proboszcza. Akt ten, po przeczytaniu nowożeńcom i świadkom, podpisaliśmy.",
     "translation_en": "It happened in Zakrzew, on February 9, 1926, at ten o'clock. In the presence of two adult witnesses, Jan Bilski and Jan Baćmaga from Gulinek, a religious marriage was contracted today in the local parish church between: Józef Ofiara, a widower after Rozalia née Mitak (who died in Gulinek on November 22, 1925), aged 29, son of Andrzej and Franciszka née Szaruch, born in Ludwików (Jankowice parish) and residing in Gulinek, and Helena Sobień, a maiden, aged 21, daughter of Karol and Ewa née Drużdżel, born and residing in Gulinek. This marriage was preceded by three banns announced in the local parish church on the Sundays of January 24 and 31, and February 7 of the current year. A dispensation from the impediment of affinity was granted by Bishop Ryx on January 30 of the current year under number 12828. The religious ceremony was performed by Father Józef Saermański, the parish priest. This act, having been read to the newlyweds and witnesses, we signed.",
     "extracted_data": [
@@ -377,6 +377,38 @@
     ]
   },
   {
+    "id": 111,
+    "title_pl": "Akt Urodzenia: Franciszek Gierczak (1816)",
+    "title_en": "Birth Record: Franciszek Gierczak (1816)",
+    "type": "birth_record",
+    "description_pl": "Parafia Wrzos, akt nr 16, 1816 r.",
+    "description_en": "Wrzos Parish, record no. 16, 1816.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Roku Tysiącznego Ośmsetnego Szesnastego Dnia Dwudziestego Czwartego Miesiąca Listopada o Godzinie Drugiey po Południu. Przed Nami Proboszczem Wrzoskim Urzędnikiem Cywilnym Gminy Wrzoskiey, Obwodu Radomskiego Województwa Sandomierskiego. Stawił się Tomasz Gierczak, Wyrobnik we Wrzosie zamieszkały, liczący sobie Lat Trzydzieści, w przytomności Andrzeja Gielowskiego liczącego sobie Lat Dwadzieścia Ośm, i Stanisława Zielonego maiącego lat Czterdzieści, obydwóch we Wrzosie zamieszkałych. I okazał Nam Dziecię Płci Męskiey, ktore urodziło się w Domu pod Numerem Dwudziestym Czwartym na Dniu Dwudziestym Czwartym Miesiąca Listopada, to iest Dziś o Godzinie Siódmey z rana, z niego y z Zofii z Gielow jego małżonki, liczącey sobie Lat Dwadzieścia Pięć. Oświadczaiąc iż życzeniem Jego iest nadać Mu Imię Franciszek. Po uczynieniu powyższego oświadczenia i Okazania Dziecięcia w przytomności powyżey wymienionych Świadkow, Akt ninieyszy został Stawaiącym przeczytany, y przez Nas samych podpisany, bo wyżey rzeczeni w Akcie pisać nieumieią. Xiądz Konstanty Gierczewski Urzędnik Cywilny Gminy i Parafii Wrzoskiey.",
+    "translation_pl": "Dnia dwudziestego czwartego listopada tysiąc osiemset szesnastego roku, o godzinie drugiej po południu, we Wrzosie. Przed proboszczem wrzosowskim, urzędnikiem cywilnym gminy Wrzos, w obwodzie radomskim województwa sandomierskiego, stawił się Tomasz Gierczak, robotnik rolny zamieszkały we Wrzosie, lat 30, w obecności Andrzeja Gielowskiego, lat 28, i Stanisława Zielonego, lat 40, obydwóch zamieszkałych we Wrzosie. Okazał nam dziecko płci męskiej, które urodziło się w domu pod numerem 24, dnia 24 listopada, czyli dzisiaj, o godzinie siódmej rano, z niego i z jego żony Zofii z domu Gielów, lat 25. Oświadczył przy tym, że jego życzeniem jest nadać mu imię Franciszek. Po złożeniu powyższego oświadczenia i okazaniu dziecka w obecności wyżej wymienionych świadków, niniejszy akt został stawiającemu odczytany i, ponieważ wyżej wymienieni nie umieją pisać, podpisany tylko przez nas samych.",
+    "translation_en": "On the twenty-fourth day of November, in the year one thousand eight hundred and sixteen, at two o'clock in the afternoon, in Wrzos. Before the pastor of Wrzos, a civil registrar of the Wrzos commune, in the Radom district of the Sandomierz voivodeship, appeared Tomasz Gierczak, a farm laborer residing in Wrzos, aged 30, in the presence of Andrzej Gielowski, aged 28, and Stanisław Zielony, aged 40, both residing in Wrzos. He presented to us a male child, born in the house at number 24, on the 24th day of November, that is today, at seven o'clock in the morning, of him and his wife Zofia née Giel, aged 25. He declared that it is his wish to give him the name Franciszek. After the above declaration was made and the child was presented in the presence of the aforementioned witnesses, this act was read to the appearing party, and because the above-mentioned persons cannot write, it was signed only by us.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Tomasz Gierczak, 30 lat",
+        "value_en": "Tomasz Gierczak, 30 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Zofia z Gielów, 25 lat",
+        "value_en": "Zofia née Giel, 25 years old"
+      },
+      {
+        "label_pl": "Świadkowie",
+        "label_en": "Witnesses",
+        "value_pl": "Andrzej Gielowski, Stanisław Zielony",
+        "value_en": "Andrzej Gielowski, Stanisław Zielony"
+      }
+    ]
+  },
+  {
     "id": 201,
     "title_pl": "Akt Urodzenia: Karol Sobień (1894)",
     "title_en": "Birth Record: Karol Sobień (1894)",
@@ -417,7 +449,7 @@
     "description_en": "Zakrzew (Zakrzów) Parish, record no. 4, 1905.",
     "imageUrl": "/images/k.avif",
     "transcription": "Состоялось въ деревнѣ Закшевѣ двадцать седьмого Декабря тысяча девятьсотъ четвертого года (девятого Января тысяча девятьсотъ пятаго года) въ девять часовъ утра. Явился Карoль Собенъ, сорока трехъ лѣтъ отъ роду, земледелецъ, житель деревни Гулинекъ, въ присутствіи Яна Ковальчика сорока восьми, и Яна Чмура сорока трехъ лѣтъ отъ роду, обоихъ земледельцевъ изъ деревни Гулинекъ, и предъявилъ намъ младенца женскаго пола, объявляя, что онъ родился въ деревнѣ Гулинекъ двадцать седьмого Декабря (девятого Января) сего года въ шесть часовъ утра, отъ jego законной жены Евы урожденной Дружджель, тридцати восьми лѣтъ отъ роду. Младенцу сему при святомъ крещеніи совершенномъ сего числа дано имя Хелена, а воспріемниками ея были: Янъ Ковальчикъ и Маріанна Митакъ. Этотъ актъ объявляющему и свидѣтелямъ неграмотнымъ прочитанъ, Нами только подписанъ.",
-    "translation_pl": "Działo się we wsi Zakrzew, dwudziestego siódmego grudnia tysiąc dziewięćset czwartego roku (dziewiątego stycznia tysiąc dziewięćset piątego roku), o godzinie dziewiątej rano. Stawił się Karol Sobień, lat czterdzieści trzy, rolnik, mieszkaniec wsi Gulinek, w obecności Jana Kowalczyka, lat czterdzieści osiem, i Jana Czmura, lat czterdzieści trzy, obu rolników ze wsi Gulinek, i okazał nam niemowlę płci żeńskiej, oświadczając, że urodziło się ono we wsi Gulinek dwudziestego siódmego grudnia (dziewiątego stycznia) bieżącego roku o godzinie szóstej rano, z jego prawowitej żony Ewy z domu Drużdżel, lat trzydzieści osiem. Niemowlęciu temu przy chrzcie świętym, który odbył się dzisiaj, nadano imię Helena, a jego rodzicami chrzestnymi byli: Jan Kowalczyk i Marianna Mitak. Akt ten oświadczającemu i świadkom, którzy są niepiśmienni, został przeczytany i tylko przez nas podpisany.",
+    "translation_pl": "Działo się we wsi Zakrzew, dwudziestego siódmego grudnia tysiąc dziewięćset czwartego roku (dziewiątego stycznia tysiąc dziewięćset piątego roku), o godzinie dziewiątej rano. Stawił się Karol Sobień, lat czterdzieści trzy, rolnik, mieszkaniec wsi Gulinek, w obecności Jana Kowalczyka, lat czterdzieści osiem, i Jana Czmura, lat czterdzieści trzy, obu rolników ze wsi Gulinek, i okazał nam niemowlę płci żeńskiej, oświadczając, że urodziło się ono we wsi Gulinek dwudziestego siódmego grudnia (dziewiątego stycznia) bieżącego roku o godzinie szóstej rano, z jego prawowitej żony Ewy z domu Drużdżel, lat trzydzieści osiem. Niemowlęciu temu przy chrzcie świętym, który odbył się dzisiaj, nadano imię Helena, a jej rodzicami chrzestnymi byli: Jan Kowalczyk i Marianna Mitak. Akt ten oświadczającemu i świadkom, którzy są niepiśmienni, został przeczytany i tylko przez nas podpisany.",
     "translation_en": "It happened in the village of Zakrzew, on the twenty-seventh of December, nineteen hundred and four (ninth of January, nineteen hundred and five), at nine o'clock in the morning. Appeared Karol Sobień, forty-three years old, a farmer, resident of the village of Gulinek, in the presence of Jan Kowalczyk, forty-eight years old, and Jan Czmura, forty-three years old, both farmers from the village of Gulinek, and he presented to us a female infant, declaring that she was born in the village of Gulinek on the twenty-seventh of December (ninth of January) of the current year at six o'clock in the morning, to his lawful wife Ewa née Drużdżel, thirty-eight years old. At the holy baptism performed this day, this infant was given the name Helena, and her godparents were: Jan Kowalczyk and Marianna Mitak. This act was read to the declarant and the illiterate witnesses, and signed only by us.",
     "extracted_data": [
       {
@@ -488,20 +520,20 @@
     "id": 205,
     "imageUrl": "/images/k.avif",
     "transcription": "Состоялось въ деревнѣ Закшевѣ двадцатого Іюня (второго Іюля) тысяча восемьсотъ девяносто пятаго года въ одинадцать часовъ утра. Объявляемъ, что въ присутствіи свидѣтелей Яна Ковальчика сорока восьми и Матеуша Коперскаго тридцати пяти лѣтъ отъ роду, земледельцевъ изъ деревни Гулинекъ, заключенъ въ этотъ день религіозный обрядъ бракосочетанія между Карoломъ Собеномъ, вдовцомъ по умершей Евѣ урожденной Митакъ, двадцати двухъ лѣтъ отъ роду, сыномъ покойныхъ Мартина и Агнешки урожденной Ягелло, земледельцевъ супруговъ, родившимся и проживающимъ въ деревнѣ Гулинекъ, и Евою урожденною Дружджель, вдовою по умершемъ Михаилѣ Митакѣ, тридцати лѣтъ отъ роду, дочерью покойныхъ Яна и Маріанны урожденной Сикора супруговъ, родившеюся въ деревнѣ Гулинекъ и тамъ же проживающею. Бракосочетанію этому предшествовали три оглашенія. Новобрачные объявили, что брачнаго договора они между собою не заключали. Религіозный обрядъ совершенъ ксендзомъ Адамомъ Косиньскимъ. Этотъ актъ присутствующимъ и новобрачнымъ неграмотнымъ прочитанъ, нами только подписанъ.",
-    "translation_pl": "Działo się we wsi Zakrzew, dzisiątego października tysiąc osiemset dziewięćdziesiątego czwartego roku, o godzinie jedenastej rano. Oświadczamy, że w obecności świadków Jana Kowalczyka, lat czterdzieści osiem, i Mateusza Koperskiego, lat trzydzieści pięć, rolników ze wsi Gulinek, zawarty został dzisiaj religijny obrzęd zawarcia małżeństwa między Karolem Sobieniem, mającym dwadzieścia trzy lata, synem zmarłych Marcina i Agnieszki z domu Jagieło, małżonków-rolników, urodzonym i zamieszkałym we wsi Gulinek, a Ewą z domu Drużdżel, wdową po zmarłym Michale Mitaku, mającą dwadzieścia dziewięć lat, córką zmarłych Jana i Marianny z domu Sikora, małżonków, urodzoną we wsi Gulinek i tamże zamieszkałą. Małżeństwo to poprzedziły trzy zapowiedzi. Nowożeńcy oświadczyli, że nie zawarli między sobą umowy przedślubnej. Obrzęd religijny został dokonany przez księdza Adama Kosińskiego. Akt ten obecnym i nowożeńcom, którzy są niepiśmienni, został przeczytany i tylko przez nas podpisany.",
-    "translation_en": "It took place in the village of Zakrzew, on the tenth day of October, eighteen ninety-four, at eleven o’clock in the morning. We declare that, in the presence of witnesses Jan Kowalczyk, aged forty-eight, and Mateusz Koperski, aged thirty-five, both farmers from the village of Gulinek, the religious rite of marriage was performed today between Karol Sobień, twenty-three years old, son of the deceased Marcin and Agnieszka née Jagieło, married farmers, born and residing in the village of Gulinek, and Ewa née Drużdżel, widow of the late Michał Mitak, twenty-nine years old, daughter of the deceased Jan and Marianna née Sikora, born and residing in the village of Gulinek. This marriage was preceded by three banns. The newlyweds declared that they had not entered into a prenuptial agreement. The religious ceremony was performed by priest Adam Kosiński. This act, having been read aloud to those present and to the newlyweds, who are illiterate, was signed only by us.",
+    "translation_pl": "Działo się we wsi Zakrzew, dwudziestego czerwca (drugiego lipca) tysiąc osiemset dziewięćdziesiątego piątego roku o godzinie jedenastej rano. Oświadczamy, że w obecności świadków Jana Kowalczyka, lat czterdzieści osiem, i Mateusza Koperskiego, lat trzydzieści pięć, rolników ze wsi Gulinek, zawarty został dzisiaj religijny obrzęd zawarcia małżeństwa między Karolem Sobieniem, wdowcem po zmarłej Ewie z domu Mitak, mającym dwadzieścia dwa lata, synem zmarłych Marcina i Agnieszki z domu Jagieło, małżonków-rolników, urodzonym i zamieszkałym we wsi Gulinek, a Ewą z domu Drużdżel, wdową po zmarłym Michale Mitaku, mającą trzydzieści lat, córką zmarłych Jana i Marianny z domu Sikora, małżonków, urodzoną we wsi Gulinek i tamże zamieszkałą. Małżeństwo to poprzedziły trzy zapowiedzi. Nowożeńcy oświadczyli, że nie zawarli między sobą umowy przedślubnej. Obrzęd religijny został dokonany przez księdza Adama Kosińskiego. Akt ten obecnym i nowożeńcom, którzy są niepiśmienni, został przeczytany i tylko przez nas podpisany.",
+    "translation_en": "It took place in the village of Zakrzew, on the twentieth of June (second of July), eighteen ninety-five, at eleven o’clock in the morning. We declare that, in the presence of witnesses Jan Kowalczyk, aged forty-eight, and Mateusz Koperski, aged thirty-five, both farmers from the village of Gulinek, the religious rite of marriage was performed today between Karol Sobień, widower of the late Ewa née Mitak, twenty-two years old, son of the deceased Marcin and Agnieszka née Jagieło, married farmers, born and residing in the village of Gulinek, and Ewa née Drużdżel, widow of the late Michał Mitak, thirty years old, daughter of the deceased Jan and Marianna née Sikora, born and residing in the village of Gulinek. This marriage was preceded by three banns. The newlyweds declared that they had not entered into a prenuptial agreement. The religious ceremony was performed by priest Adam Kosiński. This act, having been read aloud to those present and to the newlyweds, who are illiterate, was signed only by us.",
     "extracted_data": [
       {
         "label_pl": "Pan Młody",
         "label_en": "Groom",
-        "value_pl": "Karol Sobień, 23 lata",
-        "value_en": "Karol Sobień, 23 years old"
+        "value_pl": "Karol Sobień, 22 lata, wdowiec",
+        "value_en": "Karol Sobień, 22 years old, widower"
       },
       {
         "label_pl": "Panna Młoda",
         "label_en": "Bride",
-        "value_pl": "Ewa z Drużdżelów (wdowa po Michale Mitaku), 29 lat",
-        "value_en": "Ewa née Drużdżel (widow of Michał Mitak), 29 years old"
+        "value_pl": "Ewa z Drużdżelów (wdowa po Michale Mitaku), 30 lat",
+        "value_en": "Ewa née Drużdżel (widow of Michał Mitak), 30 years old"
       },
       {
         "label_pl": "Rodzice Pana Młodego",
@@ -596,6 +628,82 @@
         "label_en": "Witnesses",
         "value_pl": "Kazimierz Drużdżel i Jan Bilski",
         "value_en": "Kazimierz Drużdżel and Jan Bilski"
+      }
+    ]
+  },
+  {
+    "id": 208,
+    "title_pl": "Akt Ślubu: Andrzej Gierczak i Teresa Pączek (1837)",
+    "title_en": "Marriage Record: Andrzej Gierczak & Teresa Pączek (1837)",
+    "type": "marriage_record",
+    "description_pl": "Parafia Cerekiew, akt nr 21, 1837 r.",
+    "description_en": "Cerekiew Parish, record no. 21, 1837.",
+    "imageUrl": "/images/akt-slubu-andrzej-teresa.jpg",
+    "transcription": "Roku Tysiąc Ośmset Trzydziestego Siódmego, Dnia Dwudziestego Szóstego Listopada o godzinie trzeciey z południa, w Parafii Cerekiewskiey. Wiadomo czyniemy, iż w przytomności Świadkow niżej wymienionych, zawarte zostało Religiyne Małżeństwo między: Urodzonym Andrzejem Gierczakiem Kawalerem Wyrobnikiem z Jaszowic, w Parafii Cerekiewskiey zamieszkałym, lat dwadzieścia sześć maiącym, synem niegdyś Tomasza i żyiącey Zofii z Gielowskich Małżonkow Gierczaków, z iedney, a Urodzoną Teresą Pączkówną Panną Służącą, we wsi Jaszowicach zamieszkałą, lat dwadzieścia cztery maiącą, córką niegdyś Jakuba i żyiącey Magdaleny z Kaczorowskich Małżonkow Pączków, z drugiey strony. Małżeństwu temu poprzedziły trzy Zapowiedzi w dniach Piątym, Dwunastym i Dziewiętnastym miesiąca Listopada Roku bieżącego w Tuteyszym Parafialnym Kościele ogłoszone; Nowożeńcy oświadczyli, iż żadna tamuiąca zawarciu tegoż Małżeństwa nie zaszła przeszkoda, Rodzice na zawarcie tegoż Małżeństwa zezwolili. Nowożeńcy zatem oświadczyli iż zawieraią węzeł Małżeński, a ja dopełniwszy Obrzędu Religiynego pobłogosławiłem ich związek Małżeński. Stawili się Świadkowie: Mikołaj Remiszewski Gospodarz z Jaszowic lat pięćdziesiąt sześć, i Łukasz Górniak Gospodarz z Jaszowic lat pięćdziesiąt trzy maiący. Akt ten Stawaiącym i Świadkom przeczytany, pisać nieumieiącym, podpisany został. X. Kłobossowski Proboszcz Parafii Cerekiewskiey",
+    "translation_pl": "Dnia dwudziestego szóstego listopada tysiąc osiemset trzydziestego siódmego roku, o godzinie trzeciej po południu, w parafii Cerekiew. Podajemy do wiadomości, że w obecności niżej wymienionych świadków zawarte zostało religijne małżeństwo pomiędzy: Andrzejem Gierczakiem, kawalerem, robotnikiem rolnym z Jaszowic, w parafii Cerekiew zamieszkałym, liczącym dwadzieścia sześć lat, synem zmarłego Tomasza i żyjącej Zofii z domu Gielowskiej, małżonków Gierczaków, z jednej strony, a Teresą Pączek, panną, służącą, we wsi Jaszowice zamieszkałą, liczącą dwadzieścia cztery lata, córką zmarłego Jakuba i żyjącej Magdaleny z domu Kaczorowskiej, małżonków Pączków, z drugiej strony. Małżeństwo to poprzedziły trzy zapowiedzi, ogłoszone w dniach piątym, dwunastym i dziewiętnastym listopada bieżącego roku w tutejszym kościele parafialnym. Nowożeńcy oświadczyli, że nie zaszła żadna przeszkoda uniemożliwiająca zawarcie tego małżeństwa, a rodzice wyrazili zgodę na jego zawarcie. Następnie nowożeńcy oświadczyli, że zawierają związek małżeński, a ja, dopełniwszy obrzędu religijnego, pobłogosławiłem ich związek małżeński. Stawili się świadkowie: Mikołaj Remiszewski, gospodarz z Jaszowic, lat pięćdziesiąt sześć, i Łukasz Górniak, gospodarz z Jaszowic, lat pięćdziesiąt trzy. Akt ten został stawającym i świadkom przeczytany, a ponieważ byli niepiśmienni, został podpisany [tylko przez kapłana]. Ks. Kłobossowski, proboszcz parafii Cerekiew.",
+    "translation_en": "On the twenty-sixth day of November, one thousand eight hundred and thirty-seven, at three o'clock in the afternoon, in the Cerekiew parish. We make it known that in the presence of the witnesses mentioned below, a religious marriage was contracted between: Andrzej Gierczak, a bachelor, farm laborer from Jaszowice, residing in the Cerekiew parish, aged twenty-six, son of the late Tomasz and the living Zofia née Gielowska, the married couple Gierczak, of the one part, and Teresa Pączek, a maiden, servant, residing in the village of Jaszowice, aged twenty-four, daughter of the late Jakub and the living Magdalena née Kaczorowska, the married couple Pączek, of the other part. This marriage was preceded by three banns, announced on the fifth, twelfth, and nineteenth days of November of the current year in the local parish church. The newlyweds declared that no impediment preventing the solemnization of this marriage had arisen, and the parents consented to its contraction. Subsequently, the newlyweds declared they were entering into the bond of matrimony, and I, having performed the religious rite, blessed their marital union. The witnesses present were: Mikołaj Remiszewski, a farmer from Jaszowice, aged fifty-six, and Łukasz Górniak, a farmer from Jaszowice, aged fifty-three. This act was read aloud to the appearing parties and the witnesses, and as they were illiterate, it was signed [only by the priest]. Fr. Kłobossowski, Pastor of the Cerekiew Parish.",
+    "extracted_data": [
+      {
+        "label_pl": "Pan Młody",
+        "label_en": "Groom",
+        "value_pl": "Andrzej Gierczak, 26 lat, kawaler",
+        "value_en": "Andrzej Gierczak, 26 years old, bachelor"
+      },
+      {
+        "label_pl": "Panna Młoda",
+        "label_en": "Bride",
+        "value_pl": "Teresa Pączek (Pączkówna), 24 lata, panna",
+        "value_en": "Teresa Pączek (Pączkówna), 24 years old, maiden"
+      },
+      {
+        "label_pl": "Rodzice Pana Młodego",
+        "label_en": "Groom's Parents",
+        "value_pl": "Tomasz (zm.) i Zofia z Gielowskich",
+        "value_en": "Tomasz (dec.) and Zofia née Gielowska"
+      },
+      {
+        "label_pl": "Rodzice Panny Młodej",
+        "label_en": "Bride's Parents",
+        "value_pl": "Jakub (zm.) i Magdalena z Kaczorowskich",
+        "value_en": "Jakub (dec.) and Magdalena née Kaczorowska"
+      },
+      {
+        "label_pl": "Świadkowie",
+        "label_en": "Witnesses",
+        "value_pl": "Mikołaj Remiszewski (56 lat), Łukasz Górniak (53 lata)",
+        "value_en": "Mikołaj Remiszewski (56), Łukasz Górniak (53)"
+      }
+    ]
+  },
+  {
+    "id": 209,
+    "title_pl": "Akt Urodzenia: Franciszek Gierczak (1818)",
+    "title_en": "Birth Record: Franciszek Gierczak (1818)",
+    "type": "birth_record",
+    "description_pl": "Parafia Wrzos, akt nr 44, 1818 r.",
+    "description_en": "Wrzos Parish, record no. 44, 1818.",
+    "imageUrl": "/images/akt-urodzenia-franciszek-gierczak-1818.jpg",
+    "transcription": "Roku Tysiącznego Ośmsetnego Ośmnastego Dnia Dwudziestego ósmego Miesiąca Sierpnia o godzinie dziesiątey przed południem, przed Nami Proboszczem Wrzoskim Urzędnikiem Cywilnym Gminy Wrzoskiey Obwodu Radomskiego Województwa Sandomierskiego. Stawił się Andrzej Gielowski Gierczak na gospodarstwie w Bystrołce zamieszkały, liczący sobie Lat Dwadzieścia Ośm, w przytomności Macieja Gierczaka liczącego sobie Lat Dwadzieścia dwa, i Franciszka Burdy maiącego lat Dwadzieścia Cztery w Ostrołęce zamieszkałych, i okazał nam Dziecię Płci Męskiey, ktore urodziło się w Domu pod Numerem Dwunastym na dniu tym i Roku o Godzinie Drugiey z rana, z niego y z Małgorzaty z Wrzesińskich jego małżonki. Oświadczaiąc iż życzeniem Jego iest nadać mu Imię Franciszek. Po uczynieniu powyższego oświadczenia i Okazania Dziecięcia w przytomności Jędrzeja Gielowskiego liczącego sobie Lat trzydzieści ieden w Ostrołęce zamieszkałego, Akt ninieyszy został Stawaiącym przeczytany, y przez Nas samych podpisany, bo wyżey rzeczeni w Akcie pisać nieumieią. Xiądz Konstanty Gierczewski Urzędnik Cywilny Gminy i Parafii Wrzoskiey",
+    "translation_pl": "Dnia dwudziestego ósmego sierpnia tysiąc osiemset osiemnastego roku, o godzinie dziesiątej przed południem, przed nami, proboszczem wrzosowskim, urzędnikiem cywilnym gminy Wrzos w obwodzie radomskim województwa sandomierskiego. Stawił się Andrzej Gielowski Gierczak, zamieszkały na gospodarstwie w Bystrołce, lat 28, w obecności Macieja Gierczaka, lat 22, i Franciszka Burdy, lat 24, zamieszkałych w Ostrołęce. Okazał nam dziecko płci męskiej, które urodziło się w domu pod numerem dwunastym, w dniu dzisiejszym o godzinie drugiej rano, z niego i z jego żony Małgorzaty z domu Wrzesińskiej. Oświadczył przy tym, że jego życzeniem jest nadać mu imię Franciszek. Po złożeniu powyższego oświadczenia i okazaniu dziecka w obecności Jędrzeja Gielowskiego, lat 31, zamieszkałego w Ostrołęce, niniejszy akt został stawiającemu odczytany i, ponieważ wyżej wymienieni nie umieją pisać, podpisany tylko przez nas samych.",
+    "translation_en": "On the twenty-eighth day of August, in the year one thousand eight hundred and eighteen, at ten o'clock in the forenoon, before us, the Pastor of Wrzos, Civil Registrar of the Wrzos Commune, Radom District of the Sandomierz Voivodeship. Appeared Andrzej Gielowski Gierczak, residing on a farm in Bystrołka, aged 28, in the presence of Maciej Gierczak, aged 22, and Franciszek Burda, aged 24, both residing in Ostrołęka. He presented to us a male child, born in the house at number twelve on this day and year at two o'clock in the morning, of him and his wife Małgorzata née Wrzesińska. He declared that it is his wish to give him the name Franciszek. After the above declaration was made and the child was presented in the presence of Jędrzej Gielowski, aged 31, residing in Ostrołęka, this act was read to the appearing party, and because the aforementioned persons cannot write, it was signed only by us.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Andrzej Gielowski Gierczak, 28 lat",
+        "value_en": "Andrzej Gielowski Gierczak, 28 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Małgorzata z Wrzesińskich",
+        "value_en": "Małgorzata née Wrzesińska"
+      },
+      {
+        "label_pl": "Świadkowie",
+        "label_en": "Witnesses",
+        "value_pl": "Maciej Gierczak (22), Franciszek Burda (24), Jędrzej Gielowski (31)",
+        "value_en": "Maciej Gierczak (22), Franciszek Burda (24), Jędrzej Gielowski (31)"
       }
     ]
   }
