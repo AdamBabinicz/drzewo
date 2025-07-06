@@ -122,6 +122,25 @@ export default function PersonModal({
     return field;
   };
 
+  const formatTimeWithContext = (timeString: string | null | undefined) => {
+    if (!timeString) return timeString;
+
+    if (timeString.toLowerCase().includes("rano")) {
+      const timePart = timeString.replace(/rano/gi, "").trim();
+      return `${timePart} ${t("time.morning")}`.trim();
+    }
+
+    const timeMatch = timeString.match(/^(\d{1,2}):(\d{2})$/);
+    if (timeMatch) {
+      const hour = parseInt(timeMatch[1], 10);
+      if (hour < 12) {
+        return `${timeString} ${t("time.morning")}`;
+      }
+    }
+
+    return timeString;
+  };
+
   const occupationText = getDynamicText(person.occupation);
   const biographyText = getDynamicText(person.biography);
   const hasAnecdotes = person.anecdotes && person.anecdotes.length > 0;
@@ -323,7 +342,7 @@ export default function PersonModal({
                               <span className="font-semibold">
                                 {t("person.birthTime")}:
                               </span>{" "}
-                              {person.birthTime}
+                              {formatTimeWithContext(person.birthTime)}
                             </p>
                           )}
                           {person.deathTime && (
@@ -331,7 +350,7 @@ export default function PersonModal({
                               <span className="font-semibold">
                                 {t("person.deathTime")}:
                               </span>{" "}
-                              {person.deathTime}
+                              {formatTimeWithContext(person.deathTime)}
                             </p>
                           )}
                         </div>
