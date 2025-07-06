@@ -3,12 +3,16 @@
     "id": 1,
     "firstName": "Tomasz",
     "lastName": "Gerczak vel Gierczak",
-    "birthDate": null,
+    "birthDateNote": "ok. 1786",
     "photoUrl": "/images/tomasz.avif",
     "family": "gierczak",
     "spouseIds": [2],
     "childIds": [3, 4, 5, 6],
     "parentIds": [],
+    "occupation": {
+      "pl": "Robotnik rolny",
+      "en": "Agricultural worker"
+    },
     "marriages": [
       {
         "spouseId": 2,
@@ -25,7 +29,7 @@
     "firstName": "Zofia",
     "lastName": "Gierczak",
     "maidenName": "Giel vel Gielowska",
-    "birthDate": null,
+    "birthDateNote": "ok. 1791",
     "deathDate": null,
     "photoUrl": null,
     "family": "gierczak",
