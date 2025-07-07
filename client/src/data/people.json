@@ -3,7 +3,7 @@
     "id": 1,
     "firstName": "Tomasz",
     "lastName": "Gerczak vel Gierczak",
-    "birthDateNote": "ok. 1786",
+    "birthDateNote": "1786",
     "photoUrl": "/images/tomasz.avif",
     "family": "gierczak",
     "spouseIds": [2],
@@ -29,7 +29,7 @@
     "firstName": "Zofia",
     "lastName": "Gierczak",
     "maidenName": "Giel vel Gielowska",
-    "birthDateNote": "ok. 1791",
+    "birthDateNote": "1791",
     "deathDate": null,
     "photoUrl": null,
     "family": "gierczak",
@@ -458,23 +458,23 @@
       {
         "imageUrl": "/images/sw1.avif",
         "title": {
-          "pl": "Oryginalny dokument szkolny mojej mamy z czasów II wojny światowej, wystawiony w Generalnym Gubernatorstwie",
-          "en": "The original school document of my mother from the time of World War II, issued in the General Government."
+          "pl": "Świadectwo szkolne (klasa IV, 1941/42)",
+          "en": "School certificate (Grade IV, 1941/42)"
         },
         "description": {
-          "pl": "Klasa IV rok szkolny 1941/42",
-          "en": "Grade IV, school year 1941/42"
+          "pl": "Oryginalny dokument szkolny mojej mamy z czasów II wojny światowej, wystawiony w Generalnym Gubernatorstwie dla klasy IV.",
+          "en": "The original school document of my mother from World War II, issued in the General Government for Grade IV."
         }
       },
       {
         "imageUrl": "/images/sw2.avif",
         "title": {
-          "pl": "Oryginalny dokument szkolny mojej mamy z czasów II wojny światowej, wystawiony w Generalnym Gubernatorstwie",
-          "en": "The original school document of my mother from the time of World War II, issued in the General Government."
+          "pl": "Świadectwo szkolne (klasa V, 1942/43)",
+          "en": "School certificate (Grade V, 1942/43)"
         },
         "description": {
-          "pl": "Klasa V rok szkolny 1942/43",
-          "en": "Grade V, school year 1942/43"
+          "pl": "Oryginalny dokument szkolny mojej mamy z czasów II wojny światowej, wystawiony w Generalnym Gubernatorstwie dla klasy V.",
+          "en": "The original school document of my mother from World War II, issued in the General Government for Grade V."
         }
       }
     ]
@@ -1825,7 +1825,7 @@
     "id": 119,
     "firstName": "Karol",
     "lastName": "Sobień",
-    "birthDateNote": "ok. 1873",
+    "birthDateNote": "1873",
     "family": "ofiara",
     "spouseIds": [120],
     "childIds": [114, 115, 116, 46, 117, 118],
@@ -1849,7 +1849,7 @@
     "firstName": "Ewa",
     "lastName": "Sobień",
     "maidenName": "Drużdżel",
-    "birthDateNote": "ok. 1865",
+    "birthDateNote": "1865",
     "photoUrl": null,
     "family": "ofiara",
     "spouseIds": [121, 119],
@@ -1880,7 +1880,7 @@
     "id": 121,
     "firstName": "Michał",
     "lastName": "Mitak",
-    "birthDateNote": "ok. 1849",
+    "birthDateNote": "1849",
     "deathDate": "przed 1895",
     "photoUrl": null,
     "family": "ofiara",
@@ -2074,7 +2074,7 @@
     "id": 131,
     "firstName": "Zofia",
     "lastName": "Ofiara",
-    "birthDateNote": "ok. 1863",
+    "birthDateNote": "1863",
     "deathDate": "1872",
     "family": "ofiara",
     "spouseIds": [],
@@ -2190,7 +2190,7 @@
     "id": 139,
     "firstName": "Marcin",
     "lastName": "Sobień",
-    "birthDateNote": "ok. 1844",
+    "birthDateNote": "1844",
     "deathDate": null,
     "photoUrl": null,
     "family": "ofiara",

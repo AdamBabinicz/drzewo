@@ -15,9 +15,8 @@ const sortByBirthDate = (a: Person, b: Person): number => {
         return parseInt(yearStr);
       }
     }
-    // 2. Jeśli nie ma precyzyjnej daty, sprawdź notatkę
+
     if (p.birthDateNote) {
-      // Wyszukaj pierwszą 4-cyfrową liczbę w tekście (np. "1800" w "ok. 1800")
       const match = p.birthDateNote.match(/\d{4}/);
       if (match && match[0]) {
         return parseInt(match[0]);
