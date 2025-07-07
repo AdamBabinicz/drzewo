@@ -1,11 +1,9 @@
 import { useState } from "react";
 import Lightbox, { type Slide } from "yet-another-react-lightbox";
-// 1. IMPORTUJ WTYCZKI
 import Captions from "yet-another-react-lightbox/plugins/captions";
 import Fullscreen from "yet-another-react-lightbox/plugins/fullscreen";
 import Zoom from "yet-another-react-lightbox/plugins/zoom";
 
-// 2. IMPORTUJ STYLE DLA LIGHTBOXA I WTYCZEK
 import "yet-another-react-lightbox/styles.css";
 import "yet-another-react-lightbox/plugins/captions.css";
 
@@ -22,8 +20,6 @@ import { X } from "lucide-react";
 import { useLanguage } from "@/hooks/useLanguage";
 import { Person, Keepsake } from "../../../../shared/schema";
 
-// Już nie potrzebujemy CustomSlide, bo biblioteka sama obsłuży tytuł i opis
-// Wystarczy nam rozszerzenie typu Slide o opcjonalny opis
 type SlideWithDescription = Slide & {
   description?: string;
 };
@@ -46,7 +42,7 @@ export default function KeepsakesModal({
   const getDynamicText = (
     field: { pl: string; en: string } | string | null | undefined
   ) => {
-    if (!field) return ""; // Zwróć pusty string zamiast null dla bezpieczeństwa
+    if (!field) return "";
     if (typeof field === "object" && field !== null && "pl" in field) {
       return field[language as keyof typeof field] || field.pl;
     }
@@ -61,11 +57,9 @@ export default function KeepsakesModal({
     setLightboxOpen(true);
   };
 
-  // 3. DOSTOSUJ DANE DO FORMATU OCZEKIWANEGO PRZEZ WTYCZKĘ CAPTIONS
   const lightboxSlides: SlideWithDescription[] = keepsakes.map(
     (k: Keepsake) => ({
       src: k.imageUrl,
-      // Wtyczka Captions używa pól `title` i `description`
       title: getDynamicText(k.title),
       description: getDynamicText(k.description),
     })
@@ -119,23 +113,23 @@ export default function KeepsakesModal({
         </DialogContent>
       </Dialog>
 
-      {/* 4. ZAKTUALIZUJ KOMPONENT LIGHTBOX */}
-      <Lightbox
-        // Dodaj wtyczki - to jest kluczowa zmiana
-        plugins={[Captions, Fullscreen, Zoom]}
-        open={lightboxOpen}
-        close={() => setLightboxOpen(false)}
-        slides={lightboxSlides}
-        index={lightboxIndex}
-        carousel={{ finite: true }}
-        controller={{ closeOnBackdropClick: true }}
-        // Konfiguracja wtyczki Captions
-        captions={{
-          descriptionTextAlign: "center",
-          descriptionMaxLines: 5, // Możesz dostosować
-        }}
-        // Usuń całą sekcję `render`, która powodowała problem
-      />
+      {lightboxOpen && (
+        <Lightbox
+          // ***** KLUCZOWA ZMIANA: UŻYWAMY KLASY CSS ZAMIAST STYLÓW INLINE *****
+          className="heritage-lightbox"
+          plugins={[Captions, Fullscreen, Zoom]}
+          open={lightboxOpen}
+          close={() => setLightboxOpen(false)}
+          slides={lightboxSlides}
+          index={lightboxIndex}
+          carousel={{ finite: true }}
+          controller={{ closeOnBackdropClick: true }}
+          captions={{
+            descriptionTextAlign: "center",
+            descriptionMaxLines: 5,
+          }}
+        />
+      )}
     </>
   );
 }
