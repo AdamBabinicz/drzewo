@@ -42,7 +42,282 @@
     "type": "marriage_record",
     "description_pl": "Dokument ślubu z 26 listopada 1952 roku.",
     "description_en": "Marriage document from November 26, 1952.",
-    "imageUrl": "/images/doc-slub-jozef-marianna.avif"
+    "imageUrl": "/images/k.avif"
+  },
+  {
+    "id": 10,
+    "title_pl": "Akt Ślubu: Jan Jurczak i Antonina Mitak z Gierczaków (1906)",
+    "title_en": "Marriage Record: Jan Jurczak & Antonina Mitak née Gierczak (1906)",
+    "type": "marriage_record",
+    "description_pl": "Parafia Zakrzew (Zakrzów), akt nr 1, 1906 r.",
+    "description_en": "Zakrzew (Zakrzów) Parish, record no. 1, 1906.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Состоялось въ деревнѣ Закшевѣ Января девятаго (двадцать второго) дня тысяча девятьсотъ шестого года въ десять часовъ утра. Объявляемъ, что въ присутствіи свидѣтелей Францишка Герчака тридцати шести и Валентаго Герчака тридцати двухъ лѣтъ отъ роду, крестьянъ-собственниковъ въ деревнѣ Гулинекъ, заключенъ въ этотъ день религіозный обрядъ бракосочетанія между Яномъ Юрчакомъ, холостымъ, двадцати пяти лѣтъ отъ роду, сыномъ Францишка и Юлiанны урожденной Катусъ, проживающимъ и земледельцемъ въ деревнѣ Воскресенскъ, и Антониною изъ Герчаковъ Митаковою, вдовою, тридцати шести лѣтъ отъ роду, родившеюся и проживающею въ деревнѣ Гулинекъ, дочерью Кароля и Текли урожденной Козыра. Бракосочетанію этому предшествовали три оглашенія. Новобрачные объявили, что брачнаго договора они между собою не заключали. Религіозный обрядъ совершенъ ксендзомъ Адольфомъ Модзелевскимъ. Этотъ актъ присутствующимъ и новобрачнымъ неграмотнымъ прочитанъ, нами только подписанъ.",
+    "translation_pl": "Działo się we wsi Zakrzew, dnia dziewiątego (dwudziestego drugiego) stycznia tysiąc dziewięćset szóstego roku, o godzinie dziesiątej rano. Oświadczamy, że w obecności świadków Franciszka Gierczaka, lat trzydzieści sześć, i Walentego Gierczaka, lat trzydzieści dwa, włościan-właścicieli z wsi Gulinek, zawarty został dzisiaj religijny obrzęd zawarcia małżeństwa między Janem Jurczakiem, kawalerem, lat dwadzieścia pięć, synem Franciszka i Julianny z domu Katus, zamieszkałym i rolnikiem we wsi Wacyn, a Antoniną z Gierczaków Mitakową, wdową, lat trzydzieści sześć, urodzoną i zamieszkałą we wsi Gulinek, córką Karola i Tekli z domu Kozyra. Małżeństwo to poprzedziły trzy zapowiedzi. Nowożeńcy oświadczyli, że nie zawarli między sobą umowy przedślubnej. Obrzęd religijny został dokonany przez księdza Adolfa Modzelewskiego. Akt ten obecnym i nowożeńcom, którzy są niepiśmienni, został przeczytany i tylko przez nas podpisany.",
+    "translation_en": "It happened in the village of Zakrzew on the ninth (twenty-second) of January, nineteen hundred and six, at ten o'clock in the morning. We declare that in the presence of witnesses Franciszek Gierczak, thirty-six years old, and Walenty Gierczak, thirty-two years old, land-owning peasants from the village of Gulinek, a religious marriage ceremony was contracted today between Jan Jurczak, a bachelor, twenty-five years old, son of Franciszek and Julianna née Katus, residing and farming in the village of Wacyn, and Antonina née Gierczak Mitakowa, a widow, thirty-six years old, born and residing in the village of Gulinek, daughter of Karol and Tekla née Kozyra. This marriage was preceded by three banns. The newlyweds declared that they had not entered into a prenuptial agreement. The religious ceremony was performed by Father Adolf Modzelewski. This act was read to the present and to the illiterate newlyweds, and was signed only by us.",
+    "extracted_data": [
+      {
+        "label_pl": "Pan Młody",
+        "label_en": "Groom",
+        "value_pl": "Jan Jurczak, 25 lat, kawaler",
+        "value_en": "Jan Jurczak, 25 years old, bachelor"
+      },
+      {
+        "label_pl": "Panna Młoda",
+        "label_en": "Bride",
+        "value_pl": "Antonina z Gierczaków Mitakowa, 36 lat, wdowa",
+        "value_en": "Antonina née Gierczak Mitakowa, 36 years old, widow"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title_pl": "Akt Ślubu: Józef Wieracha i Józefa Gierczak (1841)",
+    "title_en": "Marriage Record: Józef Wieracha & Józefa Gierczak (1841)",
+    "type": "marriage_record",
+    "description_pl": "Parafia Cerekiew, akt nr 11, 1841 r.",
+    "description_en": "Cerekiew Parish, record no. 11, 1841.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Roku Tysiąc Ośmset Czterdziestego Pierwszego Dnia szesnastego Lutego o godzinie czwartej po południu we wsi Cerekwi. Wiadomo czyniemy iż w przytomności Świadków, Franciszka Warchoła lat trzydzieści i Antoniego Kaczora lat czterdzieści mających, Gospodarzy rolnych w Jaszowicach zamieszkałych, zawarte zostało Religijne Małżeństwo między Józefem Wierachą Kawalerem Komornikiem we wsi Wacynie zamieszkałym, w Gębarzowie urodzonym, lat dwadzieścia dwa maiącym, synem Pawła i Marianny z Gwiazdów małżonków Wierachów z jednej strony; A Józefą Gierczakówną Panną przy Matce w Jaszowicach zostającą, lat dwadzieścia maiącą, córką niegdyś Ambrożego i żyjącej Kunegundy z Kaniów małżonków Gierczaków z drugiej. Małżeństwo to poprzedziły trzy zapowiedzi w dniach trzydziestym pierwszym Stycznia, siódmym i czternastym Lutego, roku bieżącego, w tutejszym Parafialnym Kościele ogłoszone. Nowożeńcy oświadczyli, iż żadna tamująca zawarciu tegoż Małżeństwa nie zaszła przeszkoda, Rodzice na zawarcie tegoż Małżeństwa zezwolili. Nowożeńcy zatem oświadczyli iż zawierają węzeł Małżeński. Akt ten stawającym i świadkom pisać nie umiejącym przeczytany, przez nas podpisany został. X. Kłobossowski Proboszcz Parafii Cerekiewskiej.",
+    "translation_pl": "Dnia szesnastego lutego 1841 roku, o godzinie czwartej po południu we wsi Cerekiew. Czynimy wiadomo, że w obecności świadków, Franciszka Warchoła, lat 30, i Antoniego Kaczora, lat 40, gospodarzy rolnych zamieszkałych w Jaszowicach, zawarte zostało religijne małżeństwo pomiędzy: Józefem Wierachą, kawalerem, komornikiem (robotnikiem rolnym bez ziemi) zamieszkałym we wsi Wacyn, urodzonym w Gębarzowie, lat 22, synem Pawła i Marianny z domu Gwiazdów, małżonków Wierachów, z jednej strony; a Józefą Gierczakówną, panną, pozostającą przy matce w Jaszowicach, lat 20, córką zmarłego Ambrożego i żyjącej Kunegundy z domu Kaniów, małżonków Gierczaków, z drugiej strony. Małżeństwo to poprzedziły trzy zapowiedzi ogłoszone w dniach 31 stycznia, 7 i 14 lutego bieżącego roku w tutejszym kościele parafialnym. Nowożeńcy oświadczyli, że nie zaszła żadna przeszkoda uniemożliwiająca zawarcie tego małżeństwa, a rodzice wyrazili na nie zgodę. Następnie nowożeńcy oświadczyli, że zawierają związek małżeński. Akt ten, po przeczytaniu stawiającym i świadkom, którzy nie umieją pisać, został przez nas podpisany. Ks. Kłobossowski, proboszcz parafii Cerekiew.",
+    "translation_en": "On the sixteenth day of February, 1841, at four o'clock in the afternoon in the village of Cerekiew. We make it known that in the presence of witnesses, Franciszek Warchoł, aged 30, and Antoni Kaczor, aged 40, farmers residing in Jaszowice, a religious marriage was contracted between: Józef Wieracha, a bachelor, a landless farm laborer residing in the village of Wacyn, born in Gębarzów, aged 22, son of Paweł and Marianna née Gwiazda, the Wieracha spouses, of the one part; and Józefa Gierczakówna, a maiden, staying with her mother in Jaszowice, aged 20, daughter of the late Ambroży and the living Kunegunda née Kania, the Gierczak spouses, of the other part. This marriage was preceded by three banns announced on the 31st of January, and the 7th and 14th of February of the current year in the local parish church. The newlyweds declared that no impediment preventing the solemnization of this marriage had arisen, and the parents consented to its contraction. Subsequently, the newlyweds declared they were entering into the bond of matrimony. This act, having been read to the appearing parties and the witnesses, who are illiterate, was signed by us. Fr. Kłobossowski, Pastor of the Cerekiew Parish.",
+    "extracted_data": [
+      {
+        "label_pl": "Pan Młody",
+        "label_en": "Groom",
+        "value_pl": "Józef Wieracha, 22 lata, kawaler",
+        "value_en": "Józef Wieracha, 22 years old, bachelor"
+      },
+      {
+        "label_pl": "Rodzice Pana Młodego",
+        "label_en": "Groom's Parents",
+        "value_pl": "Paweł i Marianna z Gwiazdów",
+        "value_en": "Paweł and Marianna née Gwiazda"
+      },
+      {
+        "label_pl": "Panna Młoda",
+        "label_en": "Bride",
+        "value_pl": "Józefa Gierczakówna, 20 lat, panna",
+        "value_en": "Józefa Gierczakówna, 20 years old, maiden"
+      },
+      {
+        "label_pl": "Rodzice Panny Młodej",
+        "label_en": "Bride's Parents",
+        "value_pl": "Ambroży (zm.) i Kunegunda z Kaniów",
+        "value_en": "Ambroży (dec.) and Kunegunda née Kania"
+      },
+      {
+        "label_pl": "Świadkowie",
+        "label_en": "Witnesses",
+        "value_pl": "Franciszek Warchoł (30), Antoni Kaczor (40)",
+        "value_en": "Franciszek Warchoł (30), Antoni Kaczor (40)"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title_pl": "Akt Ślubu: Stanisław Mitak i Antonina Gierczak (1886)",
+    "title_en": "Marriage Record: Stanisław Mitak & Antonina Gierczak (1886)",
+    "type": "marriage_record",
+    "description_pl": "Parafia Zakrzew (Zakrzów), akt nr 12, 1886 r.",
+    "description_en": "Zakrzew (Zakrzów) Parish, record no. 12, 1886.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Состоялось въ деревнѣ Закшевѣ девятого (двадцать первого) Февраля тысяча восемьсотъ восемьдесятъ шестого года въ часъ по полудни. Объявляемъ, что въ присутствіи свидѣтелей Адама Цибора тридцати, и Францишка Козеры тридцати двухъ лѣтъ отъ роду, земледельцевъ изъ деревни Гулинекъ, заключенъ въ этотъ день религіозный обрядъ бракосочетанія между Станиславомъ Митакомъ, холостымъ, двадцати двухъ лѣтъ отъ роду, сыномъ Шимона и Марiанны урожденной Адамчикъ супруговъ Митаковъ, земледельцемъ въ деревнѣ Гулинекъ живущимъ, и Антониною Герчакъ, дѣвицею, семнадцати лѣтъ отъ роду, дочерью Кароля и Текли урожденной Козыра супруговъ Герчаковъ, при родителяхъ въ деревнѣ Гулинекъ живущею. Бракосочетанію этому предшествовали три оглашенія. Новобрачные объявили, что брачнаго договора они между собою не заключали. Религіозный обрядъ совершенъ ксендзомъ Іосифомъ Тальбергомъ. Этотъ актъ присутствующимъ и новобрачнымъ неграмотнымъ прочитанъ, нами только подписанъ.",
+    "translation_pl": "Działo się we wsi Zakrzew, dziewiątego (dwudziestego pierwszego) lutego tysiąc osiemset osiemdziesiątego szóstego roku, o godzinie pierwszej po południu. Oświadczamy, że w obecności świadków Adama Cibora, lat trzydzieści, i Franciszka Kozery, lat trzydzieści dwa, rolników ze wsi Gulinek, zawarty został dzisiaj religijny obrzęd zawarcia małżeństwa między Stanisławem Mitakiem, kawalerem, lat dwadzieścia dwa, synem Szymona i Marianny z domu Adamczyk, małżonków Mitaków, rolnikiem zamieszkałym w Gulinku, a Antoniną Gierczak, panną, lat siedemnaście, córką Karola i Tekli z domu Kozyra, małżonków Gierczaków, zamieszkałą przy rodzicach w Gulinku. Małżeństwo to poprzedziły trzy zapowiedzi. Nowożeńcy oświadczyli, że nie zawarli między sobą umowy przedślubnej. Obrzęd religijny został dokonany przez księdza Józefa Talberga. Akt ten obecnym i nowożeńcom, którzy są niepiśmienni, został przeczytany i tylko przez nas podpisany.",
+    "translation_en": "It happened in the village of Zakrzew, on the ninth (twenty-first) of February, eighteen hundred and eighty-six, at one o'clock in the afternoon. We declare that in the presence of witnesses Adam Cibor, thirty years old, and Franciszek Kozera, thirty-two years old, farmers from the village of Gulinek, a religious marriage ceremony was contracted today between Stanisław Mitak, a bachelor, twenty-two years old, son of Szymon and Marianna née Adamczyk, the Mitak spouses, a farmer living in Gulinek, and Antonina Gierczak, a maiden, seventeen years old, daughter of Karol and Tekla née Kozyra, the Gierczak spouses, living with her parents in Gulinek. This marriage was preceded by three banns. The newlyweds declared that they had not entered into a prenuptial agreement. The religious ceremony was performed by Father Józef Talberg. This act was read to the present and to the illiterate newlyweds, and was signed only by us.",
+    "extracted_data": [
+      {
+        "label_pl": "Pan Młody",
+        "label_en": "Groom",
+        "value_pl": "Stanisław Mitak, 22 lata, kawaler",
+        "value_en": "Stanisław Mitak, 22 years old, bachelor"
+      },
+      {
+        "label_pl": "Rodzice Pana Młodego",
+        "label_en": "Groom's Parents",
+        "value_pl": "Szymon i Marianna z Adamczyków",
+        "value_en": "Szymon and Marianna née Adamczyk"
+      },
+      {
+        "label_pl": "Panna Młoda",
+        "label_en": "Bride",
+        "value_pl": "Antonina Gierczak, 17 lat, panna",
+        "value_en": "Antonina Gierczak, 17 years old, maiden"
+      },
+      {
+        "label_pl": "Rodzice Panny Młodej",
+        "label_en": "Bride's Parents",
+        "value_pl": "Karol i Tekla z Kozyrów",
+        "value_en": "Karol and Tekla née Kozyra"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title_pl": "Akt Ślubu: Paweł Gierczak i Katarzyna Czerwińska (1887)",
+    "title_en": "Marriage Record: Paweł Gierczak & Katarzyna Czerwińska (1887)",
+    "type": "marriage_record",
+    "description_pl": "Parafia Cerekiew, akt nr 27, 1887 r.",
+    "description_en": "Cerekiew Parish, record no. 27, 1887.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Состоялось въ деревнѣ Церекви Февраля второго (четырнадцатаго) дня тысяча восемьсотъ восемьдесятъ седьмаго года въ два часа по полудни. Объявляемъ, что въ присутствіи свидѣтелей Францишка Колача шестидесяти и Іосифа Каинки тридцати шести лѣтъ отъ роду, крестьянъ изъ Млечкова, заключенъ въ этотъ день религіозный обрядъ бракосочетанія между Павломъ Герчакомъ, холостымъ, двадцати лѣтъ отъ роду, сыномъ Кароля и Текли урожденной Козыра супруговъ Герчаковъ, земледельцемъ при родителяхъ въ Млечковѣ живущимъ, и Катаржиною Червинскою, дѣвицею, девятнадцати лѣтъ отъ роду, дочерью Матеуша и Марiанны урожденной Керага супруговъ Червинскихъ, земледелкою при родителяхъ въ Млечковѣ живущею. Бракосочетанію этому предшествовали три оглашенія. Новобрачные объявили, что брачнаго договора они между собою не заключали. Религіозный обрядъ совершенъ ксендзомъ Іосифомъ Тальбергомъ. Этотъ актъ присутствующимъ и новобрачнымъ неграмотнымъ прочитанъ, нами только подписанъ.",
+    "translation_pl": "Działo się we wsi Cerekiew dnia drugiego (czternastego) lutego tysiąc osiemset osiemdziesiątego siódmego roku o godzinie drugiej po południu. Oświadczamy, że w obecności świadków Franciszka Kołacza, lat sześćdziesiąt, i Józefa Kainki, lat trzydzieści sześć, chłopów z Mleczkowa, zawarty został dzisiaj religijny obrzęd zawarcia małżeństwa między Pawłem Gierczakiem, kawalerem, lat dwadzieścia, synem Karola i Tekli z domu Kozyra, małżonków Gierczaków, rolnikiem zamieszkałym przy rodzicach w Mleczkowie, a Katarzyną Czerwińską, panną, lat dziewiętnaście, córką Mateusza i Marianny z domu Kieraga, małżonków Czerwińskich, rolniczką zamieszkałą przy rodzicach w Mleczkowie. Małżeństwo to poprzedziły trzy zapowiedzi. Nowożeńcy oświadczyli, że nie zawarli między sobą umowy przedślubnej. Obrzęd religijny został dokonany przez księdza Józefa Talberga. Akt ten obecnym i nowożeńcom, którzy są niepiśmienni, został przeczytany i tylko przez nas podpisany.",
+    "translation_en": "It happened in the village of Cerekiew on the second (fourteenth) of February, eighteen hundred and eighty-seven, at two o'clock in the afternoon. We declare that in the presence of witnesses Franciszek Kołacz, sixty years old, and Józef Kainka, thirty-six years old, peasants from Mleczków, a religious marriage ceremony was contracted today between Paweł Gierczak, a bachelor, twenty years old, son of Karol and Tekla née Kozyra, the Gierczak spouses, a farmer living with his parents in Mleczków, and Katarzyna Czerwińska, a maiden, nineteen years old, daughter of Mateusz and Marianna née Kieraga, the Czerwiński spouses, a farmer living with her parents in Mleczków. This marriage was preceded by three banns. The newlyweds declared that they had not entered into a prenuptial agreement. The religious ceremony was performed by Father Józef Talberg. This act was read to the present and to the illiterate newlyweds, and was signed only by us.",
+    "extracted_data": [
+      {
+        "label_pl": "Pan Młody",
+        "label_en": "Groom",
+        "value_pl": "Paweł Gierczak, 20 lat, kawaler",
+        "value_en": "Paweł Gierczak, 20 years old, bachelor"
+      },
+      {
+        "label_pl": "Rodzice Pana Młodego",
+        "label_en": "Groom's Parents",
+        "value_pl": "Karol i Tekla z Kozyrów",
+        "value_en": "Karol and Tekla née Kozyra"
+      },
+      {
+        "label_pl": "Panna Młoda",
+        "label_en": "Bride",
+        "value_pl": "Katarzyna Czerwińska, 19 lat, panna",
+        "value_en": "Katarzyna Czerwińska, 19 years old, maiden"
+      },
+      {
+        "label_pl": "Rodzice Panny Młodej",
+        "label_en": "Bride's Parents",
+        "value_pl": "Mateusz i Marianna z Kieragów",
+        "value_en": "Mateusz and Marianna née Kieraga"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "title_pl": "Akt Zgonu: Michał Gierczak (1854)",
+    "title_en": "Death Record: Michał Gierczak (1854)",
+    "type": "death_record",
+    "description_pl": "Parafia Cerekiew, akt nr 55, 1854 r.",
+    "description_en": "Cerekiew Parish, record no. 55, 1854.",
+    "imageUrl": "/images/akt-zgonu-michal-gierczak-1854.jpg",
+    "transcription": "Działo się we wsi Cerekwi dnia pierwszego (trzynastego) Kwietnia tysiąc osiemset pięćdziesiąt czwartego roku, o godzinie ósmej zrana. Stawili się Kacper Gierczak lat dwadzieścia ośm i Franciszek Warchoł lat czterdzieści mający, obydwa włościanie w Jaszowicach zamieszkali; I oświadczyli, iż we wsi Jaszowicach dnia wczorajszego o godzinie dziesiątej rano umarł Michał Gierczak włościanin w Jaszowicach zamieszkały, lat siedmdziesiąt mający, syn niegdy Tomasza i Zofii małżonków Gierczaków, zostawił po sobie owdowiałą żonę Maryannę z Gocmanów. Po naocznem przekonaniu się o zejściu Michała Gierczaka, Akt ten Stawaiącym i Świadkom przeczytany, pisać nieumiejącym przez Nas tylko podpisany został. X. Hipolit Czupryński Proboszcz Parafii Cerekwi.",
+    "translation_pl": "Zdarzyło się we wsi Cerekiew, dnia pierwszego (trzynastego) kwietnia tysiąc osiemset pięćdziesiąt czwartego roku, o godzinie ósmej rano. Stawili się Kacper Gierczak, lat 28, i Franciszek Warchoł, lat 40, obaj włościanie (chłopi) zamieszkali w Jaszowicach. Oświadczyli oni, że we wsi Jaszowice, wczoraj o godzinie dziesiątej rano, zmarł Michał Gierczak, włościanin zamieszkały w Jaszowicach, mający 70 lat, syn zmarłego Tomasza i Zofii małżonków Gierczaków. Zostawił po sobie owdowiałą żonę Mariannę z domu Gocmanów. Po naocznym upewnieniu się o zgonie Michała Gierczaka, akt ten, po odczytaniu go stawiającym i świadkom, którzy nie umieją pisać, został podpisany tylko przez nas.",
+    "translation_en": "It happened in the village of Cerekiew, on the first (thirteenth) of April, eighteen hundred and fifty-four, at eight o'clock in the morning. Appeared Kacper Gierczak, aged 28, and Franciszek Warchoł, aged 40, both peasants residing in Jaszowice. They declared that in the village of Jaszowice, yesterday at ten o'clock in the morning, Michał Gierczak, a peasant residing in Jaszowice, aged 70, passed away, son of the late Tomasz and Zofia Gierczak. He is survived by his widowed wife Marianna née Gocman. After visually confirming the death of Michał Gierczak, this act, having been read to the declarants and witnesses, who are illiterate, was signed only by us.",
+    "extracted_data": [
+      {
+        "label_pl": "Wiek",
+        "label_en": "Age",
+        "value_pl": "70 lat",
+        "value_en": "70 years"
+      },
+      {
+        "label_pl": "Rodzice",
+        "label_en": "Parents",
+        "value_pl": "Tomasz i Zofia",
+        "value_en": "Tomasz and Zofia"
+      },
+      {
+        "label_pl": "Małżonka",
+        "label_en": "Spouse",
+        "value_pl": "Marianna z Gocmanów",
+        "value_en": "Marianna née Gocman"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "title_pl": "Akt Zgonu: Andrzej Gierczak (1868)",
+    "title_en": "Death Record: Andrzej Gierczak (1868)",
+    "type": "death_record",
+    "description_pl": "Parafia Cerekiew, akt nr 61, 1868 r.",
+    "description_en": "Cerekiew Parish, record no. 61, 1868.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Состоялось въ Деревни Мереткѣвѣ дня Восемнадцатаго (тридцатаго) Августа тысяча восемьсотъ шестьдесятъ осьмаго года въ часъ по полудни. Явились Якобъ Герчакъ пятьдесятъ одинъ и Адамъ Адамскій сорокъ одинъ годъ отъ роду, оба крестьяне изъ Хруслицъ и объявили, что вчерашняго дня въ часъ по полудни умеръ Андрей Герчакъ, крестьянинъ изъ Хруслицъ, пятьдесятъ семь лѣтъ отъ роду, сынъ Томаша и Зофiи урожденной Геловской супруговъ Герчаковъ, оставившій послѣ себя вдову Терессу урожденную Пончокъ. По наочномъ удостовѣреніи о смерти Андрея Герчака, актъ сей Присутствующимъ и намъ неграмотнымъ Прочитанъ и нами только подписанъ. Кс. Іосифъ Тальбергъ Настоятель и Чиновникъ.",
+    "translation_pl": "Działo się we wsi Cerekiew dnia osiemnastego (trzydziestego) sierpnia tysiąc osiemset sześćdziesiątego ósmego roku o godzinie pierwszej po południu. Stawili się Jakub Gierczak, lat pięćdziesiąt jeden, i Adam Adamski, lat czterdzieści jeden, obaj chłopi z Chruślic, i oświadczyli, że wczoraj o godzinie pierwszej po południu zmarł Andrzej Gierczak, chłop z Chruślic, mający pięćdziesiąt siedem lat, syn Tomasza i Zofii z domu Gielowskiej, małżonków Gierczaków. Zostawił po sobie wdowę Teresę z domu Pączek. Po naocznym stwierdzeniu zgonu Andrzeja Gierczaka, akt ten obecnym i nam niepiśmiennym został przeczytany i tylko przez nas podpisany. Ks. Józef Talberg, proboszcz i urzędnik.",
+    "translation_en": "It happened in the village of Cerekiew on the eighteenth (thirtieth) of August, eighteen hundred and sixty-eight, at one o'clock in the afternoon. Appeared Jakub Gierczak, fifty-one years old, and Adam Adamski, forty-one years old, both peasants from Chruślice, and they declared that yesterday at one o'clock in the afternoon, Andrzej Gierczak, a peasant from Chruślice, aged fifty-seven, passed away, son of Tomasz and Zofia née Gielowska, the Gierczak spouses. He left behind his widow Teresa née Pączek. After visually confirming the death of Andrzej Gierczak, this act was read to the illiterate persons present and to us, and was signed only by us. Fr. Józef Talberg, Pastor and official.",
+    "extracted_data": [
+      {
+        "label_pl": "Wiek",
+        "label_en": "Age",
+        "value_pl": "57 lat",
+        "value_en": "57 years"
+      },
+      {
+        "label_pl": "Rodzice",
+        "label_en": "Parents",
+        "value_pl": "Tomasz i Zofia z Gielowskich",
+        "value_en": "Tomasz and Zofia née Gielowska"
+      },
+      {
+        "label_pl": "Małżonka",
+        "label_en": "Spouse",
+        "value_pl": "Teresa z Pączków",
+        "value_en": "Teresa née Pączek"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title_pl": "Akt Zgonu: Marianna Ślifirczyk z Gierczaków (1875)",
+    "title_en": "Death Record: Marianna Ślifirczyk née Gierczak (1875)",
+    "type": "death_record",
+    "description_pl": "Parafia Cerekiew, akt nr 9, 1875 r.",
+    "description_en": "Cerekiew Parish, record no. 9, 1875.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Состоялось въ деревнѣ Церекви Января четвертаго (шестнадцатаго) дня тысяча восемьсотъ семьдесятъ пятаго года въ десять часовъ утра. Явились Антонiй Слифирчикъ сорокъ восемь и Іосифъ Бацьмага пятьдесятъ лѣтъ отъ роду, оба крестьяне изъ Яшовицъ и объявили, что вчерашняго дня въ восемь часовъ утра умерла Марiанна изъ Герчаковъ Слифирчикъ, крестьянка изъ Яшовицъ, сорока двухъ лѣтъ отъ роду, дочь Амврожiя и Кунегунды урожденной Каня супруговъ Герчаковъ, оставившая послѣ себя вдовца Антонiя Слифирчика. По наочномъ удостовѣреніи о смерти Марiанны Слифирчикъ, актъ сей Присутствующимъ неграмотнымъ Прочитанъ и нами только подписанъ. Кс. Іосифъ Тальбергъ.",
+    "translation_pl": "Działo się we wsi Cerekiew dnia czwartego (szesnastego) stycznia tysiąc osiemset siedemdziesiątego piątego roku o godzinie dziesiątej rano. Stawili się Antoni Ślifirczyk, lat czterdzieści osiem, i Józef Baćmaga, lat pięćdziesiąt, obaj chłopi z Jaszowic, i oświadczyli, że wczoraj o godzinie ósmej rano zmarła Marianna z Gierczaków Ślifirczyk, chłopka z Jaszowic, mająca czterdzieści dwa lata, córka Ambrożego i Kunegundy z domu Kania, małżonków Gierczaków. Zostawiła po sobie wdowca Antoniego Ślifirczyka. Po naocznym stwierdzeniu zgonu Marianny Ślifirczyk, akt ten obecnym niepiśmiennym został przeczytany i tylko przez nas podpisany. Ks. Józef Talberg.",
+    "translation_en": "It happened in the village of Cerekiew on the fourth (sixteenth) of January, eighteen hundred and seventy-five, at ten o'clock in the morning. Appeared Antoni Ślifirczyk, forty-eight years old, and Józef Baćmaga, fifty years old, both peasants from Jaszowice, and they declared that yesterday at eight o'clock in the morning, Marianna née Gierczak Ślifirczyk, a peasant woman from Jaszowice, aged forty-two, passed away, daughter of Ambroży and Kunegunda née Kania, the Gierczak spouses. She left behind her widower Antoni Ślifirczyk. After visually confirming the death of Marianna Ślifirczyk, this act was read to the illiterate persons present and was signed only by us. Fr. Józef Talberg.",
+    "extracted_data": [
+      {
+        "label_pl": "Wiek",
+        "label_en": "Age",
+        "value_pl": "42 lata",
+        "value_en": "42 years"
+      },
+      {
+        "label_pl": "Rodzice",
+        "label_en": "Parents",
+        "value_pl": "Ambroży Gierczak i Kunegunda z Kaniów",
+        "value_en": "Ambroży Gierczak and Kunegunda née Kania"
+      },
+      {
+        "label_pl": "Małżonek",
+        "label_en": "Spouse",
+        "value_pl": "Antoni Ślifirczyk",
+        "value_en": "Antoni Ślifirczyk"
+      }
+    ]
+  },
+
+  {
+    "id": 38,
+    "title_pl": "Akt Zgonu: Jadwiga Kornafel z Gierczaków (1884)",
+    "title_en": "Death Record: Jadwiga Kornafel née Gierczak (1884)",
+    "type": "death_record",
+    "description_pl": "Parafia Cerekiew, akt nr 38, 1884 r.",
+    "description_en": "Cerekiew Parish, record no. 38, 1884.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Состоялось въ деревнѣ Церекви Февраля седьмаго (девятнадцатаго) дня тысяча восемьсотъ восемьдесятъ четвертаго года въ десять часовъ утра. Явились Францишекъ Корнафель шестьдесятъ и Іосифъ Дудекъ сорокъ лѣтъ отъ роду, оба крестьяне изъ Милеiовицъ и объявили, что вчерашняго дня въ восемь часовъ утра умерла Ядвига изъ Герчаковъ Корнафель, крестьянка изъ Милеiовицъ, шестидесяти лѣтъ отъ роду, дочь Амврожiя и Кунегунды супруговъ Герчаковъ, оставившая послѣ себя вдовца Францишка Корнафеля. По наочномъ удостовѣреніи о смерти Ядвиги Корнафель, актъ сей Присутствующимъ неграмотнымъ Прочитанъ и нами только подписанъ. Кс. Іосифъ Тальбергъ.",
+    "translation_pl": "Działo się we wsi Cerekiew dnia siódmego (dziewiętnastego) lutego tysiąc osiemset osiemdziesiątego czwartego roku o godzinie dziesiątej rano. Stawili się Franciszek Kornafel, lat sześćdziesiąt, i Józef Dudek, lat czterdzieści, obaj chłopi z Milejowic, i oświadczyli, że wczoraj o godzinie ósmej rano zmarła Jadwiga z Gierczaków Kornafel, chłopka z Milejowic, mająca sześćdziesiąt lat, córka Ambrożego i Kunegundy, małżonków Gierczaków. Zostawiła po sobie wdowca Franciszka Kornafela. Po naocznym stwierdzeniu zgonu Jadwigi Kornafel, akt ten obecnym niepiśmiennym został przeczytany i tylko przez nas podpisany. Ks. Józef Talberg.",
+    "translation_en": "It happened in the village of Cerekiew on the seventh (nineteenth) of February, eighteen hundred and eighty-four, at ten o'clock in the morning. Appeared Franciszek Kornafel, sixty years old, and Józef Dudek, forty years old, both peasants from Milejowice, and they declared that yesterday at eight o'clock in the morning, Jadwiga née Gierczak Kornafel, a peasant woman from Milejowice, aged sixty, passed away, daughter of Ambroży and Kunegunda, the Gierczak spouses. She left behind her widower Franciszek Kornafel. After visually confirming the death of Jadwiga Kornafel, this act was read to the illiterate persons present and was signed only by us. Fr. Józef Talberg.",
+    "extracted_data": [
+      {
+        "label_pl": "Wiek",
+        "label_en": "Age",
+        "value_pl": "60 lat",
+        "value_en": "60 years"
+      },
+      {
+        "label_pl": "Rodzice",
+        "label_en": "Parents",
+        "value_pl": "Ambroży i Kunegunda Gierczak",
+        "value_en": "Ambroży and Kunegunda Gierczak"
+      },
+      {
+        "label_pl": "Małżonek",
+        "label_en": "Spouse",
+        "value_pl": "Franciszek Kornafel",
+        "value_en": "Franciszek Kornafel"
+      }
+    ]
   },
   {
     "id": 101,
@@ -409,6 +684,38 @@
     ]
   },
   {
+    "id": 127,
+    "title_pl": "Akt Zgonu: Kacper Gierczak (1903)",
+    "title_en": "Death Record: Kacper Gierczak (1903)",
+    "type": "death_record",
+    "description_pl": "Parafia Cerekiew, akt nr 127, 1903 r.",
+    "description_en": "Cerekiew Parish, record no. 127, 1903.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Состоялось въ деревнѣ Церекви Декабря третьяго (шестнадцатаго) дня тысяча девятьсотъ третьяго года, въ девять часовъ утра. Явились Антонiй Коберскій сорокъ восемь и Іосифъ Бацьмага пятьдесятъ шесть лѣтъ отъ роду, оба крестьяне изъ Яшовицъ, и объявили, что вчерашняго дня въ девять часовъ утра умеръ Касперъ Герчакъ, крестьянинъ изъ Яшовицъ, семидесяти семи лѣтъ отъ роду, сынъ умершихъ Амврожiя и Кунегунды супруговъ Герчаковъ, оставившій послѣ себя вдову Францишку урожденную Скопъ. По наочномъ удостовѣреніи о смерти Каспера Герчака, актъ сей Присутствующимъ неграмотнымъ Прочитанъ и нами только подписанъ. Кс. Іосифъ Тальбергъ.",
+    "translation_pl": "Działo się we wsi Cerekiew dnia trzeciego (szesnastego) grudnia tysiąc dziewięćset trzeciego roku, o godzinie dziewiątej rano. Stawili się Antoni Kobierski, lat czterdzieści osiem, i Józef Baćmaga, lat pięćdziesiąt sześć, obaj chłopi z Jaszowic, i oświadczyli, że wczoraj o godzinie dziewiątej rano zmarł Kacper Gierczak, chłop z Jaszowic, mający siedemdziesiąt siedem lat, syn zmarłych Ambrożego i Kunegundy, małżonków Gierczaków. Zostawił po sobie wdowę Franciszkę z domu Skop. Po naocznym stwierdzeniu zgonu Kacpra Gierczaka, akt ten obecnym niepiśmiennym został przeczytany i tylko przez nas podpisany. Ks. Józef Talberg.",
+    "translation_en": "It happened in the village of Cerekiew on the third (sixteenth) of December, nineteen hundred and three, at nine o'clock in the morning. Appeared Antoni Kobierski, forty-eight years old, and Józef Baćmaga, fifty-six years old, both peasants from Jaszowice, and they declared that yesterday at nine o'clock in the morning, Kacper Gierczak, a peasant from Jaszowice, aged seventy-seven, passed away, son of the deceased Ambroży and Kunegunda, the Gierczak spouses. He left behind his widow Franciszka née Skop. After visually confirming the death of Kacper Gierczak, this act was read to the illiterate persons present and was signed only by us. Fr. Józef Talberg.",
+    "extracted_data": [
+      {
+        "label_pl": "Wiek",
+        "label_en": "Age",
+        "value_pl": "77 lat",
+        "value_en": "77 years"
+      },
+      {
+        "label_pl": "Rodzice",
+        "label_en": "Parents",
+        "value_pl": "Ambroży i Kunegunda Gierczak",
+        "value_en": "Ambroży and Kunegunda Gierczak"
+      },
+      {
+        "label_pl": "Małżonka",
+        "label_en": "Spouse",
+        "value_pl": "Franciszka z domu Skop",
+        "value_en": "Franciszka née Skop"
+      }
+    ]
+  },
+  {
     "id": 201,
     "title_pl": "Akt Urodzenia: Karol Sobień (1894)",
     "title_en": "Birth Record: Karol Sobień (1894)",
@@ -638,7 +945,7 @@
     "type": "marriage_record",
     "description_pl": "Parafia Cerekiew, akt nr 21, 1837 r.",
     "description_en": "Cerekiew Parish, record no. 21, 1837.",
-    "imageUrl": "/images/akt-slubu-andrzej-teresa.jpg",
+    "imageUrl": "/images/k.avif",
     "transcription": "Roku Tysiąc Ośmset Trzydziestego Siódmego, Dnia Dwudziestego Szóstego Listopada o godzinie trzeciey z południa, w Parafii Cerekiewskiey. Wiadomo czyniemy, iż w przytomności Świadkow niżej wymienionych, zawarte zostało Religiyne Małżeństwo między: Urodzonym Andrzejem Gierczakiem Kawalerem Wyrobnikiem z Jaszowic, w Parafii Cerekiewskiey zamieszkałym, lat dwadzieścia sześć maiącym, synem niegdyś Tomasza i żyiącey Zofii z Gielowskich Małżonkow Gierczaków, z iedney, a Urodzoną Teresą Pączkówną Panną Służącą, we wsi Jaszowicach zamieszkałą, lat dwadzieścia cztery maiącą, córką niegdyś Jakuba i żyiącey Magdaleny z Kaczorowskich Małżonkow Pączków, z drugiey strony. Małżeństwu temu poprzedziły trzy Zapowiedzi w dniach Piątym, Dwunastym i Dziewiętnastym miesiąca Listopada Roku bieżącego w Tuteyszym Parafialnym Kościele ogłoszone; Nowożeńcy oświadczyli, iż żadna tamuiąca zawarciu tegoż Małżeństwa nie zaszła przeszkoda, Rodzice na zawarcie tegoż Małżeństwa zezwolili. Nowożeńcy zatem oświadczyli iż zawieraią węzeł Małżeński, a ja dopełniwszy Obrzędu Religiynego pobłogosławiłem ich związek Małżeński. Stawili się Świadkowie: Mikołaj Remiszewski Gospodarz z Jaszowic lat pięćdziesiąt sześć, i Łukasz Górniak Gospodarz z Jaszowic lat pięćdziesiąt trzy maiący. Akt ten Stawaiącym i Świadkom przeczytany, pisać nieumieiącym, podpisany został. X. Kłobossowski Proboszcz Parafii Cerekiewskiey",
     "translation_pl": "Dnia dwudziestego szóstego listopada tysiąc osiemset trzydziestego siódmego roku, o godzinie trzeciej po południu, w parafii Cerekiew. Podajemy do wiadomości, że w obecności niżej wymienionych świadków zawarte zostało religijne małżeństwo pomiędzy: Andrzejem Gierczakiem, kawalerem, robotnikiem rolnym z Jaszowic, w parafii Cerekiew zamieszkałym, liczącym dwadzieścia sześć lat, synem zmarłego Tomasza i żyjącej Zofii z domu Gielowskiej, małżonków Gierczaków, z jednej strony, a Teresą Pączek, panną, służącą, we wsi Jaszowice zamieszkałą, liczącą dwadzieścia cztery lata, córką zmarłego Jakuba i żyjącej Magdaleny z domu Kaczorowskiej, małżonków Pączków, z drugiej strony. Małżeństwo to poprzedziły trzy zapowiedzi, ogłoszone w dniach piątym, dwunastym i dziewiętnastym listopada bieżącego roku w tutejszym kościele parafialnym. Nowożeńcy oświadczyli, że nie zaszła żadna przeszkoda uniemożliwiająca zawarcie tego małżeństwa, a rodzice wyrazili zgodę na jego zawarcie. Następnie nowożeńcy oświadczyli, że zawierają związek małżeński, a ja, dopełniwszy obrzędu religijnego, pobłogosławiłem ich związek małżeński. Stawili się świadkowie: Mikołaj Remiszewski, gospodarz z Jaszowic, lat pięćdziesiąt sześć, i Łukasz Górniak, gospodarz z Jaszowic, lat pięćdziesiąt trzy. Akt ten został stawającym i świadkom przeczytany, a ponieważ byli niepiśmienni, został podpisany [tylko przez kapłana]. Ks. Kłobossowski, proboszcz parafii Cerekiew.",
     "translation_en": "On the twenty-sixth day of November, one thousand eight hundred and thirty-seven, at three o'clock in the afternoon, in the Cerekiew parish. We make it known that in the presence of the witnesses mentioned below, a religious marriage was contracted between: Andrzej Gierczak, a bachelor, farm laborer from Jaszowice, residing in the Cerekiew parish, aged twenty-six, son of the late Tomasz and the living Zofia née Gielowska, the married couple Gierczak, of the one part, and Teresa Pączek, a maiden, servant, residing in the village of Jaszowice, aged twenty-four, daughter of the late Jakub and the living Magdalena née Kaczorowska, the married couple Pączek, of the other part. This marriage was preceded by three banns, announced on the fifth, twelfth, and nineteenth days of November of the current year in the local parish church. The newlyweds declared that no impediment preventing the solemnization of this marriage had arisen, and the parents consented to its contraction. Subsequently, the newlyweds declared they were entering into the bond of matrimony, and I, having performed the religious rite, blessed their marital union. The witnesses present were: Mikołaj Remiszewski, a farmer from Jaszowice, aged fifty-six, and Łukasz Górniak, a farmer from Jaszowice, aged fifty-three. This act was read aloud to the appearing parties and the witnesses, and as they were illiterate, it was signed [only by the priest]. Fr. Kłobossowski, Pastor of the Cerekiew Parish.",

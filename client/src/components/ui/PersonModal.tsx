@@ -105,7 +105,11 @@ export default function PersonModal({
   );
   const [keepsakesModalOpen, setKeepsakesModalOpen] = useState(false);
 
-  if (!person) return null;
+  // ZMIANA TUTAJ: Zamiast używać `person` bezpośrednio, znajdujemy najświeższą wersję w `allPeople`.
+  // To uodparnia komponent na problem nieaktualnego stanu (stale state) z komponentu nadrzędnego.
+  const currentPerson = allPeople.find((p) => p.id === person?.id) || person;
+
+  if (!currentPerson) return null;
 
   const handleDocumentClick = (docId: number) => {
     setSelectedDocumentId(docId);
@@ -141,25 +145,33 @@ export default function PersonModal({
     return timeString;
   };
 
-  const occupationText = getDynamicText(person.occupation);
-  const biographyText = getDynamicText(person.biography);
-  const hasAnecdotes = person.anecdotes && person.anecdotes.length > 0;
-  const hasKeepsakes = person.keepsakes && person.keepsakes.length > 0;
+  const occupationText = getDynamicText(currentPerson.occupation);
+  const biographyText = getDynamicText(currentPerson.biography);
+  const hasAnecdotes =
+    currentPerson.anecdotes && currentPerson.anecdotes.length > 0;
+  const hasKeepsakes =
+    currentPerson.keepsakes && currentPerson.keepsakes.length > 0;
 
-  const parents = person.parentIds
-    ? allPeople.filter((p) => person.parentIds!.includes(p.id))
+  const parents = currentPerson.parentIds
+    ? allPeople.filter((p) => currentPerson.parentIds!.includes(p.id))
     : [];
-  const children = person.childIds
-    ? allPeople.filter((p) => person.childIds!.includes(p.id))
+  const children = currentPerson.childIds
+    ? allPeople.filter((p) => currentPerson.childIds!.includes(p.id))
     : [];
 
   const familyName =
-    person.family === "gierczak" ? t("family.gierczak") : t("family.ofiara");
+    currentPerson.family === "gierczak"
+      ? t("family.gierczak")
+      : t("family.ofiara");
   const familyColor =
-    person.family === "gierczak" ? "heritage-burgundy" : "heritage-teal";
+    currentPerson.family === "gierczak" ? "heritage-burgundy" : "heritage-teal";
 
-  const birthEvent = person.events?.find((e: Event) => e.type === "birth");
-  const deathEvent = person.events?.find((e: Event) => e.type === "death");
+  const birthEvent = currentPerson.events?.find(
+    (e: Event) => e.type === "birth"
+  );
+  const deathEvent = currentPerson.events?.find(
+    (e: Event) => e.type === "death"
+  );
 
   return (
     <>
@@ -168,9 +180,9 @@ export default function PersonModal({
           <DialogContent className="w-[95%] max-w-2xl max-h-[90vh] bg-stone-50 dark:bg-background-alt">
             <DialogHeader>
               <DialogTitle className="font-serif text-2xl heritage-text">
-                {person.firstName} {person.lastName}
-                {person.maidenName &&
-                  ` (${t("person.maidenName")} ${person.maidenName})`}
+                {currentPerson.firstName} {currentPerson.lastName}
+                {currentPerson.maidenName &&
+                  ` (${t("person.maidenName")} ${currentPerson.maidenName})`}
               </DialogTitle>
               <DialogDescription className={`${familyColor}`}>
                 {familyName}
@@ -182,10 +194,10 @@ export default function PersonModal({
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3 flex-shrink-0">
                     <div className="w-48 h-48 bg-stone-200 dark:bg-background rounded-lg mx-auto flex items-center justify-center">
-                      {person.photoUrl ? (
+                      {currentPerson.photoUrl ? (
                         <img
-                          src={person.photoUrl}
-                          alt={`${person.firstName} ${person.lastName}`}
+                          src={currentPerson.photoUrl}
+                          alt={`${currentPerson.firstName} ${currentPerson.lastName}`}
                           className="w-full h-full rounded-lg object-cover"
                           loading="lazy"
                         />
@@ -195,20 +207,22 @@ export default function PersonModal({
                     </div>
                   </div>
                   <div className="md:w-2/3 space-y-4">
-                    {(person.birthDate ||
-                      person.birthDateNote ||
-                      person.deathDate) && (
+                    {(currentPerson.birthDate ||
+                      currentPerson.birthDateNote ||
+                      currentPerson.deathDate) && (
                       <div className="flex items-start space-x-3">
                         <Calendar className="w-4 h-4 text-muted-foreground mt-1" />
                         <div>
-                          {(person.birthDate || person.birthDateNote) && (
+                          {(currentPerson.birthDate ||
+                            currentPerson.birthDateNote) && (
                             <div className="flex items-center gap-2">
                               <p className="heritage-text">
                                 <span className="font-semibold">
                                   {t("person.born")}:
                                 </span>{" "}
                                 {formatDate(
-                                  person.birthDateNote || person.birthDate,
+                                  currentPerson.birthDateNote ||
+                                    currentPerson.birthDate,
                                   language
                                 )}
                               </p>
@@ -225,19 +239,19 @@ export default function PersonModal({
                                     />
                                   </TooltipTrigger>
                                   <TooltipContent>
-                                    <p>Zobacz akt urodzenia</p>
+                                    <p>{t("tooltip.viewBirthRecord")}</p>
                                   </TooltipContent>
                                 </Tooltip>
                               )}
                             </div>
                           )}
-                          {person.deathDate && (
+                          {currentPerson.deathDate && (
                             <div className="flex items-center gap-2">
                               <p className="heritage-text">
                                 <span className="font-semibold">
                                   {t("person.died")}:
                                 </span>{" "}
-                                {formatDate(person.deathDate, language)}
+                                {formatDate(currentPerson.deathDate, language)}
                               </p>
                               {deathEvent && (
                                 <Tooltip>
@@ -252,7 +266,7 @@ export default function PersonModal({
                                     />
                                   </TooltipTrigger>
                                   <TooltipContent>
-                                    <p>Zobacz akt zgonu</p>
+                                    <p>{t("tooltip.viewDeathRecord")}</p>
                                   </TooltipContent>
                                 </Tooltip>
                               )}
@@ -262,17 +276,14 @@ export default function PersonModal({
                       </div>
                     )}
 
-                    {person.marriages?.map((marriage) => {
+                    {currentPerson.marriages?.map((marriage, index) => {
                       const spouse = allPeople.find(
                         (p) => p.id === marriage.spouseId
                       );
                       if (!spouse) return null;
 
                       return (
-                        <div
-                          key={marriage.spouseId}
-                          className="flex items-start space-x-3"
-                        >
+                        <div key={index} className="flex items-start space-x-3">
                           <Heart className="w-4 h-4 text-muted-foreground mt-1" />
                           <div>
                             <p
@@ -303,7 +314,7 @@ export default function PersonModal({
                                       />
                                     </TooltipTrigger>
                                     <TooltipContent>
-                                      <p>Zobacz akt ślubu</p>
+                                      <p>{t("tooltip.viewMarriageRecord")}</p>
                                     </TooltipContent>
                                   </Tooltip>
                                 )}
@@ -333,34 +344,34 @@ export default function PersonModal({
                       </div>
                     )}
 
-                    {(person.birthTime || person.deathTime) && (
+                    {(currentPerson.birthTime || currentPerson.deathTime) && (
                       <div className="flex items-start space-x-3">
                         <Clock className="w-4 h-4 text-muted-foreground mt-1" />
                         <div>
-                          {person.birthTime && (
+                          {currentPerson.birthTime && (
                             <p className="heritage-text">
                               <span className="font-semibold">
                                 {t("person.birthTime")}:
                               </span>{" "}
-                              {formatTimeWithContext(person.birthTime)}
+                              {formatTimeWithContext(currentPerson.birthTime)}
                             </p>
                           )}
-                          {person.deathTime && (
+                          {currentPerson.deathTime && (
                             <p className="heritage-text">
                               <span className="font-semibold">
                                 {t("person.deathTime")}:
                               </span>{" "}
-                              {formatTimeWithContext(person.deathTime)}
+                              {formatTimeWithContext(currentPerson.deathTime)}
                             </p>
                           )}
                         </div>
                       </div>
                     )}
-                    {person.birthPlace && (
+                    {currentPerson.birthPlace && (
                       <div className="flex items-center space-x-3">
                         <MapPin className="w-4 h-4 text-muted-foreground" />
                         <span className="heritage-text">
-                          {t("person.bornIn")}: {person.birthPlace}
+                          {t("person.bornIn")}: {currentPerson.birthPlace}
                         </span>
                       </div>
                     )}
@@ -390,7 +401,7 @@ export default function PersonModal({
                       {t("person.anecdotes")}
                     </h4>
                     <div className="space-y-4">
-                      {person.anecdotes?.map(
+                      {currentPerson.anecdotes?.map(
                         (anecdote: Anecdote, index: number) => (
                           <blockquote
                             key={index}
@@ -470,7 +481,7 @@ export default function PersonModal({
         <KeepsakesModal
           isOpen={keepsakesModalOpen}
           onClose={() => setKeepsakesModalOpen(false)}
-          person={person}
+          person={currentPerson}
         />
       )}
     </>

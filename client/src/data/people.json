@@ -117,24 +117,42 @@
     "id": 5,
     "firstName": "Michał",
     "lastName": "Gierczak",
-    "birthDate": null,
-    "deathDate": "1854",
+    "birthDateNote": "ok. 1784 ?",
+    "deathDate": "1854-04-12",
+    "deathTime": "10:00",
     "photoUrl": null,
     "family": "gierczak",
-    "spouseIds": [],
+    "spouseIds": [147],
     "childIds": [],
     "parentIds": [1, 2],
     "biography": {
-      "pl": "Syn Tomasza i Zofii Gierczak.",
-      "en": "Son of Tomasz and Zofia Gierczak."
-    }
+      "pl": "Syn Tomasza i Zofii Gierczak. Jego żoną była Marianna z domu Gocman. Wiek podany w akcie zgonu (70 lat) jest prawdopodobnie zawyżony.",
+      "en": "Son of Tomasz and Zofia Gierczak. His wife was Marianna née Gocman. The age stated in his death record (70 years) is likely an overestimation."
+    },
+    "marriages": [
+      {
+        "spouseId": 147,
+        "date": "?"
+      }
+    ],
+    "events": [
+      {
+        "type": "death",
+        "date": "1854-04-12",
+        "place": "Jaszowice",
+        "source": {
+          "documentId": 55
+        }
+      }
+    ]
   },
   {
     "id": 6,
     "firstName": "Andrzej",
     "lastName": "Gierczak",
     "birthDate": "1811",
-    "deathDate": "1868",
+    "deathDate": "1868-08-29",
+    "deathTime": "13:00",
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [101],
@@ -150,9 +168,19 @@
       }
     ],
     "biography": {
-      "pl": "Syn nieżyjącego Tomasza i Zofii z Gielowskich. W dniu 26 listopada 1837 r. w parafii Cerekiew poślubił Teresę Pączek. W akcie ślubu podano, że miał 26 lat.",
-      "en": "Son of the late Tomasz and Zofia née Gielowska. On November 26, 1837, in the Cerekiew parish, he married Teresa Pączek. The marriage record states he was 26 years old."
-    }
+      "pl": "Syn nieżyjącego Tomasza i Zofii z Gielowskich. W dniu 26 listopada 1837 r. w parafii Cerekiew poślubił Teresę Pączek. W akcie ślubu podano, że miał 26 lat. Zmarł w Chruślicach w wieku 57 lat.",
+      "en": "Son of the late Tomasz and Zofia née Gielowska. On November 26, 1837, in the Cerekiew parish, he married Teresa Pączek. The marriage record states he was 26 years old. He died in Chruślice at the age of 57."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1868-08-29",
+        "place": "Chruślice",
+        "source": {
+          "documentId": 61
+        }
+      }
+    ]
   },
   {
     "id": 8,
@@ -268,12 +296,15 @@
     "marriages": [
       {
         "spouseId": 22,
-        "date": "1887"
+        "date": "1887-02-14",
+        "source": {
+          "documentId": 27
+        }
       }
     ],
     "biography": {
-      "pl": "Syn Karola i Tekli. Pojął za żonę w 1887 Katarzynę Czerwińską. Mieli 10 dzieci. Był dziadkiem Józefa ur. w 1930.",
-      "en": "Son of Karol and Tekla. He married Katarzyna Czerwińska in 1887. They had 10 children. He was the grandfather of Józef, born in 1930."
+      "pl": "Syn Karola i Tekli. W wieku 20 lat, 14 lutego 1887 roku, pojął za żonę Katarzynę Czerwińską. Mieli 10 dzieci. Był dziadkiem Józefa ur. w 1930. Mieszkali w Mleczkowie.",
+      "en": "Son of Karol and Tekla. At the age of 20, on February 14, 1887, he married Katarzyna Czerwińska. They had 10 children. He was the grandfather of Józef, born in 1930. They lived in Mleczków."
     },
     "events": [
       {
@@ -291,6 +322,7 @@
     "firstName": "Katarzyna",
     "lastName": "Gierczak",
     "maidenName": "Czerwińska",
+    "birthDateNote": "ok. 1868",
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [19],
@@ -299,12 +331,15 @@
     "marriages": [
       {
         "spouseId": 19,
-        "date": "1887"
+        "date": "1887-02-14",
+        "source": {
+          "documentId": 27
+        }
       }
     ],
     "biography": {
-      "pl": "Żona Pawła. Rodzicami Katarzyny byli Mateusz i Marianna Kieraga.",
-      "en": "Wife of Paweł. Katarzyna's parents were Mateusz and Marianna Kieraga."
+      "pl": "Żona Pawła. Rodzicami Katarzyny byli Mateusz i Marianna z domu Kieraga. Wyszła za mąż w wieku 19 lat.",
+      "en": "Wife of Paweł. Katarzyna's parents were Mateusz and Marianna née Kieraga. She married at the age of 19."
     }
   },
   {
@@ -485,7 +520,7 @@
     "lastName": "Ofiara",
     "birthDate": "1896",
     "deathDate": "1968-06-17",
-    "photoUrl": null,
+    "photoUrl": "/images/jo.avif",
     "family": "ofiara",
     "spouseIds": [47, 46],
     "childIds": [92, 93, 94, 95, 96, 97, 98, 41, 99],
@@ -682,6 +717,7 @@
     "firstName": "Józefa",
     "lastName": "Wieracha",
     "maidenName": "Gierczak",
+    "birthDateNote": "ok. 1821",
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [102],
@@ -690,12 +726,15 @@
     "marriages": [
       {
         "spouseId": 102,
-        "date": "1841"
+        "date": "1841-02-16",
+        "source": {
+          "documentId": 11
+        }
       }
     ],
     "biography": {
-      "pl": "Córka Ambrożego i Kunegundy. W 1841 wyszła za mąż za Józefa Wierachę.",
-      "en": "Daughter of Ambroży and Kunegunda. In 1841, she married Józef Wieracha."
+      "pl": "Córka Ambrożego i Kunegundy. W 1841 wyszła za mąż za Józefa Wierachę, komornika, czyli robotnika rolnego bez ziemi, miała wówczas 20 lat.",
+      "en": "Daughter of Ambroży and Kunegunda. In 1841, she married Józef Wieracha, a komornik—a landless agricultural laborer. She was 20 years old at the time."
     }
   },
   {
@@ -703,8 +742,9 @@
     "firstName": "Jadwiga",
     "lastName": "Kornafel",
     "maidenName": "Gierczak",
-    "birthDate": null,
-    "deathDate": "1884",
+    "birthDateNote": "ok. 1824",
+    "deathDate": "1884-02-18",
+    "deathTime": "8:00",
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [103],
@@ -717,32 +757,57 @@
       }
     ],
     "biography": {
-      "pl": "Córka Ambrożego i Kunegundy. W 1842 poślubiła Franciszka Kornafela.",
-      "en": "Daughter of Ambroży and Kunegunda. In 1842, she married Franciszek Kornafel."
-    }
+      "pl": "Córka Ambrożego i Kunegundy. W 1842 poślubiła Franciszka Kornafela. Zmarła w Milejowicach.",
+      "en": "Daughter of Ambroży and Kunegunda. In 1842, she married Franciszek Kornafel. She died in Milejowice."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1884-02-18",
+        "place": "Milejowice",
+        "source": {
+          "documentId": 38
+        }
+      }
+    ]
   },
   {
     "id": 61,
     "firstName": "Marianna",
-    "lastName": "Stępień",
+    "lastName": "Ślifirczyk",
     "maidenName": "Gierczak",
     "birthDate": "1833",
-    "deathDate": null,
+    "deathDate": "1875-01-15",
+    "deathTime": "8:00",
     "photoUrl": null,
     "family": "gierczak",
-    "spouseIds": [104],
+    "spouseIds": [104, 148],
     "childIds": [],
     "parentIds": [4, 8],
     "marriages": [
       {
         "spouseId": 104,
         "date": "1852"
+      },
+      {
+        "spouseId": 148,
+        "date": "?"
       }
     ],
     "biography": {
-      "pl": "Córka Ambrożego i Kunegundy. W 1852 wyszła za mąż za Antoniego Stępnia.",
-      "en": "Daughter of Ambroży and Kunegunda. In 1852, she married Antoni Stępień."
-    }
+      "pl": "Córka Ambrożego i Kunegundy. Wyszła za mąż za Antoniego Stępnia w 1852 roku. W akcie zgonu z 1875 roku jako jej mąż (wdowiec) figuruje Antoni Ślifirczyk.",
+      "en": "Daughter of Ambroży and Kunegunda. She married Antoni Stępień in 1852. In her 1875 death record, Antoni Ślifirczyk is listed as her husband (widower)."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1875-01-15",
+        "place": "Jaszowice",
+        "source": {
+          "documentId": 9
+        }
+      }
+    ]
   },
   {
     "id": 62,
@@ -765,7 +830,8 @@
     "firstName": "Kacper",
     "lastName": "Gierczak",
     "birthDate": "1826",
-    "deathDate": "1903",
+    "deathDate": "1903-12-15",
+    "deathTime": "9:00",
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [105, 106],
@@ -782,9 +848,19 @@
       }
     ],
     "biography": {
-      "pl": "Syn Ambrożego i Kunegundy. Pierwszą żoną była Marianna Moskwa, z którą miał dwoje dzieci. Po jej śmierci, w 1893 ożenił się z wdową Franciszką Mortką.",
-      "en": "Son of Ambroży and Kunegunda. His first wife was Marianna Moskwa, with whom he had two children. After her death, in 1893, he married the widow Franciszka Mortka."
-    }
+      "pl": "Syn Ambrożego i Kunegundy. Pierwszą żoną była Marianna Moskwa, z którą miał dwoje dzieci. Po jej śmierci, w 1893 ożenił się z wdową Franciszką Mortką z domu Skop.",
+      "en": "Son of Ambroży and Kunegunda. His first wife was Marianna Moskwa, with whom he had two children. After her death, in 1893, he married the widow Franciszka Mortka née Skop."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1903-12-15",
+        "place": "Jaszowice",
+        "source": {
+          "documentId": 127
+        }
+      }
+    ]
   },
   {
     "id": 64,
@@ -853,17 +929,34 @@
   {
     "id": 68,
     "firstName": "Antonina",
-    "lastName": "Gierczak",
+    "lastName": "Jurczak",
+    "maidenName": "Gierczak",
     "birthDate": "1869",
     "deathDate": null,
-    "photoUrl": null,
+    "photoUrl": "/images/antonina.avif",
     "family": "gierczak",
-    "spouseIds": [],
+    "spouseIds": [149, 150],
     "childIds": [],
     "parentIds": [13, 18],
+    "marriages": [
+      {
+        "spouseId": 149,
+        "date": "1886-02-21",
+        "source": {
+          "documentId": 12
+        }
+      },
+      {
+        "spouseId": 150,
+        "date": "1906-01-22",
+        "source": {
+          "documentId": 10
+        }
+      }
+    ],
     "biography": {
-      "pl": "Córka Karola i Tekli.",
-      "en": "Daughter of Karol and Tekla."
+      "pl": "Córka Karola i Tekli. W wieku 17 lat wyszła za mąż za Stanisława Mitaka. Po jego śmierci, jako wdowa, w 1906 roku poślubiła Jana Jurczaka.",
+      "en": "Daughter of Karol and Tekla. At the age of 17, she married Stanisław Mitak. After his death, as a widow, she married Jan Jurczak in 1906."
     }
   },
   {
@@ -1558,7 +1651,7 @@
     "id": 106,
     "firstName": "Franciszka",
     "lastName": "Gierczak",
-    "maidenName": "Mortka z d. Indrzejoska",
+    "maidenName": "Skop (primo voto Mortka)",
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [63],
@@ -1571,8 +1664,8 @@
       }
     ],
     "biography": {
-      "pl": "Druga żona Kacpra Gierczaka, którą poślubił jako wdowiec w 1893 roku.",
-      "en": "Second wife of Kacper Gierczak, whom he married as a widower in 1893."
+      "pl": "Druga żona Kacpra Gierczaka. Jej nazwisko panieńskie to Skop. Wyszła za niego za mąż jako wdowa po Mortce.",
+      "en": "Second wife of Kacper Gierczak. Her maiden name was Skop. She married him as a widow after Mortka."
     }
   },
   {
@@ -2332,6 +2425,101 @@
     "biography": {
       "pl": "Żona Szymona Mitaka, matka Michała Mitaka.",
       "en": "Wife of Szymon Mitak, mother of Michał Mitak."
+    }
+  },
+  {
+    "id": 147,
+    "firstName": "Marianna",
+    "lastName": "Gierczak",
+    "maidenName": "Gocman",
+    "birthDate": null,
+    "deathDate": null,
+    "photoUrl": null,
+    "family": "gierczak",
+    "spouseIds": [5],
+    "childIds": [],
+    "parentIds": [],
+    "marriages": [
+      {
+        "spouseId": 5,
+        "date": "?"
+      }
+    ],
+    "biography": {
+      "pl": "Żona Michała Gierczaka. W akcie zgonu męża z 1854 roku figuruje jako wdowa.",
+      "en": "Wife of Michał Gierczak. She is listed as a widow in her husband's 1854 death record."
+    }
+  },
+  {
+    "id": 148,
+    "firstName": "Antoni",
+    "lastName": "Ślifirczyk",
+    "birthDateNote": "ok. 1827",
+    "deathDate": null,
+    "photoUrl": null,
+    "family": "gierczak",
+    "spouseIds": [61],
+    "childIds": [],
+    "parentIds": [],
+    "marriages": [
+      {
+        "spouseId": 61,
+        "date": "1852"
+      }
+    ],
+    "biography": {
+      "pl": "Mąż Marianny z domu Gierczak. W 1875 roku zgłaszał jej zgon, miał wtedy 48 lat.",
+      "en": "Husband of Marianna née Gierczak. In 1875, he reported her death, being 48 years old at the time."
+    }
+  },
+  {
+    "id": 149,
+    "firstName": "Stanisław",
+    "lastName": "Mitak",
+    "birthDateNote": "ok. 1864",
+    "deathDate": null,
+    "photoUrl": null,
+    "family": "gierczak",
+    "spouseIds": [68],
+    "childIds": [],
+    "parentIds": [145, 146],
+    "marriages": [
+      {
+        "spouseId": 68,
+        "date": "1886-02-21",
+        "source": {
+          "documentId": 12
+        }
+      }
+    ],
+    "biography": {
+      "pl": "Mąż Antoniny z domu Gierczak. W chwili ślubu w 1886 roku miał 22 lata.",
+      "en": "Husband of Antonina née Gierczak. At the time of his marriage in 1886, he was 22 years old."
+    }
+  },
+  {
+    "id": 150,
+    "firstName": "Jan",
+    "lastName": "Jurczak",
+    "birthDateNote": "ok. 1881",
+    "deathDate": null,
+    "photoUrl": null,
+    "family": "gierczak",
+    "spouseIds": [68],
+    "childIds": [],
+    "parentIds": [],
+    "marriages": [
+      {
+        "spouseId": 68,
+        "date": "1906-01-22",
+        "source": {
+          "documentId": 10
+        }
+      }
+    ],
+    "biography": {
+      "pl": "Drugi mąż Antoniny z domu Gierczak (wtedy wdowy po Stanisławie Mitaku). W chwili ślubu w 1906 roku miał 25 lat.",
+      "en": "Second husband of Antonina née Gierczak (then a widow after Stanisław Mitak). At the time of his marriage in 1906, he was 25 years old."
     }
   }
 ]
