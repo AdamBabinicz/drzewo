@@ -1,6 +1,14 @@
 import { useState } from "react";
 import Lightbox, { type Slide } from "yet-another-react-lightbox";
+// 1. IMPORTUJ WTYCZKI
+import Captions from "yet-another-react-lightbox/plugins/captions";
+import Fullscreen from "yet-another-react-lightbox/plugins/fullscreen";
+import Zoom from "yet-another-react-lightbox/plugins/zoom";
+
+// 2. IMPORTUJ STYLE DLA LIGHTBOXA I WTYCZEK
 import "yet-another-react-lightbox/styles.css";
+import "yet-another-react-lightbox/plugins/captions.css";
+
 import {
   Dialog,
   DialogContent,
@@ -14,9 +22,10 @@ import { X } from "lucide-react";
 import { useLanguage } from "@/hooks/useLanguage";
 import { Person, Keepsake } from "../../../../shared/schema";
 
-type CustomSlide = Slide & {
-  customTitle?: string;
-  customDescription?: string;
+// Już nie potrzebujemy CustomSlide, bo biblioteka sama obsłuży tytuł i opis
+// Wystarczy nam rozszerzenie typu Slide o opcjonalny opis
+type SlideWithDescription = Slide & {
+  description?: string;
 };
 
 interface KeepsakesModalProps {
@@ -37,7 +46,7 @@ export default function KeepsakesModal({
   const getDynamicText = (
     field: { pl: string; en: string } | string | null | undefined
   ) => {
-    if (!field) return null;
+    if (!field) return ""; // Zwróć pusty string zamiast null dla bezpieczeństwa
     if (typeof field === "object" && field !== null && "pl" in field) {
       return field[language as keyof typeof field] || field.pl;
     }
@@ -52,11 +61,15 @@ export default function KeepsakesModal({
     setLightboxOpen(true);
   };
 
-  const lightboxSlides: CustomSlide[] = keepsakes.map((k: Keepsake) => ({
-    src: k.imageUrl,
-    customTitle: getDynamicText(k.title) || undefined,
-    customDescription: getDynamicText(k.description) || undefined,
-  }));
+  // 3. DOSTOSUJ DANE DO FORMATU OCZEKIWANEGO PRZEZ WTYCZKĘ CAPTIONS
+  const lightboxSlides: SlideWithDescription[] = keepsakes.map(
+    (k: Keepsake) => ({
+      src: k.imageUrl,
+      // Wtyczka Captions używa pól `title` i `description`
+      title: getDynamicText(k.title),
+      description: getDynamicText(k.description),
+    })
+  );
 
   return (
     <>
@@ -84,7 +97,7 @@ export default function KeepsakesModal({
                   <div className="overflow-hidden rounded-md mb-3 aspect-square">
                     <img
                       src={keepsake.imageUrl}
-                      alt={getDynamicText(keepsake.title) || ""}
+                      alt={getDynamicText(keepsake.title)}
                       className="w-full h-full object-contain transition-transform duration-300 group-hover:scale-110"
                       loading="lazy"
                     />
@@ -106,47 +119,22 @@ export default function KeepsakesModal({
         </DialogContent>
       </Dialog>
 
+      {/* 4. ZAKTUALIZUJ KOMPONENT LIGHTBOX */}
       <Lightbox
-        className="custom-lightbox"
+        // Dodaj wtyczki - to jest kluczowa zmiana
+        plugins={[Captions, Fullscreen, Zoom]}
         open={lightboxOpen}
         close={() => setLightboxOpen(false)}
         slides={lightboxSlides}
         index={lightboxIndex}
-        // ZMIANA TUTAJ: Dodajemy właściwość, aby wyłączyć zapętlanie
         carousel={{ finite: true }}
         controller={{ closeOnBackdropClick: true }}
-        render={{
-          slide: ({ slide }) => {
-            const customSlide = slide as CustomSlide;
-            return (
-              <div className="relative w-full h-full">
-                <div className="w-full h-full flex items-center justify-center p-4">
-                  <img
-                    alt={customSlide.customTitle || ""}
-                    src={customSlide.src}
-                    className="max-h-full max-w-full object-contain"
-                  />
-                </div>
-                {(customSlide.customTitle || customSlide.customDescription) && (
-                  <div className="absolute bottom-0 left-0 w-full p-8 text-center text-white bg-gradient-to-t from-black/80 to-transparent pointer-events-none">
-                    <div className="max-w-full md:max-w-[50vw] mx-auto">
-                      {customSlide.customTitle && (
-                        <h3 className="font-serif text-xl font-semibold leading-tight">
-                          {customSlide.customTitle}
-                        </h3>
-                      )}
-                      {customSlide.customDescription && (
-                        <p className="mt-2 text-base opacity-90">
-                          {customSlide.customDescription}
-                        </p>
-                      )}
-                    </div>
-                  </div>
-                )}
-              </div>
-            );
-          },
+        // Konfiguracja wtyczki Captions
+        captions={{
+          descriptionTextAlign: "center",
+          descriptionMaxLines: 5, // Możesz dostosować
         }}
+        // Usuń całą sekcję `render`, która powodowała problem
       />
     </>
   );
