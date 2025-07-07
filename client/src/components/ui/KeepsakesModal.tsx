@@ -53,9 +53,9 @@ export default function KeepsakesModal({
   if (keepsakes.length === 0) return null;
 
   const handleImageClick = (index: number) => {
-    // Ustawiamy indeks TYLKO RAZ, przed otwarciem
     setLightboxIndex(index);
     setLightboxOpen(true);
+    onClose(); // Zamknij dialog, aby uniknąć konfliktu modali
   };
 
   const lightboxSlides: SlideWithDescription[] = keepsakes.map(
@@ -116,12 +116,15 @@ export default function KeepsakesModal({
 
       {lightboxOpen && (
         <Lightbox
+          // ***** OSTATECZNE ROZWIĄZANIE *****
+          // Nadanie klucza `key` sprawi, że React zniszczy i stworzy na nowo komponent przy każdej zmianie indeksu,
+          // co gwarantuje czysty stan i brak konfliktów.
+          key={lightboxIndex}
           className="custom-lightbox"
           plugins={[Captions, Fullscreen, Zoom]}
           open={lightboxOpen}
           close={() => setLightboxOpen(false)}
           slides={lightboxSlides}
-          // Ten prop ustawi slajd startowy
           index={lightboxIndex}
           carousel={{ finite: true }}
           controller={{ closeOnBackdropClick: true }}
@@ -129,7 +132,10 @@ export default function KeepsakesModal({
             descriptionTextAlign: "center",
             descriptionMaxLines: 5,
           }}
-          // CAŁKOWICIE USUWAMY WŁAŚCIWOŚĆ 'on', ABY ZAKOŃCZYĆ KONFLIKT
+          // Callback `on.view` jest potrzebny, aby aktualizować nasz `key`
+          on={{
+            view: ({ index: currentIndex }) => setLightboxIndex(currentIndex),
+          }}
         />
       )}
     </>
