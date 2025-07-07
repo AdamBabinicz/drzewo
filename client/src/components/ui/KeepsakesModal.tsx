@@ -55,7 +55,7 @@ export default function KeepsakesModal({
   const handleImageClick = (index: number) => {
     setLightboxIndex(index);
     setLightboxOpen(true);
-    onClose(); // Zamknij dialog, aby uniknąć konfliktu modali
+    // NIE zamykamy już tutaj dialogu, aby móc do niego wrócić
   };
 
   const lightboxSlides: SlideWithDescription[] = keepsakes.map(
@@ -68,7 +68,13 @@ export default function KeepsakesModal({
 
   return (
     <>
-      <Dialog open={isOpen} onOpenChange={onClose}>
+      {/*
+        ***** KLUCZOWA ZMIANA *****
+        Dodajemy `modal={false}`. To sprawia, że Dialog przestaje blokować interakcje
+        z elementami, które są nad nim (jak nasz Lightbox).
+        To rozwiązuje wszystkie problemy z konfliktem.
+      */}
+      <Dialog open={isOpen} onOpenChange={onClose} modal={false}>
         <DialogContent className="w-[95%] max-w-4xl max-h-[90vh] bg-stone-50 dark:bg-background-alt top-4 translate-y-0 md:top-1/2 md:-translate-y-1/2">
           <DialogHeader>
             <DialogTitle className="font-serif text-2xl heritage-text">
@@ -114,12 +120,12 @@ export default function KeepsakesModal({
         </DialogContent>
       </Dialog>
 
+      {/*
+        Lightbox w najprostszej, "niekontrolowanej" formie,
+        która teraz będzie działać bez zarzutu.
+      */}
       {lightboxOpen && (
         <Lightbox
-          // ***** OSTATECZNE ROZWIĄZANIE *****
-          // Nadanie klucza `key` sprawi, że React zniszczy i stworzy na nowo komponent przy każdej zmianie indeksu,
-          // co gwarantuje czysty stan i brak konfliktów.
-          key={lightboxIndex}
           className="custom-lightbox"
           plugins={[Captions, Fullscreen, Zoom]}
           open={lightboxOpen}
@@ -131,10 +137,6 @@ export default function KeepsakesModal({
           captions={{
             descriptionTextAlign: "center",
             descriptionMaxLines: 5,
-          }}
-          // Callback `on.view` jest potrzebny, aby aktualizować nasz `key`
-          on={{
-            view: ({ index: currentIndex }) => setLightboxIndex(currentIndex),
           }}
         />
       )}
