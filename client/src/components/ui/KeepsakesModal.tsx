@@ -53,6 +53,7 @@ export default function KeepsakesModal({
   if (keepsakes.length === 0) return null;
 
   const handleImageClick = (index: number) => {
+    // Ustawiamy indeks TYLKO RAZ, przed otwarciem
     setLightboxIndex(index);
     setLightboxOpen(true);
   };
@@ -115,12 +116,12 @@ export default function KeepsakesModal({
 
       {lightboxOpen && (
         <Lightbox
-          // ***** KLUCZOWA ZMIANA: UŻYWAMY KLASY CSS ZAMIAST STYLÓW INLINE *****
-          className="heritage-lightbox"
+          className="custom-lightbox"
           plugins={[Captions, Fullscreen, Zoom]}
           open={lightboxOpen}
           close={() => setLightboxOpen(false)}
           slides={lightboxSlides}
+          // Ten prop ustawi slajd startowy
           index={lightboxIndex}
           carousel={{ finite: true }}
           controller={{ closeOnBackdropClick: true }}
@@ -128,6 +129,7 @@ export default function KeepsakesModal({
             descriptionTextAlign: "center",
             descriptionMaxLines: 5,
           }}
+          // CAŁKOWICIE USUWAMY WŁAŚCIWOŚĆ 'on', ABY ZAKOŃCZYĆ KONFLIKT
         />
       )}
     </>
