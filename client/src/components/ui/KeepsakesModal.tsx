@@ -55,7 +55,6 @@ export default function KeepsakesModal({
   const handleImageClick = (index: number) => {
     setLightboxIndex(index);
     setLightboxOpen(true);
-    // NIE zamykamy już tutaj dialogu, aby móc do niego wrócić
   };
 
   const lightboxSlides: SlideWithDescription[] = keepsakes.map(
@@ -69,13 +68,18 @@ export default function KeepsakesModal({
   return (
     <>
       {/*
-        ***** KLUCZOWA ZMIANA *****
-        Dodajemy `modal={false}`. To sprawia, że Dialog przestaje blokować interakcje
-        z elementami, które są nad nim (jak nasz Lightbox).
-        To rozwiązuje wszystkie problemy z konfliktem.
+        KROK 1: Ustawiamy Dialog w tryb "niemodalny", aby nie blokował zdarzeń dotykowych Lightboxa (naprawia swipe).
       */}
       <Dialog open={isOpen} onOpenChange={onClose} modal={false}>
-        <DialogContent className="w-[95%] max-w-4xl max-h-[90vh] bg-stone-50 dark:bg-background-alt top-4 translate-y-0 md:top-1/2 md:-translate-y-1/2">
+        <DialogContent
+          // KROK 2: Blokujemy zamknięcie Dialogu po kliknięciu na tło Lightboxa.
+          onInteractOutside={(e) => {
+            if (lightboxOpen) {
+              e.preventDefault();
+            }
+          }}
+          className="w-[95%] max-w-4xl max-h-[90vh] bg-stone-50 dark:bg-background-alt top-4 translate-y-0 md:top-1/2 md:-translate-y-1/2"
+        >
           <DialogHeader>
             <DialogTitle className="font-serif text-2xl heritage-text">
               {t("keepsakes.modal.title", {
@@ -120,10 +124,6 @@ export default function KeepsakesModal({
         </DialogContent>
       </Dialog>
 
-      {/*
-        Lightbox w najprostszej, "niekontrolowanej" formie,
-        która teraz będzie działać bez zarzutu.
-      */}
       {lightboxOpen && (
         <Lightbox
           className="custom-lightbox"
