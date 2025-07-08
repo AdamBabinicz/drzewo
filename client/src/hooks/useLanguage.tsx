@@ -1,10 +1,10 @@
-import { createContext, useContext, useState } from "react";
+import { createContext, useContext, useState, ReactNode } from "react";
 import { useLocation } from "wouter";
 
 type Language = "pl" | "en";
 
 type LanguageProviderProps = {
-  children: React.ReactNode;
+  children: ReactNode;
   defaultLanguage?: Language;
 };
 
@@ -15,6 +15,7 @@ type LanguageProviderState = {
   p: (key: string) => string;
 };
 
+// WAŻNA ZMIANA: Znika "as const" na końcu
 const translations = {
   pl: {
     "nav.title": "Korzenie rodu Gierczak i Ofiara",
@@ -30,14 +31,11 @@ const translations = {
     "nav.toggleLanguage": "Zmień język",
     "nav.openMenu": "Otwórz menu nawigacji",
     "nav.scrollToTop": "Przewiń do góry",
-
     "theme.light": "Jasny",
     "theme.dark": "Ciemny",
     "theme.system": "System",
-
     "family.gierczak": "Ród Gierczaków",
     "family.ofiara": "Ród Ofiarów",
-
     "home.title": "Historia Rodów Chłopskich",
     "home.subtitle": "Gierczak i Ofiara",
     "home.seo_title":
@@ -70,7 +68,6 @@ const translations = {
     "home.explore.gallery.title": "Galeria",
     "home.explore.gallery.desc":
       "Zdjęcia, dokumenty i miejsca związane z rodzinami",
-
     "tree.title": "Interaktywne Drzewo Genealogiczne",
     "tree.subtitle":
       "Eksploruj powiązania rodzinne. Kliknij na osobę, aby zobaczyć szczegóły",
@@ -78,7 +75,6 @@ const translations = {
     "tree.legend.descendants": "Potomkowie",
     "tree.legend.marriages": "Małżeństwa",
     "tree.viewFilters": "Filtry widoku",
-
     "index.title": "Indeks Osób",
     "index.subtitle":
       "Alfabetyczny spis wszystkich osób w bazie genealogicznej",
@@ -92,7 +88,6 @@ const translations = {
       "Spróbuj zmienić kryteria wyszukiwania lub wyczyść filtry.",
     "index.noResults.cta": "Wyczyść filtry",
     "index.showMore": "Pokaż więcej osób",
-
     "gallery.title": "Galeria Rodzinna",
     "gallery.subtitle":
       "Portrety, dokumenty i miejsca związane z historią rodzin.",
@@ -102,10 +97,11 @@ const translations = {
     "gallery.filter.places": "Miejsca",
     "gallery.results": "{count} elementów",
     "gallery.zoom": "Powiększ",
+    "gallery.showMore": "Pokaż więcej",
+    "gallery.showLess": "Pokaż mniej",
     "gallery.noResults.title": "Brak zdjęć w tej kategorii",
     "gallery.noResults.desc": "Wybierz inną kategorię, aby zobaczyć zdjęcia.",
     "gallery.noResults.cta": "Pokaż wszystkie",
-
     "gallery.item.portrait-1.title": "Portret rodzinny",
     "gallery.item.portrait-1.desc":
       "Na odwrocie fotografii podpis ołówkiem Emilija Sobień",
@@ -134,7 +130,9 @@ const translations = {
     "gallery.item.place-3.title": "Stary cmentarz w Zakrzowie (Zakrzewie)",
     "gallery.item.place-3.desc":
       "Miejsce spoczynku przodków ze strony babci Heleny, grób prababci Ewy i pradziadka Karola",
-
+    "gallery.item.place-4.title": "Wnętrze chaty chłopskiej",
+    "gallery.item.place-4.desc":
+      "Przykładowe wyposażenie izby, w jakiej mogli mieszkać przodkowie z rodów Gierczak i Ofiara.",
     "sources.title": "Źródła i Bibliografia",
     "sources.subtitle":
       "Dokumentacja źródeł wykorzystanych w badaniach genealogicznych.",
@@ -182,7 +180,6 @@ const translations = {
       "„Rody szlacheckie ziemi radomskiej”, D. Kupisz, 2009",
     "sources.section.literature.item3":
       "„Wieś Radomska”, cykl periodyczny, tomy z różnych lat, Muzeum Wsi Radomskiej",
-
     "familyBranch.history.title": "Historia rodu",
     "familyBranch.history.places": "Główne miejscowości",
     "familyBranch.history.membersInDb": "osób w bazie",
@@ -197,7 +194,6 @@ const translations = {
     "familyBranch.etymology.title": "Pochodzenie nazwiska",
     "familyBranch.progenitorTitle": "Protoplasta Rodu",
     "familyBranch.descendantsTitle": "Potomkowie",
-
     "familyBranch.etymology.gierczak.h1": "Budowa morfologiczna",
     "familyBranch.etymology.gierczak.p1":
       "Nazwisko Gierczak ma typową dla języka polskiego, dwuczłonową budowę: Podstawa (rdzeń): Gier- i Formant (sufiks): -czak.",
@@ -228,7 +224,6 @@ const translations = {
       'Nazwisko Gierczak jest z największym prawdopodobieństwem nazwiskiem patronimicznym, utworzonym od skróconej formy spolszczonego imienia germańskiego, najpewniej Gierard. Pierwotne znaczenie to "syn Gierarda".',
     "familyBranch.etymology.gierczak.l1": "Podstawa (rdzeń): Gier-",
     "familyBranch.etymology.gierczak.l2": "Formant (sufiks): -czak",
-
     "familyBranch.etymology.ofiara.h1": "Budowa morfologiczna",
     "familyBranch.etymology.ofiara.p1":
       "Nazwisko Ofiara ma najprostszą możliwą strukturę – jest to tzw. nazwisko odapelatywne niemodyfikowane. Jego forma jest identyczna z rzeczownikiem pospolitym, od którego pochodzi, bez dodawania jakichkolwiek formantów. Taka budowa jest typowa dla jednej z najstarszych warstw nazwisk polskich.",
@@ -251,7 +246,6 @@ const translations = {
     "familyBranch.etymology.ofiara.h7": "Podsumowanie",
     "familyBranch.etymology.ofiara.p7":
       "Nazwisko Ofiara pochodzi bezpośrednio od rzeczownika pospolitego. Najbardziej prawdopodobna motywacja nadania takiego przezwiska była związana z cechą charakteru lub losem pierwszego nosiciela – osoby postrzeganej jako pechowa, niezaradna lub pokrzywdzona przez los.",
-
     "person.born": "ur.",
     "person.bornIn": "Ur.",
     "person.died": "zm.",
@@ -271,17 +265,13 @@ const translations = {
     "person.keepsakes": "Pamiątki",
     "person.hasKeepsakesDesc": "Zobacz kolekcję pamiątkowych przedmiotów",
     "time.morning": "rano",
-
     "familyUnit.parents": "Rodzice",
     "familyUnit.children": "Dzieci",
-
     "keepsakes.modal.title": "Pamiątki po {name}",
     "keepsakes.close": "Zamknij",
-
     "tooltip.viewBirthRecord": "Zobacz akt urodzenia",
     "tooltip.viewDeathRecord": "Zobacz akt zgonu",
     "tooltip.viewMarriageRecord": "Zobacz akt ślubu",
-
     "footer.title": "Korzenie rodu",
     "footer.description":
       "Cyfrowe archiwum i interaktywne drzewo genealogiczne rodów Gierczak i Ofiara z okolic Radomia.",
@@ -304,7 +294,6 @@ const translations = {
     "footer.social.x": "Odwiedź nasz profil na X (dawniej Twitter)",
     "footer.social.github": "Zobacz nasz projekt na GitHubie",
     "footer.social.instagram": "Obserwuj nas na Instagramie",
-
     "terms.title": "Regulamin Strony",
     "terms.lastUpdated": "Ostatnia aktualizacja: {date}",
     "terms.section1.title": "1. Postanowienia ogólne",
@@ -332,7 +321,6 @@ const translations = {
       "Autor zastrzega sobie prawo do wprowadzania zmian w regulaminie. Wszelkie zmiany będą publikowane na tej stronie.",
     "terms.section5.p2":
       "W sprawach nieuregulowanych niniejszym regulaminem, a także w celu zgłoszenia uwag lub prośby o korektę danych, prosimy o kontakt mailowy pod adresem podanym w stopce strony.",
-
     "privacy.title": "Polityka Prywatności",
     "privacy.lastUpdated": "Ostatnia aktualizacja: {date}",
     "privacy.section1.title": "1. Administrator danych",
@@ -354,7 +342,6 @@ const translations = {
     "privacy.section5.title": "5. Udostępnianie danych",
     "privacy.section5.p1":
       "Dane zgromadzone na stronie nie są i nie będą udostępniane podmiotom trzecim w celach komercyjnych. Celem projektu jest wyłącznie zachowanie i dzielenie się historią rodziny.",
-
     paths: {
       home: "/",
       tree: "/drzewo",
@@ -380,14 +367,11 @@ const translations = {
     "nav.toggleLanguage": "Change language",
     "nav.openMenu": "Open navigation menu",
     "nav.scrollToTop": "Scroll to top",
-
     "theme.light": "Light",
     "theme.dark": "Dark",
     "theme.system": "System",
-
     "family.gierczak": "Gierczak Family",
     "family.ofiara": "Ofiara Family",
-
     "home.title": "History of Peasant Families",
     "home.subtitle": "Gierczak & Ofiara",
     "home.seo_title":
@@ -420,7 +404,6 @@ const translations = {
     "home.explore.gallery.title": "Gallery",
     "home.explore.gallery.desc":
       "Photos, documents, and places related to the families",
-
     "tree.title": "Interactive Genealogical Tree",
     "tree.subtitle":
       "Explore family connections. Click on a person to see details",
@@ -428,7 +411,6 @@ const translations = {
     "tree.legend.descendants": "Descendants",
     "tree.legend.marriages": "Marriages",
     "tree.viewFilters": "View Filters",
-
     "index.title": "Person Index",
     "index.subtitle":
       "Alphabetical list of all people in the genealogical database",
@@ -442,7 +424,6 @@ const translations = {
       "Try changing the search criteria or clearing the filters.",
     "index.noResults.cta": "Clear filters",
     "index.showMore": "Show more people",
-
     "gallery.title": "Family Gallery",
     "gallery.subtitle":
       "Portraits, documents, and places related to the family history.",
@@ -452,10 +433,11 @@ const translations = {
     "gallery.filter.places": "Places",
     "gallery.results": "{count} items",
     "gallery.zoom": "Zoom",
+    "gallery.showMore": "Show More",
+    "gallery.showLess": "Show Less",
     "gallery.noResults.title": "No images in this category",
     "gallery.noResults.desc": "Please select another category to view images.",
     "gallery.noResults.cta": "Show all",
-
     "gallery.item.portrait-1.title": "Family Portrait",
     "gallery.item.portrait-1.desc":
       "On the back of the photograph there is a pencil signature by Emilija Sobień",
@@ -488,7 +470,9 @@ const translations = {
     "gallery.item.place-3.title": "Old cemetery in Zakrzów (Zakrzew)",
     "gallery.item.place-3.desc":
       "Resting place of ancestors from grandmother Helena's side, grave of great-grandmother Ewa and great-grandfather Karol",
-
+    "gallery.item.place-4.title": "Interior of a Peasant Cottage",
+    "gallery.item.place-4.desc":
+      "An example of the furnishings of a room in which the ancestors of the Gierczak and Ofiara families might have lived.",
     "sources.title": "Sources and Bibliography",
     "sources.subtitle":
       "Documentation of sources used in genealogical research.",
@@ -536,7 +520,6 @@ const translations = {
       "“Noble Families of the Radom Land”, D. Kupisz, 2009",
     "sources.section.literature.item3":
       "“Wieś Radomska” (periodical series), volumes from various years, Museum of the Radom Village",
-
     "familyBranch.history.title": "History of the Family",
     "familyBranch.history.places": "Main Locations",
     "familyBranch.history.membersInDb": "people in database",
@@ -551,7 +534,6 @@ const translations = {
     "familyBranch.etymology.title": "Surname Origin",
     "familyBranch.progenitorTitle": "Family Progenitor",
     "familyBranch.descendantsTitle": "Descendants",
-
     "familyBranch.etymology.gierczak.h1": "Morphological Structure",
     "familyBranch.etymology.gierczak.p1":
       "The surname Gierczak has a typical two-part structure for the Polish language: a base (root): Gier- and a formant (suffix): -czak.",
@@ -582,7 +564,6 @@ const translations = {
       'The surname Gierczak is most likely a patronymic surname, formed from a shortened, Polonized version of a Germanic name, most likely Gierard. The original meaning is "son of Gierard".',
     "familyBranch.etymology.gierczak.l1": "Base (root): Gier-",
     "familyBranch.etymology.gierczak.l2": "Formant (suffix): -czak",
-
     "familyBranch.etymology.ofiara.h1": "Morphological Structure",
     "familyBranch.etymology.ofiara.p1":
       "The surname Ofiara has the simplest possible structure - it is a so-called unmodified appellative surname. Its form is identical to the common noun from which it originates, without any added formants. This structure is typical of one of the oldest layers of Polish surnames.",
@@ -606,7 +587,6 @@ const translations = {
     "familyBranch.etymology.ofiara.h7": "Summary",
     "familyBranch.etymology.ofiara.p7":
       "The surname Ofiara comes directly from the common noun. The most likely motivation for giving such a nickname was related to the character or fate of the first bearer - a person perceived as unlucky, helpless, or wronged by fate.",
-
     "person.born": "b.",
     "person.bornIn": "Born in",
     "person.died": "d.",
@@ -626,17 +606,13 @@ const translations = {
     "person.keepsakes": "Keepsakes",
     "person.hasKeepsakesDesc": "View the collection of keepsakes",
     "time.morning": "in the morning",
-
     "familyUnit.parents": "Parents",
     "familyUnit.children": "Children",
-
     "keepsakes.modal.title": "Keepsakes of {name}",
     "keepsakes.close": "Close",
-
     "tooltip.viewBirthRecord": "View birth record",
     "tooltip.viewDeathRecord": "View death record",
     "tooltip.viewMarriageRecord": "View marriage record",
-
     "footer.title": "Family Roots",
     "footer.description":
       "A digital archive and interactive genealogical tree of the Gierczak and Ofiara families from the Radom area.",
@@ -659,7 +635,6 @@ const translations = {
     "footer.social.x": "Visit our profile on X (formerly Twitter)",
     "footer.social.github": "Check out our project on GitHub",
     "footer.social.instagram": "Follow us on Instagram",
-
     "terms.title": "Terms of Service",
     "terms.lastUpdated": "Last updated: {date}",
     "terms.section1.title": "1. General Provisions",
@@ -687,7 +662,6 @@ const translations = {
       "The author reserves the right to make changes to these terms. Any changes will be published on this page.",
     "terms.section5.p2":
       "For matters not covered by these terms, or to submit comments or request data correction, please contact us via the email address provided in the footer.",
-
     "privacy.title": "Privacy Policy",
     "privacy.lastUpdated": "Last updated: {date}",
     "privacy.section1.title": "1. Data Administrator",
@@ -709,7 +683,6 @@ const translations = {
     "privacy.section5.title": "5. Data Sharing",
     "privacy.section5.p1":
       "The data collected on this site is not and will not be shared with third parties for commercial purposes. The sole purpose of the project is to preserve and share family history.",
-
     paths: {
       home: "/",
       tree: "/tree",
@@ -721,7 +694,7 @@ const translations = {
       privacy: "/privacy-policy",
     },
   },
-} as const;
+};
 
 const initialState: LanguageProviderState = {
   language: "pl",

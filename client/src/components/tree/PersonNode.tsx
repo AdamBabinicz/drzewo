@@ -16,14 +16,43 @@ type PersonNodeData = {
   family: "gierczak" | "ofiara";
 };
 
-const formatDate = (dateString: string | null | undefined) => {
-  if (!dateString) return "?";
-  if (/[a-zA-Z]/.test(dateString)) {
-    return dateString;
+const formatDate = (dateString: string | null | undefined, locale: string) => {
+  if (!dateString || dateString === "?") return "?";
+
+  const translations: { [key: string]: { pl: string; en: string } } = {
+    "ok.": { pl: "ok.", en: "c." },
+    przed: { pl: "przed", en: "before" },
+    po: { pl: "po", en: "after" },
+    between: { pl: "między", en: "between" },
+  };
+
+  const parts = dateString.split(" ");
+  const keyword = parts[0];
+
+  if (Object.prototype.hasOwnProperty.call(translations, keyword)) {
+    const translationSet = translations[keyword];
+    const translatedKeyword =
+      locale === "en" ? translationSet.en : translationSet.pl;
+
+    if (keyword === "between" && parts.length === 4 && parts[2] === "and") {
+      const year1 = parts[1];
+      const year2 = parts[3];
+      return locale === "pl"
+        ? `między ${year1} a ${year2}`
+        : `between ${year1} and ${year2}`;
+    }
+
+    const restOfString = parts.slice(1).join(" ");
+    return `${translatedKeyword} ${restOfString}`;
   }
-  if (/^\d{4}$/.test(dateString)) {
+
+  if (
+    /^\d{4}$/.test(dateString) ||
+    /^\d{4}s$/.test(dateString) ||
+    /^\d{4} \?$/.test(dateString) ||
+    /^\d{4}xx$/.test(dateString)
+  )
     return dateString;
-  }
   try {
     const date = new Date(dateString);
     if (isNaN(date.getTime())) return dateString;
@@ -34,7 +63,7 @@ const formatDate = (dateString: string | null | undefined) => {
 };
 
 export default function PersonNode({ data }: NodeProps<PersonNodeData>) {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
   const { person, onClick, family } = data;
   const isGierczak = family === "gierczak";
 
@@ -42,41 +71,43 @@ export default function PersonNode({ data }: NodeProps<PersonNodeData>) {
     ? "border-heritage-burgundy"
     : "border-heritage-teal";
 
-  const birthInfo = person.birthDateNote || person.birthDate;
-  const birth = formatDate(birthInfo);
-  const death = formatDate(person.deathDate);
-  const lifeSpan = `${birth} - ${death}`;
   const hasAnecdotes = person.anecdotes && person.anecdotes.length > 0;
+
+  const birthInfo = formatDate(
+    person.birthDateNote || person.birthDate,
+    language
+  );
+  const deathInfo = formatDate(
+    person.deathDateNote || person.deathDate,
+    language
+  );
 
   return (
     <TooltipProvider delayDuration={200}>
-      {/* ================== POCZĄTEK DODANEGO KODU ================== */}
-      {/* Niewidoczne uchwyty dla połączeń bocznych (małżeństwa)      */}
       <Handle
         type="source"
         position={Position.Left}
         id={Position.Left}
-        style={{ background: "transparent", border: "none" }}
+        className="!bg-transparent !border-none"
       />
       <Handle
         type="target"
         position={Position.Left}
         id={Position.Left}
-        style={{ background: "transparent", border: "none" }}
+        className="!bg-transparent !border-none"
       />
       <Handle
         type="source"
         position={Position.Right}
         id={Position.Right}
-        style={{ background: "transparent", border: "none" }}
+        className="!bg-transparent !border-none"
       />
       <Handle
         type="target"
         position={Position.Right}
         id={Position.Right}
-        style={{ background: "transparent", border: "none" }}
+        className="!bg-transparent !border-none"
       />
-      {/* =================== KONIEC DODANEGO KODU =================== */}
 
       <div
         className={`person-node bg-white dark:bg-stone-800 border-2 ${borderColor} rounded-lg p-3 shadow-md cursor-pointer hover:shadow-lg transition-all w-[240px]`}
@@ -116,10 +147,13 @@ export default function PersonNode({ data }: NodeProps<PersonNodeData>) {
                 </Tooltip>
               )}
             </div>
-            {(birthInfo || person.deathDate) && (
+            {(birthInfo || deathInfo) && (
               <p className="text-xs text-stone-600 dark:text-stone-400 flex items-center">
                 <Calendar className="w-3 h-3 mr-1.5 flex-shrink-0" />
-                <span>{lifeSpan}</span>
+                <span>
+                  {birthInfo}
+                  {deathInfo ? ` - ${deathInfo}` : ""}
+                </span>
               </p>
             )}
           </div>

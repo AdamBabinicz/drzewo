@@ -2,7 +2,14 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import Lightbox from "@/components/ui/Lightbox";
-import { Images, FileText, MapPin, Search } from "lucide-react";
+import {
+  Images,
+  FileText,
+  MapPin,
+  Search,
+  ChevronDown,
+  ChevronUp,
+} from "lucide-react";
 import SEO from "@/components/SEO";
 import { useLanguage } from "@/hooks/useLanguage";
 
@@ -17,6 +24,8 @@ interface GalleryItem {
   descriptionKey?: string;
 }
 
+const INITIAL_VISIBLE_COUNT = 8;
+
 export default function GalleryView() {
   const { t } = useLanguage();
   const [selectedCategory, setSelectedCategory] =
@@ -26,6 +35,7 @@ export default function GalleryView() {
     src: string;
     alt: string;
   } | null>(null);
+  const [showAll, setShowAll] = useState(false);
 
   const galleryItems: GalleryItem[] = [
     {
@@ -124,6 +134,14 @@ export default function GalleryView() {
       titleKey: "gallery.item.doc-4.title",
       descriptionKey: "gallery.item.doc-4.desc",
     },
+    {
+      id: "place-4",
+      src: "/images/chatka.avif",
+      alt: "Wnętrze chaty chłopskiej",
+      category: "places",
+      titleKey: "gallery.item.place-4.title",
+      descriptionKey: "gallery.item.place-4.desc",
+    },
   ];
 
   const categories = [
@@ -146,6 +164,10 @@ export default function GalleryView() {
       ? galleryItems
       : galleryItems.filter((item) => item.category === selectedCategory);
 
+  const visibleItems = showAll
+    ? filteredItems
+    : filteredItems.slice(0, INITIAL_VISIBLE_COUNT);
+
   const handleImageClick = (item: GalleryItem) => {
     const title = t(item.titleKey);
     const description = item.descriptionKey ? t(item.descriptionKey) : "";
@@ -154,6 +176,11 @@ export default function GalleryView() {
       alt: `${title}${description ? ` - ${description}` : ""}`,
     });
     setLightboxOpen(true);
+  };
+
+  const handleCategoryChange = (category: GalleryCategory) => {
+    setSelectedCategory(category);
+    setShowAll(false);
   };
 
   return (
@@ -189,7 +216,7 @@ export default function GalleryView() {
                    hover:bg-yellow-100 dark:hover:bg-muted
                    hover:text-heritage-burgundy dark:hover:text-white`
                     }`}
-                    onClick={() => setSelectedCategory(category.id)}
+                    onClick={() => handleCategoryChange(category.id)}
                   >
                     <IconComponent className="w-4 h-4 mr-2" />
                     {category.name}
@@ -212,7 +239,7 @@ export default function GalleryView() {
 
             {filteredItems.length > 0 ? (
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-                {filteredItems.map((item) => (
+                {visibleItems.map((item) => (
                   <Card
                     key={item.id}
                     className="group cursor-pointer hover:shadow-xl transition-all overflow-hidden heritage-card"
@@ -259,9 +286,30 @@ export default function GalleryView() {
                 </p>
                 <Button
                   variant="outline"
-                  onClick={() => setSelectedCategory("all")}
+                  onClick={() => handleCategoryChange("all")}
                 >
                   {t("gallery.noResults.cta")}
+                </Button>
+              </div>
+            )}
+
+            {filteredItems.length > INITIAL_VISIBLE_COUNT && (
+              <div className="text-center mt-12">
+                <Button
+                  variant="secondary"
+                  onClick={() => setShowAll(!showAll)}
+                >
+                  {showAll ? (
+                    <>
+                      <ChevronUp className="w-4 h-4 mr-2" />
+                      {t("gallery.showLess")}
+                    </>
+                  ) : (
+                    <>
+                      <ChevronDown className="w-4 h-4 mr-2" />
+                      {t("gallery.showMore")}
+                    </>
+                  )}
                 </Button>
               </div>
             )}

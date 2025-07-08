@@ -130,7 +130,7 @@ export default function InteractiveTree({
             type: "default",
             position: { x: 0, y: 0 },
             data: {},
-            style: { width: 0, height: 0 },
+            className: "w-0 h-0",
             sourcePosition: Position.Bottom,
             targetPosition: Position.Top,
           });
@@ -304,8 +304,7 @@ export default function InteractiveTree({
         nodeTypes={nodeTypes}
         fitView
         minZoom={0.1}
-        style={{ zIndex: 10 }}
-        className="react-flow-heritage"
+        className="react-flow-heritage z-10"
       >
         <Background />
         <Controls />
