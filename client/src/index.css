@@ -255,19 +255,15 @@
     border: 1px solid hsl(42, 78%, 70%);
   }
 
-  /* --- POCZĄTEK POPRAWIONEGO KODU LIGHTBOXA --- */
-
   .custom-lightbox {
-    /* Rozwiązanie problemu z interaktywnością Lightboxa nad Dialogiem */
     z-index: 1500;
   }
 
-  /* Wyśrodkowanie tytułu w podpisach Lightboxa */
-  .custom-lightbox .yarl__caption_title {
+  .custom-lightbox .yarl__slide_title {
+    max-width: 100%;
     text-align: center;
   }
 
-  /* Twoje oryginalne style dla przycisków, teraz zagnieżdżone dla pewności działania */
   .custom-lightbox .yarl__button {
     opacity: 1 !important;
     pointer-events: auto !important;
@@ -278,6 +274,4 @@
   .custom-lightbox .yarl__button:hover {
     background-color: rgba(30, 30, 30, 0.4);
   }
-
-  /* --- KONIEC POPRAWIONEGO KODU LIGHTBOXA --- */
 }

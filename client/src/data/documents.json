@@ -1013,5 +1013,75 @@
         "value_en": "Maciej Gierczak (22), Franciszek Burda (24), Jędrzej Gielowski (31)"
       }
     ]
+  },
+  {
+    "id": 210,
+    "title_pl": "Akt Zgonu: Jakub Ofiara (1919)",
+    "title_en": "Death Record: Jakub Ofiara (1919)",
+    "type": "death_record",
+    "description_pl": "Parafia Jedlińsk, akt nr 109, 1919 r.",
+    "description_en": "Jedlińsk Parish, record no. 109, 1919.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się w Jedlińsku dnia dwudziestego czwartego listopada tysiąc dziewięćset dziewiętnastego roku o godzinie dziesiątej rano. Stawili się Jan Ofiara, lat pięćdziesiąt dwa mający, i Franciszek Sułecki, lat pięćdziesiąt jeden mający, obydwa gospodarze zamieszkali w Woli Gutowskiej i oświadczyli, że w dniu dwudziestym drugim bieżącego miesiąca i roku o godzinie trzeciej po południu umarł Jakób Ofiara, lat osiemdziesiąt sześć mający, stały mieszkaniec wsi Wola Gutowska, syn Stefana i Małgorzaty z Kowalczyków małżonków Ofiary, zostawiwszy po sobie owdowiałą żonę Mariannę z Wieczorków. Po przekonaniu się naocznem o zejściu Jakóba Ofiary, akt ten stawiającym świadkom niepiśmiennym przeczytany, przez nas podpisany został. Ks. Fr. Goralski",
+    "translation_pl": "Zdarzyło się w Jedlińsku dnia 24 listopada 1919 roku o godzinie dziesiątej rano. Stawili się Jan Ofiara, lat 52, i Franciszek Sułecki, lat 51, obaj gospodarze zamieszkali w Woli Gutowskiej, i oświadczyli, że dnia 22 listopada bieżącego roku o godzinie trzeciej po południu zmarł Jakub Ofiara, mający 86 lat, stały mieszkaniec wsi Wola Gutowska, syn Stefana i Małgorzaty z Kowalczyków małżonków Ofiara. Zostawił po sobie owdowiałą żonę Mariannę z domu Wieczorek. Po naocznym upewnieniu się o zgonie Jakuba Ofiary, akt ten stawiającym, niepiśmiennym świadkom przeczytano i przez nas został podpisany. Ks. Fr. Goralski",
+    "translation_en": "It happened in Jedlińsk on November 24, 1919, at ten o'clock in the morning. Appeared Jan Ofiara, aged 52, and Franciszek Sułecki, aged 51, both farmers residing in Wola Gutowska, and they declared that on November 22 of the current month and year at three o'clock in the afternoon, Jakub Ofiara passed away, aged 86, a permanent resident of the village of Wola Gutowska, son of Stefan and Małgorzata née Kowalczyk, spouses Ofiara. He left behind his widowed wife Marianna née Wieczorek. After visually confirming the death of Jakub Ofiara, this act was read to the illiterate declarants and witnesses, and was signed by us. Fr. Fr. Goralski",
+    "extracted_data": [
+      {
+        "label_pl": "Wiek",
+        "label_en": "Age",
+        "value_pl": "86 lat",
+        "value_en": "86 years"
+      },
+      {
+        "label_pl": "Rodzice",
+        "label_en": "Parents",
+        "value_pl": "Stefan i Małgorzata z Kowalczyków",
+        "value_en": "Stefan and Małgorzata née Kowalczyk"
+      },
+      {
+        "label_pl": "Pozostawił żonę",
+        "label_en": "Survived by wife",
+        "value_pl": "Marianna z Wieczorków",
+        "value_en": "Marianna née Wieczorek"
+      }
+    ]
+  },
+  {
+    "id": 211,
+    "title_pl": "Akt Ślubu: Jakub Ofiara i Marianna Wieczorek (1856)",
+    "title_en": "Marriage Record: Jakub Ofiara & Marianna Wieczorek (1856)",
+    "type": "marriage_record",
+    "description_pl": "Parafia Jedlińsk, akt nr 4, 1856 r.",
+    "description_en": "Jedlińsk Parish, record no. 4, 1856.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się w mieście Jedlińsku, dnia dwudziestego piątego Lutego, tysiąc ośmset pięćdziesiątego szóstego roku, o godzinie dziesiątej rano. Oświadczamy, że w przytomności świadków ... zawarte zostało religijne małżeństwo między Jakóbem Offiarą, młodzianem, w Woli Gutowskiej zamieszkałym, urodzonym w tejże wsi, lat dwadzieścia trzy mającym, synem Stefana i Małgorzaty z Kowalczyków małżonków Offiarów; i Maryanną Wieczorkówną, panną, przy rodzicach w Woli Gutowskiej zamieszkałą, tamże urodzoną, lat dwadzieścia cztery mającą, córką Kacpra i Małgorzaty z Grzelaków małżonków Wieczorków. Małżeństwo to poprzedziły trzy zapowiedzi ... Nowożeńcy oświadczyli iż żadnej umowy przedślubnej między sobą nie zawarli ... Akt ten ... podpisany został. - X. Jan Kłochowski Proboszcz i Urzędnik Stanu Cywilnego.",
+    "translation_pl": "Zdarzyło się w mieście Jedlińsk, dnia 25 lutego 1856 roku, o godzinie dziesiątej rano. Oświadczamy, że w obecności świadków zawarte zostało religijne małżeństwo między Jakubem Ofiarą, młodzieńcem, zamieszkałym i urodzonym w Woli Gutowskiej, lat 23, synem Stefana i Małgorzaty z Kowalczyków, małżonków Ofiarów; a Marianną Wieczorek, panną, zamieszkałą przy rodzicach i urodzoną w Woli Gutowskiej, lat 24, córką Kacpra i Małgorzaty z Grzelaków, małżonków Wieczorków. Małżeństwo to poprzedziły trzy zapowiedzi. Nowożeńcy oświadczyli, że nie zawarli umowy przedślubnej. Akt ten został podpisany. Ks. Jan Kłochowski, Proboszcz i Urzędnik Stanu Cywilnego.",
+    "translation_en": "It happened in the city of Jedlińsk, on February 25, 1856, at ten o'clock in the morning. We declare that in the presence of witnesses, a religious marriage was contracted between Jakub Ofiara, a young man, residing and born in Wola Gutowska, aged 23, son of Stefan and Małgorzata née Kowalczyk, spouses Ofiara; and Marianna Wieczorek, a maiden, residing with her parents and born in Wola Gutowska, aged 24, daughter of Kacper and Małgorzata née Grzelak, spouses Wieczorek. This marriage was preceded by three banns. The newlyweds declared that they had not entered into a prenuptial agreement. This act was signed. - Fr. Jan Kłochowski, Pastor and Civil Registrar.",
+    "extracted_data": [
+      {
+        "label_pl": "Pan Młody",
+        "label_en": "Groom",
+        "value_pl": "Jakub Ofiara, 23 lata",
+        "value_en": "Jakub Ofiara, 23 years old"
+      },
+      {
+        "label_pl": "Rodzice Pana Młodego",
+        "label_en": "Groom's Parents",
+        "value_pl": "Stefan i Małgorzata z Kowalczyków",
+        "value_en": "Stefan and Małgorzata née Kowalczyk"
+      },
+      {
+        "label_pl": "Panna Młoda",
+        "label_en": "Bride",
+        "value_pl": "Marianna Wieczorek, 24 lata",
+        "value_en": "Marianna Wieczorek, 24 years old"
+      },
+      {
+        "label_pl": "Rodzice Panny Młodej",
+        "label_en": "Bride's Parents",
+        "value_pl": "Kacper i Małgorzata z Grzelaków",
+        "value_en": "Kacper and Małgorzata née Grzelak"
+      }
+    ]
   }
 ]

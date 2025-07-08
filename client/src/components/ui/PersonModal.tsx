@@ -21,6 +21,7 @@ import {
   Book,
   Heart,
   Archive,
+  Asterisk,
 } from "lucide-react";
 import { Person, Anecdote, Event } from "../../../../shared/schema";
 import { useLanguage } from "@/hooks/useLanguage";
@@ -105,8 +106,6 @@ export default function PersonModal({
   );
   const [keepsakesModalOpen, setKeepsakesModalOpen] = useState(false);
 
-  // ZMIANA TUTAJ: Zamiast używać `person` bezpośrednio, znajdujemy najświeższą wersję w `allPeople`.
-  // To uodparnia komponent na problem nieaktualnego stanu (stale state) z komponentu nadrzędnego.
   const currentPerson = allPeople.find((p) => p.id === person?.id) || person;
 
   if (!currentPerson) return null;
@@ -315,6 +314,18 @@ export default function PersonModal({
                                     </TooltipTrigger>
                                     <TooltipContent>
                                       <p>{t("tooltip.viewMarriageRecord")}</p>
+                                    </TooltipContent>
+                                  </Tooltip>
+                                )}
+                                {marriage.note && (
+                                  <Tooltip>
+                                    <TooltipTrigger asChild>
+                                      <Asterisk className="w-4 h-4 text-heritage-gold cursor-help" />
+                                    </TooltipTrigger>
+                                    <TooltipContent>
+                                      <p className="max-w-xs">
+                                        {getDynamicText(marriage.note)}
+                                      </p>
                                     </TooltipContent>
                                   </Tooltip>
                                 )}

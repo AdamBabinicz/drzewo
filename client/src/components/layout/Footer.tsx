@@ -119,7 +119,7 @@ export default function Footer() {
                 {t("footer.contact.location")}
               </p>
               <div className="pt-4">
-                <p className="text-sm" style={{ whiteSpace: "pre-line" }}>
+                <p className="text-sm whitespace-pre-line">
                   {t("footer.contact.projectInfo")}
                 </p>
               </div>

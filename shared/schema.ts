@@ -8,6 +8,7 @@ export type Marriage = {
   date?: string | null;
   place?: string | null;
   source?: EventSource;
+  note?: LocalizedString;
 };
 
 export type Anecdote = {

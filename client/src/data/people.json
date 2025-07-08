@@ -299,12 +299,16 @@
         "date": "1887-02-14",
         "source": {
           "documentId": 27
+        },
+        "note": {
+          "pl": "Akt ślubu wskazuje, że rodzice Pawła, Karol i Tekla, mieszkali wówczas w Mleczkowie, choć ich głównym miejscem zamieszkania był Gulinek. Była to prawdopodobnie sytuacja tymczasowa, związana np. z pracą lub bliskością rodziny panny młodej.",
+          "en": "The marriage record indicates that Paweł's parents, Karol and Tekla, were living in Mleczków at the time, although their primary residence was in Gulinek. This was likely a temporary situation, possibly related to work or proximity to the bride's family."
         }
       }
     ],
     "biography": {
-      "pl": "Syn Karola i Tekli. W wieku 20 lat, 14 lutego 1887 roku, pojął za żonę Katarzynę Czerwińską. Mieli 10 dzieci. Był dziadkiem Józefa ur. w 1930. Mieszkali w Mleczkowie.",
-      "en": "Son of Karol and Tekla. At the age of 20, on February 14, 1887, he married Katarzyna Czerwińska. They had 10 children. He was the grandfather of Józef, born in 1930. They lived in Mleczków."
+      "pl": "Syn Karola i Tekli. W wieku 20 lat, 14 lutego 1887 roku, pojął za żonę Katarzynę Czerwińską. Mieli 10 dzieci. Był dziadkiem Józefa ur. w 1930.",
+      "en": "Son of Karol and Tekla. At the age of 20, on February 14, 1887, he married Katarzyna Czerwińska. They had 10 children. He was the grandfather of Józef, born in 1930."
     },
     "events": [
       {
@@ -611,6 +615,28 @@
         "description": {
           "pl": "Obecnie używany podczas Kolędy",
           "en": "Currently used during the Christmas carol visits"
+        }
+      },
+      {
+        "imageUrl": "/images/kolowrotek.avif",
+        "title": {
+          "pl": "Zabytkowy kołowrotek do przędzy",
+          "en": "Antique spinning wheel for yarn"
+        },
+        "description": {
+          "pl": "Tradycyjne narzędzie do ręcznego przędzenia wełny, które znajdowało się w izbie babci Heleny.",
+          "en": "A traditional tool for hand-spinning wool, which was kept in Grandma Helena's room."
+        }
+      },
+      {
+        "imageUrl": "/images/maselnica.avif",
+        "title": {
+          "pl": "Drewniana maselnica do masła",
+          "en": "Wooden butter churn"
+        },
+        "description": {
+          "pl": "Używana przez babcię Helenę do ręcznego robienia masła. Pamiątka po wiejskim gospodarstwie.",
+          "en": "Used by Grandma Helena to make butter by hand. A memento from the village farm."
         }
       }
     ]
@@ -2114,6 +2140,7 @@
     "birthTime": "9:00",
     "birthTimeQualifier": "morning",
     "deathDate": "1919-11-22",
+    "deathTime": "15:00",
     "photoUrl": "/images/jakub.avif",
     "spouseIds": [130],
     "childIds": [57, 131, 132],
@@ -2125,12 +2152,15 @@
     "marriages": [
       {
         "spouseId": 130,
-        "date": null
+        "date": "1856-02-25",
+        "source": {
+          "documentId": 211
+        }
       }
     ],
     "biography": {
-      "pl": "Syn Stefana i Małgorzaty z d. Kowalczyk. Mąż Marianny Wieczorek. Mieszkał z rodziną w Woli Gutowskiej k. Jedlińska, (wdowiec).",
-      "en": "Son of Stefan and Małgorzata née Kowalczyk. Husband of Marianna Wieczorek. Lived with his family in Wola Gutowska near Jedlińsk, (widower)."
+      "pl": "Syn Stefana i Małgorzaty z d. Kowalczyk. Mąż Marianny Wieczorek. Mieszkał z rodziną w Woli Gutowskiej k. Jedlińska. Zmarł w wieku 86 lat, pozostawiając owdowiałą żonę.",
+      "en": "Son of Stefan and Małgorzata née Kowalczyk. Husband of Marianna Wieczorek. Lived with his family in Wola Gutowska near Jedlińsk. He died at the age of 86, leaving behind his widow."
     },
     "events": [
       {
@@ -2139,6 +2169,14 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 103
+        }
+      },
+      {
+        "type": "death",
+        "date": "1919-11-22",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 210
         }
       }
     ]
@@ -2149,18 +2187,23 @@
     "lastName": "Ofiara",
     "maidenName": "Wieczorek",
     "family": "ofiara",
+    "birthDateNote": "ok. 1832",
+    "deathDateNote": "po 1919-11-22",
     "spouseIds": [129],
     "childIds": [57, 131, 132],
     "parentIds": [],
     "marriages": [
       {
         "spouseId": 129,
-        "date": null
+        "date": "1856-02-25",
+        "source": {
+          "documentId": 211
+        }
       }
     ],
     "biography": {
-      "pl": "Żona Jakuba Ofiary. Matka Andrzeja, Zofii i Agnieszki.",
-      "en": "Wife of Jakub Ofiara. Mother of Andrzej, Zofia, and Agnieszka."
+      "pl": "Żona Jakuba Ofiary. Matka Andrzeja, Zofii i Agnieszki. Córka Kacpra i Małgorzaty z Grzelaków. Wiadomo, że żyła jeszcze w listopadzie 1919 roku, kiedy zmarł jej mąż.",
+      "en": "Wife of Jakub Ofiara. Mother of Andrzej, Zofia, and Agnieszka. Daughter of Kacper and Małgorzata née Grzelak. It is known that she was still alive in November 1919 when her husband died."
     }
   },
   {
@@ -2197,6 +2240,7 @@
     "firstName": "Stefan",
     "lastName": "Ofiara",
     "family": "ofiara",
+    "birthDate": "1793",
     "photoUrl": "/images/stefan.avif",
     "spouseIds": [134],
     "childIds": [129, 135, 136, 137, 138],
@@ -2212,6 +2256,7 @@
     "lastName": "Ofiara",
     "maidenName": "Kowalczyk",
     "family": "ofiara",
+    "birthDate": "1798",
     "spouseIds": [133],
     "childIds": [129, 135, 136, 137, 138],
     "parentIds": [],
@@ -2503,7 +2548,7 @@
     "lastName": "Jurczak",
     "birthDateNote": "ok. 1881",
     "deathDate": null,
-    "photoUrl": null,
+    "photoUrl": "/images/janjurczak.avif",
     "family": "gierczak",
     "spouseIds": [68],
     "childIds": [],
