@@ -2240,14 +2240,19 @@
     "firstName": "Stefan",
     "lastName": "Ofiara",
     "family": "ofiara",
-    "birthDate": "1793",
+    "birthDateNote": "ok. 1793",
+    "deathDateNote": "między 1867 a 1886",
     "photoUrl": "/images/stefan.avif",
     "spouseIds": [134],
     "childIds": [129, 135, 136, 137, 138],
     "parentIds": [],
+    "occupation": {
+      "pl": "Parobek / Włościanin",
+      "en": "Farmhand / Peasant"
+    },
     "biography": {
-      "pl": "Protoplasta rodu Ofiara. Mąż Małgorzaty Kowalczyk. Ojciec Jakuba, Kacpra, Anny, Franciszki i Wojciecha.",
-      "en": "Progenitor of the Ofiara family. Husband of Małgorzata Kowalczyk. Father of Jakub, Kacper, Anna, Franciszka, and Wojciech."
+      "pl": "Protoplasta rodu Ofiara. Mąż Małgorzaty Kowalczyk. Ojciec Jakuba, Kacpra, Anny, Franciszki i Wojciecha. Jego wiek w dokumentach podawany jest niespójnie, co sugeruje, że urodził się około 1793 roku. Był jeszcze żywy w lutym 1867, a już nie żył w marcu 1886.",
+      "en": "Progenitor of the Ofiara family. Husband of Małgorzata Kowalczyk. Father of Jakub, Kacper, Anna, Franciszka, and Wojciech. His age is stated inconsistently in documents, suggesting he was born around 1793. He was still alive in February 1867 but had passed away by March 1886."
     }
   },
   {
@@ -2270,15 +2275,26 @@
     "firstName": "Kacper",
     "lastName": "Ofiara",
     "birthDate": "1829-01-02",
+    "birthTime": "18:00",
     "deathDate": "1829-01-09",
     "family": "ofiara",
     "parentIds": [133, 134],
     "spouseIds": [],
     "childIds": [],
     "biography": {
-      "pl": "Syn Stefana i Małgorzaty z d. Kowalczyk. Żył 7 dni.",
-      "en": "Son of Stefan and Małgorzata née Kowalczyk. Lived for 7 days."
-    }
+      "pl": "Syn Stefana i Małgorzaty z d. Kowalczyk. Urodzony w Woli Gutowskiej. Zmarł jako niemowlę, żył 7 dni.",
+      "en": "Son of Stefan and Małgorzata née Kowalczyk. Born in Wola Gutowska. Died as an infant, lived for 7 days."
+    },
+    "events": [
+      {
+        "type": "birth",
+        "date": "1829-01-02",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 215
+        }
+      }
+    ]
   },
   {
     "id": 136,
@@ -2317,11 +2333,34 @@
     "deathDate": "1921-04-08",
     "family": "ofiara",
     "parentIds": [133, 134],
-    "spouseIds": [],
+    "spouseIds": [151, 152, 153],
     "childIds": [],
+    "marriages": [
+      {
+        "spouseId": 151,
+        "date": "1867-02-16",
+        "source": {
+          "documentId": 212
+        }
+      },
+      {
+        "spouseId": 152,
+        "date": "1886-03-07",
+        "source": {
+          "documentId": 213
+        }
+      },
+      {
+        "spouseId": 153,
+        "date": "1886-07-04",
+        "source": {
+          "documentId": 214
+        }
+      }
+    ],
     "biography": {
-      "pl": "Syn Stefana i Małgorzaty z d. Kowalczyk, (wdowiec).",
-      "en": "Son of Stefan and Małgorzata née Kowalczyk, (widower)."
+      "pl": "Syn Stefana i Małgorzaty z d. Kowalczyk. Był trzykrotnie żonaty. Pierwszą żoną była Franciszka z Puzianowskich. Po jej śmierci ożenił się w marcu 1886 z Magdaleną Komach, która zmarła niedługo potem. W lipcu 1886 poślubił Wiktorię Wieczorek. Zmarł jako wdowiec w 1921 roku.",
+      "en": "Son of Stefan and Małgorzata née Kowalczyk. He was married three times. His first wife was Franciszka née Puzianowska. After her death, he married Magdalena Komach in March 1886, who died shortly after. In July 1886, he married Wiktoria Wieczorek. He died a widower in 1921."
     }
   },
   {
@@ -2565,6 +2604,81 @@
     "biography": {
       "pl": "Drugi mąż Antoniny z domu Gierczak (wtedy wdowy po Stanisławie Mitaku). W chwili ślubu w 1906 roku miał 25 lat.",
       "en": "Second husband of Antonina née Gierczak (then a widow after Stanisław Mitak). At the time of his marriage in 1906, he was 25 years old."
+    }
+  },
+  {
+    "id": 151,
+    "firstName": "Franciszka",
+    "lastName": "Ofiara",
+    "maidenName": "Puzianowska (primo voto Okrój)",
+    "birthDateNote": "ok. 1841",
+    "deathDateNote": "przed 1921",
+    "family": "ofiara",
+    "spouseIds": [138],
+    "childIds": [],
+    "parentIds": [],
+    "marriages": [
+      {
+        "spouseId": 138,
+        "date": "1867-02-16",
+        "source": {
+          "documentId": 212
+        }
+      }
+    ],
+    "biography": {
+      "pl": "Żona Wojciecha Ofiary. Córka Łucji i Ewy z Piwowarczyków. W chwili ślubu z Wojciechem była wdową po Okroju. Urodzona w Amelkowie.",
+      "en": "Wife of Wojciech Ofiara. Daughter of Łucja and Ewa née Piwowarczyk. At the time of her marriage to Wojciech, she was the widow of Okrój. Born in Amelków."
+    }
+  },
+  {
+    "id": 152,
+    "firstName": "Magdalena",
+    "lastName": "Ofiara",
+    "maidenName": "Komach",
+    "birthDateNote": "ok. 1864",
+    "family": "ofiara",
+    "deathDate": "1886-06-04",
+    "spouseIds": [138],
+    "childIds": [],
+    "parentIds": [],
+    "marriages": [
+      {
+        "spouseId": 138,
+        "date": "1886-03-07",
+        "source": {
+          "documentId": 213
+        }
+      }
+    ],
+    "biography": {
+      "pl": "Druga żona Wojciecha Ofiary. Córka Rocha i Julianny z Jemiołowskich. Urodzona we wsi Przychodź Jankowska. Zmarła w Jedlance niedługo po ślubie, po niespełna trzech miesiącach małżeństwa.",
+      "en": "Second wife of Wojciech Ofiara. Daughter of Roch and Julianna née Jemiołowska. Born in the village of Przychodź Jankowska. She passed away in Jedlanka shortly after her wedding, after less than three months of marriage."
+    }
+  },
+  {
+    "id": 153,
+    "firstName": "Wiktoria",
+    "lastName": "Ofiara",
+    "maidenName": "Wieczorek",
+    "birthDateNote": "ok. 1859",
+    "family": "ofiara",
+    "deathDateNote": "przed 1921",
+    "spouseIds": [138],
+    "childIds": [],
+    "parentIds": [],
+    "marriages": [
+      {
+        "spouseId": 138,
+        "date": "1886-07-04",
+        "source": {
+          "documentId": 214
+        }
+      }
+    ],
+    "biography": {
+      "pl": "Trzecia żona Wojciecha Ofiary. Córka Andrzeja i Marianny z Sułkowskich. Wyszła za mąż w wieku 27 lat. Zmarła przed mężem.",
+      "en": "Third wife of Wojciech Ofiara. Daughter of Andrzej and Marianna née Sułkowska. She married at the age of 27. She passed away before her husband."
     }
   }
 ]

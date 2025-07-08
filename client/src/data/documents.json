@@ -1083,5 +1083,169 @@
         "value_en": "Kacper and Małgorzata née Grzelak"
       }
     ]
+  },
+  {
+    "id": 212,
+    "title_pl": "Akt Ślubu: Wojciech Ofiara i Franciszka Okrój z d. Puzianowska (1867)",
+    "title_en": "Marriage Record: Wojciech Ofiara & Franciszka Okrój née Puzianowska (1867)",
+    "type": "marriage_record",
+    "description_pl": "Parafia Jedlińsk, akt nr 2, 1867 r. Pierwsze małżeństwo Wojciecha.",
+    "description_en": "Jedlińsk Parish, record no. 2, 1867. First marriage of Wojciech.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się w mieście Jedlińsku, dnia szesnastego Lutego, tysiąc ośmset sześćdziesiątego siódmego roku, o godzinie pierwszej po południu. — Wiadomo czynimy, iż w przytomności świadków Jakóba Ofiary, lat trzydzieści cztery, i Franciszka Sumińskiego, lat czterdzieści trzy, mających, włościan gospodarzy ze wsi Woli Gutowskiej, na dniu dzisiejszym zawarte zostało religijne małżeństwo, między Wojciechem Ofiarą, kawalerem, włościaninem, parobkiem zamieszkałym we wsi Woli Gutowskiej, synem zmarłej Małgorzaty z Kowalczyków i żyjącego jeszcze Stefana Ofiarów, włościan, urodzonym we wsi Woli Gutowskiej, lat dwadzieścia cztery mającym - a Franciszką z Puzianowskich Okrojową wdową, po zmarłym w Jedlonce od jedenastu miesięcy zamieszkałą we wsi Jedlonce, włościanką, córką Łucyi i Ewy z Piwowarczyków Puzianowskiej, wdowy, urodzoną w Amelkowie, lat dwadzieścia sześć mającą. — Małżeństwo to poprzedziły trzy zapowiedzi w dniach dwudziestym siódmym Stycznia oraz trzecim i dziesiątym Lutego, bieżącego roku w Parafii miejscowej Jedlińsko. — Małżonkowie nowi oświadczają, iż nie zawarli umowy przedślubnej. — Obrzęd ten religijny dopełniony został przez Xsiędza Jana Kłochowskiego Proboszcza Parafii Jedlińsko. — Akt ten po odczytaniu, przez nas podpisany został, gdyż stawiający i świadkowie pisać nie umieją. — X. Jan Kłochowski Proboszcz Jedliński Utrzymujący Akta Stanu Cywilnego.",
+    "translation_pl": "Działo się w mieście Jedlińsk, dnia 16 lutego 1867 roku, o godzinie pierwszej po południu. — Czynimy wiadomo, że w obecności świadków Jakuba Ofiary, lat trzydzieści cztery, i Franciszka Sumińskiego, lat czterdzieści trzy, włościan-gospodarzy ze wsi Wola Gutowska, na dniu dzisiejszym zawarte zostało religijne małżeństwo, między Wojciechem Ofiarą, kawalerem, włościaninem, parobkiem zamieszkałym w Woli Gutowskiej, synem zmarłej Małgorzaty z Kowalczyków i żyjącego jeszcze Stefana Ofiarów, włościan, urodzonym w Woli Gutowskiej, lat dwadzieścia cztery — a Franciszką z Puzianowskich Okrojową, wdową, zamieszkałą od jedenastu miesięcy w Jedlonce, włościanką, córką Łucji i Ewy z Piwowarczyków Puzianowskiej, wdowy, urodzoną w Amelkowie, lat dwadzieścia sześć. — Małżeństwo to poprzedziły trzy zapowiedzi w dniach dwudziestym siódmym stycznia oraz trzecim i dziesiątym lutego bieżącego roku w parafii miejscowej Jedlińsko. — Nowożeńcy oświadczają, że nie zawarli umowy przedślubnej. — Obrzęd religijny został dopełniony przez Księdza Jana Kłochowskiego, Proboszcza Parafii Jedlińsko. — Akt ten po odczytaniu, przez nas podpisany został, gdyż stawiający i świadkowie pisać nie umieją. — Ks. Jan Kłochowski, Proboszcz Jedliński, utrzymujący Akta Stanu Cywilnego.",
+    "translation_en": "It happened in the city of Jedlińsk, on the sixteenth of February, eighteen hundred and sixty-seven, at one o'clock in the afternoon. — We make it known that in the presence of witnesses Jakub Ofiara, thirty-four years old, and Franciszek Sumiński, forty-three years old, land-owning peasants from the village of Wola Gutowska, a religious marriage was contracted on this day, between Wojciech Ofiara, a bachelor, peasant, farmhand residing in Wola Gutowska, son of the deceased Małgorzata née Kowalczyk and the still-living Stefan Ofiara, peasants, born in Wola Gutowska, twenty-four years old — and Franciszka née Puzianowska Okrojowa, a widow, residing for eleven months in Jedlonka, a peasant woman, daughter of Łucja and Ewa née Piwowarczyk Puzianowska, a widow, born in Amelków, twenty-six years old. — This marriage was preceded by three banns on the twenty-seventh of January, and the third and tenth of February of the current year in the local parish of Jedlińsko. — The newlyweds declare that they have not entered into a prenuptial agreement. — The religious rite was performed by Father Jan Kłochowski, Pastor of the Jedlińsko Parish. — This act, after being read, was signed by us, as the appearing parties and witnesses cannot write. — Fr. Jan Kłochowski, Jedliński Pastor, Keeper of the Civil Registry.",
+    "extracted_data": [
+      {
+        "label_pl": "Pan Młody",
+        "label_en": "Groom",
+        "value_pl": "Wojciech Ofiara, 24 lata, kawaler",
+        "value_en": "Wojciech Ofiara, 24 years old, bachelor"
+      },
+      {
+        "label_pl": "Rodzice Pana Młodego",
+        "label_en": "Groom's Parents",
+        "value_pl": "Stefan (żyjący) i Małgorzata (zm.) z Kowalczyków",
+        "value_en": "Stefan (living) and Małgorzata (dec.) née Kowalczyk"
+      },
+      {
+        "label_pl": "Panna Młoda",
+        "label_en": "Bride",
+        "value_pl": "Franciszka Okrój z d. Puzianowska, 26 lat, wdowa",
+        "value_en": "Franciszka Okrój née Puzianowska, 26 years old, widow"
+      },
+      {
+        "label_pl": "Rodzice Panny Młodej",
+        "label_en": "Bride's Parents",
+        "value_pl": "Łucja i Ewa z Piwowarczyków",
+        "value_en": "Łucja and Ewa née Piwowarczyk"
+      },
+      {
+        "label_pl": "Świadkowie",
+        "label_en": "Witnesses",
+        "value_pl": "Jakub Ofiara (34), Franciszek Sumiński (43)",
+        "value_en": "Jakub Ofiara (34), Franciszek Sumiński (43)"
+      }
+    ]
+  },
+  {
+    "id": 213,
+    "title_pl": "Akt Ślubu: Wojciech Ofiara i Magdalena Komach (1886)",
+    "title_en": "Marriage Record: Wojciech Ofiara & Magdalena Komach (1886)",
+    "type": "marriage_record",
+    "description_pl": "Parafia Jedlińsk, akt nr 21, 1886 r. Drugie małżeństwo Wojciecha.",
+    "description_en": "Jedlińsk Parish, record no. 21, 1886. Second marriage of Wojciech.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Состоялось въ Едлинскѣ, двадцать третьяго Февраля (седьмаго Марта) тысяча восемьсотъ восемьдесятъ шестого года, въ двѣнадцать часовъ по полудни. — Объявляемъ что, въ присутствіи свидѣтелей: Якоба Офяры, пятидесяти шести, и Яна Бонка, сорока четырехъ лѣтъ отъ роду, земледѣльцевъ въ Гутовской Волѣ, — заключено сего дня религіозный брачный союзъ, между: Войцехомъ Офярою, вдовцемъ по Францишкѣ изъ Пузяновскихъ... сыномъ покойныхъ: Стефана и Малгоржаты изъ Ковальчиковъ, законныхъ супруговъ Офяровъ; сорока трехъ лѣтъ отъ роду, — а Магдаленою Комахъ, дѣвицею, крестьянскою дочерью: Роха и покойной Юліянны изъ Еміоловскихъ, законныхъ супруговъ Комаховъ, земледѣльцевъ, родившеюся въ деревнѣ Пржиходъ Янковской, двадцати двухъ лѣтъ отъ роду. — Браку сему предшествовала троекратныя оглашенія... Новобрачные объявили что никакого брачнаго договора между ними не заключили... Обрядъ бракосочетанія совершилъ Ксендзъ Тадеушъ Павловскій...",
+    "translation_pl": "Działo się w Jedlińsku, dwudziestego trzeciego lutego (siódmego marca) tysiąc osiemset osiemdziesiątego szóstego roku, o godzinie dwunastej w południe. — Oświadczamy, że w obecności świadków: Jakuba Ofiary, lat pięćdziesiąt sześć, i Jana Bąka, lat czterdzieści cztery, rolników z Woli Gutowskiej, — zawarto dziś religijny związek małżeński, między: Wojciechem Ofiarą, wdowcem po Franciszce z Puzianowskich... synem zmarłych: Stefana i Małgorzaty z Kowalczyków, prawnych małżonków Ofiarów; lat czterdzieści trzy, — a Magdaleną Komach, panną, córką chłopa: Rocha i zmarłej Julianny z Jemiołowskich, prawnych małżonków Komachów, rolników, urodzoną we wsi Przychodź Jankowska, lat dwadzieścia dwa. — Małżeństwo to poprzedziły trzy zapowiedzi... Nowożeńcy oświadczyli, że żadnej umowy przedślubnej... nie zawarli... Obrzęd ślubu odprawił Ksiądz Tadeusz Pawłowski...",
+    "translation_en": "It happened in Jedlińsk, on the twenty-third of February (seventh of March), eighteen hundred and eighty-six, at twelve o'clock noon. — We declare that in the presence of witnesses: Jakub Ofiara, fifty-six years old, and Jan Bąk, forty-four years old, farmers from Wola Gutowska, — a religious marital union was contracted today, between: Wojciech Ofiara, a widower after Franciszka née Puzianowska... son of the deceased: Stefan and Małgorzata née Kowalczyk, lawful spouses Ofiara; forty-three years old, — and Magdalena Komach, a maiden, daughter of the peasant: Roch and the deceased Julianna née Jemiołowska, lawful spouses Komach, farmers, born in the village of Przychodź Jankowska, twenty-two years old. — This marriage was preceded by three banns... The newlyweds declared that they had not entered into any prenuptial agreement... The marriage ceremony was performed by Father Tadeusz Pawłowski...",
+    "extracted_data": [
+      {
+        "label_pl": "Pan Młody",
+        "label_en": "Groom",
+        "value_pl": "Wojciech Ofiara, 43 lata, wdowiec",
+        "value_en": "Wojciech Ofiara, 43 years old, widower"
+      },
+      {
+        "label_pl": "Rodzice Pana Młodego",
+        "label_en": "Groom's Parents",
+        "value_pl": "Stefan i Małgorzata z Kowalczyków",
+        "value_en": "Stefan and Małgorzata née Kowalczyk"
+      },
+      {
+        "label_pl": "Panna Młoda",
+        "label_en": "Bride",
+        "value_pl": "Magdalena Komach, 22 lata, panna",
+        "value_en": "Magdalena Komach, 22 years old, maiden"
+      },
+      {
+        "label_pl": "Rodzice Panny Młodej",
+        "label_en": "Bride's Parents",
+        "value_pl": "Roch i Julianna z Jemiołowskich",
+        "value_en": "Roch and Julianna née Jemiołowska"
+      },
+      {
+        "label_pl": "Świadkowie",
+        "label_en": "Witnesses",
+        "value_pl": "Jakub Ofiara (56), Jan Bąk (44)",
+        "value_en": "Jakub Ofiara (56), Jan Bąk (44)"
+      }
+    ]
+  },
+  {
+    "id": 214,
+    "title_pl": "Akt Ślubu: Wojciech Ofiara i Wiktoria Wieczorek (1886)",
+    "title_en": "Marriage Record: Wojciech Ofiara & Wiktoria Wieczorek (1886)",
+    "type": "marriage_record",
+    "description_pl": "Parafia Jedlińsk, akt nr 23, 1886 r. Trzecie małżeństwo Wojciecha.",
+    "description_en": "Jedlińsk Parish, record no. 23, 1886. Third marriage of Wojciech.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Состоялось въ Едлинскѣ, двадцать второго Iюня (четвертаго Iюля) тысяча восемьсотъ восемьдесятъ шестого года, въ одинъ часъ по полудни. — Объявляемъ что, въ присутствіи свидѣтелей Матеуша Ковальчука, пятидесяти семи, и Феликса Вальчака, тридцати шести лѣтъ отъ роду, земледѣльцевъ въ Едлинки — заключено сего дня религіозный брачный союзъ, между: Войцехомъ Офярою, вдовцемъ по Магдаленѣ Комахъ, умершой въ Едлинки, четвертаго Іюня сего года, — уроженцемъ и земледѣльцемъ въ Гутовской Волѣ, сыномъ покойныхъ: Стефана и Малгоржаты изъ Ковальчиковъ, законныхъ супруговъ Офяровъ; сорока шести лѣтъ отъ роду, — а Викторією Вечорекъ, дѣвицею, при родителяхъ на землѣ помѣщичей состоящею, дочерью: Андрея и покойной Маріанны изъ Сулковскихъ, законныхъ супруговъ Вечорковъ; земледѣльцевъ, родившеюся въ Клематской Волѣ, двадцати семи лѣтъ отъ роду. — Браку сему предшествовала троекратныя оглашенія въ дняхъ тринадцатомъ, двадцатомъ и двадцать седьмомъ Іюня текущаго года, въ Приходскомъ Костелѣ Едлинскомъ. — Новобрачные объявили что никакого брачнаго договора между ними не заключили. — Религіозный обрядъ бракосочетанія совершилъ Ксендзъ Тадеушъ Павловскій, Администраторъ Прихода Едлинскаго. — Актъ сей по прочтеніи Нами только подписанъ, присутствующіе писать неумѣютъ.",
+    "translation_pl": "Działo się w Jedlińsku, dwudziestego drugiego czerwca (czwartego lipca) tysiąc osiemset osiemdziesiątego szóstego roku, o godzinie pierwszej po południu. — Oświadczamy, że w obecności świadków: Mateusza Kowalczuka, lat pięćdziesiąt siedem, i Feliksa Walczaka, lat trzydzieści sześć, rolników z Jedlanki — zawarto dziś religijny związek małżeński, między: Wojciechem Ofiarą, wdowcem po Magdalenie Komach, zmarłej w Jedlance czwartego czerwca tego roku, — urodzonym i rolnikiem w Woli Gutowskiej, synem zmarłych: Stefana i Małgorzaty z Kowalczyków, prawnych małżonków Ofiarów; lat czterdzieści sześć, — a Wiktorią Wieczorek, panną, przy rodzicach na ziemi dworskiej pozostającą, córką: Andrzeja i zmarłej Marianny z Sułkowskich, prawnych małżonków Wieczorków; rolników, urodzoną w Klwateckiej Woli, lat dwadzieścia siedem. — Małżeństwo to poprzedziły trzy zapowiedzi w dniach trzynastym, dwudziestym i dwudziestym siódmym czerwca bieżącego roku, w Przychodzkim Kościele Jedlińskim. — Nowożeńcy oświadczyli, że żadnej umowy przedślubnej między sobą nie zawarli. — Obrzęd ślubu odprawił Ksiądz Tadeusz Pawłowski, Administrator Parafii Jedlińskiej. — Akt ten po przeczytaniu przez nas tylko podpisany, obecni pisać nie umieją.",
+    "translation_en": "It happened in Jedlińsk, on the twenty-second of June (fourth of July), eighteen hundred and eighty-six, at one o'clock in the afternoon. — We declare that in the presence of witnesses: Mateusz Kowalczuk, fifty-seven years old, and Feliks Walczak, thirty-six years old, farmers from Jedlanka — a religious marital union was contracted today, between: Wojciech Ofiara, a widower after Magdalena Komach, who died in Jedlanka on the fourth of June of this year, — a native and farmer in Wola Gutowska, son of the deceased: Stefan and Małgorzata née Kowalczyk, lawful spouses Ofiara; forty-six years old, — and Wiktoria Wieczorek, a maiden, residing with her parents on manorial land, daughter of: Andrzej and the deceased Marianna née Sułkowska, lawful spouses Wieczorek; farmers, born in Klwatecka Wola, twenty-seven years old. — This marriage was preceded by three banns on the thirteenth, twentieth, and twenty-seventh of June of the current year, in the Parish Church of Jedlińsk. — The newlyweds declared that they had not entered into any prenuptial agreement. — The marriage ceremony was performed by Father Tadeusz Pawłowski, Administrator of the Jedlińsk Parish. — This act, after being read, was signed only by us, as those present cannot write.",
+    "extracted_data": [
+      {
+        "label_pl": "Pan Młody",
+        "label_en": "Groom",
+        "value_pl": "Wojciech Ofiara, 46 lat, wdowiec",
+        "value_en": "Wojciech Ofiara, 46 years old, widower"
+      },
+      {
+        "label_pl": "Rodzice Pana Młodego",
+        "label_en": "Groom's Parents",
+        "value_pl": "Stefan i Małgorzata z Kowalczyków",
+        "value_en": "Stefan and Małgorzata née Kowalczyk"
+      },
+      {
+        "label_pl": "Panna Młoda",
+        "label_en": "Bride",
+        "value_pl": "Wiktoria Wieczorek, 27 lat, panna",
+        "value_en": "Wiktoria Wieczorek, 27 years old, maiden"
+      },
+      {
+        "label_pl": "Rodzice Panny Młodej",
+        "label_en": "Bride's Parents",
+        "value_pl": "Andrzej i Marianna z Sułkowskich",
+        "value_en": "Andrzej and Marianna née Sułkowska"
+      },
+      {
+        "label_pl": "Świadkowie",
+        "label_en": "Witnesses",
+        "value_pl": "Mateusz Kowalczuk (57), Feliks Walczak (36)",
+        "value_en": "Mateusz Kowalczuk (57), Feliks Walczak (36)"
+      }
+    ]
+  },
+  {
+    "id": 215,
+    "title_pl": "Akt Urodzenia: Kacper Ofiara (1829)",
+    "title_en": "Birth Record: Kacper Ofiara (1829)",
+    "type": "birth_record",
+    "description_pl": "Parafia Jedlińsk, akt nr 2, 1829 r.",
+    "description_en": "Jedlińsk Parish, record no. 2, 1829.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się w Mieście Jedlińsku dnia czwartego Miesiąca Stycznia Roku tysiąc Osiemset Dwudziestego dziewiątego o godzinie trzeciej po południu. Stawił się Stefan Ofiara Włościanin na Parobka służący w Woli Gutowskiej, liczący lat trzydzieści trzy, w Obecności Kacpra Marszałka Włościanina gospodarza z Woli Gutowskiej lat trzydzieści trzy i Marcina Przybytowskiego Zakrystyana Kościelnego z Jedlińska lat dwadzieścia siedm liczących, w sobie wieku swego, i okazał nam Dziecię płci męskiej we Wsi Woli Gutowskiej urodzone dnia drugiego Miesiąca Stycznia roku bieżącego o godzinie szóstej po południu z Jego Małżonki Małgorzaty z Kowalczyków lat trzydzieści jeden mającej. Dziecięciu temu na Chrzcie Świętym w dniu dzisiejszym odbytym nadane zostało Imię Kacper, a Rodzicami jego Chrzestnymi byli wyżej wspomniany Kacper Marszałek i Małgorzata Kłochowska. Akt ten gdy ani Stawający ani świadkowie pisać nie umieją po przeczytaniu onego, podpisaliśmy. X. Walenty Rudawski Dziekan i Proboszcz Jedliński.",
+    "translation_pl": "Działo się w mieście Jedlińsk, dnia 4 stycznia 1829 roku, o godzinie trzeciej po południu. Stawił się Stefan Ofiara, włościanin, służący jako parobek w Woli Gutowskiej, lat trzydzieści trzy, w obecności Kacpra Marszałka, włościanina-gospodarza z Woli Gutowskiej, lat trzydzieści trzy, i Marcina Przybytowskiego, zakrystiana kościelnego z Jedlińska, lat dwadzieścia siedem. Okazał nam dziecko płci męskiej, urodzone we wsi Wola Gutowska dnia 2 stycznia bieżącego roku o godzinie szóstej po południu, z jego małżonki Małgorzaty z Kowalczyków, lat trzydzieści jeden. Dziecku temu na Chrzcie Świętym, który odbył się w dniu dzisiejszym, nadano imię Kacper, a jego rodzicami chrzestnymi byli wyżej wspomniany Kacper Marszałek i Małgorzata Kłochowska. Akt ten, po przeczytaniu, podpisaliśmy, gdyż ani stawiający, ani świadkowie pisać nie umieją. Ks. Walenty Rudawski, Dziekan i Proboszcz Jedliński.",
+    "translation_en": "It happened in the Town of Jedlińsk, on the fourth day of the month of January, in the year one thousand eight hundred and twenty-nine, at three o'clock in the afternoon. Appeared Stefan Ofiara, a peasant, serving as a farmhand in Wola Gutowska, aged thirty-three, in the presence of Kacper Marszałek, a peasant-farmer from Wola Gutowska, aged thirty-three, and Marcin Przybytowski, the church sacristan from Jedlińsk, aged twenty-seven. He presented to us a male child, born in the village of Wola Gutowska on the second day of the month of January of the current year, at six o'clock in the afternoon, to his wife Małgorzata née Kowalczyk, aged thirty-one. At the Holy Baptism performed this day, this child was given the name Kacper, and his Godparents were the aforementioned Kacper Marszałek and Małgorzata Kłochowska. This act, after being read, we signed, as neither the declarant nor the witnesses can write. Fr. Walenty Rudawski, Dean and Pastor of Jedlińsk.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Stefan Ofiara, 33 lata, parobek",
+        "value_en": "Stefan Ofiara, 33 years old, farmhand"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Małgorzata z Kowalczyków, 31 lat",
+        "value_en": "Małgorzata née Kowalczyk, 31 years old"
+      },
+      {
+        "label_pl": "Chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Kacper Marszałek i Małgorzata Kłochowska",
+        "value_en": "Kacper Marszałek and Małgorzata Kłochowska"
+      }
+    ]
   }
 ]
