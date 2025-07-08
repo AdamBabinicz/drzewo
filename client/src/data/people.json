@@ -720,8 +720,8 @@
     "firstName": "Franciszka",
     "lastName": "Ofiara",
     "maidenName": "Szaruch",
-    "birthDate": "1876",
-    "deathDate": "przed 1922",
+    "birthDateNote": "ok. 1854",
+    "deathDateNote": "przed 1922",
     "photoUrl": null,
     "family": "ofiara",
     "spouseIds": [57],
@@ -734,8 +734,8 @@
       }
     ],
     "biography": {
-      "pl": "Żona Andrzeja Ofiary. Zmarła przed 1922 rokiem.",
-      "en": "Wife of Andrzej Ofiara. Died before 1922."
+      "pl": "Żona Andrzeja Ofiary. Jej szacowany rok urodzenia opiera się na fakcie, że rodziła dzieci w długim okresie, od ok. 1872 (Ignacy) do ok. 1897 (Józef). Zmarła przed 1922 rokiem.",
+      "en": "Wife of Andrzej Ofiara. Her estimated year of birth is based on the fact that she had children over a long period, from around 1872 (Ignacy) to around 1897 (Józef). She died before 1922."
     }
   },
   {
@@ -1382,7 +1382,7 @@
     "id": 89,
     "firstName": "Ignacy",
     "lastName": "Ofiara",
-    "birthDate": null,
+    "birthDateNote": "ok. 1872",
     "deathDate": null,
     "photoUrl": null,
     "family": "ofiara",
@@ -1392,12 +1392,15 @@
     "marriages": [
       {
         "spouseId": 112,
-        "date": "1908"
+        "date": "1908-09-23",
+        "source": {
+          "documentId": 220
+        }
       }
     ],
     "biography": {
-      "pl": "Syn Andrzeja i Franciszki. W 1908 ożenił się z wdową Katarzyną Sikorską (Jurczak) c. Andrzeja i Marianny Hudzik.",
-      "en": "Son of Andrzej and Franciszka. In 1908, he married the widow Katarzyna Sikorska (Jurczak), daughter of Andrzej and Marianna Hudzik."
+      "pl": "Syn Andrzeja i Franciszki. W 1908 roku ożenił się z Katarzyną Sikorską (wdową z domu Jurczak), córką Andrzeja i Marianny Hudzik.",
+      "en": "Son of Andrzej and Franciszka. In 1908, he married Katarzyna Sikorska (a widow née Jurczak), daughter of Andrzej and Marianna Hudzik."
     }
   },
   {
@@ -1414,12 +1417,15 @@
     "marriages": [
       {
         "spouseId": 113,
-        "date": "1910"
+        "date": "1910-11-09",
+        "source": {
+          "documentId": 221
+        }
       }
     ],
     "biography": {
-      "pl": "Syn Andrzeja i Franciszki. Ożenił się w 1910 z wdową Rozalią Rojek (Drużdżel) c. Kazimierza i Małgorzaty Podkowiak.",
-      "en": "Son of Andrzej and Franciszka. In 1910, he married the widow Rozalia Rojek (Drużdżel), daughter of Kazimierz and Małgorzata Podkowiak."
+      "pl": "Syn Andrzeja i Franciszki. Ożenił się w 1910 z wdową Rozalią Rojek (z domu Drużdżel), córką Kazimierza i Małgorzaty z Podkowiaków.",
+      "en": "Son of Andrzej and Franciszka. In 1910, he married the widow Rozalia Rojek (née Drużdżel), daughter of Kazimierz and Małgorzata née Podkowiak."
     }
   },
   {
@@ -1801,7 +1807,8 @@
     "id": 112,
     "firstName": "Katarzyna",
     "lastName": "Ofiara",
-    "maidenName": "Sikorska (Jurczak)",
+    "maidenName": "Jurczak (primo voto Sikorska)",
+    "birthDateNote": "ok. 1868",
     "photoUrl": null,
     "family": "ofiara",
     "spouseIds": [89],
@@ -1810,19 +1817,23 @@
     "marriages": [
       {
         "spouseId": 89,
-        "date": "1908"
+        "date": "1908-09-23",
+        "source": {
+          "documentId": 220
+        }
       }
     ],
     "biography": {
-      "pl": "Żona Ignacego Ofiary. Córka Andrzeja i Marianny Hudzik. Ślub w Błotnicy w 1908 r.",
-      "en": "Wife of Ignacy Ofiara. Daughter of Andrzej and Marianna Hudzik. Wedding in the Błotnica parish in 1908."
+      "pl": "Żona Ignacego Ofiary. Córka Andrzeja i Marianny Hudzik. W chwili ślubu z Ignacym była wdową po Józefie Sikorskim.",
+      "en": "Wife of Ignacy Ofiara. Daughter of Andrzej and Marianna Hudzik. At the time of her marriage to Ignacy, she was the widow of Józef Sikorski."
     }
   },
   {
     "id": 113,
     "firstName": "Rozalia",
     "lastName": "Ofiara",
-    "maidenName": "Rojek (Drużdżel)",
+    "maidenName": "Drużdżel (primo voto Rojek)",
+    "birthDateNote": "ok. 1886",
     "photoUrl": null,
     "family": "ofiara",
     "spouseIds": [90],
@@ -1831,12 +1842,15 @@
     "marriages": [
       {
         "spouseId": 90,
-        "date": "1910"
+        "date": "1910-11-09",
+        "source": {
+          "documentId": 221
+        }
       }
     ],
     "biography": {
-      "pl": "Żona Antoniego Ofiary. Córka Kazimierza i Małgorzaty Podkowiak. Ślub w 1910 r.",
-      "en": "Wife of Antoni Ofiara. Daughter of Kazimierz and Małgorzata Podkowiak. Wedding in 1910."
+      "pl": "Żona Antoniego Ofiary. Córka Kazimierza i Małgorzaty z Podkowiaków. W chwili ślubu z Antonim była wdową po Józefie Rojku.",
+      "en": "Wife of Antoni Ofiara. Daughter of Kazimierz and Małgorzata née Podkowiak. At the time of her marriage to Antoni, she was the widow of Józef Rojek."
     }
   },
   {
@@ -2225,15 +2239,26 @@
     "id": 132,
     "firstName": "Agnieszka",
     "lastName": "Ofiara",
-    "birthDate": "1872-10-06",
+    "birthDate": "1872-10-05",
+    "birthTime": "23:00",
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
     "parentIds": [129, 130],
     "biography": {
-      "pl": "Córka Jakuba i Marianny. Urodzona w Woli Gutowskiej.",
-      "en": "Daughter of Jakub and Marianna. Born in Wola Gutowska."
-    }
+      "pl": "Córka Jakuba i Marianny z Wieczorków. Urodzona w Woli Gutowskiej.",
+      "en": "Daughter of Jakub and Marianna née Wieczorek. Born in Wola Gutowska."
+    },
+    "events": [
+      {
+        "type": "birth",
+        "date": "1872-10-05",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 219
+        }
+      }
+    ]
   },
   {
     "id": 133,
@@ -2241,7 +2266,7 @@
     "lastName": "Ofiara",
     "family": "ofiara",
     "birthDateNote": "ok. 1793",
-    "deathDateNote": "między 1867 a 1886",
+    "deathDateNote": "between 1867 and 1886",
     "photoUrl": "/images/stefan.avif",
     "spouseIds": [134],
     "childIds": [129, 135, 136, 137, 138],

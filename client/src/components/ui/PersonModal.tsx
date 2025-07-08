@@ -44,9 +44,34 @@ interface PersonModalProps {
 
 const formatDate = (dateString: string | null | undefined, locale: string) => {
   if (!dateString || dateString === "?") return "?";
-  if (/[a-zA-Z]/.test(dateString)) {
-    return dateString;
+
+  const translations: { [key: string]: { pl: string; en: string } } = {
+    "ok.": { pl: "ok.", en: "c." },
+    przed: { pl: "przed", en: "before" },
+    po: { pl: "po", en: "after" },
+    between: { pl: "między", en: "between" },
+  };
+
+  const parts = dateString.split(" ");
+  const keyword = parts[0];
+
+  if (Object.prototype.hasOwnProperty.call(translations, keyword)) {
+    const translationSet = translations[keyword];
+    const translatedKeyword =
+      locale === "en" ? translationSet.en : translationSet.pl;
+
+    if (keyword === "between" && parts.length === 4 && parts[2] === "and") {
+      const year1 = parts[1];
+      const year2 = parts[3];
+      return locale === "pl"
+        ? `między ${year1} a ${year2}`
+        : `between ${year1} and ${year2}`;
+    }
+
+    const restOfString = parts.slice(1).join(" ");
+    return `${translatedKeyword} ${restOfString}`;
   }
+
   if (
     /^\d{4}$/.test(dateString) ||
     /^\d{4}s$/.test(dateString) ||
@@ -208,7 +233,8 @@ export default function PersonModal({
                   <div className="md:w-2/3 space-y-4">
                     {(currentPerson.birthDate ||
                       currentPerson.birthDateNote ||
-                      currentPerson.deathDate) && (
+                      currentPerson.deathDate ||
+                      currentPerson.deathDateNote) && (
                       <div className="flex items-start space-x-3">
                         <Calendar className="w-4 h-4 text-muted-foreground mt-1" />
                         <div>
@@ -244,13 +270,18 @@ export default function PersonModal({
                               )}
                             </div>
                           )}
-                          {currentPerson.deathDate && (
+                          {(currentPerson.deathDate ||
+                            currentPerson.deathDateNote) && (
                             <div className="flex items-center gap-2">
                               <p className="heritage-text">
                                 <span className="font-semibold">
                                   {t("person.died")}:
                                 </span>{" "}
-                                {formatDate(currentPerson.deathDate, language)}
+                                {formatDate(
+                                  currentPerson.deathDateNote ||
+                                    currentPerson.deathDate,
+                                  language
+                                )}
                               </p>
                               {deathEvent && (
                                 <Tooltip>
