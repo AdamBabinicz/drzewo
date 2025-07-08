@@ -2251,8 +2251,8 @@
       "en": "Farmhand / Peasant"
     },
     "biography": {
-      "pl": "Protoplasta rodu Ofiara. Mąż Małgorzaty Kowalczyk. Ojciec Jakuba, Kacpra, Anny, Franciszki i Wojciecha. Jego wiek w dokumentach podawany jest niespójnie, co sugeruje, że urodził się około 1793 roku. Był jeszcze żywy w lutym 1867, a już nie żył w marcu 1886.",
-      "en": "Progenitor of the Ofiara family. Husband of Małgorzata Kowalczyk. Father of Jakub, Kacper, Anna, Franciszka, and Wojciech. His age is stated inconsistently in documents, suggesting he was born around 1793. He was still alive in February 1867 but had passed away by March 1886."
+      "pl": "Protoplasta rodu Ofiara. Mąż Małgorzaty Kowalczyk. Ojciec Jakuba, Kacpra, Anny, Franciszki i Wojciecha. Jego wiek w dokumentach podawany jest niespójnie (sugeruje daty urodzenia od 1793 do 1805). Był jeszcze żywy w lutym 1867, a już nie żył w marcu 1886.",
+      "en": "Progenitor of the Ofiara family. Husband of Małgorzata Kowalczyk. Father of Jakub, Kacper, Anna, Franciszka, and Wojciech. His age is stated inconsistently in documents (suggesting birth dates from 1793 to 1805). He was still alive in February 1867 but had passed away by March 1886."
     }
   },
   {
@@ -2261,13 +2261,13 @@
     "lastName": "Ofiara",
     "maidenName": "Kowalczyk",
     "family": "ofiara",
-    "birthDate": "1798",
+    "birthDateNote": "ok. 1798-1805",
     "spouseIds": [133],
     "childIds": [129, 135, 136, 137, 138],
     "parentIds": [],
     "biography": {
-      "pl": "Matka Jakuba, Kacpra, Anny, Franciszki i Wojciecha. Żona Stefana Ofiary.",
-      "en": "Mother of Jakub, Kacper, Anna, Franciszka, and Wojciech. Wife of Stefan Ofiara."
+      "pl": "Żona Stefana Ofiary, matka Jakuba, Kacpra, Anny, Franciszki i Wojciecha. Jej wiek w dokumentach podawany jest niespójnie, co sugeruje, że urodziła się między 1798 a 1805 rokiem.",
+      "en": "Wife of Stefan Ofiara, mother of Jakub, Kacper, Anna, Franciszka, and Wojciech. Her age is stated inconsistently in documents, suggesting she was born between 1798 and 1805."
     }
   },
   {
@@ -2301,35 +2301,59 @@
     "firstName": "Anna",
     "lastName": "Ofiara",
     "birthDate": "1835-07-03",
+    "birthTime": "20:00",
     "family": "ofiara",
     "parentIds": [133, 134],
     "spouseIds": [],
     "childIds": [],
     "biography": {
-      "pl": "Córka Stefana i Małgorzaty z d. Kowalczyk.",
-      "en": "Daughter of Stefan and Małgorzata née Kowalczyk."
-    }
+      "pl": "Córka Stefana i Małgorzaty z d. Kowalczyk. Urodzona w Woli Gutowskiej.",
+      "en": "Daughter of Stefan and Małgorzata née Kowalczyk. Born in Wola Gutowska."
+    },
+    "events": [
+      {
+        "type": "birth",
+        "date": "1835-07-03",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 216
+        }
+      }
+    ]
   },
   {
     "id": 137,
     "firstName": "Franciszka",
     "lastName": "Ofiara",
     "birthDate": "1839-09-19",
+    "birthTime": "9:00",
+    "birthTimeQualifier": "morning",
     "deathDate": "1841-08-15",
     "family": "ofiara",
     "parentIds": [133, 134],
     "spouseIds": [],
     "childIds": [],
     "biography": {
-      "pl": "Córka Stefana i Małgorzaty z d. Kowalczyk. Żyła 2 lata",
-      "en": "Daughter of Stefan and Małgorzata née Kowalczyk. Lived for 2 years."
-    }
+      "pl": "Córka Stefana i Małgorzaty z d. Kowalczyk. Urodzona w Woli Gutowskiej. Zmarła w wieku niespełna dwóch lat.",
+      "en": "Daughter of Stefan and Małgorzata née Kowalczyk. Born in Wola Gutowska. She died at the age of nearly two."
+    },
+    "events": [
+      {
+        "type": "birth",
+        "date": "1839-09-19",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 217
+        }
+      }
+    ]
   },
   {
     "id": 138,
     "firstName": "Wojciech",
     "lastName": "Ofiara",
-    "birthDate": "1842-04-12",
+    "birthDate": "1842-04-10",
+    "birthTime": "17:00",
     "deathDate": "1921-04-08",
     "family": "ofiara",
     "parentIds": [133, 134],
@@ -2346,8 +2370,9 @@
       {
         "spouseId": 152,
         "date": "1886-03-07",
-        "source": {
-          "documentId": 213
+        "note": {
+          "pl": "Informacje o tym ślubie (akt nr 21) pochodzą z indeksu parafialnego. Oryginalny skan dokumentu nie jest obecnie dostępny.",
+          "en": "Information about this marriage (record no. 21) comes from the parish index. The original scan of the document is not currently available."
         }
       },
       {
@@ -2361,7 +2386,17 @@
     "biography": {
       "pl": "Syn Stefana i Małgorzaty z d. Kowalczyk. Był trzykrotnie żonaty. Pierwszą żoną była Franciszka z Puzianowskich. Po jej śmierci ożenił się w marcu 1886 z Magdaleną Komach, która zmarła niedługo potem. W lipcu 1886 poślubił Wiktorię Wieczorek. Zmarł jako wdowiec w 1921 roku.",
       "en": "Son of Stefan and Małgorzata née Kowalczyk. He was married three times. His first wife was Franciszka née Puzianowska. After her death, he married Magdalena Komach in March 1886, who died shortly after. In July 1886, he married Wiktoria Wieczorek. He died a widower in 1921."
-    }
+    },
+    "events": [
+      {
+        "type": "birth",
+        "date": "1842-04-10",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 218
+        }
+      }
+    ]
   },
   {
     "id": 139,

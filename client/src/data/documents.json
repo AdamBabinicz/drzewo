@@ -1247,5 +1247,101 @@
         "value_en": "Kacper Marszałek and Małgorzata Kłochowska"
       }
     ]
+  },
+  {
+    "id": 216,
+    "title_pl": "Akt Urodzenia: Anna Ofiara (1835)",
+    "title_en": "Birth Record: Anna Ofiara (1835)",
+    "type": "birth_record",
+    "description_pl": "Parafia Jedlińsk, akt nr 35, 1835 r.",
+    "description_en": "Jedlińsk Parish, record no. 35, 1835.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się w Mieście Jedlińsku dnia ósmego Lipca Tysiąc Osiemset Trzydziestego Piątego Roku o godzinie szóstej przed wieczorem. Stawił się Stefan Ofiara Włościanin i Gospodarz liczący lat trzydzieści, w obecności Szymona Pargulskiego Włościanina Gospodarza z Piastowa lat trzydzieści i Walentego Bednarka Gospodarza z Woli Gutowskiej lat dwadzieścia pięć liczących sobie wieku swego, i okazał nam dziecię płci żeńskiej, w domu pod numerem trzecim urodzone dnia trzeciego miesiąca Lipca roku bieżącego o godzinie ósmej wieczór z Jego Małżonki Małgorzaty z Kowalczyków lat trzydzieści lat maiącey. Dziecięciu temu na Chrzcie Świętym w dniu dzisiejszym odbytym nadane zostało Imię Anna a Rodzicami Jego Chrzestnemi byli wyżej wspomniany Szymon Pargulski i Justyna Chuchrakowa. Akt ten Stawającemu i świadkom pisać nie umiejącym przeczytany podpisaliśmy. X. Walenty Rudawski Dziekan i Proboszcz Jedliński.",
+    "translation_pl": "Działo się w mieście Jedlińsk, dnia 8 lipca 1835 roku, o godzinie szóstej przed wieczorem. Stawił się Stefan Ofiara, włościanin i gospodarz, liczący 30 lat, w obecności Szymona Pargulskiego, włościanina-gospodarza z Piastowa, lat 30, i Walentego Bednarka, gospodarza z Woli Gutowskiej, lat 25. Okazał nam dziecko płci żeńskiej, urodzone w domu pod numerem trzecim, dnia 3 lipca bieżącego roku o godzinie ósmej wieczorem, z jego małżonki Małgorzaty z Kowalczyków, lat 30. Dziecku temu na Chrzcie Świętym, który odbył się w dniu dzisiejszym, nadano imię Anna, a jego rodzicami chrzestnymi byli wyżej wspomniany Szymon Pargulski i Justyna Chuchrakowa. Akt ten, po przeczytaniu stawiającemu i świadkom, którzy pisać nie umieją, podpisaliśmy. Ks. Walenty Rudawski, Dziekan i Proboszcz Jedliński.",
+    "translation_en": "It happened in the Town of Jedlińsk, on the eighth of July, one thousand eight hundred and thirty-five, at six o'clock in the evening. Appeared Stefan Ofiara, a peasant and farmer, aged 30, in the presence of Szymon Pargulski, a peasant-farmer from Piastów, aged 30, and Walenty Bednarek, a farmer from Wola Gutowska, aged 25. He presented to us a female child, born in the house at number three, on the third day of July of the current year at eight o'clock in the evening, to his wife Małgorzata née Kowalczyk, aged 30. At the Holy Baptism performed this day, this child was given the name Anna, and her Godparents were the aforementioned Szymon Pargulski and Justyna Chuchrakowa. This act, after being read to the declarant and witnesses, who are illiterate, was signed by us. Fr. Walenty Rudawski, Dean and Pastor of Jedlińsk.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Stefan Ofiara, 30 lat",
+        "value_en": "Stefan Ofiara, 30 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Małgorzata z Kowalczyków, 30 lat",
+        "value_en": "Małgorzata née Kowalczyk, 30 years old"
+      },
+      {
+        "label_pl": "Chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Szymon Pargulski i Justyna Chuchrakowa",
+        "value_en": "Szymon Pargulski and Justyna Chuchrakowa"
+      }
+    ]
+  },
+  {
+    "id": 217,
+    "title_pl": "Akt Urodzenia: Franciszka Ofiara (1839)",
+    "title_en": "Birth Record: Franciszka Ofiara (1839)",
+    "type": "birth_record",
+    "description_pl": "Parafia Jedlińsk, akt nr 63, 1839 r.",
+    "description_en": "Jedlińsk Parish, record no. 63, 1839.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się w mieście Jedlińsku, dnia Dwudziestego Września, tysiąc ośmset trzydziestego dziewiątego roku, o godzinie piątej po południu. — Stawił się Stefan Ofiara włościanin z Woli Gutowskiej, lat trzydzieści cztery maiący, w obecności Tomasza Chudziaka lat czterdzieści i Mateusza Okroja lat pięćdziesiąt maiących, obudwóch włościan z Woli Gutowskiej, i okazał Nam dziecię płci żeńskiej, urodzone tamże dnia dziewiętnastego Września bieżącego roku o godzinie dziewiątej rano, z jego małżonki Małgorzaty z Kowalczyków lat trzydzieści dziewięć maiącey. Dziecięciu temu na Chrzcie Świętym odbytym w dniu dzisiejszym nadane zostało imię Franciszka, a Rodzicami jego Chrzestnymi byli: wspomniany Tomasz Chudzik i Maryanna Banasikowa. — Akt ten stawaiącemu i świadkom pisać nie umiejącym przeczytany, przez nas podpisany został. X. Jan Kłochowski Proboszcz ad... Parafii Jedlińsko.",
+    "translation_pl": "Działo się w mieście Jedlińsk, dnia 20 września 1839 roku, o godzinie piątej po południu. — Stawił się Stefan Ofiara, włościanin z Woli Gutowskiej, lat 34, w obecności Tomasza Chudziaka, lat 40, i Mateusza Okroja, lat 50, obu włościan z Woli Gutowskiej. Okazał nam dziecko płci żeńskiej, urodzone tamże dnia 19 września bieżącego roku o godzinie dziewiątej rano, z jego małżonki Małgorzaty z Kowalczyków, lat 39. Dziecku temu na Chrzcie Świętym, który odbył się w dniu dzisiejszym, nadano imię Franciszka, a jego rodzicami chrzestnymi byli: wspomniany Tomasz Chudzik i Marianna Banasikowa. — Akt ten stawiającemu i świadkom, którzy pisać nie umieją, po przeczytaniu, przez nas podpisany został. Ks. Jan Kłochowski, Proboszcz ad... Parafii Jedlińsko.",
+    "translation_en": "It happened in the Town of Jedlińsk, on the twentieth of September, one thousand eight hundred and thirty-nine, at five o'clock in the afternoon. — Appeared Stefan Ofiara, a peasant from Wola Gutowska, aged 34, in the presence of Tomasz Chudziak, aged 40, and Mateusz Okrój, aged 50, both peasants from Wola Gutowska. He presented to us a female child, born there on the nineteenth of September of the current year at nine o'clock in the morning, to his wife Małgorzata née Kowalczyk, aged 39. At the Holy Baptism performed this day, this child was given the name Franciszka, and her Godparents were the aforementioned Tomasz Chudzik and Marianna Banasikowa. — This act, after being read to the declarant and witnesses, who are illiterate, was signed by us. Fr. Jan Kłochowski, Pastor ad... of the Jedlińsko Parish.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Stefan Ofiara, 34 lata",
+        "value_en": "Stefan Ofiara, 34 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Małgorzata z Kowalczyków, 39 lat",
+        "value_en": "Małgorzata née Kowalczyk, 39 years old"
+      },
+      {
+        "label_pl": "Chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Tomasz Chudzik i Marianna Banasikowa",
+        "value_en": "Tomasz Chudzik and Marianna Banasikowa"
+      }
+    ]
+  },
+  {
+    "id": 218,
+    "title_pl": "Akt Urodzenia: Wojciech Ofiara (1842)",
+    "title_en": "Birth Record: Wojciech Ofiara (1842)",
+    "type": "birth_record",
+    "description_pl": "Parafia Jedlińsk, akt nr 24, 1842 r.",
+    "description_en": "Jedlińsk Parish, record no. 24, 1842.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się w mieście Jedlińsku, dnia dwunastego Kwietnia, tysiąc ośmset czterdziestego drugiego roku, o godzinie szóstej po południu. — Stawił się Stefan Ofiara włościanin parobek, włościanin z Woli Gutowskiej, lat czterdzieści siedm maiący, w obecności Dominika Sumińskiego lat pięćdziesiąt sześć i Dyonizego Lipca lat czterdzieści siedm maiących, włościan z Woli Gutowskiej, i okazał nam dziecię płci męskiej, urodzone w Woli Gutowskiej dnia dziesiątego Kwietnia bieżącego roku o godzinie piątej po południu, z jego małżonki Małgorzaty z Kowalczyków lat czterdzieści siedm maiącey. — Dziecięciu temu na Chrzcie Świętym w dniu dzisiejszym nadane zostało imię Wojciech, a Rodzicami jego Chrzestnymi byli: wspomniany Dominik Sumiński i Tekla Ofiarowa. Akt ten stawającemu i świadkom przeczytany, a że pisać nie umieją, przez Nas tylko podpisany został. — X. Jan Kłochowski Proboszcz Parafii Jedlińsko.",
+    "translation_pl": "Działo się w mieście Jedlińsk, dnia 12 kwietnia 1842 roku, o godzinie szóstej po południu. — Stawił się Stefan Ofiara, włościanin, parobek z Woli Gutowskiej, lat 47, w obecności Dominika Sumińskiego, lat 56, i Dionizego Lipca, lat 47, włościan z Woli Gutowskiej. Okazał nam dziecko płci męskiej, urodzone w Woli Gutowskiej dnia 10 kwietnia bieżącego roku o godzinie piątej po południu, z jego małżonki Małgorzaty z Kowalczyków, lat 47. — Dziecku temu na Chrzcie Świętym w dniu dzisiejszym nadano imię Wojciech, a jego rodzicami chrzestnymi byli: wspomniany Dominik Sumiński i Tekla Ofiarowa. Akt ten stawiającemu i świadkom, którzy pisać nie umieją, po przeczytaniu, przez nas tylko został podpisany. — Ks. Jan Kłochowski, Proboszcz Parafii Jedlińsko.",
+    "translation_en": "It happened in the Town of Jedlińsk, on the twelfth of April, one thousand eight hundred and forty-two, at six o'clock in the afternoon. — Appeared Stefan Ofiara, a peasant, a farmhand from Wola Gutowska, aged 47, in the presence of Dominik Sumiński, aged 56, and Dionizy Lipiec, aged 47, peasants from Wola Gutowska. He presented to us a male child, born in Wola Gutowska on the tenth of April of the current year at five o'clock in the afternoon, to his wife Małgorzata née Kowalczyk, aged 47. — At the Holy Baptism on this day, this child was given the name Wojciech, and his Godparents were: the aforementioned Dominik Sumiński and Tekla Ofiarowa. This act was read to the declarant and witnesses, and as they cannot write, it was signed only by us. — Fr. Jan Kłochowski, Pastor of the Jedlińsko Parish.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Stefan Ofiara, 47 lat",
+        "value_en": "Stefan Ofiara, 47 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Małgorzata z Kowalczyków, 47 lat",
+        "value_en": "Małgorzata née Kowalczyk, 47 years old"
+      },
+      {
+        "label_pl": "Chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Dominik Sumiński i Tekla Ofiarowa",
+        "value_en": "Dominik Sumiński and Tekla Ofiarowa"
+      }
+    ]
   }
 ]
