@@ -91,7 +91,8 @@ export default function KeepsakesModal({
             </DialogDescription>
           </DialogHeader>
 
-          <ScrollArea className="max-h-[70vh]">
+          {/* ZMIANA: Dodajemy klasy Tailwind CSS do obsługi przewijania dotykowego */}
+          <ScrollArea className="max-h-[70vh] overscroll-contain touch-pan-y">
             <div className="grid gap-4 p-1 grid-cols-[repeat(auto-fit,minmax(300px,1fr))]">
               {keepsakes.map((keepsake: Keepsake, index: number) => (
                 <div
