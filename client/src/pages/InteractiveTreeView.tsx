@@ -1,6 +1,7 @@
 import { useState } from "react";
 import InteractiveTree from "@/components/tree/InteractiveTree";
 import PersonModal from "@/components/ui/PersonModal";
+import KeepsakesModal from "@/components/ui/KeepsakesModal"; // KROK 1: Import KeepsakesModal
 import { Person } from "@shared/schema";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Alert, AlertDescription } from "@/components/ui/alert";
@@ -8,7 +9,6 @@ import { AlertCircle, Check, Settings } from "lucide-react";
 import SEO from "@/components/SEO";
 import { useLanguage } from "@/hooks/useLanguage";
 import genealogyData from "@/data/index";
-// import genealogyData from "@/data/genealogy.json";
 
 const ControlCheckbox = ({
   label,
@@ -37,7 +37,9 @@ export default function InteractiveTreeView() {
   const [selectedPerson, setSelectedPerson] = useState<Person | null>(null);
   const [modalOpen, setModalOpen] = useState(false);
 
-  // Stany do zarządzania widocznością wszystkich elementów
+  // KROK 2: Dodaj stan dla modala z pamiątkami
+  const [keepsakesPerson, setKeepsakesPerson] = useState<Person | null>(null);
+
   const [showGierczak, setShowGierczak] = useState(true);
   const [showOfiara, setShowOfiara] = useState(true);
   const [showDescendants, setShowDescendants] = useState(true);
@@ -55,6 +57,18 @@ export default function InteractiveTreeView() {
   const handleModalClose = () => {
     setModalOpen(false);
     setSelectedPerson(null);
+  };
+
+  // KROK 3: Dodaj funkcje do obsługi modala z pamiątkami
+  const handleOpenKeepsakes = (person: Person) => {
+    handleModalClose(); // Zamknij modal osoby
+    setTimeout(() => {
+      setKeepsakesPerson(person); // Otwórz modal pamiątek
+    }, 150);
+  };
+
+  const handleCloseKeepsakes = () => {
+    setKeepsakesPerson(null);
   };
 
   if (isLoading) {
@@ -146,7 +160,17 @@ export default function InteractiveTreeView() {
           onClose={handleModalClose}
           onPersonClick={handlePersonClick}
           allPeople={allPeople}
+          onOpenKeepsakes={handleOpenKeepsakes} // KROK 4: Przekaż prop
         />
+
+        {/* KROK 5: Renderuj KeepsakesModal tutaj */}
+        {keepsakesPerson && (
+          <KeepsakesModal
+            person={keepsakesPerson}
+            isOpen={!!keepsakesPerson}
+            onClose={handleCloseKeepsakes}
+          />
+        )}
       </div>
     </>
   );

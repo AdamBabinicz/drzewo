@@ -15,7 +15,6 @@ import {
   DialogDescription,
   DialogClose,
 } from "@/components/ui/dialog";
-import { ScrollArea } from "@/components/ui/scroll-area";
 import { X } from "lucide-react";
 import { useLanguage } from "@/hooks/useLanguage";
 import { Person, Keepsake } from "../../../../shared/schema";
@@ -67,18 +66,14 @@ export default function KeepsakesModal({
 
   return (
     <>
-      {/*
-        KROK 1: Ustawiamy Dialog w tryb "niemodalny", aby nie blokował zdarzeń dotykowych Lightboxa (naprawia swipe).
-      */}
       <Dialog open={isOpen} onOpenChange={onClose} modal={false}>
         <DialogContent
-          // KROK 2: Blokujemy zamknięcie Dialogu po kliknięciu na tło Lightboxa.
           onInteractOutside={(e) => {
             if (lightboxOpen) {
               e.preventDefault();
             }
           }}
-          className="w-[95%] max-w-4xl max-h-[90vh] bg-stone-50 dark:bg-background-alt top-4 translate-y-0 md:top-1/2 md:-translate-y-1/2"
+          className="w-[95%] max-w-4xl max-h-[90vh] bg-stone-50 dark:bg-background-alt top-4 translate-y-0 md:top-1/2 md:-translate-y-1/2 flex flex-col"
         >
           <DialogHeader>
             <DialogTitle className="font-serif text-2xl heritage-text">
@@ -91,8 +86,7 @@ export default function KeepsakesModal({
             </DialogDescription>
           </DialogHeader>
 
-          {/* ZMIANA: Dodajemy klasy Tailwind CSS do obsługi przewijania dotykowego */}
-          <ScrollArea className="max-h-[70vh] overscroll-contain touch-pan-y">
+          <div className="flex-1 overflow-y-auto">
             <div className="grid gap-4 p-1 grid-cols-[repeat(auto-fit,minmax(300px,1fr))]">
               {keepsakes.map((keepsake: Keepsake, index: number) => (
                 <div
@@ -117,7 +111,7 @@ export default function KeepsakesModal({
                 </div>
               ))}
             </div>
-          </ScrollArea>
+          </div>
           <DialogClose className="absolute right-4 top-4 rounded-sm opacity-70 ring-offset-background transition-opacity hover:opacity-100 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:pointer-events-none data-[state=open]:bg-accent data-[state=open]:text-muted-foreground">
             <X className="h-4 w-4" />
             <span className="sr-only">{t("keepsakes.close")}</span>

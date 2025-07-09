@@ -4,12 +4,12 @@ import { useQuery } from "@tanstack/react-query";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import PersonModal from "@/components/ui/PersonModal";
+import KeepsakesModal from "@/components/ui/KeepsakesModal"; // KROK 1: Import KeepsakesModal
 import { Person } from "@shared/schema";
 import { MapPin, Users, Eye, BookText, ChevronDown, Award } from "lucide-react";
 import { useMemo, useState } from "react";
 import SEO from "@/components/SEO";
 import genealogyData from "@/data/index";
-// import genealogyData from "@/data/genealogy.json";
 import { Link } from "wouter";
 import { useLanguage } from "@/hooks/useLanguage";
 import { getFamilyStructure } from "@/lib/genealogyUtils";
@@ -24,6 +24,9 @@ export default function FamilyBranchView() {
   const [modalOpen, setModalOpen] = useState(false);
   const [etymologyOpen, setEtymologyOpen] = useState(false);
 
+  // KROK 2: Dodaj stan dla modala z pamiątkami
+  const [keepsakesPerson, setKeepsakesPerson] = useState<Person | null>(null);
+
   const { data: allPeople = [] } = useQuery({
     queryKey: ["/api/people"],
     queryFn: () => Promise.resolve(genealogyData.people as Person[]),
@@ -35,6 +38,23 @@ export default function FamilyBranchView() {
     }
     return { progenitorUnit: null, descendantUnits: [] };
   }, [family, allPeople]);
+
+  const handlePersonClick = (person: Person) => {
+    setSelectedPerson(person);
+    setModalOpen(true);
+  };
+
+  // KROK 3: Dodaj funkcje do obsługi modala z pamiątkami
+  const handleOpenKeepsakes = (person: Person) => {
+    setModalOpen(false); // Zamknij modal osoby
+    setTimeout(() => {
+      setKeepsakesPerson(person); // Otwórz modal pamiątek
+    }, 150);
+  };
+
+  const handleCloseKeepsakes = () => {
+    setKeepsakesPerson(null);
+  };
 
   const familyInfo = {
     gierczak: {
@@ -53,7 +73,6 @@ export default function FamilyBranchView() {
       borderColor: "border-heritage-teal",
       btnColor: "btn-heritage-teal",
       imageUrl: "/images/ludwikow.avif",
-      // ZMIANA TUTAJ: Zmieniona kolejność wyświetlania miejsc
       placeIds: ["wola_gutowska", "ludwikow", "gulinek_ofiara"],
     },
   };
@@ -85,11 +104,6 @@ export default function FamilyBranchView() {
     return allIds.size;
   }, [progenitorUnit, descendantUnits]);
 
-  const handlePersonClick = (person: Person) => {
-    setSelectedPerson(person);
-    setModalOpen(true);
-  };
-
   const getDynamicText = (
     field: { pl: string; en: string } | string | null | undefined
   ) => {
@@ -103,7 +117,6 @@ export default function FamilyBranchView() {
   const familyPlaces =
     genealogyData.places
       ?.filter((place) => currentFamily.placeIds.includes(place.id))
-      // ZMIANA TUTAJ: Sortowanie miejsc zgodnie z nową kolejnością
       .sort(
         (a, b) =>
           currentFamily.placeIds.indexOf(a.id) -
@@ -326,7 +339,17 @@ export default function FamilyBranchView() {
           onClose={() => setModalOpen(false)}
           onPersonClick={handlePersonClick}
           allPeople={allPeople}
+          onOpenKeepsakes={handleOpenKeepsakes} // KROK 4: Przekaż prop
         />
+
+        {/* KROK 5: Renderuj KeepsakesModal tutaj */}
+        {keepsakesPerson && (
+          <KeepsakesModal
+            person={keepsakesPerson}
+            isOpen={!!keepsakesPerson}
+            onClose={handleCloseKeepsakes}
+          />
+        )}
       </div>
     </>
   );

@@ -26,7 +26,6 @@ import {
 import { Person, Anecdote, Event } from "../../../../shared/schema";
 import { useLanguage } from "@/hooks/useLanguage";
 import DocumentModal from "./DocumentModal";
-import KeepsakesModal from "./KeepsakesModal";
 import {
   Tooltip,
   TooltipContent,
@@ -40,6 +39,7 @@ interface PersonModalProps {
   onClose: () => void;
   onPersonClick: (person: Person) => void;
   allPeople: Person[];
+  onOpenKeepsakes: (person: Person) => void;
 }
 
 const formatDate = (dateString: string | null | undefined, locale: string) => {
@@ -123,13 +123,13 @@ export default function PersonModal({
   onClose,
   onPersonClick,
   allPeople,
+  onOpenKeepsakes,
 }: PersonModalProps) {
   const { t, language } = useLanguage();
   const [documentModalOpen, setDocumentModalOpen] = useState(false);
   const [selectedDocumentId, setSelectedDocumentId] = useState<number | null>(
     null
   );
-  const [keepsakesModalOpen, setKeepsakesModalOpen] = useState(false);
 
   const currentPerson = allPeople.find((p) => p.id === person?.id) || person;
 
@@ -373,7 +373,7 @@ export default function PersonModal({
                         <div>
                           <p
                             className="heritage-text cursor-pointer hover:underline"
-                            onClick={() => setKeepsakesModalOpen(true)}
+                            onClick={() => onOpenKeepsakes(currentPerson)}
                           >
                             <span className="font-semibold">
                               {t("person.keepsakes")}
@@ -519,13 +519,6 @@ export default function PersonModal({
         onClose={() => setDocumentModalOpen(false)}
         documentId={selectedDocumentId}
       />
-      {hasKeepsakes && (
-        <KeepsakesModal
-          isOpen={keepsakesModalOpen}
-          onClose={() => setKeepsakesModalOpen(false)}
-          person={currentPerson}
-        />
-      )}
     </>
   );
 }

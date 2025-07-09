@@ -4,11 +4,11 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import PersonCard from "@/components/ui/PersonCard";
 import PersonModal from "@/components/ui/PersonModal";
+import KeepsakesModal from "@/components/ui/KeepsakesModal"; // KROK 1: Import KeepsakesModal
 import { Person } from "@shared/schema";
 import { Search } from "lucide-react";
 import SEO from "@/components/SEO";
 import genealogyData from "@/data/index";
-// import genealogyData from "@/data/genealogy.json";
 import { useLanguage } from "@/hooks/useLanguage";
 
 export default function PersonIndex() {
@@ -17,6 +17,9 @@ export default function PersonIndex() {
   const [selectedLetter, setSelectedLetter] = useState<string | null>(null);
   const [selectedPerson, setSelectedPerson] = useState<Person | null>(null);
   const [modalOpen, setModalOpen] = useState(false);
+
+  // KROK 2: Dodaj stan dla modala z pamiątkami
+  const [keepsakesPerson, setKeepsakesPerson] = useState<Person | null>(null);
 
   const { data: people = [] } = useQuery({
     queryKey: ["/api/people"],
@@ -65,6 +68,18 @@ export default function PersonIndex() {
 
   const handleLetterClick = (letter: string) => {
     setSelectedLetter(selectedLetter === letter ? null : letter);
+  };
+
+  // KROK 3: Dodaj funkcje do obsługi modala z pamiątkami
+  const handleOpenKeepsakes = (person: Person) => {
+    setModalOpen(false); // Zamknij modal osoby
+    setTimeout(() => {
+      setKeepsakesPerson(person); // Otwórz modal pamiątek
+    }, 150);
+  };
+
+  const handleCloseKeepsakes = () => {
+    setKeepsakesPerson(null);
   };
 
   return (
@@ -126,7 +141,6 @@ export default function PersonIndex() {
             )}
           </div>
 
-          {/* --- NOWY WRAPPER DLA SEKCJI WYNIKÓW --- */}
           <div className="bg-white dark:bg-background-alt rounded-lg p-4 sm:p-8 mt-8">
             <div className="text-center mb-6">
               <p className="text-muted-foreground">
@@ -191,7 +205,17 @@ export default function PersonIndex() {
         onClose={() => setModalOpen(false)}
         onPersonClick={handlePersonClick}
         allPeople={people}
+        onOpenKeepsakes={handleOpenKeepsakes} // KROK 4: Przekaż prop
       />
+
+      {/* KROK 5: Renderuj KeepsakesModal tutaj */}
+      {keepsakesPerson && (
+        <KeepsakesModal
+          person={keepsakesPerson}
+          isOpen={!!keepsakesPerson}
+          onClose={handleCloseKeepsakes}
+        />
+      )}
     </>
   );
 }
