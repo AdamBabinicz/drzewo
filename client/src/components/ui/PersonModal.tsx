@@ -23,6 +23,11 @@ import {
   Archive,
   Asterisk,
 } from "lucide-react";
+import {
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from "@/components/ui/popover";
 import { Person, Anecdote, Event } from "../../../../shared/schema";
 import { useLanguage } from "@/hooks/useLanguage";
 import DocumentModal from "./DocumentModal";
@@ -349,16 +354,20 @@ export default function PersonModal({
                                   </Tooltip>
                                 )}
                                 {marriage.note && (
-                                  <Tooltip>
-                                    <TooltipTrigger asChild>
-                                      <Asterisk className="w-4 h-4 text-heritage-gold cursor-help" />
-                                    </TooltipTrigger>
-                                    <TooltipContent>
-                                      <p className="max-w-xs">
-                                        {getDynamicText(marriage.note)}
-                                      </p>
-                                    </TooltipContent>
-                                  </Tooltip>
+                                  <Popover>
+                                    <PopoverTrigger asChild>
+                                      <button
+                                        aria-label={t(
+                                          "tooltip.viewMarriageNote"
+                                        )}
+                                      >
+                                        <Asterisk className="w-4 h-4 text-heritage-gold cursor-pointer" />
+                                      </button>
+                                    </PopoverTrigger>
+                                    <PopoverContent className="max-w-xs">
+                                      <p>{getDynamicText(marriage.note)}</p>
+                                    </PopoverContent>
+                                  </Popover>
                                 )}
                               </div>
                             )}
