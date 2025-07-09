@@ -95,7 +95,7 @@ export default function PersonCard({ person, onClick }: PersonCardProps) {
         onClick={onClick}
       >
         <CardContent className="p-4">
-          <div className="flex items-center space-x-3">
+          <div className="flex flex-col items-center space-y-3 sm:flex-row sm:space-y-0 sm:space-x-3 sm:items-center">
             <div className="w-12 h-12 bg-stone-200 rounded-full flex items-center justify-center flex-shrink-0">
               {person.photoUrl ? (
                 <img
@@ -109,8 +109,8 @@ export default function PersonCard({ person, onClick }: PersonCardProps) {
               )}
             </div>
 
-            <div className="flex-1 min-w-0">
-              <div className="flex items-center">
+            <div className="flex-1 min-w-0 text-center sm:text-left">
+              <div className="flex items-center justify-center sm:justify-start">
                 <h4 className="font-semibold heritage-text break-words">
                   {person.firstName} {person.lastName}
                   {person.maidenName && (
@@ -132,7 +132,7 @@ export default function PersonCard({ person, onClick }: PersonCardProps) {
               </div>
 
               {(birthInfo || person.deathDate || person.deathDateNote) && (
-                <p className="text-sm text-stone-600 dark:text-slate-300 flex items-center">
+                <p className="text-sm text-stone-600 dark:text-slate-300 flex items-center justify-center sm:justify-start">
                   <Calendar className="w-3 h-3 mr-1" />
                   {birthInfo}
                   {person.deathDate || person.deathDateNote
@@ -145,20 +145,20 @@ export default function PersonCard({ person, onClick }: PersonCardProps) {
               )}
 
               {person.birthPlace && (
-                <p className="text-xs text-stone-500 flex items-center">
+                <p className="text-xs text-stone-500 flex items-center justify-center sm:justify-start">
                   <MapPin className="w-3 h-3 mr-1" />
                   {t("person.born")} {person.birthPlace}
                 </p>
               )}
 
               {occupationText && (
-                <p className={`text-xs ${accentColor} font-medium`}>
+                <p className={`text-xs ${accentColor} font-medium mt-1`}>
                   {occupationText}
                 </p>
               )}
             </div>
 
-            <div className={`${accentColor}`}>
+            <div className={`${accentColor} hidden sm:block`}>
               <svg
                 className="w-5 h-5"
                 fill="none"
