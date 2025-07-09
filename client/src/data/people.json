@@ -2407,9 +2407,8 @@
       {
         "spouseId": 152,
         "date": "1886-03-07",
-        "note": {
-          "pl": "Informacje o tym ślubie (akt nr 21) pochodzą z indeksu parafialnego. Oryginalny skan dokumentu nie jest obecnie dostępny.",
-          "en": "Information about this marriage (record no. 21) comes from the parish index. The original scan of the document is not currently available."
+        "source": {
+          "documentId": 213
         }
       },
       {
