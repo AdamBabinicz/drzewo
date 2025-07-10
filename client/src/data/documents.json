@@ -1463,5 +1463,279 @@
         "value_en": "Jan Sobień (46), Józef Emanowski (36)"
       }
     ]
+  },
+  {
+    "id": 222,
+    "title_pl": "Akt Zgonu: Józef Ofiara (1927)",
+    "title_en": "Death Record: Józef Ofiara (1927)",
+    "type": "death_record",
+    "description_pl": "Parafia Zakrzew (Zakrzów), akt nr 6, 1927 r.",
+    "description_en": "Zakrzew (Zakrzów) Parish, record no. 6, 1927.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się w Zakrzewie dziewiątego Stycznia, tysiąc dziewięćset dwudziestego siódmego roku, o godzinie dziewiątej. Stawili się: Jan Bilski i Karol Sobień, obaj pełnoletni zamieszkali w Gulinku i oświadczyli, iż dnia dziewiątego Stycznia bieżącego roku, o godzinie szóstej zmarł w Gulinku Józef Ofiara, dwa tygodnie mający, syn Józefa i Heleny z Sobieniów małżonków Ofiary. Po naocznem przekonaniu się o śmierci Józefa Ofiary akt ten świadkom niepiśmiennym przeczytany, utwierdzony własnoręcznym podpisem. Ks. J. Saermański",
+    "translation_pl": "Zdarzyło się w Zakrzewie, dnia 9 stycznia 1927 roku o godzinie dziewiątej. Stawili się Jan Bilski i Karol Sobień, obaj pełnoletni, zamieszkali w Gulinku, i oświadczyli, że dnia 9 stycznia bieżącego roku o godzinie szóstej zmarł w Gulinku Józef Ofiara, mający dwa tygodnie, syn Józefa i Heleny z Sobieniów, małżonków Ofiara. Po naocznym stwierdzeniu śmierci Józefa Ofiary, akt ten niepiśmiennym świadkom przeczytano i utwierdzono własnoręcznym podpisem.",
+    "translation_en": "It happened in Zakrzew, on January 9, 1927, at nine o'clock. Appeared Jan Bilski and Karol Sobień, both adults residing in Gulinek, and they declared that on January 9 of the current year at six o'clock, Józef Ofiara passed away in Gulinek, aged two weeks, son of Józef and Helena née Sobień, spouses Ofiara. After visually confirming the death of Józef Ofiara, this act was read to the illiterate witnesses and affirmed with our own signature.",
+    "extracted_data": [
+      {
+        "label_pl": "Wiek",
+        "label_en": "Age",
+        "value_pl": "2 tygodnie",
+        "value_en": "2 weeks"
+      },
+      {
+        "label_pl": "Rodzice",
+        "label_en": "Parents",
+        "value_pl": "Józef Ofiara i Helena z Sobieniów",
+        "value_en": "Józef Ofiara and Helena née Sobień"
+      },
+      {
+        "label_pl": "Świadkowie",
+        "label_en": "Witnesses",
+        "value_pl": "Jan Bilski i Karol Sobień",
+        "value_en": "Jan Bilski and Karol Sobień"
+      }
+    ]
+  },
+  {
+    "id": 223,
+    "title_pl": "Akt Zgonu: Andrzej Ofiara (1928)",
+    "title_en": "Death Record: Andrzej Ofiara (1928)",
+    "type": "death_record",
+    "description_pl": "Parafia Zakrzew (Zakrzów), akt nr 2, 1928 r.",
+    "description_en": "Zakrzew (Zakrzów) Parish, record no. 2, 1928.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się w Zakrzewie ósmego Stycznia tysiąc dziewięćset dwudziestego ósmego roku o godzinie trzynastej. Stawili się: Jan Bilski i Jan Baćmaga obaj pełnoletni zamieszkali w gulinku i oświadczyli iż dnia siódmego Stycznia bieżącego roku o godzinie osiemnastej zmarł w gulinku Andrzej Ofiara, dwa tygodnie mający, syn Józefa i Heleny z Sobieniów małżonków Ofiary. Po naocznem przekonaniu się o śmierci Andrzeja Ofiary akt ten świadkom przeczytany podpisem. Ks. J. Saermański",
+    "translation_pl": "Zdarzyło się w Zakrzewie, 8 stycznia 1928 roku, o godzinie trzynastej (13:00). Stawili się Jan Bilski i Jan Baćmaga, obaj pełnoletni, zamieszkali w Gulinku, i oświadczyli, że 7 stycznia bieżącego roku o godzinie osiemnastej (18:00) zmarł w Gulinku Andrzej Ofiara, mający dwa tygodnie, syn Józefa i Heleny z domu Sobień, małżonków Ofiara. Po naocznym stwierdzeniu śmierci Andrzeja Ofiary, akt ten przeczytano świadkom i podpisano.",
+    "translation_en": "It happened in Zakrzew on January 8, 1928, at one p.m. (13:00). Appeared Jan Bilski and Jan Baćmaga, both adults residing in Gulinek, and they declared that on January 7 of the current year at six p.m. (18:00), Andrzej Ofiara passed away in Gulinek, aged two weeks, son of Józef and Helena née Sobień, spouses Ofiara. After visually confirming the death of Andrzej Ofiara, this act was read to the witnesses and signed.",
+    "extracted_data": [
+      {
+        "label_pl": "Wiek",
+        "label_en": "Age",
+        "value_pl": "2 tygodnie",
+        "value_en": "2 weeks"
+      },
+      {
+        "label_pl": "Rodzice",
+        "label_en": "Parents",
+        "value_pl": "Józef Ofiara i Helena z Sobieniów",
+        "value_en": "Józef Ofiara and Helena née Sobień"
+      },
+      {
+        "label_pl": "Świadkowie",
+        "label_en": "Witnesses",
+        "value_pl": "Jan Bilski i Jan Baćmaga",
+        "value_en": "Jan Bilski and Jan Baćmaga"
+      }
+    ]
+  },
+  {
+    "id": 224,
+    "title_pl": "Akt Zgonu: Genowefa Ofiara (1930)",
+    "title_en": "Death Record: Genowefa Ofiara (1930)",
+    "type": "death_record",
+    "description_pl": "Parafia Zakrzew (Zakrzów), akt nr 24, 1930 r.",
+    "description_en": "Zakrzew (Zakrzów) Parish, record no. 24, 1930.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się w Zakrzewie siedemnastego sierpnia tysiąc dziewięćset trzydziestego roku, o godzinie dziesiątej. Stawili się: Stanisław Baćmaga i Bolesław Bilski, obaj pełnoletni zamieszkali w gulinku i oświadczyli iż dnia szesnastego sierpnia bieżącego roku, o godzinie dwudziestej czwartej zmarła w gulinku Genowefa Ofiara, trzy tygodnie mająca, córka Józefa i Heleny z Sobieniów małżonków Ofiara. Po naocznem przekonaniu się o śmierci Genowefy Ofiara akt ten świadkom przeczytany, utwierdzony własnoręcznym podpisem. Ks. J. Saermański",
+    "translation_pl": "Zdarzyło się w Zakrzewie, 17 sierpnia 1930 roku, o godzinie dziesiątej (10:00). Stawili się Stanisław Baćmaga i Bolesław Bilski, obaj pełnoletni, zamieszkali w Gulinku, i oświadczyli, że dnia 16 sierpnia bieżącego roku o godzinie dwudziestej czwartej (24:00, tj. o północy) zmarła w Gulinku Genowefa Ofiara, mająca trzy tygodnie, córka Józefa i Heleny z domu Sobień, małżonków Ofiara. Po naocznym stwierdzeniu śmierci Genowefy Ofiary, akt ten świadkom przeczytano i utwierdzono własnoręcznym podpisem.",
+    "translation_en": "It happened in Zakrzew on August 17, 1930, at ten o'clock in the morning (10:00 AM). Appeared Stanisław Baćmaga and Bolesław Bilski, both adults residing in Gulinek, and they declared that on August 16 of the current year, at the twenty-fourth hour (24:00, i.e., at midnight), Genowefa Ofiara passed away in Gulinek, aged three weeks, daughter of Józef and Helena née Sobień, spouses Ofiara. After visually confirming the death of Genowefa Ofiara, this act was read to the witnesses and affirmed with our own signature.",
+    "extracted_data": [
+      {
+        "label_pl": "Wiek",
+        "label_en": "Age",
+        "value_pl": "3 tygodnie",
+        "value_en": "3 weeks"
+      },
+      {
+        "label_pl": "Rodzice",
+        "label_en": "Parents",
+        "value_pl": "Józef Ofiara i Helena z Sobieniów",
+        "value_en": "Józef Ofiara and Helena née Sobień"
+      },
+      {
+        "label_pl": "Świadkowie",
+        "label_en": "Witnesses",
+        "value_pl": "Stanisław Baćmaga i Bolesław Bilski",
+        "value_en": "Stanisław Baćmaga and Bolesław Bilski"
+      }
+    ]
+  },
+  {
+    "id": 225,
+    "title_pl": "Akt Zgonu: Kazimiera Ofiara (1935)",
+    "title_en": "Death Record: Kazimiera Ofiara (1935)",
+    "type": "death_record",
+    "description_pl": "Parafia Zakrzew (Zakrzów), akt nr 24, 1935 r.",
+    "description_en": "Zakrzew (Zakrzów) Parish, record no. 24, 1935.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się w Zakrzewie dziewiątego sierpnia, tysiąc dziewięćset trzydziestego piątego roku, o godzinie dwudziestej. Stawili się Jan Gierczak i Józef Jakubiak, obaj pełnoletni zamieszkali w Gulinku i oświadczyli, iż dnia ósmego sierpnia bieżącego roku, o godzinie dwudziestej zmarła w Gulinku Kazimiera Ofiara, półtora roku mająca, córka Józefa i Heleny z Sobieniów małżonków Ofiara. Po naocznem przekonaniu się o śmierci Kazimiery Ofiara akt ten świadkom niepiśmiennym przeczytany, podpisaliśmy. Ks. J. Saermański",
+    "translation_pl": "Zdarzyło się w Zakrzewie, 9 sierpnia 1935 roku, o godzinie dwudziestej (20:00). Stawili się Jan Gierczak i Józef Jakubiak, obaj pełnoletni, zamieszkali w Gulinku, i oświadczyli, że 8 sierpnia bieżącego roku o godzinie dwudziestej (20:00) zmarła w Gulinku Kazimiera Ofiara, mająca półtora roku, córka Józefa i Heleny z domu Sobień, małżonków Ofiara. Po naocznym stwierdzeniu śmierci Kazimiery Ofiary, akt ten niepiśmiennym świadkom przeczytano i podpisano.",
+    "translation_en": "It happened in Zakrzew on August 9, 1935, at eight p.m. (20:00). Appeared Jan Gierczak and Józef Jakubiak, both adults residing in Gulinek, and they declared that on August 8 of the current year, at eight p.m. (20:00), Kazimiera Ofiara passed away in Gulinek, aged one and a half years, daughter of Józef and Helena née Sobień, spouses Ofiara. After visually confirming the death of Kazimiera Ofiara, this act was read to the illiterate witnesses and we signed.",
+    "extracted_data": [
+      {
+        "label_pl": "Wiek",
+        "label_en": "Age",
+        "value_pl": "Półtora roku",
+        "value_en": "One and a half years"
+      },
+      {
+        "label_pl": "Rodzice",
+        "label_en": "Parents",
+        "value_pl": "Józef Ofiara i Helena z Sobieniów",
+        "value_en": "Józef Ofiara and Helena née Sobień"
+      },
+      {
+        "label_pl": "Świadkowie",
+        "label_en": "Witnesses",
+        "value_pl": "Jan Gierczak i Józef Jakubiak",
+        "value_en": "Jan Gierczak and Józef Jakubiak"
+      }
+    ]
+  },
+  {
+    "id": 226,
+    "title_pl": "Akt Ślubu: Franciszek Gierczak i Józefa Cieslak z d. Tkaczyk (1842)",
+    "title_en": "Marriage Record: Franciszek Gierczak & Józefa Cieslak née Tkaczyk (1842)",
+    "type": "marriage_record",
+    "description_pl": "Parafia Cerekiew, akt nr 16, 1842 r.",
+    "description_en": "Cerekiew Parish, record no. 16, 1842.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się we wsi Cerekwi Dnia dwudziestego trzeciego Października Roku Tysiąc Ośmset Czterdziestego drugiego o godzinie trzeciey po południu. Wiadomo czyniemy, iż w przytomności Świadków, Macieja Strzelczyka lat czterdzieści i Jakuba Zycha lat pięćdziesiąt maiących, obydwóch Wyrobników w Jaszowicach zamieszkałych, w Dniu Dwudziestym trzecim Miesiąca Października roku bieżącego zawarte zostało religijne Małżeństwo między Urodzonym Franciszkiem Gierczakiem Kawalerem, Wyrobnikiem w Jaszowicach zamieszkałym, lat dwadzieścia cztery maiącym, synem niegdy Tomasza i żyiącej Maryanny z Gielowskich Małżonkow Gierczaków z iedney, a Urodzoną Józefą z Tkaczyków Cieslakową Wdową po niegdyś Janie Cieslaku zmarłym w Zakrzewie, Służącą w Jaszowicach zostaiącą, lat trzydzieści maiącą, córką Józefa i Maryanny z Łyżwów Małżonków Tkaczyków z drugiey strony. Małżeństwo to poprzedziły trzy Zapowiedzi... Rodzice na zawarcie tegoż Małżeństwa zezwolili... Akt ten Stawaiącym i Świadkom przeczytany, pisać nie umieiącym, podpisany został. X. Kłobossowski Proboszcz Parafii Cerekiewskiey.",
+    "translation_pl": "Zdarzyło się we wsi Cerekiew, dnia 23 października 1842 roku o godzinie trzeciej po południu. Czynimy wiadomo, że w obecności świadków, Macieja Strzelczyka (lat 40) i Jakuba Zycha (lat 50), obu robotników rolnych z Jaszowic, w dniu 23 października bieżącego roku zawarte zostało religijne małżeństwo pomiędzy: Franciszkiem Gierczakiem, kawalerem, robotnikiem rolnym zamieszkałym w Jaszowicach, lat 24, synem zmarłego Tomasza i żyjącej Marianny z Gielowskich, małżonków Gierczaków, z jednej strony; a Józefą z domu Tkaczyk Cieslakową, wdową po zmarłym Janie Cieslaku (zmarłym w Zakrzewie), służącą zamieszkałą w Jaszowicach, lat 30, córką Józefa i Marianny z Łyżwów, małżonków Tkaczyków, z drugiej strony. Małżeństwo poprzedziły trzy zapowiedzi. Rodzice wyrazili zgodę. Akt ten stawiającym i świadkom, którzy nie umieją pisać, przeczytano i podpisano. Ks. Kłobossowski, Proboszcz Parafii Cerekiew.",
+    "translation_en": "It happened in the village of Cerekiew on October 23, 1842, at three o'clock in the afternoon. We make it known that in the presence of witnesses, Maciej Strzelczyk (40 years old) and Jakub Zych (50 years old), both agricultural laborers from Jaszowice, on October 23 of the current year, a religious marriage was contracted between: Franciszek Gierczak, a bachelor, an agricultural laborer residing in Jaszowice, aged 24, son of the late Tomasz and the living Marianna née Gielowska, spouses Gierczak, of the one part; and Józefa née Tkaczyk Cieslakowa, a widow after the late Jan Cieslak (who died in Zakrzew), a servant residing in Jaszowice, aged 30, daughter of Józef and Marianna née Łyżwa, spouses Tkaczyk, of the other part. The marriage was preceded by three banns. The parents gave their consent. This act was read to the declarants and witnesses, who are illiterate, and was signed. Fr. Kłobossowski, Pastor of the Cerekiew Parish.",
+    "extracted_data": [
+      {
+        "label_pl": "Pan Młody",
+        "label_en": "Groom",
+        "value_pl": "Franciszek Gierczak, 24 lata, kawaler",
+        "value_en": "Franciszek Gierczak, 24 years old, bachelor"
+      },
+      {
+        "label_pl": "Rodzice Pana Młodego",
+        "label_en": "Groom's Parents",
+        "value_pl": "Tomasz (zm.) i Marianna z Gielowskich",
+        "value_en": "Tomasz (dec.) and Marianna née Gielowska"
+      },
+      {
+        "label_pl": "Panna Młoda",
+        "label_en": "Bride",
+        "value_pl": "Józefa Cieslak z d. Tkaczyk, 30 lat, wdowa",
+        "value_en": "Józefa Cieslak née Tkaczyk, 30 years old, widow"
+      },
+      {
+        "label_pl": "Rodzice Panny Młodej",
+        "label_en": "Bride's Parents",
+        "value_pl": "Józef i Marianna z Łyżwów",
+        "value_en": "Józef and Marianna née Łyżwa"
+      }
+    ]
+  },
+  {
+    "id": 227,
+    "title_pl": "Akt Ślubu: Franciszek Gierczak i Józefa Cieslak z d. Tkaczyk (1842)",
+    "title_en": "Marriage Record: Franciszek Gierczak & Józefa Cieslak née Tkaczyk (1842)",
+    "type": "marriage_record",
+    "description_pl": "Parafia Cerekiew, akt nr 16, 1842 r.",
+    "description_en": "Cerekiew Parish, record no. 16, 1842.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się we wsi Cerekwi Dnia dwudziestego trzeciego Października Roku Tysiąc Ośmset Czterdziestego drugiego o godzinie trzeciey po południu. Wiadomo czyniemy, iż w przytomności Świadków, Macieja Strzelczyka lat czterdzieści i Jakuba Zycha lat pięćdziesiąt maiących, obydwóch Wyrobników w Jaszowicach zamieszkałych, w Dniu Dwudziestym trzecim Miesiąca Października roku bieżącego zawarte zostało religijne Małżeństwo między Urodzonym Franciszkiem Gierczakiem Kawalerem, Wyrobnikiem w Jaszowicach zamieszkałym, lat dwadzieścia cztery maiącym, synem niegdy Tomasza i żyiącej Maryanny z Gielowskich Małżonkow Gierczaków z iedney, a Urodzoną Józefą z Tkaczyków Cieslakową Wdową po niegdyś Janie Cieslaku zmarłym w Zakrzewie, Służącą w Jaszowicach zostaiącą, lat trzydzieści maiącą, córką Józefa i Maryanny z Łyżwów Małżonków Tkaczyków z drugiey strony. Małżeństwo to poprzedziły trzy Zapowiedzi... Rodzice na zawarcie tegoż Małżeństwa zezwolili... Akt ten Stawaiącym i Świadkom przeczytany, pisać nie umieiącym, podpisany został. X. Kłobossowski Proboszcz Parafii Cerekiewskiey.",
+    "translation_pl": "Zdarzyło się we wsi Cerekiew, dnia 23 października 1842 roku o godzinie trzeciej po południu. Czynimy wiadomo, że w obecności świadków, Macieja Strzelczyka (lat 40) i Jakuba Zycha (lat 50), obu robotników rolnych z Jaszowic, w dniu 23 października bieżącego roku zawarte zostało religijne małżeństwo pomiędzy: Franciszkiem Gierczakiem, kawalerem, robotnikiem rolnym zamieszkałym w Jaszowicach, lat 24, synem zmarłego Tomasza i żyjącej Marianny z Gielowskich, małżonków Gierczaków, z jednej strony; a Józefą z domu Tkaczyk Cieslakową, wdową po zmarłym Janie Cieslaku (zmarłym w Zakrzewie), służącą zamieszkałą w Jaszowicach, lat 30, córką Józefa i Marianny z Łyżwów, małżonków Tkaczyków, z drugiej strony. Małżeństwo poprzedziły trzy zapowiedzi. Rodzice wyrazili zgodę. Akt ten stawiającym i świadkom, którzy nie umieją pisać, przeczytano i podpisano. Ks. Kłobossowski, Proboszcz Parafii Cerekiew.",
+    "translation_en": "It happened in the village of Cerekiew on October 23, 1842, at three o'clock in the afternoon. We make it known that in the presence of witnesses, Maciej Strzelczyk (40 years old) and Jakub Zych (50 years old), both agricultural laborers from Jaszowice, on October 23 of the current year, a religious marriage was contracted between: Franciszek Gierczak, a bachelor, an agricultural laborer residing in Jaszowice, aged 24, son of the late Tomasz and the living Marianna née Gielowska, spouses Gierczak, of the one part; and Józefa née Tkaczyk Cieslakowa, a widow after the late Jan Cieslak (who died in Zakrzew), a servant residing in Jaszowice, aged 30, daughter of Józef and Marianna née Łyżwa, spouses Tkaczyk, of the other part. The marriage was preceded by three banns. The parents gave their consent. This act was read to the declarants and witnesses, who are illiterate, and was signed. Fr. Kłobossowski, Pastor of the Cerekiew Parish.",
+    "extracted_data": [
+      {
+        "label_pl": "Pan Młody",
+        "label_en": "Groom",
+        "value_pl": "Franciszek Gierczak, 24 lata, kawaler",
+        "value_en": "Franciszek Gierczak, 24 years old, bachelor"
+      },
+      {
+        "label_pl": "Rodzice Pana Młodego",
+        "label_en": "Groom's Parents",
+        "value_pl": "Tomasz (zm.) i Marianna z Gielowskich",
+        "value_en": "Tomasz (dec.) and Marianna née Gielowska"
+      },
+      {
+        "label_pl": "Panna Młoda",
+        "label_en": "Bride",
+        "value_pl": "Józefa Cieslak z d. Tkaczyk, 30 lat, wdowa",
+        "value_en": "Józefa Cieslak née Tkaczyk, 30 years old, widow"
+      },
+      {
+        "label_pl": "Rodzice Panny Młodej",
+        "label_en": "Bride's Parents",
+        "value_pl": "Józef i Marianna z Łyżwów",
+        "value_en": "Józef and Marianna née Łyżwa"
+      }
+    ]
+  },
+  {
+    "id": 228,
+    "title_pl": "Akt Ślubu: Jan Gierczak i Małgorzata Szczepaniak (1842)",
+    "title_en": "Marriage Record: Jan Gierczak & Małgorzata Szczepaniak (1842)",
+    "type": "marriage_record",
+    "description_pl": "Parafia Cerekiew, akt nr 17, 1842 r.",
+    "description_en": "Cerekiew Parish, record no. 17, 1842.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się we wsi Cerekwi Dnia szesnastego Października Roku Tysiąc Ośmset Czterdziestego drugiego o godzinie drugiey po południu. Wiadomo czyniemy, iż w przytomności Świadków, Ambrożego Gierczaka lat czterdzieści i Jakuba Zycha lat pięćdziesiąt maiących, obydwóch Wyrobników w Jaszowicach zamieszkałych, w Dniu szesnastym Miesiąca Października roku bieżącego zawarte zostało religijne Małżeństwo między Urodzonym Janem Gierczakiem Kawalerem, Służącym w Jaszowicach zamieszkałym, lat dziewiętnaście maiącym, synem Tomasza i Maryanny z Gielowskich Małżonkow Gierczaków z iedney, a Urodzoną Małgorzatą Szczepaniakowną Panną Służącą w Jaszowicach zostaiącą, lat osiemnaście maiącą, córką niegdyś Kacpra i żyiącej Maryanny Małżonków Szczepaniaków z drugiey strony...",
+    "translation_pl": "Zdarzyło się we wsi Cerekiew, dnia 16 października 1842 roku o godzinie drugiej po południu. Czynimy wiadomo, że w obecności świadków, Ambrożego Gierczaka (lat 40) i Jakuba Zycha (lat 50), obu robotników rolnych z Jaszowic, w dniu 16 października bieżącego roku zawarte zostało religijne małżeństwo pomiędzy: Janem Gierczakiem, kawalerem, służącym zamieszkałym w Jaszowicach, lat 19, synem Tomasza i Marianny z Gielowskich, małżonków Gierczaków, z jednej strony; a Małgorzatą Szczepaniakówną, panną, służącą zamieszkałą w Jaszowicach, lat 18, córką zmarłego Kacpra i żyjącej Marianny, małżonków Szczepaniaków, z drugiej strony.",
+    "translation_en": "It happened in the village of Cerekiew on October 16, 1842, at two o'clock in the afternoon. We make it known that in the presence of witnesses, Ambroży Gierczak (40 years old) and Jakub Zych (50 years old), both agricultural laborers from Jaszowice, on October 16 of the current year, a religious marriage was contracted between: Jan Gierczak, a bachelor, a servant residing in Jaszowice, aged 19, son of Tomasz and Marianna née Gielowska, spouses Gierczak, of the one part; and Małgorzata Szczepaniakówna, a maiden, a servant residing in Jaszowice, aged 18, daughter of the late Kacper and the living Marianna, spouses Szczepaniak, of the other part.",
+    "extracted_data": [
+      {
+        "label_pl": "Pan Młody",
+        "label_en": "Groom",
+        "value_pl": "Jan Gierczak, 19 lat, kawaler",
+        "value_en": "Jan Gierczak, 19 years old, bachelor"
+      },
+      {
+        "label_pl": "Rodzice Pana Młodego",
+        "label_en": "Groom's Parents",
+        "value_pl": "Tomasz i Marianna z Gielowskich",
+        "value_en": "Tomasz and Marianna née Gielowska"
+      },
+      {
+        "label_pl": "Panna Młoda",
+        "label_en": "Bride",
+        "value_pl": "Małgorzata Szczepaniak, 18 lat, panna",
+        "value_en": "Małgorzata Szczepaniak, 18 years old, maiden"
+      },
+      {
+        "label_pl": "Rodzice Panny Młodej",
+        "label_en": "Bride's Parents",
+        "value_pl": "Kacper (zm.) i Marianna Szczepaniak",
+        "value_en": "Kacper (dec.) and Marianna Szczepaniak"
+      }
+    ]
+  },
+  {
+    "id": 229,
+    "title_pl": "Akt Urodzenia: Marianna Gierczak (1833)",
+    "title_en": "Birth Record: Marianna Gierczak (1833)",
+    "type": "birth_record",
+    "description_pl": "Parafia Cerekiew, akt nr 73, 1833 r.",
+    "description_en": "Cerekiew Parish, record no. 73, 1833.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się we wsi Cerekwi Dnia dwudziestego trzeciego Sierpnia Roku Tysiąc ośmset trzydziestego trzeciego o godzinie siódmey po południu. Stawił się Ambroży Gierczak Wyrobnik w Jaszowicach zamieszkały, lat trzydzieści trzy maiący, w obecności Walentego Baćmagi lat czterdzieści sześć i Ludwika Strzelczyka lat czterdzieści dwa maiących, obydwóch Wyrobników w Jaszowicach zamieszkałych, i okazał Nam Dziecię płci żeńskiey, urodzone w Jaszowicach w Domu pod Numerem dwudziestym trzecim Dnia dziewiętnastego Miesiąca Sierpnia Roku tegoż o godzinie dziesiątey rano, z Jego Małżonki Kunegundy z Kaniów lat trzydzieści dwa maiącey. Dziecięciu temu na Chrzcie Świętym w Dniu dzisiejszym nadane zostało Imię Maryanna, a Rodzicami Jego Chrzestnymi byli: Paweł Karcz i Katarzyna Pawłowa. Akt ten Stawaiącemu i Świadkom przeczytany, pisać nie umieiącym, podpisany został. X. Kłobossowski Proboszcz Parafii Cerekiewskiey.",
+    "translation_pl": "Zdarzyło się we wsi Cerekiew, dnia 23 sierpnia 1833 roku o godzinie siódmej (19:00) po południu. Stawił się Ambroży Gierczak, robotnik rolny zamieszkały w Jaszowicach, mający 33 lata, w obecności Walentego Baćmagi (lat 46) i Ludwika Strzelczyka (lat 42), obu robotników rolnych zamieszkałych w Jaszowicach. Okazał nam dziecko płci żeńskiej, urodzone w Jaszowicach w domu pod numerem 23, dnia 19 sierpnia bieżącego roku o godzinie dziesiątej rano, z jego małżonki Kunegundy z domu Kania, mającej 32 lata. Dziecku temu na chrzcie świętym w dniu dzisiejszym nadano imię Marianna, a jego rodzicami chrzestnymi byli Paweł Karcz i Katarzyna Pawłowa. Akt ten stawiającemu i świadkom, którzy nie umieją pisać, przeczytano i podpisano. Ks. Kłobossowski, Proboszcz Parafii Cerekiew.",
+    "translation_en": "It happened in the village of Cerekiew on August 23, 1833, at seven o'clock in the evening. Appeared Ambroży Gierczak, an agricultural laborer residing in Jaszowice, aged 33, in the presence of Walenty Baćmaga (46 years old) and Ludwik Strzelczyk (42 years old), both agricultural laborers residing in Jaszowice. He presented to us a female child, born in Jaszowice in the house at number 23, on August 19 of the current year at ten o'clock in the morning, to his wife Kunegunda née Kania, aged 32. At the Holy Baptism held today, this child was given the name Marianna, and her godparents were Paweł Karcz and Katarzyna Pawłowa. This act was read to the declarant and witnesses, who are illiterate, and was signed. Fr. Kłobossowski, Pastor of the Cerekiew Parish.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Ambroży Gierczak, 33 lata",
+        "value_en": "Ambroży Gierczak, 33 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Kunegunda z Kaniów, 32 lata",
+        "value_en": "Kunegunda née Kania, 32 years old"
+      },
+      {
+        "label_pl": "Chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Paweł Karcz i Katarzyna Pawłowa",
+        "value_en": "Paweł Karcz and Katarzyna Pawłowa"
+      }
+    ]
   }
 ]
