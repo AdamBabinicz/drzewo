@@ -129,10 +129,6 @@ export default function KeepsakesModal({
           index={lightboxIndex}
           carousel={{ finite: true }}
           controller={{ closeOnBackdropClick: true }}
-          captions={{
-            descriptionTextAlign: "center",
-            descriptionMaxLines: 5,
-          }}
         />
       )}
     </>
