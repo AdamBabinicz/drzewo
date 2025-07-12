@@ -4,7 +4,7 @@ import { useQuery } from "@tanstack/react-query";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import PersonModal from "@/components/ui/PersonModal";
-import KeepsakesModal from "@/components/ui/KeepsakesModal"; // KROK 1: Import KeepsakesModal
+import KeepsakesModal from "@/components/ui/KeepsakesModal";
 import { Person } from "@shared/schema";
 import { MapPin, Users, Eye, BookText, ChevronDown, Award } from "lucide-react";
 import { useMemo, useState } from "react";
@@ -23,8 +23,6 @@ export default function FamilyBranchView() {
   const [selectedPerson, setSelectedPerson] = useState<Person | null>(null);
   const [modalOpen, setModalOpen] = useState(false);
   const [etymologyOpen, setEtymologyOpen] = useState(false);
-
-  // KROK 2: Dodaj stan dla modala z pamiątkami
   const [keepsakesPerson, setKeepsakesPerson] = useState<Person | null>(null);
 
   const { data: allPeople = [] } = useQuery({
@@ -44,11 +42,10 @@ export default function FamilyBranchView() {
     setModalOpen(true);
   };
 
-  // KROK 3: Dodaj funkcje do obsługi modala z pamiątkami
   const handleOpenKeepsakes = (person: Person) => {
-    setModalOpen(false); // Zamknij modal osoby
+    setModalOpen(false);
     setTimeout(() => {
-      setKeepsakesPerson(person); // Otwórz modal pamiątek
+      setKeepsakesPerson(person);
     }, 150);
   };
 
@@ -103,16 +100,6 @@ export default function FamilyBranchView() {
     });
     return allIds.size;
   }, [progenitorUnit, descendantUnits]);
-
-  const getDynamicText = (
-    field: { pl: string; en: string } | string | null | undefined
-  ) => {
-    if (!field) return null;
-    if (typeof field === "object" && field !== null && "pl" in field) {
-      return field[language as keyof typeof field] || field.pl;
-    }
-    return field;
-  };
 
   const familyPlaces =
     genealogyData.places
@@ -297,6 +284,7 @@ export default function FamilyBranchView() {
                       unit={progenitorUnit}
                       onPersonClick={handlePersonClick}
                       familyColor={currentFamily.borderColor}
+                      isProgenitor={true}
                     />
                   </div>
                 </div>
@@ -312,6 +300,7 @@ export default function FamilyBranchView() {
                         unit={unit}
                         onPersonClick={handlePersonClick}
                         familyColor={currentFamily.borderColor}
+                        isProgenitor={false}
                       />
                     ))}
                   </div>
@@ -339,10 +328,9 @@ export default function FamilyBranchView() {
           onClose={() => setModalOpen(false)}
           onPersonClick={handlePersonClick}
           allPeople={allPeople}
-          onOpenKeepsakes={handleOpenKeepsakes} // KROK 4: Przekaż prop
+          onOpenKeepsakes={handleOpenKeepsakes}
         />
 
-        {/* KROK 5: Renderuj KeepsakesModal tutaj */}
         {keepsakesPerson && (
           <KeepsakesModal
             person={keepsakesPerson}

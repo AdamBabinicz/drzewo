@@ -317,6 +317,15 @@ export default function PersonModal({
                       );
                       if (!spouse) return null;
 
+                      const isCurrentPersonMale =
+                        !currentPerson.maidenName ||
+                        currentPerson.lastName === currentPerson.maidenName;
+                      const spouseName =
+                        !isCurrentPersonMale &&
+                        spouse.id === currentPerson.spouseIds?.[0]
+                          ? spouse.lastName
+                          : spouse.maidenName || spouse.lastName;
+
                       return (
                         <div key={index} className="flex items-start space-x-3">
                           <Heart className="w-4 h-4 text-muted-foreground mt-1" />
@@ -328,7 +337,7 @@ export default function PersonModal({
                               <span className="font-semibold">
                                 {t("person.marriedTo")}:
                               </span>{" "}
-                              {spouse.firstName} {spouse.lastName}
+                              {spouse.firstName} {spouseName}
                             </p>
                             {marriage.date && (
                               <div className="flex items-center gap-2">

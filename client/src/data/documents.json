@@ -10,12 +10,35 @@
   },
   {
     "id": 2,
-    "title_pl": "Wpis o śmierci Pawła Gierczaka",
-    "title_en": "Death Entry: Paweł Gierczak",
-    "type": "death_record",
-    "description_pl": "Dokument zgonu z 29 lipca 1935 roku.",
-    "description_en": "Death document from July 29, 1935.",
-    "imageUrl": "/images/k.avif"
+    "title_pl": "Akt Urodzenia: Paweł Gierczak (1867)",
+    "title_en": "Birth Record: Paweł Gierczak (1867)",
+    "type": "birth_record",
+    "description_pl": "Parafia Zakrzew. Akt nr 2 z 1867 r. Dokument został spisany we wsi Kakonin – historycznej miejscowości w powiecie radomskim, która należała do parafii Zakrzew, a obecnie jej tereny stanowią część wsi Zakrzew. Wieś Kakonin, choć dziś nie istnieje jako odrębna jednostka, jest odnotowana w XIX-wiecznych źródłach (m.in. Słownik geograficzny Królestwa Polskiego).",
+    "description_en": "Zakrzew Parish. Record no. 2 from 1867. The document was written in the village of Kakonin – a historical locality in Radom county that belonged to the Zakrzew parish. Today, its former territory is part of the village of Zakrzew. The village of Kakonin, although it no longer exists as a separate entity, is noted in 19th-century sources (e.g., the Geographical Dictionary of the Kingdom of Poland).",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się we wsi Kakoninie dnia jedenastego Stycznia Tysiąc ośmset sześćdziesiątego siódmego roku o godzinie drugiej w południe. Stawił się Karol Gierczak zamieszkały lat trzydzieści ośm mający w obecności świadków z wsi Kakonina zamieszkałych i okazał Nam dziecię płci męskiej, że takowe urodzone jest w Gulinku na dniu jedenastym miesiąca Stycznia roku bieżącego o godzinie jedenastej w nocy z jego małżonki Tekli z Kozerów lat dwadzieścia siedm mającej. Dziecięciu temu na Chrzcie Świętym w dniu dzisiejszym nadanym zostało imię Paweł a Rodzicami jego Chrzestnymi byli Franciszek Glogowski z Gulinka i Julianna Walczakowa. Akt ten stawiającemu i świadkom pisać nie umiejącym przeczytany i podpisany został.",
+    "translation_pl": "Działo się we wsi Kakonin, dnia 11 stycznia 1867 roku, o godzinie drugiej po południu. Stawił się Karol Gierczak, zamieszkały, lat 38, w obecności świadków zamieszkałych we wsi Kakonin, i okazał nam dziecko płci męskiej, oświadczając, że urodziło się ono w Gulinku dnia 11 stycznia bieżącego roku o godzinie jedenastej w nocy, z jego małżonki Tekli z domu Kozyra, lat 27. Dziecku temu na Chrzcie Świętym w dniu dzisiejszym nadano imię Paweł, a jego Rodzicami Chrzestnymi byli Franciszek Glogowski z Gulinka i Julianna Walczakowa. Akt ten stawiającemu i świadkom, którzy pisać nie umieją, został przeczytany i podpisany.",
+    "translation_en": "It happened in the village of Kakonin on January 11, 1867, at two o'clock in the afternoon. Appeared Karol Gierczak, a resident, aged 38, in the presence of witnesses residing in the village of Kakonin, and presented to us a male child, declaring that he was born in Gulinek on the 11th of January of the current year at eleven o'clock at night, to his wife Tekla née Kozyra, aged 27. At the Holy Baptism on this day, this child was given the name Paweł, and his Godparents were Franciszek Glogowski from Gulinek and Julianna Walczakowa. This act was read to the declarant and witnesses, who are illiterate, and was signed.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Karol Gierczak, 38 lat",
+        "value_en": "Karol Gierczak, 38 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Tekla z Kozerów, 27 lat",
+        "value_en": "Tekla née Kozyra, 27 years old"
+      },
+      {
+        "label_pl": "Chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Franciszek Glogowski i Julianna Walczakowa",
+        "value_en": "Franciszek Glogowski and Julianna Walczakowa"
+      }
+    ]
   },
   {
     "id": 3,
@@ -1735,6 +1758,216 @@
         "label_en": "Godparents",
         "value_pl": "Paweł Karcz i Katarzyna Pawłowa",
         "value_en": "Paweł Karcz and Katarzyna Pawłowa"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "title_pl": "Akt Urodzenia: Zofia Gierczak (1900)",
+    "title_en": "Birth Record: Zofia Gierczak (1900)",
+    "type": "birth_record",
+    "description_pl": "Parafia Zakrzew (Zakrzów), akt nr 52, 1900 r.",
+    "description_en": "Zakrzew (Zakrzów) Parish, record no. 52, 1900.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Состоялось въ деревнѣ Закшевѣ, двадцать восьмого Августа (десятаго Сентября) тысяча девятисотаго года, въ десять часовъ утра. Явился Павелъ Герчакъ, тридцати четырехъ лѣтъ отъ роду, земледелецъ, житель деревни Гулинекъ, въ присутствіи Яна Бацьмаги двадцати восьми, и Іосифа Бильскаго, тридцати лѣтъ отъ роду, обоихъ земледельцевъ изъ деревни Гулинекъ, и предъявилъ намъ младенца женскаго пола, объявляя, что онъ родился въ деревнѣ Гулинекъ двадцать шестого Августа (осьмаго Сентября) сего года въ девять часовъ вечера, отъ jego законной жены Катаржины урожденной Червинскихъ, тридцати лѣтъ отъ роду. Младенцу сему при святомъ крещеніи совершенномъ сего числа дано имя Зофiя, а воспріемниками ея были: Янъ Бацьмага и Францишка Зелинская. Этотъ актъ объявляющему и свидѣтелямъ неграмотнымъ прочитанъ, Нами только подписанъ.",
+    "translation_pl": "Działo się we wsi Zakrzew, dwudziestego ósmego sierpnia (dziesiątego września) tysięcznego dziewięćsetnego roku, o godzinie dziesiątej rano. Stawił się Paweł Gierczak, lat trzydzieści cztery, rolnik, mieszkaniec wsi Gulinek, w obecności Jana Baćmagi, lat dwadzieścia osiem, i Józefa Bilskiego, lat trzydzieści, obu rolników ze wsi Gulinek, i okazał nam niemowlę płci żeńskiej, oświadczając, że urodziło się ono we wsi Gulinek dwudziestego szóstego sierpnia (ósmego września) bieżącego roku o godzinie dziewiątej wieczorem, z jego prawowitej żony Katarzyny z domu Czerwińskich, lat trzydzieści. Niemowlęciu temu przy chrzcie świętym, który odbył się dzisiaj, nadano imię Zofia, a jej rodzicami chrzestnymi byli: Jan Baćmaga i Franciszka Zielińska. Akt ten oświadczającemu i świadkom, którzy są niepiśmienni, został przeczytany i tylko przez nas podpisany.",
+    "translation_en": "It happened in the village of Zakrzew, on the twenty-eighth of August (tenth of September), nineteen hundred, at ten o'clock in the morning. Appeared Paweł Gierczak, thirty-four years old, a farmer, resident of the village of Gulinek, in the presence of Jan Baćmaga, twenty-eight years old, and Józef Bilski, thirty years old, both farmers from the village of Gulinek, and he presented to us a female infant, declaring that she was born in the village of Gulinek on the twenty-sixth of August (eighth of September) of the current year at nine o'clock in the evening, to his lawful wife Katarzyna née Czerwińska, thirty years old. At the holy baptism performed this day, this infant was given the name Zofia, and her godparents were: Jan Baćmaga and Franciszka Zielińska. This act was read to the declarant and the illiterate witnesses, and signed only by us.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Paweł Gierczak, 34 lata",
+        "value_en": "Paweł Gierczak, 34 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Katarzyna z Czerwińskich, 30 lat",
+        "value_en": "Katarzyna née Czerwińska, 30 years old"
+      },
+      {
+        "label_pl": "Chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Jan Baćmaga i Franciszka Zielińska",
+        "value_en": "Jan Baćmaga and Franciszka Zielińska"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title_pl": "Akt Zgonu: Tekla Gierczak z d. Kozyra (1909)",
+    "title_en": "Death Record: Tekla Gierczak née Kozyra (1909)",
+    "type": "death_record",
+    "description_pl": "Parafia Zakrzew (Zakrzów), akt nr 15, 1909 r. Zmarła w wieku 80 lat.",
+    "description_en": "Zakrzew (Zakrzów) Parish, record no. 15, 1909. Died at the age of 80.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Состоялось въ селеніи Закшевѣ, двадцать девятаго Января (одиннадцатаго Февраля) тысяча девятьсотъ девятаго года, въ три часа по полудни. Явились Павелъ Герчакъ, сорока двухъ, и Янъ Юрчакъ, тридцати лѣтъ отъ роду, оба земледельцы изъ Гулинка и объявили, что вчерашняго дня въ восемь часовъ утра, умерла Текля изъ Козыровъ Герчакъ, восьмидесяти лѣтъ отъ роду, вдова, оставшаяся послѣ умершаго Кароля Герчака, дочь Войцѣха и Іозефы урожденной Кредковской, супруговъ Козыровъ, родившаяся въ Млечковѣ. По наочномъ удостовѣреніи о кончинѣ Текли Герчакъ, актъ сей неграмотнымъ прочитанъ и нами только подписанъ.",
+    "translation_pl": "Działo się w osadzie Zakrzew, dwudziestego dziewiątego stycznia (jedenastego lutego) tysiąc dziewięćset dziewiątego roku, o godzinie trzeciej po południu. Stawili się Paweł Gierczak, lat czterdzieści dwa, i Jan Jurczak, lat trzydzieści, obaj rolnicy z Gulinka i oświadczyli, że wczorajszego dnia, o godzinie ósmej rano, zmarła Tekla z domu Kozyra Gierczak, lat osiemdziesiąt, wdowa pozostała po zmarłym Karolu Gierczaku, córka Wojciecha i Józefy z domu Kredowskiej, małżonków Kozyra, urodzona w Mleczkowie. Po naocznym stwierdzeniu zgonu Tekli Gierczak, akt ten niepiśmiennym przeczytano i tylko przez nas podpisano.",
+    "translation_en": "It happened in the settlement of Zakrzew, on the twenty-ninth of January (eleventh of February), nineteen hundred and nine, at three o'clock in the afternoon. Appeared Paweł Gierczak, forty-two years old, and Jan Jurczak, thirty years old, both farmers from Gulinek, and declared that yesterday, at eight o'clock in the morning, Tekla née Kozyra Gierczak passed away, aged eighty, a widow left by the deceased Karol Gierczak, daughter of Wojciech and Józefa née Kredowska, spouses Kozyra, born in Mleczków. After visually confirming the death of Tekla Gierczak, this act was read to the illiterate persons and signed only by us.",
+    "extracted_data": [
+      {
+        "label_pl": "Wiek",
+        "label_en": "Age",
+        "value_pl": "80 lat",
+        "value_en": "80 years"
+      },
+      {
+        "label_pl": "Mąż (zmarły)",
+        "label_en": "Husband (deceased)",
+        "value_pl": "Karol Gierczak",
+        "value_en": "Karol Gierczak"
+      },
+      {
+        "label_pl": "Rodzice",
+        "label_en": "Parents",
+        "value_pl": "Wojciech i Józefa z Kredowskich, małżonkowie Kozyra",
+        "value_en": "Wojciech and Józefa née Kredowska, spouses Kozyra"
+      },
+      {
+        "label_pl": "Zgłaszający",
+        "label_en": "Informants",
+        "value_pl": "Paweł Gierczak (42), Jan Jurczak (30)",
+        "value_en": "Paweł Gierczak (42), Jan Jurczak (30)"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title_pl": "Akt Zgonu: Katarzyna Gierczak (1821)",
+    "title_en": "Death Record: Katarzyna Gierczak (1821)",
+    "type": "death_record",
+    "description_pl": "Parafia Cerekiew, akt nr 29, 1821 r. Córka Ambrożego i Kunegundy, zmarła w wieku 20 dni.",
+    "description_en": "Cerekiew Parish, record no. 29, 1821. Daughter of Ambroży and Kunegunda, died at the age of 20 days.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Roku Tysiącznego Ośmsetnego Dwudziestego pierwszego Dnia Czwarnastego Kwietnia, przed nami Proboszczem i Urzędnikiem Cywilnym Gminy Cerekiewskiey, Powiatu i Obwodu Radomskiego w Woiewództwie Sandomierskim. Stawił się Ambroży Gierczak maiący lat Dwadzieścia ieden, Gospodarz z Jaszowic, y oświadczył Nam, iż Dnia trzynastego bieżącego Miesiąca, o godzinie drugiéj zrana, umarła Katarzyna, córka jego y Kunegundy z Kaniów, maiąca dni dwadzieścia w Domu pod Numerem dwudziestym pierwszym. Akt ninieyszy po przeczytaniu, stawający pisać nie umieiący, przez nas podpisany został.",
+    "translation_pl": "Dnia 14 kwietnia 1821 roku. Przed nami, proboszczem i urzędnikiem cywilnym gminy Cerekiew, powiatu i obwodu radomskiego w województwie sandomierskim. Stawił się Ambroży Gierczak, mający 21 lat, gospodarz z Jaszowic, i oświadczył nam, że dnia 13 bieżącego miesiąca [kwietnia] o godzinie drugiej rano, zmarła Katarzyna, córka jego i Kunegundy z Kaniów, mająca 20 dni, w domu pod numerem 21. Akt ten po przeczytaniu, stawiający, który pisać nie umie, przez nas podpisany został.",
+    "translation_en": "On April 14, 1821. Before us, the pastor and civil registrar of the Cerekiew commune, Radom county and district, in the Sandomierz voivodeship. Appeared Ambroży Gierczak, aged 21, a farmer from Jaszowice, and declared to us that on the 13th of the current month [April], at two o'clock in the morning, Katarzyna, daughter of him and Kunegunda née Kania, aged 20 days, died in the house at number 21. This act, after being read to the declarant, who cannot write, was signed by us.",
+    "extracted_data": [
+      {
+        "label_pl": "Wiek",
+        "label_en": "Age",
+        "value_pl": "20 dni",
+        "value_en": "20 days"
+      },
+      {
+        "label_pl": "Rodzice",
+        "label_en": "Parents",
+        "value_pl": "Ambroży Gierczak i Kunegunda z Kaniów",
+        "value_en": "Ambroży Gierczak and Kunegunda née Kania"
+      },
+      {
+        "label_pl": "Zgłaszający",
+        "label_en": "Informant",
+        "value_pl": "Ambroży Gierczak, 21 lat (ojciec)",
+        "value_en": "Ambroży Gierczak, 21 years old (father)"
+      }
+    ]
+  },
+  {
+    "id": 230,
+    "title_pl": "Akt Zgonu: Kunegunda Remiszewska z d. Kania (1852)",
+    "title_en": "Death Record: Kunegunda Remiszewska née Kania (1852)",
+    "type": "death_record",
+    "description_pl": "Parafia Cerekiew, akt nr 3, 1852 r. Zmarła w wieku 50 lat w Jaszowicach.",
+    "description_en": "Cerekiew Parish, record no. 3, 1852. Died at the age of 50 in Jaszowice.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się we Wsi Cerekwi Dnia dwudziestego szóstego Stycznia Roku Tysiąc Ośmset pięćdziesiąt drugiego o godzinie dziewiątey rano. Stawili się Mikołaj Remiszewski lat pięćdziesiąt ośm i Walenty Warchoł lat sześćdziesiąt maiący, obydwa włościanie w Jaszowicach zamieszkali; i oświadczyli iż we wsi Jaszowicach Dnia wczorajszego o godzinie dziewiątey rano umarła Kunegunda Remiszewska, włościanka w Jaszowicach zamieszkała, lat pięćdziesiąt maiąca, córka Stanisława i Magdaleny małżonków Kaniów, zostawiła po sobie owdowiałego męża Mikołaja Remiszewskiego. Po naocznem przekonaniu się o zejściu Kunegundy Remiszewskiey, Akt ten stawającym i świadkom przeczytany, pisać nie umiejącym, przez Nas tylko podpisany został. X. Kłobossowski Proboszcz Parafii Cerekiewskiey.",
+    "translation_pl": "Dnia 26 stycznia 1852 roku o godzinie dziewiątej rano we wsi Cerekiew. Stawili się Mikołaj Remiszewski, lat 58, oraz Walenty Warchoł, lat 60, obaj chłopi zamieszkali w Jaszowicach. Oświadczyli oni, że wczoraj, tj. 25 stycznia, o godzinie dziewiątej rano we wsi Jaszowice zmarła Kunegunda Remiszewska, chłopka zamieszkała w Jaszowicach, mająca 50 lat, córka Stanisława i Magdaleny małżonków Kania. Zostawiła po sobie owdowiałego męża, Mikołaja Remiszewskiego. Po naocznym stwierdzeniu zgonu Kunegundy Remiszewskiej, akt ten, po przeczytaniu go stawiającym i świadkom, którzy nie umieją pisać, został podpisany tylko przez nas. Ks. Kłobossowski, Proboszcz Parafii Cerekiew.",
+    "translation_en": "On January 26, 1852, at nine o'clock in the morning in the village of Cerekiew. Appeared Mikołaj Remiszewski, aged 58, and Walenty Warchoł, aged 60, both peasants residing in Jaszowice. They declared that yesterday, i.e., on January 25, at nine o'clock in the morning in the village of Jaszowice, Kunegunda Remiszewska, a peasant woman residing in Jaszowice, aged 50, passed away, daughter of Stanisław and Magdalena, spouses Kania. She left behind her widower husband, Mikołaj Remiszewski. After visually confirming the death of Kunegunda Remiszewska, this act, having been read to the declarants and witnesses, who are illiterate, was signed only by us. Fr. Kłobossowski, Pastor of the Cerekiew Parish.",
+    "extracted_data": [
+      {
+        "label_pl": "Wiek",
+        "label_en": "Age",
+        "value_pl": "50 lat",
+        "value_en": "50 years"
+      },
+      {
+        "label_pl": "Rodzice",
+        "label_en": "Parents",
+        "value_pl": "Stanisław i Magdalena Kania",
+        "value_en": "Stanisław and Magdalena Kania"
+      },
+      {
+        "label_pl": "Pozostawiła męża",
+        "label_en": "Survived by husband",
+        "value_pl": "Mikołaj Remiszewski",
+        "value_en": "Mikołaj Remiszewski"
+      }
+    ]
+  },
+  {
+    "id": 231,
+    "title_pl": "Akt Ślubu: Mikołaj Remisiewski i Kunegunda Gierczak z d. Kania (1837)",
+    "title_en": "Marriage Record: Mikołaj Remisiewski & Kunegunda Gierczak née Kania (1837)",
+    "type": "marriage_record",
+    "description_pl": "Parafia Cerekiew, akt nr 12, 1837 r. Drugi ślub Kunegundy, wdowy po Ambrożym Gierczaku.",
+    "description_en": "Cerekiew Parish, record no. 12, 1837. Second marriage of Kunegunda, widow of Ambroży Gierczak.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się we wsi Cerekwi Dnia Dwudziestego siódmego Lutego Roku tysiąc ośmset trzydziestego siódmego o godzinie czwartey po południu. Wiadomo czyniemy, że w przytomności Świadków Pawła Pysiaka lat pięćdziesiąt dwa i Walentego Warchoła lat sześćdziesiąt maiących, obydwóch Włościan w Jaszowicach zamieszkałych, zawarte zostało Religiyne Małżeństwo między Mikołajem Remiszewskim, Wdowcem po niegdy Zofii z Rybaków, włościaninem na gruncie w Jaszowicach osiadłym, lat czterdzieści dziewięć maiącym, synem niegdy Łukasza i Moniki z Łosiaków Małżonków Remiszewskich; a Kunegundą z Kaniów Gierczakową, Wdową po niegdy Ambrożym Gierczaku, lat trzydzieści sześć maiącą, w Jaszowicach zamieszkałą, córką niegdy Stanisława i Magdaleny Małżonków Kaniów. Małżeństwo to poprzedziły trzy zapowiedzi...",
+    "translation_pl": "Dnia 27 lutego 1837 roku, o godzinie czwartej po południu we wsi Cerekiew. Czynimy wiadomo, że w obecności świadków Pawła Pysiaka (lat 52) i Walentego Warchoła (lat 60), obu włościan zamieszkałych w Jaszowicach, zawarte zostało religijne małżeństwo pomiędzy Mikołajem Remiszewskim, wdowcem po zmarłej Zofii z Rybaków, włościaninem osiadłym na gruncie w Jaszowicach, lat 49, synem zmarłych Łukasza i Moniki z Łosiaków, małżonków Remiszewskich; a Kunegundą z Kaniów Gierczakową, wdową po zmarłym Ambrożym Gierczaku, lat 36, zamieszkałą w Jaszowicach, córką zmarłych Stanisława i Magdaleny, małżonków Kaniów. Małżeństwo to poprzedziły trzy zapowiedzi...",
+    "translation_en": "On February 27, 1837, at four o'clock in the afternoon in the village of Cerekiew. We make it known that in the presence of witnesses Paweł Pysiak (aged 52) and Walenty Warchoł (aged 60), both peasants residing in Jaszowice, a religious marriage was contracted between Mikołaj Remiszewski, a widower after the late Zofia née Rybak, a peasant settled on land in Jaszowice, aged 49, son of the late Łukasz and Monika née Łosiak, spouses Remiszewski; and Kunegunda née Kania Gierczakowa, a widow after the late Ambroży Gierczak, aged 36, residing in Jaszowice, daughter of the late Stanisław and Magdalena, spouses Kania. This marriage was preceded by three banns...",
+    "extracted_data": [
+      {
+        "label_pl": "Pan Młody",
+        "label_en": "Groom",
+        "value_pl": "Mikołaj Remisiewski, 49 lat, wdowiec",
+        "value_en": "Mikołaj Remisiewski, 49 years old, widower"
+      },
+      {
+        "label_pl": "Rodzice Pana Młodego",
+        "label_en": "Groom's Parents",
+        "value_pl": "Łukasz i Monika z Łosiaków",
+        "value_en": "Łukasz and Monika née Łosiak"
+      },
+      {
+        "label_pl": "Panna Młoda",
+        "label_en": "Bride",
+        "value_pl": "Kunegunda Gierczak z d. Kania, 36 lat, wdowa",
+        "value_en": "Kunegunda Gierczak née Kania, 36 years old, widow"
+      },
+      {
+        "label_pl": "Rodzice Panny Młodej",
+        "label_en": "Bride's Parents",
+        "value_pl": "Stanisław i Magdalena Kania",
+        "value_en": "Stanisław and Magdalena Kania"
+      }
+    ]
+  },
+  {
+    "id": 232,
+    "title_pl": "Akt Ślubu: Ambroży Cobista i Kunegunda Kanionka (1820)",
+    "title_en": "Marriage Record: Ambroży Cobista & Kunegunda Kanionka (1820)",
+    "type": "marriage_record",
+    "description_pl": "Parafia Cerekiew, akt nr 4, 1820 r. Prawdopodobnie akt ślubu Ambrożego Gierczaka, zapisanego tu pod nazwiskiem Cobista.",
+    "description_en": "Cerekiew Parish, record no. 4, 1820. Likely the marriage record of Ambroży Gierczak, listed here under the surname Cobista.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się we wsi Cerekwi Dnia Trzeciego Lutego Roku Tysiącznego Ośmsetnego Dwudziestego o godzinie Drugiey po południu (...) zawarte zostało Religiyne Małżeństwo między Ambrożym Cobistą, Kawalerem, wyrobnikiem w Jaszowicach osiadłym, w teyże wsi urodzonym, maiącym lat dwadzieścia, synem niegdy Tomasza i Zofii z Gielów Małżonków; a Kunegundą Kanionką, Panną, córką niegdy Stanisława i żyiącej Magdaleny Małżonków Kaniów, we wsi Jaszowicach zamieszkałą, maiącą lat dziewiętnaście. Małżeństwo to poprzedziły trzy zapowiedzi...",
+    "translation_pl": "Dnia 3 lutego 1820 roku, o godzinie drugiej po południu we wsi Cerekiew (...) zawarte zostało religijne małżeństwo pomiędzy Ambrożym Cobistą, kawalerem, robotnikiem osiadłym i urodzonym w Jaszowicach, mającym 20 lat, synem zmarłego Tomasza i Zofii z Gielów; a Kunegundą Kanionką, panną, córką zmarłego Stanisława i żyjącej Magdaleny małżonków Kaniów, zamieszkałą w Jaszowicach, mającą 19 lat.",
+    "translation_en": "On February 3, 1820, at two o'clock in the afternoon in the village of Cerekiew (...) a religious marriage was contracted between Ambroży Cobista, a bachelor, a laborer settled and born in Jaszowice, aged 20, son of the late Tomasz and Zofia née Giel; and Kunegunda Kanionka, a maiden, daughter of the late Stanisław and the living Magdalena, spouses Kania, residing in Jaszowice, aged 19.",
+    "extracted_data": [
+      {
+        "label_pl": "Pan Młody",
+        "label_en": "Groom",
+        "value_pl": "Ambroży Cobista, 20 lat, kawaler",
+        "value_en": "Ambroży Cobista, 20 years old, bachelor"
+      },
+      {
+        "label_pl": "Rodzice Pana Młodego",
+        "label_en": "Groom's Parents",
+        "value_pl": "Tomasz i Zofia z Gielów",
+        "value_en": "Tomasz and Zofia née Giel"
+      },
+      {
+        "label_pl": "Panna Młoda",
+        "label_en": "Bride",
+        "value_pl": "Kunegunda Kanionka, 19 lat, panna",
+        "value_en": "Kunegunda Kanionka, 19 years old, maiden"
+      },
+      {
+        "label_pl": "Rodzice Panny Młodej",
+        "label_en": "Bride's Parents",
+        "value_pl": "Stanisław i Magdalena Kania",
+        "value_en": "Stanisław and Magdalena Kania"
       }
     ]
   }

@@ -12,6 +12,7 @@ import {
 interface PersonCardProps {
   person: Person;
   onClick: () => void;
+  isProgenitor: boolean;
 }
 
 const formatDate = (dateString: string | null | undefined, locale: string) => {
@@ -64,7 +65,11 @@ const formatDate = (dateString: string | null | undefined, locale: string) => {
   }
 };
 
-export default function PersonCard({ person, onClick }: PersonCardProps) {
+export default function PersonCard({
+  person,
+  onClick,
+  isProgenitor,
+}: PersonCardProps) {
   const { t, language } = useLanguage();
   const isGierczak = person.family === "gierczak";
   const accentColor = isGierczak
@@ -88,10 +93,14 @@ export default function PersonCard({ person, onClick }: PersonCardProps) {
     language
   );
 
+  const backgroundClass = isProgenitor
+    ? "bg-muted hover:bg-heritage-gray-dark/50" // Tło dla rodzica
+    : "bg-card hover:shadow-md"; // Tło dla dziecka
+
   return (
     <TooltipProvider delayDuration={200}>
       <Card
-        className="cursor-pointer hover:shadow-md transition-shadow heritage-border"
+        className={`cursor-pointer transition-all duration-200 heritage-border ${backgroundClass}`}
         onClick={onClick}
       >
         <CardContent className="p-4">

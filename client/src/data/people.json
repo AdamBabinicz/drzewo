@@ -78,7 +78,7 @@
   {
     "id": 4,
     "firstName": "Ambroży",
-    "lastName": "Gierczak",
+    "lastName": "Gierczak vel Cobista",
     "birthDateNote": "1800",
     "deathDate": "1836-01-22",
     "deathTime": "9:00",
@@ -95,12 +95,15 @@
     "marriages": [
       {
         "spouseId": 8,
-        "date": "1820 ?"
+        "date": "1820-02-03",
+        "source": {
+          "documentId": 232
+        }
       }
     ],
     "biography": {
-      "pl": "3 x pradziadek. Urodził się na początku XIX w. Ożenił się prawdopodobnie w 1820 z Kunegundą Kanią. Mieli 8 dzieci.",
-      "en": "3x great-grandfather. He was born at the beginning of the 19th century. He likely married Kunegunda Kania in 1820. They had 8 children."
+      "pl": "3 x pradziadek. Urodził się na początku XIX w. W akcie ślubu z 1820 roku zapisany jest pod nazwiskiem Cobista. Ożenił się z Kunegundą Kanią. Mieli 8 dzieci.",
+      "en": "3x great-grandfather. He was born at the beginning of the 19th century. In his 1820 marriage record, he is listed under the surname Cobista. He married Kunegunda Kania. They had 8 children."
     },
     "events": [
       {
@@ -188,6 +191,9 @@
     "lastName": "Remisiewska",
     "maidenName": "Kania vel Kanionka",
     "birthDateNote": "1801",
+    "deathDate": "1852-01-25",
+    "deathTime": "9:00",
+    "deathTimeQualifier": "morning",
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [4, 107],
@@ -196,17 +202,33 @@
     "marriages": [
       {
         "spouseId": 4,
-        "date": "1820 ?"
+        "date": "1820-02-03",
+        "source": {
+          "documentId": 232
+        }
       },
       {
         "spouseId": 107,
-        "date": "1837"
+        "date": "1837-02-27",
+        "source": {
+          "documentId": 231
+        }
       }
     ],
     "biography": {
-      "pl": "Żona Ambrożego. Rodzicami Kunegundy byli Stanisław i Magdalena. Po śmierci Ambrożego wyszła za mąż w 1837 za Mikołaja Remisiewskiego.",
-      "en": "Wife of Ambroży. Kunegunda's parents were Stanisław and Magdalena. After Ambroży's death, she married Mikołaj Remisiewski in 1837."
-    }
+      "pl": "Żona Ambrożego. Rodzicami Kunegundy byli Stanisław i Magdalena. Po śmierci Ambrożego wyszła za mąż w 1837 za Mikołaja Remisiewskiego. Zmarła w Jaszowicach w wieku 50 lat.",
+      "en": "Wife of Ambroży. Kunegunda's parents were Stanisław and Magdalena. After Ambroży's death, she married Mikołaj Remisiewski in 1837. She died in Jaszowice at the age of 50."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1852-01-25",
+        "place": "Jaszowice",
+        "source": {
+          "documentId": 230
+        }
+      }
+    ]
   },
   {
     "id": 13,
@@ -258,10 +280,12 @@
   {
     "id": 18,
     "firstName": "Tekla",
-    "lastName": "Kozyra vel Kozera",
-    "maidenName": "Adamczyk",
+    "lastName": "Gierczak",
+    "maidenName": "Kozyra",
     "birthDate": "1831-10-19",
-    "deathDate": "1909",
+    "deathDate": "1909-02-10",
+    "deathTime": "8:00",
+    "deathTimeQualifier": "morning",
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [13],
@@ -274,15 +298,27 @@
       }
     ],
     "biography": {
-      "pl": "Żona Karola Gierczaka. Rodzicami Tekli byli Adam i Józefa Kredowska.",
-      "en": "Wife of Karol Gierczak. Tekla's parents were Adam and Józefa Kredowska."
-    }
+      "pl": "Żona Karola Gierczaka. Córka Wojciecha Kozyry i Józefy z domu Kredowskiej. Zmarła w Gulinku w wieku 80 lat.",
+      "en": "Wife of Karol Gierczak. Daughter of Wojciech Kozyra and Józefa née Kredowska. She died in Gulinek at the age of 80."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1909-02-10",
+        "place": "Gulinek",
+        "source": {
+          "documentId": 15
+        }
+      }
+    ]
   },
   {
     "id": 19,
     "firstName": "Paweł",
     "lastName": "Gierczak",
     "birthDate": "1867-01-11",
+    "birthTime": "23:00",
+    "birthTimeQualifier": "night",
     "deathDate": "1935-07-29",
     "deathTime": "14:00",
     "photoUrl": "/images/Pawel.avif",
@@ -312,6 +348,14 @@
       "en": "Son of Karol and Tekla. At the age of 20, on February 14, 1887, he married Katarzyna Czerwińska. They had 10 children. He was the grandfather of Józef, born in 1930."
     },
     "events": [
+      {
+        "type": "birth",
+        "date": "1867-01-11",
+        "place": "Gulinek",
+        "source": {
+          "documentId": 2
+        }
+      },
       {
         "type": "death",
         "date": "1935-07-29",
@@ -915,17 +959,29 @@
     "id": 62,
     "firstName": "Katarzyna",
     "lastName": "Gierczak",
-    "birthDate": null,
-    "deathDate": "1821",
+    "birthDateNote": "marzec 1821",
+    "deathDate": "1821-04-13",
+    "deathTime": "2:00",
+    "deathTimeQualifier": "morning",
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
     "parentIds": [4, 8],
     "biography": {
-      "pl": "Córka Ambrożego i Kunegundy.",
-      "en": "Daughter of Ambroży and Kunegunda."
-    }
+      "pl": "Córka Ambrożego i Kunegundy. Zmarła w Jaszowicach jako 20-dniowe niemowlę.",
+      "en": "Daughter of Ambroży and Kunegunda. She died in Jaszowice as a 20-day-old infant."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1821-04-13",
+        "place": "Jaszowice",
+        "source": {
+          "documentId": 29
+        }
+      }
+    ]
   },
   {
     "id": 63,
@@ -1186,7 +1242,17 @@
     "biography": {
       "pl": "Córka Pawła i Katarzyny.",
       "en": "Daughter of Paweł and Katarzyna."
-    }
+    },
+    "events": [
+      {
+        "type": "birth",
+        "date": "1900",
+        "place": "Gulinek",
+        "source": {
+          "documentId": 52
+        }
+      }
+    ]
   },
   {
     "id": 75,
@@ -1812,7 +1878,10 @@
     "marriages": [
       {
         "spouseId": 8,
-        "date": "1837"
+        "date": "1837-02-27",
+        "source": {
+          "documentId": 231
+        }
       }
     ],
     "biography": {
