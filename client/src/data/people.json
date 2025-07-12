@@ -61,8 +61,8 @@
     "childIds": [],
     "parentIds": [1, 2],
     "biography": {
-      "pl": "Syn Tomasza Gierczaka i Zofii z Gielów. Urodzony 24 listopada 1816 roku we Wrzosie.",
-      "en": "Son of Tomasz Gierczak and Zofia née Giel. Born on November 24, 1816, in Wrzos."
+      "pl": "Syn Tomasza Gierczaka i Zofii z Gielów. Urodzony 24 listopada 1816 roku we Wrzosie. Jego rodzice w tym okresie byli tam czasowo zamieszkali, choć ich głównym ośrodkiem życia były Jaszowice.",
+      "en": "Son of Tomasz Gierczak and Zofia née Giel. Born on November 24, 1816, in Wrzos. His parents were temporarily residing there during this period, although their main center of life was Jaszowice."
     },
     "events": [
       {
@@ -2943,7 +2943,7 @@
     "family": "gierczak",
     "spouseIds": [156],
     "childIds": [],
-    "parentIds": [1, 2],
+    "parentIds": [],
     "occupation": {
       "pl": "Służący",
       "en": "Servant"
@@ -2958,8 +2958,8 @@
       }
     ],
     "biography": {
-      "pl": "Syn Tomasza i Marianny (Zofii?) z Gielowskich. W wieku 19 lat poślubił 18-letnią Małgorzatę Szczepaniak.",
-      "en": "Son of Tomasz and Marianna (Zofia?) née Gielowska. At the age of 19, he married the 18-year-old Małgorzata Szczepaniak."
+      "pl": "Syn Tomasza i Marianny z Gielowskich (zgodnie z aktem ślubu). W wieku 19 lat poślubił 18-letnią Małgorzatę Szczepaniak. Ze względu na inne imię matki, prawdopodobnie nie jest synem Tomasza i Zofii Gierczak.",
+      "en": "Son of Tomasz and Marianna née Gielowska (according to the marriage record). At the age of 19, he married the 18-year-old Małgorzata Szczepaniak. Due to the different mother's name, he is likely not the son of Tomasz and Zofia Gierczak."
     }
   },
   {
