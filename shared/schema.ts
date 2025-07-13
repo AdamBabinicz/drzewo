@@ -1,3 +1,5 @@
+// src/shared/schema.ts (zaktualizowany)
+
 type LocalizedString = {
   pl: string;
   en: string;
@@ -37,6 +39,10 @@ export type Event = {
   date: string;
   place: string;
   source: EventSource;
+  note?: {
+    pl: string;
+    en: string;
+  };
 };
 
 export type Person = {
@@ -47,9 +53,11 @@ export type Person = {
   birthDate?: string | null;
   birthDateNote?: string | null;
   birthTime?: string | null;
+  birthTimeQualifier?: string | null; // <-- ZMIANA: Dodane pole
   deathDate?: string | null;
   deathDateNote?: string | null;
   deathTime?: string | null;
+  deathTimeQualifier?: string | null; // <-- ZMIANA: Dodane pole
   birthPlace?: string | null;
   deathPlace?: string | null;
   occupation: LocalizedString | string | null;

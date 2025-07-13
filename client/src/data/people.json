@@ -1334,40 +1334,87 @@
     "id": 79,
     "firstName": "Jan",
     "lastName": "Gierczak",
-    "birthDate": "1918",
-    "deathDate": "1918",
+    "birthDate": "1918-09-13",
+    "birthTime": "7:00",
+    "birthTimeQualifier": "morning",
+    "deathDate": "1918-11-15",
+    "deathTime": "7:00",
+    "deathTimeQualifier": "morning",
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
     "parentIds": [26, 32],
     "biography": {
-      "pl": "Syn Jana i Agnieszki. Żył 2 dni.",
-      "en": "Son of Jan and Agnieszka. Lived for 2 days."
-    }
+      "pl": "Syn Jana i Agnieszki. Dane z aktów urodzenia i zgonu są sprzeczne co do jego wieku w chwili śmierci (akt zgonu podaje 2 dni, co sugerowałoby datę urodzenia w listopadzie, podczas gdy akt urodzenia wskazuje na wrzesień). Najprawdopodobniej wiek w akcie zgonu został błędnie zapisany. Uznany za brata bliźniaka Marianny.",
+      "en": "Son of Jan and Agnieszka. The data from the birth and death records is conflicting regarding his age at death (the death record states 2 days, suggesting a November birth date, while the birth record indicates September). Most likely, the age in the death record was recorded incorrectly. Considered the twin brother of Marianna."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1918-11-15",
+        "place": "Gulinek",
+        "source": {
+          "documentId": 233
+        }
+      },
+      {
+        "type": "birth",
+        "date": "1918-09-13",
+        "place": "Gulinek",
+        "source": {
+          "documentId": 236
+        }
+      }
+    ]
   },
   {
     "id": 80,
     "firstName": "Marianna",
     "lastName": "Gierczak",
-    "birthDate": "1918",
-    "deathDate": "1918",
+    "birthDate": "1918-09-13",
+    "birthTime": "7:00",
+    "birthTimeQualifier": "morning",
+    "deathDate": "1918-11-27",
+    "deathTime": "4:00",
+    "deathTimeQualifier": "morning",
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
     "parentIds": [26, 32],
     "biography": {
-      "pl": "Córka Jana i Agnieszki. Żyła 2 tygodnie.",
-      "en": "Daughter of Jan and Agnieszka. Lived for 2 weeks."
-    }
+      "pl": "Córka Jana i Agnieszki, siostra bliźniaczka Jana. Urodzona 13 września 1918 r., zmarła po około dwóch miesiącach.",
+      "en": "Daughter of Jan and Agnieszka, twin sister of Jan. Born on September 13, 1918, she died after about two months."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1918-11-27",
+        "place": "Gulinek",
+        "source": {
+          "documentId": 234
+        }
+      },
+      {
+        "type": "birth",
+        "date": "1918-09-13",
+        "place": "Gulinek",
+        "source": {
+          "documentId": 237
+        }
+      }
+    ]
   },
   {
     "id": 81,
     "firstName": "Janina",
     "lastName": "Gierczak",
-    "birthDate": "1920",
-    "deathDate": "1920",
+    "birthDate": "1920-03-05",
+    "birthTime": "15:00",
+    "deathDate": "1920-04-28",
+    "deathTime": "11:00",
+    "deathTimeQualifier": "morning",
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [],
@@ -1376,7 +1423,25 @@
     "biography": {
       "pl": "Córka Jana i Agnieszki. Żyła 8 tygodni.",
       "en": "Daughter of Jan and Agnieszka. Lived for 8 weeks."
-    }
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1920-04-28",
+        "place": "Gulinek",
+        "source": {
+          "documentId": 235
+        }
+      },
+      {
+        "type": "birth",
+        "date": "1920-03-05",
+        "place": "Gulinek",
+        "source": {
+          "documentId": 238
+        }
+      }
+    ]
   },
   {
     "id": 82,
@@ -1591,17 +1656,37 @@
     "id": 92,
     "firstName": "Stanisław",
     "lastName": "Ofiara vel Borowiecki",
-    "birthDate": "1919",
-    "deathDate": null,
+    "birthDate": "1919-09-09",
+    "birthTime": "14:00",
+    "deathDate": "1988-02-07",
     "photoUrl": null,
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
     "parentIds": [45, 47],
     "biography": {
-      "pl": "Syn Józefa Ofiary i jego pierwszej żony, Rozalii z d. Mitak.",
-      "en": "Son of Józef Ofiara and his first wife, Rozalia née Mitak."
-    }
+      "pl": "Syn Józefa Ofiary i jego pierwszej żony, Rozalii z d. Mitak. W 1966 roku jego nazwisko zostało urzędowo zmienione na Borowiecki.",
+      "en": "Son of Józef Ofiara and his first wife, Rozalia née Mitak. In 1966, his surname was officially changed to Borowiecki."
+    },
+    "events": [
+      {
+        "type": "birth",
+        "date": "1919-09-09",
+        "place": "Gulinek",
+        "source": {
+          "documentId": 239
+        }
+      },
+      {
+        "type": "death",
+        "date": "1988-02-07",
+        "place": "Radom",
+        "note": {
+          "pl": "Informacja o zgonie pochodzi z adnotacji na marginesie aktu urodzenia.",
+          "en": "Information about death comes from an annotation in the margin of the birth certificate."
+        }
+      }
+    ]
   },
   {
     "id": 93,

@@ -155,23 +155,16 @@ export default function PersonModal({
     return field;
   };
 
-  const formatTimeWithContext = (timeString: string | null | undefined) => {
-    if (!timeString) return timeString;
-
-    if (timeString.toLowerCase().includes("rano")) {
-      const timePart = timeString.replace(/rano/gi, "").trim();
-      return `${timePart} ${t("time.morning")}`.trim();
+  const formatTimeWithContext = (
+    time: string | null | undefined,
+    qualifier: string | null | undefined
+  ) => {
+    if (!time) return null;
+    if (qualifier) {
+      const translatedQualifier = t(`time.${qualifier}`);
+      return `${time} ${translatedQualifier}`;
     }
-
-    const timeMatch = timeString.match(/^(\d{1,2}):(\d{2})$/);
-    if (timeMatch) {
-      const hour = parseInt(timeMatch[1], 10);
-      if (hour < 12) {
-        return `${timeString} ${t("time.morning")}`;
-      }
-    }
-
-    return timeString;
+    return time;
   };
 
   const occupationText = getDynamicText(currentPerson.occupation);
@@ -201,6 +194,9 @@ export default function PersonModal({
   const deathEvent = currentPerson.events?.find(
     (e: Event) => e.type === "death"
   );
+
+  const birthDocId = birthEvent?.source?.documentId;
+  const deathDocId = deathEvent?.source?.documentId;
 
   return (
     <>
@@ -256,15 +252,13 @@ export default function PersonModal({
                                   language
                                 )}
                               </p>
-                              {birthEvent && (
+                              {birthDocId && (
                                 <Tooltip>
                                   <TooltipTrigger asChild>
                                     <Book
                                       className="w-4 h-4 text-blue-500 cursor-pointer"
                                       onClick={() =>
-                                        handleDocumentClick(
-                                          birthEvent.source.documentId
-                                        )
+                                        handleDocumentClick(birthDocId)
                                       }
                                     />
                                   </TooltipTrigger>
@@ -288,15 +282,13 @@ export default function PersonModal({
                                   language
                                 )}
                               </p>
-                              {deathEvent && (
+                              {deathDocId && (
                                 <Tooltip>
                                   <TooltipTrigger asChild>
                                     <Book
                                       className="w-4 h-4 text-blue-500 cursor-pointer"
                                       onClick={() =>
-                                        handleDocumentClick(
-                                          deathEvent.source.documentId
-                                        )
+                                        handleDocumentClick(deathDocId)
                                       }
                                     />
                                   </TooltipTrigger>
@@ -326,6 +318,8 @@ export default function PersonModal({
                           ? spouse.lastName
                           : spouse.maidenName || spouse.lastName;
 
+                      const marriageDocId = marriage.source?.documentId;
+
                       return (
                         <div key={index} className="flex items-start space-x-3">
                           <Heart className="w-4 h-4 text-muted-foreground mt-1" />
@@ -344,16 +338,14 @@ export default function PersonModal({
                                 <p className="text-sm text-muted-foreground">
                                   {formatDate(marriage.date, language)}
                                 </p>
-                                {marriage.source && (
+                                {marriageDocId && (
                                   <Tooltip>
                                     <TooltipTrigger asChild>
                                       <Book
                                         className="w-4 h-4 text-blue-500 cursor-pointer"
                                         onClick={(e) => {
                                           e.stopPropagation();
-                                          handleDocumentClick(
-                                            marriage.source!.documentId
-                                          );
+                                          handleDocumentClick(marriageDocId);
                                         }}
                                       />
                                     </TooltipTrigger>
@@ -413,7 +405,10 @@ export default function PersonModal({
                               <span className="font-semibold">
                                 {t("person.birthTime")}:
                               </span>{" "}
-                              {formatTimeWithContext(currentPerson.birthTime)}
+                              {formatTimeWithContext(
+                                currentPerson.birthTime,
+                                currentPerson.birthTimeQualifier
+                              )}
                             </p>
                           )}
                           {currentPerson.deathTime && (
@@ -421,7 +416,10 @@ export default function PersonModal({
                               <span className="font-semibold">
                                 {t("person.deathTime")}:
                               </span>{" "}
-                              {formatTimeWithContext(currentPerson.deathTime)}
+                              {formatTimeWithContext(
+                                currentPerson.deathTime,
+                                currentPerson.deathTimeQualifier
+                              )}
                             </p>
                           )}
                         </div>
