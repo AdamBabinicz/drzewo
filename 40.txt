@@ -56,7 +56,7 @@ const translations = {
     "home.branches.gierczak.desc":
       "Ród Gierczaków, wywodzący się z Jaszowic, to historia chłopskiej rodziny, której korzenie sięgają Tomasza Gierczaka. Kolejne pokolenia, poprzez małżeństwa, dziedziczenie ziemi i swoje decyzje, rozprzestrzeniły się, osiedlając się m.in. w Gulinku, Mleczkowie, Dąbrówce Nagórnej, Klwatach i Radomiu.",
     "home.branches.ofiara.desc":
-      "Historia rodu Ofiarów nierozerwalnie związana jest z Wolą Gutowską i Ludwikowem. Jego protoplastą jest Konstanty Ofiara, którego potomkowie przez dekady tworzyli lokalną społeczność, a ich losy połączyły się z rodem Gierczaków.",
+      "Historia rodu Ofiarów nierozerwalnie związana jest z Wolą Gutowską i Ludwikowem. Jego protoplastą jest Stefan Ofiara, którego potomkowie przez dekady tworzyli lokalną społeczność, a ich losy połączyły się z rodem Gierczaków.",
     "home.explore.title": "Rozpocznij Eksplorację",
     "home.explore.subtitle":
       "Wybierz jeden ze sposobów poznawania historii rodzin",
@@ -395,7 +395,7 @@ const translations = {
     "home.branches.gierczak.desc":
       "The Gierczak family, originating from Jaszowice, is a story of a peasant family whose roots go back to Tomasz Gierczak. Subsequent generations, through marriages, inheriting land and their own decisions, spread, settling in Gulinek, Mleczków, Dąbrówka Nagórna, Klwaty and Radom.",
     "home.branches.ofiara.desc":
-      "The history of the Ofiara family is inseparably linked with Wola Gutowska and Ludwików. Its progenitor is Konstanty Ofiara, whose descendants formed the local community for decades, and their fates merged with the Gierczak family.",
+      "The history of the Ofiara family is inseparably linked with Wola Gutowska and Ludwików. Its progenitor is Stefan Ofiara, whose descendants formed the local community for decades, and their fates merged with the Gierczak family.",
     "home.explore.title": "Start Exploring",
     "home.explore.subtitle":
       "Choose one of the ways to learn the family history",
@@ -462,8 +462,8 @@ const translations = {
     "gallery.item.doc-3.desc": "Parish cemetery in Zakrzów (Zakrzew)",
     "gallery.item.doc-4.title": "Genealogical Tree",
     "gallery.item.doc-4.desc": "Hand-drawn family tree",
-    "gallery.item.doc-5.title": "The grave of Agnieszka Gierczak",
-    "gallery.item.doc-5.desc": "Parish cemetery in Zakrzów (Zakrzew)",
+    "gallery.item.doc-5.title": "Death record of Andrzej Ofiara 17.12.1922",
+    "gallery.item.doc-5.desc": "Cerekiew parish death records",
     "gallery.item.place-1.title":
       "First Holy Communion of my uncle Roman Ofiara",
     "gallery.item.place-1.desc": "Roman with his mother Helena",
@@ -476,9 +476,6 @@ const translations = {
     "gallery.item.place-4.title": "Interior of a Peasant Cottage",
     "gallery.item.place-4.desc":
       "An example of the furnishings of a room in which the ancestors of the Gierczak and Ofiara families might have lived.",
-    "gallery.item.place-5.title":
-      "The road to grandmother Helena's house, 1970s",
-    "gallery.item.place-5.desc": "In the photo: me with my father Józef",
     "sources.title": "Sources and Bibliography",
     "sources.subtitle":
       "Documentation of sources used in genealogical research.",

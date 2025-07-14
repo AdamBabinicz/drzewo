@@ -1832,7 +1832,7 @@
     "id": 99,
     "firstName": "Roman",
     "lastName": "Ofiara",
-    "photoUrl": "/images/roman.avif",
+    "photoUrl": "/images/rumek.avif",
     "family": "ofiara",
     "birthDate": "1939",
     "spouseIds": [],
@@ -2427,8 +2427,8 @@
       }
     ],
     "biography": {
-      "pl": "Syn Stefana i Małgorzaty z d. Kowalczyk. Mąż Marianny Wieczorek. Mieszkał z rodziną w Woli Gutowskiej k. Jedlińska. Zmarł w wieku 86 lat, pozostawiając owdowiałą żonę.",
-      "en": "Son of Stefan and Małgorzata née Kowalczyk. Husband of Marianna Wieczorek. Lived with his family in Wola Gutowska near Jedlińsk. He died at the age of 86, leaving behind his widow."
+      "pl": "Syn Szczepana i Małgorzaty z d. Kowalczyk. W jego akcie urodzenia ojciec został błędnie zapisany jako Stefan. Mąż Marianny Wieczorek. Mieszkał z rodziną w Woli Gutowskiej k. Jedlińska. Zmarł w wieku 86 lat, pozostawiając owdowiałą żonę.",
+      "en": "Son of Szczepan and Małgorzata née Kowalczyk. In his birth certificate, his father was mistakenly recorded as Stefan. Husband of Marianna Wieczorek. Lived with his family in Wola Gutowska near Jedlińsk. He died at the age of 86, leaving behind his widow."
     },
     "events": [
       {
@@ -2516,23 +2516,42 @@
   },
   {
     "id": 133,
-    "firstName": "Stefan",
+    "firstName": "Szczepan",
     "lastName": "Ofiara",
     "family": "ofiara",
-    "birthDateNote": "ok. 1793",
-    "deathDateNote": "between 1867 and 1886",
+    "birthDate": "1805-11-30",
+    "deathDateNote": "po 1842",
     "photoUrl": "/images/stefan.avif",
     "spouseIds": [134],
-    "childIds": [129, 135, 136, 137, 138],
-    "parentIds": [],
+    "childIds": [159, 135, 129, 136, 160, 137, 138],
+    "parentIds": [161, 162],
     "occupation": {
       "pl": "Parobek / Włościanin",
       "en": "Farmhand / Peasant"
     },
+    "marriages": [
+      {
+        "spouseId": 134,
+        "date": "1824-02-19",
+        "source": {
+          "documentId": 248
+        }
+      }
+    ],
     "biography": {
-      "pl": "Protoplasta rodu Ofiara. Mąż Małgorzaty Kowalczyk. Ojciec Jakuba, Kacpra, Anny, Franciszki i Wojciecha. Jego wiek w dokumentach podawany jest niespójnie (sugeruje daty urodzenia od 1793 do 1805). Był jeszcze żywy w lutym 1867, a już nie żył w marcu 1886.",
-      "en": "Progenitor of the Ofiara family. Husband of Małgorzata Kowalczyk. Father of Jakub, Kacper, Anna, Franciszka, and Wojciech. His age is stated inconsistently in documents (suggesting birth dates from 1793 to 1805). He was still alive in February 1867 but had passed away by March 1886."
-    }
+      "pl": "Syn protoplasty rodu, Konstantego Ofiary, i Agnieszki Grzegorzewskiej. W akcie urodzenia zapisany pod łacińską formą imienia 'Stephanum'. W 1824 roku poślubił Małgorzatę Kowalczyk. W aktach urodzeń części swoich dzieci (np. Jakuba, Anny) jest konsekwentnie zapisywany pod imieniem Stefan, co było częstą praktyką kancelaryjną w XIX wieku.",
+      "en": "Son of the family's progenitor, Konstanty Ofiara, and Agnieszka Grzegorzewska. In his birth certificate, he was recorded under the Latin form of the name 'Stephanum'. In 1824, he married Małgorzata Kowalczyk. In the birth certificates of some of his children (e.g., Jakub, Anna), he is consistently recorded under the name Stefan, a common 19th-century clerical practice."
+    },
+    "events": [
+      {
+        "type": "birth",
+        "date": "1805-11-30",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 242
+        }
+      }
+    ]
   },
   {
     "id": 134,
@@ -2540,13 +2559,22 @@
     "lastName": "Ofiara",
     "maidenName": "Kowalczyk",
     "family": "ofiara",
-    "birthDateNote": "ok. 1798-1805",
+    "birthDate": "ok. 1805",
     "spouseIds": [133],
-    "childIds": [129, 135, 136, 137, 138],
-    "parentIds": [],
+    "childIds": [159, 135, 129, 136, 160, 137, 138],
+    "parentIds": [168, 169],
+    "marriages": [
+      {
+        "spouseId": 133,
+        "date": "1824-02-19",
+        "source": {
+          "documentId": 248
+        }
+      }
+    ],
     "biography": {
-      "pl": "Żona Stefana Ofiary, matka Jakuba, Kacpra, Anny, Franciszki i Wojciecha. Jej wiek w dokumentach podawany jest niespójnie, co sugeruje, że urodziła się między 1798 a 1805 rokiem.",
-      "en": "Wife of Stefan Ofiara, mother of Jakub, Kacper, Anna, Franciszka, and Wojciech. Her age is stated inconsistently in documents, suggesting she was born between 1798 and 1805."
+      "pl": "Żona Szczepana Ofiary. Córka Karola i Julianny z d. Bogusz. Matka Wincentego, Kacpra, Jakuba, Anny, Józefa, Franciszki i Wojciecha.",
+      "en": "Wife of Szczepan Ofiara. Daughter of Karol and Julianna née Bogusz. Mother of Wincenty, Kacper, Jakub, Anna, Józef, Franciszka, and Wojciech."
     }
   },
   {
@@ -3070,6 +3098,384 @@
     "biography": {
       "pl": "Żona Jana Gierczaka. Córka zmarłego Kacpra i żyjącej Marianny Szczepaniaków. W chwili ślubu w 1842 roku miała 18 lat i była służącą w Jaszowicach.",
       "en": "Wife of Jan Gierczak. Daughter of the late Kacper and the living Marianna Szczepaniak. At the time of her marriage in 1842, she was 18 years old and a servant in Jaszowice."
+    }
+  },
+  {
+    "id": 157,
+    "firstName": "Stefan",
+    "lastName": "Ofiara",
+    "family": "ofiara",
+    "birthDateNote": "ok. 1809",
+    "deathDateNote": "po 1852",
+    "spouseIds": [158, 172],
+    "childIds": [],
+    "parentIds": [161, 162],
+    "marriages": [
+      {
+        "spouseId": 158,
+        "date": "1844-02-18",
+        "source": {
+          "documentId": 249
+        }
+      },
+      {
+        "spouseId": 172,
+        "date": "1852-02-02",
+        "source": {
+          "documentId": 250
+        }
+      }
+    ],
+    "biography": {
+      "pl": "Syn Konstantego i Agnieszki z Grzegorzewskich. Brat Szczepana (id: 133). Jego pierwszą żoną była Helena Hernik (ślub w 1844 r.). Po jej śmierci, jako wdowiec, w 1852 roku poślubił Mariannę z Jemiołków Strączkową.",
+      "en": "Son of Konstanty and Agnieszka née Grzegorzewska. Brother of Szczepan (id: 133). His first wife was Helena Hernik (married in 1844). After her death, as a widower, he married Marianna née Jemiołek Strączkowa in 1852."
+    }
+  },
+  {
+    "id": 158,
+    "firstName": "Helena",
+    "lastName": "Ofiara",
+    "maidenName": "Hernik",
+    "family": "ofiara",
+    "birthDateNote": "ok. 1824",
+    "deathDateNote": "ok. 1844-1851",
+    "spouseIds": [157],
+    "childIds": [],
+    "parentIds": [170, 171],
+    "marriages": [
+      {
+        "spouseId": 157,
+        "date": "1844-02-18",
+        "source": {
+          "documentId": 249
+        }
+      }
+    ],
+    "biography": {
+      "pl": "Pierwsza żona Stefana Ofiary (id: 157). Córka Antoniego i Barbary Herników. Wyszła za mąż w wieku 20 lat. Zmarła przed 1852 rokiem.",
+      "en": "First wife of Stefan Ofiara (id: 157). Daughter of Antoni and Barbara Hernik. She married at the age of 20. She died before 1852."
+    }
+  },
+  {
+    "id": 159,
+    "firstName": "Wincenty",
+    "lastName": "Ofiara",
+    "family": "ofiara",
+    "birthDate": "1826-04-20",
+    "birthTime": "24:00",
+    "parentIds": [133, 134],
+    "spouseIds": [],
+    "childIds": [],
+    "biography": {
+      "pl": "Syn Szczepana i Małgorzaty z d. Kowalczyk.",
+      "en": "Son of Szczepan and Małgorzata née Kowalczyk."
+    },
+    "events": [
+      {
+        "type": "birth",
+        "date": "1826",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 240
+        }
+      }
+    ]
+  },
+  {
+    "id": 160,
+    "firstName": "Józef",
+    "lastName": "Ofiara",
+    "family": "ofiara",
+    "birthDate": "1837-07-02",
+    "birthTime": "5:00",
+    "parentIds": [133, 134],
+    "spouseIds": [],
+    "childIds": [],
+    "biography": {
+      "pl": "Syn Szczepana i Małgorzaty z d. Kowalczyk.",
+      "en": "Son of Szczepan and Małgorzata née Kowalczyk."
+    },
+    "events": [
+      {
+        "type": "birth",
+        "date": "1837",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 241
+        }
+      }
+    ]
+  },
+  {
+    "id": 161,
+    "firstName": "Konstanty",
+    "lastName": "Ofiera vel Ofiara",
+    "family": "ofiara",
+    "birthDateNote": "ok. 1775",
+    "deathDate": "1812-08-22",
+    "spouseIds": [162],
+    "childIds": [163, 164, 165, 166, 167, 133, 157],
+    "parentIds": [],
+    "occupation": {
+      "pl": "Włościanin",
+      "en": "Peasant"
+    },
+    "biography": {
+      "pl": "Protoplasta rodu Ofiara. Mąż Agnieszki Grzegorzewskiej. W dokumentach jego nazwisko pojawia się w formach 'Ofiera' i 'Ofiara'. Mieszkał i zmarł w Woli Gutowskiej w wieku 37 lat, pozostawiając żonę i siedmioro zidentyfikowanych dzieci: Wincentego (I), Mariannę, Wincentego (II), Pawła, Jacka, Szczepana i Stefana.",
+      "en": "Progenitor of the Ofiara family. Husband of Agnieszka Grzegorzewska. His surname appears in documents as 'Ofiera' and 'Ofiara'. He lived and died in Wola Gutowska at the age of 37, leaving a wife and seven identified children: Wincenty (I), Marianna, Wincenty (II), Paweł, Jacek, Szczepan, and Stefan."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1812-08-22",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 251
+        }
+      }
+    ]
+  },
+  {
+    "id": 162,
+    "firstName": "Agnieszka",
+    "lastName": "Ofiara",
+    "maidenName": "Grzegorzewska",
+    "family": "ofiara",
+    "birthDateNote": "ok. 1780",
+    "spouseIds": [161],
+    "childIds": [163, 164, 165, 166, 167, 133, 157],
+    "parentIds": [],
+    "biography": {
+      "pl": "Matka Wincentego (I), Marianny, Wincentego (II), Pawła, Jacka, Szczepana i Stefana. Żona Konstantego Ofiary. Mieszkała w Woli Gutowskiej.",
+      "en": "Mother of Wincenty (I), Marianna, Wincenty (II), Paweł, Jacek, Szczepan, and Stefan. Wife of Konstanty Ofiara. Lived in Wola Gutowska."
+    }
+  },
+  {
+    "id": 163,
+    "firstName": "Wincenty (I)",
+    "lastName": "Ofiera vel Ofiara",
+    "family": "ofiara",
+    "birthDate": "1798-01-02",
+    "deathDateNote": "ok. 1798-1802",
+    "parentIds": [161, 162],
+    "spouseIds": [],
+    "childIds": [],
+    "biography": {
+      "pl": "Syn Konstantego i Agnieszki z d. Grzegorzewskiej. Zmarł we wczesnym dzieciństwie, o czym świadczy fakt narodzin jego młodszego brata o tym samym imieniu w 1802 roku.",
+      "en": "Son of Konstanty and Agnieszka née Grzegorzewska. He died in early childhood, as evidenced by the birth of his younger brother of the same name in 1802."
+    },
+    "events": [
+      {
+        "type": "birth",
+        "date": "1798-01-02",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 243
+        }
+      }
+    ]
+  },
+  {
+    "id": 164,
+    "firstName": "Marianna",
+    "lastName": "Ofiera vel Ofiara",
+    "family": "ofiara",
+    "birthDate": "1800-04-14",
+    "parentIds": [161, 162],
+    "spouseIds": [],
+    "childIds": [],
+    "biography": {
+      "pl": "Córka Konstantego i Agnieszki z d. Grzegorzewskiej, urodzona w Woli Gutowskiej. Jej nazwisko w akcie urodzenia zapisano jako 'Ofiera'. Była siostrą Wincentego, Szczepana i Stefana.",
+      "en": "Daughter of Konstanty and Agnieszka née Grzegorzewska, born in Wola Gutowska. Her surname was recorded as 'Ofiera' in her birth certificate. She was the sister of Wincenty, Szczepan, and Stefan."
+    },
+    "events": [
+      {
+        "type": "birth",
+        "date": "1800-04-14",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 244
+        }
+      }
+    ]
+  },
+  {
+    "id": 165,
+    "firstName": "Wincenty (II)",
+    "lastName": "Ofiara",
+    "family": "ofiara",
+    "birthDate": "1802-05-01",
+    "parentIds": [161, 162],
+    "spouseIds": [],
+    "childIds": [],
+    "biography": {
+      "pl": "Syn Konstantego i Agnieszki z d. Grzegorzewskiej. Urodzony jako drugi syn o tym imieniu, co oznacza, że jego starszy brat Wincenty (ur. 1798) zmarł we wczesnym dzieciństwie. W akcie matka zapisana jest jako Agnieszka Grzeszonka.",
+      "en": "Son of Konstanty and Agnieszka née Grzegorzewska. Born as the second son with this name, which means his older brother Wincenty (b. 1798) died in early childhood. In the record, his mother is listed as Agnieszka Grzeszonka."
+    },
+    "events": [
+      {
+        "type": "birth",
+        "date": "1802-05-01",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 245
+        }
+      }
+    ]
+  },
+  {
+    "id": 166,
+    "firstName": "Paweł",
+    "lastName": "Ofiara",
+    "family": "ofiara",
+    "birthDate": "1803-06-27",
+    "parentIds": [161, 162],
+    "spouseIds": [],
+    "childIds": [],
+    "biography": {
+      "pl": "Syn Konstantego i Agnieszki z d. Grzegorzewskiej, urodzony w Woli Gutowskiej. Brat Wincentego (I), Marianny, Wincentego (II), Szczepana i Stefana.",
+      "en": "Son of Konstanty and Agnieszka née Grzegorzewska, born in Wola Gutowska. Brother of Wincenty (I), Marianna, Wincenty (II), Szczepan, and Stefan."
+    },
+    "events": [
+      {
+        "type": "birth",
+        "date": "1803-06-27",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 246
+        }
+      }
+    ]
+  },
+  {
+    "id": 167,
+    "firstName": "Jacek",
+    "lastName": "Ofiara",
+    "family": "ofiara",
+    "birthDate": "1804-09-12",
+    "parentIds": [161, 162],
+    "spouseIds": [],
+    "childIds": [],
+    "biography": {
+      "pl": "Syn Konstantego i Agnieszki z d. Grzegorzewskiej, urodzony w Woli Gutowskiej. W akcie urodzenia zapisany pod łacińską formą imienia - Hyacinthus. Był bratem Wincentego (I i II), Marianny, Pawła, Szczepana i Stefana.",
+      "en": "Son of Konstanty and Agnieszka née Grzegorzewska, born in Wola Gutowska. In his birth certificate, he was recorded under the Latin form of his name - Hyacinthus. He was the brother of Wincenty (I & II), Marianna, Paweł, Szczepan, and Stefan."
+    },
+    "events": [
+      {
+        "type": "birth",
+        "date": "1804-09-12",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 247
+        }
+      }
+    ]
+  },
+  {
+    "id": 168,
+    "firstName": "Karol",
+    "lastName": "Kowalczyk",
+    "family": "ofiara",
+    "birthDateNote": "ok. 1780",
+    "spouseIds": [169],
+    "childIds": [134],
+    "parentIds": [],
+    "biography": {
+      "pl": "Ojciec Małgorzaty Kowalczyk, teść Szczepana Ofiary. Mąż Julianny z d. Bogusz. Mieszkał w Woli Gutowskiej.",
+      "en": "Father of Małgorzata Kowalczyk, father-in-law of Szczepan Ofiara. Husband of Julianna née Bogusz. Lived in Wola Gutowska."
+    }
+  },
+  {
+    "id": 169,
+    "firstName": "Julianna",
+    "lastName": "Kowalczyk",
+    "maidenName": "Bogusz",
+    "family": "ofiara",
+    "birthDateNote": "ok. 1785",
+    "spouseIds": [168],
+    "childIds": [134],
+    "parentIds": [],
+    "biography": {
+      "pl": "Matka Małgorzaty Kowalczyk, teściowa Szczepana Ofiary. Żona Karola Kowalczyka. Mieszkała w Woli Gutowskiej.",
+      "en": "Mother of Małgorzata Kowalczyk, mother-in-law of Szczepan Ofiara. Wife of Karol Kowalczyk. Lived in Wola Gutowska."
+    }
+  },
+  {
+    "id": 170,
+    "firstName": "Antoni",
+    "lastName": "Hernik",
+    "family": "ofiara",
+    "spouseIds": [171],
+    "childIds": [158],
+    "parentIds": [],
+    "biography": {
+      "pl": "Ojciec Heleny Hernik, teść Stefana Ofiary. Mąż Barbary.",
+      "en": "Father of Helena Hernik, father-in-law of Stefan Ofiara. Husband of Barbara."
+    }
+  },
+  {
+    "id": 171,
+    "firstName": "Barbara",
+    "lastName": "Hernik",
+    "maidenName": "?",
+    "family": "ofiara",
+    "spouseIds": [170],
+    "childIds": [158],
+    "parentIds": [],
+    "biography": {
+      "pl": "Matka Heleny Hernik, teściowa Stefana Ofiary. Żona Antoniego Hernika.",
+      "en": "Mother of Helena Hernik, mother-in-law of Stefan Ofiara. Wife of Antoni Hernik."
+    }
+  },
+  {
+    "id": 172,
+    "firstName": "Marianna",
+    "lastName": "Ofiara",
+    "maidenName": "Jemiołek (primo voto Strączek)",
+    "family": "ofiara",
+    "birthDateNote": "ok. 1809",
+    "spouseIds": [157],
+    "childIds": [],
+    "parentIds": [173, 174],
+    "marriages": [
+      {
+        "spouseId": 157,
+        "date": "1852-02-02",
+        "source": {
+          "documentId": 250
+        }
+      }
+    ],
+    "biography": {
+      "pl": "Druga żona Stefana Ofiary. Córka Kazimierza i Heleny Jemiołków. Wyszła za mąż za Stefana jako wdowa po Franciszku Strączku (lub Jemiołku).",
+      "en": "Second wife of Stefan Ofiara. Daughter of Kazimierz and Helena Jemiołek. She married Stefan as a widow after Franciszek Strączek (or Jemiołek)."
+    }
+  },
+  {
+    "id": 173,
+    "firstName": "Kazimierz",
+    "lastName": "Jemiołek",
+    "family": "ofiara",
+    "spouseIds": [],
+    "childIds": [172],
+    "parentIds": [],
+    "biography": {
+      "pl": "Ojciec Marianny Jemiołek.",
+      "en": "Father of Marianna Jemiołek."
+    }
+  },
+  {
+    "id": 174,
+    "firstName": "Stefan",
+    "lastName": "Ofiara",
+    "family": "ofiara",
+    "birthDate": "1852",
+    "parentIds": [157, 172],
+    "spouseIds": [],
+    "childIds": [],
+    "biography": {
+      "pl": "Syn Stefana Ofiary i jego drugiej żony, Marianny z d. Jemiołek.",
+      "en": "Son of Stefan Ofiara and his second wife, Marianna née Jemiołek."
     }
   }
 ]

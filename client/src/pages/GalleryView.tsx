@@ -103,6 +103,14 @@ export default function GalleryView() {
       descriptionKey: "gallery.item.place-3.desc",
     },
     {
+      id: "place-5",
+      src: "/images/droga-do-babci.avif",
+      alt: "Droga do domu babci Heleny",
+      category: "places",
+      titleKey: "gallery.item.place-5.title",
+      descriptionKey: "gallery.item.place-5.desc",
+    },
+    {
       id: "doc-1",
       src: "/images/grobjan.avif",
       alt: "Grób Jana Gierczaka",

@@ -54,8 +54,8 @@
     "title_pl": "Pamiątka I Komunii Świętej Romana Ofiary",
     "title_en": "First Holy Communion of Roman Ofiara",
     "type": "photo",
-    "description_pl": "Zdjęcie Romana Ofiary z babcią Heleną Sobień (później Ofiara).",
-    "description_en": "Photo of Roman Ofiara with his grandmother Helena Sobień (later Ofiara).",
+    "description_pl": "Zdjęcie Romana Ofiary z moją babcią Heleną Sobień (później Ofiara).",
+    "description_en": "Photo of Roman Ofiara with my grandmother Helena Sobień (later Ofiara).",
     "imageUrl": "/images/komunia-roman.avif"
   },
   {
@@ -2234,6 +2234,444 @@
         "label_en": "Godparents",
         "value_pl": "Antoni Ofiara i Marianna Gierczak",
         "value_en": "Antoni Ofiara and Marianna Gierczak"
+      }
+    ]
+  },
+  {
+    "id": 240,
+    "title_pl": "Akt Urodzenia: Wincenty Ofiara (1826)",
+    "title_en": "Birth Record: Wincenty Ofiara (1826)",
+    "type": "birth_record",
+    "description_pl": "Parafia Jedlińsk, akt nr 43, 1826 r. Dokument potwierdza, że ojcem był Szczepan Ofiara.",
+    "description_en": "Jedlińsk Parish, record no. 43, 1826. The document confirms the father was Szczepan Ofiara.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się w Mieście Jedlińsku Roku tysiąc Osiemset Dwudziestego szóstego dnia dwudziestego pierwszego miesiąca Kwietnia o godzinie dwunastej w południe. Stawił się Szczepan Ofiara Włościanin na Parobka służący lat dwadzieścia cztery liczący w Obecności Jakuba Kłosa włościanina z Woli Gutowskiey zamieszkałego lat dwadzieścia dziewięć i Dominika Sumińskiego włościanina z Woli Gutowskiey lat czterdzieści liczących sobie wieku swego maiących, i okazał nam dziecię płci męskiej urodzone w Woli Gutowskiey w domu pod numerem siedemnastym dnia dwudziestego miesiąca Kwietnia roku bieżącego o godzinie dwunastej w nocy z Jego Małżonki Małgorzaty z Kowalczyków lat dwadzieścia trzy maiącey. Dziecięciu temu na Chrzcie Świętym w dniu dzisieyszym odbytym nadane zostało Imię Wincenty a Rodzicami jego Chrzestnymi byli wyżej wspomniany Jakób Kłoss i Brygida Brodniczówna. Akt ten gdy ani Stawający ani świadkowie pisać nie umieją po przeczytaniu onego, podpisaliśmy. X. Walenty Rudawski Dziekan i Proboszcz Jedliński",
+    "translation_pl": "Działo się w mieście Jedlińsk, dnia 21 kwietnia 1826 roku, o godzinie dwunastej w południe. Stawił się Szczepan Ofiara, włościanin służący jako parobek, lat 24, w obecności Jakuba Kłosa, włościanina zamieszkałego w Woli Gutowskiej, lat 29, i Dominika Sumińskiego, włościanina z Woli Gutowskiej, lat 40. Okazał nam dziecko płci męskiej, urodzone w Woli Gutowskiej w domu pod numerem 17, dnia 20 kwietnia bieżącego roku o godzinie dwunastej w nocy, z jego małżonki Małgorzaty z Kowalczyków, lat 23. Dziecku temu na Chrzcie Świętym, który odbył się w dniu dzisiejszym, nadano imię Wincenty, a jego rodzicami chrzestnymi byli wyżej wspomniany Jakub Kłos i Brygida Brodniczówna. Akt ten, po przeczytaniu, podpisaliśmy, gdyż ani stawiający, ani świadkowie pisać nie umieją. Ks. Walenty Rudawski, Dziekan i Proboszcz Jedliński.",
+    "translation_en": "It happened in the Town of Jedlińsk on the 21st of April, 1826, at twelve o'clock at noon. Appeared Szczepan Ofiara, a peasant serving as a farmhand, aged 24, in the presence of Jakub Kłos, a peasant residing in Wola Gutowska, aged 29, and Dominik Sumiński, a peasant from Wola Gutowska, aged 40. He presented to us a male child, born in Wola Gutowska in the house at number 17, on the 20th of April of the current year at twelve o'clock at night, to his wife Małgorzata née Kowalczyk, aged 23. At the Holy Baptism held this day, this child was given the name Wincenty, and his Godparents were the aforementioned Jakub Kłos and Brygida Brodniczówna. This act, after being read, we signed, as neither the declarant nor the witnesses can write. Fr. Walenty Rudawski, Dean and Pastor of Jedlińsk.",
+    "extracted_data": [
+      {
+        "label_pl": "Data i godzina urodzenia",
+        "label_en": "Date and Time of Birth",
+        "value_pl": "20 kwietnia 1826, 24:00 (12 w nocy)",
+        "value_en": "April 20, 1826, 12:00 AM"
+      },
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Szczepan Ofiara, 24 lata",
+        "value_en": "Szczepan Ofiara, 24 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Małgorzata z Kowalczyków, 23 lata",
+        "value_en": "Małgorzata née Kowalczyk, 23 years old"
+      },
+      {
+        "label_pl": "Rodzice chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Jakub Kłos i Brygida Brodniczówna",
+        "value_en": "Jakub Kłos and Brygida Brodniczówna"
+      }
+    ]
+  },
+  {
+    "id": 241,
+    "title_pl": "Akt Urodzenia: Józef Ofiara (1837)",
+    "title_en": "Birth Record: Józef Ofiara (1837)",
+    "type": "birth_record",
+    "description_pl": "Parafia Jedlińsk, akt nr 44, 1837 r. Kluczowy dokument potwierdzający, że ojcem dzieci Małgorzaty Kowalczyk był Szczepan Ofiara, który w innych aktach bywał zapisywany jako Stefan.",
+    "description_en": "Jedlińsk Parish, record no. 44, 1837. A key document confirming that the father of Małgorzata Kowalczyk's children was Szczepan Ofiara, who was recorded as Stefan in other records.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się w mieście Jedlińsku dnia siódmego Czerwca tysiąc osiemset trzydziestego siódmego roku o godzinie piątej po południu. Stawił się Szczepan Ofiara, Włościanin Gospodarz z Woli Gutowskiey lat trzydzieści pięć maiący, w obecności Jakóba Dobrowolskiego lat czterdziestu i Walentego Kaimy lat czterdziestu maiących, obydwóch Włościan z Woli Gutowskiey zamieszkałych i okazał nam dziecię płci męskiej urodzone w Woli Gutowskiey pod numerem piątym dnia drugiego miesiąca Czerwca roku bieżącego o godzinie piątej rano z jego Małżonki Małgorzaty z Kowalczyków lat trzydzieści cztery maiącey. Dziecięciu temu na Chrzcie Świętym w dniu dzisieyszym odbytym nadane zostało imie Józef a Rodzicami jego Chrzestnymi byli: wyżey wspomniany Jakób Dobrowolski i Agnieszka Gielowska. Akt ten Stawającemu i świadkom pisać nie umiejącym przeczytany podpisaliśmy. X. Walenty Rudawski Dziekan i Proboszcz Jedliński.",
+    "translation_pl": "Działo się w mieście Jedlińsk, dnia 7 czerwca 1837 roku o godzinie piątej po południu. Stawił się Szczepan Ofiara, włościanin-gospodarz z Woli Gutowskiej, lat 35, w obecności Jakuba Dobrowolskiego, lat 40, i Walentego Kaimy, lat 40, obu włościan zamieszkałych w Woli Gutowskiej, i okazał nam dziecko płci męskiej, urodzone w Woli Gutowskiej pod numerem 5, dnia 2 czerwca bieżącego roku o godzinie piątej rano, z jego małżonki Małgorzaty z Kowalczyków, lat 34. Dziecku temu na Chrzcie Świętym, który odbył się w dniu dzisiejszym, nadano imię Józef, a jego rodzicami chrzestnymi byli wyżej wspomniany Jakub Dobrowolski i Agnieszka Gielowska. Akt ten, po przeczytaniu stawiającemu i świadkom, którzy pisać nie umieją, podpisaliśmy. Ks. Walenty Rudawski, Dziekan i Proboszcz Jedliński.",
+    "translation_en": "It happened in the Town of Jedlińsk, on the seventh of June, one thousand eight hundred and thirty-seven, at five o'clock in the afternoon. Appeared Szczepan Ofiara, a peasant-farmer from Wola Gutowska, aged 35, in the presence of Jakub Dobrowolski, aged 40, and Walenty Kaima, aged 40, both peasants residing in Wola Gutowska, and presented to us a male child, born in Wola Gutowska at number 5, on the second of June of the current year at five o'clock in the morning, to his wife Małgorzata née Kowalczyk, aged 34. At the Holy Baptism performed this day, this child was given the name Józef, and his Godparents were: the aforementioned Jakub Dobrowolski and Agnieszka Gielowska. This act, having been read to the declarant and witnesses, who are illiterate, was signed by us. Fr. Walenty Rudawski, Dean and Pastor of Jedlińsk.",
+    "extracted_data": [
+      {
+        "label_pl": "Data i godzina urodzenia",
+        "label_en": "Date and Time of Birth",
+        "value_pl": "2 czerwca 1837 r., 5:00 rano",
+        "value_en": "June 2, 1837, 5:00 AM"
+      },
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Szczepan Ofiara, 35 lat",
+        "value_en": "Szczepan Ofiara, 35 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Małgorzata z Kowalczyków, 34 lata",
+        "value_en": "Małgorzata née Kowalczyk, 34 years old"
+      },
+      {
+        "label_pl": "Rodzice chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Jakub Dobrowolski i Agnieszka Gielowska",
+        "value_en": "Jakub Dobrowolski and Agnieszka Gielowska"
+      }
+    ]
+  },
+  {
+    "id": 242,
+    "title_pl": "Akt Urodzenia: Szczepan Ofiara (1805)",
+    "title_en": "Birth Record: Szczepan Ofiara (1805)",
+    "type": "birth_record",
+    "description_pl": "Parafia Jedlińsk (zapis dla Woli Gutowskiej), akt nr 12, 1805 r. Kluczowy dokument potwierdzający, że rodzicami Szczepana (w akcie jako Stephanum) i jego brata Stefana byli Konstanty Ofiara i Agnieszka Grzegorzewska.",
+    "description_en": "Jedlińsk Parish (entry for Wola Gutowska), record no. 12, 1805. A key document confirming that the parents of Szczepan (recorded as Stephanum) and his brother Stefan were Konstanty Ofiara and Agnieszka Grzegorzewska.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Wolka Gutowska, Annus Dni 1805. Dies & Mensis: d. 30 9bris. Numerus Domus: 12. Nomen: Stephanum. Religio: Catholica. Sexus: Mas. Thorus: legitimus. Pater: Constantinus Ofiara. Mater: Agnes Grzegorzewska. Patrini: Josephus Kowalczyk et Marianna Ciborowna de oppido Jedlińsk. Status: Villani.",
+    "translation_pl": "Wólka Gutowska, Rok Pański 1805. Dzień i miesiąc: 30 listopada. Numer domu: 12. Imię: Szczepan. Religia: Katolicka. Płeć: Mężczyzna. Z prawego łoża. Ojciec: Konstanty Ofiara. Matka: Agnieszka Grzegorzewska. Chrzestni: Józef Kowalczyk i Marianna Ciborówna z miasta Jedlińska. Stan: Chłopi (mieszkańcy wsi).",
+    "translation_en": "Wólka Gutowska, The Year of the Lord 1805. Day & Month: November 30. House Number: 12. Name: Stephan. Religion: Catholic. Sex: Male. Legitimate. Father: Konstanty Ofiara. Mother: Agnes Grzegorzewska. Godparents: Josephus Kowalczyk and Marianna Ciborowna from the town of Jedlińsk. Status: Peasants (villagers).",
+    "extracted_data": [
+      {
+        "label_pl": "Data urodzenia",
+        "label_en": "Date of Birth",
+        "value_pl": "30 listopada 1805",
+        "value_en": "November 30, 1805"
+      },
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Konstanty Ofiara",
+        "value_en": "Konstanty Ofiara"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Agnieszka Grzegorzewska",
+        "value_en": "Agnieszka Grzegorzewska"
+      },
+      {
+        "label_pl": "Rodzice chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Józef Kowalczyk i Marianna Ciborówna",
+        "value_en": "Józef Kowalczyk and Marianna Ciborówna"
+      }
+    ]
+  },
+  {
+    "id": 243,
+    "title_pl": "Akt Urodzenia: Wincenty Ofiera (1798)",
+    "title_en": "Birth Record: Wincenty Ofiera (1798)",
+    "type": "birth_record",
+    "description_pl": "Parafia Jedlińsk (zapis dla Woli Gutowskiej), akt nr 12, 1798 r. Dokument potwierdza narodziny Wincentego, syna Konstantego i Agnieszki z Grzegorzewskich. Nazwisko ojca zapisano w formie 'Ofiera'.",
+    "description_en": "Jedlińsk Parish (entry for Wola Gutowska), record no. 12, 1798. The document confirms the birth of Wincenty, son of Konstanty and Agnieszka née Grzegorzewska. The father's surname is recorded as 'Ofiera'.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Wolka Gutowska, Annus Dni 1798. Dies & Mensis: ig 2.ot Januarii. Numerus Domus: 12. Nomen: Vincentius. Religio: Catholica. Sexus: Mas. Thorus: legitimus. Pater: Constantinus Ofiera. Mater: Agnes de Grzegorzewskie. Patrini: Valentinus Fratkiewicz et Marianna Karafinska. Status: Oppidanus cum Villana.",
+    "translation_pl": "Wólka Gutowska, Rok Pański 1798. Dzień i miesiąc: 2 stycznia. Numer domu: 12. Imię: Wincenty. Religia: Katolicka. Płeć: Mężczyzna. Z prawego łoża. Ojciec: Konstanty Ofiera. Matka: Agnieszka z Grzegorzewskich. Chrzestni: Walenty Fratkiewicz i Marianna Karafińska. Stan: Mieszczanin z Chłopką (mieszkańcy miasta i wsi).",
+    "translation_en": "Wólka Gutowska, The Year of the Lord 1798. Day & Month: January 2. House Number: 12. Name: Vincent. Religion: Catholic. Sex: Male. Legitimate. Father: Konstanty Ofiera. Mother: Agnieszka née Grzegorzewska. Godparents: Valentinus Fratkiewicz and Marianna Karafinska. Status: Townsman with Villager.",
+    "extracted_data": [
+      {
+        "label_pl": "Data urodzenia",
+        "label_en": "Date of Birth",
+        "value_pl": "2 stycznia 1798",
+        "value_en": "January 2, 1798"
+      },
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Konstanty Ofiera",
+        "value_en": "Konstanty Ofiera"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Agnieszka z Grzegorzewskich",
+        "value_en": "Agnieszka née Grzegorzewska"
+      },
+      {
+        "label_pl": "Rodzice chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Walenty Fratkiewicz i Marianna Karafińska",
+        "value_en": "Walenty Fratkiewicz and Marianna Karafińska"
+      }
+    ]
+  },
+  {
+    "id": 244,
+    "title_pl": "Akt Urodzenia: Marianna Ofiera (1800)",
+    "title_en": "Birth Record: Marianna Ofiera (1800)",
+    "type": "birth_record",
+    "description_pl": "Parafia Jedlińsk (zapis dla Woli Gutowskiej), akt nr 12, 1800 r. Dokument potwierdza narodziny Marianny, córki Konstantego i Agnieszki z Grzegorzewskich.",
+    "description_en": "Jedlińsk Parish (entry for Wola Gutowska), record no. 12, 1800. The document confirms the birth of Marianna, daughter of Konstanty and Agnieszka née Grzegorzewska.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Wolka Gutowska, Annus Dni 1800. Dies & Mensis: 14 April. Numerus Domus: 12. Nomen: Marianna. Religio: Catholica. Sexus: Foemina. Thorus: legitimus. Pater: Constantinus Ofiera. Mater: Agnes de Grzegorzewskie. Patrini: Jacobus Grzegorzewski et Salomea Zantakowa. Status: Villani.",
+    "translation_pl": "Wólka Gutowska, Rok Pański 1800. Dzień i miesiąc: 14 kwietnia. Numer domu: 12. Imię: Marianna. Religia: Katolicka. Płeć: Kobieta. Z prawego łoża. Ojciec: Konstanty Ofiera. Matka: Agnieszka z Grzegorzewskich. Chrzestni: Jakub Grzegorzewski i Salomea Zantakowa. Stan: Chłopi (mieszkańcy wsi).",
+    "translation_en": "Wólka Gutowska, The Year of the Lord 1800. Day & Month: April 14. House Number: 12. Name: Marianna. Religion: Catholic. Sex: Female. Legitimate. Father: Konstanty Ofiera. Mother: Agnieszka née Grzegorzewska. Godparents: Jacobus Grzegorzewski and Salomea Zantakowa. Status: Peasants (villagers).",
+    "extracted_data": [
+      {
+        "label_pl": "Data urodzenia",
+        "label_en": "Date of Birth",
+        "value_pl": "14 kwietnia 1800",
+        "value_en": "April 14, 1800"
+      },
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Konstanty Ofiera",
+        "value_en": "Konstanty Ofiera"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Agnieszka z Grzegorzewskich",
+        "value_en": "Agnieszka née Grzegorzewska"
+      },
+      {
+        "label_pl": "Rodzice chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Jakub Grzegorzewski i Salomea Zantakowa",
+        "value_en": "Jakub Grzegorzewski and Salomea Zantakowa"
+      }
+    ]
+  },
+  {
+    "id": 245,
+    "title_pl": "Akt Urodzenia: Wincenty Ofiara (II) (1802)",
+    "title_en": "Birth Record: Wincenty Ofiara (II) (1802)",
+    "type": "birth_record",
+    "description_pl": "Parafia Jedlińsk (zapis dla Woli Gutowskiej), 1802 r. Dokument potwierdza narodziny drugiego syna o imieniu Wincenty, co sugeruje, że pierwszy syn o tym imieniu (ur. 1798) zmarł w dzieciństwie.",
+    "description_en": "Jedlińsk Parish (entry for Wola Gutowska), 1802. The document confirms the birth of a second son named Wincenty, suggesting that the first son of this name (b. 1798) died in infancy.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Wolka Gutowska, Annus Dni 1802. Dies & Mensis: 1 Maij. Numerus Domus: 12. Nomen: Vincentius. Religio: Catholica. Sexus: Mas. Thorus: legitimus. Pater: Constantinus Ofiara. Mater: Agnes Grzeszonka. Patrini: Carolus Kowalczyk et Theresa Kobyloarczyk. Status: Villani.",
+    "translation_pl": "Wólka Gutowska, Rok Pański 1802. Dzień i miesiąc: 1 Maja. Numer domu: 12. Imię: Wincenty. Religia: Katolicka. Płeć: Mężczyzna. Z prawego łoża. Ojciec: Konstanty Ofiara. Matka: Agnieszka Grzeszonka (forma pochodna od Grzegorzewska). Chrzestni: Karol Kowalczyk i Teresa Kobyloarczyk. Stan: Chłopi (mieszkańcy wsi).",
+    "translation_en": "Wólka Gutowska, The Year of the Lord 1802. Day & Month: May 1. House Number: 12. Name: Vincent. Religion: Catholic. Sex: Male. Legitimate. Father: Konstanty Ofiara. Mother: Agnieszka Grzeszonka (a form derived from Grzegorzewska). Godparents: Carolus Kowalczyk and Theresa Kobyloarczyk. Status: Peasants (villagers).",
+    "extracted_data": [
+      {
+        "label_pl": "Data urodzenia",
+        "label_en": "Date of Birth",
+        "value_pl": "1 maja 1802",
+        "value_en": "May 1, 1802"
+      },
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Konstanty Ofiara",
+        "value_en": "Konstanty Ofiara"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Agnieszka Grzeszonka",
+        "value_en": "Agnieszka Grzeszonka"
+      },
+      {
+        "label_pl": "Rodzice chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Karol Kowalczyk i Teresa Kobyloarczyk",
+        "value_en": "Karol Kowalczyk and Teresa Kobyloarczyk"
+      }
+    ]
+  },
+  {
+    "id": 246,
+    "title_pl": "Akt Urodzenia: Paweł Ofiara (1803)",
+    "title_en": "Birth Record: Paweł Ofiara (1803)",
+    "type": "birth_record",
+    "description_pl": "Parafia Jedlińsk (zapis dla Woli Gutowskiej), 1803 r. Dokument potwierdza narodziny Pawła, syna Konstantego i Agnieszki z Grzegorzewskich.",
+    "description_en": "Jedlińsk Parish (entry for Wola Gutowska), 1803. The document confirms the birth of Paweł, son of Konstanty and Agnieszka née Grzegorzewska.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Wolka Gutowska, Annus Dni 1803. Die 27 Junii. Numerus Domus: 12. Nomen: Paulus. Religio: Catholica. Sexus: Mas. Thorus: legitimus. Pater: Constantinus Ofiara. Mater: Agnes Grzegorzowna. Patrini: Balthazarus Rus et Cecilia Okrajowna. Status: Villani.",
+    "translation_pl": "Wólka Gutowska, Rok Pański 1803. Dzień: 27 czerwca. Numer domu: 12. Imię: Paweł. Religia: Katolicka. Płeć: Mężczyzna. Z prawego łoża. Ojciec: Konstanty Ofiara. Matka: Agnieszka Grzegorzówna. Chrzestni: Baltazar Rus i Cecylia Okrajówna. Stan: Chłopi (mieszkańcy wsi).",
+    "translation_en": "Wólka Gutowska, The Year of the Lord 1803. Day: June 27. House Number: 12. Name: Paul. Religion: Catholic. Sex: Male. Legitimate. Father: Konstanty Ofiara. Mother: Agnieszka Grzegorzówna. Godparents: Balthazarus Rus and Cecilia Okrajowna. Status: Peasants (villagers).",
+    "extracted_data": [
+      {
+        "label_pl": "Data urodzenia",
+        "label_en": "Date of Birth",
+        "value_pl": "27 czerwca 1803",
+        "value_en": "June 27, 1803"
+      },
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Konstanty Ofiara",
+        "value_en": "Konstanty Ofiara"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Agnieszka Grzegorzówna",
+        "value_en": "Agnieszka Grzegorzówna"
+      },
+      {
+        "label_pl": "Rodzice chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Baltazar Rus i Cecylia Okrajówna",
+        "value_en": "Balthazarus Rus and Cecilia Okrajowna"
+      }
+    ]
+  },
+  {
+    "id": 247,
+    "title_pl": "Akt Urodzenia: Jacek Ofiara (1804)",
+    "title_en": "Birth Record: Jacek Ofiara (1804)",
+    "type": "birth_record",
+    "description_pl": "Parafia Jedlińsk (zapis dla Woli Gutowskiej), 1804 r. Dokument potwierdza narodziny Jacka (w akcie jako Hyacinthus), syna Konstantego i Agnieszki z Grzegorzewskich.",
+    "description_en": "Jedlińsk Parish (entry for Wola Gutowska), 1804. The document confirms the birth of Jacek (recorded as Hyacinthus), son of Konstanty and Agnieszka née Grzegorzewska.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Wolka Gutowska, Annus Dni 1804. Die 12 7bris. Numerus Domus: 12. Nomen: Hyacinthus. Religio: Catholica. Sexus: Mas. Thorus: legitimus. Pater: Constantinus Ofiara. Mater: Agnes Grzegorzowna. Patrini: Valentinus Tronowski et Marianna Fratkiewiczowna. Status: Villani.",
+    "translation_pl": "Wólka Gutowska, Rok Pański 1804. Dzień: 12 września. Numer domu: 12. Imię: Jacek. Religia: Katolicka. Płeć: Mężczyzna. Z prawego łoża. Ojciec: Konstanty Ofiara. Matka: Agnieszka Grzegorzówna. Chrzestni: Walenty Tronowski i Marianna Fratkiewiczówna. Stan: Chłopi (mieszkańcy wsi).",
+    "translation_en": "Wólka Gutowska, The Year of the Lord 1804. Day: September 12. House Number: 12. Name: Hyacinth (Jacek). Religion: Catholic. Sex: Male. Legitimate. Father: Konstanty Ofiara. Mother: Agnieszka Grzegorzówna. Godparents: Valentinus Tronowski and Marianna Fratkiewiczówna. Status: Peasants (villagers).",
+    "extracted_data": [
+      {
+        "label_pl": "Data urodzenia",
+        "label_en": "Date of Birth",
+        "value_pl": "12 września 1804",
+        "value_en": "September 12, 1804"
+      },
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Konstanty Ofiara",
+        "value_en": "Konstanty Ofiara"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Agnieszka Grzegorzówna",
+        "value_en": "Agnieszka Grzegorzówna"
+      },
+      {
+        "label_pl": "Rodzice chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Walenty Tronowski i Marianna Fratkiewiczówna",
+        "value_en": "Valentinus Tronowski and Marianna Fratkiewiczówna"
+      }
+    ]
+  },
+  {
+    "id": 248,
+    "title_pl": "Akt Ślubu: Szczepan Ofiara i Małgorzata Kowalczyk (1824)",
+    "title_en": "Marriage Record: Szczepan Ofiara & Małgorzata Kowalczyk (1824)",
+    "type": "marriage_record",
+    "description_pl": "Parafia Jedlińsk, akt nr 13, 1824 r. Kluczowy dokument potwierdzający, że protoplasta rodu, Szczepan (syn Konstantego i Agnieszki), poślubił Małgorzatę, córkę Karola i Julianny Kowalczyków.",
+    "description_en": "Jedlińsk Parish, record no. 13, 1824. A key document confirming that the progenitor of the family, Szczepan (son of Konstanty and Agnieszka), married Małgorzata, daughter of Karol and Julianna Kowalczyk.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się w Mieście Jedlińsku Roku Tysiąc Osiemset Dwudziestego Czwartego, Dnia dziewiętnastego Miesiąca Lutego o godzinie pierwszej po południu. Przed Nami Proboszczem Jedlińskim sprawującym Obowiązki Urzędnika Stanu Cywilnego Gminy Jedlińskiey w Obwodzie Radomskim Województwie Sandomierskim. Stawił się Szczepan Ofiara Młodzian liczący lat dwadzieścia ieden, w Woli Gutowskiey zamieszkały, syn Konstantego i Agnieszki z Grzegorzewskich małżonków Ofiarów w teyże Wsi zamieszkałych, i Małgorzata Kowalczykówna Panna licząca lat dziewiętnaście, przy Rodzicach w Woli Gutowskiey zostająca, córka Karola i Julianny z Boguszów małżonków Kowalczyków w teyże Wsi zamieszkałych. (...) Nowożeńcy oświadczyli iż umowa przedślubna między niemi nie była zawarta. Akt ten po przeczytaniu Stawającym i Świadkom, gdy pisać nie umieją, podpisaliśmy. X. Walenty Rudawski Dziekan i Proboszcz Jedliński",
+    "translation_pl": "Działo się w mieście Jedlińsk, roku tysiąc osiemset dwudziestego czwartego, dnia 19 lutego o godzinie pierwszej po południu. Przed nami, proboszczem jedlińskim, sprawującym obowiązki urzędnika stanu cywilnego gminy Jedlińskiej w obwodzie radomskim województwa sandomierskiego. Stawił się Szczepan Ofiara, młodzian, liczący 21 lat, zamieszkały w Woli Gutowskiej, syn Konstantego i Agnieszki z Grzegorzewskich, małżonków Ofiarów, w tejże wsi zamieszkałych, i Małgorzata Kowalczykówna, panna, licząca 19 lat, pozostająca przy rodzicach w Woli Gutowskiej, córka Karola i Julianny z Boguszów, małżonków Kowalczyków, w tejże wsi zamieszkałych. (...) Nowożeńcy oświadczyli, że umowa przedślubna między nimi nie została zawarta. Akt ten, po przeczytaniu stawiającym i świadkom, którzy pisać nie umieją, podpisaliśmy. Ks. Walenty Rudawski, Dziekan i Proboszcz Jedliński.",
+    "translation_en": "It happened in the Town of Jedlińsk in the year one thousand eight hundred and twenty-four, on the nineteenth day of February at one o'clock in the afternoon. Before us, the Pastor of Jedlińsk, performing the duties of the Civil Registrar of the Jedlińsk Commune in the Radom District of the Sandomierz Voivodeship. Appeared Szczepan Ofiara, a youth aged twenty-one, residing in Wola Gutowska, son of Konstanty and Agnieszka née Grzegorzewska, the Ofiara spouses residing in the same village, and Małgorzata Kowalczykówna, a maiden aged nineteen, staying with her parents in Wola Gutowska, daughter of Karol and Julianna née Bogusz, the Kowalczyk spouses residing in the same village. (...) The newlyweds declared that no prenuptial agreement was made between them. This act, after being read to the appearing parties and witnesses, who are illiterate, was signed by us. Fr. Walenty Rudawski, Dean and Pastor of Jedlińsk.",
+    "extracted_data": [
+      {
+        "label_pl": "Pan Młody",
+        "label_en": "Groom",
+        "value_pl": "Szczepan Ofiara, 21 lat, kawaler",
+        "value_en": "Szczepan Ofiara, 21 years old, bachelor"
+      },
+      {
+        "label_pl": "Rodzice Pana Młodego",
+        "label_en": "Groom's Parents",
+        "value_pl": "Konstanty i Agnieszka z Grzegorzewskich",
+        "value_en": "Konstanty and Agnieszka née Grzegorzewska"
+      },
+      {
+        "label_pl": "Panna Młoda",
+        "label_en": "Bride",
+        "value_pl": "Małgorzata Kowalczykówna, 19 lat, panna",
+        "value_en": "Małgorzata Kowalczykówna, 19 years old, maiden"
+      },
+      {
+        "label_pl": "Rodzice Panny Młodej",
+        "label_en": "Bride's Parents",
+        "value_pl": "Karol i Julianna z Boguszów",
+        "value_en": "Karol and Julianna née Bogusz"
+      }
+    ]
+  },
+  {
+    "id": 249,
+    "title_pl": "Akt Ślubu: Stefan Ofiara i Helena Hernik (1844)",
+    "title_en": "Marriage Record: Stefan Ofiara & Helena Hernik (1844)",
+    "type": "marriage_record",
+    "description_pl": "Parafia Błotnica, akt nr 4, 1844 r. Dokument potwierdza małżeństwo Stefana, brata Szczepana, z Heleną Hernik.",
+    "description_en": "Błotnica Parish, record no. 4, 1844. The document confirms the marriage of Stefan, brother of Szczepan, to Helena Hernik.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się we wsi Błotnicy dnia Ośmnastego Lutego tysiąc Osiemset czterdziestego czwartego roku o godzinie piątej po południu. Wiadomo Czyniemy, iż w przytomności Świadków: Walentego Walczaka lat pięćdziesiąt i Stanisława Walczaka lat pięćdziesiąt maiących, obydwóch Włościan we wsi Ludwikowie zamieszkałych, zawarte zostało w dniu dzisieyszym religijne małżeństwo między Stefanem Ofiarą, Kawalerem, we wsi Ludwikowie zamieszkałym, urodzonym w Woli Gutowskiey Parafii Jedlińskiey, maiącym lat trzydzieści cztery, synem zmarłego Konstantego i żyjącey Agnieszki Ofiarów; i Heleną Hernikowną, Panną, przy Rodzicach w Ludwikowie zamieszkałą, tamże urodzoną, maiącą lat dwadzieścia, Córką Antoniego i Barbary Małżonków Herników. Małżeństwo to poprzedziły trzy zapowiedzi (...) Nowożeńcy oświadczyli iż umowa przedślubna między niemi nie była zawarta. Akt ten po przeczytaniu Stawającym i Świadkom, gdy pisać nie umieją, podpisaliśmy. Xiądz Jan Rondthaler Proboszcz Błotnicki.",
+    "translation_pl": "Działo się we wsi Błotnica dnia 18 lutego 1844 roku o godzinie piątej po południu. Czynimy wiadomo, że w obecności świadków: Walentego Walczaka, lat 50, i Stanisława Walczaka, lat 50, obu włościan zamieszkałych we wsi Ludwików, zawarto w dniu dzisiejszym religijne małżeństwo między Stefanem Ofiarą, kawalerem, we wsi Ludwików zamieszkałym, urodzonym w Woli Gutowskiej parafii Jedlińskiej, mającym 34 lata, synem zmarłego Konstantego i żyjącej Agnieszki Ofiarów; a Heleną Hernikówną, panną, przy rodzicach w Ludwikowie zamieszkałą, tamże urodzoną, mającą 20 lat, córką Antoniego i Barbary małżonków Herników. Małżeństwo to poprzedziły trzy zapowiedzi (...) Nowożeńcy oświadczyli, że umowa przedślubna między nimi nie została zawarta. Akt ten po przeczytaniu stawiającym i świadkom, którzy pisać nie umieją, podpisaliśmy. Ksiądz Jan Rondthaler, Proboszcz Błotnicki.",
+    "translation_en": "It happened in the village of Błotnica on the 18th of February, 1844, at five o'clock in the afternoon. We make it known that in the presence of witnesses: Walenty Walczak, aged 50, and Stanisław Walczak, aged 50, both peasants residing in the village of Ludwików, a religious marriage was contracted on this day between Stefan Ofiara, a bachelor, residing in the village of Ludwików, born in Wola Gutowska of the Jedlińsk Parish, aged 34, son of the deceased Konstanty and the living Agnieszka Ofiara; and Helena Hernikówna, a maiden, residing with her parents in Ludwików, born there, aged 20, daughter of Antoni and Barbara, the Hernik spouses. This marriage was preceded by three banns (...) The newlyweds declared that no prenuptial agreement was made between them. This act, after being read to the declarants and witnesses, who are illiterate, was signed by us. Father Jan Rondthaler, Pastor of Błotnica.",
+    "extracted_data": [
+      {
+        "label_pl": "Pan Młody",
+        "label_en": "Groom",
+        "value_pl": "Stefan Ofiara, 34 lata, kawaler",
+        "value_en": "Stefan Ofiara, 34 years old, bachelor"
+      },
+      {
+        "label_pl": "Rodzice Pana Młodego",
+        "label_en": "Groom's Parents",
+        "value_pl": "Konstanty (zm.) i Agnieszka",
+        "value_en": "Konstanty (dec.) and Agnieszka"
+      },
+      {
+        "label_pl": "Panna Młoda",
+        "label_en": "Bride",
+        "value_pl": "Helena Hernikówna, 20 lat, panna",
+        "value_en": "Helena Hernikówna, 20 years old, maiden"
+      },
+      {
+        "label_pl": "Rodzice Panny Młodej",
+        "label_en": "Bride's Parents",
+        "value_pl": "Antoni i Barbara Hernik",
+        "value_en": "Antoni and Barbara Hernik"
+      }
+    ]
+  },
+  {
+    "id": 250,
+    "title_pl": "Akt Ślubu: Stefan Ofiara i Marianna Strączek z d. Jemiołek (1852)",
+    "title_en": "Marriage Record: Stefan Ofiara & Marianna Strączek née Jemiołek (1852)",
+    "type": "marriage_record",
+    "description_pl": "Parafia Jedlińsk, akt małżeństwa nr 1, 1852 r. Drugi ślub Stefana Ofiary, tym razem z wdową Marianną z Jemiołków Strączkową.",
+    "description_en": "Jedlińsk Parish, marriage record no. 1, 1852. Second marriage of Stefan Ofiara, this time to the widow Marianna Strączek née Jemiołek.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się w mieście Jedlińsku dnia drugiego Lutego, tysiąc ośmset pięćdziesiątego drugiego roku, o godzinie dziewiątej rano. Wiadomo czynimy, iż w przytomności świadków Marcina Koślaka, parobka z Piastkowa i Błażeja Lipca, gospodarza z Woli Gutowskiej, lat czterdzieści cztery liczących, zawarte zostało na dniu dzisiejszym religijne małżeństwo między Stefanem Ofiarą, wdowcem, włościaninem gospodarzem zamieszkałym w Woli Gutowskiej, synem zmarłego Konstantego i Agnieszki z Grzegorzewskich małżonków Ofiarów, włościan, urodzonym we wsi Piastkowie, lat czterdzieści trzy liczącym; a Marianną z Jemiołków Strączkową, wdową po Franciszku Jemiołku zmarłym w Piastkowie, córką zmarłych Kazimierza i Heleny małżonków Jemiołków w Tośawi, zamieszkałą także we wsi Piastkowie, lat czterdzieści trzy liczącą. (...) Nowożeńcy oświadczają iż nie zawarli umowy przedślubnej. Akt ten stawiającym i świadkom pisać nieumiejącym przeczytany, podpisaliśmy. X. Jan Kłochowski Dziekan i Proboszcz Jedliński.",
+    "translation_pl": "Działo się w mieście Jedlińsk, dnia 2 lutego 1852 roku o godzinie dziewiątej rano. Czynimy wiadomo, że w obecności świadków Marcina Koślaka, parobka z Piastkowa, i Błażeja Lipca, gospodarza z Woli Gutowskiej, lat 44, zawarto dzisiaj religijne małżeństwo między Stefanem Ofiarą, wdowcem, włościaninem-gospodarzem zamieszkałym w Woli Gutowskiej, synem zmarłego Konstantego i Agnieszki z Grzegorzewskich małżonków Ofiarów, włościan, urodzonym we wsi Piastków, lat 43; a Marianną z Jemiołków Strączkową, wdową po Franciszku Jemiołku zmarłym w Piastkowie, córką zmarłych Kazimierza i Heleny małżonków Jemiołków z Tośawi, zamieszkałą także we wsi Piastków, lat 43. (...) Nowożeńcy oświadczają, że nie zawarli umowy przedślubnej. Akt ten stawiającym i świadkom, którzy pisać nie umieją, przeczytano i podpisaliśmy. Ksiądz Jan Kłochowski, Dziekan i Proboszcz Jedliński.",
+    "translation_en": "It happened in the Town of Jedlińsk on the second of February, eighteen hundred and fifty-two, at nine o'clock in the morning. We make it known that in the presence of witnesses Marcin Koślak, a farmhand from Piastków, and Błażej Lipiec, a farmer from Wola Gutowska, aged 44, a religious marriage was contracted on this day between Stefan Ofiara, a widower, a peasant-farmer residing in Wola Gutowska, son of the deceased Konstanty and Agnieszka née Grzegorzewska, the Ofiara spouses, peasants, born in the village of Piastków, aged 43; and Marianna née Jemiołek Strączkowa, a widow after Franciszek Jemiołek who died in Piastków, daughter of the deceased Kazimierz and Helena, the Jemiołek spouses from Tośawa, also residing in the village of Piastków, aged 43. (...) The newlyweds declare they did not enter into a prenuptial agreement. This act, after being read to the declarants and witnesses, who are illiterate, was signed by us. Father Jan Kłochowski, Dean and Pastor of Jedlińsk.",
+    "extracted_data": [
+      {
+        "label_pl": "Pan Młody",
+        "label_en": "Groom",
+        "value_pl": "Stefan Ofiara, 43 lata, wdowiec",
+        "value_en": "Stefan Ofiara, 43 years old, widower"
+      },
+      {
+        "label_pl": "Panna Młoda",
+        "label_en": "Bride",
+        "value_pl": "Marianna Strączkowa z d. Jemiołek, 43 lata, wdowa",
+        "value_en": "Marianna Strączkowa née Jemiołek, 43 years old, widow"
+      }
+    ]
+  },
+  {
+    "id": 251,
+    "title_pl": "Akt Zgonu: Konstanty Ofiara (1812)",
+    "title_en": "Death Record: Konstanty Ofiara (1812)",
+    "type": "death_record",
+    "description_pl": "Parafia Jedlińsk, akt zgonu nr 8, 1812 r. Konstanty, mąż Agnieszki Grzegorzewskiej, zmarł w Woli Gutowskiej w wieku 37 lat.",
+    "description_en": "Jedlińsk Parish, death record no. 8, 1812. Konstanty, husband of Agnieszka Grzegorzewska, died in Wola Gutowska at the age of 37.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Roku Tysiąc Osiemset Dwunastego Dnia Dwudziestego Drugiego Miesiąca Sierpnia, o godzinie trzeciey po południu. Przed Nami Walentym Rudawskim Proboszczem Jedlińskim sprawującym obowiązki Urzędnika Stanu Cywilnego Gminy Jedlińskiey Powiatu y Departamentu Radomskiego. Stawili się Franciszek Frąckiewicz Gospodarz z Wsi Jedlonki liczący lat czterdzieści i Leon Lewandowski Obywatel Miasta Jedlińska liczący lat trzydzieści trzy y okazali nam, iż w Domu Jego pod Numerem szóstym na dniu dwudziestym drugim miesiąca Sierpnia roku bieżącego, oświadczając iż jest spłodzone z niego y Maryanny z Dobieszów trzydzieści lat maiącey Jego Małżonki. Zmarł Konstanty Ofiara włościanin na gruncie w Woli Gutowskiey osiadły, zostawiwszy po sobie owdowiałą żonę Agnieszkę z Grzegorzewskich, liczący lat trzydzieści siedm. Po naocznym przekonaniu się o śmierci Konstantego Ofiary, Akt ten Stawającym y Świadkom przeczytany, podpisaliśmy. Xiądz Walenty Rudawski Proboszcz Jedliński Urzędnik Cywilny.",
+    "translation_pl": "Roku tysiąc osiemset dwunastego, dnia 22 sierpnia o godzinie trzeciej po południu. Przed nami, Walentym Rudawskim, proboszczem jedlińskim, urzędnikiem stanu cywilnego. Stawili się Franciszek Frąckiewicz, gospodarz z Jedlonki, lat 40, i Leon Lewandowski, obywatel miasta Jedlińska, lat 33. Zmarł Konstanty Ofiara, włościanin osiadły na gruncie w Woli Gutowskiej, zostawiwszy po sobie owdowiałą żonę Agnieszkę z Grzegorzewskich, mający 37 lat. Po naocznym stwierdzeniu zgonu Konstantego Ofiary, akt ten stawiającym i świadkom przeczytano i podpisano. Ksiądz Walenty Rudawski, Proboszcz Jedliński, Urzędnik Cywilny.",
+    "translation_en": "In the year one thousand eight hundred and twelve, on the 22nd day of August at three o'clock in the afternoon. Before us, Walenty Rudawski, Pastor of Jedlińsk, a civil registrar. Appeared Franciszek Frąckiewicz, a farmer from Jedlonka, aged 40, and Leon Lewandowski, a citizen of the town of Jedlińsk, aged 33. Konstanty Ofiara, a peasant settled on land in Wola Gutowska, passed away, leaving behind his widow Agnieszka née Grzegorzewska, aged 37. After visually confirming the death of Konstanty Ofiara, this act was read to the declarants and witnesses, and we signed.",
+    "extracted_data": [
+      {
+        "label_pl": "Data zgonu",
+        "label_en": "Date of Death",
+        "value_pl": "22 sierpnia 1812",
+        "value_en": "August 22, 1812"
+      },
+      {
+        "label_pl": "Wiek w chwili zgonu",
+        "label_en": "Age at Death",
+        "value_pl": "37 lat",
+        "value_en": "37 years"
+      },
+      {
+        "label_pl": "Pozostawił żonę",
+        "label_en": "Survived by wife",
+        "value_pl": "Agnieszka z Grzegorzewskich",
+        "value_en": "Agnieszka née Grzegorzewska"
       }
     ]
   }
