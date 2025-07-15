@@ -27,7 +27,6 @@ export default function DocumentModal({
 
   if (!document) return null;
 
-  // Dynamiczne wybieranie wersji językowej dla każdego pola
   const title =
     (language === "en" ? document.title_en : document.title_pl) || "";
   const description =
@@ -46,15 +45,16 @@ export default function DocumentModal({
 
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
-      <DialogContent className="w-[95%] max-w-4xl max-h-[90vh] bg-stone-100 dark:bg-background-alt">
-        <DialogHeader>
+      <DialogContent className="w-[95%] max-w-4xl max-h-[90vh] bg-stone-100 dark:bg-background-alt flex flex-col">
+        <DialogHeader className="flex-shrink-0">
           <DialogTitle className="font-serif text-2xl heritage-text">
             {title}
           </DialogTitle>
           {description && <DialogDescription>{description}</DialogDescription>}
         </DialogHeader>
 
-        <div className="grid md:grid-cols-2 gap-6 max-h-[70vh]">
+        <div className="grid md:grid-cols-2 gap-6 mt-4 flex-1 overflow-hidden">
+          {/* --- Lewa Kolumna (Obrazek) --- */}
           <ScrollArea className="h-full">
             <div className="hidden md:block bg-white dark:bg-card p-1 rounded-md">
               <img
@@ -65,6 +65,8 @@ export default function DocumentModal({
               />
             </div>
           </ScrollArea>
+
+          {/* --- Prawa Kolumna (Treść) --- */}
           <ScrollArea className="h-full">
             <div className="space-y-6 sm:pr-4">
               {document.extracted_data && (
@@ -112,6 +114,7 @@ export default function DocumentModal({
             </div>
           </ScrollArea>
         </div>
+
         <DialogClose className="absolute right-4 top-4 rounded-sm opacity-70 ring-offset-background transition-opacity hover:opacity-100 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:pointer-events-none data-[state=open]:bg-accent data-[state=open]:text-muted-foreground">
           <X className="h-4 w-4" />
           <span className="sr-only">Close</span>

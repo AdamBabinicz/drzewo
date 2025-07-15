@@ -81,7 +81,7 @@ export type DocumentType =
   | "genealogy_chart"
   | "other";
 
-type ExtractedDataItem = {
+export type ExtractedDataItem = {
   label_pl: string;
   label_en: string;
   value_pl: string;
