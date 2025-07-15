@@ -602,6 +602,10 @@
       {
         "pl": "Podczas okupacji hitlerowscy żołnierze stacjonowali w większej izbie, a w mniejszej przebywała siedmioosobowa rodzina. Dziadek opowiadał, że gdy zbliżał się front, podkuł swojego konia gwoździem, żeby udawał kulawego. Niemcy, myśląc, że koń jest niezdolny do pracy, nie zabrali go z wozem. Po ich ucieczce dziadek wyjął gwóźdź i koń chodził normalnie. Dzięki temu sprytnemu zabiegowi udało się ocalić nie tylko zwierzę, ale i wóz niezbędny do pracy w gospodarstwie.",
         "en": "During the occupation, Nazi soldiers were stationed in the larger room, while the smaller one housed the seven-member family. Grandpa told me that as the front approached, he nailed his horse’s hoof to make it seem lame. The Nazis, thinking the horse was unfit for work, left it with the cart. After they fled, Grandpa removed the nail, and the horse walked normally. Thanks to this clever trick, he managed to save both the horse and the cart, which were essential for farm work."
+      },
+      {
+        "pl": "Pewnego dnia dorosłe dzieci Józefa – Stasiek, Janek, Marianna (moja mama) i Romek (kandydat na następcę) – zebrały się w gospodarstwie w Gulinku, aby podzielić ziemię graniczącą z gospodarstwem Władka Gierczaka. Dziadek Józef przygotował kopacze (specjalne kije do mierzenia areału) i rozpoczął pomiary. W trakcie doszło jednak do ostrej wymiany zdań między nim a dziećmi. Zdenerwowany dziadek w pewnym momencie złamał przygotowane kopacze, gwałtownie kończąc cały proces. Historię tę opowiedziała mi moja siostra, która jako dziecko była naocznym świadkiem zdarzenia i bardzo je przeżyła – po wszystkim popłakała się i uciekła do domu.",
+        "en": "One day, Józef’s grown children – Stasiek, Janek, Marianna (my mother), and Romek (the intended successor) – gathered at the farm in Gulinek to divide the land bordering Władek Gierczak’s property. Grandpa Józef had prepared kopacze (special measuring sticks used to determine land area) and began the measurements. However, during the process, a heated argument broke out between him and the children. At some point, visibly upset, Grandpa snapped the kopacze in half, abruptly bringing the whole process to an end. This story was told to me by my sister, who witnessed the event as a child. It made a deep impression on her – afterward, she burst into tears and ran home."
       }
     ],
     "keepsakes": [
@@ -3213,16 +3217,17 @@
     "family": "ofiara",
     "birthDateNote": "ok. 1775",
     "deathDate": "1812-08-22",
+    "photoUrl": "/images/konstanty.avif",
     "spouseIds": [162],
     "childIds": [163, 164, 165, 166, 167, 133, 157],
     "parentIds": [],
     "occupation": {
-      "pl": "Włościanin",
-      "en": "Peasant"
+      "pl": "Włościanin / Mieszczanin",
+      "en": "Peasant / Townsman"
     },
     "biography": {
-      "pl": "Protoplasta rodu Ofiara. Mąż Agnieszki Grzegorzewskiej. W dokumentach jego nazwisko pojawia się w formach 'Ofiera' i 'Ofiara'. Mieszkał i zmarł w Woli Gutowskiej w wieku 37 lat, pozostawiając żonę i siedmioro dzieci: Wincentego (I), Mariannę, Wincentego (II), Pawła, Jacka, Szczepana i Stefana.",
-      "en": "Progenitor of the Ofiara family. Husband of Agnieszka Grzegorzewska. His surname appears in documents as 'Ofiera' and 'Ofiara'. He lived and died in Wola Gutowska at the age of 37, leaving a wife and seven children: Wincenty (I), Marianna, Wincenty (II), Paweł, Jacek, Szczepan, and Stefan."
+      "pl": "Protoplasta rodu Ofiara. Mąż Agnieszki Grzegorzewskiej. W dokumentach jego nazwisko pojawia się w formach 'Ofiera' i 'Ofiara'. Mieszkał i zmarł w Woli Gutowskiej w wieku 37 lat. Co ciekawe, w najwcześniejszych zachowanych metrykach (1798 r.) Konstanty jest zapisany jako 'mieszczanin' (Oppidanus), podczas gdy jego żona Agnieszka jako 'chłopka' (Villana). Wskazuje to na jego pochodzenie z innego stanu społecznego. W późniejszych dokumentach, sporządzanych już po wprowadzeniu Kodeksu Napoleona, który znosił podziały stanowe, jest konsekwentnie opisywany jako 'włościanin', zgodnie ze swoim faktycznym zajęciem i miejscem zamieszkania. Jest to fascynujący przykład, jak wielkie zmiany historyczne i prawne wpływały na życie rodziny.",
+      "en": "Progenitor of the Ofiara family. Husband of Agnieszka Grzegorzewska. His surname appears in documents as 'Ofiera' and 'Ofiara'. He lived and died in Wola Gutowska at the age of 37. Interestingly, in the earliest surviving records (1798), Konstanty is listed as a 'townsman' (Oppidanus), while his wife Agnieszka is a 'peasant' (Villana). This indicates his origin from a different social class. In later documents, created after the introduction of the Napoleonic Code which abolished social estates, he is consistently described as a 'peasant' in accordance with his actual occupation and place of residence. This is a fascinating example of how major historical and legal changes affected the family's life."
     },
     "events": [
       {
