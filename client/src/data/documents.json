@@ -1654,44 +1654,6 @@
     ]
   },
   {
-    "id": 227,
-    "title_pl": "Akt Ślubu: Franciszek Gierczak i Józefa Cieslak z d. Tkaczyk (1842)",
-    "title_en": "Marriage Record: Franciszek Gierczak & Józefa Cieslak née Tkaczyk (1842)",
-    "type": "marriage_record",
-    "description_pl": "Parafia Cerekiew, akt nr 16, 1842 r.",
-    "description_en": "Cerekiew Parish, record no. 16, 1842.",
-    "imageUrl": "/images/k.avif",
-    "transcription": "Działo się we wsi Cerekwi Dnia dwudziestego trzeciego Października Roku Tysiąc Ośmset Czterdziestego drugiego o godzinie trzeciey po południu. Wiadomo czyniemy, iż w przytomności Świadków, Macieja Strzelczyka lat czterdzieści i Jakuba Zycha lat pięćdziesiąt maiących, obydwóch Wyrobników w Jaszowicach zamieszkałych, w Dniu Dwudziestym trzecim Miesiąca Października roku bieżącego zawarte zostało religijne Małżeństwo między Urodzonym Franciszkiem Gierczakiem Kawalerem, Wyrobnikiem w Jaszowicach zamieszkałym, lat dwadzieścia cztery maiącym, synem niegdy Tomasza i żyiącej Maryanny z Gielowskich Małżonkow Gierczaków z iedney, a Urodzoną Józefą z Tkaczyków Cieslakową Wdową po niegdyś Janie Cieslaku zmarłym w Zakrzewie, Służącą w Jaszowicach zostaiącą, lat trzydzieści maiącą, córką Józefa i Maryanny z Łyżwów Małżonków Tkaczyków z drugiey strony. Małżeństwo to poprzedziły trzy Zapowiedzi... Rodzice na zawarcie tegoż Małżeństwa zezwolili... Akt ten Stawaiącym i Świadkom przeczytany, pisać nie umieiącym, podpisany został. X. Kłobossowski Proboszcz Parafii Cerekiewskiey.",
-    "translation_pl": "Zdarzyło się we wsi Cerekiew, dnia 23 października 1842 roku o godzinie trzeciej po południu. Czynimy wiadomo, że w obecności świadków, Macieja Strzelczyka (lat 40) i Jakuba Zycha (lat 50), obu robotników rolnych z Jaszowic, w dniu 23 października bieżącego roku zawarte zostało religijne małżeństwo pomiędzy: Franciszkiem Gierczakiem, kawalerem, robotnikiem rolnym zamieszkałym w Jaszowicach, lat 24, synem zmarłego Tomasza i żyjącej Marianny z Gielowskich, małżonków Gierczaków, z jednej strony; a Józefą z domu Tkaczyk Cieslakową, wdową po zmarłym Janie Cieslaku (zmarłym w Zakrzewie), służącą zamieszkałą w Jaszowicach, lat 30, córką Józefa i Marianny z Łyżwów, małżonków Tkaczyków, z drugiej strony. Małżeństwo poprzedziły trzy zapowiedzi. Rodzice wyrazili zgodę. Akt ten stawiającym i świadkom, którzy nie umieją pisać, przeczytano i podpisano. Ks. Kłobossowski, Proboszcz Parafii Cerekiew.",
-    "translation_en": "It happened in the village of Cerekiew on October 23, 1842, at three o'clock in the afternoon. We make it known that in the presence of witnesses, Maciej Strzelczyk (40 years old) and Jakub Zych (50 years old), both agricultural laborers from Jaszowice, on October 23 of the current year, a religious marriage was contracted between: Franciszek Gierczak, a bachelor, an agricultural laborer residing in Jaszowice, aged 24, son of the late Tomasz and the living Marianna née Gielowska, spouses Gierczak, of the one part; and Józefa née Tkaczyk Cieslakowa, a widow after the late Jan Cieslak (who died in Zakrzew), a servant residing in Jaszowice, aged 30, daughter of Józef and Marianna née Łyżwa, spouses Tkaczyk, of the other part. The marriage was preceded by three banns. The parents gave their consent. This act was read to the declarants and witnesses, who are illiterate, and was signed. Fr. Kłobossowski, Pastor of the Cerekiew Parish.",
-    "extracted_data": [
-      {
-        "label_pl": "Pan Młody",
-        "label_en": "Groom",
-        "value_pl": "Franciszek Gierczak, 24 lata, kawaler",
-        "value_en": "Franciszek Gierczak, 24 years old, bachelor"
-      },
-      {
-        "label_pl": "Rodzice Pana Młodego",
-        "label_en": "Groom's Parents",
-        "value_pl": "Tomasz (zm.) i Marianna z Gielowskich",
-        "value_en": "Tomasz (dec.) and Marianna née Gielowska"
-      },
-      {
-        "label_pl": "Panna Młoda",
-        "label_en": "Bride",
-        "value_pl": "Józefa Cieslak z d. Tkaczyk, 30 lat, wdowa",
-        "value_en": "Józefa Cieslak née Tkaczyk, 30 years old, widow"
-      },
-      {
-        "label_pl": "Rodzice Panny Młodej",
-        "label_en": "Bride's Parents",
-        "value_pl": "Józef i Marianna z Łyżwów",
-        "value_en": "Józef and Marianna née Łyżwa"
-      }
-    ]
-  },
-  {
     "id": 228,
     "title_pl": "Akt Ślubu: Jan Gierczak i Małgorzata Szczepaniak (1842)",
     "title_en": "Marriage Record: Jan Gierczak & Małgorzata Szczepaniak (1842)",
@@ -2672,6 +2634,170 @@
         "label_en": "Survived by wife",
         "value_pl": "Agnieszka z Grzegorzewskich",
         "value_en": "Agnieszka née Grzegorzewska"
+      }
+    ]
+  },
+  {
+    "id": 252,
+    "title_pl": "Akt Zgonu: Agnieszka Ofiara z d. Grzegorzewska (1820)",
+    "title_en": "Death Record: Agnieszka Ofiara née Grzegorzewska (1820)",
+    "type": "death_record",
+    "description_pl": "Parafia Jedlińsk, akt zgonu nr 11, 1820 r. Zgon zgłosił jej syn, Szczepan Ofiara. W akcie zmarła zapisana jest jako 'Agnieszka Ofierzyna'.",
+    "description_en": "Jedlińsk Parish, death record no. 11, 1820. The death was reported by her son, Szczepan Ofiara. In the document, the deceased is recorded as 'Agnieszka Ofierzyna'.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Wola Gutowska. Roku tysiącznego Ośmsetnego dwudziestego dnia dwudziestego siódmego Miesiąca Marca o godzinie dziesiątej rano. Przed Nami Walentym Rudawskim Proboszczem Jedlińskim sprawującym Obowiązki Urzędnika Stanu Cywilnego Gminy Jedlińskiey [...] stawił się Szczepan Ofiara włościanin z Woli Gutowskiey zamieszkały liczący lat czterdzieści i pięć i oświadczył Nam iż tegoż dnia y miesiąca w domu pod Numerem dwunastym o godzinie szóstej rano umarła Agnieszka Ofierzyna, wdowa, włościanka w Woli Gutowskiey zamieszkała, licząca lat pięćdziesiąt.",
+    "translation_pl": "Wola Gutowska. Roku 1820, dnia 27 marca o godzinie dziesiątej rano. Przed nami, Walentym Rudawskim, proboszczem jedlińskim, urzędnikiem stanu cywilnego, stawił się Szczepan Ofiara, włościanin z Woli Gutowskiej, lat (błędnie) czterdzieści pięć, i oświadczył, że tego samego dnia o godzinie szóstej rano w domu pod numerem 12 zmarła Agnieszka Ofierzyna, wdowa, włościanka z Woli Gutowskiej, lat pięćdziesiąt.",
+    "translation_en": "Wola Gutowska. In the year 1820, on the 27th day of March at ten o'clock in the morning. Before us, Walenty Rudawski, pastor of Jedlińsk, a civil registrar, appeared Szczepan Ofiara, a peasant from Wola Gutowska, (incorrectly) aged forty-five, and declared that on the same day at six o'clock in the morning, in the house at number 12, passed away Agnieszka Ofierzyna, a widow, a peasant woman from Wola Gutowska, aged fifty.",
+    "extracted_data": [
+      {
+        "label_pl": "Zmarła",
+        "label_en": "Deceased",
+        "value_pl": "Agnieszka Ofierzyna",
+        "value_en": "Agnieszka Ofierzyna"
+      },
+      {
+        "label_pl": "Data zgonu",
+        "label_en": "Date of Death",
+        "value_pl": "27 marca 1820",
+        "value_en": "March 27, 1820"
+      },
+      {
+        "label_pl": "Wiek w chwili zgonu",
+        "label_en": "Age at Death",
+        "value_pl": "ok. 50 lat",
+        "value_en": "approx. 50 years"
+      },
+      {
+        "label_pl": "Status",
+        "label_en": "Status",
+        "value_pl": "Wdowa",
+        "value_en": "Widow"
+      },
+      {
+        "label_pl": "Miejsce zgonu",
+        "label_en": "Place of Death",
+        "value_pl": "Wola Gutowska",
+        "value_en": "Wola Gutowska"
+      },
+      {
+        "label_pl": "Zgłaszający",
+        "label_en": "Informant",
+        "value_pl": "Szczepan Ofiara (syn)",
+        "value_en": "Szczepan Ofiara (son)"
+      }
+    ]
+  },
+  {
+    "id": 253,
+    "title_pl": "Akt Zgonu: Kacper Ofiara (1829)",
+    "title_en": "Death Record: Kacper Ofiara (1829)",
+    "type": "death_record",
+    "description_pl": "Parafia Jedlińsk, akt nr 2, 1829 r. Dokument potwierdza zgon 7-dniowego Kacpra, syna Szczepana i Małgorzaty z Kowalczyków.",
+    "description_en": "Jedlińsk Parish, record no. 2, 1829. The document confirms the death of 7-day-old Kacper, son of Szczepan and Małgorzata née Kowalczyk.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się w Mieście Jedlińsku dnia dziewiątego Miesiąca Stycznia Roku tysiąc Osiemset Dwudziestego dziewiątego o godzinie dziewiątey rano stawił się Dominik Łartak Gospodarz lat czterdzieści ośm i Marcin Przybyłowski Siołek Wyrobnik lat trzydzieści pięć liczący sobie wieku swego obydwa we Wsi Woli Gutowskiey zamieszkali, oświadczyli iż w teyże Wsi w domu pod Numerem szóstym w dniu ósmym tegoż Miesiąca roku bieżącego o godzinie ósmey w wieczór umarł Kacper Ofiara, syn Szczepana i Małgorzaty Kowalczykówny mający siedm dni.",
+    "translation_pl": "Działo się w mieście Jedlińsk, dnia 9 stycznia 1829 roku o godzinie dziewiątej rano. Stawili się Dominik Łartak, gospodarz lat 48, i Marcin Przybyłowski, wyrobnik lat 35, obaj zamieszkali w Woli Gutowskiej. Oświadczyli oni, że w tejże wsi, w domu pod numerem szóstym, dnia 8 stycznia bieżącego roku o godzinie ósmej wieczorem zmarł Kacper Ofiara, syn Szczepana i Małgorzaty z domu Kowalczyk, mający siedem dni.",
+    "translation_en": "It happened in the Town of Jedlińsk, on the ninth day of January, 1829, at nine o'clock in the morning. Appeared Dominik Łartak, a farmer aged 48, and Marcin Przybyłowski, a laborer aged 35, both residing in Wola Gutowska. They declared that in the same village, in the house at number six, on the eighth day of the current month at eight o'clock in the evening, passed away Kacper Ofiara, son of Szczepan and Małgorzata née Kowalczyk, aged seven days.",
+    "extracted_data": [
+      {
+        "label_pl": "Zmarły",
+        "label_en": "Deceased",
+        "value_pl": "Kacper Ofiara",
+        "value_en": "Kacper Ofiara"
+      },
+      {
+        "label_pl": "Data i godzina zgonu",
+        "label_en": "Date and Time of Death",
+        "value_pl": "8 stycznia 1829, 20:00",
+        "value_en": "January 8, 1829, 8:00 PM"
+      },
+      {
+        "label_pl": "Wiek w chwili zgonu",
+        "label_en": "Age at Death",
+        "value_pl": "7 dni",
+        "value_en": "7 days"
+      },
+      {
+        "label_pl": "Rodzice",
+        "label_en": "Parents",
+        "value_pl": "Szczepan i Małgorzata z Kowalczyków",
+        "value_en": "Szczepan and Małgorzata née Kowalczyk"
+      }
+    ]
+  },
+  {
+    "id": 254,
+    "title_pl": "Akt Zgonu: Ignacy Ofiara (1832)",
+    "title_en": "Death Record: Ignacy Ofiara (1832)",
+    "type": "death_record",
+    "description_pl": "Parafia Jedlińsk, akt zgonu nr 24, 1832 r. Dokument potwierdza zgon jednorocznego Ignacego, syna Szczepana i Małgorzaty z Kowalczyków.",
+    "description_en": "Jedlińsk Parish, death record no. 24, 1832. The document confirms the death of one-year-old Ignacy, son of Szczepan and Małgorzata née Kowalczyk.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się w mieście Jedlińsku, dnia Dwudziestego ósmego miesiąca Marca Roku tysiąc Osiemset trzydziestego Drugiego o godzinie czwartej po południu. Stawili się Franciszek Rus i Wojciech Chałupka obydwa włościanie w Woli Gutowskiej zamieszkali, oświadczyli iż w Woli Gutowskiej w domu pod Numerem szóstym dnia dwudziestego siódmego miesiąca Marca roku bieżącego o godzinie dziewiątej po południu umarł Ignacy Ofiara, syn Szczepana i Małgorzaty Kowalczykówny małżonków Ofiarów włościan, maiący rok jeden.",
+    "translation_pl": "Działo się w mieście Jedlińsku, dnia 28 marca 1832 roku o godzinie czwartej po południu. Stawili się Franciszek Rus i Wojciech Chałupka, obaj włościanie zamieszkali w Woli Gutowskiej, i oświadczyli, że w Woli Gutowskiej, w domu pod numerem szóstym, dnia 27 marca bieżącego roku o godzinie dziewiątej po południu zmarł Ignacy Ofiara, syn Szczepana i Małgorzaty z domu Kowalczyk, małżonków Ofiarów, włościanin, mający jeden rok.",
+    "translation_en": "It happened in the Town of Jedlińsk, on the twenty-eighth day of March, eighteen hundred and thirty-two, at four o'clock in the afternoon. Appeared Franciszek Rus and Wojciech Chałupka, both peasants residing in Wola Gutowska, and they declared that in the village of Wola Gutowska, in the house at number six, on the twenty-seventh day of March of the current year at nine o'clock in the evening, passed away Ignacy Ofiara, son of Szczepan and Małgorzata née Kowalczyk, the Ofiara spouses, peasants, aged one year.",
+    "extracted_data": [
+      {
+        "label_pl": "Zmarły",
+        "label_en": "Deceased",
+        "value_pl": "Ignacy Ofiara",
+        "value_en": "Ignacy Ofiara"
+      },
+      {
+        "label_pl": "Data i godzina zgonu",
+        "label_en": "Date and Time of Death",
+        "value_pl": "27 marca 1832, 21:00",
+        "value_en": "March 27, 1832, 9:00 PM"
+      },
+      {
+        "label_pl": "Wiek",
+        "label_en": "Age",
+        "value_pl": "1 rok",
+        "value_en": "1 year"
+      },
+      {
+        "label_pl": "Rodzice",
+        "label_en": "Parents",
+        "value_pl": "Szczepan i Małgorzata z Kowalczyków",
+        "value_en": "Szczepan and Małgorzata née Kowalczyk"
+      }
+    ]
+  },
+  {
+    "id": 255,
+    "title_pl": "Akt Zgonu: Franciszka Ofiara (1841)",
+    "title_en": "Death Record: Franciszka Ofiara (1841)",
+    "type": "death_record",
+    "description_pl": "Parafia Jedlińsk, akt zgonu nr 41, 1841 r. Dokument potwierdza zgon dwuletniej Franciszki. Zgon zgłosił jej ojciec, Szczepan (w akcie jako Stefan) Ofiara.",
+    "description_en": "Jedlińsk Parish, death record no. 41, 1841. The document confirms the death of two-year-old Franciszka. The death was reported by her father, Szczepan (recorded as Stefan) Ofiara.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się w mieście Jedlińsku, dnia siedemnastego Sierpnia, tysiąc ośmset czterdziestego pierwszego roku, o godzinie ósmej rano. Stawił się Stefan Ofiara, włościanin z Woli Gutowskiej lat trzydzieści dziewięć maiący i Marcin Komorowski Zakrystyan z Jedlińska lat czterdzieści liczący sobie wieku swego, oświadczyli iż w Woli Gutowskiej dnia piętnastego miesiąca Sierpnia roku bieżącego o godzinie szóstej rano umarła Franciszka Ofiara, córka Stefana i Małgorzaty z Kowalczyków maiąca lat dwa.",
+    "translation_pl": "Działo się w mieście Jedlińsku, dnia 17 sierpnia 1841 roku o godzinie ósmej rano. Stawili się Stefan Ofiara, włościanin z Woli Gutowskiej, lat 39, i Marcin Komorowski, zakrystian z Jedlińska, lat 40, i oświadczyli, że w Woli Gutowskiej dnia 15 sierpnia bieżącego roku o godzinie szóstej rano zmarła Franciszka Ofiara, córka Stefana i Małgorzaty z domu Kowalczyk, mająca dwa lata.",
+    "translation_en": "It happened in the Town of Jedlińsk, on the seventeenth of August, one thousand eight hundred and forty-one, at eight o'clock in the morning. Appeared Stefan Ofiara, a peasant from Wola Gutowska, aged 39, and Marcin Komorowski, the sacristan from Jedlińsk, aged 40, and they declared that in Wola Gutowska, on the fifteenth day of August of the current year at six o'clock in the morning, passed away Franciszka Ofiara, daughter of Stefan and Małgorzata née Kowalczyk, aged two years.",
+    "extracted_data": [
+      {
+        "label_pl": "Zmarła",
+        "label_en": "Deceased",
+        "value_pl": "Franciszka Ofiara",
+        "value_en": "Franciszka Ofiara"
+      },
+      {
+        "label_pl": "Data i godzina zgonu",
+        "label_en": "Date and Time of Death",
+        "value_pl": "15 sierpnia 1841, 6:00",
+        "value_en": "August 15, 1841, 6:00 AM"
+      },
+      {
+        "label_pl": "Wiek w chwili zgonu",
+        "label_en": "Age at Death",
+        "value_pl": "2 lata",
+        "value_en": "2 years"
+      },
+      {
+        "label_pl": "Rodzice",
+        "label_en": "Parents",
+        "value_pl": "Stefan (Szczepan) i Małgorzata z Kowalczyków",
+        "value_en": "Stefan (Szczepan) and Małgorzata née Kowalczyk"
       }
     ]
   }

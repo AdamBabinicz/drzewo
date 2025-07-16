@@ -57,12 +57,21 @@
     "deathDate": null,
     "photoUrl": null,
     "family": "gierczak",
-    "spouseIds": [],
+    "spouseIds": [154],
     "childIds": [],
     "parentIds": [1, 2],
+    "marriages": [
+      {
+        "spouseId": 154,
+        "date": "1842-10-23",
+        "source": {
+          "documentId": 226
+        }
+      }
+    ],
     "biography": {
-      "pl": "Syn Tomasza Gierczaka i Zofii z Gielów. Urodzony 24 listopada 1816 roku we Wrzosie. Jego rodzice w tym okresie byli tam czasowo zamieszkali, choć ich głównym ośrodkiem życia były Jaszowice.",
-      "en": "Son of Tomasz Gierczak and Zofia née Giel. Born on November 24, 1816, in Wrzos. His parents were temporarily residing there during this period, although their main center of life was Jaszowice."
+      "pl": "Syn Tomasza Gierczaka i Zofii z Gielów. Urodzony 24 listopada 1816 roku we Wrzosie. Jego rodzice w tym okresie byli tam czasowo zamieszkali, choć ich głównym ośrodkiem życia były Jaszowice. W 1842 roku ożenił się z Józefą Cieslak z d. Tkaczyk.",
+      "en": "Son of Tomasz Gierczak and Zofia née Giel. Born on November 24, 1816, in Wrzos. His parents were temporarily residing there during this period, although their main center of life was Jaszowice. In 1842, he married Józefa Cieslak née Tkaczyk."
     },
     "events": [
       {
@@ -153,7 +162,8 @@
     "id": 6,
     "firstName": "Andrzej",
     "lastName": "Gierczak",
-    "birthDate": "1811",
+    "birthDate": null,
+    "birthDateNote": "ok. 1811",
     "deathDate": "1868-08-29",
     "deathTime": "13:00",
     "photoUrl": null,
@@ -171,8 +181,8 @@
       }
     ],
     "biography": {
-      "pl": "Syn nieżyjącego Tomasza i Zofii z Gielowskich. W dniu 26 listopada 1837 r. w parafii Cerekiew poślubił Teresę Pączek. W akcie ślubu podano, że miał 26 lat. Zmarł w Chruślicach w wieku 57 lat.",
-      "en": "Son of the late Tomasz and Zofia née Gielowska. On November 26, 1837, in the Cerekiew parish, he married Teresa Pączek. The marriage record states he was 26 years old. He died in Chruślice at the age of 57."
+      "pl": "Syn nieżyjącego Tomasza i Zofii z Gielowskich. W dniu 26 listopada 1837 r. w parafii Cerekiew poślubił Teresę Pączek. W akcie ślubu podano, że miał 26 lat. Urodzony prawdopodobnie w Jaszowicach. Zmarł w Chruślicach w wieku 57 lat.",
+      "en": "Son of the late Tomasz and Zofia née Gielowska. On November 26, 1837, in the Cerekiew parish, he married Teresa Pączek. The marriage record states he was 26 years old. He was likely born in Jaszowice. He died in Chruślice at the age of 57."
     },
     "events": [
       {
@@ -800,7 +810,8 @@
     "id": 57,
     "firstName": "Andrzej",
     "lastName": "Ofiara",
-    "birthDate": "1854",
+    "birthDate": null,
+    "birthDateNote": "ok. 1854",
     "deathDate": "1922-12-06",
     "deathTime": "20:00",
     "photoUrl": "/images/andrzej.avif",
@@ -815,7 +826,11 @@
     "marriages": [
       {
         "spouseId": 58,
-        "date": "18xx"
+        "date": null,
+        "note": {
+          "pl": "data nieznana, przed 1872",
+          "en": "date unknown, before 1872"
+        }
       }
     ],
     "biography": {
@@ -848,7 +863,11 @@
     "marriages": [
       {
         "spouseId": 57,
-        "date": "18xx"
+        "date": null,
+        "note": {
+          "pl": "data nieznana, przed 1872",
+          "en": "date unknown, before 1872"
+        }
       }
     ],
     "biography": {
@@ -1314,8 +1333,8 @@
       }
     ],
     "biography": {
-      "pl": "Syn Pawła i Katarzyny. Ożenił się w 1932 z Feliksą Szczygłowską c. Jana i Karoliny Kozłowskiej. Ślub odbył się w parafii Kowala-Stępocina.",
-      "en": "Son of Paweł and Katarzyna. He married Feliksa Szczygłowska, daughter of Jan and Karolina Kozłowska, in 1932. The wedding took place in the Kowala-Stępocina parish."
+      "pl": "Syn Pawła Gierczaka i Katarzyny z d. Czerwińska. Ożenił się w 1932 z Feliksą Szczygłowską c. Jana i Karoliny Kozłowskiej. Ślub odbył się w parafii Kowala-Stępocina.",
+      "en": "Son of Paweł Gierczak and Katarzyna née Czerwińska. He married Feliksa Szczygłowska, daughter of Jan and Karolina Kozłowska, in 1932. The wedding took place in the Kowala-Stępocina parish."
     }
   },
   {
@@ -1483,8 +1502,10 @@
     "id": 84,
     "firstName": "Tadeusz",
     "lastName": "Gierczak",
-    "birthDate": "192x",
-    "deathDate": "1974",
+    "birthDate": null,
+    "birthDateNote": "lata 20. XX w.",
+    "deathDate": null,
+    "deathDateNote": "1974",
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [],
@@ -1884,7 +1905,10 @@
     "marriages": [
       {
         "spouseId": 59,
-        "date": "1841"
+        "date": "1841-02-16",
+        "source": {
+          "documentId": 11
+        }
       }
     ],
     "biography": {
@@ -1917,7 +1941,8 @@
     "firstName": "Marianna",
     "lastName": "Gierczak",
     "maidenName": "Moskwa vel Moskwina",
-    "deathDate": "przed 1893",
+    "deathDate": null,
+    "deathDateNote": "przed 1893",
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [63],
@@ -2218,13 +2243,17 @@
     "lastName": "Sobień",
     "birthDateNote": "1873",
     "family": "ofiara",
-    "spouseIds": [120],
+    "spouseIds": [140, 120],
     "childIds": [114, 115, 116, 46, 117, 118],
     "parentIds": [139, 142],
     "marriages": [
       {
+        "spouseId": 140,
+        "date": "1894-11-22"
+      },
+      {
         "spouseId": 120,
-        "date": "1894-11-22",
+        "date": "1895-07-02",
         "source": {
           "documentId": 205
         }
@@ -2272,7 +2301,8 @@
     "firstName": "Michał",
     "lastName": "Mitak",
     "birthDateNote": "1849",
-    "deathDate": "przed 1895",
+    "deathDate": null,
+    "deathDateNote": "przed 1895",
     "photoUrl": null,
     "family": "ofiara",
     "spouseIds": [120],
@@ -2527,7 +2557,7 @@
     "deathDateNote": "po 1842",
     "photoUrl": "/images/stefan.avif",
     "spouseIds": [134],
-    "childIds": [159, 135, 129, 136, 160, 137, 138],
+    "childIds": [159, 135, 129, 136, 160, 137, 138, 175],
     "parentIds": [161, 162],
     "occupation": {
       "pl": "Parobek / Włościanin",
@@ -2543,8 +2573,8 @@
       }
     ],
     "biography": {
-      "pl": "Syn protoplasty rodu, Konstantego Ofiary, i Agnieszki Grzegorzewskiej. W akcie urodzenia zapisany pod łacińską formą imienia 'Stephanum'. W 1824 roku poślubił Małgorzatę Kowalczyk. W aktach urodzeń części swoich dzieci (np. Jakuba, Anny) jest konsekwentnie zapisywany pod imieniem Stefan, co było częstą praktyką kancelaryjną w XIX wieku.",
-      "en": "Son of the family's progenitor, Konstanty Ofiara, and Agnieszka Grzegorzewska. In his birth certificate, he was recorded under the Latin form of the name 'Stephanum'. In 1824, he married Małgorzata Kowalczyk. In the birth certificates of some of his children (e.g., Jakub, Anna), he is consistently recorded under the name Stefan, a common 19th-century clerical practice."
+      "pl": "Syn protoplasty rodu, Konstantego Ofiary, i Agnieszki Grzegorzewskiej. W akcie urodzenia zapisany pod łacińską formą imienia 'Stephanum'. W 1824 roku poślubił Małgorzatę Kowalczyk. W aktach urodzeń części swoich dzieci (np. Jakuba, Anny) jest konsekwentnie zapisywany pod imieniem Stefan, co było częstą praktyką kancelaryjną w XIX wieku. W akcie urodzenia syna Ignacego (1830) został omyłkowo zapisany jako Szymon.",
+      "en": "Son of the family's progenitor, Konstanty Ofiara, and Agnieszka Grzegorzewska. In his birth certificate, he was recorded under the Latin form of the name 'Stephanum'. In 1824, he married Małgorzata Kowalczyk. In the birth certificates of some of his children (e.g., Jakub, Anna), he is consistently recorded under the name Stefan, a common 19th-century clerical practice. In the birth certificate of his son Ignacy (1830), he was mistakenly recorded as Szymon."
     },
     "events": [
       {
@@ -2565,7 +2595,7 @@
     "family": "ofiara",
     "birthDate": "ok. 1805",
     "spouseIds": [133],
-    "childIds": [159, 135, 129, 136, 160, 137, 138],
+    "childIds": [159, 135, 129, 136, 160, 137, 138, 175],
     "parentIds": [168, 169],
     "marriages": [
       {
@@ -2577,8 +2607,8 @@
       }
     ],
     "biography": {
-      "pl": "Żona Szczepana Ofiary. Córka Karola i Julianny z d. Bogusz. Matka Wincentego, Kacpra, Jakuba, Anny, Józefa, Franciszki i Wojciecha.",
-      "en": "Wife of Szczepan Ofiara. Daughter of Karol and Julianna née Bogusz. Mother of Wincenty, Kacper, Jakub, Anna, Józef, Franciszka, and Wojciech."
+      "pl": "Żona Szczepana Ofiary. Córka Karola i Julianny z d. Bogusz. Matka Wincentego, Kacpra, Jakuba, Ignacego, Anny, Józefa, Franciszki i Wojciecha.",
+      "en": "Wife of Szczepan Ofiara. Daughter of Karol and Julianna née Bogusz. Mother of Wincenty, Kacper, Jakub, Ignacy, Anna, Józef, Franciszka, and Wojciech."
     }
   },
   {
@@ -2587,14 +2617,16 @@
     "lastName": "Ofiara",
     "birthDate": "1829-01-02",
     "birthTime": "18:00",
-    "deathDate": "1829-01-09",
+    "deathDate": "1829-01-08",
+    "deathTime": "20:00",
+    "deathTimeQualifier": null,
     "family": "ofiara",
     "parentIds": [133, 134],
     "spouseIds": [],
     "childIds": [],
     "biography": {
-      "pl": "Syn Stefana i Małgorzaty z d. Kowalczyk. Urodzony w Woli Gutowskiej. Zmarł jako niemowlę, żył 7 dni.",
-      "en": "Son of Stefan and Małgorzata née Kowalczyk. Born in Wola Gutowska. Died as an infant, lived for 7 days."
+      "pl": "Syn Szczepana (w akcie urodzenia jako Stefan) i Małgorzaty z d. Kowalczyk. Urodzony w Woli Gutowskiej. Zmarł jako niemowlę, żył 7 dni.",
+      "en": "Son of Szczepan (recorded as Stefan in the birth certificate) and Małgorzata née Kowalczyk. Born in Wola Gutowska. Died as an infant, lived for 7 days."
     },
     "events": [
       {
@@ -2603,6 +2635,14 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 215
+        }
+      },
+      {
+        "type": "death",
+        "date": "1829-01-08",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 253
         }
       }
     ]
@@ -2640,13 +2680,15 @@
     "birthTime": "9:00",
     "birthTimeQualifier": "morning",
     "deathDate": "1841-08-15",
+    "deathTime": "6:00",
+    "deathTimeQualifier": "morning",
     "family": "ofiara",
     "parentIds": [133, 134],
     "spouseIds": [],
     "childIds": [],
     "biography": {
-      "pl": "Córka Stefana i Małgorzaty z d. Kowalczyk. Urodzona w Woli Gutowskiej. Zmarła w wieku niespełna dwóch lat.",
-      "en": "Daughter of Stefan and Małgorzata née Kowalczyk. Born in Wola Gutowska. She died at the age of nearly two."
+      "pl": "Córka Szczepana (w akcie jako Stefan) i Małgorzaty z d. Kowalczyk. Urodzona w Woli Gutowskiej. Zmarła w wieku niespełna dwóch lat.",
+      "en": "Daughter of Szczepan (recorded as Stefan) and Małgorzata née Kowalczyk. Born in Wola Gutowska. She died at the age of nearly two."
     },
     "events": [
       {
@@ -2655,6 +2697,14 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 217
+        }
+      },
+      {
+        "type": "death",
+        "date": "1841-08-15",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 255
         }
       }
     ]
@@ -2822,7 +2872,7 @@
     "photoUrl": null,
     "family": "ofiara",
     "spouseIds": [146],
-    "childIds": [121],
+    "childIds": [121, 149],
     "parentIds": [],
     "marriages": [
       {
@@ -2843,7 +2893,7 @@
     "photoUrl": null,
     "family": "ofiara",
     "spouseIds": [145],
-    "childIds": [121],
+    "childIds": [121, 149],
     "parentIds": [],
     "marriages": [
       {
@@ -3075,8 +3125,8 @@
       }
     ],
     "biography": {
-      "pl": "Syn Tomasza i Marianny z Gielowskich (zgodnie z aktem ślubu). W wieku 19 lat poślubił 18-letnią Małgorzatę Szczepaniak. Ze względu na inne imię matki, prawdopodobnie nie jest synem Tomasza i Zofii Gierczak.",
-      "en": "Son of Tomasz and Marianna née Gielowska (according to the marriage record). At the age of 19, he married the 18-year-old Małgorzata Szczepaniak. Due to the different mother's name, he is likely not the son of Tomasz and Zofia Gierczak."
+      "pl": "Syn Tomasza i Marianny z Gielowskich (zgodnie z aktem ślubu). W wieku 19 lat poślubił 18-letnią Małgorzatę Szczepaniak. Ze względu na inne imię matki (Marianna zamiast Zofii), nie jest on tożsamy z synami Tomasza (ID 1) i Zofii (ID 2) i stanowi odrębną postać w badaniach.",
+      "en": "Son of Tomasz and Marianna née Gielowska (according to the marriage record). At the age of 19, he married the 18-year-old Małgorzata Szczepaniak. Due to the different mother's name (Marianna instead of Zofia), he is not the same person as the sons of Tomasz (ID 1) and Zofia (ID 2) and represents a separate individual in this research."
     }
   },
   {
@@ -3112,7 +3162,7 @@
     "birthDateNote": "ok. 1809",
     "deathDateNote": "po 1852",
     "spouseIds": [158, 172],
-    "childIds": [],
+    "childIds": [174],
     "parentIds": [161, 162],
     "marriages": [
       {
@@ -3246,14 +3296,28 @@
     "lastName": "Ofiara",
     "maidenName": "Grzegorzewska",
     "family": "ofiara",
-    "birthDateNote": "ok. 1780",
+    "birthDateNote": "ok. 1770",
+    "deathDate": "1820-03-27",
+    "deathTime": "6:00",
+    "deathTimeQualifier": "morning",
+    "photoUrl": "/images/agnieszka.avif",
     "spouseIds": [161],
     "childIds": [163, 164, 165, 166, 167, 133, 157],
     "parentIds": [],
     "biography": {
-      "pl": "Matka Wincentego (I), Marianny, Wincentego (II), Pawła, Jacka, Szczepana i Stefana. Żona Konstantego Ofiary. Mieszkała w Woli Gutowskiej.",
-      "en": "Mother of Wincenty (I), Marianna, Wincenty (II), Paweł, Jacek, Szczepan, and Stefan. Wife of Konstanty Ofiara. Lived in Wola Gutowska."
-    }
+      "pl": "Żona Konstantego Ofiary, matka siedmiorga dzieci. Mieszkała w Woli Gutowskiej. Zmarła osiem lat po swoim mężu, w wieku 50 lat. W akcie zgonu, zgłoszonym przez jej syna Szczepana, nazwisko zapisano w formie 'Ofierzyna'.",
+      "en": "Wife of Konstanty Ofiara, mother of seven children. Lived in Wola Gutowska. She died eight years after her husband, at the age of 50. In her death record, reported by her son Szczepan, her surname was written as 'Ofierzyna'."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1820-03-27",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 252
+        }
+      }
+    ]
   },
   {
     "id": 163,
@@ -3482,5 +3546,32 @@
       "pl": "Syn Stefana Ofiary i jego drugiej żony, Marianny z d. Jemiołek.",
       "en": "Son of Stefan Ofiara and his second wife, Marianna née Jemiołek."
     }
+  },
+  {
+    "id": 175,
+    "firstName": "Ignacy",
+    "lastName": "Ofiara",
+    "family": "ofiara",
+    "birthDateNote": "ok. 1831",
+    "deathDate": "1832-03-27",
+    "deathTime": "21:00",
+    "deathTimeQualifier": null,
+    "parentIds": [133, 134],
+    "spouseIds": [],
+    "childIds": [],
+    "biography": {
+      "pl": "Syn Szczepana i Małgorzaty z d. Kowalczyk. Zmarł w Woli Gutowskiej w wieku jednego roku.",
+      "en": "Son of Szczepan and Małgorzata née Kowalczyk. He died in Wola Gutowska at the age of one."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1832-03-27",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 254
+        }
+      }
+    ]
   }
 ]
