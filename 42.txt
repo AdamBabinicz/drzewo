@@ -1,0 +1,61 @@
+[
+  {
+    "id": "jaszowice",
+    "name": "Jaszowice",
+    "description": {
+      "pl": "Główna miejscowość rodu Gierczaków",
+      "en": "The main locality of the Gierczak family"
+    },
+    "imageUrl": "/images/jaszowice.avif"
+  },
+  {
+    "id": "ludwikow",
+    "name": "Ludwików",
+    "description": {
+      "pl": "Jedno z głównych miejsc zamieszkania rodu Ofiarów",
+      "en": "One of the main places of residence of the Ofiara family"
+    },
+    "imageUrl": "/images/ludwikow.avif"
+  },
+  {
+    "id": "gulinek_gierczak",
+    "name": "Gulinek",
+    "context": "gierczak",
+    "description": {
+      "pl": "W Gulinku zamieszkali Paweł Gierczak z Katarzyną Czerwińską.",
+      "en": "Paweł Gierczak and Katarzyna Czerwińska settled in Gulinek."
+    },
+    "imageUrl": "/images/gulinek.avif"
+  },
+  {
+    "id": "gulinek_ofiara",
+    "name": "Gulinek",
+    "context": "ofiara",
+    "description": {
+      "pl": "W tym miejscu zamieszkał Józef Ofiara wraz z Rozalią Mitak, a po jej śmierci — z Heleną Sobień.",
+      "en": "Józef Ofiara settled here with Rozalia Mitak, and after her death — with Helena Sobień."
+    },
+    "imageUrl": "/images/gulinek.avif"
+  },
+  {
+    "id": "wola_gutowska",
+    "name": "Wola Gutowska",
+    "description": {
+      "pl": "Miejsce pochodzenia protoplasty rodu Ofiarów, Jakuba.",
+      "en": "The place of origin of the Ofiara family's progenitor, Jakub."
+    },
+    "imageUrl": "/images/ludwikow.avif"
+  },
+  {
+    "id": "wrzos",
+    "name": "Wrzos",
+    "description": {
+      "pl": "Miejsce urodzenia Franciszka Gierczaka, syna Tomasza.",
+      "en": "Birthplace of Franciszek Gierczak, son of Tomasz."
+    },
+    "imageUrl": "/images/jaszowice.avif"
+  }
+]
+
+
+
