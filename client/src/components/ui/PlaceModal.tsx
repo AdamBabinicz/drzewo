@@ -6,7 +6,6 @@ import {
   DialogDescription,
   DialogClose,
 } from "@/components/ui/dialog";
-import { ScrollArea } from "@/components/ui/scroll-area";
 import { X, Landmark } from "lucide-react";
 import { useLanguage } from "@/hooks/useLanguage";
 import { Place } from "../../../../shared/schema";
@@ -52,27 +51,26 @@ export default function PlaceModal({
           )}
         </DialogHeader>
 
-        <div className="grid md:grid-cols-2 gap-6 mt-4 flex-1 overflow-hidden">
-          <ScrollArea className="h-full">
-            <div className="bg-white dark:bg-card p-1 rounded-md">
-              <img
-                src={place.imageUrl || "/images/boc.avif"}
-                alt={place.name}
-                className="w-full h-auto rounded-md object-cover"
-                loading="lazy"
-              />
+        <div className="flex-1 overflow-y-auto mt-4 pr-3">
+          <div className="grid md:grid-cols-2 gap-6">
+            <div>
+              <div className="bg-white dark:bg-card p-1 rounded-md">
+                <img
+                  src={place.imageUrl || "/images/boc.avif"}
+                  alt={place.name}
+                  className="w-full h-auto rounded-md object-cover"
+                  loading="lazy"
+                />
+              </div>
             </div>
-          </ScrollArea>
-
-          <ScrollArea className="h-full">
-            <div className="space-y-6 sm:pr-4">
+            <div className="space-y-6">
               {historyText && (
                 <div className="prose prose-sm dark:prose-invert max-w-none text-muted-foreground leading-relaxed">
                   <p className="whitespace-pre-wrap">{historyText}</p>
                 </div>
               )}
             </div>
-          </ScrollArea>
+          </div>
         </div>
 
         <DialogClose className="absolute right-4 top-4 rounded-sm opacity-70 ring-offset-background transition-opacity hover:opacity-100 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:pointer-events-none data-[state=open]:bg-accent data-[state=open]:text-muted-foreground">
