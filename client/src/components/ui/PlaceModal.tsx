@@ -54,7 +54,7 @@ export default function PlaceModal({
 
         <div className="grid md:grid-cols-2 gap-6 mt-4 flex-1 overflow-hidden">
           <ScrollArea className="h-full">
-            <div className="hidden md:block bg-white dark:bg-card p-1 rounded-md">
+            <div className="bg-white dark:bg-card p-1 rounded-md">
               <img
                 src={place.imageUrl || "/images/boc.avif"}
                 alt={place.name}

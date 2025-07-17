@@ -54,9 +54,8 @@ export default function DocumentModal({
         </DialogHeader>
 
         <div className="grid md:grid-cols-2 gap-6 mt-4 flex-1 overflow-hidden">
-          {/* --- Lewa Kolumna (Obrazek) --- */}
           <ScrollArea className="h-full">
-            <div className="hidden md:block bg-white dark:bg-card p-1 rounded-md">
+            <div className="bg-white dark:bg-card p-1 rounded-md">
               <img
                 src={document.imageUrl}
                 alt={title}
@@ -66,7 +65,6 @@ export default function DocumentModal({
             </div>
           </ScrollArea>
 
-          {/* --- Prawa Kolumna (Treść) --- */}
           <ScrollArea className="h-full">
             <div className="space-y-6 sm:pr-4">
               {document.extracted_data && (

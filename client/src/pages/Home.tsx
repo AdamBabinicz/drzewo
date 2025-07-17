@@ -138,7 +138,8 @@ export default function Home() {
                     {t("family.gierczak")}
                   </h3>
                   <p className="text-white/90 text-sm">
-                    Jaszowice, Mleczków, Gulinek
+                    Jaszowice, Mleczków, Gulinek, Dąbrówka Nagórna, Klwaty,
+                    Radom
                   </p>
                 </div>
               </div>
