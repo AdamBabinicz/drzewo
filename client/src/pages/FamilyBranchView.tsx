@@ -1,11 +1,12 @@
-// src/components/FamilyBranchView.tsx
+// src/pages/FamilyBranchView.tsx
 import { useRoute } from "wouter";
 import { useQuery } from "@tanstack/react-query";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import PersonModal from "@/components/ui/PersonModal";
 import KeepsakesModal from "@/components/ui/KeepsakesModal";
-import { Person } from "@shared/schema";
+import PlaceModal from "@/components/ui/PlaceModal";
+import { Person, Place } from "@shared/schema";
 import { MapPin, Users, Eye, BookText, ChevronDown, Award } from "lucide-react";
 import { useMemo, useState } from "react";
 import SEO from "@/components/SEO";
@@ -16,7 +17,7 @@ import { getFamilyStructure } from "@/lib/genealogyUtils";
 import FamilyUnitCard from "@/components/ui/FamilyUnitCard";
 
 export default function FamilyBranchView() {
-  const { t, p, language } = useLanguage();
+  const { t, p } = useLanguage();
   const [, params] = useRoute(`${p("familyBase")}/:family`);
   const family = params?.family as "gierczak" | "ofiara";
 
@@ -24,6 +25,8 @@ export default function FamilyBranchView() {
   const [modalOpen, setModalOpen] = useState(false);
   const [etymologyOpen, setEtymologyOpen] = useState(false);
   const [keepsakesPerson, setKeepsakesPerson] = useState<Person | null>(null);
+  const [selectedPlace, setSelectedPlace] = useState<Place | null>(null);
+  const [placeModalOpen, setPlaceModalOpen] = useState(false);
 
   const { data: allPeople = [] } = useQuery({
     queryKey: ["/api/people"],
@@ -53,6 +56,16 @@ export default function FamilyBranchView() {
     setKeepsakesPerson(null);
   };
 
+  const handlePlaceClick = (placeId: string) => {
+    const placeData = genealogyData.places.find(
+      (p) => p.id.toLowerCase() === placeId.toLowerCase()
+    );
+    if (placeData) {
+      setSelectedPlace(placeData);
+      setPlaceModalOpen(true);
+    }
+  };
+
   const familyInfo = {
     gierczak: {
       name: t("family.gierczak"),
@@ -61,7 +74,7 @@ export default function FamilyBranchView() {
       borderColor: "border-heritage-burgundy",
       btnColor: "btn-heritage-burgundy",
       imageUrl: "/images/jaszowice.avif",
-      placeIds: ["jaszowice", "gulinek_gierczak"],
+      placeIds: ["jaszowice", "gulinek_gierczak", "mleczkow"],
     },
     ofiara: {
       name: t("family.ofiara"),
@@ -75,6 +88,38 @@ export default function FamilyBranchView() {
   };
 
   const currentFamily = family ? familyInfo[family] : null;
+
+  const renderDescriptionWithLinks = (description: string) => {
+    const placeLookup: { [key: string]: string } = {
+      Jaszowic: "jaszowice",
+      Gulinku: "gulinek_gierczak",
+      Mleczkowie: "mleczkow",
+      "Dąbrówce Nagórnej": "dabrowka_nagorna",
+      Klwatach: "klwaty",
+      Radomiu: "radom",
+      "Wolą Gutowską": "wola_gutowska",
+      Ludwikowem: "ludwikow",
+    };
+
+    const placeNames = Object.keys(placeLookup);
+    const regex = new RegExp(`(${placeNames.join("|")})`, "g");
+    const parts = description.split(regex);
+
+    return parts.map((part, index) => {
+      if (placeLookup[part]) {
+        return (
+          <button
+            key={index}
+            onClick={() => handlePlaceClick(placeLookup[part])}
+            className="font-semibold text-heritage-burgundy dark:text-heritage-gold hover:underline"
+          >
+            {part}
+          </button>
+        );
+      }
+      return <span key={index}>{part}</span>;
+    });
+  };
 
   if (!family || !currentFamily) {
     return (
@@ -194,7 +239,7 @@ export default function FamilyBranchView() {
                       {t("familyBranch.history.title")}
                     </h2>
                     <p className="text-muted-foreground leading-relaxed mb-4">
-                      {currentFamily.description}
+                      {renderDescriptionWithLinks(currentFamily.description)}
                     </p>
                     <div className="mb-6">
                       <Button
@@ -338,6 +383,12 @@ export default function FamilyBranchView() {
             onClose={handleCloseKeepsakes}
           />
         )}
+
+        <PlaceModal
+          place={selectedPlace}
+          isOpen={placeModalOpen}
+          onClose={() => setPlaceModalOpen(false)}
+        />
       </div>
     </>
   );

@@ -6,7 +6,11 @@
       "pl": "Główna miejscowość rodu Gierczaków",
       "en": "The main locality of the Gierczak family"
     },
-    "imageUrl": "/images/jaszowice.avif"
+    "history": {
+      "pl": "Jaszowice to wieś szlachecka, której historia sięga co najmniej XV wieku. W 1470 roku Jan Długosz w 'Liber beneficiorum' wspomina o niej jako własności Mikołaja i Jana Jaszowskich herbu Jastrzębiec. Przez wieki przechodziła przez ręce różnych rodów szlacheckich. Dla historii chłopskiej kluczowy był wiek XIX, kiedy po uwłaszczeniu włościanie, w tym przodkowie rodu Gierczaków, stali się właścicielami uprawianej przez siebie ziemi. Wieś należała do parafii Cerekiew.",
+      "en": "Jaszowice is a noble village whose history dates back to at least the 15th century. In 1470, Jan Długosz mentions it in 'Liber beneficiorum' as the property of Mikołaj and Jan Jaszowski of the Jastrzębiec coat of arms. Over the centuries, it passed through the hands of various noble families. The 19th century was crucial for peasant history, as after the enfranchisement, peasants, including the ancestors of the Gierczak family, became owners of the land they cultivated. The village belonged to the Cerekiew parish."
+    },
+    "imageUrl": "/images/jasz.avif"
   },
   {
     "id": "ludwikow",
@@ -14,6 +18,10 @@
     "description": {
       "pl": "Jedno z głównych miejsc zamieszkania rodu Ofiarów",
       "en": "One of the main places of residence of the Ofiara family"
+    },
+    "history": {
+      "pl": "Ludwików, podobnie jak sąsiednie wsie, był częścią większych dóbr ziemskich. Jego rozwój jako osady chłopskiej przyspieszył w XIX wieku. Nazwa prawdopodobnie pochodzi od imienia jednego z właścicieli lub administratorów majątku. Położony w bliskim sąsiedztwie Woli Gutowskiej, stał się domem dla wielu rodzin włościańskich, w tym dla gałęzi rodu Ofiara, która przeniosła się tam w poszukiwaniu ziemi i lepszych warunków do życia. Wieś należała do parafii Jankowice, a później Błotnica.",
+      "en": "Ludwików, like neighboring villages, was part of a larger landed estate. Its development as a peasant settlement accelerated in the 19th century. The name likely comes from the name of one of the owners or estate administrators. Located in close proximity to Wola Gutowska, it became home to many peasant families, including the branch of the Ofiara family that moved there in search of land and better living conditions. The village belonged to the Jankowice parish, and later to Błotnica."
     },
     "imageUrl": "/images/ludwikow.avif"
   },
@@ -25,6 +33,10 @@
       "pl": "W Gulinku zamieszkali Paweł Gierczak z Katarzyną Czerwińską.",
       "en": "Paweł Gierczak and Katarzyna Czerwińska settled in Gulinek."
     },
+    "history": {
+      "pl": "Gulinek to niewielka wieś leżąca w historycznej ziemi radomskiej. Jej losy były ściśle związane z pobliskim folwarkiem i parafią w Zakrzewie. W XIX wieku, po reformach uwłaszczeniowych, stał się osadą zamieszkałą przez samodzielnych gospodarzy. Dla rodu Gierczaków Gulinek stał się nowym domem dla gałęzi wywodzącej się od Karola i Tekli, którzy przenieśli się tu z Mleczkowa. To tutaj urodził się m.in. Jan Gierczak, dziadek autora.",
+      "en": "Gulinek is a small village located in the historical Radom land. Its fate was closely tied to the nearby manorial farm and the parish in Zakrzew. In the 19th century, after the enfranchisement reforms, it became a settlement inhabited by independent farmers. For the Gierczak family, Gulinek became a new home for the branch descending from Karol and Tekla, who moved here from Mleczków. It was here that, among others, Jan Gierczak, the author's grandfather, was born."
+    },
     "imageUrl": "/images/gulinek.avif"
   },
   {
@@ -35,43 +47,63 @@
       "pl": "W tym miejscu zamieszkał Józef Ofiara wraz z Rozalią Mitak, a po jej śmierci — z Heleną Sobień.",
       "en": "Józef Ofiara settled here with Rozalia Mitak, and after her death — with Helena Sobień."
     },
+    "history": {
+      "pl": "Gulinek to niewielka wieś leżąca w historycznej ziemi radomskiej. Jej losy były ściśle związane z pobliskim folwarkiem i parafią w Zakrzewie. W XIX wieku, po reformach uwłaszczeniowych, stał się osadą zamieszkałą przez samodzielnych gospodarzy. Dla rodu Ofiarów Gulinek stał się kluczowym miejscem po tym, jak Józef Ofiara poślubił Rozalię Mitak, a później Helenę Sobień, które były związane z tą miejscowością. To tutaj urodziła się m.in. Marianna Ofiara, matka autora.",
+      "en": "Gulinek is a small village located in the historical Radom land. Its fate was closely tied to the nearby manorial farm and the parish in Zakrzew. In the 19th century, after the enfranchisement reforms, it became a settlement inhabited by independent farmers. For the Ofiara family, Gulinek became a key location after Józef Ofiara married Rozalia Mitak, and later Helena Sobień, who were connected to this village. It was here that, among others, Marianna Ofiara, the author's mother, was born."
+    },
     "imageUrl": "/images/gulinek.avif"
   },
   {
     "id": "wola_gutowska",
     "name": "Wola Gutowska",
     "description": {
-      "pl": "Miejsce pochodzenia protoplasty rodu Ofiarów, Jakuba.",
-      "en": "The place of origin of the Ofiara family's progenitor, Jakub."
+      "pl": "Miejsce pochodzenia protoplasty rodu Ofiarów, Konstantego.",
+      "en": "The place of origin of the Ofiara family's progenitor, Konstanty."
     },
-    "imageUrl": "/images/ludwikow.avif"
+    "history": {
+      "pl": "Wola Gutowska była wsią założoną na prawie 'wolnizny', co oznaczało, że jej pierwsi osadnicy byli zwolnieni z pewnych świadczeń na rzecz pana na określony czas. Należała do parafii w Jedlińsku. Jest to kolebka rodu Ofiara, gdzie w drugiej połowie XVIII wieku żył i pracował protoplasta rodu, Konstanty Ofiara. Zapisy metrykalne z parafii Jedlińsk od końca XVIII w. wielokrotnie wymieniają członków tej rodziny jako mieszkańców Woli Gutowskiej.",
+      "en": "Wola Gutowska was a village founded on the law of 'wolnizna' (liberty), which meant that its first settlers were exempt from certain obligations to the lord for a specified period. It belonged to the parish in Jedlińsk. This is the cradle of the Ofiara family, where in the second half of the 18th century, the family's progenitor, Konstanty Ofiara, lived and worked. Vital records from the Jedlińsk parish from the late 18th century repeatedly mention members of this family as residents of Wola Gutowska."
+    },
+    "imageUrl": "/images/wola-g.avif"
   },
   {
-    "id": "wrzos",
-    "name": "Wrzos",
+    "id": "mleczkow",
+    "name": "Mleczków",
     "description": {
-      "pl": "Miejsce urodzenia Franciszka Gierczaka, syna Tomasza.",
-      "en": "Birthplace of Franciszek Gierczak, son of Tomasz."
+      "pl": "Miejsce tymczasowego zamieszkania Karola i Tekli Gierczak.",
+      "en": "Temporary residence of Karol and Tekla Gierczak."
+    },
+    "history": {
+      "pl": "Mleczków to historyczna wieś w pobliżu Radomia, notowana w źródłach już w XV wieku jako własność szlachecka. Należała do parafii Cerekiew. W XIX wieku, w okresie, gdy mieszkali tam przodkowie Gierczaków (np. Paweł Gierczak przed ślubem), była to typowa wieś rolnicza z folwarkiem. Bliskość Radomia sprawiała, że jej mieszkańcy mieli kontakt z miejskim rynkiem i rzemiosłem.",
+      "en": "Mleczków is a historic village near Radom, noted in sources as early as the 15th century as noble property. It belonged to the Cerekiew parish. In the 19th century, when the Gierczak ancestors lived there (e.g., Paweł Gierczak before his marriage), it was a typical agricultural village with a manorial farm. Its proximity to Radom meant that its inhabitants had contact with the urban market and crafts."
+    },
+    "imageUrl": "/images/mleczkow.avif"
+  },
+  {
+    "id": "dabrowka_nagorna",
+    "name": "Dąbrówka Nagórna",
+    "description": {
+      "pl": "Miejsce osiedlenia się potomków rodu Gierczak w XX w.",
+      "en": "A settlement place for Gierczak descendants in the 20th century."
+    },
+    "history": {
+      "pl": "Dąbrówka Nagórna to wieś, której nazwa sugeruje pierwotne położenie wśród dębowych lasów ('dąbrowa') na wzniesieniu. Podobnie jak inne wsie regionu, była częścią dóbr szlacheckich. Z czasem, gdy rodzina Gierczaków się rozrastała, niektórzy jej członkowie, jak Stefan Gierczak (brat ojca autora), osiedlili się w tej miejscowości, tworząc nową gałąź rodziny.",
+      "en": "Dąbrówka Nagórna is a village whose name suggests its original location among oak forests ('dąbrowa') on a hill. Like other villages in the region, it was part of a noble estate. Over time, as the Gierczak family grew, some of its members, such as Stefan Gierczak (the author's father's brother), settled in this village, establishing a new branch of the family."
+    },
+    "imageUrl": "/images/dabrowka.avif"
+  },
+  {
+    "id": "klwaty",
+    "name": "Klwaty",
+    "description": {
+      "pl": "Miejsce osiedlenia się potomków Gierczaków w XX wieku.",
+      "en": "A settlement place for Gierczak descendants in the 20th century."
+    },
+    "history": {
+      "pl": "Klwaty, a właściwie Klwatecka Wola, to wieś położona na północ od Radomia. Jej historia jest związana z rzeką Mleczną i traktem handlowym. Dla dziejów rodu Gierczaków stała się ważna w XX wieku, gdy osiedliła się tam Zofia Chudzińska (z domu Gierczak), siostra ojca autora, kontynuując tradycje rodzinne w nowym miejscu.",
+      "en": "Klwaty, or more precisely Klwatecka Wola, is a village located north of Radom. Its history is tied to the Mleczna River and a trade route. It became significant in the history of the Gierczak family in the 20th century when Zofia Chudzińska (née Gierczak), the author's father's sister, settled there, continuing family traditions in a new location."
     },
     "imageUrl": "/images/jaszowice.avif"
-  },
-  {
-    "id": "chruslice",
-    "name": "Chruślice",
-    "description": {
-      "pl": "Miejsce śmierci Andrzeja Gierczaka.",
-      "en": "Place of death of Andrzej Gierczak."
-    },
-    "imageUrl": ""
-  },
-  {
-    "id": "milejowice",
-    "name": "Milejowice",
-    "description": {
-      "pl": "Miejsce śmierci Jadwigi Kornafel z d. Gierczak.",
-      "en": "Place of death of Jadwiga Kornafel née Gierczak."
-    },
-    "imageUrl": ""
   },
   {
     "id": "radom",
@@ -80,6 +112,10 @@
       "pl": "Miasto, w którym osiedlił się Józef Gierczak i zmarł Stanisław Ofiara vel Borowiecki.",
       "en": "The city where Józef Gierczak settled and Stanisław Ofiara vel Borowiecki died."
     },
-    "imageUrl": ""
+    "history": {
+      "pl": "Radom to historyczne miasto królewskie, którego początki sięgają X wieku. W XV wieku był miejscem zjazdów szlachty i sejmów walnych, tu uchwalono konstytucję 'Nihil novi'. W XIX wieku, pod zaborem rosyjskim, stał się stolicą guberni. Po II wojnie światowej nastąpił gwałtowny rozwój przemysłu, co przyciągało ludność z okolicznych wsi w poszukiwaniu pracy. Dla rodów Gierczak i Ofiara Radom stał się w XX wieku celem migracji zarobkowej, symbolem awansu społecznego i przejścia od życia wiejskiego do miejskiego, co było losem m.in. Józefa Gierczaka, ojca autora.",
+      "en": "Radom is a historic royal city with origins dating back to the 10th century. In the 15th century, it was a site of nobility gatherings and general sejms; the 'Nihil novi' constitution was passed here. In the 19th century, under Russian partition, it became a governorate capital. After World War II, industrial development boomed, attracting people from surrounding villages in search of work. For the Gierczak and Ofiara families, Radom became a destination for economic migration in the 20th century, a symbol of social advancement, and the transition from rural to urban life, which was the fate of, among others, Józef Gierczak, the author's father."
+    },
+    "imageUrl": "/images/radom.avif"
   }
 ]

@@ -53,11 +53,11 @@ export type Person = {
   birthDate?: string | null;
   birthDateNote?: string | null;
   birthTime?: string | null;
-  birthTimeQualifier?: string | null; // <-- ZMIANA: Dodane pole
+  birthTimeQualifier?: string | null;
   deathDate?: string | null;
   deathDateNote?: string | null;
   deathTime?: string | null;
-  deathTimeQualifier?: string | null; // <-- ZMIANA: Dodane pole
+  deathTimeQualifier?: string | null;
   birthPlace?: string | null;
   deathPlace?: string | null;
   occupation: LocalizedString | string | null;
@@ -108,6 +108,7 @@ export type Place = {
   name: string;
   context?: "gierczak" | "ofiara";
   description: LocalizedString | string;
+  history?: LocalizedString;
   imageUrl: string;
 };
 
