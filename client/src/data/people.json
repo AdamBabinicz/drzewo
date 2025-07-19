@@ -944,20 +944,35 @@
     "birthTimeQualifier": "morning",
     "deathDate": "1875-01-15",
     "deathTime": "8:00",
+    "deathTimeQualifier": "morning",
     "photoUrl": null,
     "family": "gierczak",
-    "spouseIds": [148],
+    "spouseIds": [148, 176],
     "childIds": [],
     "parentIds": [4, 8],
     "marriages": [
       {
         "spouseId": 148,
-        "date": "1852"
+        "date": "1852-12-27",
+        "source": {
+          "documentId": 260
+        }
+      },
+      {
+        "spouseId": 176,
+        "date": "1855-08-26",
+        "source": {
+          "documentId": 262
+        },
+        "note": {
+          "pl": "Wiek podany w tym akcie ślubu (18 lat) jest błędny. Zgodnie z jej aktem urodzenia, Marianna miała w tym czasie prawie 22 lata. Rozbieżności w wieku były częstym zjawiskiem w XIX-wiecznych dokumentach.",
+          "en": "The age stated in this marriage record (18 years) is incorrect. Based on her birth certificate, Marianna was nearly 22 years old at the time. Age discrepancies were common in 19th-century documents."
+        }
       }
     ],
     "biography": {
-      "pl": "Córka Ambrożego i Kunegundy. W 1852 roku poślubiła Antoniego, który w dokumentach występuje jako Stępień lub Ślifirczyk. Zmarła w 1875 roku w Jaszowicach.",
-      "en": "Daughter of Ambroży and Kunegunda. In 1852, she married Antoni, who appears in documents as Stępień or Ślifirczyk. She died in 1875 in Jaszowice."
+      "pl": "Córka Ambrożego i Kunegundy. Jej pierwszym mężem był Antoni Stępień (zm. przed 1855). Po jego śmierci, w 1855 roku poślubiła Józefa Ślifirczyka. Zmarła w 1875 roku w Jaszowicach.",
+      "en": "Daughter of Ambroży and Kunegunda. Her first husband was Antoni Stępień (d. before 1855). After his death, she married Józef Ślifirczyk in 1855. She died in 1875 in Jaszowice."
     },
     "events": [
       {
@@ -1010,9 +1025,12 @@
     "id": 63,
     "firstName": "Kacper",
     "lastName": "Gierczak",
-    "birthDate": "1826",
+    "birthDate": "1826-01-01",
+    "birthTime": "10:00",
+    "birthTimeQualifier": "morning",
     "deathDate": "1903-12-15",
     "deathTime": "9:00",
+    "deathTimeQualifier": "morning",
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [105, 106],
@@ -1021,11 +1039,17 @@
     "marriages": [
       {
         "spouseId": 105,
-        "date": "1848"
+        "date": "1848-01-24",
+        "source": {
+          "documentId": 259
+        }
       },
       {
         "spouseId": 106,
-        "date": "1893"
+        "date": "1893-11-21",
+        "source": {
+          "documentId": 261
+        }
       }
     ],
     "biography": {
@@ -1033,6 +1057,14 @@
       "en": "Son of Ambroży and Kunegunda. His first wife was Marianna Moskwa, with whom he had two children. After her death, in 1893, he married the widow Franciszka Mortka née Skop."
     },
     "events": [
+      {
+        "type": "birth",
+        "date": "1826-01-01",
+        "place": "Jaszowice",
+        "source": {
+          "documentId": 258
+        }
+      },
       {
         "type": "death",
         "date": "1903-12-15",
@@ -1047,7 +1079,9 @@
     "id": 64,
     "firstName": "Ludwika",
     "lastName": "Gierczak",
-    "birthDate": "1831",
+    "birthDate": "1831-08-25",
+    "birthTime": "10:00",
+    "birthTimeQualifier": "morning",
     "deathDate": null,
     "photoUrl": null,
     "family": "gierczak",
@@ -1055,15 +1089,27 @@
     "childIds": [],
     "parentIds": [4, 8],
     "biography": {
-      "pl": "Córka Ambrożego i Kunegundy.",
-      "en": "Daughter of Ambroży and Kunegunda."
-    }
+      "pl": "Córka Ambrożego i Kunegundy. Urodzona w Jaszowicach (parafia Cerekiew).",
+      "en": "Daughter of Ambroży and Kunegunda. Born in Jaszowice (Cerekiew parish)."
+    },
+    "events": [
+      {
+        "type": "birth",
+        "date": "1831-08-25",
+        "place": "Jaszowice",
+        "source": {
+          "documentId": 256
+        }
+      }
+    ]
   },
   {
     "id": 65,
     "firstName": "Franciszka",
     "lastName": "Gierczak",
-    "birthDate": "1835",
+    "birthDate": "1835-10-25",
+    "birthTime": "10:00",
+    "birthTimeQualifier": "morning",
     "deathDate": null,
     "photoUrl": null,
     "family": "gierczak",
@@ -1073,7 +1119,17 @@
     "biography": {
       "pl": "Córka Ambrożego i Kunegundy.",
       "en": "Daughter of Ambroży and Kunegunda."
-    }
+    },
+    "events": [
+      {
+        "type": "birth",
+        "date": "1835-10-25",
+        "place": "Jaszowice",
+        "source": {
+          "documentId": 257
+        }
+      }
+    ]
   },
   {
     "id": 66,
@@ -1951,7 +2007,10 @@
     "marriages": [
       {
         "spouseId": 63,
-        "date": "1848"
+        "date": "1848-01-24",
+        "source": {
+          "documentId": 259
+        }
       }
     ],
     "biography": {
@@ -1972,12 +2031,15 @@
     "marriages": [
       {
         "spouseId": 63,
-        "date": "1893"
+        "date": "1893-11-21",
+        "source": {
+          "documentId": 261
+        }
       }
     ],
     "biography": {
-      "pl": "Druga żona Kacpra Gierczaka. Jej nazwisko panieńskie to Skop. Wyszła za niego za mąż jako wdowa po Mortce.",
-      "en": "Second wife of Kacper Gierczak. Her maiden name was Skop. She married him as a widow after Mortka."
+      "pl": "Druga żona Kacpra Gierczaka. Jej nazwisko panieńskie to Skop. Wyszła za niego za mąż jako wdowa po Wojciechu Mortce. Córka Filipa i Marianny z Potyrałów.",
+      "en": "Second wife of Kacper Gierczak. Her maiden name was Skop. She married him as the widow of Wojciech Mortka. Daughter of Filip and Marianna née Potyrała."
     }
   },
   {
@@ -2932,9 +2994,10 @@
   {
     "id": 148,
     "firstName": "Antoni",
-    "lastName": "Ślifirczyk vel Stępień",
+    "lastName": "Stępień",
     "birthDateNote": "ok. 1827",
     "deathDate": null,
+    "deathDateNote": "przed 1855-08-26",
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [61],
@@ -2943,12 +3006,15 @@
     "marriages": [
       {
         "spouseId": 61,
-        "date": "1852"
+        "date": "1852-12-27",
+        "source": {
+          "documentId": 260
+        }
       }
     ],
     "biography": {
-      "pl": "Mąż Marianny z domu Gierczak. W dokumentach występuje pod dwoma nazwiskami: Stępień (akt ślubu w 1852 r.) oraz Ślifirczyk (akt zgonu żony w 1875 r., gdzie miał 48 lat). Prawdopodobnie jest to ta sama osoba.",
-      "en": "Husband of Marianna née Gierczak. He appears in documents under two surnames: Stępień (marriage record in 1852) and Ślifirczyk (wife's death record in 1875, where he was 48 years old). This is likely the same person."
+      "pl": "Pierwszy mąż Marianny z domu Gierczak. Zmarł przed sierpniem 1855 roku.",
+      "en": "First husband of Marianna née Gierczak. He died before August 1855."
     }
   },
   {
@@ -3573,5 +3639,55 @@
         }
       }
     ]
+  },
+  {
+    "id": 176,
+    "firstName": "Józef",
+    "lastName": "Ślifirczyk",
+    "birthDateNote": "ok. 1835",
+    "family": "gierczak",
+    "spouseIds": [61],
+    "childIds": [],
+    "parentIds": [177, 178],
+    "marriages": [
+      {
+        "spouseId": 61,
+        "date": "1855-08-26",
+        "source": {
+          "documentId": 262
+        }
+      }
+    ],
+    "biography": {
+      "pl": "Drugi mąż Marianny z d. Gierczak, wdowy po Antonim Stępniu. Syn Antoniego i Moniki z Owczarków.",
+      "en": "Second husband of Marianna née Gierczak, widow of Antoni Stępień. Son of Antoni and Monika née Owczarek."
+    }
+  },
+  {
+    "id": 177,
+    "firstName": "Antoni",
+    "lastName": "Ślifirczyk",
+    "family": "gierczak",
+    "spouseIds": [178],
+    "childIds": [176],
+    "parentIds": [],
+    "biography": {
+      "pl": "Mąż Moniki z d. Owczarek, ojciec Józefa Ślifirczyka.",
+      "en": "Husband of Monika née Owczarek, father of Józef Ślifirczyk."
+    }
+  },
+  {
+    "id": 178,
+    "firstName": "Monika",
+    "lastName": "Ślifirczyk",
+    "maidenName": "Owczarek",
+    "family": "gierczak",
+    "spouseIds": [177],
+    "childIds": [176],
+    "parentIds": [],
+    "biography": {
+      "pl": "Żona Antoniego Ślifirczyka, matka Józefa.",
+      "en": "Wife of Antoni Ślifirczyk, mother of Józef."
+    }
   }
 ]

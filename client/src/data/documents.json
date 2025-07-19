@@ -2800,5 +2800,280 @@
         "value_en": "Stefan (Szczepan) and Małgorzata née Kowalczyk"
       }
     ]
+  },
+  {
+    "id": 256,
+    "title_pl": "Akt Urodzenia: Ludwika Gierczak (1831)",
+    "title_en": "Birth Record: Ludwika Gierczak (1831)",
+    "type": "birth_record",
+    "description_pl": "Parafia Cerekiew, akt nr 36, 1831 r.",
+    "description_en": "Cerekiew Parish, record no. 36, 1831.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się we wsi Cerekwi Dnia dwudziestego siódmego Sierpnia Roku Tysiąc ośmset trzydziestego pierwszego o godzinie dziesiątej rano. Stawił się Ambroży Gierczak Wyrobnik w Jaszowicach zamieszkały, lat trzydzieści ieden maiący, w obecności Walentego Baćmagi lat czterdzieści cztery i Szymona Wawrzeńczyka lat trzydzieści ośm maiących, obydwóch Wyrobników w Jaszowicach zamieszkałych, i okazał Nam Dziecię płci żeńskiey, urodzone w Jaszowicach w Domu pod Numerem dwudziestym trzecim Dnia dwudziestego piątego Miesiąca Sierpnia Roku tegoż o godzinie dziesiątey rano, z Jego Małżonki Kunegundy z Kaniów lat trzydzieści maiącey. Dziecięciu temu na Chrzcie Świętym w Dniu dzisiejszym nadane zostało Imię Ludwika, a Rodzicami Jego Chrzestnymi byli: Paweł Karcz i Katarzyna Pawłowa. Akt ten Stawaiącemu i Świadkom przeczytany, pisać nie umieiącym, podpisany został. X. Kłobossowski Proboszcz Parafii Cerekiewskiey.",
+    "translation_pl": "Zdarzyło się we wsi Cerekiew, dnia 27 sierpnia 1831 roku o godzinie dziesiątej rano. Stawił się Ambroży Gierczak, robotnik rolny zamieszkały w Jaszowicach, mający 31 lat, w obecności Walentego Baćmagi (lat 44) i Szymona Wawrzeńczyka (lat 38), obu robotników rolnych zamieszkałych w Jaszowicach. Okazał nam dziecko płci żeńskiej, urodzone w Jaszowicach w domu pod numerem 23, dnia 25 sierpnia bieżącego roku o godzinie dziesiątej rano, z jego małżonki Kunegundy z domu Kania, mającej 30 lat. Dziecku temu na chrzcie świętym w dniu dzisiejszym nadano imię Ludwika, a jego rodzicami chrzestnymi byli Paweł Karcz i Katarzyna Pawłowa. Akt ten stawiającemu i świadkom, którzy nie umieją pisać, przeczytano i podpisano. Ks. Kłobossowski, Proboszcz Parafii Cerekiew.",
+    "translation_en": "It happened in the village of Cerekiew on August 27, 1831, at ten o'clock in the morning. Appeared Ambroży Gierczak, an agricultural laborer residing in Jaszowice, aged 31, in the presence of Walenty Baćmaga (44 years old) and Szymon Wawrzeńczyk (38 years old), both agricultural laborers residing in Jaszowice. He presented to us a female child, born in Jaszowice in the house at number 23, on August 25 of the current year at ten o'clock in the morning, to his wife Kunegunda née Kania, aged 30. At the Holy Baptism held today, this child was given the name Ludwika, and her godparents were Paweł Karcz and Katarzyna Pawłowa. This act was read to the declarant and witnesses, who are illiterate, and was signed. Fr. Kłobossowski, Pastor of the Cerekiew Parish.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Ambroży Gierczak, 31 lat",
+        "value_en": "Ambroży Gierczak, 31 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Kunegunda z Kaniów, 30 lat",
+        "value_en": "Kunegunda née Kania, 30 years old"
+      },
+      {
+        "label_pl": "Chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Paweł Karcz i Katarzyna Pawłowa",
+        "value_en": "Paweł Karcz and Katarzyna Pawłowa"
+      }
+    ]
+  },
+  {
+    "id": 257,
+    "title_pl": "Akt Urodzenia: Franciszka Gierczak (1835)",
+    "title_en": "Birth Record: Franciszka Gierczak (1835)",
+    "type": "birth_record",
+    "description_pl": "Parafia Cerekiew, akt nr 89, 1835 r.",
+    "description_en": "Cerekiew Parish, record no. 89, 1835.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się we wsi Cerekwi Dnia dwudziestego siódmego Października Roku Tysiąc ośmset trzydziestego piątego o godzinie dziesiątej rano. Stawił się Ambroży Gierczak Wyrobnik w Jaszowicach zamieszkały, lat trzydzieści pięć maiący, w obecności Walentego Baćmagi lat czterdzieści ośm i Szymona Wawrzeńczyka lat czterdzieści dwa maiących, obydwóch Wyrobników w Jaszowicach zamieszkałych, i okazał Nam Dziecię płci żeńskiey, urodzone w Jaszowicach w Domu pod Numerem dwudziestym trzecim Dnia dwudziestego piątego Miesiąca Października Roku tegoż o godzinie dziesiątey rano, z Jego Małżonki Kunegundy z Kaniów lat trzydzieści cztery maiącey. Dziecięciu temu na Chrzcie Świętym w Dniu dzisiejszym nadane zostało Imię Franciszka, a Rodzicami Jego Chrzestnymi byli: Paweł Karcz i Katarzyna Pawłowa. Akt ten Stawaiącemu i Świadkom przeczytany, pisać nie umieiącym, podpisany został. X. Kłobossowski Proboszcz Parafii Cerekiewskiey.",
+    "translation_pl": "Zdarzyło się we wsi Cerekiew, dnia 27 października 1835 roku o godzinie dziesiątej rano. Stawił się Ambroży Gierczak, robotnik rolny zamieszkały w Jaszowicach, mający 35 lat, w obecności Walentego Baćmagi (lat 48) i Szymona Wawrzeńczyka (lat 42), obu robotników rolnych zamieszkałych w Jaszowicach. Okazał nam dziecko płci żeńskiej, urodzone w Jaszowicach w domu pod numerem 23, dnia 25 października bieżącego roku o godzinie dziesiątej rano, z jego małżonki Kunegundy z domu Kania, mającej 34 lata. Dziecku temu na chrzcie świętym w dniu dzisiejszym nadano imię Franciszka, a jego rodzicami chrzestnymi byli Paweł Karcz i Katarzyna Pawłowa. Akt ten stawiającemu i świadkom, którzy nie umieją pisać, przeczytano i podpisano. Ks. Kłobossowski, Proboszcz Parafii Cerekiew.",
+    "translation_en": "It happened in the village of Cerekiew on October 27, 1835, at ten o'clock in the morning. Appeared Ambroży Gierczak, an agricultural laborer residing in Jaszowice, aged 35, in the presence of Walenty Baćmaga (48 years old) and Szymon Wawrzeńczyk (42 years old), both agricultural laborers residing in Jaszowice. He presented to us a female child, born in Jaszowice in the house at number 23, on October 25 of the current year at ten o'clock in the morning, to his wife Kunegunda née Kania, aged 34. At the Holy Baptism held today, this child was given the name Franciszka, and her godparents were Paweł Karcz and Katarzyna Pawłowa. This act was read to the declarant and witnesses, who are illiterate, and was signed. Fr. Kłobossowski, Pastor of the Cerekiew Parish.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Ambroży Gierczak, 35 lat",
+        "value_en": "Ambroży Gierczak, 35 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Kunegunda z Kaniów, 34 lata",
+        "value_en": "Kunegunda née Kania, 34 years old"
+      },
+      {
+        "label_pl": "Chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Paweł Karcz i Katarzyna Pawłowa",
+        "value_en": "Paweł Karcz and Katarzyna Pawłowa"
+      }
+    ]
+  },
+  {
+    "id": 258,
+    "title_pl": "Akt Urodzenia: Kacper Gierczak (1826)",
+    "title_en": "Birth Record: Kacper Gierczak (1826)",
+    "type": "birth_record",
+    "description_pl": "Parafia Cerekiew, akt nr 1, 1826 r.",
+    "description_en": "Cerekiew Parish, record no. 1, 1826.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się we wsi Cerekwi Dnia Drugiego Stycznia Roku Tysiąc Ośmset Dwudziestego Szóstego o godzinie drugiey po południu. Stawił się Ambroży Gierczak Wyrobnik w Jaszowicach zamieszkały, lat dwadzieścia sześć maiący, w obecności Walentego Baćmagi lat czterdzieści i Jakuba Zycha lat czterdzieści sześć maiących, obydwóch Włościan w Jaszowicach zamieszkałych, i okazał Nam Dziecię płci męskiey, urodzone w Jaszowicach w Domu pod Numerem dwudziestym trzecim Dnia Pierwszego Miesiąca Stycznia Roku tegoż o godzinie dziesiątej rano, z Jego Małżonki Kunegundy z Kaniów lat dwadzieścia pięć maiącey. Dziecięciu temu na Chrzcie Świętym w Dniu dzisiejszym odbytym nadane zostało Imię Kacper, a Rodzicami Jego Chrzestnymi byli: Paweł Karcz i Katarzyna Pawłowa. Akt ten Stawaiącemu i Świadkom przeczytany, pisać nie umieiącym, podpisany został. X. Stanisław Kłobossowski Proboszcz Parafii Cerekiewskiey.",
+    "translation_pl": "Zdarzyło się we wsi Cerekiew, dnia 2 stycznia 1826 roku o godzinie drugiej po południu. Stawił się Ambroży Gierczak, robotnik rolny zamieszkały w Jaszowicach, mający 26 lat, w obecności Walentego Baćmagi (lat 40) i Jakuba Zycha (lat 46), obu włościan zamieszkałych w Jaszowicach. Okazał nam dziecko płci męskiej, urodzone w Jaszowicach w domu pod numerem 23, dnia 1 stycznia bieżącego roku o godzinie dziesiątej rano, z jego małżonki Kunegundy z domu Kania, mającej 25 lat. Dziecku temu na chrzcie świętym, który odbył się w dniu dzisiejszym, nadano imię Kacper, a jego rodzicami chrzestnymi byli Paweł Karcz i Katarzyna Pawłowa. Akt ten stawiającemu i świadkom, którzy nie umieją pisać, przeczytano i podpisano. Ks. Stanisław Kłobossowski, Proboszcz Parafii Cerekiew.",
+    "translation_en": "It happened in the village of Cerekiew on January 2, 1826, at two o'clock in the afternoon. Appeared Ambroży Gierczak, an agricultural laborer residing in Jaszowice, aged 26, in the presence of Walenty Baćmaga (40 years old) and Jakub Zych (46 years old), both peasants residing in Jaszowice. He presented to us a male child, born in Jaszowice in the house at number 23, on January 1 of the current year at ten o'clock in the morning, to his wife Kunegunda née Kania, aged 25. At the Holy Baptism held today, this child was given the name Kacper, and his godparents were Paweł Karcz and Katarzyna Pawłowa. This act was read to the declarant and witnesses, who are illiterate, and was signed. Fr. Stanisław Kłobossowski, Pastor of the Cerekiew Parish.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Ambroży Gierczak, 26 lat",
+        "value_en": "Ambroży Gierczak, 26 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Kunegunda z Kaniów, 25 lat",
+        "value_en": "Kunegunda née Kania, 25 years old"
+      },
+      {
+        "label_pl": "Chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Paweł Karcz i Katarzyna Pawłowa",
+        "value_en": "Paweł Karcz and Katarzyna Pawłowa"
+      }
+    ]
+  },
+  {
+    "id": 259,
+    "title_pl": "Akt Ślubu: Kacper Gierczak i Marianna Moskwa (1848)",
+    "title_en": "Marriage Record: Kacper Gierczak & Marianna Moskwa (1848)",
+    "type": "marriage_record",
+    "description_pl": "Parafia Cerekiew, akt nr 5, 1848 r.",
+    "description_en": "Cerekiew Parish, record no. 5, 1848.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się we Wsi Cerekwi Dnia dwudziestego czwartego Stycznia Roku Tysiąc Ośmset czterdziestego ósmego o godzinie drugiey po południu. Wiadomo czyniemy, iż w przytomności Świadków, Mikołaja Kornafla lat dwadzieścia sześć i Franciszka Warchoła lat czterdzieści ośm maiących, obydwóch Włościan w Jaszowicach zamieszkałych, zawarte zostało Religiyne Małżeństwo między Kacprem Gierczakiem, Kawalerem, Wyrobnikiem w Jaszowicach zamieszkałym, lat dwadzieścia dwa maiącym, synem niegdy Ambrożego i Kunegundy z Kaniów Małżonków Gierczaków; a Maryanną Moskwianką, Panną, przy Matce zostającą, w Jaszowicach zamieszkałą, lat dwadzieścia dwa maiącą, córką niegdy Jana i Maryanny Małżonków Moskwów. Małżeństwo to poprzedziły trzy zapowiedzi w Dniach dziewiątym, szesnastym i dwudziestym trzecim Stycznia Roku bieżącego w tutejszym Parafialnym Kościele ogłoszone. (...) Nowożeńcy oświadczyli, iż żadna umowa przedślubna między niemi nie była zawarta. Akt ten po przeczytaniu Stawającym i Świadkom, gdy pisać nie umieją, podpisaliśmy. X. Stanisław Kłobossowski Proboszcz Parafii Cerekiewskiey.",
+    "translation_pl": "Zdarzyło się we wsi Cerekiew, dnia 24 stycznia 1848 roku o godzinie drugiej po południu. Czynimy wiadomo, że w obecności świadków, Mikołaja Kornafla (lat 26) i Franciszka Warchoła (lat 48), obu włościan zamieszkałych w Jaszowicach, zawarte zostało religijne małżeństwo pomiędzy Kacprem Gierczakiem, kawalerem, robotnikiem rolnym zamieszkałym w Jaszowicach, lat 22, synem zmarłego Ambrożego i Kunegundy z Kaniów, małżonków Gierczaków; a Marianną Moskwianką, panną, pozostającą przy matce, zamieszkałą w Jaszowicach, lat 22, córką zmarłego Jana i Marianny, małżonków Moskwów. Małżeństwo to poprzedziły trzy zapowiedzi ogłoszone w dniach 9, 16 i 23 stycznia bieżącego roku w tutejszym kościele parafialnym. Nowożeńcy oświadczyli, że nie zawarli umowy przedślubnej. Akt ten stawiającym i świadkom, którzy nie umieją pisać, po przeczytaniu podpisaliśmy. Ks. Stanisław Kłobossowski, Proboszcz Parafii Cerekiew.",
+    "translation_en": "It happened in the village of Cerekiew on January 24, 1848, at two o'clock in the afternoon. We make it known that in the presence of witnesses, Mikołaj Kornafel (aged 26) and Franciszek Warchoł (aged 48), both peasants residing in Jaszowice, a religious marriage was contracted between Kacper Gierczak, a bachelor, an agricultural laborer residing in Jaszowice, aged 22, son of the late Ambroży and Kunegunda née Kania, spouses Gierczak; and Marianna Moskwianka, a maiden, staying with her mother, residing in Jaszowice, aged 22, daughter of the late Jan and Marianna, spouses Moskwa. This marriage was preceded by three banns announced on the 9th, 16th, and 23rd of January of the current year in the local parish church. The newlyweds declared that no prenuptial agreement was made between them. This act, after being read to the declarants and witnesses, who are illiterate, was signed by us. Fr. Stanisław Kłobossowski, Pastor of the Cerekiew Parish.",
+    "extracted_data": [
+      {
+        "label_pl": "Pan Młody",
+        "label_en": "Groom",
+        "value_pl": "Kacper Gierczak, 22 lata, kawaler",
+        "value_en": "Kacper Gierczak, 22 years old, bachelor"
+      },
+      {
+        "label_pl": "Rodzice Pana Młodego",
+        "label_en": "Groom's Parents",
+        "value_pl": "Ambroży i Kunegunda z Kaniów",
+        "value_en": "Ambroży and Kunegunda née Kania"
+      },
+      {
+        "label_pl": "Panna Młoda",
+        "label_en": "Bride",
+        "value_pl": "Marianna Moskwa (Moskwianka), 22 lata, panna",
+        "value_en": "Marianna Moskwa (Moskwianka), 22 years old, maiden"
+      },
+      {
+        "label_pl": "Rodzice Panny Młodej",
+        "label_en": "Bride's Parents",
+        "value_pl": "Jan i Marianna Moskwa",
+        "value_en": "Jan and Marianna Moskwa"
+      }
+    ]
+  },
+  {
+    "id": 260,
+    "title_pl": "Akt Ślubu: Antoni Stępień i Marianna Gierczak (1852)",
+    "title_en": "Marriage Record: Antoni Stępień & Marianna Gierczak (1852)",
+    "type": "marriage_record",
+    "description_pl": "Parafia Cerekiew, akt nr 35, 1852 r. Dokument potwierdza, że Antoni w chwili ślubu nosił nazwisko Stępień.",
+    "description_en": "Cerekiew Parish, record no. 35, 1852. The document confirms that at the time of his marriage, Antoni used the surname Stępień.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się we Wsi Cerekwi Dnia dwudziestego siódmego Grudnia Roku Tysiąc Ośmset pięćdziesiątego drugiego o godzinie drugiey po południu. Wiadomo czyniemy, iż w przytomności Świadków, Kacpra Gierczaka lat dwadzieścia sześć i Franciszka Kornafela lat trzydzieści maiących, obydwóch Włościan w Jaszowicach zamieszkałych, zawarte zostało Religiyne Małżeństwo między Antonim Stępniem, Kawalerem, wyrobnikiem w Chruślicach zamieszkałym, lat dwadzieścia pięć maiącym, synem Tomasza i Katarzyny z Górnych Małżonków Stępniów; a Maryanną Gierczakowną, Panną, przy familii w Jaszowicach zostającą, lat dziewiętnaście maiącą, córką Ambrożego i Kunegundy zmarłey, niegdyś Małżonków Gierczaków. Małżeństwo to poprzedziły trzy zapowiedzi w Dniach siódmym, czternastym i dwudziestym pierwszym Grudnia Roku bieżącego w tutejszym Parafialnym Kościele ogłoszone. Nowożeńcy oświadczyli, iż żadna umowa przedślubna między niemi nie była zawarta. Akt ten po przeczytaniu Stawającym i Świadkom, gdy pisać nie umieją, podpisaliśmy. X. Stanisław Kłobossowski Proboszcz Parafii Cerekiewskiey.",
+    "translation_pl": "Zdarzyło się we wsi Cerekiew, dnia 27 grudnia 1852 roku o godzinie drugiej po południu. Czynimy wiadomo, że w obecności świadków, Kacpra Gierczaka (lat 26) i Franciszka Kornafela (lat 30), obu włościan zamieszkałych w Jaszowicach, zawarte zostało religijne małżeństwo pomiędzy Antonim Stępniem, kawalerem, robotnikiem rolnym zamieszkałym w Chruślicach, lat 25, synem Tomasza i Katarzyny z Górnych, małżonków Stępniów; a Marianną Gierczakówną, panną, pozostającą przy rodzinie w Jaszowicach, lat 19, córką Ambrożego i zmarłej Kunegundy, niegdyś małżonków Gierczaków. Małżeństwo to poprzedziły trzy zapowiedzi ogłoszone w dniach 7, 14 i 21 grudnia bieżącego roku w tutejszym kościele parafialnym. Nowożeńcy oświadczyli, że nie zawarli umowy przedślubnej. Akt ten stawiającym i świadkom, którzy nie umieją pisać, po przeczytaniu podpisaliśmy. Ks. Stanisław Kłobossowski, Proboszcz Parafii Cerekiew.",
+    "translation_en": "It happened in the village of Cerekiew on December 27, 1852, at two o'clock in the afternoon. We make it known that in the presence of witnesses, Kacper Gierczak (aged 26) and Franciszek Kornafel (aged 30), both peasants residing in Jaszowice, a religious marriage was contracted between Antoni Stępień, a bachelor, an agricultural laborer residing in Chruślice, aged 25, son of Tomasz and Katarzyna née Górna, spouses Stępień; and Marianna Gierczakówna, a maiden, staying with her family in Jaszowice, aged 19, daughter of Ambroży and the deceased Kunegunda, formerly spouses Gierczak. This marriage was preceded by three banns announced on the 7th, 14th, and 21st of December of the current year in the local parish church. The newlyweds declared that no prenuptial agreement was made between them. This act, after being read to the declarants and witnesses, who are illiterate, was signed by us. Fr. Stanisław Kłobossowski, Pastor of the Cerekiew Parish.",
+    "extracted_data": [
+      {
+        "label_pl": "Pan Młody",
+        "label_en": "Groom",
+        "value_pl": "Antoni Stępień, 25 lat, kawaler",
+        "value_en": "Antoni Stępień, 25 years old, bachelor"
+      },
+      {
+        "label_pl": "Rodzice Pana Młodego",
+        "label_en": "Groom's Parents",
+        "value_pl": "Tomasz i Katarzyna z Górnych",
+        "value_en": "Tomasz and Katarzyna née Górna"
+      },
+      {
+        "label_pl": "Panna Młoda",
+        "label_en": "Bride",
+        "value_pl": "Marianna Gierczak, 19 lat, panna",
+        "value_en": "Marianna Gierczak, 19 years old, maiden"
+      },
+      {
+        "label_pl": "Rodzice Panny Młodej",
+        "label_en": "Bride's Parents",
+        "value_pl": "Ambroży i Kunegunda (zm.)",
+        "value_en": "Ambroży and Kunegunda (dec.)"
+      }
+    ]
+  },
+  {
+    "id": 261,
+    "title_pl": "Akt Ślubu: Kacper Gierczak i Franciszka Mortka z d. Skop (1893)",
+    "title_en": "Marriage Record: Kacper Gierczak & Franciszka Mortka née Skop (1893)",
+    "type": "marriage_record",
+    "description_pl": "Parafia Cerekiew, akt nr 50, 1893 r. Drugi ślub Kacpra Gierczaka.",
+    "description_en": "Cerekiew Parish, record no. 50, 1893. Second marriage of Kacper Gierczak.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Состоялось въ Черекви Ноября девятаго (двадцать первого) дня тысяча восемьсотъ девяносто третьяго года, въ три часа по полудни. Объявляемъ, что въ присутствіи свидѣтелей Іосифа Бацьмаги и Францишка Вархола, крестьянъ изъ Яшовицъ, заключенъ въ этотъ день религіозный обрядъ бракосочетанія между Касперомъ Герчакомъ, вдовцомъ по умершей Марiаннѣ изъ Московъ, шестидесяти семи лѣтъ отъ роду, сыномъ умершихъ Амврожія и Кунегунды, крестьянъ, родившимся и проживающимъ въ Яшовицахъ, и Францишкою изъ Скоповъ Мортковою, вдовою по умершемъ въ Яшовицахъ Войцѣхѣ Морткѣ, пятидесяти лѣтъ отъ роду, дочерью Филиппа и Марiанны изъ Потыраловъ, родившеюся въ Тржпоню и проживающею въ Яшовицахъ. Бракосочетанію этому предшествовали три оглашенія... Новобрачные объявили, что брачнаго договора они между собою не заключали... Этотъ актъ... нами только подписанъ.",
+    "translation_pl": "Działo się w Cerekwi dnia dziewiątego (dwudziestego pierwszego) listopada tysiąc osiemset dziewięćdziesiątego trzeciego roku, o godzinie trzeciej po południu. Oświadczamy, że w obecności świadków Józefa Baćmagi i Franciszka Warchoła, włościan z Jaszowic, zawarty został dzisiaj religijny obrzęd zawarcia małżeństwa między Kacprem Gierczakiem, wdowcem po zmarłej Mariannie z domu Moskwa, lat sześćdziesiąt siedem, synem zmarłych Ambrożego i Kunegundy, włościan, urodzonym i zamieszkałym w Jaszowicach, a Franciszką z domu Skop Mortkową, wdową po zmarłym w Jaszowicach Wojciechu Mortce, lat pięćdziesiąt, córką Filipa i Marianny z Potyrałów, urodzoną w Trzponiu i zamieszkałą w Jaszowicach. Małżeństwo to poprzedziły trzy zapowiedzi... Nowożeńcy oświadczyli, że nie zawarli między sobą umowy przedślubnej... Akt ten... tylko przez nas podpisany.",
+    "translation_en": "It happened in Cerekiew on the ninth (twenty-first) of November, eighteen hundred and ninety-three, at three o'clock in the afternoon. We declare that in the presence of witnesses Józef Baćmaga and Franciszek Warchoł, peasants from Jaszowice, a religious marriage ceremony was contracted today between Kacper Gierczak, a widower after the deceased Marianna née Moskwa, sixty-seven years old, son of the deceased Ambroży and Kunegunda, peasants, born and residing in Jaszowice, and Franciszka née Skop Mortkowa, a widow after Wojciech Mortka who died in Jaszowice, fifty years old, daughter of Filip and Marianna née Potyrała, born in Trzpoń and residing in Jaszowice. This marriage was preceded by three banns... The newlyweds declared that they had not entered into a prenuptial agreement... This act... was signed only by us.",
+    "extracted_data": [
+      {
+        "label_pl": "Pan Młody",
+        "label_en": "Groom",
+        "value_pl": "Kacper Gierczak, 67 lat, wdowiec",
+        "value_en": "Kacper Gierczak, 67 years old, widower"
+      },
+      {
+        "label_pl": "Panna Młoda",
+        "label_en": "Bride",
+        "value_pl": "Franciszka Mortka z d. Skop, 50 lat, wdowa",
+        "value_en": "Franciszka Mortka née Skop, 50 years old, widow"
+      },
+      {
+        "label_pl": "Rodzice Pana Młodego",
+        "label_en": "Groom's Parents",
+        "value_pl": "Ambroży i Kunegunda",
+        "value_en": "Ambroży and Kunegunda"
+      },
+      {
+        "label_pl": "Rodzice Panny Młodej",
+        "label_en": "Bride's Parents",
+        "value_pl": "Filip i Marianna z Potyrałów",
+        "value_en": "Filip and Marianna née Potyrała"
+      }
+    ]
+  },
+  {
+    "id": 262,
+    "title_pl": "Akt Ślubu: Józef Ślifirczyk i Marianna Stępniowa z d. Gierczak (1855)",
+    "title_en": "Marriage Record: Józef Ślifirczyk & Marianna Stępniowa née Gierczak (1855)",
+    "type": "marriage_record",
+    "description_pl": "Parafia Cerekiew, akt nr 20, 1855 r. Drugi ślub Marianny Gierczak, wdowy po Antonim Stępniu.",
+    "description_en": "Cerekiew Parish, record no. 20, 1855. The second marriage of Marianna Gierczak, widow of Antoni Stępień.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się we wsi Cerekwi, dnia dwudziestego szóstego Sierpnia tysiąc ośmset pięćdziesiątego piątego roku o godzinie pierwszej po południu. Wiadomo czynimy, że w przytomności świadków Grzegorza Łepeckiego lat trzydzieści trzy i Franciszka Kowalika zamieszkałych gospodarzy, na dniu dzisiejszym zawarte zostało religijne małżeństwo między Józefem Ślifirczykiem, młodzianem, urodzonym w Janiszewie, z Antoniego i Moniki z Owczarków małżonków Ślifirczyków, gospodarzem, lat dwadzieścia mającym, a Maryanną z Gierczaków Stępniową, wdową, urodzoną w Jaszewicach, córką Ambrożego i Kunegundy z Kaimów małżonków Gierczaków, lat ośmnaście mającą, przy rodzicach zostającą. Małżeństwo to poprzedziły trzy zapowiedzi ogłoszone w dniach trzynastym, dziewiętnastym i dwudziestym szóstym Sierpnia roku bieżącego w parafii Cerekiew. Nowożeńcy oświadczyli iż umowy przedślubnej nie zawarli. Akt ten stawającym i świadkom niepiśmiennym przeczytany, przez nas podpisany został. Xiądz Józef Gajewicz proboszcz Cerekiewski.",
+    "translation_pl": "Zdarzyło się we wsi Cerekiew, dnia 26 sierpnia 1855 roku o godzinie pierwszej po południu. Czynimy wiadomo, że w obecności świadków, Grzegorza Łepeckiego (lat 33) i Franciszka Kowalika, gospodarzy, na dniu dzisiejszym zawarte zostało religijne małżeństwo pomiędzy Józefem Ślifirczykiem, młodzieńcem, urodzonym w Janiszewie, synem Antoniego i Moniki z Owczarków, małżonków Ślifirczyków, gospodarzem, lat 20; a Marianną z Gierczaków Stępniową, wdową, urodzoną w Jaszewicach, córką Ambrożego i Kunegundy z Kaimów, małżonków Gierczaków, lat 18, pozostającą przy rodzicach. Małżeństwo to poprzedziły trzy zapowiedzi ogłoszone w dniach 13, 19 i 26 sierpnia bieżącego roku w parafii Cerekiew. Nowożeńcy oświadczyli, że nie zawarli umowy przedślubnej. Akt ten stawiającym i świadkom, którzy nie umieją pisać, po przeczytaniu podpisaliśmy. Ksiądz Józef Gajewicz, proboszcz cerekiewski.",
+    "translation_en": "It happened in the village of Cerekiew on August 26, 1855, at one o'clock in the afternoon. We make it known that in the presence of witnesses, Grzegorz Łepecki (aged 33) and Franciszek Kowalik, farmers, a religious marriage was contracted today between Józef Ślifirczyk, a young man, born in Janiszew, son of Antoni and Monika née Owczarek, spouses Ślifirczyk, a farmer, aged 20; and Marianna née Gierczak Stępniowa, a widow, born in Jaszowice, daughter of Ambroży and Kunegunda née Kaim, spouses Gierczak, aged 18, staying with her parents. This marriage was preceded by three banns announced on the 13th, 19th, and 26th of August of the current year in the Cerekiew parish. The newlyweds declared that they did not enter into a prenuptial agreement. This act was read to the declarants and witnesses, who are illiterate, and was signed by us. Father Józef Gajewicz, Cerekiew parish priest.",
+    "extracted_data": [
+      {
+        "label_pl": "Pan Młody",
+        "label_en": "Groom",
+        "value_pl": "Józef Ślifirczyk, 20 lat",
+        "value_en": "Józef Ślifirczyk, 20 years old"
+      },
+      {
+        "label_pl": "Rodzice Pana Młodego",
+        "label_en": "Groom's Parents",
+        "value_pl": "Antoni i Monika z Owczarków",
+        "value_en": "Antoni and Monika née Owczarek"
+      },
+      {
+        "label_pl": "Panna Młoda",
+        "label_en": "Bride",
+        "value_pl": "Marianna Stępniowa z d. Gierczak, 18 lat, wdowa",
+        "value_en": "Marianna Stępniowa née Gierczak, 18 years old, widow"
+      },
+      {
+        "label_pl": "Rodzice Panny Młodej",
+        "label_en": "Bride's Parents",
+        "value_pl": "Ambroży i Kunegunda z Kaimów",
+        "value_en": "Ambroży and Kunegunda née Kaim"
+      }
+    ]
+  },
+  {
+    "id": 263,
+    "firstName": "Antoni",
+    "lastName": "Ślifirczyk",
+    "family": "gierczak",
+    "spouseIds": [264],
+    "childIds": [262],
+    "parentIds": [],
+    "biography": {
+      "pl": "Mąż Moniki z d. Owczarek, ojciec Józefa Ślifirczyka.",
+      "en": "Husband of Monika née Owczarek, father of Józef Ślifirczyk."
+    }
+  },
+  {
+    "id": 264,
+    "firstName": "Monika",
+    "lastName": "Ślifirczyk",
+    "maidenName": "Owczarek",
+    "family": "gierczak",
+    "spouseIds": [263],
+    "childIds": [262],
+    "parentIds": [],
+    "biography": {
+      "pl": "Żona Antoniego Ślifirczyka, matka Józefa.",
+      "en": "Wife of Antoni Ślifirczyk, mother of Józef."
+    }
   }
 ]
