@@ -2996,8 +2996,8 @@
     "firstName": "Antoni",
     "lastName": "Stępień",
     "birthDateNote": "ok. 1827",
-    "deathDate": null,
-    "deathDateNote": "przed 1855-08-26",
+    "deathDate": "1854-11-27",
+    "deathTime": "00:00",
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [61],
@@ -3013,9 +3013,19 @@
       }
     ],
     "biography": {
-      "pl": "Pierwszy mąż Marianny z domu Gierczak. Zmarł przed sierpniem 1855 roku.",
-      "en": "First husband of Marianna née Gierczak. He died before August 1855."
-    }
+      "pl": "Pierwszy mąż Marianny z domu Gierczak. Zmarł w wieku 27 lat w Chruślicach.",
+      "en": "First husband of Marianna née Gierczak. He died at the age of 27 in Chruślice."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1854-11-27",
+        "place": "Chruślice",
+        "source": {
+          "documentId": 263
+        }
+      }
+    ]
   },
   {
     "id": 149,
@@ -3645,6 +3655,9 @@
     "firstName": "Józef",
     "lastName": "Ślifirczyk",
     "birthDateNote": "ok. 1835",
+    "deathDate": "1912-12-30",
+    "deathTime": "10:00",
+    "deathTimeQualifier": "morning",
     "family": "gierczak",
     "spouseIds": [61],
     "childIds": [],
@@ -3659,9 +3672,19 @@
       }
     ],
     "biography": {
-      "pl": "Drugi mąż Marianny z d. Gierczak, wdowy po Antonim Stępniu. Syn Antoniego i Moniki z Owczarków.",
-      "en": "Second husband of Marianna née Gierczak, widow of Antoni Stępień. Son of Antoni and Monika née Owczarek."
-    }
+      "pl": "Drugi mąż Marianny z d. Gierczak, wdowy po Antonim Stępniu. Syn Antoniego i Moniki z Owczarków. Zmarł w Jaszowicach w wieku 77 lat.",
+      "en": "Second husband of Marianna née Gierczak, widow of Antoni Stępień. Son of Antoni and Monika née Owczarek. He died in Jaszowice at the age of 77."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1912-12-30",
+        "place": "Jaszowice",
+        "source": {
+          "documentId": 264
+        }
+      }
+    ]
   },
   {
     "id": 177,

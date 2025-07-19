@@ -3051,29 +3051,66 @@
   },
   {
     "id": 263,
-    "firstName": "Antoni",
-    "lastName": "Ślifirczyk",
-    "family": "gierczak",
-    "spouseIds": [264],
-    "childIds": [262],
-    "parentIds": [],
-    "biography": {
-      "pl": "Mąż Moniki z d. Owczarek, ojciec Józefa Ślifirczyka.",
-      "en": "Husband of Monika née Owczarek, father of Józef Ślifirczyk."
-    }
+    "title_pl": "Akt Zgonu: Antoni Stępień (1854)",
+    "title_en": "Death Record: Antoni Stępień (1854)",
+    "type": "death_record",
+    "description_pl": "Parafia Cerekiew, akt nr 175, 1854 r. Zmarł w Chruślicach w wieku 27 lat.",
+    "description_en": "Cerekiew Parish, record no. 175, 1854. Died in Chruślice at the age of 27.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się we wsi Cerekiew, dnia dwudziestego siódmego Listopada, tysiąc ośmset pięćdziesiątego czwartego roku o godzinie dwunastej w południe. Stawili się, Tomasz Stępień, ojciec zmarłego, lat pięćdziesiąt sześć, i Wojciech Dygas, lat trzydzieści dwa, obydwa włościanie w Chruślicach zamieszkali; i oświadczyli iż we wsi Chruślicach o godzinie dwunastej w nocy umarł Antoni Stępień, włościanin, syn Tomasza i Katarzyny małżonków Stępniów, zostawiwszy po sobie owdowiałą żonę Maryannę z Gierczaków, maiący lat dwadzieścia siedm. Po naocznym przekonaniu się o śmierci Antoniego Stępnia, Akt ten stawającym i świadkom pisać nieumiejącym, przeczytany, przez nas podpisany został. X. Hipolit Czupryński Proboszcz Parafii Cerekiew.",
+    "translation_pl": "Zdarzyło się we wsi Cerekiew, dnia 27 listopada 1854 roku, o godzinie dwunastej w południu. Stawili się Tomasz Stępień, ojciec zmarłego, lat 56, i Wojciech Dygas, lat 32, obaj włościanie zamieszkali w Chruślicach. Oświadczyli oni, że we wsi Chruślice o godzinie dwunastej w nocy zmarł Antoni Stępień, włościanin, syn Tomasza i Katarzyny małżonków Stępniów. Zostawił po sobie owdowiałą żonę Mariannę z Gierczaków, mający 27 lat. Po naocznym stwierdzeniu śmierci Antoniego Stępnia, akt ten stawiającym i świadkom, którzy nie umieją pisać, przeczytano i przez nas podpisano. Ks. Hipolit Czupryński, Proboszcz Parafii Cerekiew.",
+    "translation_en": "It happened in the village of Cerekiew on the twenty-seventh of November, eighteen hundred and fifty-four, at twelve o'clock noon. Appeared Tomasz Stępień, the father of the deceased, aged 56, and Wojciech Dygas, aged 32, both peasants residing in Chruślice. They declared that in the village of Chruślice at twelve o'clock at night, Antoni Stępień, a peasant, son of Tomasz and Katarzyna, the Stępień spouses, passed away. He left behind his widowed wife Marianna née Gierczak, being 27 years old. After visually confirming the death of Antoni Stępień, this act was read to the declarants and witnesses, who are illiterate, and was signed by us. Fr. Hipolit Czupryński, Pastor of the Cerekiew Parish.",
+    "extracted_data": [
+      {
+        "label_pl": "Wiek",
+        "label_en": "Age",
+        "value_pl": "27 lat",
+        "value_en": "27 years"
+      },
+      {
+        "label_pl": "Rodzice",
+        "label_en": "Parents",
+        "value_pl": "Tomasz i Katarzyna Stępień",
+        "value_en": "Tomasz and Katarzyna Stępień"
+      },
+      {
+        "label_pl": "Małżonka",
+        "label_en": "Spouse",
+        "value_pl": "Marianna z Gierczaków",
+        "value_en": "Marianna née Gierczak"
+      }
+    ]
   },
   {
     "id": 264,
-    "firstName": "Monika",
-    "lastName": "Ślifirczyk",
-    "maidenName": "Owczarek",
-    "family": "gierczak",
-    "spouseIds": [263],
-    "childIds": [262],
-    "parentIds": [],
-    "biography": {
-      "pl": "Żona Antoniego Ślifirczyka, matka Józefa.",
-      "en": "Wife of Antoni Ślifirczyk, mother of Józef."
-    }
+    "title_pl": "Akt Zgonu: Józef Ślifirczyk (1912)",
+    "title_en": "Death Record: Józef Ślifirczyk (1912)",
+    "type": "death_record",
+    "description_pl": "Parafia Cerekiew, akt nr 132, 1912 r. Zmarł w Jaszowicach w wieku 77 lat.",
+    "description_en": "Cerekiew Parish, record no. 132, 1912. Died in Jaszowice at the age of 77.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Состоялось въ деревнѣ Черекви, тридцатого Декабря тысяча девятьсотъ двѣнадцатаго года, въ десять часовъ утра. Явились Адамъ Михальскій шестьдесяти пяти и Янъ Банасѣвичъ, сорока шести лѣтъ отъ роду, оба крестьяне и жители деревни Яшовицъ и объявили что тридцатого Декабря сего года, въ десять часовъ утра умеръ въ Яшовицахъ Іосифъ Слифирчикъ, крестьянинъ, вдовецъ по Маріаннѣ изъ Герчаковъ, семидесяти семи лѣтъ отъ роду, сынъ Антона и Моники, по фамиліи неизвестныхъ. По удостовѣреніи о кончинѣ Іосифа Слифирчика, актъ сей присутствующимъ неграмотнымъ прочитанъ, и нами только подписанъ.",
+    "translation_pl": "Działo się we wsi Cerekiew, trzydziestego grudnia tysiąc dziewięćset dwunastego roku, o godzinie dziesiątej rano. Stawili się Adam Michalski, lat sześćdziesiąt pięć, i Jan Banasiewicz, lat czterdzieści sześć, obaj włościanie i mieszkańcy wsi Jaszowice, i oświadczyli, że trzydziestego grudnia tego roku o godzinie dziesiątej rano zmarł w Jaszowicach Józef Ślifirczyk, włościanin, wdowiec po Mariannie z Gierczaków, lat siedemdziesiąt siedem, syn Antoniego i Moniki, z nazwiska nieznanych. Po naocznym stwierdzeniu zgonu Józefa Ślifirczyka, akt ten obecnym niepiśmiennym przeczytano i tylko przez nas podpisany.",
+    "translation_en": "It happened in the village of Cerekiew, on the thirtieth of December, nineteen hundred and twelve, at ten o'clock in the morning. Appeared Adam Michalski, sixty-five years old, and Jan Banasiewicz, forty-six years old, both peasants and residents of the village of Jaszowice, and they declared that on the thirtieth of December of this year at ten o'clock in the morning, Józef Ślifirczyk, a peasant, widower of Marianna née Gierczak, passed away in Jaszowice, aged seventy-seven, son of Antoni and Monika, whose surnames are unknown. After visually confirming the death of Józef Ślifirczyk, this act was read to the illiterate persons present and was signed only by us.",
+    "extracted_data": [
+      {
+        "label_pl": "Wiek",
+        "label_en": "Age",
+        "value_pl": "77 lat",
+        "value_en": "77 years"
+      },
+      {
+        "label_pl": "Rodzice",
+        "label_en": "Parents",
+        "value_pl": "Antoni i Monika",
+        "value_en": "Antoni and Monika"
+      },
+      {
+        "label_pl": "Małżonka (zmarła)",
+        "label_en": "Spouse (deceased)",
+        "value_pl": "Marianna z Gierczaków",
+        "value_en": "Marianna née Gierczak"
+      }
+    ]
   }
 ]
