@@ -37,6 +37,7 @@ export default function Navbar() {
     { name: t("nav.home"), href: p("home") },
     { name: t("nav.tree"), href: p("tree") },
     { name: t("nav.index"), href: p("index") },
+    { name: t("nav.witnessIndex"), href: p("witnessIndex") },
     { name: t("nav.gallery"), href: p("gallery") },
     { name: t("nav.sources"), href: p("sources") },
   ];

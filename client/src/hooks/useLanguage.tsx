@@ -15,7 +15,6 @@ type LanguageProviderState = {
   p: (key: string) => string;
 };
 
-// WAŻNA ZMIANA: Znika "as const" na końcu
 const translations = {
   pl: {
     "nav.title": "Korzenie rodu Gierczak i Ofiara",
@@ -25,6 +24,7 @@ const translations = {
     "nav.tree": "Drzewo Interaktywne",
     "nav.families": "Rody",
     "nav.index": "Indeks Osób",
+    "nav.witnessIndex": "Skorowidz Świadków",
     "nav.gallery": "Galeria",
     "nav.sources": "Źródła",
     "nav.toggleTheme": "Zmień motyw",
@@ -88,6 +88,16 @@ const translations = {
       "Spróbuj zmienić kryteria wyszukiwania lub wyczyść filtry.",
     "index.noResults.cta": "Wyczyść filtry",
     "index.showMore": "Pokaż więcej osób",
+    "witnessIndex.title": "Skorowidz Świadków",
+    "witnessIndex.subtitle":
+      "Spis świadków, rodziców chrzestnych i zgłaszających z dokumentów metrykalnych.",
+    "witnessIndex.searchPlaceholder": "Szukaj świadka...",
+    "witnessIndex.residence": "Miejsce zamieszkania",
+    "witnessIndex.appearsIn": "Występuje w dokumencie(ach)",
+    "witnessIndex.documentLink": "Akt nr {id}",
+    "witnessIndex.resultsFound": "Znaleziono {count} świadków",
+    "witnessIndex.noResults.title": "Nie znaleziono świadków",
+    "witnessIndex.noResults.desc": "Spróbuj zmienić kryteria wyszukiwania.",
     "gallery.title": "Galeria Rodzinna",
     "gallery.subtitle":
       "Portrety, dokumenty i miejsca związane z historią rodzin.",
@@ -349,6 +359,7 @@ const translations = {
       home: "/",
       tree: "/drzewo",
       index: "/indeks-osob",
+      witnessIndex: "/skorowidz-swiadkow",
       gallery: "/galeria",
       sources: "/zrodla",
       familyBase: "/rod",
@@ -364,6 +375,7 @@ const translations = {
     "nav.tree": "Interactive Tree",
     "nav.families": "Families",
     "nav.index": "Person Index",
+    "nav.witnessIndex": "Witness Index",
     "nav.gallery": "Gallery",
     "nav.sources": "Sources",
     "nav.toggleTheme": "Toggle theme",
@@ -427,6 +439,16 @@ const translations = {
       "Try changing the search criteria or clearing the filters.",
     "index.noResults.cta": "Clear filters",
     "index.showMore": "Show more people",
+    "witnessIndex.title": "Witness Index",
+    "witnessIndex.subtitle":
+      "A list of witnesses, godparents, and informants from vital records.",
+    "witnessIndex.searchPlaceholder": "Search for a witness...",
+    "witnessIndex.residence": "Residence",
+    "witnessIndex.appearsIn": "Appears in document(s)",
+    "witnessIndex.documentLink": "Record No. {id}",
+    "witnessIndex.resultsFound": "Found {count} witnesses",
+    "witnessIndex.noResults.title": "No Witnesses Found",
+    "witnessIndex.noResults.desc": "Try changing your search criteria.",
     "gallery.title": "Family Gallery",
     "gallery.subtitle":
       "Portraits, documents, and places related to the family history.",
@@ -693,6 +715,7 @@ const translations = {
       home: "/",
       tree: "/tree",
       index: "/person-index",
+      witnessIndex: "/witness-index",
       gallery: "/gallery",
       sources: "/sources",
       familyBase: "/family",

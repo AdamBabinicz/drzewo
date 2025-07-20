@@ -3112,5 +3112,165 @@
         "value_en": "Marianna née Gierczak"
       }
     ]
+  },
+  {
+    "id": 265,
+    "title_pl": "Akt Urodzenia: Franciszka Gerczak (1851)",
+    "title_en": "Birth Record: Franciszka Gerczak (1851)",
+    "type": "birth_record",
+    "description_pl": "Parafia Cerekiew, akt nr 98, 1851 r.",
+    "description_en": "Cerekiew Parish, record no. 98, 1851.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się we wsi Cerekwi, dnia dwudziestego siódmego Sierpnia tysiąc ośmset pięćdziesiątego pierwszego roku, o godzinie czwartej po południu. Stawił się Kacper Gerczak, wyrobnik w Jaszowicach zamieszkały, lat dwadzieścia cztery mający, w obecności Walentego Baćmagi lat pięćdziesiąt cztery i Franciszka Warchoła lat pięćdziesiąt dwa mających, obydwóch włościan w Jaszowicach zamieszkałych, i okazał Nam dziecię płci żeńskiej, urodzone w Jaszowicach w domu pod numerem dwudziestym trzecim, dnia dwudziestego siódmego miesiąca Sierpnia roku tegoż o godzinie szóstej rano, z jego małżonki Marianny z Moskwów, lat dwadzieścia trzy mającej. Dziecięciu temu na chrzcie świętym w dniu dzisiejszym odbytym, nadane zostało imię Franciszka, a rodzicami jego chrzestnymi byli Wojciech Warchoł i Katarzyna Baćmażanka. Akt ten stawiającemu i świadkom przeczytany, pisać nie umiejącym, przez Nas tylko podpisany został.",
+    "translation_pl": "Zdarzyło się we wsi Cerekiew, dnia 27 sierpnia 1851 roku, o godzinie czwartej po południu. Stawił się Kacper Gerczak, robotnik rolny zamieszkały w Jaszowicach, mający 24 lata, w obecności Walentego Baćmagi (lat 54) i Franciszka Warchoła (lat 52), obu włościan zamieszkałych w Jaszowicach. Okazał nam dziecko płci żeńskiej, urodzone w Jaszowicach w domu pod numerem 23, dnia 27 sierpnia bieżącego roku o godzinie szóstej rano, z jego małżonki Marianny z domu Moskwów, mającej 23 lata. Dziecku temu na chrzcie świętym, który odbył się w dniu dzisiejszym, nadano imię Franciszka, a jego rodzicami chrzestnymi byli Wojciech Warchoł i Katarzyna Baćmażanka. Akt ten stawiającemu i świadkom, którzy nie umieją pisać, przeczytano i tylko przez nas podpisano.",
+    "translation_en": "It happened in the village of Cerekiew on August 27, 1851, at four o'clock in the afternoon. Appeared Kacper Gerczak, an agricultural laborer residing in Jaszowice, aged 24, in the presence of Walenty Baćmaga (aged 54) and Franciszek Warchoł (aged 52), both peasants residing in Jaszowice. He presented to us a female child, born in Jaszowice in the house at number 23, on August 27 of the current year at six o'clock in the morning, to his wife Marianna née Moskwa, aged 23. At the Holy Baptism held today, this child was given the name Franciszka, and her godparents were Wojciech Warchoł and Katarzyna Baćmażanka. This act was read to the declarant and witnesses, who are illiterate, and was signed only by us.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Kacper Gerczak, 24 lata",
+        "value_en": "Kacper Gerczak, 24 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Marianna z Moskwów, 23 lata",
+        "value_en": "Marianna née Moskwa, 23 years old"
+      },
+      {
+        "label_pl": "Rodzice chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Wojciech Warchoł i Katarzyna Baćmażanka",
+        "value_en": "Wojciech Warchoł and Katarzyna Baćmażanka"
+      }
+    ]
+  },
+  {
+    "id": 266,
+    "title_pl": "Akt Urodzenia: Józef Gierczak (1890)",
+    "title_en": "Birth Record: Józef Gierczak (1890)",
+    "type": "birth_record",
+    "description_pl": "Parafia Zakrzew (Zakrzów), akt nr 11, 1890 r.",
+    "description_en": "Zakrzew (Zakrzów) Parish, record no. 11, 1890.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Состоялось въ деревнѣ Закшевѣ, десятаго (двадцать второго) Февраля тысяча восемьсотъ девяностаго года, въ часъ по полудни. Явился Павелъ Герчакъ, тридцати четырехъ лѣтъ отъ роду, земледелецъ, житель деревни Гулинекъ, въ присутствіи Станислава Плевінскаго пятидесяти семи, и Францишка Зелинскаго, пятидесяти четырехъ лѣтъ отъ роду, обоихъ земледельцевъ изъ деревни Гулинекъ, и предъявилъ намъ младенца мужескаго пола, объявляя, что онъ родился въ деревнѣ Гулинекъ седьмого (девятнадцатого) сего Февраля въ шесть часовъ вечера, отъ jego законной жены Катаржины урожденной Червинскихъ, двадцати четырехъ лѣтъ отъ роду. Младенцу сему при святомъ крещеніи совершенномъ сего числа дано имя Іосифъ, а воспріемниками его были: Станиславъ Плевінскій и Францишка Зелинская. Этотъ актъ объявляющему и свидѣтелямъ неграмотнымъ прочитанъ, Нами только подписанъ.",
+    "translation_pl": "Działo się we wsi Zakrzew, dziesiątego (dwudziestego drugiego) lutego tysiąc osiemset dziewięćdziesiątego roku, o godzinie pierwszej po południu. Stawił się Paweł Gierczak, lat trzydzieści cztery, rolnik, mieszkaniec wsi Gulinek, w obecności Stanisława Plewińskiego, lat pięćdziesiąt siedem, i Franciszka Zielińskiego, lat pięćdziesiąt cztery, obu rolników ze wsi Gulinek, i okazał nam niemowlę płci męskiej, oświadczając, że urodziło się ono we wsi Gulinek siódmego (dziewiętnastego) bieżącego lutego o godzinie szóstej wieczorem, z jego prawowitej żony Katarzyny z domu Czerwińskich, lat dwadzieścia cztery. Niemowlęciu temu przy chrzcie świętym, który odbył się dzisiaj, nadano imię Józef, a jego rodzicami chrzestnymi byli: Stanisław Plewiński i Franciszka Zielińska. Akt ten oświadczającemu i świadkom, którzy są niepiśmienni, został przeczytany i tylko przez nas podpisany.",
+    "translation_en": "It happened in the village of Zakrzew, on the tenth (twenty-second) of February, eighteen hundred and ninety, at one o'clock in the afternoon. Appeared Paweł Gierczak, thirty-four years old, a farmer, resident of the village of Gulinek, in the presence of Stanisław Plewiński, fifty-seven years old, and Franciszek Zieliński, fifty-four years old, both farmers from the village of Gulinek, and he presented to us a male infant, declaring that he was born in the village of Gulinek on the seventh (nineteenth) of the current February at six o'clock in the evening, to his lawful wife Katarzyna née Czerwińska, twenty-four years old. At the holy baptism performed this day, this infant was given the name Józef, and his godparents were: Stanisław Plewiński and Franciszka Zielińska. This act was read to the declarant and the illiterate witnesses, and signed only by us.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Paweł Gierczak, 34 lata",
+        "value_en": "Paweł Gierczak, 34 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Katarzyna z Czerwińskich, 24 lata",
+        "value_en": "Katarzyna née Czerwińska, 24 years old"
+      },
+      {
+        "label_pl": "Rodzice chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Stanisław Plewiński i Franciszka Zielińska",
+        "value_en": "Stanisław Plewiński and Franciszka Zielińska"
+      }
+    ]
+  },
+  {
+    "id": 267,
+    "title_pl": "Akt Zgonu: Józef Gierczak (1926)",
+    "title_en": "Death Record: Józef Gierczak (1926)",
+    "type": "death_record",
+    "description_pl": "Parafia Zakrzew (Zakrzów), akt nr 9, 1926 r.",
+    "description_en": "Zakrzew (Zakrzów) Parish, record no. 9, 1926.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się w Zakrzewie piątego lutego tysiąc dziewięćset dwudziestego szóstego roku, o godzinie dziewiątej. Stawili się: Stanisław Orłowski i Szczepan Kowalik, obaj pełnoletni zamieszkali w Gulinku i oświadczyli, iż dnia trzeciego lutego bieżącego roku o godzinie dwunastej zmarł w Gulinku Józef Gierczak, dwa tygodnie mający, syn Stanisława i Anieli z Brokowskich. Po naocznem przekonaniu się o śmierci Józefa Gierczaka, akt ten świadkom przeczytany, własnoręcznym podpisem.",
+    "translation_pl": "Działo się w Zakrzewie piątego lutego tysiąc dziewięćset dwudziestego szóstego roku, o godzinie dziewiątej. Stawili się: Stanisław Orłowski i Szczepan Kowalik, obaj pełnoletni zamieszkali w Gulinku i oświadczyli, iż dnia trzeciego lutego bieżącego roku o godzinie dwunastej zmarł w Gulinku Józef Gierczak, dwa tygodnie mający, syn Stanisława i Anieli z Brokowskich. Po naocznem przekonaniu się o śmierci Józefa Gierczaka, akt ten świadkom przeczytany, własnoręcznym podpisem.",
+    "translation_en": "It happened in Zakrzew on February 5, 1926, at nine o'clock. Appeared: Stanisław Orłowski and Szczepan Kowalik, both adults residing in Gulinek, and they declared that on the third of February of the current year at twelve o'clock, Józef Gierczak passed away in Gulinek, aged two weeks, son of Stanisław and Aniela née Brokowska. After visually confirming the death of Józef Gierczak, this act was read to the witnesses and affirmed with our own signature.",
+    "extracted_data": [
+      {
+        "label_pl": "Wiek",
+        "label_en": "Age",
+        "value_pl": "Dwa tygodnie",
+        "value_en": "Two weeks"
+      },
+      {
+        "label_pl": "Rodzice",
+        "label_en": "Parents",
+        "value_pl": "Stanisław Gierczak i Aniela z Brokowskich",
+        "value_en": "Stanisław Gierczak and Aniela née Brokowska"
+      },
+      {
+        "label_pl": "Świadkowie",
+        "label_en": "Witnesses",
+        "value_pl": "Stanisław Orłowski i Szczepan Kowalik",
+        "value_en": "Stanisław Orłowski and Szczepan Kowalik"
+      }
+    ]
+  },
+  {
+    "id": 268,
+    "title_pl": "Akt Urodzenia: Stanisław Gierczak (1893)",
+    "title_en": "Birth Record: Stanisław Gierczak (1893)",
+    "type": "birth_record",
+    "description_pl": "Parafia Zakrzew (Zakrzów), akt nr 66, 1893 r.",
+    "description_en": "Zakrzew (Zakrzów) Parish, record no. 66, 1893.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Состоялось въ деревнѣ Закшевѣ, десятаго (двадцать второго) Іюня тысяча восемьсотъ девяносто третьяго года, въ часъ по полудни. Явился Павелъ Герчакъ, тридцати шести лѣтъ отъ роду, земледелецъ, житель деревни Гулинекъ, въ присутствіи Станислава Плевінскаго шестидесяти, и Францишка Зелинскаго, пятидесяти семи лѣтъ отъ роду, обоихъ земледельцевъ изъ деревни Гулинекъ, и предъявилъ намъ младенца мужескаго пола, объявляя, что онъ родился въ деревнѣ Гулинекъ шестого (осемнадцатого) сего Іюня въ семь часовъ утра, отъ его законной жены Катаржины урожденной Червинскихъ, двадцати шести лѣтъ отъ роду. Младенцу сему при святомъ крещеніи совершенномъ сего числа дано имя Станиславъ, а воспріемниками его были: Станиславъ Плевінскій и Францишка Зелинская. Этотъ актъ объявляющему и свидѣтелямъ неграмотнымъ прочитанъ, Нами только подписанъ.",
+    "translation_pl": "Działo się we wsi Zakrzew, dziesiątego (dwudziestego drugiego) czerwca tysiąc osiemset dziewięćdziesiątego trzeciego roku, o godzinie pierwszej po południu. Stawił się Paweł Gierczak, lat trzydzieści sześć, rolnik, mieszkaniec wsi Gulinek, w obecności Stanisława Plewińskiego, lat sześćdziesiąt, i Franciszka Zielińskiego, lat pięćdziesiąt siedem, obu rolników ze wsi Gulinek, i okazał nam niemowlę płci męskiej, oświadczając, że urodziło się ono we wsi Gulinek szóstego (osiemnastego) bieżącego czerwca o godzinie siódmej rano, z jego prawowitej żony Katarzyny z domu Czerwińskich, lat dwadzieścia sześć. Niemowlęciu temu przy chrzcie świętym, który odbył się dzisiaj, nadano imię Stanisław, a jego rodzicami chrzestnymi byli: Stanisław Plewiński i Franciszka Zielińska. Akt ten oświadczającemu i świadkom, którzy są niepiśmienni, został przeczytany i tylko przez nas podpisany.",
+    "translation_en": "It happened in the village of Zakrzew, on the tenth (twenty-second) of June, eighteen hundred and ninety-three, at one o'clock in the afternoon. Appeared Paweł Gierczak, thirty-six years old, a farmer, resident of the village of Gulinek, in the presence of Stanisław Plewiński, sixty years old, and Franciszek Zieliński, fifty-seven years old, both farmers from the village of Gulinek, and he presented to us a male infant, declaring that he was born in the village of Gulinek on the sixth (eighteenth) of the current June at seven o'clock in the morning, to his lawful wife Katarzyna née Czerwińska, twenty-six years old. At the holy baptism performed this day, this infant was given the name Stanisław, and his godparents were: Stanisław Plewiński and Franciszka Zielińska. This act was read to the declarant and the illiterate witnesses, and signed only by us.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Paweł Gierczak, 36 lat",
+        "value_en": "Paweł Gierczak, 36 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Katarzyna z Czerwińskich, 26 lat",
+        "value_en": "Katarzyna née Czerwińska, 26 years old"
+      },
+      {
+        "label_pl": "Rodzice chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Stanisław Plewiński i Franciszka Zielińska",
+        "value_en": "Stanisław Plewiński and Franciszka Zielińska"
+      }
+    ]
+  },
+  {
+    "id": 269,
+    "title_pl": "Akt Zgonu: Franciszek Gierczak (1926)",
+    "title_en": "Death Record: Franciszek Gierczak (1926)",
+    "type": "death_record",
+    "description_pl": "Parafia Zakrzew (Zakrzów), akt nr 36, 1926 r.",
+    "description_en": "Zakrzew (Zakrzów) Parish, record no. 36, 1926.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się w Zakrzewie piętnastego marca tysiąc dziewięćset dwudziestego szóstego roku, o godzinie dziewiątej. Stawili się: Władysław Kozyra i Jan Mitak, obaj pełnoletni zamieszkali w Gulinku i oświadczyli, iż dnia jedenastego marca bieżącego roku, o godzinie dwudziestej zmarł w Gulinku Franciszek Gierczak, dwa miesiące mający, syn Stanisława i Anieli z Burakowskich. Po naocznem przekonaniu się o śmierci Franciszka Gierczaka, akt ten świadkom przeczytany, własnoręcznym podpisem.",
+    "translation_pl": "Działo się w Zakrzewie piętnastego marca tysiąc dziewięćset dwudziestego szóstego roku, o godzinie dziewiątej. Stawili się: Władysław Kozyra i Jan Mitak, obaj pełnoletni zamieszkali w Gulinku i oświadczyli, iż dnia jedenastego marca bieżącego roku, o godzinie dwudziestej zmarł w Gulinku Franciszek Gierczak, dwa miesiące mający, syn Stanisława i Anieli z Burakowskich. Po naocznem przekonaniu się o śmierci Franciszka Gierczaka, akt ten świadkom przeczytany, własnoręcznym podpisem.",
+    "translation_en": "It happened in Zakrzew on March 15, 1926, at nine o'clock. Appeared: Władysław Kozyra and Jan Mitak, both adults residing in Gulinek, and they declared that on the eleventh of March of the current year at eight p.m. (20:00), Franciszek Gierczak passed away in Gulinek, aged two months, son of Stanisław and Aniela née Burakowska. After visually confirming the death of Franciszek Gierczak, this act was read to the witnesses and affirmed with our own signature.",
+    "extracted_data": [
+      {
+        "label_pl": "Wiek",
+        "label_en": "Age",
+        "value_pl": "Dwa miesiące",
+        "value_en": "Two months"
+      },
+      {
+        "label_pl": "Rodzice",
+        "label_en": "Parents",
+        "value_pl": "Stanisław Gierczak i Aniela z Burakowskich",
+        "value_en": "Stanisław Gierczak and Aniela née Burakowska"
+      },
+      {
+        "label_pl": "Świadkowie",
+        "label_en": "Witnesses",
+        "value_pl": "Władysław Kozyra i Jan Mitak",
+        "value_en": "Władysław Kozyra and Jan Mitak"
+      }
+    ]
   }
 ]

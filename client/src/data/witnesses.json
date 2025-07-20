@@ -1,0 +1,896 @@
+[
+  {
+    "lastName": "Adamski",
+    "firstName": "Adam",
+    "residence": "Chruślice",
+    "documentIds": [61]
+  },
+  {
+    "lastName": "Baczyński",
+    "firstName": "Bolesław",
+    "residence": "Błotnica",
+    "documentIds": [220]
+  },
+  {
+    "lastName": "Baduski",
+    "firstName": "Jan",
+    "residence": "Przytyk",
+    "documentIds": [236, 237]
+  },
+  {
+    "lastName": "Baćmaga",
+    "firstName": "Antoni",
+    "residence": "Gulinek",
+    "documentIds": [233, 234]
+  },
+  {
+    "lastName": "Baćmaga",
+    "firstName": "Jan",
+    "residence": "Gulinek",
+    "documentIds": [105, 107, 235, 238]
+  },
+  {
+    "lastName": "Baćmaga",
+    "firstName": "Józef",
+    "residence": "Jaszowice",
+    "documentIds": [9, 127]
+  },
+  {
+    "lastName": "Baćmaga",
+    "firstName": "Stanisław",
+    "residence": "Gulinek",
+    "documentIds": [224]
+  },
+  {
+    "lastName": "Baćmaga",
+    "firstName": "Walenty",
+    "residence": "Jaszowice",
+    "documentIds": [102, 256, 257, 258]
+  },
+  {
+    "lastName": "Baćmażanka",
+    "firstName": "Katarzyna",
+    "residence": "Jaszowice",
+    "documentIds": [265]
+  },
+  {
+    "lastName": "Banasiak",
+    "firstName": "Franciszek",
+    "residence": "Jaszowice",
+    "documentIds": [186]
+  },
+  {
+    "lastName": "Banasiewicz",
+    "firstName": "Jan",
+    "residence": "Jaszowice",
+    "documentIds": [264]
+  },
+  {
+    "lastName": "Banasikowa",
+    "firstName": "Marianna",
+    "residence": "Wola Gutowska",
+    "documentIds": [217]
+  },
+  {
+    "lastName": "Bednarek",
+    "firstName": "Walenty",
+    "residence": "Wola Gutowska",
+    "documentIds": [216]
+  },
+  {
+    "lastName": "Bereza",
+    "firstName": "Jan",
+    "residence": "Gulinek",
+    "documentIds": [106]
+  },
+  {
+    "lastName": "Bilski",
+    "firstName": "Bolesław",
+    "residence": "Gulinek",
+    "documentIds": [224]
+  },
+  {
+    "lastName": "Bilski",
+    "firstName": "Jan",
+    "residence": "Gulinek",
+    "documentIds": [105, 207, 222, 223]
+  },
+  {
+    "lastName": "Błeszyński",
+    "firstName": "Adam",
+    "residence": "Ludwików",
+    "documentIds": [104]
+  },
+  {
+    "lastName": "Bąk",
+    "firstName": "Jan",
+    "residence": "Wola Gutowska",
+    "documentIds": [213]
+  },
+  {
+    "lastName": "Brodniczówna",
+    "firstName": "Brygida",
+    "residence": "Wola Gutowska",
+    "documentIds": [240]
+  },
+  {
+    "lastName": "Burak",
+    "firstName": "Władysław",
+    "residence": "Gulinek",
+    "documentIds": [106]
+  },
+  {
+    "lastName": "Burda",
+    "firstName": "Franciszek",
+    "residence": "Ostrołęka",
+    "documentIds": [209]
+  },
+  {
+    "lastName": "Chałupka",
+    "firstName": "Wojciech",
+    "residence": "Wola Gutowska",
+    "documentIds": [254]
+  },
+  {
+    "lastName": "Chudziak",
+    "firstName": "Tomasz",
+    "residence": "Wola Gutowska",
+    "documentIds": [217]
+  },
+  {
+    "lastName": "Chudzik",
+    "firstName": "Tomasz",
+    "residence": "Wola Gutowska",
+    "documentIds": [217]
+  },
+  {
+    "lastName": "Chuchrakowa",
+    "firstName": "Justyna",
+    "residence": "Wola Gutowska",
+    "documentIds": [216]
+  },
+  {
+    "lastName": "Cibor",
+    "firstName": "Adam",
+    "residence": "Gulinek",
+    "documentIds": [12]
+  },
+  {
+    "lastName": "Ciborówna",
+    "firstName": "Marianna",
+    "residence": "Jedlińsk",
+    "documentIds": [242]
+  },
+  {
+    "lastName": "Czupryński",
+    "firstName": "Hipolit",
+    "residence": "Cerekiew",
+    "documentIds": [55, 263]
+  },
+  {
+    "lastName": "Czmura",
+    "firstName": "Jan",
+    "residence": "Gulinek",
+    "documentIds": [109, 202, 204]
+  },
+  {
+    "lastName": "Dobosz",
+    "firstName": "Andrzej",
+    "residence": "Ludwików",
+    "documentIds": [104]
+  },
+  {
+    "lastName": "Dobrowolski",
+    "firstName": "Jakub",
+    "residence": "Wola Gutowska",
+    "documentIds": [103, 241]
+  },
+  {
+    "lastName": "Drachowski",
+    "firstName": "Józef",
+    "residence": "Jaszowice",
+    "documentIds": [182]
+  },
+  {
+    "lastName": "Drużdżel",
+    "firstName": "Kazimierz",
+    "residence": "Gulinek",
+    "documentIds": [207]
+  },
+  {
+    "lastName": "Dudek",
+    "firstName": "Józef",
+    "residence": "Milejowice",
+    "documentIds": [38]
+  },
+  {
+    "lastName": "Dygas",
+    "firstName": "Wojciech",
+    "residence": "Chruślice",
+    "documentIds": [263]
+  },
+  {
+    "lastName": "Emanowski",
+    "firstName": "Józef",
+    "residence": "Milejowice",
+    "documentIds": [221]
+  },
+  {
+    "lastName": "Frąckiewicz",
+    "firstName": "Franciszek",
+    "residence": "Jedlonka",
+    "documentIds": [251]
+  },
+  {
+    "lastName": "Fratkiewicz",
+    "firstName": "Walenty",
+    "residence": "Wola Gutowska",
+    "documentIds": [243]
+  },
+  {
+    "lastName": "Fratkiewiczówna",
+    "firstName": "Marianna",
+    "residence": "Wola Gutowska",
+    "documentIds": [247]
+  },
+  {
+    "lastName": "Gajewicz",
+    "firstName": "Józef",
+    "residence": "Cerekiew",
+    "documentIds": [262]
+  },
+  {
+    "lastName": "Gerczak",
+    "firstName": "Jan",
+    "residence": "Jaszowice",
+    "documentIds": [186]
+  },
+  {
+    "lastName": "Gierczak",
+    "firstName": "Ambroży",
+    "residence": "Jaszowice",
+    "documentIds": [228]
+  },
+  {
+    "lastName": "Gierczak",
+    "firstName": "Franciszek",
+    "residence": "Gulinek",
+    "documentIds": [10]
+  },
+  {
+    "lastName": "Gierczak",
+    "firstName": "Jakub",
+    "residence": "Chruślice",
+    "documentIds": [61]
+  },
+  {
+    "lastName": "Gierczak",
+    "firstName": "Jan",
+    "residence": "Gulinek",
+    "documentIds": [225]
+  },
+  {
+    "lastName": "Gierczak",
+    "firstName": "Józef",
+    "residence": "Gulinek",
+    "documentIds": [235]
+  },
+  {
+    "lastName": "Gierczak",
+    "firstName": "Kacper",
+    "residence": "Jaszowice",
+    "documentIds": [55, 260]
+  },
+  {
+    "lastName": "Gierczak",
+    "firstName": "Stanisław",
+    "residence": "Gulinek",
+    "documentIds": [233, 234, 236, 237]
+  },
+  {
+    "lastName": "Gierczak",
+    "firstName": "Walenty",
+    "residence": "Gulinek",
+    "documentIds": [10, 107]
+  },
+  {
+    "lastName": "Gierczakówna",
+    "firstName": "Józefa",
+    "residence": "Gulinek",
+    "documentIds": [238]
+  },
+  {
+    "lastName": "Gierczewski",
+    "firstName": "Konstanty",
+    "residence": "Wrzos",
+    "documentIds": [111, 209]
+  },
+  {
+    "lastName": "Gielowski",
+    "firstName": "Andrzej",
+    "residence": "Wrzos",
+    "documentIds": [111]
+  },
+  {
+    "lastName": "Gielowski",
+    "firstName": "Jędrzej",
+    "residence": "Ostrołęka",
+    "documentIds": [209]
+  },
+  {
+    "lastName": "Gielowski",
+    "firstName": "Wojciech",
+    "residence": "Wola Gutowska",
+    "documentIds": [103]
+  },
+  {
+    "lastName": "Glogowski",
+    "firstName": "Franciszek",
+    "residence": "Gulinek",
+    "documentIds": [2]
+  },
+  {
+    "lastName": "Goralski",
+    "firstName": "Franciszek",
+    "residence": "Jedlińsk",
+    "documentIds": [210]
+  },
+  {
+    "lastName": "Górniak",
+    "firstName": "Łukasz",
+    "residence": "Jaszowice",
+    "documentIds": [208]
+  },
+  {
+    "lastName": "Grzegorzewski",
+    "firstName": "Jakub",
+    "residence": "Wola Gutowska",
+    "documentIds": [244]
+  },
+  {
+    "lastName": "Jakubiak",
+    "firstName": "Józef",
+    "residence": "Gulinek",
+    "documentIds": [225]
+  },
+  {
+    "lastName": "Jurczak",
+    "firstName": "Jan",
+    "residence": "Gulinek",
+    "documentIds": [15]
+  },
+  {
+    "lastName": "Jurczak",
+    "firstName": "Jan",
+    "residence": "Ludwików",
+    "documentIds": [220]
+  },
+  {
+    "lastName": "Kaczor",
+    "firstName": "Antoni",
+    "residence": "Jaszowice",
+    "documentIds": [11]
+  },
+  {
+    "lastName": "Kaimowa",
+    "firstName": "Apolonia",
+    "residence": "Wola Gutowska",
+    "documentIds": [103]
+  },
+  {
+    "lastName": "Kainka",
+    "firstName": "Józef",
+    "residence": "Mleczków",
+    "documentIds": [27]
+  },
+  {
+    "lastName": "Karafińska",
+    "firstName": "Marianna",
+    "residence": "Wola Gutowska",
+    "documentIds": [243]
+  },
+  {
+    "lastName": "Karcz",
+    "firstName": "Paweł",
+    "residence": "Jaszowice",
+    "documentIds": [229, 256, 257, 258]
+  },
+  {
+    "lastName": "Kierzkowski",
+    "firstName": "Jan",
+    "residence": "Jedlińsk",
+    "documentIds": [219]
+  },
+  {
+    "lastName": "Kłochowska",
+    "firstName": "Małgorzata",
+    "residence": "Wola Gutowska",
+    "documentIds": [215]
+  },
+  {
+    "lastName": "Kłochowski",
+    "firstName": "Jan",
+    "residence": "Jedlińsk",
+    "documentIds": [211, 212, 217, 218, 250]
+  },
+  {
+    "lastName": "Kłobossowski",
+    "firstName": "Stanisław",
+    "residence": "Cerekiew",
+    "documentIds": [11, 208, 226, 229, 230, 231, 256, 257, 258, 259, 260]
+  },
+  {
+    "lastName": "Kłos",
+    "firstName": "Jakub",
+    "residence": "Wola Gutowska",
+    "documentIds": [240]
+  },
+  {
+    "lastName": "Kobierski",
+    "firstName": "Antoni",
+    "residence": "Jaszowice",
+    "documentIds": [127]
+  },
+  {
+    "lastName": "Kobyloarczyk",
+    "firstName": "Teresa",
+    "residence": "Wola Gutowska",
+    "documentIds": [245]
+  },
+  {
+    "lastName": "Komorowski",
+    "firstName": "Marcin",
+    "residence": "Jedlińsk",
+    "documentIds": [255]
+  },
+  {
+    "lastName": "Kornafel",
+    "firstName": "Franciszek",
+    "residence": "Jaszowice",
+    "documentIds": [260]
+  },
+  {
+    "lastName": "Kornafel",
+    "firstName": "Mikołaj",
+    "residence": "Jaszowice",
+    "documentIds": [259]
+  },
+  {
+    "lastName": "Kosiński",
+    "firstName": "Adam",
+    "residence": "Zakrzew",
+    "documentIds": [204, 205]
+  },
+  {
+    "lastName": "Koślak",
+    "firstName": "Marcin",
+    "residence": "Piastków",
+    "documentIds": [250]
+  },
+  {
+    "lastName": "Kołacz",
+    "firstName": "Franciszek",
+    "residence": "Mleczków",
+    "documentIds": [27]
+  },
+  {
+    "lastName": "Kowalczyk",
+    "firstName": "Jan",
+    "residence": "Gulinek",
+    "documentIds": [202, 205]
+  },
+  {
+    "lastName": "Kowalczyk",
+    "firstName": "Józef",
+    "residence": "Jedlińsk",
+    "documentIds": [242]
+  },
+  {
+    "lastName": "Kowalczyk",
+    "firstName": "Tomasz",
+    "residence": "Ludwików",
+    "documentIds": [220]
+  },
+  {
+    "lastName": "Kowalik",
+    "firstName": "Franciszek",
+    "residence": "Cerekiew",
+    "documentIds": [262]
+  },
+  {
+    "lastName": "Kowalik",
+    "firstName": "Szczepan",
+    "residence": "Gulinek",
+    "documentIds": [267]
+  },
+  {
+    "lastName": "Kozłowski",
+    "firstName": "Adam",
+    "residence": "Zakrzew",
+    "documentIds": [221]
+  },
+  {
+    "lastName": "Kozyra",
+    "firstName": "Franciszek",
+    "residence": "Gulinek",
+    "documentIds": [12]
+  },
+  {
+    "lastName": "Kozyra",
+    "firstName": "Marianna",
+    "residence": "Gulinek",
+    "documentIds": [201]
+  },
+  {
+    "lastName": "Kozyra",
+    "firstName": "Władysław",
+    "residence": "Gulinek",
+    "documentIds": [269]
+  },
+  {
+    "lastName": "Lewandowski",
+    "firstName": "Leon",
+    "residence": "Jedlińsk",
+    "documentIds": [251]
+  },
+  {
+    "lastName": "Lipiec",
+    "firstName": "Błażej",
+    "residence": "Wola Gutowska",
+    "documentIds": [250]
+  },
+  {
+    "lastName": "Lipiec",
+    "firstName": "Dionizy",
+    "residence": "Wola Gutowska",
+    "documentIds": [218]
+  },
+  {
+    "lastName": "Łartak",
+    "firstName": "Dominik",
+    "residence": "Wola Gutowska",
+    "documentIds": [253]
+  },
+  {
+    "lastName": "Łepecki",
+    "firstName": "Grzegorz",
+    "residence": "Cerekiew",
+    "documentIds": [262]
+  },
+  {
+    "lastName": "Marszałek",
+    "firstName": "Kacper",
+    "residence": "Wola Gutowska",
+    "documentIds": [215]
+  },
+  {
+    "lastName": "Michalski",
+    "firstName": "Adam",
+    "residence": "Jaszowice",
+    "documentIds": [264]
+  },
+  {
+    "lastName": "Mitak",
+    "firstName": "Jan",
+    "residence": "Gulinek",
+    "documentIds": [269]
+  },
+  {
+    "lastName": "Mitak",
+    "firstName": "Marianna",
+    "residence": "Gulinek",
+    "documentIds": [202]
+  },
+  {
+    "lastName": "Modzelewski",
+    "firstName": "Adolf",
+    "residence": "Zakrzew",
+    "documentIds": [10]
+  },
+  {
+    "lastName": "Moskwa",
+    "firstName": "Andrzej",
+    "residence": "Jaszowice",
+    "documentIds": [102]
+  },
+  {
+    "lastName": "Nabisówna",
+    "firstName": "Katarzyna",
+    "residence": "Jaszowice",
+    "documentIds": [182]
+  },
+  {
+    "lastName": "Ofiara",
+    "firstName": "Antoni",
+    "residence": "Gulinek",
+    "documentIds": [239]
+  },
+  {
+    "lastName": "Ofiara",
+    "firstName": "Jakub",
+    "residence": "Wola Gutowska",
+    "documentIds": [212, 213]
+  },
+  {
+    "lastName": "Ofiara",
+    "firstName": "Jan",
+    "residence": "Wola Gutowska",
+    "documentIds": [210]
+  },
+  {
+    "lastName": "Ofiara",
+    "firstName": "Wojciech",
+    "residence": "Wola Gutowska",
+    "documentIds": [219]
+  },
+  {
+    "lastName": "Ofiarowa",
+    "firstName": "Tekla",
+    "residence": "Wola Gutowska",
+    "documentIds": [218]
+  },
+  {
+    "lastName": "Okroj",
+    "firstName": "Mateusz",
+    "residence": "Wola Gutowska",
+    "documentIds": [217]
+  },
+  {
+    "lastName": "Okrajówna",
+    "firstName": "Cecylia",
+    "residence": "Wola Gutowska",
+    "documentIds": [246]
+  },
+  {
+    "lastName": "Orłowski",
+    "firstName": "Stanisław",
+    "residence": "Gulinek",
+    "documentIds": [267]
+  },
+  {
+    "lastName": "Pargulski",
+    "firstName": "Szymon",
+    "residence": "Piastów",
+    "documentIds": [216]
+  },
+  {
+    "lastName": "Pawłowa",
+    "firstName": "Katarzyna",
+    "residence": "Jaszowice",
+    "documentIds": [229, 256, 257, 258]
+  },
+  {
+    "lastName": "Pawłowski",
+    "firstName": "Tadeusz",
+    "residence": "Jedlińsk",
+    "documentIds": [213, 214]
+  },
+  {
+    "lastName": "Plewa",
+    "firstName": "Jan",
+    "residence": "Gulinek",
+    "documentIds": [201]
+  },
+  {
+    "lastName": "Plewiński",
+    "firstName": "Stanisław",
+    "residence": "Gulinek",
+    "documentIds": [109, 266]
+  },
+  {
+    "lastName": "Przybyłowski",
+    "firstName": "Marcin",
+    "residence": "Wola Gutowska",
+    "documentIds": [253]
+  },
+  {
+    "lastName": "Przybytowski",
+    "firstName": "Marcin",
+    "residence": "Jedlińsk",
+    "documentIds": [215]
+  },
+  {
+    "lastName": "Puzianowska",
+    "firstName": "Franciszka",
+    "residence": "Wola Gutowska",
+    "documentIds": [219]
+  },
+  {
+    "lastName": "Pysiak",
+    "firstName": "Paweł",
+    "residence": "Jaszowice",
+    "documentIds": [231]
+  },
+  {
+    "lastName": "Remiszewski",
+    "firstName": "Mikołaj",
+    "residence": "Jaszowice",
+    "documentIds": [208]
+  },
+  {
+    "lastName": "Rogala",
+    "firstName": "Józef",
+    "residence": "Gulinek",
+    "documentIds": [108]
+  },
+  {
+    "lastName": "Rogala",
+    "firstName": "Andrzej",
+    "residence": "Gulinek",
+    "documentIds": [204]
+  },
+  {
+    "lastName": "Rondthaler",
+    "firstName": "Jan",
+    "residence": "Błotnica",
+    "documentIds": [249]
+  },
+  {
+    "lastName": "Rudawski",
+    "firstName": "Walenty",
+    "residence": "Jedlińsk",
+    "documentIds": [103, 215, 216, 240, 241, 248, 251, 252]
+  },
+  {
+    "lastName": "Rus",
+    "firstName": "Baltazar",
+    "residence": "Wola Gutowska",
+    "documentIds": [246]
+  },
+  {
+    "lastName": "Rus",
+    "firstName": "Franciszek",
+    "residence": "Wola Gutowska",
+    "documentIds": [254]
+  },
+  {
+    "lastName": "Saermański",
+    "firstName": "Józef",
+    "residence": "Zakrzew",
+    "documentIds": [105, 222, 223, 224, 225]
+  },
+  {
+    "lastName": "Sitek",
+    "firstName": "Adam",
+    "residence": "Gulinek",
+    "documentIds": [108]
+  },
+  {
+    "lastName": "Sobień",
+    "firstName": "Jan",
+    "residence": "Gulinek",
+    "documentIds": [221]
+  },
+  {
+    "lastName": "Sobień",
+    "firstName": "Karol",
+    "residence": "Gulinek",
+    "documentIds": [222, 238]
+  },
+  {
+    "lastName": "Strzelczyk",
+    "firstName": "Ludwik",
+    "residence": "Jaszowice",
+    "documentIds": [229]
+  },
+  {
+    "lastName": "Strzelczyk",
+    "firstName": "Maciej",
+    "residence": "Jaszowice",
+    "documentIds": [226]
+  },
+  {
+    "lastName": "Sułecki",
+    "firstName": "Franciszek",
+    "residence": "Wola Gutowska",
+    "documentIds": [210]
+  },
+  {
+    "lastName": "Sumiński",
+    "firstName": "Dominik",
+    "residence": "Wola Gutowska",
+    "documentIds": [218, 240]
+  },
+  {
+    "lastName": "Sumiński",
+    "firstName": "Franciszek",
+    "residence": "Wola Gutowska",
+    "documentIds": [212]
+  },
+  {
+    "lastName": "Talberg",
+    "firstName": "Józef",
+    "residence": "Cerekiew",
+    "documentIds": [12, 27, 38, 61, 9, 127]
+  },
+  {
+    "lastName": "Tronowski",
+    "firstName": "Walenty",
+    "residence": "Wola Gutowska",
+    "documentIds": [247]
+  },
+  {
+    "lastName": "Walczak",
+    "firstName": "Stanisław",
+    "residence": "Ludwików",
+    "documentIds": [249]
+  },
+  {
+    "lastName": "Walczak",
+    "firstName": "Walenty",
+    "residence": "Ludwików",
+    "documentIds": [249]
+  },
+  {
+    "lastName": "Walczakowa",
+    "firstName": "Julianna",
+    "residence": "Gulinek",
+    "documentIds": [2]
+  },
+  {
+    "lastName": "Warchoł",
+    "firstName": "Franciszek",
+    "residence": "Jaszowice",
+    "documentIds": [11, 55, 259, 261, 265]
+  },
+  {
+    "lastName": "Warchoł",
+    "firstName": "Walenty",
+    "residence": "Jaszowice",
+    "documentIds": [230, 231]
+  },
+  {
+    "lastName": "Warchoł",
+    "firstName": "Wojciech",
+    "residence": "Jaszowice",
+    "documentIds": [265]
+  },
+  {
+    "lastName": "Wawrzeńczyk",
+    "firstName": "Szymon",
+    "residence": "Jaszowice",
+    "documentIds": [101, 102, 256, 257]
+  },
+  {
+    "lastName": "Włodawska",
+    "firstName": "Marianna",
+    "residence": "Jaszowice",
+    "documentIds": [102]
+  },
+  {
+    "lastName": "Zantakowa",
+    "firstName": "Salomea",
+    "residence": "Wola Gutowska",
+    "documentIds": [244]
+  },
+  {
+    "lastName": "Zieliński",
+    "firstName": "Franciszek",
+    "residence": "Gulinek",
+    "documentIds": [110, 266]
+  },
+  {
+    "lastName": "Zielińska",
+    "firstName": "Franciszka",
+    "residence": "Gulinek",
+    "documentIds": [52, 109, 266]
+  },
+  {
+    "lastName": "Zielony",
+    "firstName": "Stanisław",
+    "residence": "Wrzos",
+    "documentIds": [111]
+  },
+  {
+    "lastName": "Zych",
+    "firstName": "Jakub",
+    "residence": "Jaszowice",
+    "documentIds": [226, 228, 258]
+  },
+  {
+    "lastName": "Zych",
+    "firstName": "Mateusz",
+    "residence": "Jaszowice",
+    "documentIds": [182]
+  }
+]

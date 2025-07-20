@@ -1034,7 +1034,7 @@
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [105, 106],
-    "childIds": [66, 67],
+    "childIds": [66, 67, 179],
     "parentIds": [4, 8],
     "marriages": [
       {
@@ -1273,28 +1273,42 @@
     "id": 72,
     "firstName": "Józef",
     "lastName": "Gierczak",
-    "birthDate": "1890",
+    "birthDate": "1890-02-19",
+    "birthTime": "18:00",
     "deathDate": "1890",
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
     "parentIds": [19, 22],
+    "marriages": [],
     "biography": {
       "pl": "Syn Pawła i Katarzyny. Zmarł po 6 tygodniach.",
       "en": "Son of Paweł and Katarzyna. Died after 6 weeks."
-    }
+    },
+    "events": [
+      {
+        "type": "birth",
+        "date": "1890-02-19",
+        "place": "Gulinek",
+        "source": {
+          "documentId": 266
+        }
+      }
+    ]
   },
   {
     "id": 73,
     "firstName": "Stanisław",
     "lastName": "Gierczak",
-    "birthDate": "1893",
+    "birthDate": "1893-06-18",
+    "birthTime": "7:00",
+    "birthTimeQualifier": "morning",
     "deathDate": null,
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [108],
-    "childIds": [],
+    "childIds": [180, 181],
     "parentIds": [19, 22],
     "marriages": [
       {
@@ -1305,7 +1319,17 @@
     "biography": {
       "pl": "Syn Pawła i Katarzyny. Ożenił się w 1921 z Anielą Burakowską c. Andrzeja i Teofili w parafii Błotnica.",
       "en": "Son of Paweł and Katarzyna. He married Aniela Burakowska, daughter of Andrzej and Teofila, in the Błotnica parish in 1921."
-    }
+    },
+    "events": [
+      {
+        "type": "birth",
+        "date": "1893-06-18",
+        "place": "Gulinek",
+        "source": {
+          "documentId": 268
+        }
+      }
+    ]
   },
   {
     "id": 74,
@@ -2002,7 +2026,7 @@
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [63],
-    "childIds": [66, 67],
+    "childIds": [66, 67, 179],
     "parentIds": [],
     "marriages": [
       {
@@ -2073,7 +2097,7 @@
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [73],
-    "childIds": [],
+    "childIds": [180, 181],
     "parentIds": [],
     "marriages": [
       {
@@ -3712,5 +3736,90 @@
       "pl": "Żona Antoniego Ślifirczyka, matka Józefa.",
       "en": "Wife of Antoni Ślifirczyk, mother of Józef."
     }
+  },
+  {
+    "id": 179,
+    "firstName": "Franciszka",
+    "lastName": "Gerczak",
+    "birthDate": "1851-08-27",
+    "birthTime": "6:00",
+    "birthTimeQualifier": "morning",
+    "deathDate": null,
+    "photoUrl": null,
+    "family": "gierczak",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [63, 105],
+    "marriages": [],
+    "biography": {
+      "pl": "Córka Kacpra Gerczaka i Marianny z domu Moskwa.",
+      "en": "Daughter of Kacper Gerczak and Marianna née Moskwa."
+    },
+    "events": [
+      {
+        "type": "birth",
+        "date": "1851-08-27",
+        "place": "Jaszowice",
+        "source": {
+          "documentId": 265
+        }
+      }
+    ]
+  },
+  {
+    "id": 180,
+    "firstName": "Józef",
+    "lastName": "Gierczak",
+    "birthDateNote": "ok. styczeń 1926",
+    "deathDate": "1926-02-03",
+    "deathTime": "12:00",
+    "photoUrl": null,
+    "family": "gierczak",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [73, 108],
+    "marriages": [],
+    "biography": {
+      "pl": "Syn Stanisława Gierczaka i Anieli z domu Burakowskiej. Zmarł w wieku dwóch tygodni.",
+      "en": "Son of Stanisław Gierczak and Aniela née Burakowska. He died at the age of two weeks."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1926-02-03",
+        "place": "Gulinek",
+        "source": {
+          "documentId": 267
+        }
+      }
+    ]
+  },
+  {
+    "id": 181,
+    "firstName": "Franciszek",
+    "lastName": "Gierczak",
+    "birthDateNote": "ok. styczeń 1926",
+    "deathDate": "1926-03-11",
+    "deathTime": "20:00",
+    "photoUrl": null,
+    "family": "gierczak",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [73, 108],
+    "marriages": [],
+    "biography": {
+      "pl": "Syn Stanisława Gierczaka i Anieli z domu Burakowskiej. Zmarł w wieku dwóch miesięcy.",
+      "en": "Son of Stanisław Gierczak and Aniela née Burakowska. He died at the age of two months."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1926-03-11",
+        "place": "Gulinek",
+        "source": {
+          "documentId": 269
+        }
+      }
+    ]
   }
 ]

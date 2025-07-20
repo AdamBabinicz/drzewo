@@ -1,4 +1,4 @@
-// src/shared/schema.ts (zaktualizowany)
+// src/shared/schema.ts
 
 type LocalizedString = {
   pl: string;
@@ -110,6 +110,13 @@ export type Place = {
   description: LocalizedString | string;
   history?: LocalizedString;
   imageUrl: string;
+};
+
+export type Witness = {
+  lastName: string;
+  firstName: string;
+  residence: string;
+  documentIds: number[];
 };
 
 export type InsertPerson = Omit<Person, "id">;

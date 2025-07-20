@@ -12,6 +12,7 @@ import ScrollToTopButton from "@/components/ui/ScrollToTopButton";
 import Home from "@/pages/Home";
 import InteractiveTreeView from "@/pages/InteractiveTreeView";
 import PersonIndex from "@/pages/PersonIndex";
+import WitnessIndex from "@/pages/WitnessIndex";
 import GalleryView from "@/pages/GalleryView";
 import SourcesView from "@/pages/SourcesView";
 import FamilyBranchView from "@/pages/FamilyBranchView";
@@ -38,6 +39,7 @@ function AppRoutes() {
       <Route path={p("home")} component={Home} />
       <Route path={p("tree")} component={InteractiveTreeView} />
       <Route path={p("index")} component={PersonIndex} />
+      <Route path={p("witnessIndex")} component={WitnessIndex} />
       <Route path={p("gallery")} component={GalleryView} />
       <Route path={p("sources")} component={SourcesView} />
       <Route path={`${p("familyBase")}/:family`} component={FamilyBranchView} />
