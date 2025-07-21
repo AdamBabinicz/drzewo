@@ -176,15 +176,36 @@ export default function InteractiveTree({
       });
     });
 
+    const rootNode: Node = {
+      id: "root",
+      type: "default",
+      position: { x: 0, y: 0 },
+      className: "w-0 h-0 !border-none",
+      data: {},
+    };
+
     layoutEdges.push({
-      id: "stacking-edge",
-      source: "1",
-      target: "133",
-      minlen: 1,
-      weight: 1,
+      id: "root-gierczak",
+      source: "root",
+      target: "1",
+      weight: 100,
+    });
+    layoutEdges.push({
+      id: "root-ofiara",
+      source: "root",
+      target: "161",
+      weight: 100,
     });
 
-    const allNodesForLayout = [...allPersonNodes, ...unionNodes];
+    layoutEdges.push({
+      id: `rank-fix-155`,
+      source: "4",
+      target: "155",
+      minlen: 0,
+      weight: 10,
+    });
+
+    const allNodesForLayout = [...allPersonNodes, ...unionNodes, rootNode];
     const { nodes: positionedNodes } = getLayoutedElements(
       allNodesForLayout,
       layoutEdges
@@ -219,7 +240,10 @@ export default function InteractiveTree({
     });
 
     const finalNodes = positionedNodes.filter(
-      (node) => !node.id.startsWith("union-") && visibleIds.has(node.id)
+      (node) =>
+        !node.id.startsWith("union-") &&
+        node.id !== "root" &&
+        visibleIds.has(node.id)
     );
 
     const finalEdges: Edge[] = [];
