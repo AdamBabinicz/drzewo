@@ -689,10 +689,24 @@
       },
       {
         "imageUrl": "/images/motyka.avif",
-        "title": { "pl": "Motyka do okopywania", "en": "Earthing Hoe" },
+        "title": {
+          "pl": "Motyka do kopania i okopywania bez jednego zęba",
+          "en": "A hoe for digging and hoeing without one tooth"
+        },
         "description": {
           "pl": "Motyka to narzędzie rolnicze, używane głównie do wykopywania ziemniaków, ale także do innych prac polowych. Symbol ciężkiej, chłopskiej pracy.",
           "en": "The hoe is a farming tool used mainly for digging up potatoes, but also for other fieldwork. A symbol of hard, peasant labor."
+        }
+      },
+      {
+        "imageUrl": "/images/widly.avif",
+        "title": {
+          "pl": "Widły do gnoju",
+          "en": "Manure Fork"
+        },
+        "description": {
+          "pl": "Niezbędne w każdym gospodarstwie narzędzie do przenoszenia obornika, siana lub słomy. Symbol codziennego trudu rolnika.",
+          "en": "An essential tool on every farm for moving manure, hay, or straw. A symbol of the farmer's daily toil."
         }
       }
     ]
