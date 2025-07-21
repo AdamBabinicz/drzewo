@@ -27,7 +27,6 @@ export default function SourcesView() {
     },
     {
       categoryKey: "sources.section.onlineSources.title",
-      // ZMIANA: Dodajemy mapowanie do obiektu z linkiem
       itemKeys: [
         {
           key: "sources.section.onlineSources.item1",
@@ -54,7 +53,6 @@ export default function SourcesView() {
     },
   ];
 
-  // NOWA FUNKCJA DO RENDEROWANIA LINKÓW
   const renderSourceItem = (text: string, url?: string) => {
     const linkRegex = /<link>(.*?)<\/link>/;
     const match = text.match(linkRegex);

@@ -4,7 +4,7 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import PersonCard from "@/components/ui/PersonCard";
 import PersonModal from "@/components/ui/PersonModal";
-import KeepsakesModal from "@/components/ui/KeepsakesModal"; // KROK 1: Import KeepsakesModal
+import KeepsakesModal from "@/components/ui/KeepsakesModal";
 import { Person } from "@shared/schema";
 import { Search } from "lucide-react";
 import SEO from "@/components/SEO";
@@ -17,8 +17,6 @@ export default function PersonIndex() {
   const [selectedLetter, setSelectedLetter] = useState<string | null>(null);
   const [selectedPerson, setSelectedPerson] = useState<Person | null>(null);
   const [modalOpen, setModalOpen] = useState(false);
-
-  // KROK 2: Dodaj stan dla modala z pamiątkami
   const [keepsakesPerson, setKeepsakesPerson] = useState<Person | null>(null);
 
   const { data: people = [] } = useQuery({
@@ -70,11 +68,10 @@ export default function PersonIndex() {
     setSelectedLetter(selectedLetter === letter ? null : letter);
   };
 
-  // KROK 3: Dodaj funkcje do obsługi modala z pamiątkami
   const handleOpenKeepsakes = (person: Person) => {
-    setModalOpen(false); // Zamknij modal osoby
+    setModalOpen(false);
     setTimeout(() => {
-      setKeepsakesPerson(person); // Otwórz modal pamiątek
+      setKeepsakesPerson(person);
     }, 150);
   };
 
@@ -154,13 +151,18 @@ export default function PersonIndex() {
 
             {filteredPeople.length > 0 ? (
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                {filteredPeople.map((person) => (
-                  <PersonCard
-                    key={person.id}
-                    person={person}
-                    onClick={() => handlePersonClick(person)}
-                  />
-                ))}
+                {filteredPeople.map((person) => {
+                  const isProgenitor =
+                    !person.parentIds || person.parentIds.length === 0;
+                  return (
+                    <PersonCard
+                      key={person.id}
+                      person={person}
+                      onClick={() => handlePersonClick(person)}
+                      isProgenitor={isProgenitor}
+                    />
+                  );
+                })}
               </div>
             ) : (
               <div className="text-center py-12">
@@ -205,10 +207,9 @@ export default function PersonIndex() {
         onClose={() => setModalOpen(false)}
         onPersonClick={handlePersonClick}
         allPeople={people}
-        onOpenKeepsakes={handleOpenKeepsakes} // KROK 4: Przekaż prop
+        onOpenKeepsakes={handleOpenKeepsakes}
       />
 
-      {/* KROK 5: Renderuj KeepsakesModal tutaj */}
       {keepsakesPerson && (
         <KeepsakesModal
           person={keepsakesPerson}
