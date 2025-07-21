@@ -662,6 +662,14 @@
           "pl": "W dawnej Polsce cepy były jednym z najważniejszych i najbardziej podstawowych narzędzi rolniczych, a ich głównym przeznaczeniem było młócenie zboża.",
           "en": "In old Poland, the flail (pl. cepy) was one of the most essential and fundamental agricultural tools. Its primary purpose was the threshing of grain."
         }
+      },
+      {
+        "imageUrl": "/images/motyka.avif",
+        "title": { "pl": "Motyka do okopywania", "en": "Earthing Hoe" },
+        "description": {
+          "pl": "Motyka to narzędzie rolnicze, używane głównie do wykopywania ziemniaków, ale także do innych prac polowych. Symbol ciężkiej, chłopskiej pracy.",
+          "en": "The hoe is a farming tool used mainly for digging up potatoes, but also for other fieldwork. A symbol of hard, peasant labor."
+        }
       }
     ]
   },
