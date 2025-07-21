@@ -129,17 +129,17 @@
     "id": 5,
     "firstName": "Michał",
     "lastName": "Gierczak",
-    "birthDateNote": "ok. 1784 ?",
+    "birthDateNote": "ok. 1798",
     "deathDate": "1854-04-12",
     "deathTime": "10:00",
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [147],
-    "childIds": [],
+    "childIds": [182, 183, 185, 189],
     "parentIds": [1, 2],
     "biography": {
-      "pl": "Syn Tomasza i Zofii Gierczak. Jego żoną była Marianna z domu Gocman. Wiek podany w akcie zgonu (70 lat) jest prawdopodobnie zawyżony.",
-      "en": "Son of Tomasz and Zofia Gierczak. His wife was Marianna née Gocman. The age stated in his death record (70 years) is likely an overestimation."
+      "pl": "Syn Tomasza i Zofii Gierczak. Jego żoną była Marianna z domu Gocman. Wiek podany w akcie zgonu (70 lat) jest zawyżony; akt zgonu jego córki z 1829 roku wskazuje, że miał wtedy 31 lat.",
+      "en": "Son of Tomasz and Zofia Gierczak. His wife was Marianna née Gocman. The age stated in his death record (70 years) is an overestimation; his daughter's death record from 1829 indicates he was 31 at the time."
     },
     "marriages": [
       {
@@ -406,6 +406,8 @@
     "firstName": "Jan",
     "lastName": "Gierczak",
     "birthDate": "1891-06-18",
+    "birthTime": "7:00",
+    "birthTimeQualifier": "morning",
     "deathDate": "1958-11-07",
     "photoUrl": "/images/30.avif",
     "family": "gierczak",
@@ -434,6 +436,16 @@
         "pl": "Niewiele wiem o swoim dziadku Janie, ponieważ zmarł gdy miałem 2 lata.",
         "en": "I know little about my grandfather Jan, because he passed away when I was 2 years old."
       }
+    ],
+    "events": [
+      {
+        "type": "birth",
+        "date": "1891-06-18",
+        "place": "Gulinek",
+        "source": {
+          "documentId": 28
+        }
+      }
     ]
   },
   {
@@ -441,7 +453,9 @@
     "firstName": "Agnieszka",
     "lastName": "Gierczak",
     "maidenName": "Baćmaga",
-    "birthDate": "1894-04-13",
+    "birthDate": "1894-03-21",
+    "birthTime": "1:00",
+    "birthTimeQualifier": "night",
     "deathDate": "1969-11-08",
     "photoUrl": null,
     "family": "gierczak",
@@ -458,7 +472,7 @@
       }
     ],
     "biography": {
-      "pl": "Żona Jana, babcia autora. Urodziła się z rodziców Kazimierza i Antonimy Szewczyk. Mieli ośmioro dzieci.",
+      "pl": "Żona Jana, babcia autora. Urodziła się z rodziców Kazimierza i Antoniny Szewczyk. Mieli ośmioro dzieci.",
       "en": "Wife of Jan, the author's grandmother. She was born to Kazimierz and Antonina Szewczyk. They had eight children."
     },
     "anecdotes": [
@@ -473,6 +487,16 @@
       {
         "pl": "W pewnym momencie, żartując, zapytała: 'Czy w środku są małe ludziki?'.",
         "en": "At one point, jokingly, she asked, 'Are there little people inside?'"
+      }
+    ],
+    "events": [
+      {
+        "type": "birth",
+        "date": "1894-03-21",
+        "place": "Gulinek",
+        "source": {
+          "documentId": 29
+        }
       }
     ]
   },
@@ -956,7 +980,7 @@
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [148, 176],
-    "childIds": [],
+    "childIds": [195, 196, 197],
     "parentIds": [4, 8],
     "marriages": [
       {
@@ -979,8 +1003,8 @@
       }
     ],
     "biography": {
-      "pl": "Córka Ambrożego i Kunegundy. Jej pierwszym mężem był Antoni Stępień (zm. przed 1855). Po jego śmierci, w 1855 roku poślubiła Józefa Ślifirczyka. Zmarła w 1875 roku w Jaszowicach.",
-      "en": "Daughter of Ambroży and Kunegunda. Her first husband was Antoni Stępień (d. before 1855). After his death, she married Józef Ślifirczyk in 1855. She died in 1875 in Jaszowice."
+      "pl": "Córka Ambrożego i Kunegundy. Jej pierwszym mężem był Antoni Stępień (zm. przed 1855). Po jego śmierci, w 1855 roku poślubiła Józefa Ślifirczyka, z którym miała córkę Antoninę. Zmarła w 1875 roku w Jaszowicach.",
+      "en": "Daughter of Ambroży and Kunegunda. Her first husband was Antoni Stępień (d. before 1855). After his death, she married Józef Ślifirczyk in 1855, with whom she had a daughter, Antonina. She died in 1875 in Jaszowice."
     },
     "events": [
       {
@@ -1181,7 +1205,7 @@
     "photoUrl": "/images/antonina.avif",
     "family": "gierczak",
     "spouseIds": [149, 150],
-    "childIds": [],
+    "childIds": [191],
     "parentIds": [13, 18],
     "marriages": [
       {
@@ -1248,7 +1272,10 @@
     "firstName": "Adam",
     "lastName": "Gierczak",
     "birthDate": "1888-12-30",
+    "birthTime": "22:00",
+    "birthTimeQualifier": "night",
     "deathDate": "1889-03-06",
+    "deathTime": "12:00",
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [],
@@ -3010,7 +3037,7 @@
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [5],
-    "childIds": [],
+    "childIds": [182, 183, 185, 189],
     "parentIds": [],
     "marriages": [
       {
@@ -3068,7 +3095,7 @@
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [68],
-    "childIds": [],
+    "childIds": [191],
     "parentIds": [145, 146],
     "marriages": [
       {
@@ -3691,30 +3718,36 @@
     "deathTime": "10:00",
     "deathTimeQualifier": "morning",
     "family": "gierczak",
-    "spouseIds": [61],
-    "childIds": [],
+    "spouseIds": [61, 198, 200],
+    "childIds": [195, 196, 197, 199],
     "parentIds": [177, 178],
     "marriages": [
       {
         "spouseId": 61,
         "date": "1855-08-26",
-        "source": {
-          "documentId": 262
-        }
+        "source": { "documentId": 262 }
+      },
+      {
+        "spouseId": 198,
+        "date": "1875-02-11",
+        "source": { "documentId": 41 }
+      },
+      {
+        "spouseId": 200,
+        "date": "1890-02-11",
+        "source": { "documentId": 42 }
       }
     ],
     "biography": {
-      "pl": "Drugi mąż Marianny z d. Gierczak, wdowy po Antonim Stępniu. Syn Antoniego i Moniki z Owczarków. Zmarł w Jaszowicach w wieku 77 lat.",
-      "en": "Second husband of Marianna née Gierczak, widow of Antoni Stępień. Son of Antoni and Monika née Owczarek. He died in Jaszowice at the age of 77."
+      "pl": "Był trzykrotnie żonaty. Z pierwszą żoną, Marianną Gierczak (ID 61), miał co najmniej czworo dzieci, które zmarły w dzieciństwie. Po jej śmierci ożenił się z Marianną Kozą, z którą miał syna Jakuba. Jego trzecią żoną była Marianna Poneta. Syn Antoniego i Moniki z Tkaczyków. Zmarł w Jaszowicach w wieku 77 lat.",
+      "en": "He was married three times. With his first wife, Marianna Gierczak (ID 61), he had at least four children who died in childhood. After her death, he married Marianna Koza, with whom he had a son, Jakub. His third wife was Marianna Poneta. Son of Antoni and Monika née Tkaczyk. He died in Jaszowice at the age of 77."
     },
     "events": [
       {
         "type": "death",
         "date": "1912-12-30",
         "place": "Jaszowice",
-        "source": {
-          "documentId": 264
-        }
+        "source": { "documentId": 264 }
       }
     ]
   },
@@ -3735,7 +3768,7 @@
     "id": 178,
     "firstName": "Monika",
     "lastName": "Ślifirczyk",
-    "maidenName": "Owczarek",
+    "maidenName": "Tkaczyk",
     "family": "gierczak",
     "spouseIds": [177],
     "childIds": [176],
@@ -3829,5 +3862,418 @@
         }
       }
     ]
+  },
+  {
+    "id": 182,
+    "firstName": "Marianna",
+    "lastName": "Gierczak",
+    "birthDateNote": "ok. 1826",
+    "deathDate": "1829-12-19",
+    "deathTime": null,
+    "photoUrl": null,
+    "family": "gierczak",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [5, 147],
+    "biography": {
+      "pl": "Córka Michała i Marianny z domu Gocman. Zmarła w Jaszowicach w wieku 3 lat.",
+      "en": "Daughter of Michał and Marianna née Gocman. Died in Jaszowice at the age of 3."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1829-12-19",
+        "place": "Jaszowice",
+        "source": {
+          "documentId": 30
+        }
+      }
+    ]
+  },
+  {
+    "id": 183,
+    "firstName": "Katarzyna",
+    "lastName": "Sierakowa",
+    "maidenName": "Gierczak",
+    "birthDateNote": "ok. 1827",
+    "deathDate": "1855-08-02",
+    "deathTime": "16:00",
+    "photoUrl": null,
+    "family": "gierczak",
+    "spouseIds": [184],
+    "childIds": [],
+    "parentIds": [5, 147],
+    "marriages": [
+      {
+        "spouseId": 184,
+        "date": "?"
+      }
+    ],
+    "biography": {
+      "pl": "Córka Michała Gierczaka i Marianny z d. Gocman. Żona Tomasza Sieraka. Zmarła w Jaszowicach w wieku 28 lat.",
+      "en": "Daughter of Michał Gierczak and Marianna née Gocman. Wife of Tomasz Sierak. She died in Jaszowice at the age of 28."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1855-08-02",
+        "place": "Jaszowice",
+        "source": {
+          "documentId": 31
+        }
+      }
+    ]
+  },
+  {
+    "id": 184,
+    "firstName": "Tomasz",
+    "lastName": "Sierak",
+    "birthDateNote": "?",
+    "deathDate": null,
+    "photoUrl": null,
+    "family": "gierczak",
+    "spouseIds": [183],
+    "childIds": [],
+    "parentIds": [],
+    "marriages": [
+      {
+        "spouseId": 183,
+        "date": "?"
+      }
+    ],
+    "biography": {
+      "pl": "Mąż Katarzyny z domu Gierczak (córki Michała). Mieszkał w Jaszowicach.",
+      "en": "Husband of Katarzyna née Gierczak (daughter of Michał). He lived in Jaszowice."
+    }
+  },
+  {
+    "id": 185,
+    "firstName": "Antonina",
+    "lastName": "Slufirczykowa",
+    "maidenName": "Gierczak",
+    "birthDateNote": "ok. 1825",
+    "deathDate": "1855-08-02",
+    "deathTime": "14:00",
+    "photoUrl": null,
+    "family": "gierczak",
+    "spouseIds": [186],
+    "childIds": [],
+    "parentIds": [5, 147],
+    "marriages": [
+      {
+        "spouseId": 186,
+        "date": "1851-01-26",
+        "source": { "documentId": 39 }
+      }
+    ],
+    "biography": {
+      "pl": "Córka Michała Gierczaka i Marianny z d. Gocman. Żona Franciszka Ślifirczyka. Zmarła w Jaszowicach w wieku 30 lat, tego samego dnia co jej siostra Katarzyna. W jej akcie zgonu mąż został błędnie zapisany jako Jakub.",
+      "en": "Daughter of Michał Gierczak and Marianna née Gocman. Wife of Franciszek Ślifirczyk. She died in Jaszowice at the age of 30, on the same day as her sister Katarzyna. In her death record, her husband was mistakenly recorded as Jakub."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1855-08-02",
+        "place": "Jaszowice",
+        "source": {
+          "documentId": 32
+        }
+      }
+    ]
+  },
+  {
+    "id": 186,
+    "firstName": "Franciszek",
+    "lastName": "Ślifirczyk",
+    "birthDateNote": "ok. 1831",
+    "deathDate": null,
+    "photoUrl": null,
+    "family": "gierczak",
+    "spouseIds": [185],
+    "childIds": [],
+    "parentIds": [],
+    "marriages": [
+      {
+        "spouseId": 185,
+        "date": "1851-01-26",
+        "source": { "documentId": 39 }
+      }
+    ],
+    "biography": {
+      "pl": "Mąż Antoniny z domu Gierczak (córki Michała). Syn Jakuba i Teofili z Duchnickich. W akcie zgonu żony z 1855 r. został błędnie zapisany pod imieniem Jakub.",
+      "en": "Husband of Antonina née Gierczak (daughter of Michał). Son of Jakub and Teofila née Duchnicka. In his wife's death record from 1855, he was mistakenly recorded under the name Jakub."
+    }
+  },
+  {
+    "id": 189,
+    "firstName": "Józef",
+    "lastName": "Gierczak",
+    "birthDateNote": "ok. 1854",
+    "deathDate": null,
+    "photoUrl": null,
+    "family": "gierczak",
+    "spouseIds": [190],
+    "childIds": [],
+    "parentIds": [5, 147],
+    "marriages": [
+      {
+        "spouseId": 190,
+        "date": "1878-11-20",
+        "source": {
+          "documentId": 34
+        }
+      }
+    ],
+    "biography": {
+      "pl": "Syn Michała Gierczaka i Marianny z d. Gocman. W 1878 roku poślubił Rozalię Kozanę.",
+      "en": "Son of Michał Gierczak and Marianna née Gocman. In 1878, he married Rozalia Kozana."
+    }
+  },
+  {
+    "id": 190,
+    "firstName": "Rozalia",
+    "lastName": "Gierczak",
+    "maidenName": "Kozana",
+    "birthDateNote": "ok. 1857",
+    "deathDate": null,
+    "photoUrl": null,
+    "family": "gierczak",
+    "spouseIds": [189],
+    "childIds": [],
+    "parentIds": [],
+    "marriages": [
+      {
+        "spouseId": 189,
+        "date": "1878-11-20",
+        "source": {
+          "documentId": 34
+        }
+      }
+    ],
+    "biography": {
+      "pl": "Żona Józefa Gierczaka (syna Michała). Córka Franciszka i Marianny z Jasińskich.",
+      "en": "Wife of Józef Gierczak (son of Michał). Daughter of Franciszek and Marianna née Jasińska."
+    }
+  },
+  {
+    "id": 191,
+    "firstName": "Józef",
+    "lastName": "Mitak",
+    "birthDateNote": "ok. 1888",
+    "deathDate": null,
+    "photoUrl": null,
+    "family": "gierczak",
+    "spouseIds": [192],
+    "childIds": [],
+    "parentIds": [149, 68],
+    "marriages": [
+      {
+        "spouseId": 192,
+        "date": "1911-11-11",
+        "source": {
+          "documentId": 35
+        }
+      }
+    ],
+    "biography": {
+      "pl": "Syn Stanisława Mitaka i Antoniny z d. Gierczak. W 1911 roku poślubił Józefę Golus.",
+      "en": "Son of Stanisław Mitak and Antonina née Gierczak. In 1911, he married Józefa Golus."
+    }
+  },
+  {
+    "id": 192,
+    "firstName": "Józefa",
+    "lastName": "Mitak",
+    "maidenName": "Golus",
+    "birthDateNote": "ok. 1894",
+    "deathDate": null,
+    "photoUrl": null,
+    "family": "gierczak",
+    "spouseIds": [191],
+    "childIds": [],
+    "parentIds": [193, 194],
+    "marriages": [
+      {
+        "spouseId": 191,
+        "date": "1911-11-11",
+        "source": {
+          "documentId": 35
+        }
+      }
+    ],
+    "biography": {
+      "pl": "Żona Józefa Mitaka (syna Antoniny Gierczak). Córka Pawła i Marianny z Sułowskich.",
+      "en": "Wife of Józef Mitak (son of Antonina Gierczak). Daughter of Paweł and Marianna née Sułowska."
+    }
+  },
+  {
+    "id": 193,
+    "firstName": "Paweł",
+    "lastName": "Golus",
+    "spouseIds": [194],
+    "childIds": [192]
+  },
+  {
+    "id": 194,
+    "firstName": "Marianna",
+    "lastName": "Golus",
+    "maidenName": "Sułowska",
+    "spouseIds": [193],
+    "childIds": [192]
+  },
+  {
+    "id": 195,
+    "firstName": "Antonina",
+    "lastName": "Ślifirczyk",
+    "birthDateNote": "ok. 1858",
+    "deathDate": "1865-03-24",
+    "deathTime": "7:00",
+    "deathTimeQualifier": "morning",
+    "photoUrl": null,
+    "family": "gierczak",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [176, 61],
+    "biography": {
+      "pl": "Córka Józefa Ślifirczyka i jego pierwszej żony, Marianny z d. Gierczak. Zmarła w Jaszowicach w wieku 7 lat.",
+      "en": "Daughter of Józef Ślifirczyk and his first wife, Marianna née Gierczak. She died in Jaszowice at the age of 7."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1865-03-24",
+        "place": "Jaszowice",
+        "source": {
+          "documentId": 36
+        }
+      }
+    ]
+  },
+  {
+    "id": 196,
+    "firstName": "Karolina",
+    "lastName": "Ślufirczyk",
+    "birthDateNote": "ok. 1869",
+    "deathDate": "1869-09-23",
+    "deathTime": "13:00",
+    "photoUrl": null,
+    "family": "gierczak",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [176, 61],
+    "biography": {
+      "pl": "Córka Józefa Ślifirczyka i jego pierwszej żony, Marianny z d. Gierczak. Zmarła w Jaszowicach w wieku 6 tygodni.",
+      "en": "Daughter of Józef Ślifirczyk and his first wife, Marianna née Gierczak. She died in Jaszowice at the age of 6 weeks."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1869-09-23",
+        "place": "Jaszowice",
+        "source": {
+          "documentId": 37
+        }
+      }
+    ]
+  },
+  {
+    "id": 197,
+    "firstName": "Teodora",
+    "lastName": "Ślifirczyk",
+    "birthDateNote": "ok. 1865",
+    "deathDate": "1875-03-14",
+    "photoUrl": null,
+    "family": "gierczak",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [176, 61],
+    "biography": {
+      "pl": "Córka Józefa Ślifirczyka i jego pierwszej żony, Marianny z d. Gierczak. Zmarła w Jaszowicach w wieku 10 lat.",
+      "en": "Daughter of Józef Ślifirczyk and his first wife, Marianna née Gierczak. She died in Jaszowice at the age of 10."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1875-03-14",
+        "place": "Jaszowice",
+        "source": {
+          "documentId": 38
+        }
+      }
+    ]
+  },
+  {
+    "id": 198,
+    "firstName": "Marianna",
+    "lastName": "Ślifirczyk",
+    "maidenName": "Koza",
+    "birthDateNote": "ok. 1856",
+    "deathDateNote": "przed 1890",
+    "photoUrl": null,
+    "family": "gierczak",
+    "spouseIds": [176],
+    "childIds": [199],
+    "parentIds": [],
+    "marriages": [
+      {
+        "spouseId": 176,
+        "date": "1875-02-11",
+        "source": { "documentId": 41 }
+      }
+    ],
+    "biography": {
+      "pl": "Trzecia żona Józefa Ślifirczyka, matka Jakuba. Córka Karola i Józefy z Barcikowskich.",
+      "en": "Third wife of Józef Ślifirczyk, mother of Jakub. Daughter of Karol and Józefa née Barcikowska."
+    }
+  },
+  {
+    "id": 199,
+    "firstName": "Jakub",
+    "lastName": "Ślifirczyk",
+    "birthDateNote": "ok. 1876",
+    "deathDate": "1878-04-29",
+    "photoUrl": null,
+    "family": "gierczak",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [176, 198],
+    "biography": {
+      "pl": "Syn Józefa Ślifirczyka i jego trzeciej żony, Marianny z d. Koza. Zmarł w Jaszowicach w wieku 2 lat.",
+      "en": "Son of Józef Ślifirczyk and his third wife, Marianna née Koza. He died in Jaszowice at the age of 2."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1878-04-29",
+        "place": "Jaszowice",
+        "source": {
+          "documentId": 40
+        }
+      }
+    ]
+  },
+  {
+    "id": 200,
+    "firstName": "Marianna",
+    "lastName": "Ślifirczyk",
+    "maidenName": "Poneta (primo voto Sobolewska)",
+    "birthDateNote": "ok. 1850",
+    "deathDate": null,
+    "photoUrl": null,
+    "family": "gierczak",
+    "spouseIds": [176],
+    "childIds": [],
+    "parentIds": [],
+    "marriages": [
+      {
+        "spouseId": 176,
+        "date": "1890-02-11",
+        "source": { "documentId": 42 }
+      }
+    ],
+    "biography": {
+      "pl": "Czwarta żona Józefa Ślifirczyka. Wyszła za niego za mąż jako wdowa po Sobolewskim.",
+      "en": "Fourth wife of Józef Ślifirczyk. She married him as the widow of Sobolewski."
+    }
   }
 ]

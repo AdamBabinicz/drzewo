@@ -1,7 +1,7 @@
 import { useState } from "react";
 import InteractiveTree from "@/components/tree/InteractiveTree";
 import PersonModal from "@/components/ui/PersonModal";
-import KeepsakesModal from "@/components/ui/KeepsakesModal"; // KROK 1: Import KeepsakesModal
+import KeepsakesModal from "@/components/ui/KeepsakesModal";
 import { Person } from "@shared/schema";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Alert, AlertDescription } from "@/components/ui/alert";

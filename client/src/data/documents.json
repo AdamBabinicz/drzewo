@@ -214,6 +214,444 @@
     ]
   },
   {
+    "id": 28,
+    "title_pl": "Akt Urodzenia: Jan Gierczak (1891)",
+    "title_en": "Birth Record: Jan Gierczak (1891)",
+    "type": "birth_record",
+    "description_pl": "Parafia Zakrzew (Zakrzów), akt nr 29, 1891 r. Dokument dotyczy Jana, dziadka autora.",
+    "description_en": "Zakrzew (Zakrzów) Parish, record no. 29, 1891. The document concerns Jan, the author's grandfather.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Состоялось въ деревнѣ Закшевѣ, четвертаго (шестнадцатаго) Іюня тысяча восемьсотъ девяносто перваго года, въ часъ по полудни. Явился Павелъ Герчакъ, тридцати четырехъ лѣтъ отъ роду, земледелецъ, житель деревни Гулинекъ, въ присутствіи Станислава Плевинскаго шестидесяти, и Францишка Зелинскаго, пятидесяти семи лѣтъ отъ роду, обоихъ земледельцевъ изъ деревни Гулинекъ, и предъявилъ намъ младенца мужескаго пола, объявляя, что онъ родился въ деревнѣ Гулинекъ шестаго (осемнадцатого) сего Іюня въ семь часовъ утра, отъ его законной жены Катаржины урожденной Червинскихъ, двадцати четырехъ лѣтъ отъ роду. Младенцу сему при святомъ крещеніи совершенномъ сего числа дано имя Янъ, а воспріемниками его были: Станиславъ Плевинскій и Францишка Зелинская. Этотъ актъ объявляющему и свидѣтелямъ неграмотнымъ прочитанъ, Нами только подписанъ.",
+    "translation_pl": "Działo się we wsi Zakrzew, czwartego (szesnastego) czerwca tysiąc osiemset dziewięćdziesiątego pierwszego roku, o godzinie pierwszej po południu. Stawił się Paweł Gierczak, lat trzydzieści cztery, rolnik, mieszkaniec wsi Gulinek, w obecności Stanisława Plewińskiego, lat sześćdziesiąt, i Franciszka Zielińskiego, lat pięćdziesiąt siedem, obu rolników ze wsi Gulinek, i okazał nam niemowlę płci męskiej, oświadczając, że urodziło się ono we wsi Gulinek szóstego (osiemnastego) bieżącego czerwca o godzinie siódmej rano, z jego prawowitej żony Katarzyny z domu Czerwińskich, lat dwadzieścia cztery. Niemowlęciu temu przy chrzcie świętym, który odbył się dzisiaj, nadano imię Jan, a jego rodzicami chrzestnymi byli: Stanisław Plewiński i Franciszka Zielińska. Akt ten oświadczającemu i świadkom, którzy są niepiśmienni, został przeczytany i tylko przez nas podpisany.",
+    "translation_en": "It happened in the village of Zakrzew, on the fourth (sixteenth) of June, eighteen hundred and ninety-one, at one o'clock in the afternoon. Appeared Paweł Gierczak, thirty-four years old, a farmer, resident of the village of Gulinek, in the presence of Stanisław Plewiński, sixty years old, and Franciszek Zieliński, fifty-seven years old, both farmers from the village of Gulinek, and he presented to us a male infant, declaring that he was born in the village of Gulinek on the sixth (eighteenth) of the current June at seven o'clock in the morning, to his lawful wife Katarzyna née Czerwińska, twenty-four years old. At the holy baptism performed this day, this infant was given the name Jan, and his godparents were: Stanisław Plewiński and Franciszka Zielińska. This act was read to the declarant and the illiterate witnesses, and signed only by us.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Paweł Gierczak, 34 lata",
+        "value_en": "Paweł Gierczak, 34 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Katarzyna z Czerwińskich, 24 lata",
+        "value_en": "Katarzyna née Czerwińska, 24 years old"
+      },
+      {
+        "label_pl": "Chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Stanisław Plewiński i Franciszka Zielińska",
+        "value_en": "Stanisław Plewiński and Franciszka Zielińska"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title_pl": "Akt Urodzenia: Agnieszka Baćmaga (1894)",
+    "title_en": "Birth Record: Agnieszka Baćmaga (1894)",
+    "type": "birth_record",
+    "description_pl": "Parafia Zakrzew (Zakrzów), akt nr 27, 1894 r. Dokument dotyczy Agnieszki, babci autora.",
+    "description_en": "Zakrzew (Zakrzów) Parish, record no. 27, 1894. The document concerns Agnieszka, the author's grandmother.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Состоялось въ деревнѣ Закшевѣ, одиннадцатаго (двадцать третьяго) Марта тысяча восемьсотъ девяносто четвертаго года, въ девять часовъ утра. Явился Казиміръ Бацьмага, тридцати лѣтъ отъ роду, земледелецъ, житель деревни Гулинекъ, въ присутствіи Антона Митака тридцати четырехъ и Станислава Плевинскаго шестидесяти двухъ лѣтъ отъ роду, обоихъ земледельцевъ изъ деревни Гулинекъ, и предъявилъ намъ младенца женскаго пола, объявляя, что онъ родился въ деревнѣ Гулинекъ девятаго (двадцать перваго) сего Марта въ часъ по полуночи, отъ его законной жены Антоніны урожденной Шевчукъ, двадцати шести лѣтъ отъ роду. Младенцу сему при святомъ крещеніи совершенномъ сего числа дано имя Агнешка, а воспріемниками ея были: Антонъ Митакъ и Маріанна Коберская. Этотъ актъ объявляющему и свидѣтелямъ неграмотнымъ прочитанъ, Нами только подписанъ.",
+    "translation_pl": "Działo się we wsi Zakrzew, jedenastego (dwudziestego trzeciego) marca tysiąc osiemset dziewięćdziesiątego czwartego roku, o godzinie dziewiątej rano. Stawił się Kazimierz Baćmaga, lat trzydzieści, rolnik, mieszkaniec wsi Gulinek, w obecności Antoniego Mitaka, lat trzydzieści cztery, i Stanisława Plewińskiego, lat sześćdziesiąt dwa, obu rolników ze wsi Gulinek, i okazał nam niemowlę płci żeńskiej, oświadczając, że urodziło się ono we wsi Gulinek dziewiątego (dwudziestego pierwszego) bieżącego marca o godzinie pierwszej w nocy, z jego prawowitej żony Antoniny z domu Szewczyk, lat dwadzieścia sześć. Niemowlęciu temu przy chrzcie świętym, który odbył się dzisiaj, nadano imię Agnieszka, a jej rodzicami chrzestnymi byli: Antoni Mitak i Marianna Koberska. Akt ten oświadczającemu i świadkom, którzy są niepiśmienni, został przeczytany i tylko przez nas podpisany.",
+    "translation_en": "It happened in the village of Zakrzew, on the eleventh (twenty-third) of March, eighteen hundred and ninety-four, at nine o'clock in the morning. Appeared Kazimierz Baćmaga, thirty years old, a farmer, resident of the village of Gulinek, in the presence of Antoni Mitak, thirty-four years old, and Stanisław Plewiński, sixty-two years old, both farmers from the village of Gulinek, and he presented to us a female infant, declaring that she was born in the village of Gulinek on the ninth (twenty-first) of the current March at one o'clock past midnight, to his lawful wife Antonina née Szewczyk, twenty-six years old. At the holy baptism performed this day, this infant was given the name Agnieszka, and her godparents were: Antoni Mitak and Marianna Koberska. This act was read to the declarant and the illiterate witnesses, and signed only by us.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Kazimierz Baćmaga, 30 lat",
+        "value_en": "Kazimierz Baćmaga, 30 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Antonina z Szewczyków, 26 lat",
+        "value_en": "Antonina née Szewczyk, 26 years old"
+      },
+      {
+        "label_pl": "Chrzestni (byli też świadkami urodzenia)",
+        "label_en": "Godparents (also birth witnesses)",
+        "value_pl": "Antoni Mitak (34 l.) i Marianna Koberska",
+        "value_en": "Antoni Mitak (34 y.o.) and Marianna Koberska"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title_pl": "Akt Zgonu: Marianna Gierczak (1829)",
+    "title_en": "Death Record: Marianna Gierczak (1829)",
+    "type": "death_record",
+    "description_pl": "Parafia Cerekiew, akt nr 132, 1829 r. Trzyletnia córka Michała i Marianny Gierczak.",
+    "description_en": "Cerekiew Parish, record no. 132, 1829. Three-year-old daughter of Michał and Marianna Gierczak.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się we wsi Cerekwi dnia Dwudziestego Grudnia Tysiąc ośmset dwudziestego dziewiątego roku o godzinie trzeciey po południu. Stawili się Michał Gierczak lat trzydzieści ieden i Maryanna Gierczakowa Lat trzydzieści liczący obydwa włościanie w Jaszowicach zamieszkali i oświadczyli Nam że w domu (...) umarła Maryanna Gierczak lat trzy maiąca, córka Michała i Maryanny małżonków Gierczaków.",
+    "translation_pl": "Działo się we wsi Cerekiew dnia 20 grudnia 1829 roku o godzinie trzeciej po południu. Stawili się Michał Gierczak, lat 31, i Marianna Gierczakowa, lat 30, oboje włościanie zamieszkali w Jaszowicach, i oświadczyli nam, że w domu (...) zmarła Marianna Gierczak, mająca 3 lata, córka Michała i Marianny małżonków Gierczaków.",
+    "translation_en": "It happened in the village of Cerekiew on the 20th of December, 1829, at three o'clock in the afternoon. Appeared Michał Gierczak, aged 31, and Marianna Gierczakowa, aged 30, both peasants residing in Jaszowice, and they declared to us that in the house (...) died Marianna Gierczak, aged 3, daughter of Michał and Marianna, the Gierczak spouses.",
+    "extracted_data": [
+      {
+        "label_pl": "Wiek",
+        "label_en": "Age",
+        "value_pl": "3 lata",
+        "value_en": "3 years"
+      },
+      {
+        "label_pl": "Rodzice",
+        "label_en": "Parents",
+        "value_pl": "Michał i Marianna Gierczak",
+        "value_en": "Michał and Marianna Gierczak"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title_pl": "Akt Zgonu: Katarzyna Sierakowa z d. Gierczak (1855)",
+    "title_en": "Death Record: Katarzyna Sierakowa née Gierczak (1855)",
+    "type": "death_record",
+    "description_pl": "Parafia Cerekiew, akt nr 173, 1855 r. Córka Michała i Marianny Gierczak, żona Tomasza Sieraka.",
+    "description_en": "Cerekiew Parish, record no. 173, 1855. Daughter of Michał and Marianna Gierczak, wife of Tomasz Sierak.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się we wsi Cerekwi dnia trzeciego Sierpnia Tysiąc ośmset pięćdziesiątego piątego roku o godzinie drugiej po południu. Stawili się Augustyn Tyczyński lat trzydzieści i Franciszek Kornafel lat trzydzieści ieden liczący w Jaszowicach zamieszkali gospodarze i oświadczyli nam iż we wsi dnia drugiego bieżącego miesiąca i roku o godzinie czwartej po południu umarła Katarzyna Sierakowa lat dwadzieścia osm mająca, córka niegdy Michała i Maryanny małżonków Gierczaków, pozostawiwszy owdowiałego męża Tomasza Sieraka.",
+    "translation_pl": "Działo się we wsi Cerekiew dnia 3 sierpnia 1855 roku o godzinie drugiej po południu. Stawili się Augustyn Tyczyński, lat 30, i Franciszek Kornafel, lat 31, gospodarze zamieszkali w Jaszowicach, i oświadczyli nam, że we wsi dnia 2 sierpnia bieżącego roku o godzinie czwartej po południu zmarła Katarzyna Sierakowa, mająca lat 28, córka zmarłego Michała i Marianny, małżonków Gierczaków, pozostawiwszy owdowiałego męża Tomasza Sieraka.",
+    "translation_en": "It happened in the village of Cerekiew on the 3rd of August, 1855, at two o'clock in the afternoon. Appeared Augustyn Tyczyński, aged 30, and Franciszek Kornafel, aged 31, farmers residing in Jaszowice, and they declared to us that in the village on the 2nd day of the current month and year, at four o'clock in the afternoon, died Katarzyna Sierakowa, aged 28, daughter of the late Michał and Marianna, spouses Gierczak, leaving behind her widowed husband Tomasz Sierak.",
+    "extracted_data": [
+      {
+        "label_pl": "Wiek",
+        "label_en": "Age",
+        "value_pl": "28 lat",
+        "value_en": "28 years"
+      },
+      {
+        "label_pl": "Rodzice",
+        "label_en": "Parents",
+        "value_pl": "Michał i Marianna Gierczak",
+        "value_en": "Michał and Marianna Gierczak"
+      },
+      {
+        "label_pl": "Mąż",
+        "label_en": "Husband",
+        "value_pl": "Tomasz Sierak",
+        "value_en": "Tomasz Sierak"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title_pl": "Akt Zgonu: Antonina Slufirczykowa z d. Gierczak (1855)",
+    "title_en": "Death Record: Antonina Slufirczykowa née Gierczak (1855)",
+    "type": "death_record",
+    "description_pl": "Parafia Cerekiew, akt nr 190, 1855 r. Córka Michała i Marianny Gierczak, żona Jakuba Slufirczyka. Zmarła tego samego dnia co jej siostra Katarzyna.",
+    "description_en": "Cerekiew Parish, record no. 190, 1855. Daughter of Michał and Marianna Gierczak, wife of Jakub Slufirczyk. She died on the same day as her sister Katarzyna.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się we wsi Cerekwi dnia trzeciego Sierpnia Tysiąc ośmset pięćdziesiątego piątego roku o godzinie drugiej po południu. Stawili się Augustyn Tyczyński lat trzydzieści i Franciszek Kornafel lat trzydzieści ieden liczący w Jaszowicach zamieszkali gospodarze i oświadczyli nam iż we wsi dnia drugiego bieżącego miesiąca i roku o godzinie drugiej po południu umarła Antonina Slufirczykowa lat trzydzieści maiąca, córka niegdy Michała i Maryanny małżonków Gierczaków, pozostawiwszy owdowiałego męża Jakóba Slufirczyka.",
+    "translation_pl": "Działo się we wsi Cerekiew dnia 3 sierpnia 1855 roku o godzinie drugiej po południu. Stawili się Augustyn Tyczyński, lat 30, i Franciszek Kornafel, lat 31, gospodarze zamieszkali w Jaszowicach, i oświadczyli nam, że we wsi dnia 2 sierpnia bieżącego roku o godzinie drugiej po południu zmarła Antonina Slufirczykowa, mająca lat 30, córka zmarłego Michała i Marianny, małżonków Gierczaków, pozostawiwszy owdowiałego męża Jakuba Slufirczyka.",
+    "translation_en": "It happened in the village of Cerekiew on the 3rd of August, 1855, at two o'clock in the afternoon. Appeared Augustyn Tyczyński, aged 30, and Franciszek Kornafel, aged 31, farmers residing in Jaszowice, and they declared to us that in the village on the 2nd day of the current month and year, at two o'clock in the afternoon, died Antonina Slufirczykowa, aged 30, daughter of the late Michał and Marianna, spouses Gierczak, leaving behind her widowed husband Jakub Slufirczyk.",
+    "extracted_data": [
+      {
+        "label_pl": "Wiek",
+        "label_en": "Age",
+        "value_pl": "30 lat",
+        "value_en": "30 years"
+      },
+      {
+        "label_pl": "Rodzice",
+        "label_en": "Parents",
+        "value_pl": "Michał i Marianna Gierczak",
+        "value_en": "Michał and Marianna Gierczak"
+      },
+      {
+        "label_pl": "Mąż",
+        "label_en": "Husband",
+        "value_pl": "Jakub Slufirczyk",
+        "value_en": "Jakub Slufirczyk"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title_pl": "Akt Zgonu: Paweł Ślifirczyk (1880)",
+    "title_en": "Death Record: Paweł Ślifirczyk (1880)",
+    "type": "death_record",
+    "description_pl": "Parafia Cerekiew, akt nr 46, 1880 r. Roczny syn Józefa Ślifirczyka i jego zmarłej, drugiej żony Marianny z Gierczaków.",
+    "description_en": "Cerekiew Parish, record no. 46, 1880. One-year-old son of Józef Ślifirczyk and his deceased second wife, Marianna née Gierczak.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Состоялось въ деревнѣ Черекви, седьмаго (девятнадцатаго) Мая тысяча восемьсотъ восемьдесятъ года, въ часъ по полудни. Явились Іосифъ Слифирчикъ сорока четырехъ лѣтъ и Антонъ ... сорока четырехъ лѣтъ отъ роду, оба крестьяне въ Яшевицахъ и объявили, что въ оной деревнѣ, сего мѣсяца и года, умеръ Павелъ Слифирчикъ, одинъ годъ отъ роду, сынъ Іосифа и умершей Марiанны изъ Герчаковъ.",
+    "translation_pl": "Działo się we wsi Cerekiew, siódmego (dziewiętnastego) maja tysiąc osiemset osiemdziesiątego roku, o godzinie pierwszej po południu. Stawili się Józef Ślifirczyk, lat czterdzieści cztery, i Antoni ..., lat czterdzieści cztery, obaj chłopi w Jaszowicach, i oświadczyli, że w tejże wsi, tego miesiąca i roku, zmarł Paweł Ślifirczyk, mający jeden rok, syn Józefa i zmarłej Marianny z Gierczaków.",
+    "translation_en": "It happened in the village of Cerekiew, on the seventh (nineteenth) of May, eighteen hundred and eighty, at one o'clock in the afternoon. Appeared Józef Ślifirczyk, forty-four years old, and Antoni ..., forty-four years old, both peasants in Jaszowice, and they declared that in the same village, of this month and year, died Paweł Ślifirczyk, one year old, son of Józef and the deceased Marianna née Gierczak.",
+    "extracted_data": [
+      {
+        "label_pl": "Wiek",
+        "label_en": "Age",
+        "value_pl": "1 rok",
+        "value_en": "1 year"
+      },
+      {
+        "label_pl": "Rodzice",
+        "label_en": "Parents",
+        "value_pl": "Józef i zmarła Marianna z Gierczaków",
+        "value_en": "Józef and the deceased Marianna née Gierczak"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title_pl": "Akt Ślubu: Józef Gierczak i Rozalia Kozana (1878)",
+    "title_en": "Marriage Record: Józef Gierczak & Rozalia Kozana (1878)",
+    "type": "marriage_record",
+    "description_pl": "Parafia Błotnica, akt nr 14, 1878 r. Ślub 24-letniego Józefa, syna Michała i Marianny Gierczaków.",
+    "description_en": "Błotnica Parish, record no. 14, 1878. Marriage of 24-year-old Józef, son of Michał and Marianna Gierczak.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Состоялось въ деревнѣ Касцовѣ, восьмаго (двадцатаго) Ноября тысяча восемьсотъ семьдесятъ восьмаго года, въ три часа по полудни. Объявляемъ, что въ присутствіи свидѣтелей Іосифа Бѣлевскаго и Францишка Козаны, земледѣльцевъ, заключенъ сего дня религіозный брачный союзъ между Іосифомъ Герчакомъ, холостымъ, сыномъ умершаго Михаила и Маріанны Герчаковъ, двадцати четырехъ лѣтъ отъ роду, а Розаліею Козаною, дѣвицею, дочерью Францишка и живущей Маріанны изъ Ясинскихъ, двадцати одного года отъ роду...",
+    "translation_pl": "Działo się we wsi Kasców, ósmego (dwudziestego) listopada tysiąc osiemset siedemdziesiątego ósmego roku, o godzinie trzeciej po południu. Oświadczamy, że w obecności świadków Józefa Bielewskiego i Franciszka Kozany, rolników, zawarto dziś religijny związek małżeński między Józefem Gierczakiem, kawalerem, synem zmarłego Michała i Marianny Gierczaków, lat dwadzieścia cztery, a Rozalią Kozaną, panną, córką Franciszka i żyjącej Marianny z Jasińskich, lat dwadzieścia jeden...",
+    "translation_en": "It happened in the village of Kasców, on the eighth (twentieth) of November, eighteen hundred and seventy-eight, at three o'clock in the afternoon. We declare that in the presence of witnesses Józef Bielewski and Franciszek Kozana, farmers, a religious marital union was contracted today between Józef Gierczak, a bachelor, son of the deceased Michał and Marianna Gierczak, twenty-four years old, and Rozalia Kozana, a maiden, daughter of Franciszek and the living Marianna née Jasińska, twenty-one years old...",
+    "extracted_data": [
+      {
+        "label_pl": "Pan Młody",
+        "label_en": "Groom",
+        "value_pl": "Józef Gierczak, 24 lata",
+        "value_en": "Józef Gierczak, 24 years old"
+      },
+      {
+        "label_pl": "Rodzice Pana Młodego",
+        "label_en": "Groom's Parents",
+        "value_pl": "Michał (zm.) i Marianna Gierczak",
+        "value_en": "Michał (dec.) and Marianna Gierczak"
+      },
+      {
+        "label_pl": "Panna Młoda",
+        "label_en": "Bride",
+        "value_pl": "Rozalia Kozana, 21 lat",
+        "value_en": "Rozalia Kozana, 21 years old"
+      },
+      {
+        "label_pl": "Rodzice Panny Młodej",
+        "label_en": "Bride's Parents",
+        "value_pl": "Franciszek i Marianna z Jasińskich",
+        "value_en": "Franciszek and Marianna née Jasińska"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title_pl": "Akt Ślubu: Józef Mitak i Józefa Golus (1911)",
+    "title_en": "Marriage Record: Józef Mitak & Józefa Golus (1911)",
+    "type": "marriage_record",
+    "description_pl": "Parafia Zakrzew (Zakrzów), akt nr 24, 1911 r. Ślub Józefa Mitaka, syna Stanisława i Antoniny z Gierczaków.",
+    "description_en": "Zakrzew (Zakrzów) Parish, record no. 24, 1911. Marriage of Józef Mitak, son of Stanisław and Antonina née Gierczak.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Состоялось въ деревнѣ Закшевѣ, двадцать девятаго Октября (одиннадцатаго Ноября) тысяча девятьсотъ одиннадцатаго года, въ девять часовъ утра. Объявляемъ, что въ присутствіи свидѣтелей Марцина Митака сорока трехъ и Кароля Голуса сорока двухъ лѣтъ отъ роду, изъ деревни Гулинъ, заключено сего числа религіозный брачный союзъ между Іосифомъ Митакомъ, холостымъ, родившимся и проживающимъ въ деревни Гулинъ, сыномъ умершаго Станислава и живущей Антонины урожденной Герчакъ, двадцати трехъ лѣтъ отъ роду, а Іосифою Голусъ, дѣвицею, родившеюся и проживающею въ деревни Гулинъ, дочерью Павла и Маріанны урожденной Суловскихъ. Браку сему предшествовали три оглашенія...",
+    "translation_pl": "Działo się we wsi Zakrzew, dwudziestego dziewiątego października (jedenastego listopada) tysiąc dziewięćset jedenastego roku, o godzinie dziewiątej rano. Oświadczamy, że w obecności świadków Marcina Mitaka, lat czterdzieści trzy, i Karola Golusa, lat czterdzieści dwa, ze wsi Gulin, zawarto dziś religijny związek małżeński między Józefem Mitakiem, kawalerem, urodzonym i zamieszkałym we wsi Gulin, synem zmarłego Stanisława i żyjącej Antoniny z domu Gierczak, lat dwadzieścia trzy, a Józefą Golus, panną, urodzoną i zamieszkałą we wsi Gulin, córką Pawła i Marianny z domu Sułowskiej. Małżeństwo to poprzedziły trzy zapowiedzi...",
+    "translation_en": "It happened in the village of Zakrzew, on the twenty-ninth of October (eleventh of November), nineteen hundred and eleven, at nine o'clock in the morning. We declare that in the presence of witnesses Marcin Mitak, forty-three years old, and Karol Golus, forty-two years old, from the village of Gulin, a religious marital union was contracted today between Józef Mitak, a bachelor, born and residing in the village of Gulin, son of the deceased Stanisław and the living Antonina née Gierczak, twenty-three years old, and Józefa Golus, a maiden, born and residing in the village of Gulin, daughter of Paweł and Marianna née Sułowska. This marriage was preceded by three banns...",
+    "extracted_data": [
+      {
+        "label_pl": "Pan Młody",
+        "label_en": "Groom",
+        "value_pl": "Józef Mitak, 23 lata",
+        "value_en": "Józef Mitak, 23 years old"
+      },
+      {
+        "label_pl": "Rodzice Pana Młodego",
+        "label_en": "Groom's Parents",
+        "value_pl": "Stanisław (zm.) i Antonina z Gierczaków",
+        "value_en": "Stanisław (dec.) and Antonina née Gierczak"
+      },
+      {
+        "label_pl": "Panna Młoda",
+        "label_en": "Bride",
+        "value_pl": "Józefa Golus, 17 lat",
+        "value_en": "Józefa Golus, 17 years old"
+      },
+      {
+        "label_pl": "Rodzice Panny Młodej",
+        "label_en": "Bride's Parents",
+        "value_pl": "Paweł i Marianna z Sułowskich",
+        "value_en": "Paweł and Marianna née Sułowska"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title_pl": "Akt Zgonu: Antonina Ślifirczyk (1865)",
+    "title_en": "Death Record: Antonina Ślifirczyk (1865)",
+    "type": "death_record",
+    "description_pl": "Parafia Cerekiew, akt nr 52, 1865 r. Siedmioletnia córka Józefa i zmarłej Marianny z Gierczaków.",
+    "description_en": "Cerekiew Parish, record no. 52, 1865. Seven-year-old daughter of Józef and the late Marianna née Gierczak.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się we wsi Cerekwi dnia Dwudziestego Szóstego Marca Tysiąc Ośmset Sześćdziesiątego Piątego Roku o godzinie Dziewiątej rano. Stawił się Józef Slufirczyk lat trzydzieści i Ignacy Sawecki lat trzydzieści trzy maiący obydwa gospodarze w Jaszowicach zamieszkali i oświadczyli Nam iż w tey wsi dnia Dwudziestego Czwartego bieżącego miesiąca i Roku o godzinie Siódmej rano umarła Antonina Slufirczyk, lat siedm maiąca, urodzona w Jaszowicach, córka Józefa i niegdy Maryanny z Gierczaków małżonków Slufirczyków.",
+    "translation_pl": "Działo się we wsi Cerekiew dnia 26 marca 1865 roku o godzinie dziewiątej rano. Stawili się Józef Ślifirczyk, lat 30, i Ignacy Sawecki, lat 33, obaj gospodarze zamieszkali w Jaszowicach, i oświadczyli nam, że w tej wsi dnia 24 bieżącego miesiąca i roku o godzinie siódmej rano zmarła Antonina Ślifirczyk, mająca lat 7, urodzona w Jaszowicach, córka Józefa i zmarłej Marianny z domu Gierczak, małżonków Ślifirczyków.",
+    "translation_en": "It happened in the village of Cerekiew on March 26, 1865, at nine o'clock in the morning. Appeared Józef Ślifirczyk, aged 30, and Ignacy Sawecki, aged 33, both farmers residing in Jaszowice, and they declared to us that in this village on the 24th day of the current month and year at seven o'clock in the morning died Antonina Ślifirczyk, aged 7, born in Jaszowice, daughter of Józef and the late Marianna née Gierczak, spouses Ślifirczyk.",
+    "extracted_data": [
+      {
+        "label_pl": "Wiek",
+        "label_en": "Age",
+        "value_pl": "7 lat",
+        "value_en": "7 years"
+      },
+      {
+        "label_pl": "Rodzice",
+        "label_en": "Parents",
+        "value_pl": "Józef i zmarła Marianna z Gierczaków",
+        "value_en": "Józef and the late Marianna née Gierczak"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title_pl": "Akt Zgonu: Karolina Ślufirczyk (1869)",
+    "title_en": "Death Record: Karolina Ślufirczyk (1869)",
+    "type": "death_record",
+    "description_pl": "Parafia Cerekiew, akt nr 54, 1869 r. Sześciotygodniowa córka Józefa i zmarłej Marianny z Gierczaków.",
+    "description_en": "Cerekiew Parish, record no. 54, 1869. Six-week-old daughter of Józef and the late Marianna née Gierczak.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Состоялось въ деревнѣ Черекви, одиннадцатаго (двадцать третьяго) Сентября тысяча восемьсотъ шестьдесятъ девятаго года, въ три часа по полудни. Явились Іосифъ Слюфирчикъ, тридцати шести лѣтъ, и Антонъ Сломка, сорока четырехъ лѣтъ отъ роду, оба крестьяне въ Яшовицахъ, и объявили, что въ первомъ часу по полудни умерла Каролина Слюфирчикъ, шести недѣль отъ роду, дочь Іосифа и умершей Марiанны изъ Герчаковъ.",
+    "translation_pl": "Działo się we wsi Cerekiew, jedenastego (dwudziestego trzeciego) września tysiąc osiemset sześćdziesiątego dziewiątego roku, o godzinie trzeciej po południu. Stawili się Józef Ślufirczyk, lat trzydzieści sześć, i Antoni Słomka, lat czterdzieści cztery, obaj chłopi w Jaszowicach, i oświadczyli, że o godzinie pierwszej po południu zmarła Karolina Ślufirczyk, mająca sześć tygodni, córka Józefa i zmarłej Marianny z Gierczaków.",
+    "translation_en": "It happened in the village of Cerekiew, on the eleventh (twenty-third) of September, eighteen hundred and sixty-nine, at three o'clock in the afternoon. Appeared Józef Ślufirczyk, thirty-six years old, and Antoni Słomka, forty-four years old, both peasants in Jaszowice, and they declared that at one o'clock in the afternoon died Karolina Ślufirczyk, six weeks old, daughter of Józef and the deceased Marianna née Gierczak.",
+    "extracted_data": [
+      {
+        "label_pl": "Wiek",
+        "label_en": "Age",
+        "value_pl": "6 tygodni",
+        "value_en": "6 weeks"
+      },
+      {
+        "label_pl": "Rodzice",
+        "label_en": "Parents",
+        "value_pl": "Józef i zmarła Marianna z Gierczaków",
+        "value_en": "Józef and the late Marianna née Gierczak"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title_pl": "Akt Zgonu: Teodora Slifirczyk (1875)",
+    "title_en": "Death Record: Teodora Slifirczyk (1875)",
+    "type": "death_record",
+    "description_pl": "Parafia Cerekiew, akt nr 41, 1875 r. Dziesięcioletnia córka Józefa i zmarłej Marianny z Gierczaków.",
+    "description_en": "Cerekiew Parish, record no. 41, 1875. Ten-year-old daughter of Józef and the late Marianna née Gierczak.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Состоялось въ деревнѣ Черекви, второго (четырнадцатаго) Марта тысяча восемьсотъ семьдесятъ пятаго года, въ часъ по полудни. Явились Іосифъ Слифирчикъ сорока лѣтъ, и Антонъ Сломка сорока пяти лѣтъ отъ роду, оба крестьяне въ Яшовицахъ, и объявили, что вчерашняго дня, умерла Теодора Слифирчикъ, десяти лѣтъ отъ роду, дочь Іосифа и умершей Марiанны изъ Герчаковъ.",
+    "translation_pl": "Działo się we wsi Cerekiew, drugiego (czternastego) marca tysiąc osiemset siedemdziesiątego piątego roku, o godzinie pierwszej po południu. Stawili się Józef Ślifirczyk, lat czterdzieści, i Antoni Słomka, lat czterdzieści pięć, obaj chłopi w Jaszowicach, i oświadczyli, że wczorajszego dnia zmarła Teodora Ślifirczyk, mająca lat dziesięć, córka Józefa i zmarłej Marianny z Gierczaków.",
+    "translation_en": "It happened in the village of Cerekiew, on the second (fourteenth) of March, eighteen hundred and seventy-five, at one o'clock in the afternoon. Appeared Józef Ślifirczyk, forty years old, and Antoni Słomka, forty-five years old, both peasants in Jaszowice, and they declared that on the previous day died Teodora Ślifirczyk, ten years old, daughter of Józef and the deceased Marianna née Gierczak.",
+    "extracted_data": [
+      {
+        "label_pl": "Wiek",
+        "label_en": "Age",
+        "value_pl": "10 lat",
+        "value_en": "10 years"
+      },
+      {
+        "label_pl": "Rodzice",
+        "label_en": "Parents",
+        "value_pl": "Józef i zmarła Marianna z Gierczaków",
+        "value_en": "Józef and the late Marianna née Gierczak"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title_pl": "Akt Ślubu: Franciszek Ślifirczyk i Antonina Gierczak (1851)",
+    "title_en": "Marriage Record: Franciszek Ślifirczyk & Antonina Gierczak (1851)",
+    "type": "marriage_record",
+    "description_pl": "Parafia Cerekiew, akt nr 6, 1851 r. Dokument potwierdza, że mężem Antoniny Gierczak był Franciszek Ślifirczyk.",
+    "description_en": "Cerekiew Parish, record no. 6, 1851. The document confirms that the husband of Antonina Gierczak was Franciszek Ślifirczyk.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się we wsi Cerekwi dnia dwudziestego szóstego Stycznia tysiąc ośmset pięćdziesiątego pierwszego roku o godzinie piątej po południu. Wiadomo czyniemy, iż w przytomności Świadków Pawła Karcza lat pięćdziesiąt i Franciszka Warchoła lat pięćdziesiąt dwa maiących obydwóch włościan w Jaszowicach zamieszkałych, zawarte zostało religijne małżeństwo między Franciszkiem Ślifirczykiem Kawalerem, wyrobnikiem we wsi Jaszowicach zamieszkałym, lat dwadzieścia maiącym, synem Jakuba i Teofili z Duchnickich; a Antoniną Gierczakowną Panną, przy familii w Jaszowicach zostaiącą, lat dwadzieścia sześć maiącą, córką Michała i Maryanny małżonków Gierczaków.",
+    "translation_pl": "Działo się we wsi Cerekiew dnia 26 stycznia 1851 roku o godzinie piątej po południu. Czynimy wiadomo, że w obecności świadków Pawła Karcza, lat 50, i Franciszka Warchoła, lat 52, obu włościan zamieszkałych w Jaszowicach, zawarte zostało religijne małżeństwo między Franciszkiem Ślifirczykiem, kawalerem, wyrobnikiem zamieszkałym w Jaszowicach, lat 20, synem Jakuba i Teofili z Duchnickich; a Antoniną Gierczakówną, panną, pozostającą przy rodzinie w Jaszowicach, lat 26, córką Michała i Marianny, małżonków Gierczaków.",
+    "translation_en": "It happened in the village of Cerekiew on January 26, 1851, at five o'clock in the afternoon. We make it known that in the presence of witnesses Paweł Karcz, aged 50, and Franciszek Warchoł, aged 52, both peasants residing in Jaszowice, a religious marriage was contracted between Franciszek Ślifirczyk, a bachelor, a laborer residing in Jaszowice, aged 20, son of Jakub and Teofila née Duchnicka; and Antonina Gierczakówna, a maiden, staying with her family in Jaszowice, aged 26, daughter of Michał and Marianna, spouses Gierczak.",
+    "extracted_data": [
+      {
+        "label_pl": "Pan Młody",
+        "label_en": "Groom",
+        "value_pl": "Franciszek Ślifirczyk, 20 lat",
+        "value_en": "Franciszek Ślifirczyk, 20 years old"
+      },
+      {
+        "label_pl": "Panna Młoda",
+        "label_en": "Bride",
+        "value_pl": "Antonina Gierczak, 26 lat",
+        "value_en": "Antonina Gierczak, 26 years old"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title_pl": "Akt Zgonu: Jakub Ślifirczyk (1878)",
+    "title_en": "Death Record: Jakub Ślifirczyk (1878)",
+    "type": "death_record",
+    "description_pl": "Parafia Cerekiew, akt nr 70, 1878 r. Dwuletni syn Józefa Ślifirczyka i jego trzeciej żony, Marianny z Kozów.",
+    "description_en": "Cerekiew Parish, record no. 70, 1878. Two-year-old son of Józef Ślifirczyk and his third wife, Marianna née Koza.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Состоялось въ деревнѣ Черекви, семнадцатого (двадцать девятаго) Апрѣля тысяча восемьсотъ семьдесятъ осьмаго года, въ часъ по полудни. Явились Іосифъ Слифирчикъ, сорока лѣтъ, и Томашъ Коза, пятидесяти лѣтъ отъ роду, оба крестьяне въ Яшовицахъ, и объявили, что вчерашняго дня умеръ Якубъ Слифирчикъ, двухъ лѣтъ отъ роду, сынъ Іосифа и живущей Марiанны изъ Козовъ.",
+    "translation_pl": "Działo się we wsi Cerekiew, siedemnastego (dwudziestego dziewiątego) kwietnia tysiąc osiemset siedemdziesiątego ósmego roku, o godzinie pierwszej po południu. Stawili się Józef Ślifirczyk, lat czterdzieści, i Tomasz Koza, lat pięćdziesiąt, obaj chłopi w Jaszowicach, i oświadczyli, że wczorajszego dnia zmarł Jakub Ślifirczyk, mający dwa lata, syn Józefa i żyjącej Marianny z Kozów.",
+    "translation_en": "It happened in the village of Cerekiew, on the seventeenth (twenty-ninth) of April, eighteen hundred and seventy-eight, at one o'clock in the afternoon. Appeared Józef Ślifirczyk, forty years old, and Tomasz Koza, fifty years old, both peasants in Jaszowice, and they declared that on the previous day died Jakub Ślifirczyk, two years old, son of Józef and the living Marianna née Koza.",
+    "extracted_data": [
+      {
+        "label_pl": "Wiek",
+        "label_en": "Age",
+        "value_pl": "2 lata",
+        "value_en": "2 years"
+      },
+      {
+        "label_pl": "Rodzice",
+        "label_en": "Parents",
+        "value_pl": "Józef i Marianna z Kozów",
+        "value_en": "Józef and Marianna née Koza"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title_pl": "Akt Ślubu: Józef Ślifirczyk i Marianna Koza (1875)",
+    "title_en": "Marriage Record: Józef Ślifirczyk & Marianna Koza (1875)",
+    "type": "marriage_record",
+    "description_pl": "Parafia Cerekiew, akt nr 18, 1875 r. Trzeci ślub Józefa Ślifirczyka, wdowca po Mariannie z Gierczaków.",
+    "description_en": "Cerekiew Parish, record no. 18, 1875. The third marriage of Józef Ślifirczyk, a widower after Marianna née Gierczak.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Состоялось въ деревнѣ Черекви, тридцатаго Января (одиннадцатаго Февраля) тысяча восемьсотъ семьдесятъ пятаго года... въ присутствіи свидѣтелей Антона Бонка и Кристіана Бонка... заключено религіозный брачный союзъ между Іосифомъ Слифирчикомъ, вдовцемъ по Маріаннѣ изъ Герчаковъ, сорока лѣтъ отъ роду, сыномъ Антона и Моники изъ Ткачиковъ, а Маріанною Козою, дѣвицею, девятнадцати лѣтъ отъ роду, дочерью Кароля и Іозефы изъ Барциковскихъ...",
+    "translation_pl": "Działo się we wsi Cerekiew, trzydziestego stycznia (jedenastego lutego) tysiąc osiemset siedemdziesiątego piątego roku... w obecności świadków Antoniego Bąka i Krystiana Bąka... zawarto religijny związek małżeński między Józefem Ślifirczykiem, wdowcem po Mariannie z Gierczaków, lat czterdzieści, synem Antoniego i Moniki z Tkaczyków, a Marianną Kozą, panną, lat dziewiętnaście, córką Karola i Józefy z Barcikowskich...",
+    "translation_en": "It happened in the village of Cerekiew, on the thirtieth of January (eleventh of February), eighteen hundred and seventy-five... in the presence of witnesses Antoni Bąk and Krystian Bąk... a religious marital union was contracted between Józef Ślifirczyk, a widower after Marianna née Gierczak, forty years old, son of Antoni and Monika née Tkaczyk, and Marianna Koza, a maiden, nineteen years old, daughter of Karol and Józefa née Barcikowska...",
+    "extracted_data": [
+      {
+        "label_pl": "Pan Młody",
+        "label_en": "Groom",
+        "value_pl": "Józef Ślifirczyk, 40 lat, wdowiec",
+        "value_en": "Józef Ślifirczyk, 40 years old, widower"
+      },
+      {
+        "label_pl": "Panna Młoda",
+        "label_en": "Bride",
+        "value_pl": "Marianna Koza, 19 lat, panna",
+        "value_en": "Marianna Koza, 19 years old, maiden"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title_pl": "Akt Ślubu: Józef Ślifirczyk i Marianna Poneta (1890)",
+    "title_en": "Marriage Record: Józef Ślifirczyk & Marianna Poneta (1890)",
+    "type": "marriage_record",
+    "description_pl": "Parafia Cerekiew, akt nr 15, 1890 r. Czwarty ślub Józefa Ślifirczyka, wdowca po Mariannie z Kozów.",
+    "description_en": "Cerekiew Parish, record no. 15, 1890. The fourth marriage of Józef Ślifirczyk, a widower after Marianna née Koza.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Состоялось въ деревнѣ Черекви, тридцатаго Января (одиннадцатаго Февраля) тысяча восемьсотъ девяностаго года... въ присутствіи свидѣтелей... заключено религіозный брачный союзъ между Іосифомъ Слифирчикомъ, вдовцемъ по Маріаннѣ изъ Козовъ, пятидесяти лѣтъ отъ роду, сыномъ Антона и Моники изъ Ткачиковъ, а Маріанною изъ Соболевскихъ Понетою, вдовою, сорока лѣтъ отъ роду...",
+    "translation_pl": "Działo się we wsi Cerekiew, trzydziestego stycznia (jedenastego lutego) tysiąc osiemset dziewięćdziesiątego roku... w obecności świadków... zawarto religijny związek małżeński między Józefem Ślifirczykiem, wdowcem po Mariannie z Kozów, lat pięćdziesiąt, synem Antoniego i Moniki z Tkaczyków, a Marianną z Sobolewskich Ponetą, wdową, lat czterdzieści...",
+    "translation_en": "It happened in the village of Cerekiew, on the thirtieth of January (eleventh of February), eighteen hundred and ninety... in the presence of witnesses... a religious marital union was contracted between Józef Ślifirczyk, a widower after Marianna née Koza, fifty years old, son of Antoni and Monika née Tkaczyk, and Marianna née Sobolewska Poneta, a widow, forty years old...",
+    "extracted_data": [
+      {
+        "label_pl": "Pan Młody",
+        "label_en": "Groom",
+        "value_pl": "Józef Ślifirczyk, 50 lat, wdowiec",
+        "value_en": "Józef Ślifirczyk, 50 years old, widower"
+      },
+      {
+        "label_pl": "Panna Młoda",
+        "label_en": "Bride",
+        "value_pl": "Marianna Poneta z d. Sobolewska, 40 lat, wdowa",
+        "value_en": "Marianna Poneta née Sobolewska, 40 years old, widow"
+      }
+    ]
+  },
+  {
     "id": 55,
     "title_pl": "Akt Zgonu: Michał Gierczak (1854)",
     "title_en": "Death Record: Michał Gierczak (1854)",
@@ -309,7 +747,6 @@
       }
     ]
   },
-
   {
     "id": 38,
     "title_pl": "Akt Zgonu: Jadwiga Kornafel z Gierczaków (1884)",

@@ -84,6 +84,12 @@
     "documentIds": [106]
   },
   {
+    "lastName": "Bielewski",
+    "firstName": "Józef",
+    "residence": "Kasców",
+    "documentIds": [34]
+  },
+  {
     "lastName": "Bilski",
     "firstName": "Bolesław",
     "residence": "Gulinek",
@@ -283,6 +289,12 @@
   },
   {
     "lastName": "Gierczak",
+    "firstName": "Michał",
+    "residence": "Jaszowice",
+    "documentIds": [30]
+  },
+  {
+    "lastName": "Gierczak",
     "firstName": "Stanisław",
     "residence": "Gulinek",
     "documentIds": [233, 234, 236, 237]
@@ -292,6 +304,12 @@
     "firstName": "Walenty",
     "residence": "Gulinek",
     "documentIds": [10, 107]
+  },
+  {
+    "lastName": "Gierczakowa",
+    "firstName": "Marianna",
+    "residence": "Jaszowice",
+    "documentIds": [30]
   },
   {
     "lastName": "Gierczakówna",
@@ -328,6 +346,12 @@
     "firstName": "Franciszek",
     "residence": "Gulinek",
     "documentIds": [2]
+  },
+  {
+    "lastName": "Golus",
+    "firstName": "Karol",
+    "residence": "Gulin",
+    "documentIds": [35]
   },
   {
     "lastName": "Goralski",
@@ -393,7 +417,7 @@
     "lastName": "Karcz",
     "firstName": "Paweł",
     "residence": "Jaszowice",
-    "documentIds": [229, 256, 257, 258]
+    "documentIds": [39, 229, 256, 257, 258]
   },
   {
     "lastName": "Kierzkowski",
@@ -426,6 +450,12 @@
     "documentIds": [240]
   },
   {
+    "lastName": "Koberska",
+    "firstName": "Marianna",
+    "residence": "Gulinek",
+    "documentIds": [29]
+  },
+  {
     "lastName": "Kobierski",
     "firstName": "Antoni",
     "residence": "Jaszowice",
@@ -447,7 +477,7 @@
     "lastName": "Kornafel",
     "firstName": "Franciszek",
     "residence": "Jaszowice",
-    "documentIds": [260]
+    "documentIds": [260, 31, 32]
   },
   {
     "lastName": "Kornafel",
@@ -502,6 +532,12 @@
     "firstName": "Szczepan",
     "residence": "Gulinek",
     "documentIds": [267]
+  },
+  {
+    "lastName": "Kozana",
+    "firstName": "Franciszek",
+    "residence": "Kasców",
+    "documentIds": [34]
   },
   {
     "lastName": "Kozłowski",
@@ -571,9 +607,21 @@
   },
   {
     "lastName": "Mitak",
+    "firstName": "Antoni",
+    "residence": "Gulinek",
+    "documentIds": [29]
+  },
+  {
+    "lastName": "Mitak",
     "firstName": "Jan",
     "residence": "Gulinek",
     "documentIds": [269]
+  },
+  {
+    "lastName": "Mitak",
+    "firstName": "Marcin",
+    "residence": "Gulin",
+    "documentIds": [35]
   },
   {
     "lastName": "Mitak",
@@ -675,7 +723,7 @@
     "lastName": "Plewiński",
     "firstName": "Stanisław",
     "residence": "Gulinek",
-    "documentIds": [109, 266]
+    "documentIds": [28, 29, 109, 266]
   },
   {
     "lastName": "Przybyłowski",
@@ -750,6 +798,12 @@
     "documentIds": [105, 222, 223, 224, 225]
   },
   {
+    "lastName": "Sawecki",
+    "firstName": "Ignacy",
+    "residence": "Jaszowice",
+    "documentIds": [36]
+  },
+  {
     "lastName": "Sitek",
     "firstName": "Adam",
     "residence": "Gulinek",
@@ -798,6 +852,12 @@
     "documentIds": [212]
   },
   {
+    "lastName": "Ślifirczyk",
+    "firstName": "Józef",
+    "residence": "Jaszowice",
+    "documentIds": [33, 36, 37, 38, 40]
+  },
+  {
     "lastName": "Talberg",
     "firstName": "Józef",
     "residence": "Cerekiew",
@@ -808,6 +868,18 @@
     "firstName": "Walenty",
     "residence": "Wola Gutowska",
     "documentIds": [247]
+  },
+  {
+    "lastName": "Tyczyński",
+    "firstName": "Augustyn",
+    "residence": "Jaszowice",
+    "documentIds": [31, 32]
+  },
+  {
+    "lastName": "Słomka",
+    "firstName": "Antoni",
+    "residence": "Jaszowice",
+    "documentIds": [37, 38]
   },
   {
     "lastName": "Walczak",
@@ -831,7 +903,7 @@
     "lastName": "Warchoł",
     "firstName": "Franciszek",
     "residence": "Jaszowice",
-    "documentIds": [11, 55, 259, 261, 265]
+    "documentIds": [11, 39, 55, 259, 261, 265]
   },
   {
     "lastName": "Warchoł",
@@ -867,13 +939,13 @@
     "lastName": "Zieliński",
     "firstName": "Franciszek",
     "residence": "Gulinek",
-    "documentIds": [110, 266]
+    "documentIds": [28, 110, 266]
   },
   {
     "lastName": "Zielińska",
     "firstName": "Franciszka",
     "residence": "Gulinek",
-    "documentIds": [52, 109, 266]
+    "documentIds": [28, 52, 109, 266]
   },
   {
     "lastName": "Zielony",
@@ -892,5 +964,29 @@
     "firstName": "Mateusz",
     "residence": "Jaszowice",
     "documentIds": [182]
+  },
+  {
+    "lastName": "Bielewski",
+    "firstName": "Józef",
+    "residence": "Jaszowice",
+    "documentIds": [39]
+  },
+  {
+    "lastName": "Koza",
+    "firstName": "Tomasz",
+    "residence": "Jaszowice",
+    "documentIds": [40]
+  },
+  {
+    "lastName": "Bąk",
+    "firstName": "Antoni",
+    "residence": "Jaszowice",
+    "documentIds": [41]
+  },
+  {
+    "lastName": "Bąk",
+    "firstName": "Krystian",
+    "residence": "Jaszowice",
+    "documentIds": [41]
   }
 ]
