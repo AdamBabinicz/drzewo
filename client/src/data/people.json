@@ -2580,7 +2580,7 @@
     "deathTime": "15:00",
     "photoUrl": "/images/jakub.avif",
     "spouseIds": [130],
-    "childIds": [57, 131, 132],
+    "childIds": [57, 131, 132, 210, 211, 214, 215, 216],
     "parentIds": [133, 134],
     "occupation": {
       "pl": "Gospodarz",
@@ -2596,8 +2596,8 @@
       }
     ],
     "biography": {
-      "pl": "Syn Szczepana i Małgorzaty z d. Kowalczyk. W jego akcie urodzenia ojciec został błędnie zapisany jako Stefan. Mąż Marianny Wieczorek. Mieszkał z rodziną w Woli Gutowskiej k. Jedlińska. Zmarł w wieku 86 lat, pozostawiając owdowiałą żonę.",
-      "en": "Son of Szczepan and Małgorzata née Kowalczyk. In his birth certificate, his father was mistakenly recorded as Stefan. Husband of Marianna Wieczorek. Lived with his family in Wola Gutowska near Jedlińsk. He died at the age of 86, leaving behind his widow."
+      "pl": "Syn Szczepana i Małgorzaty z d. Kowalczyk. Mąż Marianny Wieczorek. Ojciec Andrzeja, Zofii, Agnieszki, Józefy, Katarzyny, Jędrzeja, Bartłomieja i Józefa. Mieszkał z rodziną w Woli Gutowskiej k. Jedlińska. Zmarł w wieku 86 lat.",
+      "en": "Son of Szczepan and Małgorzata née Kowalczyk. Husband of Marianna Wieczorek. Father of Andrzej, Zofia, Agnieszka, Józefa, Katarzyna, Jędrzej, Bartłomiej and Józef. Lived with his family in Wola Gutowska near Jedlińsk. He died at the age of 86."
     },
     "events": [
       {
@@ -2627,7 +2627,7 @@
     "birthDateNote": "ok. 1832",
     "deathDateNote": "po 1919-11-22",
     "spouseIds": [129],
-    "childIds": [57, 131, 132],
+    "childIds": [57, 131, 132, 210, 211, 214, 215, 216],
     "parentIds": [],
     "marriages": [
       {
@@ -2639,8 +2639,8 @@
       }
     ],
     "biography": {
-      "pl": "Żona Jakuba Ofiary. Matka Andrzeja, Zofii i Agnieszki. Córka Kacpra i Małgorzaty z Grzelaków. Wiadomo, że żyła jeszcze w listopadzie 1919 roku, kiedy zmarł jej mąż.",
-      "en": "Wife of Jakub Ofiara. Mother of Andrzej, Zofia, and Agnieszka. Daughter of Kacper and Małgorzata née Grzelak. It is known that she was still alive in November 1919 when her husband died."
+      "pl": "Żona Jakuba Ofiary. Matka Andrzeja, Zofii, Agnieszki, Józefy, Katarzyny, Jędrzeja, Bartłomieja i Józefa. Córka Kacpra i Małgorzaty z Grzelaków. W aktach urodzenia swoich dzieci bywała błędnie zapisywana jako Magdalena. Wiadomo, że żyła jeszcze w listopadzie 1919 roku.",
+      "en": "Wife of Jakub Ofiara. Mother of Andrzej, Zofia, Agnieszka, Józefa, Katarzyna, Jędrzej, Bartłomiej and Józef. Daughter of Kacper and Małgorzata née Grzelak. In her children's birth records, she was sometimes mistakenly recorded as Magdalena. It is known that she was still alive in November 1919."
     }
   },
   {
@@ -3311,7 +3311,7 @@
     "birthDateNote": "ok. 1809",
     "deathDateNote": "po 1852",
     "spouseIds": [158, 172],
-    "childIds": [174],
+    "childIds": [174, 204],
     "parentIds": [161, 162],
     "marriages": [
       {
@@ -3367,11 +3367,21 @@
     "birthDate": "1826-04-20",
     "birthTime": "24:00",
     "parentIds": [133, 134],
-    "spouseIds": [],
-    "childIds": [],
+    "spouseIds": [202],
+    "childIds": [201, 203, 208, 212, 217],
+    "marriages": [
+      {
+        "spouseId": 202,
+        "date": null,
+        "note": {
+          "pl": "data nieznana, przed 1850",
+          "en": "date unknown, before 1850"
+        }
+      }
+    ],
     "biography": {
-      "pl": "Syn Szczepana i Małgorzaty z d. Kowalczyk.",
-      "en": "Son of Szczepan and Małgorzata née Kowalczyk."
+      "pl": "Syn Szczepana i Małgorzaty z d. Kowalczyk. Ojciec Ignacego, Rozalii, Franciszka, Jana i Piotra.",
+      "en": "Son of Szczepan and Małgorzata née Kowalczyk. Father of Ignacy, Rozalia, Franciszek, Jan and Piotr."
     },
     "events": [
       {
@@ -3653,8 +3663,8 @@
     "family": "ofiara",
     "birthDateNote": "ok. 1809",
     "spouseIds": [157],
-    "childIds": [],
-    "parentIds": [173, 174],
+    "childIds": [204],
+    "parentIds": [173],
     "marriages": [
       {
         "spouseId": 157,
@@ -4289,5 +4299,336 @@
       "pl": "Czwarta żona Józefa Ślifirczyka. Wyszła za niego za mąż jako wdowa po Sobolewskim.",
       "en": "Fourth wife of Józef Ślifirczyk. She married him as the widow of Sobolewski."
     }
+  },
+  {
+    "id": 201,
+    "firstName": "Ignacy",
+    "lastName": "Ofiara",
+    "birthDate": "1850-01-01",
+    "birthTime": "16:00",
+    "photoUrl": null,
+    "family": "ofiara",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [159, 202],
+    "marriages": [],
+    "biography": {
+      "pl": "Syn Wincentego Ofiary i Franciszki z d. Walczak. Urodzony w Woli Gutowskiej.",
+      "en": "Son of Wincenty Ofiara and Franciszka née Walczak. Born in Wola Gutowska."
+    },
+    "events": [
+      {
+        "type": "birth",
+        "date": "1850-01-01",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 270
+        }
+      }
+    ]
+  },
+  {
+    "id": 202,
+    "firstName": "Franciszka",
+    "lastName": "Ofiara",
+    "maidenName": "Walczak",
+    "birthDateNote": "ok. 1824",
+    "photoUrl": null,
+    "family": "ofiara",
+    "spouseIds": [159],
+    "childIds": [201, 203, 208, 212, 217],
+    "parentIds": [],
+    "marriages": [
+      {
+        "spouseId": 159,
+        "date": null,
+        "note": {
+          "pl": "data nieznana, przed 1850",
+          "en": "date unknown, before 1850"
+        }
+      }
+    ],
+    "biography": {
+      "pl": "Żona Wincentego Ofiary, matka Ignacego, Rozalii, Franciszka, Jana i Piotra.",
+      "en": "Wife of Wincenty Ofiara, mother of Ignacy, Rozalia, Franciszek, Jan and Piotr."
+    }
+  },
+  {
+    "id": 203,
+    "firstName": "Rozalia",
+    "lastName": "Ofiara",
+    "birthDate": "1851-10-17",
+    "birthTime": "09:00",
+    "birthTimeQualifier": "morning",
+    "photoUrl": null,
+    "family": "ofiara",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [159, 202],
+    "marriages": [],
+    "biography": {
+      "pl": "Córka Wincentego Ofiary i Franciszki z d. Walczak. Siostra Ignacego.",
+      "en": "Daughter of Wincenty Ofiara and Franciszka née Walczak. Sister of Ignacy."
+    },
+    "events": [
+      {
+        "type": "birth",
+        "date": "1851-10-17",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 271
+        }
+      }
+    ]
+  },
+  {
+    "id": 204,
+    "firstName": "Roch",
+    "lastName": "Ofiara",
+    "birthDate": "1853-10-13",
+    "birthTime": "03:00",
+    "birthTimeQualifier": "morning",
+    "photoUrl": null,
+    "family": "ofiara",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [157, 172],
+    "marriages": [],
+    "biography": {
+      "pl": "Syn Stefana Ofiary i jego drugiej żony, Marianny z d. Jemiołek (primo voto Strączek).",
+      "en": "Son of Stefan Ofiara and his second wife, Marianna née Jemiołek (primo voto Strączek)."
+    },
+    "events": [
+      {
+        "type": "birth",
+        "date": "1853-10-13",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 272
+        }
+      }
+    ]
+  },
+  {
+    "id": 208,
+    "firstName": "Franciszek",
+    "lastName": "Ofiara",
+    "birthDate": "1855-09-01",
+    "birthTime": "05:00",
+    "birthTimeQualifier": "morning",
+    "photoUrl": null,
+    "family": "ofiara",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [159, 202],
+    "marriages": [],
+    "biography": {
+      "pl": "Syn Wincentego Ofiary i Franciszki z d. Walczak. Brat Ignacego i Rozalii.",
+      "en": "Son of Wincenty Ofiara and Franciszka née Walczak. Brother of Ignacy and Rozalia."
+    },
+    "events": [
+      {
+        "type": "birth",
+        "date": "1855-09-01",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 275
+        }
+      }
+    ]
+  },
+  {
+    "id": 210,
+    "firstName": "Józefa",
+    "lastName": "Ofiara",
+    "birthDate": "1857-07-24",
+    "birthTime": "08:00",
+    "birthTimeQualifier": "morning",
+    "photoUrl": null,
+    "family": "ofiara",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [129, 130],
+    "marriages": [],
+    "biography": {
+      "pl": "Córka Jakuba Ofiary i Marianny z d. Wieczorek (w akcie urodzenia matka błędnie zapisana jako Magdalena). Siostra Andrzeja, Zofii i Agnieszki.",
+      "en": "Daughter of Jakub Ofiara and Marianna née Wieczorek (in the birth record, the mother was mistakenly recorded as Magdalena). Sister of Andrzej, Zofia and Agnieszka."
+    },
+    "events": [
+      {
+        "type": "birth",
+        "date": "1857-07-24",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 277
+        }
+      }
+    ]
+  },
+  {
+    "id": 211,
+    "firstName": "Katarzyna",
+    "lastName": "Ofiara",
+    "birthDate": "1857-11-20",
+    "birthTime": "12:00",
+    "photoUrl": null,
+    "family": "ofiara",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [129, 130],
+    "marriages": [],
+    "biography": {
+      "pl": "Córka Jakuba Ofiary (w akcie błędnie jako Jan) i Marianny z d. Wieczorek. Siostra Andrzeja, Zofii, Agnieszki i Józefy.",
+      "en": "Daughter of Jakub Ofiara (in the record mistakenly as Jan) and Marianna née Wieczorek. Sister of Andrzej, Zofia, Agnieszka and Józefa."
+    },
+    "events": [
+      {
+        "type": "birth",
+        "date": "1857-11-20",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 278
+        }
+      }
+    ]
+  },
+  {
+    "id": 212,
+    "firstName": "Jan",
+    "lastName": "Ofiara",
+    "birthDate": "1858-05-07",
+    "birthTime": "08:00",
+    "birthTimeQualifier": "morning",
+    "photoUrl": null,
+    "family": "ofiara",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [159, 202],
+    "marriages": [],
+    "biography": {
+      "pl": "Syn Wincentego Ofiary i Franciszki z d. Walczak. Brat Ignacego, Rozalii i Franciszka.",
+      "en": "Son of Wincenty Ofiara and Franciszka née Walczak. Brother of Ignacy, Rozalia and Franciszek."
+    },
+    "events": [
+      {
+        "type": "birth",
+        "date": "1858-05-07",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 279
+        }
+      }
+    ]
+  },
+  {
+    "id": 214,
+    "firstName": "Jędrzej",
+    "lastName": "Ofiara",
+    "birthDate": "1859-11-18",
+    "birthTime": "12:00",
+    "photoUrl": null,
+    "family": "ofiara",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [129, 130],
+    "marriages": [],
+    "biography": {
+      "pl": "Syn Jakuba Ofiary i Marianny (w akcie jako Magdalena) z d. Wieczorek. Brat Andrzeja, Zofii, Agnieszki, Józefy i Katarzyny.",
+      "en": "Son of Jakub Ofiara and Marianna (recorded as Magdalena) née Wieczorek. Brother of Andrzej, Zofia, Agnieszka, Józefa and Katarzyna."
+    },
+    "events": [
+      {
+        "type": "birth",
+        "date": "1859-11-18",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 281
+        }
+      }
+    ]
+  },
+  {
+    "id": 215,
+    "firstName": "Bartłomiej",
+    "lastName": "Ofiara",
+    "birthDate": "1860-08-24",
+    "birthTime": "08:00",
+    "birthTimeQualifier": "morning",
+    "photoUrl": null,
+    "family": "ofiara",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [129, 130],
+    "marriages": [],
+    "biography": {
+      "pl": "Syn Jakuba Ofiary (w akcie błędnie jako Jan) i Marianny z d. Wieczorek. Brat Andrzeja, Zofii, Agnieszki, Józefy, Katarzyny i Jędrzeja.",
+      "en": "Son of Jakub Ofiara (in the record mistakenly as Jan) and Marianna née Wieczorek. Brother of Andrzej, Zofia, Agnieszka, Józefa, Katarzyna and Jędrzej."
+    },
+    "events": [
+      {
+        "type": "birth",
+        "date": "1860-08-24",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 282
+        }
+      }
+    ]
+  },
+  {
+    "id": 216,
+    "firstName": "Józef",
+    "lastName": "Ofiara",
+    "birthDate": "1861-03-11",
+    "birthTime": "21:00",
+    "birthTimeQualifier": "night",
+    "photoUrl": null,
+    "family": "ofiara",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [129, 130],
+    "marriages": [],
+    "biography": {
+      "pl": "Syn Jakuba Ofiary i Marianny (w akcie jako Magdalena) z d. Wieczorek. Brat Andrzeja, Zofii, Agnieszki, Katarzyny, Jędrzeja i Bartłomieja.",
+      "en": "Son of Jakub Ofiara and Marianna (recorded as Magdalena) née Wieczorek. Brother of Andrzej, Zofia, Agnieszka, Katarzyna, Jędrzej and Bartłomiej."
+    },
+    "events": [
+      {
+        "type": "birth",
+        "date": "1861-03-11",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 283
+        }
+      }
+    ]
+  },
+  {
+    "id": 217,
+    "firstName": "Piotr",
+    "lastName": "Ofiara",
+    "birthDate": "1861-07-26",
+    "birthTime": "07:00",
+    "birthTimeQualifier": "morning",
+    "photoUrl": null,
+    "family": "ofiara",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [159, 202],
+    "marriages": [],
+    "biography": {
+      "pl": "Syn Wincentego Ofiary i Franciszki z d. Walczak. Brat Ignacego, Rozalii, Franciszka i Jana.",
+      "en": "Son of Wincenty Ofiara and Franciszka née Walczak. Brother of Ignacy, Rozalia, Franciszek and Jan."
+    },
+    "events": [
+      {
+        "type": "birth",
+        "date": "1861-07-26",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 284
+        }
+      }
+    ]
   }
 ]

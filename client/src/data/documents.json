@@ -3709,5 +3709,400 @@
         "value_en": "Władysław Kozyra and Jan Mitak"
       }
     ]
+  },
+  {
+    "id": 270,
+    "title_pl": "Akt Urodzenia: Ignacy Ofiara (1850)",
+    "title_en": "Birth Record: Ignacy Ofiara (1850)",
+    "type": "birth_record",
+    "description_pl": "Parafia Jedlińsk, akt nr 1, 1850 r. Dokument potwierdza narodziny Ignacego, syna Wincentego Ofiary i Franciszki z Walczaków.",
+    "description_en": "Jedlińsk Parish, record no. 1, 1850. The document confirms the birth of Ignacy, son of Wincenty Ofiara and Franciszka née Walczak.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się w mieście Jedlińsku, dnia Trzeciego Stycznia, tysiąc osmset pięćdziesiątego roku, o godzinie dziewiąty z rana. Stawił się Wincenty Ofiara włościanin parobek, we wsi Woli Gutowskiej zamieszkały, lat dwadzieścia cztery liczący, w obecności Franciszka Sumińskiego lat pięćdziesiąt i Joanny Walczakowej lat dwadzieścia sześć liczących, włościan z Woli Gutowskiej i okazał nam dziecię płci męskiej, urodzone w Woli Gutowskiej dnia pierwszego Stycznia bieżącego roku o godzinie czwartej po południu z jego małżonki Franciszki z Walczaków, lat dwadzieścia sześć liczącej. Dziecięciu temu na Chrzcie Świętym odbytym w dniu dzisiejszym nadane zostało imię Ignacy, a Rodzicami jego Chrzestnymi byli: wspomniany Franciszek Sumiński i Joanna Walczakowa. Akt ten stawiającemu i świadkom przeczytany, a że pisać nie umieją, przez Nas tylko podpisany został. X Jan Kłoczkowski Proboszcz Jedliński.",
+    "translation_pl": "Zdarzyło się w mieście Jedlińsk, dnia 3 stycznia 1850 roku, o godzinie dziewiątej rano. Stawił się Wincenty Ofiara, włościanin parobek, zamieszkały w Woli Gutowskiej, lat 24, w obecności Franciszka Sumińskiego, lat 50, i Joanny Walczakowej, lat 26, włościan z Woli Gutowskiej. Okazał nam dziecko płci męskiej, urodzone w Woli Gutowskiej dnia 1 stycznia bieżącego roku o godzinie czwartej po południu z jego małżonki Franciszki z Walczaków, lat 26. Dziecku temu na chrzcie świętym odbytym w dniu dzisiejszym nadano imię Ignacy, a jego rodzicami chrzestnymi byli wspomniany Franciszek Sumiński i Joanna Walczakowa. Akt ten stawiającemu i świadkom, którzy nie umieją pisać, przeczytano i tylko przez nas podpisano. Ks. Jan Kłoczkowski, Proboszcz Jedliński.",
+    "translation_en": "It happened in the Town of Jedlińsk, on the third of January, eighteen hundred and fifty, at nine o'clock in the morning. Appeared Wincenty Ofiara, a peasant farmhand, residing in Wola Gutowska, aged 24, in the presence of Franciszek Sumiński, aged 50, and Joanna Walczakowa, aged 26, peasants from Wola Gutowska. He presented to us a male child, born in Wola Gutowska on the first of January of the current year at four o'clock in the afternoon, to his wife Franciszka née Walczak, aged 26. At the Holy Baptism held this day, this child was given the name Ignacy, and his Godparents were the aforementioned Franciszek Sumiński and Joanna Walczakowa. This act was read to the declarant and witnesses, and as they cannot write, it was signed only by us. Fr. Jan Kłoczkowski, Pastor of Jedlińsk.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Wincenty Ofiara, 24 lata",
+        "value_en": "Wincenty Ofiara, 24 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Franciszka z Walczaków, 26 lat",
+        "value_en": "Franciszka née Walczak, 26 years old"
+      },
+      {
+        "label_pl": "Rodzice chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Franciszek Sumiński i Joanna Walczakowa",
+        "value_en": "Franciszek Sumiński and Joanna Walczakowa"
+      }
+    ]
+  },
+  {
+    "id": 271,
+    "title_pl": "Akt Urodzenia: Rozalia Ofiara (1851)",
+    "title_en": "Birth Record: Rozalia Ofiara (1851)",
+    "type": "birth_record",
+    "description_pl": "Parafia Jedlińsk, akt nr 78, 1851 r. Dokument potwierdza narodziny Rozalii, córki Wincentego Ofiary i Franciszki z Walczaków.",
+    "description_en": "Jedlińsk Parish, record no. 78, 1851. The document confirms the birth of Rozalia, daughter of Wincenty Ofiara and Franciszka née Walczak.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się w mieście Jedlińsku, dnia Dziewiętnastego Października, tysiąc osmset pięćdziesiątego pierwszego roku, o godzinie Drugiej po południu. Stawił się Wincenty Ofiara, włościanin parobek, we wsi Woli Gutowskiej zamieszkały, lat dwadzieścia pięć liczący, w obecności Józefa Rulskiego lat dwadzieścia pięć i Błażeja Lipca lat czterdzieści trzy liczących, włościan z Woli Gutowskiej i okazał nam dziecię płci żeńskiej, urodzone w Woli Gutowskiej dnia siedemnastego Października bieżącego roku o godzinie Dziewiątej rano z jego małżonki Franciszki z Walczaków, lat dwadzieścia siedm liczącej. Dziecięciu temu na Chrzcie Świętym odbytym w dniu Dziewiętnastym nadane zostało imię Rozalia, a Rodzicami jego Chrzestnymi byli: wspomniany Józef Rulski i Rozalia Skrzeczewska. Akt ten stawiającemu i świadkom przeczytany, a że pisać nie umieją, przez Nas tylko podpisany został. X Jan Kłoczkowski Proboszcz Jedliński.",
+    "translation_pl": "Zdarzyło się w mieście Jedlińsk, dnia 19 października 1851 roku, o godzinie drugiej po południu. Stawił się Wincenty Ofiara, włościanin parobek, zamieszkały w Woli Gutowskiej, lat 25, w obecności Józefa Rulskiego, lat 25, i Błażeja Lipca, lat 43, włościan z Woli Gutowskiej. Okazał nam dziecko płci żeńskiej, urodzone w Woli Gutowskiej dnia 17 października bieżącego roku o godzinie dziewiątej rano z jego małżonki Franciszki z Walczaków, lat 27. Dziecku temu na chrzcie świętym odbytym w dniu dziewiętnastym nadano imię Rozalia, a jego rodzicami chrzestnymi byli wspomniany Józef Rulski i Rozalia Skrzeczewska. Akt ten stawiającemu i świadkom, którzy nie umieją pisać, przeczytano i tylko przez nas podpisano. Ks. Jan Kłoczkowski, Proboszcz Jedliński.",
+    "translation_en": "It happened in the Town of Jedlińsk, on the nineteenth of October, eighteen hundred and fifty-one, at two o'clock in the afternoon. Appeared Wincenty Ofiara, a peasant farmhand, residing in Wola Gutowska, aged 25, in the presence of Józef Rulski, aged 25, and Błażej Lipiec, aged 43, peasants from Wola Gutowska. He presented to us a female child, born in Wola Gutowska on the seventeenth of October of the current year at nine o'clock in the morning, to his wife Franciszka née Walczak, aged 27. At the Holy Baptism held on the nineteenth day, this child was given the name Rozalia, and her Godparents were the aforementioned Józef Rulski and Rozalia Skrzeczewska. This act was read to the declarant and witnesses, and as they cannot write, it was signed only by us. Fr. Jan Kłoczkowski, Pastor of Jedlińsk.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Wincenty Ofiara, 25 lat",
+        "value_en": "Wincenty Ofiara, 25 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Franciszka z Walczaków, 27 lat",
+        "value_en": "Franciszka née Walczak, 27 years old"
+      },
+      {
+        "label_pl": "Rodzice chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Józef Rulski i Rozalia Skrzeczewska",
+        "value_en": "Józef Rulski and Rozalia Skrzeczewska"
+      }
+    ]
+  },
+  {
+    "id": 272,
+    "title_pl": "Akt Urodzenia: Roch Ofiara (1853)",
+    "title_en": "Birth Record: Roch Ofiara (1853)",
+    "type": "birth_record",
+    "description_pl": "Parafia Jedlińsk, akt nr 51, 1853 r. Dokument potwierdza narodziny Rocha, syna Stefana Ofiary i Marianny ze Strączków.",
+    "description_en": "Jedlińsk Parish, record no. 51, 1853. The document confirms the birth of Roch, son of Stefan Ofiara and Marianna née Strączek.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się w mieście Jedlińsku, dnia trzynastego Października, tysiąc osmset pięćdziesiątego trzeciego roku, o godzinie siódmej rano. Stawił się Stefan Ofiara, włościanin gospodarz z Woli Gutowskiej, lat czterdzieści dziewięć maiący, w obecności Franciszka Grudzińskiego lat czterdzieści i Maryanny z domu Jedlińskiej lat czterdzieści maiących, włościan z Woli Gutowskiej, i okazał nam dziecię płci męskiej, urodzone w Woli Gutowskiej dnia dzisiejszego o godzinie trzeciej rano z jego małżonki Maryanny ze Strączków, lat czterdzieści maiącey. Dziecięciu temu na Chrzcie Świętym odbytym w dniu dzisiejszym nadane zostało imię Roch, a Rodzicami jego Chrzestnymi byli: wspomniany Franciszek Grudziński i Maryanna z Jedlińskiej. Akt ten stawającemu i świadkom przeczytany, a że pisać nie umieją, przez Nas tylko podpisany został. X Jan Kłoczkowski Proboszcz Jedliński.",
+    "translation_pl": "Zdarzyło się w mieście Jedlińsk, dnia 13 października 1853 roku, o godzinie siódmej rano. Stawił się Stefan Ofiara, włościanin gospodarz z Woli Gutowskiej, lat 49, w obecności Franciszka Grudzińskiego, lat 40, i Marianny z domu Jedlińskiej, lat 40, włościan z Woli Gutowskiej. Okazał nam dziecko płci męskiej, urodzone w Woli Gutowskiej dnia dzisiejszego o godzinie trzeciej rano z jego małżonki Marianny ze Strączków, lat 40. Dziecku temu na chrzcie świętym odbytym w dniu dzisiejszym nadano imię Roch, a jego rodzicami chrzestnymi byli wspomniany Franciszek Grudziński i Marianna z Jedlińskiej. Akt ten stawiającemu i świadkom, którzy nie umieją pisać, przeczytano i tylko przez nas podpisano. Ks. Jan Kłoczkowski, Proboszcz Jedliński.",
+    "translation_en": "It happened in the Town of Jedlińsk, on the thirteenth of October, eighteen hundred and fifty-three, at seven o'clock in the morning. Appeared Stefan Ofiara, a peasant farmer from Wola Gutowska, aged 49, in the presence of Franciszek Grudziński, aged 40, and Marianna née Jedlińska, aged 40, peasants from Wola Gutowska. He presented to us a male child, born in Wola Gutowska on this day at three o'clock in the morning, to his wife Marianna née Strączek, aged 40. At the Holy Baptism held this day, this child was given the name Roch, and his Godparents were the aforementioned Franciszek Grudziński and Marianna z Jedlińskiej. This act was read to the declarant and witnesses, and as they cannot write, it was signed only by us. Fr. Jan Kłoczkowski, Pastor of Jedlińsk.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Stefan Ofiara, 49 lat",
+        "value_en": "Stefan Ofiara, 49 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Marianna ze Strączków, 40 lat",
+        "value_en": "Marianna née Strączek, 40 years old"
+      },
+      {
+        "label_pl": "Rodzice chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Franciszek Grudziński i Marianna z Jedlińskiej",
+        "value_en": "Franciszek Grudziński and Marianna z Jedlińskiej"
+      }
+    ]
+  },
+
+  {
+    "id": 275,
+    "title_pl": "Akt Urodzenia: Franciszek Ofiara (1855)",
+    "title_en": "Birth Record: Franciszek Ofiara (1855)",
+    "type": "birth_record",
+    "description_pl": "Parafia Jedlińsk, akt nr 25, 1855 r. Dokument potwierdza narodziny Franciszka, syna Wincentego Ofiary i Franciszki z Walczaków.",
+    "description_en": "Jedlińsk Parish, record no. 25, 1855. The document confirms the birth of Franciszek, son of Wincenty Ofiara and Franciszka née Walczak.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się w mieście Jedlińsku, dnia trzeciego Września, tysiąc osmset pięćdziesiątego piątego roku, o godzinie ósmej rano. Stawił się Wincenty Ofiara, włościanin gospodarz z Woli Gutowskiej, lat dwadzieścia dziewięć liczący, w obecności Janga Kalbarczyka lat trzydzieści sześć i Błażeja Lipca lat czterdzieści sześć liczących, włościan z Woli Gutowskiej, i okazał nam dziecię płci męskiej, urodzone w Woli Gutowskiej dnia pierwszego Września bieżącego roku o godzinie piątej rano z jego małżonki Franciszki z Walczaków, lat trzydzieści jeden liczącej. Dziecięciu temu na Chrzcie Świętym odbytym w dniu dzisiejszym nadane zostało imię Franciszek, a Rodzicami jego Chrzestnymi byli: wspomniany Jan Kalbarczyk i Franciszka Kwiecińska. Akt ten stawającemu i świadkom przeczytany, a że pisać nie umieją, przez Nas tylko podpisany został. X Jan Kłoczkowski Proboszcz Jedliński.",
+    "translation_pl": "Zdarzyło się w mieście Jedlińsk, dnia 3 września 1855 roku, o godzinie ósmej rano. Stawił się Wincenty Ofiara, włościanin gospodarz z Woli Gutowskiej, lat 29, w obecności Jana Kalbarczyka, lat 36, i Błażeja Lipca, lat 46, włościan z Woli Gutowskiej. Okazał nam dziecko płci męskiej, urodzone w Woli Gutowskiej dnia 1 września bieżącego roku o godzinie piątej rano z jego małżonki Franciszki z Walczaków, lat 31. Dziecku temu na chrzcie świętym odbytym w dniu dzisiejszym nadano imię Franciszek, a jego rodzicami chrzestnymi byli wspomniany Jan Kalbarczyk i Franciszka Kwiecińska. Akt ten stawiającemu i świadkom, którzy nie umieją pisać, przeczytano i tylko przez nas podpisano. Ks. Jan Kłoczkowski, Proboszcz Jedliński.",
+    "translation_en": "It happened in the Town of Jedlińsk, on the third of September, eighteen hundred and fifty-five, at eight o'clock in the morning. Appeared Wincenty Ofiara, a peasant farmer from Wola Gutowska, aged 29, in the presence of Jan Kalbarczyk, aged 36, and Błażej Lipiec, aged 46, peasants from Wola Gutowska. He presented to us a male child, born in Wola Gutowska on the first of September of the current year at five o'clock in the morning, to his wife Franciszka née Walczak, aged 31. At the Holy Baptism held this day, this child was given the name Franciszek, and his Godparents were the aforementioned Jan Kalbarczyk and Franciszka Kwiecińska. This act was read to the declarant and witnesses, and as they cannot write, it was signed only by us. Fr. Jan Kłoczkowski, Pastor of Jedlińsk.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Wincenty Ofiara, 29 lat",
+        "value_en": "Wincenty Ofiara, 29 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Franciszka z Walczaków, 31 lat",
+        "value_en": "Franciszka née Walczak, 31 years old"
+      },
+      {
+        "label_pl": "Rodzice chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Jan Kalbarczyk i Franciszka Kwiecińska",
+        "value_en": "Jan Kalbarczyk and Franciszka Kwiecińska"
+      }
+    ]
+  },
+  {
+    "id": 277,
+    "title_pl": "Akt Urodzenia: Józefa Ofiara (1857)",
+    "title_en": "Birth Record: Józefa Ofiara (1857)",
+    "type": "birth_record",
+    "description_pl": "Parafia Jedlińsk, akt nr 43, 1857 r. Dokument potwierdza narodziny Józefy, córki Jakuba Ofiary i Magdaleny (Marianny) z Wieczorków.",
+    "description_en": "Jedlińsk Parish, record no. 43, 1857. The document confirms the birth of Józefa, daughter of Jakub Ofiara and Magdalena (Marianna) née Wieczorek.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się w mieście Jedlińsku, dnia dwudziestego siódmego Lipca, tysiąc osmset pięćdziesiątego siódmego roku, o godzinie drugiej po południu. Stawił się Jakób Ofiara, włościanin gospodarz z Wsi Woli Gutowskiej, lat dwadzieścia cztery liczący, w obecności Wincentego Ofiary lat trzydzieści jeden i Wojciecha Maliży lat czterdzieści cych, włościan gospodarzy z Wsi Woli Gutowskiej, i okazał nam Dziecię płci żeńskiej, urodzone we Wsi Woli Gutowskiej dnia dwudziestego czwartego Lipca bieżącego roku o godzinie ósmej rano z jego małżonki Magdaleny z Wieczorków, lat dwadzieścia pięć liczącej. Dziecięciu temu na Chrzcie Świętym odbytym w dniu dzisiejszym nadane zostało imię Józefa, a Rodzicami jego Chrzestnymi byli: wspomniany Wincenty Ofiara i Tekla Staworzyńska. Akt ten stawającemu i świadkom przeczytany, a że pisać nie umieją, przez Nas tylko podpisany został. X Jan Kłoczkowski Proboszcz i Urzędnik Stanu Cywilnego Parafii Jedlińsko.",
+    "translation_pl": "Zdarzyło się w mieście Jedlińsk, dnia 27 lipca 1857 roku, o godzinie drugiej po południu. Stawił się Jakub Ofiara, włościanin gospodarz z Wsi Wola Gutowska, lat 24, w obecności Wincentego Ofiary, lat 31, i Wojciecha Maliży, lat 40, włościan gospodarzy z Wsi Wola Gutowska. Okazał nam dziecko płci żeńskiej, urodzone w Wsi Wola Gutowska dnia 24 lipca bieżącego roku o godzinie ósmej rano z jego małżonki Magdaleny z Wieczorków, lat 25. Dziecku temu na chrzcie świętym odbytym w dniu dzisiejszym nadano imię Józefa, a jego rodzicami chrzestnymi byli wspomniany Wincenty Ofiara i Tekla Staworzyńska. Akt ten stawiającemu i świadkom, którzy nie umieją pisać, przeczytano i tylko przez nas podpisano. Ks. Jan Kłoczkowski, Proboszcz i Urzędnik Stanu Cywilnego Parafii Jedlińskiej.",
+    "translation_en": "It happened in the Town of Jedlińsk, on the twenty-seventh of July, eighteen hundred and fifty-seven, at two o'clock in the afternoon. Appeared Jakub Ofiara, a peasant farmer from Wola Gutowska, aged 24, in the presence of Wincenty Ofiara, aged 31, and Wojciech Maliża, aged 40, peasant farmers from Wola Gutowska. He presented to us a female child, born in Wola Gutowska on the twenty-fourth of July of the current year at eight o'clock in the morning, to his wife Magdalena née Wieczorek, aged 25. At the Holy Baptism held this day, this child was given the name Józefa, and her Godparents were the aforementioned Wincenty Ofiara and Tekla Staworzyńska. This act was read to the declarant and witnesses, and as they cannot write, it was signed only by us. Fr. Jan Kłoczkowski, Pastor and Civil Registrar of the Jedlińsk Parish.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Jakub Ofiara, 24 lata",
+        "value_en": "Jakub Ofiara, 24 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Magdalena z Wieczorków, 25 lat",
+        "value_en": "Magdalena née Wieczorek, 25 years old"
+      },
+      {
+        "label_pl": "Świadkowie",
+        "label_en": "Witnesses",
+        "value_pl": "Wincenty Ofiara (31 lat), Wojciech Maliża (40 lat)",
+        "value_en": "Wincenty Ofiara (31 years), Wojciech Maliża (40 years)"
+      },
+      {
+        "label_pl": "Rodzice chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Wincenty Ofiara i Tekla Staworzyńska",
+        "value_en": "Wincenty Ofiara and Tekla Staworzyńska"
+      }
+    ]
+  },
+  {
+    "id": 278,
+    "title_pl": "Akt Urodzenia: Katarzyna Ofiara (1857)",
+    "title_en": "Birth Record: Katarzyna Ofiara (1857)",
+    "type": "birth_record",
+    "description_pl": "Parafia Jedlińsk, akt nr 75, 1857 r. Dokument potwierdza narodziny Katarzyny, córki Jana (błędny zapis, chodzi o Jakuba) i Marianny z Wieczorków.",
+    "description_en": "Jedlińsk Parish, record no. 75, 1857. The document confirms the birth of Katarzyna, daughter of Jan (incorrect record, should be Jakub) and Marianna née Wieczorek.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się w mieście Jedlińsku, dnia dwudziestego drugiego Listopada, tysiąc osmset pięćdziesiątego siódmego roku, o godzinie drugiej po południu. Stawił się Jan Ofiara, włościanin gospodarz z Wsi Woli Gutowskiej, lat dwadzieścia cztery liczący, w obecności Dominika Kubiaka lat dwadzieścia i Pawła Bartosika lat dwadzieścia dwa liczących, włościan z Wsi Woli Gutowskiej, i okazał nam dziecię płci żeńskiej, urodzone w Wsi Woli Gutowskiej dnia dwudziestego Listopada bieżącego roku o godzinie dwunastej w południe z jego małżonki Maryanny z Wieczorków, lat dwadzieścia pięć liczącej. Dziecięciu temu na Chrzcie Świętym odbytym w dniu dzisiejszym nadane zostało imię Katarzyna, a Rodzicami jego Chrzestnymi byli: wspomniany Jan Bartosik i Tekla Bartosik. Akt ten stawającemu i świadkom przeczytany, a że pisać nie umieją, przez Nas tylko podpisany został. X Jan Kłoczkowski Proboszcz i Urzędnik Stanu Cywilnego Parafii Jedlińsko.",
+    "translation_pl": "Zdarzyło się w mieście Jedlińsk, dnia 22 listopada 1857 roku, o godzinie drugiej po południu. Stawił się Jan Ofiara, włościanin gospodarz z Wsi Wola Gutowska, lat 24, w obecności Dominika Kubiaka, lat 20, i Pawła Bartosika, lat 22, włościan z Wsi Wola Gutowska. Okazał nam dziecko płci żeńskiej, urodzone w Wsi Wola Gutowska dnia 20 listopada bieżącego roku o godzinie dwunastej w południe z jego małżonki Marianny z Wieczorków, lat 25. Dziecku temu na chrzcie świętym odbytym w dniu dzisiejszym nadano imię Katarzyna, a jego rodzicami chrzestnymi byli wspomniany Jan Bartosik i Tekla Bartosik. Akt ten stawiającemu i świadkom, którzy nie umieją pisać, przeczytano i tylko przez nas podpisano. Ks. Jan Kłoczkowski, Proboszcz i Urzędnik Stanu Cywilnego Parafii Jedlińskiej.",
+    "translation_en": "It happened in the Town of Jedlińsk, on the twenty-second of November, eighteen hundred and fifty-seven, at two o'clock in the afternoon. Appeared Jan Ofiara, a peasant farmer from Wola Gutowska, aged 24, in the presence of Dominik Kubiak, aged 20, and Paweł Bartosik, aged 22, peasants from Wola Gutowska. He presented to us a female child, born in Wola Gutowska on the twentieth of November of the current year at twelve o'clock at noon, to his wife Marianna née Wieczorek, aged 25. At the Holy Baptism held this day, this child was given the name Katarzyna, and her Godparents were the aforementioned Jan Bartosik and Tekla Bartosik. This act was read to the declarant and witnesses, and as they cannot write, it was signed only by us. Fr. Jan Kłoczkowski, Pastor and Civil Registrar of the Jedlińsk Parish.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Jan Ofiara, 24 lata",
+        "value_en": "Jan Ofiara, 24 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Marianna z Wieczorków, 25 lat",
+        "value_en": "Marianna née Wieczorek, 25 years old"
+      },
+      {
+        "label_pl": "Świadkowie",
+        "label_en": "Witnesses",
+        "value_pl": "Dominik Kubiak (20 lat), Paweł Bartosik (22 lata)",
+        "value_en": "Dominik Kubiak (20 years), Paweł Bartosik (22 years)"
+      },
+      {
+        "label_pl": "Rodzice chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Jan Bartosik i Tekla Bartosik",
+        "value_en": "Jan Bartosik and Tekla Bartosik"
+      }
+    ]
+  },
+  {
+    "id": 279,
+    "title_pl": "Akt Urodzenia: Jan Ofiara (1858)",
+    "title_en": "Birth Record: Jan Ofiara (1858)",
+    "type": "birth_record",
+    "description_pl": "Parafia Jedlińsk, akt nr 26, 1858 r. Dokument potwierdza narodziny Jana, syna Wincentego Ofiary i Franciszki z Walczaków.",
+    "description_en": "Jedlińsk Parish, record no. 26, 1858. The document confirms the birth of Jan, son of Wincenty Ofiara and Franciszka née Walczak.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się w mieście Jedlińsku, dnia ósmego Maja, tysiąc osmset pięćdziesiątego ósmego roku, o godzinie szóstej po południu. Stawił się Wincenty Ofiara, włościanin gospodarz z Woli Gutowskiej, lat trzydzieści dwa liczący, w obecności Jakóba Ofiary lat dwadzieścia sześć i Wojciecha Staworzyńskiego lat dwadzieścia siedm liczących, włościan z Woli Gutowskiej, i okazał nam dziecię płci męskiej, urodzone w Woli Gutowskiej dnia siódmego Maja bieżącego roku o godzinie ósmej rano z jego małżonki Franciszki z Walczaków, lat trzydzieści trzy liczącej. Dziecięciu temu na Chrzcie Świętym odbytym w dniu dzisiejszym nadane zostało imię Jan, a Rodzicami jego Chrzestnymi byli: wspomniany Jakób Ofiara i Franciszka Kwiecińska. Akt ten stawającemu i świadkom przeczytany, a że pisać nie umieją, przez Nas tylko podpisany został. X Jan Kłoczkowski Proboszcz i Urzędnik Stanu Cywilnego Parafii Jedlińsko.",
+    "translation_pl": "Zdarzyło się w mieście Jedlińsk, dnia 8 maja 1858 roku, o godzinie szóstej po południu. Stawił się Wincenty Ofiara, włościanin gospodarz z Woli Gutowskiej, lat 32, w obecności Jakuba Ofiary, lat 26, i Wojciecha Staworzyńskiego, lat 27, włościan z Woli Gutowskiej. Okazał nam dziecko płci męskiej, urodzone w Woli Gutowskiej dnia 7 maja bieżącego roku o godzinie ósmej rano z jego małżonki Franciszki z Walczaków, lat 33. Dziecku temu na chrzcie świętym odbytym w dniu dzisiejszym nadano imię Jan, a jego rodzicami chrzestnymi byli wspomniany Jakub Ofiara i Franciszka Kwiecińska. Akt ten stawiającemu i świadkom, którzy nie umieją pisać, przeczytano i tylko przez nas podpisano. Ks. Jan Kłoczkowski, Proboszcz i Urzędnik Stanu Cywilnego Parafii Jedlińskiej.",
+    "translation_en": "It happened in the Town of Jedlińsk, on the eighth of May, eighteen hundred and fifty-eight, at six o'clock in the afternoon. Appeared Wincenty Ofiara, a peasant farmer from Wola Gutowska, aged 32, in the presence of Jakub Ofiara, aged 26, and Wojciech Staworzyński, aged 27, peasants from Wola Gutowska. He presented to us a male child, born in Wola Gutowska on the seventh of May of the current year at eight o'clock in the morning, to his wife Franciszka née Walczak, aged 33. At the Holy Baptism held this day, this child was given the name Jan, and his Godparents were the aforementioned Jakub Ofiara and Franciszka Kwiecińska. This act was read to the declarant and witnesses, and as they cannot write, it was signed only by us. Fr. Jan Kłoczkowski, Pastor and Civil Registrar of the Jedlińsk Parish.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Wincenty Ofiara, 32 lata",
+        "value_en": "Wincenty Ofiara, 32 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Franciszka z Walczaków, 33 lata",
+        "value_en": "Franciszka née Walczak, 33 years old"
+      },
+      {
+        "label_pl": "Świadkowie",
+        "label_en": "Witnesses",
+        "value_pl": "Jakub Ofiara (26 lat), Wojciech Staworzyński (27 lat)",
+        "value_en": "Jakub Ofiara (26 years), Wojciech Staworzyński (27 years)"
+      },
+      {
+        "label_pl": "Rodzice chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Jakub Ofiara i Franciszka Kwiecińska",
+        "value_en": "Jakub Ofiara and Franciszka Kwiecińska"
+      }
+    ]
+  },
+  {
+    "id": 281,
+    "title_pl": "Akt Urodzenia: Jędrzej Ofiara (1859)",
+    "title_en": "Birth Record: Jędrzej Ofiara (1859)",
+    "type": "birth_record",
+    "description_pl": "Parafia Jedlińsk, akt nr 71, 1859 r. Dokument potwierdza narodziny Jędrzeja, syna Jakuba i Magdaleny (Marianny) z Wieczorków.",
+    "description_en": "Jedlińsk Parish, record no. 71, 1859. The document confirms the birth of Jędrzej, son of Jakub and Magdalena (Marianna) née Wieczorek.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się w mieście Jedlińsku, dnia dziewiętnastego Listopada, tysiąc osmset pięćdziesiątego dziewiątego roku, o godzinie piątej po południu. Stawił się Jakób Ofiara, włościanin parobek, we wsi Woli Gutowskiej zamieszkały, lat dwadzieścia sześć maiący, w obecności Antoniego Dobrowolskiego lat trzydzieści pięć i Jakóba Kłosa lat trzydzieści trzy maiących, włościan z Woli Gutowskiej, i okazał nam dziecię płci męskiej, urodzone w Woli Gutowskiej dnia osiemnastego Listopada bieżącego roku o godzinie dwunastej w południe z jego małżonki Magdaleny z Wieczorków, lat dwadzieścia siedm liczącej. Dziecięciu temu na Chrzcie Świętym odbytym w dniu dzisiejszym przez Księdza Pawła Pawłowskiego Wikaryusza Parafii Jedlińskiej nadane zostało imię Jędrzej, a Rodzicami jego Chrzestnymi byli: wspomniany Jakób Ofiara i Katarzyna Binkowska. Akt ten stawającemu i świadkom przeczytany, a że pisać nie umieją, przez Nas tylko podpisany został. X Jan Kłoczkowski Proboszcz i Urzędnik Stanu Cywilnego Parafii Jedlińsko.",
+    "translation_pl": "Zdarzyło się w mieście Jedlińsk, dnia 19 listopada 1859 roku, o godzinie piątej po południu. Stawił się Jakub Ofiara, włościanin parobek, zamieszkały w Woli Gutowskiej, lat 26, w obecności Antoniego Dobrowolskiego, lat 35, i Jakuba Kłosa, lat 33, włościan z Woli Gutowskiej. Okazał nam dziecko płci męskiej, urodzone w Woli Gutowskiej dnia 18 listopada bieżącego roku o godzinie dwunastej w południe z jego małżonki Magdaleny z Wieczorków, lat 27. Dziecku temu na chrzcie świętym odbytym w dniu dzisiejszym przez Księdza Pawła Pawłowskiego, Wikariusza Parafii Jedlińskiej, nadano imię Jędrzej, a jego rodzicami chrzestnymi byli wspomniany Jakub Ofiara i Katarzyna Binkowska. Akt ten stawiającemu i świadkom, którzy nie umieją pisać, przeczytano i tylko przez nas podpisano. Ks. Jan Kłoczkowski, Proboszcz i Urzędnik Stanu Cywilnego Parafii Jedlińskiej.",
+    "translation_en": "It happened in the Town of Jedlińsk, on the nineteenth of November, eighteen hundred and fifty-nine, at five o'clock in the afternoon. Appeared Jakub Ofiara, a peasant farmhand, residing in Wola Gutowska, aged 26, in the presence of Antoni Dobrowolski, aged 35, and Jakub Kłos, aged 33, peasants from Wola Gutowska. He presented to us a male child, born in Wola Gutowska on the eighteenth of November of the current year at twelve o'clock at noon, to his wife Magdalena née Wieczorek, aged 27. At the Holy Baptism held this day by Father Paweł Pawłowski, Vicar of the Jedlińsk Parish, this child was given the name Jędrzej, and his Godparents were the aforementioned Jakub Ofiara and Katarzyna Binkowska. This act was read to the declarant and witnesses, and as they cannot write, it was signed only by us. Fr. Jan Kłoczkowski, Pastor and Civil Registrar of the Jedlińsk Parish.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Jakub Ofiara, 26 lat",
+        "value_en": "Jakub Ofiara, 26 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Magdalena z Wieczorków, 27 lat",
+        "value_en": "Magdalena née Wieczorek, 27 years old"
+      },
+      {
+        "label_pl": "Świadkowie",
+        "label_en": "Witnesses",
+        "value_pl": "Antoni Dobrowolski (35 lat), Jakub Kłos (33 lata)",
+        "value_en": "Antoni Dobrowolski (35 years), Jakub Kłos (33 years)"
+      },
+      {
+        "label_pl": "Rodzice chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Jakub Ofiara i Katarzyna Binkowska",
+        "value_en": "Jakub Ofiara and Katarzyna Binkowska"
+      }
+    ]
+  },
+  {
+    "id": 282,
+    "title_pl": "Akt Urodzenia: Bartłomiej Ofiara (1860)",
+    "title_en": "Birth Record: Bartłomiej Ofiara (1860)",
+    "type": "birth_record",
+    "description_pl": "Parafia Jedlińsk, akt nr 38, 1860 r. Dokument potwierdza narodziny Bartłomieja, syna Jana (błędny zapis, chodzi o Jakuba) i Marianny z Wieczorków.",
+    "description_en": "Jedlińsk Parish, record no. 38, 1860. The document confirms the birth of Bartłomiej, son of Jan (incorrect record, should be Jakub) and Marianna née Wieczorek.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się w mieście Jedlińsku, dnia dwudziestego siódmego Sierpnia, tysiąc osmset sześćdziesiątego roku, w południe. Stawił się Jan Ofiara, włościanin parobek, we wsi Woli Gutowskiej zamieszkały, lat dwadzieścia ośm maiący, w obecności Wincentego Ofiary lat trzydzieści cztery i Maryanny Wieczorkowej lat dwadzieścia ośm maiących, z Woli Gutowskiej, i okazał nam dziecię płci męskiej, oświadczając, iż takowe urodzone jest we wsi Woli Gutowskiej na dniu dwudziestym czwartym Sierpnia bieżącego roku, o godzinie ósmej rano z jego małżonki Maryanny z Wieczorków, lat dwadzieścia pięć majcej. Dziecięciu temu na Chrzcie Świętym w dniu dzisiejszym przez Księdza Pawła Pawłowskiego Wikaryusza Parafii Jedlińsko odbytym, nadane zostało imię Bartłomiej, a Rodzicami jego Chrzestnymi byli: wspomniany Wincenty Ofiara i Józefa Makarska. Akt ten oświadczającemu i świadkom przeczytany, a że pisać nie umieją, przez nas tylko podpisany został. X Jan Kłoczkowski Proboszcz Jedliński utrzymujący akta Stanu Cywilnego.",
+    "translation_pl": "Zdarzyło się w mieście Jedlińsk, dnia 27 sierpnia 1860 roku, w południe. Stawił się Jan Ofiara, włościanin parobek z Woli Gutowskiej, lat 28, w obecności Wincentego Ofiary, lat 34, i Marianny Wieczorkowej, lat 28, z Woli Gutowskiej. Okazał nam dziecko płci męskiej, oświadczając, że urodziło się ono w Woli Gutowskiej dnia 24 sierpnia bieżącego roku, o godzinie ósmej rano z jego małżonki Marianny z Wieczorków, lat 25. Dziecku temu na chrzcie świętym odbytym w dniu dzisiejszym przez Księdza Pawła Pawłowskiego, Wikariusza Parafii Jedlińskiej, nadano imię Bartłomiej, a jego rodzicami chrzestnymi byli: wspomniany Wincenty Ofiara i Józefa Makarska. Akt ten oświadczającemu i świadkom, którzy nie umieją pisać, przeczytano i tylko przez nas podpisany został. Ks. Jan Kłoczkowski, Proboszcz Jedliński, utrzymujący akta Stanu Cywilnego.",
+    "translation_en": "It happened in the Town of Jedlińsk, on the twenty-seventh of August, eighteen hundred and sixty, at noon. Appeared Jan Ofiara, a peasant farmhand from Wola Gutowska, aged 28, in the presence of Wincenty Ofiara, aged 34, and Marianna Wieczorkowa, aged 28, from Wola Gutowska. He presented to us a male child, declaring that he was born in Wola Gutowska on the twenty-fourth of August of the current year, at eight o'clock in the morning to his wife Marianna née Wieczorek, aged 25. At the Holy Baptism held this day by Father Paweł Pawłowski, Vicar of the Jedlińsk Parish, this child was given the name Bartłomiej, and his Godparents were: the aforementioned Wincenty Ofiara and Józefa Makarska. This act was read to the declarant and witnesses, and as they cannot write, it was signed only by us. Fr. Jan Kłoczkowski, Jedlińsk Pastor, Keeper of the Civil Registry.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Jan Ofiara, 28 lat",
+        "value_en": "Jan Ofiara, 28 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Marianna z Wieczorków, 25 lat",
+        "value_en": "Marianna née Wieczorek, 25 years old"
+      },
+      {
+        "label_pl": "Świadkowie",
+        "label_en": "Witnesses",
+        "value_pl": "Wincenty Ofiara (34 lata), Marianna Wieczorkowa (28 lat)",
+        "value_en": "Wincenty Ofiara (34 years), Marianna Wieczorkowa (28 years)"
+      },
+      {
+        "label_pl": "Rodzice chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Wincenty Ofiara i Józefa Makarska",
+        "value_en": "Wincenty Ofiara and Józefa Makarska"
+      }
+    ]
+  },
+  {
+    "id": 283,
+    "title_pl": "Akt Urodzenia: Józef Ofiara (1861)",
+    "title_en": "Birth Record: Józef Ofiara (1861)",
+    "type": "birth_record",
+    "description_pl": "Parafia Jedlińsk, akt nr 26, 1861 r. Dokument potwierdza narodziny Józefa, syna Jakuba i Magdaleny (Marianny) z Wieczorków.",
+    "description_en": "Jedlińsk Parish, record no. 26, 1861. The document confirms the birth of Józef, son of Jakub and Magdalena (Marianna) née Wieczorek.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się w mieście Jedlińsku, dnia trzynastego Marca, tysiąc osmset sześćdziesiątego pierwszego roku, o godzinie dziesiątej rano. Stawił się Jakób Ofiara, włościanin gospodarz z Wsi Woli Gutowskiej, lat dwadzieścia siedm maiący, w obecności Pawła Majdy lat czterdzieści i Tomasza Wieczorka lat dwadzieścia trzy maiących, włościan gospodarzy z Wsi Woli Gutowskiej, oświadczając, iż takowe urodzone jest we wsi Woli Gutowskiej na dniu jedenastym Marca bieżącego roku, o godzinie dziewiątej wieczór z jego małżonki Magdaleny z Wieczorków, lat dwadzieścia dziewięć majcej. Dziecięciu temu na Chrzcie Świętym w dniu dzisiejszym przez Księdza Pawła Pawłowskiego Wikaryusza Parafii Jedlińsko odbytym, nadane zostało imię Józef, a Rodzicami jego Chrzestnymi byli: wspomniany Tomasz Wieczorek i Maryanna Gierczakowa. Akt ten oświadczającemu i świadkom przeczytany, a że pisać nie umieją, przez nas tylko podpisany został. X Jan Kłoczkowski Proboszcz Jedliński, utrzymujący akta Stanu Cywilnego.",
+    "translation_pl": "Zdarzyło się w mieście Jedlińsk, dnia 13 marca 1861 roku, o godzinie dziesiątej rano. Stawił się Jakub Ofiara, włościanin gospodarz z Wsi Wola Gutowska, lat 27, w obecności Pawła Majdy, lat 40, i Tomasza Wieczorka, lat 23, włościan gospodarzy z Wsi Woli Gutowskiej, oświadczając, że urodziło się ono we wsi Woli Gutowskiej dnia 11 marca bieżącego roku, o godzinie dziewiątej wieczorem, z jego małżonki Magdaleny z Wieczorków, lat 29. Dziecku temu na chrzcie świętym odbytym w dniu dzisiejszym przez Księdza Pawła Pawłowskiego, Wikariusza Parafii Jedlińskiej, nadano imię Józef, a jego rodzicami chrzestnymi byli: wspomniany Tomasz Wieczorek i Marianna Gierczakowa. Akt ten oświadczającemu i świadkom, którzy nie umieją pisać, przeczytano i tylko przez nas podpisany został. Ks. Jan Kłoczkowski, Proboszcz Jedliński, utrzymujący akta Stanu Cywilnego.",
+    "translation_en": "It happened in the Town of Jedlińsk, on the thirteenth of March, eighteen hundred and sixty-one, at ten o'clock in the morning. Appeared Jakub Ofiara, a peasant farmer from Wola Gutowska, aged 27, in the presence of Paweł Majda, aged 40, and Tomasz Wieczorek, aged 23, peasant farmers from Wola Gutowska, declaring that a male child was born in the village of Wola Gutowska on the eleventh of March of the current year, at nine o'clock in the evening, to his wife Magdalena née Wieczorek, aged 29. At the Holy Baptism held this day by Father Paweł Pawłowski, Vicar of the Jedlińsk Parish, this child was given the name Józef, and his Godparents were: the aforementioned Tomasz Wieczorek and Marianna Gierczakowa. This act was read to the declarant and witnesses, and as they cannot write, it was signed only by us. Fr. Jan Kłoczkowski, Jedlińsk Pastor, Keeper of the Civil Registry.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Jakub Ofiara, 27 lat",
+        "value_en": "Jakub Ofiara, 27 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Magdalena z Wieczorków, 29 lat",
+        "value_en": "Magdalena née Wieczorek, 29 years old"
+      },
+      {
+        "label_pl": "Świadkowie",
+        "label_en": "Witnesses",
+        "value_pl": "Paweł Majda (40 lat), Tomasz Wieczorek (23 lata)",
+        "value_en": "Paweł Majda (40 years), Tomasz Wieczorek (23 years)"
+      },
+      {
+        "label_pl": "Rodzice chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Tomasz Wieczorek i Marianna Gierczakowa",
+        "value_en": "Tomasz Wieczorek and Marianna Gierczakowa"
+      }
+    ]
+  },
+  {
+    "id": 284,
+    "title_pl": "Akt Urodzenia: Piotr Ofiara (1861)",
+    "title_en": "Birth Record: Piotr Ofiara (1861)",
+    "type": "birth_record",
+    "description_pl": "Parafia Jedlińsk, akt nr 51, 1861 r. Dokument potwierdza narodziny Piotra, syna Wincentego Ofiary i Franciszki z Walczaków.",
+    "description_en": "Jedlińsk Parish, record no. 51, 1861. The document confirms the birth of Piotr, son of Wincenty Ofiara and Franciszka née Walczak.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się w mieście Jedlińsku, dnia dwudziestego ósmego Lipca, tysiąc osmset sześćdziesiątego pierwszego roku, o godzinie dziesiątej rano. Stawił się Wincenty Ofiara, włościanin gospodarz z Wsi Woli Gutowskiej, lat trzydzieści pięć maiący, w obecności Jana Ofiary lat dwadzieścia i Jana Lichosza lat pięćdziesiąt maiących, włościan z Woli Gutowskiej zamieszkałych, i okazał nam dziecię płci męskiej, oświadczając, iż takowe urodzone jest we wsi Woli Gutowskiej na dniu dwudziestym szóstym Lipca bieżącego roku, o godzinie siódmej rano, z jego małżonki Franciszki z Walczaków, lat trzydzieści siedm majcej. Dziecięciu temu na Chrzcie Świętym w dniu dzisiejszym przez Księdza Pawła Pawłowskiego Wikaryusza Parafii Jedlińsko odbytym, nadane zostało imię Piotr, a Rodzicami jego Chrzestnymi byli: wspomniany Jan Ofiara i Katarzyna Jagiełło. Akt ten oświadczającemu i świadkom przeczytany, a że pisać nie umieją, przez nas tylko podpisany został. X Jan Kłoczkowski Proboszcz Jedliński utrzymujący akta Stanu Cywilnego.",
+    "translation_pl": "Zdarzyło się w mieście Jedlińsk, dnia 28 lipca 1861 roku, o godzinie dziesiątej rano. Stawił się Wincenty Ofiara, włościanin gospodarz z Wsi Woli Gutowskiej, lat 35, w obecności Jana Ofiary, lat 20, i Jana Lichosza, lat 50, włościan z Woli Gutowskiej zamieszkałych. Okazał nam dziecko płci męskiej, oświadczając, że urodziło się ono we wsi Woli Gutowskiej dnia 26 lipca bieżącego roku, o godzinie siódmej rano, z jego małżonki Franciszki z Walczaków, lat 37. Dziecku temu na chrzcie świętym odbytym w dniu dzisiejszym przez Księdza Pawła Pawłowskiego, Wikariusza Parafii Jedlińskiej, nadano imię Piotr, a jego rodzicami chrzestnymi byli: wspomniany Jan Ofiara i Katarzyna Jagiełło. Akt ten oświadczającemu i świadkom, którzy nie umieją pisać, przeczytano i tylko przez nas podpisany został. Ks. Jan Kłoczkowski, Proboszcz Jedliński, utrzymujący akta Stanu Cywilnego.",
+    "translation_en": "It happened in the Town of Jedlińsk, on the twenty-eighth of July, eighteen hundred and sixty-one, at ten o'clock in the morning. Appeared Wincenty Ofiara, a peasant farmer from Wola Gutowska, aged 35, in the presence of Jan Ofiara, aged 20, and Jan Lichosz, aged 50, peasants residing in Wola Gutowska. He presented to us a male child, declaring that he was born in the village of Wola Gutowska on the twenty-sixth of July of the current year, at seven o'clock in the morning, to his wife Franciszka née Walczak, aged 37. At the Holy Baptism held this day by Father Paweł Pawłowski, Vicar of the Jedlińsk Parish, this child was given the name Piotr, and his Godparents were: the aforementioned Jan Ofiara and Katarzyna Jagiełło. This act was read to the declarant and witnesses, and as they cannot write, it was signed only by us. Fr. Jan Kłoczkowski, Jedlińsk Pastor, Keeper of the Civil Registry.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Wincenty Ofiara, 35 lat",
+        "value_en": "Wincenty Ofiara, 35 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Franciszka z Walczaków, 37 lat",
+        "value_en": "Franciszka née Walczak, 37 years old"
+      },
+      {
+        "label_pl": "Świadkowie",
+        "label_en": "Witnesses",
+        "value_pl": "Jan Ofiara (20 lat), Jan Lichosz (50 lat)",
+        "value_en": "Jan Ofiara (20 years), Jan Lichosz (50 years)"
+      },
+      {
+        "label_pl": "Rodzice chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Jan Ofiara i Katarzyna Jagiełło",
+        "value_en": "Jan Ofiara and Katarzyna Jagiełło"
+      }
+    ]
   }
 ]
