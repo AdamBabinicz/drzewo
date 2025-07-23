@@ -2639,8 +2639,8 @@
       }
     ],
     "biography": {
-      "pl": "Żona Jakuba Ofiary. Matka Andrzeja, Zofii, Agnieszki, Józefy, Katarzyny, Jędrzeja, Bartłomieja i Józefa. Córka Kacpra i Małgorzaty z Grzelaków. W aktach urodzenia swoich dzieci bywała błędnie zapisywana jako Magdalena. Wiadomo, że żyła jeszcze w listopadzie 1919 roku.",
-      "en": "Wife of Jakub Ofiara. Mother of Andrzej, Zofia, Agnieszka, Józefa, Katarzyna, Jędrzej, Bartłomiej and Józef. Daughter of Kacper and Małgorzata née Grzelak. In her children's birth records, she was sometimes mistakenly recorded as Magdalena. It is known that she was still alive in November 1919."
+      "pl": "Żona Jakuba Ofiary. Matka Andrzeja, Zofii, Agnieszki, Józefy, Katarzyny, Jędrzeja, Bartłomieja i Józefa. Córka Kacpra i Małgorzaty z Grzelaków. W aktach urodzenia części jej dzieci (np. Jędrzeja, akt nr 281 i Józefa, akt nr 283) została błędnie zapisana pod imieniem Magdalena. Jej prawidłowe imię, Marianna, potwierdza akt ślubu (nr 211) oraz akt zgonu jej męża (nr 210). Wiadomo, że żyła jeszcze w listopadzie 1919 roku.",
+      "en": "Wife of Jakub Ofiara. Mother of Andrzej, Zofia, Agnieszka, Józefa, Katarzyna, Jędrzej, Bartłomiej, and Józef. Daughter of Kacper and Małgorzata née Grzelak. In the birth records of some of her children (e.g., Jędrzej, record no. 281, and Józef, record no. 283), her name was mistakenly recorded as Magdalena. Her correct name, Marianna, is confirmed by the marriage record (no. 211) and her husband's death record (no. 210). It is known that she was still alive in November 1919."
     }
   },
   {
@@ -2708,8 +2708,8 @@
       }
     ],
     "biography": {
-      "pl": "Syn protoplasty rodu, Konstantego Ofiary, i Agnieszki Grzegorzewskiej. W akcie urodzenia zapisany pod łacińską formą imienia 'Stephanum'. W 1824 roku poślubił Małgorzatę Kowalczyk. W aktach urodzeń części swoich dzieci (np. Jakuba, Anny) jest konsekwentnie zapisywany pod imieniem Stefan, co było częstą praktyką kancelaryjną w XIX wieku. W akcie urodzenia syna Ignacego (1830) został omyłkowo zapisany jako Szymon.",
-      "en": "Son of the family's progenitor, Konstanty Ofiara, and Agnieszka Grzegorzewska. In his birth certificate, he was recorded under the Latin form of the name 'Stephanum'. In 1824, he married Małgorzata Kowalczyk. In the birth certificates of some of his children (e.g., Jakub, Anna), he is consistently recorded under the name Stefan, a common 19th-century clerical practice. In the birth certificate of his son Ignacy (1830), he was mistakenly recorded as Szymon."
+      "pl": "Syn protoplasty rodu, Konstantego Ofiary, i Agnieszki Grzegorzewskiej. W akcie urodzenia zapisany pod łacińską formą imienia Stephanum. W 1824 roku poślubił Małgorzatę Kowalczyk. W aktach urodzeń części swoich dzieci (np. Jakuba, Anny) jest konsekwentnie zapisywany pod imieniem Stefan, co było częstą praktyką kancelaryjną w XIX wieku. W akcie urodzenia syna Ignacego (1830) został omyłkowo zapisany jako Szymon. W dokumentach często występuje pod imieniem Stefan (np. w akcie urodzenia syna Jakuba, nr 103), co było powszechną praktyką kancelaryjną zamiennego stosowania polskiego imienia Szczepan z jego zlatynizowanym odpowiednikiem. Jego własny akt urodzenia (nr 242) podaje imię w formie łacińskiej: Stephanum.",
+      "en": "Son of the progenitor of the family, Konstanty Ofiara, and Agnieszka Grzegorzewska. In his birth record, his name appears in the Latin form Stephanum. In 1824, he married Małgorzata Kowalczyk. In the birth records of some of his children (e.g., Jakub, Anna), he is consistently recorded under the name Stefan, which was a common clerical practice in the 19th century. In the birth record of his son Ignacy (1830), he was mistakenly listed as Szymon. He frequently appears in documents under the name Stefan (e.g., in the birth record of his son Jakub, no. 103), which reflects the widespread clerical practice of using the Polish name Szczepan interchangeably with its Latin equivalent. His own birth record (no. 242) gives the name in its Latin form: Stephanum."
     },
     "events": [
       {
@@ -4630,5 +4630,27 @@
         }
       }
     ]
+  },
+  {
+    "id": 218,
+    "firstName": "Franciszek",
+    "lastName": "Gierczak",
+    "birthDateNote": "ok. 1870",
+    "family": "gierczak",
+    "biography": {
+      "pl": "Mieszkaniec Gulinka. W 1906 roku, w wieku 36 lat, był świadkiem na ślubie Jana Jurczaka i Antoniny Mitak z d. Gierczak (akt nr 10).",
+      "en": "Resident of Gulinek. In 1906, at the age of 36, he was a witness at the wedding of Jan Jurczak and Antonina Mitak née Gierczak (document no. 10)."
+    }
+  },
+  {
+    "id": 219,
+    "firstName": "Walenty",
+    "lastName": "Gierczak",
+    "birthDateNote": "ok. 1874",
+    "family": "gierczak",
+    "biography": {
+      "pl": "Mieszkaniec Gulinka. W 1906 roku, w wieku 32 lat, był świadkiem na ślubie Jana Jurczaka (akt nr 10). Był również świadkiem na ślubie Jana Gierczaka i Agnieszki Baćmaga w 1917 roku (akt nr 107).",
+      "en": "Resident of Gulinek. In 1906, at the age of 32, he was a witness at the wedding of Jan Jurczak (document no. 10). He was also a witness at the wedding of Jan Gierczak and Agnieszka Baćmaga in 1917 (document no. 107)."
+    }
   }
 ]
