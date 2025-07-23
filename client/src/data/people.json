@@ -2492,6 +2492,44 @@
     }
   },
   {
+    "id": 124,
+    "firstName": "Helena",
+    "lastName": "Ofiara",
+    "maidenName": "Zabuła",
+    "family": "ofiara",
+    "birthDateNote": "ok. 1806",
+    "deathDate": "1851-11-24",
+    "deathTime": "15:00",
+    "deathTimeQualifier": "afternoon",
+    "spouseIds": [157],
+    "childIds": [],
+    "parentIds": [],
+    "marriages": [
+      {
+        "spouseId": 157,
+        "date": null,
+        "note": {
+          "pl": "data nieznana, między 1844 a 1851",
+          "en": "date unknown, between 1844 and 1851"
+        }
+      }
+    ],
+    "biography": {
+      "pl": "Druga żona Stefana Ofiary (id: 157), poślubiona po śmierci jego pierwszej żony, Heleny Hernik. Zmarła w Woli Gutowskiej.",
+      "en": "Second wife of Stefan Ofiara (id: 157), married after the death of his first wife, Helena Hernik. She died in Wola Gutowska."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1851-11-24",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 289
+        }
+      }
+    ]
+  },
+  {
     "id": 125,
     "firstName": "Jan",
     "lastName": "Mitak",
@@ -2728,7 +2766,10 @@
     "lastName": "Ofiara",
     "maidenName": "Kowalczyk",
     "family": "ofiara",
-    "birthDate": "ok. 1805",
+    "birthDateNote": "ok. 1805",
+    "deathDate": "1843-12-01",
+    "deathTime": "05:00",
+    "deathTimeQualifier": "morning",
     "spouseIds": [133],
     "childIds": [159, 135, 129, 136, 160, 137, 138, 175],
     "parentIds": [168, 169],
@@ -2742,9 +2783,19 @@
       }
     ],
     "biography": {
-      "pl": "Żona Szczepana Ofiary. Córka Karola i Julianny z d. Bogusz. Matka Wincentego, Kacpra, Jakuba, Ignacego, Anny, Józefa, Franciszki i Wojciecha.",
-      "en": "Wife of Szczepan Ofiara. Daughter of Karol and Julianna née Bogusz. Mother of Wincenty, Kacper, Jakub, Ignacy, Anna, Józef, Franciszka, and Wojciech."
-    }
+      "pl": "Żona Szczepana Ofiary. Córka Karola i Julianny z d. Bogusz. Matka Wincentego, Kacpra, Jakuba, Ignacego, Anny, Józefa, Franciszki i Wojciecha. Wiek podany w jej akcie zgonu (48 lat) jest prawdopodobnie zawyżony w stosunku do wieku z aktu ślubu (19 lat).",
+      "en": "Wife of Szczepan Ofiara. Daughter of Karol and Julianna née Bogusz. Mother of Wincenty, Kacper, Jakub, Ignacy, Anna, Józef, Franciszka, and Wojciech. The age stated in her death record (48 years) is likely an overestimation compared to the age in her marriage record (19 years)."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1843-12-01",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 286
+        }
+      }
+    ]
   },
   {
     "id": 135,
@@ -3308,9 +3359,11 @@
     "firstName": "Stefan",
     "lastName": "Ofiara",
     "family": "ofiara",
-    "birthDateNote": "ok. 1809",
-    "deathDateNote": "po 1852",
-    "spouseIds": [158, 172],
+    "birthDateNote": "ok. 1805",
+    "deathDate": "1855-12-13",
+    "deathTime": "11:00",
+    "deathTimeQualifier": "morning",
+    "spouseIds": [158, 124, 172],
     "childIds": [174, 204],
     "parentIds": [161, 162],
     "marriages": [
@@ -3322,6 +3375,14 @@
         }
       },
       {
+        "spouseId": 124,
+        "date": null,
+        "note": {
+          "pl": "data nieznana, między 1844 a 1851",
+          "en": "date unknown, between 1844 and 1851"
+        }
+      },
+      {
         "spouseId": 172,
         "date": "1852-02-02",
         "source": {
@@ -3330,9 +3391,19 @@
       }
     ],
     "biography": {
-      "pl": "Syn Konstantego i Agnieszki z Grzegorzewskich. Brat Szczepana (id: 133). Jego pierwszą żoną była Helena Hernik (ślub w 1844 r.). Po jej śmierci, jako wdowiec, w 1852 roku poślubił Mariannę z Jemiołków Strączkową.",
-      "en": "Son of Konstanty and Agnieszka née Grzegorzewska. Brother of Szczepan (id: 133). His first wife was Helena Hernik (married in 1844). After her death, as a widower, he married Marianna née Jemiołek Strączkowa in 1852."
-    }
+      "pl": "Syn Konstantego i Agnieszki z Grzegorzewskich. Brat Szczepana (id: 133). Był trzykrotnie żonaty. Jego pierwszą żoną była Helena Hernik (ślub w 1844 r.). Po jej śmierci ożenił się z Heleną Zabułą, która zmarła w 1851 r. Jako wdowiec, w 1852 roku poślubił Mariannę z Jemiołków Strączkową.",
+      "en": "Son of Konstanty and Agnieszka née Grzegorzewska. Brother of Szczepan (id: 133). He was married three times. His first wife was Helena Hernik (married in 1844). After her death, he married Helena Zabuła, who died in 1851. As a widower, he married Marianna née Jemiołek Strączkowa in 1852."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1855-12-13",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 290
+        }
+      }
+    ]
   },
   {
     "id": 158,
@@ -3341,7 +3412,9 @@
     "maidenName": "Hernik",
     "family": "ofiara",
     "birthDateNote": "ok. 1824",
-    "deathDateNote": "ok. 1844-1851",
+    "deathDate": "1844-04-20",
+    "deathTime": "23:00",
+    "deathTimeQualifier": "night",
     "spouseIds": [157],
     "childIds": [],
     "parentIds": [170, 171],
@@ -3355,9 +3428,19 @@
       }
     ],
     "biography": {
-      "pl": "Pierwsza żona Stefana Ofiary (id: 157). Córka Antoniego i Barbary Herników. Wyszła za mąż w wieku 20 lat. Zmarła przed 1852 rokiem.",
-      "en": "First wife of Stefan Ofiara (id: 157). Daughter of Antoni and Barbara Hernik. She married at the age of 20. She died before 1852."
-    }
+      "pl": "Pierwsza żona Stefana Ofiary (id: 157). Córka Antoniego i Barbary Herników. Wyszła za mąż w wieku 20 lat i zmarła niedługo po ślubie.",
+      "en": "First wife of Stefan Ofiara (id: 157). Daughter of Antoni and Barbara Hernik. She married at the age of 20 and died shortly after the wedding."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1844-04-20",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 287
+        }
+      }
+    ]
   },
   {
     "id": 159,
@@ -3661,7 +3744,10 @@
     "lastName": "Ofiara",
     "maidenName": "Jemiołek (primo voto Strączek)",
     "family": "ofiara",
-    "birthDateNote": "ok. 1809",
+    "birthDateNote": "ok. 1810",
+    "deathDate": "1855-12-20",
+    "deathTime": "16:00",
+    "deathTimeQualifier": "afternoon",
     "spouseIds": [157],
     "childIds": [204],
     "parentIds": [173],
@@ -3675,9 +3761,19 @@
       }
     ],
     "biography": {
-      "pl": "Druga żona Stefana Ofiary. Córka Kazimierza i Heleny Jemiołków. Wyszła za mąż za Stefana jako wdowa po Franciszku Strączku (lub Jemiołku).",
-      "en": "Second wife of Stefan Ofiara. Daughter of Kazimierz and Helena Jemiołek. She married Stefan as a widow after Franciszek Strączek (or Jemiołek)."
-    }
+      "pl": "Trzecia żona Stefana Ofiary. Córka Kazimierza i Heleny Jemiołków. Wyszła za mąż za Stefana jako wdowa po Franciszku Strączku. Zmarła tydzień po swoim mężu.",
+      "en": "Third wife of Stefan Ofiara. Daughter of Kazimierz and Helena Jemiołek. She married Stefan as a widow after Franciszek Strączek. She died a week after her husband."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1855-12-20",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 291
+        }
+      }
+    ]
   },
   {
     "id": 173,
@@ -4306,6 +4402,7 @@
     "lastName": "Ofiara",
     "birthDate": "1850-01-01",
     "birthTime": "16:00",
+    "deathDate": "1850-10-15",
     "photoUrl": null,
     "family": "ofiara",
     "spouseIds": [],
@@ -4313,8 +4410,8 @@
     "parentIds": [159, 202],
     "marriages": [],
     "biography": {
-      "pl": "Syn Wincentego Ofiary i Franciszki z d. Walczak. Urodzony w Woli Gutowskiej.",
-      "en": "Son of Wincenty Ofiara and Franciszka née Walczak. Born in Wola Gutowska."
+      "pl": "Syn Wincentego Ofiary i Franciszki z d. Walczak. Urodzony w Woli Gutowskiej. Zmarł w wieku dziewięciu miesięcy.",
+      "en": "Son of Wincenty Ofiara and Franciszka née Walczak. Born in Wola Gutowska. Died at the age of nine months."
     },
     "events": [
       {
@@ -4323,6 +4420,14 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 270
+        }
+      },
+      {
+        "type": "death",
+        "date": "1850-10-15",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 288
         }
       }
     ]
@@ -4416,6 +4521,9 @@
     "birthDate": "1855-09-01",
     "birthTime": "05:00",
     "birthTimeQualifier": "morning",
+    "deathDate": "1856-06-25",
+    "deathTime": "14:00",
+    "deathTimeQualifier": "afternoon",
     "photoUrl": null,
     "family": "ofiara",
     "spouseIds": [],
@@ -4423,8 +4531,8 @@
     "parentIds": [159, 202],
     "marriages": [],
     "biography": {
-      "pl": "Syn Wincentego Ofiary i Franciszki z d. Walczak. Brat Ignacego i Rozalii.",
-      "en": "Son of Wincenty Ofiara and Franciszka née Walczak. Brother of Ignacy and Rozalia."
+      "pl": "Syn Wincentego Ofiary i Franciszki z d. Walczak. Zmarł w wieku niespełna 10 miesięcy.",
+      "en": "Son of Wincenty Ofiara and Franciszka née Walczak. Died at the age of nearly 10 months."
     },
     "events": [
       {
@@ -4433,6 +4541,14 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 275
+        }
+      },
+      {
+        "type": "death",
+        "date": "1856-06-25",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 292
         }
       }
     ]
@@ -4651,6 +4767,354 @@
     "biography": {
       "pl": "Mieszkaniec Gulinka. W 1906 roku, w wieku 32 lat, był świadkiem na ślubie Jana Jurczaka (akt nr 10). Był również świadkiem na ślubie Jana Gierczaka i Agnieszki Baćmaga w 1917 roku (akt nr 107).",
       "en": "Resident of Gulinek. In 1906, at the age of 32, he was a witness at the wedding of Jan Jurczak (document no. 10). He was also a witness at the wedding of Jan Gierczak and Agnieszka Baćmaga in 1917 (document no. 107)."
+    }
+  },
+  {
+    "id": 220,
+    "firstName": "Franciszka",
+    "lastName": "Szemlowska",
+    "maidenName": "Ofiara",
+    "birthDateNote": "ok. 1791",
+    "family": "ofiara",
+    "spouseIds": [221],
+    "childIds": [],
+    "parentIds": [161, 162],
+    "marriages": [
+      {
+        "spouseId": 221,
+        "date": "1811-10-28",
+        "source": {
+          "documentId": 6
+        }
+      }
+    ],
+    "biography": {
+      "pl": "Córka Konstantego Ofiary i Agnieszki z d. Grzegorzewskiej. Wyszła za mąż za Dionizego Szemlowskiego. W jej akcie ślubu (Jedlińsk, 1811, nr 6) imię jej matki zostało błędnie zapisane jako Elżbieta. Jednak zbieżność danych ojca, nazwiska panieńskiego matki (Grzegoszczonka) i miejsca zamieszkania (Wola Gutowska) jednoznacznie wskazuje na jej pochodzenie.",
+      "en": "Daughter of Konstanty Ofiara and Agnieszka née Grzegorzewska. She married Dionizy Szemlowski. In her marriage record (Jedlińsk, 1811, no. 6), her mother's first name was mistakenly recorded as Elżbieta. However, the consistency of her father's data, her mother's maiden name (Grzegoszczonka), and her place of residence (Wola Gutowska) clearly indicate her parentage."
+    }
+  },
+  {
+    "id": 221,
+    "firstName": "Dionizy",
+    "lastName": "Szemlowski",
+    "birthDateNote": "ok. 1791",
+    "spouseIds": [220],
+    "childIds": [],
+    "parentIds": [],
+    "marriages": [
+      {
+        "spouseId": 220,
+        "date": "1811-10-28",
+        "source": {
+          "documentId": 6
+        }
+      }
+    ],
+    "biography": {
+      "pl": "Mąż Franciszki z d. Ofiara. Mieszkaniec Woli Gutowskiej. W chwili ślubu w 1811 roku miał 20 lat. Był synem Kacpra i Katarzyny z d. Dobosz.",
+      "en": "Husband of Franciszka née Ofiara. Resident of Wola Gutowska. At the time of his marriage in 1811, he was 20 years old. He was the son of Kacper and Katarzyna née Dobosz."
+    }
+  },
+  {
+    "id": 222,
+    "firstName": "Franciszka",
+    "lastName": "Okrój",
+    "maidenName": "Ofiara",
+    "birthDateNote": "ok. 1794",
+    "family": "ofiara",
+    "spouseIds": [223],
+    "childIds": [],
+    "parentIds": [161, 162],
+    "marriages": [
+      {
+        "spouseId": 223,
+        "date": "1813-01-27",
+        "source": {
+          "documentId": 273
+        }
+      }
+    ],
+    "biography": {
+      "pl": "Córka Konstantego Ofiary i Agnieszki z d. Grzegorzewskiej. Urodzona w Woli Gutowskiej. Po śmierci ojca w 1812 roku, do ślubu z Michałem Okrojem w 1813 roku stanęła w asyście opiekuna prawnego ('ojca przybranego'), Macieja Ofiary. W jej akcie ślubu dane matki zostały najprawdopodobniej błędnie zapisane jako Helena Pietrasikowna.",
+      "en": "Daughter of Konstanty Ofiara and Agnieszka née Grzegorzewska. Born in Wola Gutowska. After her father's death in 1812, she married Michał Okrój in 1813, assisted by her legal guardian ('adopted father'), Maciej Ofiara. Her mother's details in her marriage record were most likely incorrectly recorded as Helena Pietrasikowna."
+    }
+  },
+  {
+    "id": 223,
+    "firstName": "Michał",
+    "lastName": "Okrój",
+    "birthDateNote": "ok. 1791",
+    "spouseIds": [222],
+    "childIds": [],
+    "parentIds": [],
+    "marriages": [
+      {
+        "spouseId": 222,
+        "date": "1813-01-27",
+        "source": {
+          "documentId": 273
+        }
+      }
+    ],
+    "biography": {
+      "pl": "Mąż Franciszki z d. Ofiara. Mieszkaniec i parobek w Woli Gutowskiej. Był synem Krzysztofa i Agnieszki z d. Kobylarczyk.",
+      "en": "Husband of Franciszka née Ofiara. A resident and farmhand in Wola Gutowska. He was the son of Krzysztof and Agnieszka née Kobylarczyk."
+    }
+  },
+  {
+    "id": 224,
+    "firstName": "Maciej",
+    "lastName": "Ofiara",
+    "birthDateNote": "przed 1790",
+    "family": "ofiara",
+    "biography": {
+      "pl": "Krewny Konstantego Ofiary (prawdopodobnie brat lub kuzyn). W 1813 roku wystąpił jako 'ojciec przybrany' (opiekun prawny) dla Franciszki Ofiary podczas jej ślubu z Michałem Okrojem. Mieszkał jako komornik w Woli Gutowskiej.",
+      "en": "A relative of Konstanty Ofiara (likely a brother or cousin). In 1813, he acted as the 'adopted father' (legal guardian) for Franciszka Ofiara during her wedding to Michał Okrój. He lived as a landless peasant in Wola Gutowska."
+    }
+  },
+  {
+    "id": 225,
+    "firstName": "Jan",
+    "lastName": "Ofiara",
+    "birthDateNote": "ok. 1770",
+    "deathDateNote": "przed 1819",
+    "family": "ofiara",
+    "spouseIds": [226],
+    "childIds": [227],
+    "parentIds": [],
+    "biography": {
+      "pl": "Prawdopodobnie brat Konstantego Ofiary (ID 161). Mąż Marianny z d. Cholewa i ojciec Tomasza. Jego istnienie, udokumentowane w akcie ślubu syna (nr 274), cofa genealogię rodu Ofiara o kolejne pokolenie.",
+      "en": "Likely the brother of Konstanty Ofiara (ID 161). Husband of Marianna née Cholewa and father of Tomasz. His existence, documented in his son's marriage record (no. 274), pushes the Ofiara family genealogy back another generation."
+    }
+  },
+  {
+    "id": 226,
+    "firstName": "Marianna",
+    "lastName": "Ofiara",
+    "maidenName": "Cholewa",
+    "birthDateNote": "ok. 1775",
+    "family": "ofiara",
+    "spouseIds": [225],
+    "childIds": [227],
+    "parentIds": [],
+    "marriages": [
+      {
+        "spouseId": 225,
+        "date": "?"
+      }
+    ],
+    "biography": {
+      "pl": "Żona Jana Ofiary i matka Tomasza.",
+      "en": "Wife of Jan Ofiara and mother of Tomasz."
+    }
+  },
+  {
+    "id": 227,
+    "firstName": "Tomasz",
+    "lastName": "Ofiara",
+    "birthDateNote": "ok. 1798",
+    "family": "ofiara",
+    "spouseIds": [228],
+    "childIds": [],
+    "parentIds": [225, 226],
+    "marriages": [
+      {
+        "spouseId": 228,
+        "date": "1819-01-26",
+        "source": {
+          "documentId": 274
+        }
+      }
+    ],
+    "biography": {
+      "pl": "Syn Jana i Marianny z d. Cholewa. Kuzyn dzieci Konstantego Ofiary. W 1819 roku, w wieku 21 lat, poślubił Mariannę Wasiel. Mieszkał i pracował jako parobek w Woli Gutowskiej.",
+      "en": "Son of Jan and Marianna née Cholewa. Cousin of Konstanty Ofiara's children. In 1819, at the age of 21, he married Marianna Wasiel. He lived and worked as a farmhand in Wola Gutowska."
+    }
+  },
+  {
+    "id": 228,
+    "firstName": "Marianna",
+    "lastName": "Ofiara",
+    "maidenName": "Wasiel",
+    "birthDateNote": "ok. 1801",
+    "family": "ofiara",
+    "spouseIds": [227],
+    "childIds": [],
+    "parentIds": [229, 230],
+    "marriages": [
+      {
+        "spouseId": 227,
+        "date": "1819-01-26",
+        "source": {
+          "documentId": 274
+        }
+      }
+    ],
+    "biography": {
+      "pl": "Żona Tomasza Ofiary. Córka Jana i Katarzyny z d. Kozioł, włościan z Woli Gutowskiej.",
+      "en": "Wife of Tomasz Ofiara. Daughter of Jan and Katarzyna née Kozioł, peasants from Wola Gutowska."
+    }
+  },
+  {
+    "id": 229,
+    "firstName": "Jan",
+    "lastName": "Wasiel",
+    "birthDateNote": "ok. 1775",
+    "spouseIds": [230],
+    "childIds": [228],
+    "parentIds": [],
+    "biography": {
+      "pl": "Mąż Katarzyny z d. Kozioł i ojciec Marianny Wasiel. Włościanin z Woli Gutowskiej.",
+      "en": "Husband of Katarzyna née Kozioł and father of Marianna Wasiel. Peasant from Wola Gutowska."
+    }
+  },
+  {
+    "id": 230,
+    "firstName": "Katarzyna",
+    "lastName": "Wasiel",
+    "maidenName": "Kozioł",
+    "birthDateNote": "ok. 1780",
+    "spouseIds": [229],
+    "childIds": [228],
+    "parentIds": [],
+    "marriages": [
+      {
+        "spouseId": 229,
+        "date": "?"
+      }
+    ],
+    "biography": {
+      "pl": "Żona Jana Wasiela, matka Marianny.",
+      "en": "Wife of Jan Wasiel, mother of Marianna."
+    }
+  },
+  {
+    "id": 231,
+    "firstName": "Kajetan",
+    "lastName": "Ofiara",
+    "birthDate": "1798-08-12",
+    "family": "ofiara",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [225, 226],
+    "events": [
+      {
+        "type": "birth",
+        "date": "1798-08-12",
+        "place": "Jedlanka",
+        "source": {
+          "documentId": 276
+        }
+      }
+    ],
+    "biography": {
+      "pl": "Syn Jana Ofiary i Marianny z d. Cholewa. Urodzony w Jedlance. Brat Tomasza Ofiary (ID 227). Jego rodzicami chrzestnymi byli Franciszek Karbowniczek i Apollonia Szpotowna z Jedlińska.",
+      "en": "Son of Jan Ofiara and Marianna née Cholewa. Born in Jedlanka. Brother of Tomasz Ofiara (ID 227). His godparents were Franciszek Karbowniczek and Apollonia Szpotowna from Jedlińsk."
+    }
+  },
+  {
+    "id": 232,
+    "firstName": "Wincenty",
+    "lastName": "Ofiara",
+    "birthDateNote": "ok. 1785",
+    "family": "ofiara",
+    "spouseIds": [233],
+    "childIds": [234, 237],
+    "parentIds": [],
+    "biography": {
+      "pl": "Prawdopodobnie brat lub kuzyn Konstantego Ofiary (ID 161). Mąż Elżbiety z d. Russak i ojciec Jana urodzonego w 1810 roku. Jego istnienie, udokumentowane w akcie urodzenia syna (nr 280), potwierdza istnienie równoległej gałęzi rodu w Woli Gutowskiej.",
+      "en": "Likely the brother or cousin of Konstanty Ofiara (ID 161). Husband of Elżbieta née Russak and father of Jan, born in 1810. His existence, documented in his son's birth record (no. 280), confirms the existence of a parallel branch of the family in Wola Gutowska."
+    }
+  },
+  {
+    "id": 233,
+    "firstName": "Elżbieta",
+    "lastName": "Ofiara",
+    "maidenName": "Russak",
+    "birthDateNote": "ok. 1790",
+    "family": "ofiara",
+    "spouseIds": [232],
+    "childIds": [234, 237],
+    "parentIds": [],
+    "marriages": [
+      {
+        "spouseId": 232,
+        "date": "?"
+      }
+    ],
+    "biography": {
+      "pl": "Żona Wincentego Ofiary i matka Jana urodzonego w 1810 roku.",
+      "en": "Wife of Wincenty Ofiara and mother of Jan, born in 1810."
+    }
+  },
+  {
+    "id": 234,
+    "firstName": "Jan",
+    "lastName": "Ofiara",
+    "birthDate": "1810-04-27",
+    "deathDate": "1811-09-20",
+    "deathTime": "14:00",
+    "family": "ofiara",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [232, 233],
+    "events": [
+      {
+        "type": "birth",
+        "date": "1810-04-27",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 280
+        }
+      },
+      {
+        "type": "death",
+        "date": "1811-09-20",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 285
+        }
+      }
+    ],
+    "biography": {
+      "pl": "Syn Wincentego i Elżbiety z d. Russak. Urodzony w Woli Gutowskiej. Zmarł w wieku dziewięciu miesięcy. Jego rodzicami chrzestnymi byli Łukasz Rulski i Franciszka Cherzonkówna.",
+      "en": "Son of Wincenty and Elżbieta née Russak. Born in Wola Gutowska. Died at the age of nine months. His godparents were Łukasz Rulski and Franciszka Cherzonkówna."
+    }
+  },
+  {
+    "id": 235,
+    "firstName": "Konstanty (starszy)",
+    "lastName": "Ofiara",
+    "birthDateNote": "ok. 1761",
+    "family": "ofiara",
+    "biography": {
+      "pl": "Prawdopodobnie najstarszy znany przedstawiciel rodu Ofiara w Woli Gutowskiej, być może brat Jana (ID 225) i stryj Konstantego (ID 161). W 1811 roku, w wieku 50 lat, zgłaszał zgon 9-miesięcznego Jana Ofiary, syna Wincentego (akt nr 285).",
+      "en": "Likely the eldest known representative of the Ofiara family in Wola Gutowska, possibly the brother of Jan (ID 225) and uncle of Konstanty (ID 161). In 1811, at the age of 50, he reported the death of 9-month-old Jan Ofiara, son of Wincenty (document no. 285)."
+    }
+  },
+  {
+    "id": 237,
+    "firstName": "Marianna",
+    "lastName": "Ofiara",
+    "birthDate": "1814-04-04",
+    "birthTime": "2:00",
+    "family": "ofiara",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [232, 233],
+    "events": [
+      {
+        "type": "birth",
+        "date": "1814-04-04",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 13
+        }
+      }
+    ],
+    "biography": {
+      "pl": "Córka Wincentego i Elżbiety z d. Russak. Urodzona w Woli Gutowskiej. Siostra Jana (ID 234), który zmarł w niemowlęctwie.",
+      "en": "Daughter of Wincenty and Elżbieta née Russak. Born in Wola Gutowska. Sister of Jan (ID 234), who died in infancy."
     }
   }
 ]

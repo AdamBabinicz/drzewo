@@ -280,6 +280,7 @@ const translations = {
     "time.night": "w nocy",
     "time.evening": "wieczorem",
     "time.morning": "rano",
+    "time.afternoon": "po południu",
     "familyUnit.parents": "Rodzice",
     "familyUnit.children": "Dzieci",
     "keepsakes.modal.title": "Pamiątki po {name}",
