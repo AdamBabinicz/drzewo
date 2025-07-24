@@ -196,6 +196,34 @@
     ]
   },
   {
+    "id": 7,
+    "firstName": "Tekla",
+    "lastName": "Ofiara",
+    "maidenName": "Ichnowska",
+    "birthDateNote": "ok. 1785",
+    "deathDate": "1865-08-26",
+    "deathTime": "06:00",
+    "deathTimeQualifier": "morning",
+    "family": "ofiara",
+    "spouseIds": [9],
+    "childIds": [10],
+    "parentIds": [],
+    "biography": {
+      "pl": "Żona Jędrzeja Ofiary, przedstawicielka bocznej gałęzi rodu. Zmarła w Jedlance w wieku 80 lat. Jej zgon zgłosił syn Jakub.",
+      "en": "Wife of Jędrzej Ofiara, a representative of a collateral branch of the family. She died in Jedlanka at the age of 80. Her death was reported by her son Jakub."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1865-08-26",
+        "place": "Jedlanka",
+        "source": {
+          "documentId": 16
+        }
+      }
+    ]
+  },
+  {
     "id": 8,
     "firstName": "Kunegunda",
     "lastName": "Remisiewska",
@@ -236,6 +264,62 @@
         "place": "Jaszowice",
         "source": {
           "documentId": 230
+        }
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "firstName": "Jędrzej",
+    "lastName": "Ofiara",
+    "birthDateNote": "ok. 1780-1785",
+    "deathDateNote": "przed 1865",
+    "family": "ofiara",
+    "spouseIds": [7],
+    "childIds": [10],
+    "parentIds": [12, 20],
+    "biography": {
+      "pl": "Mąż Tekli z d. Ichnowskiej. Prawdopodobnie brat protoplasty głównej linii rodu, Konstantego Ofiary.",
+      "en": "Husband of Tekla née Ichnowska. Likely the brother of the main family line's progenitor, Konstanty Ofiara."
+    }
+  },
+  {
+    "id": 10,
+    "firstName": "Jakub",
+    "lastName": "Ofiara",
+    "birthDateNote": "ok. 1817",
+    "family": "ofiara",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [9, 7],
+    "biography": {
+      "pl": "Syn Jędrzeja i Tekli z d. Ichnowskiej. W 1865 roku zgłosił zgon swojej matki.",
+      "en": "Son of Jędrzej and Tekla née Ichnowska. In 1865, he reported the death of his mother."
+    }
+  },
+  {
+    "id": 11,
+    "firstName": "Julianna",
+    "lastName": "Ofiara",
+    "birthDateNote": "ok. 1867",
+    "deathDate": "1868-08-25",
+    "deathTime": "06:00",
+    "deathTimeQualifier": "morning",
+    "family": "ofiara",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [129, 130],
+    "biography": {
+      "pl": "Córka Jakuba Ofiary i Marianny z d. Wieczorek. Zmarła w wieku jednego roku. W jej akcie zgonu ojciec został błędnie zapisany jako Jan.",
+      "en": "Daughter of Jakub Ofiara and Marianna née Wieczorek. She died at the age of one. In her death record, her father was mistakenly recorded as Jan."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1868-08-25",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 17
         }
       }
     ]
@@ -1263,7 +1347,7 @@
     "firstName": "Józefa",
     "lastName": "Walczak",
     "maidenName": "Gierczak",
-    "birthDate": null,
+    "birthDateNote": "ok. 1902",
     "deathDate": null,
     "photoUrl": null,
     "family": "gierczak",
@@ -1769,6 +1853,7 @@
     "firstName": "Antoni",
     "lastName": "Ofiara",
     "birthDate": null,
+    "birthDateNote": "ok. 1880",
     "deathDate": null,
     "photoUrl": null,
     "family": "ofiara",
@@ -2026,6 +2111,7 @@
     "id": 102,
     "firstName": "Józef",
     "lastName": "Wieracha",
+    "birthDateNote": "ok. 1819",
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [59],
@@ -2049,6 +2135,7 @@
     "id": 103,
     "firstName": "Franciszek",
     "lastName": "Kornafel",
+    "birthDateNote": "ok. 1824",
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [60],
@@ -2205,6 +2292,7 @@
     "id": 111,
     "firstName": "Władysław",
     "lastName": "Walczak",
+    "birthDateNote": "ok. 1900",
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [70],
@@ -2618,7 +2706,7 @@
     "deathTime": "15:00",
     "photoUrl": "/images/jakub.avif",
     "spouseIds": [130],
-    "childIds": [57, 131, 132, 210, 211, 214, 215, 216],
+    "childIds": [57, 131, 132, 210, 211, 214, 215, 216, 11],
     "parentIds": [133, 134],
     "occupation": {
       "pl": "Gospodarz",
@@ -2665,7 +2753,7 @@
     "birthDateNote": "ok. 1832",
     "deathDateNote": "po 1919-11-22",
     "spouseIds": [129],
-    "childIds": [57, 131, 132, 210, 211, 214, 215, 216],
+    "childIds": [57, 131, 132, 210, 211, 214, 215, 216, 11],
     "parentIds": [],
     "marriages": [
       {
@@ -2686,7 +2774,7 @@
     "firstName": "Zofia",
     "lastName": "Ofiara",
     "birthDateNote": "1863",
-    "deathDate": "1872",
+    "deathDate": "1872-01-18",
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
@@ -2694,7 +2782,17 @@
     "biography": {
       "pl": "Córka Jakuba i Marianny. Zmarła w wieku 9 lat.",
       "en": "Daughter of Jakub and Marianna. Died at the age of 9."
-    }
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1872-01-18",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 296
+        }
+      }
+    ]
   },
   {
     "id": 132,
@@ -2702,13 +2800,14 @@
     "lastName": "Ofiara",
     "birthDate": "1872-10-05",
     "birthTime": "23:00",
+    "deathDate": "1874-06-06",
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
     "parentIds": [129, 130],
     "biography": {
-      "pl": "Córka Jakuba i Marianny z Wieczorków. Urodzona w Woli Gutowskiej.",
-      "en": "Daughter of Jakub and Marianna née Wieczorek. Born in Wola Gutowska."
+      "pl": "Córka Jakuba i Marianny z Wieczorków. Urodzona w Woli Gutowskiej. Zmarła w wieku niespełna dwóch lat.",
+      "en": "Daughter of Jakub and Marianna née Wieczorek. Born in Wola Gutowska. She died at the age of nearly two."
     },
     "events": [
       {
@@ -2717,6 +2816,14 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 219
+        }
+      },
+      {
+        "type": "death",
+        "date": "1874-06-06",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 297
         }
       }
     ]
@@ -2905,7 +3012,7 @@
     "family": "ofiara",
     "parentIds": [133, 134],
     "spouseIds": [151, 152, 153],
-    "childIds": [],
+    "childIds": [24],
     "marriages": [
       {
         "spouseId": 151,
@@ -3210,7 +3317,7 @@
     "deathDateNote": "przed 1921",
     "family": "ofiara",
     "spouseIds": [138],
-    "childIds": [],
+    "childIds": [24],
     "parentIds": [],
     "marriages": [
       {
@@ -3449,9 +3556,12 @@
     "family": "ofiara",
     "birthDate": "1826-04-20",
     "birthTime": "24:00",
-    "parentIds": [133, 134],
+    "deathDate": "1862-08-31",
+    "deathTime": "11:00",
+    "deathTimeQualifier": "morning",
     "spouseIds": [202],
     "childIds": [201, 203, 208, 212, 217],
+    "parentIds": [133, 134],
     "marriages": [
       {
         "spouseId": 202,
@@ -3469,10 +3579,18 @@
     "events": [
       {
         "type": "birth",
-        "date": "1826",
+        "date": "1826-04-20",
         "place": "Wola Gutowska",
         "source": {
           "documentId": 240
+        }
+      },
+      {
+        "type": "death",
+        "date": "1862-08-31",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 295
         }
       }
     ]
@@ -3512,14 +3630,14 @@
     "photoUrl": "/images/konstanty.avif",
     "spouseIds": [162],
     "childIds": [163, 164, 165, 166, 167, 133, 157],
-    "parentIds": [],
+    "parentIds": [12, 20],
     "occupation": {
       "pl": "Włościanin / Mieszczanin",
       "en": "Peasant / Townsman"
     },
     "biography": {
-      "pl": "Protoplasta rodu Ofiara. Mąż Agnieszki Grzegorzewskiej. W dokumentach jego nazwisko pojawia się w formach 'Ofiera' i 'Ofiara'. Mieszkał i zmarł w Woli Gutowskiej w wieku 37 lat. Co ciekawe, w najwcześniejszych zachowanych metrykach (1798 r.) Konstanty jest zapisany jako 'mieszczanin' (Oppidanus), podczas gdy jego żona Agnieszka jako 'chłopka' (Villana). Wskazuje to na jego pochodzenie z innego stanu społecznego. W późniejszych dokumentach, sporządzanych już po wprowadzeniu Kodeksu Napoleona, który znosił podziały stanowe, jest konsekwentnie opisywany jako 'włościanin', zgodnie ze swoim faktycznym zajęciem i miejscem zamieszkania. Jest to fascynujący przykład, jak wielkie zmiany historyczne i prawne wpływały na życie rodziny.",
-      "en": "Progenitor of the Ofiara family. Husband of Agnieszka Grzegorzewska. His surname appears in documents as 'Ofiera' and 'Ofiara'. He lived and died in Wola Gutowska at the age of 37. Interestingly, in the earliest surviving records (1798), Konstanty is listed as a 'townsman' (Oppidanus), while his wife Agnieszka is a 'peasant' (Villana). This indicates his origin from a different social class. In later documents, created after the introduction of the Napoleonic Code which abolished social estates, he is consistently described as a 'peasant' in accordance with his actual occupation and place of residence. This is a fascinating example of how major historical and legal changes affected the family's life."
+      "pl": "Protoplasta głównej linii rodu Ofiara. Mąż Agnieszki Grzegorzewskiej. Prawdopodobnie brat Jędrzeja. W dokumentach jego nazwisko pojawia się w formach 'Ofiera' i 'Ofiara'. Mieszkał i zmarł w Woli Gutowskiej w wieku 37 lat. Co ciekawe, w najwcześniejszych zachowanych metrykach (1798 r.) Konstanty jest zapisany jako 'mieszczanin' (Oppidanus), podczas gdy jego żona Agnieszka jako 'chłopka' (Villana). Wskazuje to na jego pochodzenie z innego stanu społecznego. W późniejszych dokumentach, jest konsekwentnie opisywany jako 'włościanin'.",
+      "en": "Progenitor of the main Ofiara family line. Husband of Agnieszka Grzegorzewska. Likely the brother of Jędrzej. His surname appears in documents as 'Ofiera' and 'Ofiara'. He lived and died in Wola Gutowska at the age of 37. Interestingly, in the earliest surviving records (1798), Konstanty is listed as a 'townsman' (Oppidanus), while his wife Agnieszka is a 'peasant' (Villana). This indicates his origin from a different social class. In later documents, he is consistently described as a 'peasant'."
     },
     "events": [
       {
@@ -4048,7 +4166,7 @@
     "id": 184,
     "firstName": "Tomasz",
     "lastName": "Sierak",
-    "birthDateNote": "?",
+    "birthDateNote": "ok. 1825",
     "deathDate": null,
     "photoUrl": null,
     "family": "gierczak",
@@ -4230,16 +4348,20 @@
     "id": 193,
     "firstName": "Paweł",
     "lastName": "Golus",
+    "family": "gierczak",
     "spouseIds": [194],
-    "childIds": [192]
+    "childIds": [192],
+    "parentIds": []
   },
   {
     "id": 194,
     "firstName": "Marianna",
     "lastName": "Golus",
     "maidenName": "Sułowska",
+    "family": "gierczak",
     "spouseIds": [193],
-    "childIds": [192]
+    "childIds": [192],
+    "parentIds": []
   },
   {
     "id": 195,
@@ -4465,6 +4587,9 @@
     "birthDate": "1851-10-17",
     "birthTime": "09:00",
     "birthTimeQualifier": "morning",
+    "deathDate": "1858-08-13",
+    "deathTime": "09:00",
+    "deathTimeQualifier": "morning",
     "photoUrl": null,
     "family": "ofiara",
     "spouseIds": [],
@@ -4472,8 +4597,8 @@
     "parentIds": [159, 202],
     "marriages": [],
     "biography": {
-      "pl": "Córka Wincentego Ofiary i Franciszki z d. Walczak. Siostra Ignacego.",
-      "en": "Daughter of Wincenty Ofiara and Franciszka née Walczak. Sister of Ignacy."
+      "pl": "Córka Wincentego Ofiary i Franciszki z d. Walczak. Siostra Ignacego. Zmarła w wieku 7 lat.",
+      "en": "Daughter of Wincenty Ofiara and Franciszka née Walczak. Sister of Ignacy. She died at the age of 7."
     },
     "events": [
       {
@@ -4482,6 +4607,14 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 271
+        }
+      },
+      {
+        "type": "death",
+        "date": "1858-08-13",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 293
         }
       }
     ]
@@ -4493,6 +4626,8 @@
     "birthDate": "1853-10-13",
     "birthTime": "03:00",
     "birthTimeQualifier": "morning",
+    "deathDate": "1855-08-13",
+    "deathTimeQualifier": "afternoon",
     "photoUrl": null,
     "family": "ofiara",
     "spouseIds": [],
@@ -4500,8 +4635,8 @@
     "parentIds": [157, 172],
     "marriages": [],
     "biography": {
-      "pl": "Syn Stefana Ofiary i jego drugiej żony, Marianny z d. Jemiołek (primo voto Strączek).",
-      "en": "Son of Stefan Ofiara and his second wife, Marianna née Jemiołek (primo voto Strączek)."
+      "pl": "Syn Stefana Ofiary i jego drugiej żony, Marianny z d. Jemiołek (primo voto Strączek). Zmarł w wieku niespełna dwóch lat. W jego akcie zgonu jako ojciec został błędnie zapisany 'Roch' zamiast 'Stefan'.",
+      "en": "Son of Stefan Ofiara and his second wife, Marianna née Jemiołek (primo voto Strączek). He died at the age of nearly two. In his death certificate, his father was mistakenly recorded as 'Roch' instead of 'Stefan'."
     },
     "events": [
       {
@@ -4510,6 +4645,14 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 272
+        }
+      },
+      {
+        "type": "death",
+        "date": "1855-08-13",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 65
         }
       }
     ]
@@ -4587,6 +4730,9 @@
     "lastName": "Ofiara",
     "birthDate": "1857-11-20",
     "birthTime": "12:00",
+    "deathDate": "1870-08-25",
+    "deathTime": "08:00",
+    "deathTimeQualifier": "morning",
     "photoUrl": null,
     "family": "ofiara",
     "spouseIds": [],
@@ -4594,8 +4740,8 @@
     "parentIds": [129, 130],
     "marriages": [],
     "biography": {
-      "pl": "Córka Jakuba Ofiary (w akcie błędnie jako Jan) i Marianny z d. Wieczorek. Siostra Andrzeja, Zofii, Agnieszki i Józefy.",
-      "en": "Daughter of Jakub Ofiara (in the record mistakenly as Jan) and Marianna née Wieczorek. Sister of Andrzej, Zofia, Agnieszka and Józefa."
+      "pl": "Córka Jakuba Ofiary i Marianny z d. Wieczorek. W jej akcie urodzenia ojciec został błędnie zapisany jako Jan. Zmarła w wieku 12 lat.",
+      "en": "Daughter of Jakub Ofiara and Marianna née Wieczorek. In her birth record, her father was mistakenly recorded as Jan. She died at the age of 12."
     },
     "events": [
       {
@@ -4604,6 +4750,14 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 278
+        }
+      },
+      {
+        "type": "death",
+        "date": "1870-08-25",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 18
         }
       }
     ]
@@ -4642,6 +4796,9 @@
     "lastName": "Ofiara",
     "birthDate": "1859-11-18",
     "birthTime": "12:00",
+    "deathDate": "1860-01-18",
+    "deathTime": "01:00",
+    "deathTimeQualifier": "night",
     "photoUrl": null,
     "family": "ofiara",
     "spouseIds": [],
@@ -4649,8 +4806,8 @@
     "parentIds": [129, 130],
     "marriages": [],
     "biography": {
-      "pl": "Syn Jakuba Ofiary i Marianny (w akcie jako Magdalena) z d. Wieczorek. Brat Andrzeja, Zofii, Agnieszki, Józefy i Katarzyny.",
-      "en": "Son of Jakub Ofiara and Marianna (recorded as Magdalena) née Wieczorek. Brother of Andrzej, Zofia, Agnieszka, Józefa and Katarzyna."
+      "pl": "Syn Jakuba Ofiary i Marianny z d. Wieczorek. W akcie urodzenia jego matka została błędnie zapisana jako Magdalena. Zmarł jako dwumiesięczne niemowlę. W jego akcie zgonu matka została z kolei błędnie zapisana jako Apolonia.",
+      "en": "Son of Jakub Ofiara and Marianna née Wieczorek. In his birth record, his mother was mistakenly recorded as Magdalena. He died as a two-month-old infant. In his death certificate, his mother was in turn mistakenly recorded as Apolonia."
     },
     "events": [
       {
@@ -4659,6 +4816,14 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 281
+        }
+      },
+      {
+        "type": "death",
+        "date": "1860-01-18",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 294
         }
       }
     ]
@@ -4698,15 +4863,17 @@
     "birthDate": "1861-03-11",
     "birthTime": "21:00",
     "birthTimeQualifier": "night",
+    "deathDate": "1863-07-08",
+    "deathTime": "08:00",
+    "deathTimeQualifier": "morning",
     "photoUrl": null,
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
     "parentIds": [129, 130],
-    "marriages": [],
     "biography": {
-      "pl": "Syn Jakuba Ofiary i Marianny (w akcie jako Magdalena) z d. Wieczorek. Brat Andrzeja, Zofii, Agnieszki, Katarzyny, Jędrzeja i Bartłomieja.",
-      "en": "Son of Jakub Ofiara and Marianna (recorded as Magdalena) née Wieczorek. Brother of Andrzej, Zofia, Agnieszka, Katarzyna, Jędrzej and Bartłomiej."
+      "pl": "Syn Jakuba Ofiary i Marianny z d. Wieczorek. W jego akcie urodzenia matka została błędnie zapisana jako Magdalena. Zmarł w wieku niespełna dwóch lat. Istnieją dwa sprzeczne akty jego zgonu z 1863 roku: jeden wskazuje na datę 27 lutego (w którym ojca błędnie zapisano jako Jana), a drugi na 8 lipca. Rozbieżności w danych metrykalnych były częstym zjawiskiem w tamtym okresie.",
+      "en": "Son of Jakub Ofiara and Marianna née Wieczorek. In his birth record, his mother was mistakenly recorded as Magdalena. He died at the age of nearly two. There are two conflicting death records for him from 1863: one indicates the date of February 27 (in which his father is incorrectly recorded as Jan), and the other indicates July 8. Discrepancies in vital records were a common phenomenon during that period."
     },
     "events": [
       {
@@ -4715,6 +4882,22 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 283
+        }
+      },
+      {
+        "type": "death",
+        "date": "1863-02-27",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 14
+        }
+      },
+      {
+        "type": "death",
+        "date": "1863-07-08",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 15
         }
       }
     ]
@@ -4880,8 +5063,8 @@
     "deathDateNote": "przed 1819",
     "family": "ofiara",
     "spouseIds": [226],
-    "childIds": [227],
-    "parentIds": [],
+    "childIds": [227, 231],
+    "parentIds": [12, 20],
     "biography": {
       "pl": "Prawdopodobnie brat Konstantego Ofiary (ID 161). Mąż Marianny z d. Cholewa i ojciec Tomasza. Jego istnienie, udokumentowane w akcie ślubu syna (nr 274), cofa genealogię rodu Ofiara o kolejne pokolenie.",
       "en": "Likely the brother of Konstanty Ofiara (ID 161). Husband of Marianna née Cholewa and father of Tomasz. His existence, documented in his son's marriage record (no. 274), pushes the Ofiara family genealogy back another generation."
@@ -5020,9 +5203,9 @@
     "family": "ofiara",
     "spouseIds": [233],
     "childIds": [234, 237],
-    "parentIds": [],
+    "parentIds": [12, 20],
     "biography": {
-      "pl": "Prawdopodobnie brat lub kuzyn Konstantego Ofiary (ID 161). Mąż Elżbiety z d. Russak i ojciec Jana urodzonego w 1810 roku. Jego istnienie, udokumentowane w akcie urodzenia syna (nr 280), potwierdza istnienie równoległej gałęzi rodu w Woli Gutowskiej.",
+      "pl": "Prawdopodobnie brat Konstantego Ofiary (ID 161). Mąż Elżbiety z d. Russak i ojciec Jana urodzonego w 1810 roku. Jego istnienie, udokumentowane w akcie urodzenia syna (nr 280), potwierdza istnienie równoległej gałęzi rodu w Woli Gutowskiej.",
       "en": "Likely the brother or cousin of Konstanty Ofiara (ID 161). Husband of Elżbieta née Russak and father of Jan, born in 1810. His existence, documented in his son's birth record (no. 280), confirms the existence of a parallel branch of the family in Wola Gutowska."
     }
   },
@@ -5116,5 +5299,86 @@
       "pl": "Córka Wincentego i Elżbiety z d. Russak. Urodzona w Woli Gutowskiej. Siostra Jana (ID 234), który zmarł w niemowlęctwie.",
       "en": "Daughter of Wincenty and Elżbieta née Russak. Born in Wola Gutowska. Sister of Jan (ID 234), who died in infancy."
     }
+  },
+  {
+    "id": 12,
+    "firstName": "NN",
+    "lastName": "Ofiara",
+    "birthDateNote": "ok. 1750",
+    "family": "ofiara",
+    "spouseIds": [20],
+    "childIds": [161, 9, 225, 232],
+    "parentIds": [],
+    "biography": {
+      "pl": "Symboliczny protoplasta rodu Ofiara, ojciec Konstantego, Jędrzeja, Jana i Wincentego. Jego istnienie jest wnioskiem genealogicznym, pozwalającym połączyć główne gałęzie rodu w jedno drzewo.",
+      "en": "The symbolic progenitor of the Ofiara family, father of Konstanty, Jędrzej, Jan and Wincenty. His existence is a genealogical inference used to connect the main branches of the family into a single tree."
+    }
+  },
+  {
+    "id": 20,
+    "firstName": "NN",
+    "lastName": "Ofiara",
+    "family": "ofiara",
+    "spouseIds": [12],
+    "childIds": [161, 9, 225, 232],
+    "parentIds": [],
+    "biography": {
+      "pl": "Symboliczna protoplastka rodu Ofiara, matka Konstantego, Jędrzeja, Jana i Wincentego.",
+      "en": "The symbolic progenitrix of the Ofiara family, mother of Konstanty, Jędrzej, Jan and Wincenty."
+    }
+  },
+  {
+    "id": 24,
+    "firstName": "Stanisław",
+    "lastName": "Ofiara",
+    "birthDateNote": "ok. 1870",
+    "deathDate": "1871-03-31",
+    "deathTime": "?",
+    "deathTimeQualifier": "afternoon",
+    "family": "ofiara",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [138, 151],
+    "biography": {
+      "pl": "Syn Wojciecha Ofiary i Franciszki z d. Puzianowskiej. Zmarł w Woli Gutowskiej w wieku jednego roku.",
+      "en": "Son of Wojciech Ofiara and Franciszka née Puzianowska. He died in Wola Gutowska at the age of one."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1871-03-31",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 19
+        }
+      }
+    ]
+  },
+  {
+    "id": 298,
+    "firstName": "Anna",
+    "lastName": "Ofiara",
+    "birthDateNote": "ok. 1880",
+    "deathDate": "1880-07-24",
+    "deathTime": "7:00",
+    "deathTimeQualifier": "morning",
+    "family": "ofiara",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [129, 130],
+    "biography": {
+      "pl": "Córka Jakuba i Marianny z Wieczorków. W jej akcie zgonu ojciec został błędnie zapisany jako Józef. Zmarła w wieku dwóch dni.",
+      "en": "Daughter of Jakub and Marianna née Wieczorek. In her death record, her father was mistakenly recorded as Józef. She died at the age of two days."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1880-07-24",
+        "place": "Tymowska Wola",
+        "source": {
+          "documentId": 298
+        }
+      }
+    ]
   }
 ]

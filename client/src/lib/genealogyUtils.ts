@@ -8,21 +8,18 @@ export interface FamilyUnit {
 
 const sortByBirthDate = (a: Person, b: Person): number => {
   const getYear = (p: Person): number => {
-    // 1. Spróbuj użyć precyzyjnej daty
     if (p.birthDate) {
       const yearStr = p.birthDate.substring(0, 4);
       if (!isNaN(parseInt(yearStr))) {
         return parseInt(yearStr);
       }
     }
-
     if (p.birthDateNote) {
       const match = p.birthDateNote.match(/\d{4}/);
       if (match && match[0]) {
         return parseInt(match[0]);
       }
     }
-    // 3. Jeśli nigdzie nie znaleziono roku, użyj wartości domyślnej
     return 9999;
   };
   return getYear(a) - getYear(b);
@@ -38,7 +35,6 @@ const sortParents = (a: Person, b: Person): number => {
   if (!aIsWife && bIsWife) {
     return -1;
   }
-
   return sortByBirthDate(a, b);
 };
 
@@ -81,9 +77,7 @@ export function getFamilyStructure(
   const peopleMap = new Map(allPeople.map((p) => [p.id, p]));
 
   const initialRoots = allPeople.filter(
-    (p) =>
-      p.family === familyTag &&
-      !(p.parentIds ?? []).some((id) => peopleMap.get(id)?.family === familyTag)
+    (p) => p.family === familyTag && (!p.parentIds || p.parentIds.length === 0)
   );
 
   const progenitorBio = initialRoots.find((p) => {
@@ -123,7 +117,8 @@ export function getFamilyStructure(
   ]);
 
   function buildDescendantUnits(children: Person[]) {
-    for (const child of children) {
+    const sortedChildren = [...children].sort(sortByBirthDate);
+    for (const child of sortedChildren) {
       if (processedParentIds.has(child.id)) continue;
 
       const grandChildren = (child.childIds ?? [])
@@ -133,7 +128,10 @@ export function getFamilyStructure(
         )
         .sort(sortByBirthDate);
 
-      if ((child.childIds ?? []).length > 0) {
+      if (
+        (child.childIds ?? []).length > 0 ||
+        (child.spouseIds ?? []).length > 0
+      ) {
         processedParentIds.add(child.id);
 
         const childSpouses = (child.spouseIds ?? [])
@@ -155,6 +153,14 @@ export function getFamilyStructure(
   }
 
   buildDescendantUnits(progenitorChildren);
+
+  descendantUnits.sort((a, b) => {
+    const personA =
+      a.parents.find((p) => p.family === familyTag) || a.parents[0];
+    const personB =
+      b.parents.find((p) => p.family === familyTag) || b.parents[0];
+    return sortByBirthDate(personA, personB);
+  });
 
   return { progenitorUnit, descendantUnits };
 }

@@ -639,6 +639,7 @@ const translations = {
     "time.morning": "in the morning",
     "time.night": "at night",
     "time.evening": "in the evening",
+    "time.afternoon": "in the afternoon",
     "familyUnit.parents": "Parents",
     "familyUnit.children": "Children",
     "keepsakes.modal.title": "Keepsakes of {name}",

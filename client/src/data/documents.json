@@ -233,6 +233,257 @@
     "extracted_data": []
   },
   {
+    "id": 14,
+    "title_pl": "Akt Zgonu: Józef Ofiara (1863)",
+    "title_en": "Death Record: Józef Ofiara (1863)",
+    "type": "death_record",
+    "description_pl": "Parafia Jedlińsk, akt nr 47, 1863 r. Dokument potwierdza zgon dwuletniego Józefa, syna Jakuba (w akcie błędnie jako Jan) i Marianny z Wieczorków.",
+    "description_en": "Jedlińsk Parish, record no. 47, 1863. The document confirms the death of two-year-old Józef, son of Jakub (incorrectly recorded as Jan) and Marianna née Wieczorek.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się w mieście Jedlińsku, dnia pierwszego Marca, tysiąc osmset sześćdziesiątego trzeciego roku, o godzinie jedenastej rano. Stawił się Jan Ofiara, ojciec zmarłego, lat trzydzieści i siedm maiący, i Dominik Niemonek, lat trzydzieści dwa liczący, obydwa włościanie z Woli Gutowskiej; i oświadczyli Nam iż w Woli Gutowskiej dnia dwudziestego siódmego Lutego bieżącego roku, o godzinie dziewiątej rano umarł Józef Ofiara, syn wspomnianego Jana i Maryanny z Wieczorków małżonków Ofiarów, włościanin, dwa lata liczący. Po przekonaniu się naocznie o zejściu Józefa Ofiary, Akt ten Stawającym przeczytany, a że pisać nieumieją, przez Nas tylko podpisany został. X. Jan Kłochowski Proboszcz i Urzędnik Stanu Cywilnego Parafii Jedlińsko.",
+    "translation_pl": "Działo się w mieście Jedlińsku dnia pierwszego marca tysiąc osiemset sześćdziesiątego trzeciego roku o godzinie jedenastej rano. Stawił się Jan Ofiara, ojciec zmarłego, lat trzydzieści siedem, i Dominik Niemonek, lat trzydzieści dwa, obaj włościanie z Woli Gutowskiej; i oświadczyli nam, iż w Woli Gutowskiej dnia dwudziestego siódmego lutego bieżącego roku o godzinie dziewiątej rano zmarł Józef Ofiara, syn wspomnianego Jana i Marianny z Wieczorków, małżonków Ofiarów, włościanin, liczący dwa lata. Po naocznym przekonaniu się o zejściu Józefa Ofiary, Akt ten stawiającym przeczytany, a że pisać nie umieją, przez nas tylko podpisany został. Ks. Jan Kłochowski, Proboszcz i Urzędnik Stanu Cywilnego Parafii Jedlińsko.",
+    "translation_en": "It happened in the town of Jedlińsk on the first of March, one thousand eight hundred and sixty-three, at eleven o'clock in the morning. Appeared Jan Ofiara, father of the deceased, aged thirty-seven, and Dominik Niemonek, aged thirty-two, both peasants from Wola Gutowska; and they declared to us that in Wola Gutowska on the twenty-seventh of February of the current year, at nine o'clock in the morning, died Józef Ofiara, son of the aforementioned Jan and Marianna née Wieczorek, spouses Ofiara, a peasant, aged two years. After visually confirming the passing of Józef Ofiara, this act was read to the declarants, and as they cannot write, it was signed only by Us. Fr. Jan Kłochowski, Pastor and Civil Registrar of the Jedlińsko Parish.",
+    "extracted_data": [
+      {
+        "label_pl": "Zmarły",
+        "label_en": "Deceased",
+        "value_pl": "Józef Ofiara",
+        "value_en": "Józef Ofiara"
+      },
+      {
+        "label_pl": "Data zgonu",
+        "label_en": "Date of Death",
+        "value_pl": "27 lutego 1863",
+        "value_en": "February 27, 1863"
+      },
+      {
+        "label_pl": "Godzina zgonu",
+        "label_en": "Time of Death",
+        "value_pl": "9:00 rano",
+        "value_en": "9:00 AM"
+      },
+      {
+        "label_pl": "Wiek w chwili zgonu",
+        "label_en": "Age at Death",
+        "value_pl": "2 lata",
+        "value_en": "2 years"
+      },
+      {
+        "label_pl": "Rodzice",
+        "label_en": "Parents",
+        "value_pl": "Jan (Jakub) Ofiara i Marianna z Wieczorków",
+        "value_en": "Jan (Jakub) Ofiara and Marianna née Wieczorek"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title_pl": "Akt Zgonu: Józef Ofiara (1863) - drugi wpis",
+    "title_en": "Death Record: Józef Ofiara (1863) - second entry",
+    "type": "death_record",
+    "description_pl": "Parafia Jedlińsk, akt nr 67, 1863 r. Drugi, sprzeczny akt zgonu dla dwuletniego Józefa, syna Jakuba i Magdaleny (Marianny) z Wieczorków, wskazujący datę śmierci na 8 lipca. Wpis ten jest prawdopodobnie bardziej wiarygodny ze względu na poprawnie zapisane imię ojca.",
+    "description_en": "Jedlińsk Parish, record no. 67, 1863. A second, conflicting death record for two-year-old Józef, son of Jakub and Magdalena (Marianna) née Wieczorek, indicating the date of death as July 8. This entry is likely more credible due to the correctly recorded father's name.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się w mieście Jedlińsku, dnia dziewiątego Lipca, tysiąc osmset sześćdziesiątego trzeciego roku, o godzinie ósmej rano. Stawił się Jakób Ofiara, ojciec zmarłego lat czterdzieści i Marcin ..., lat czterdzieści dziewięć maiący, włościanie z Wsi Woli Gutowskiej, i oświadczyli iż w dniu ósmym Lipca bieżącego roku, o godzinie ósmej rano, umarł we wsi Woli Gutowskiej Józef Ofiara, syn wspomnianego Jakóba i Magdaleny z Wieczorków małżonków Ofiarów, włościanin, urodzony we wsi Woli Gutowskiej, lat dwa maiący. Po przekonaniu się naocznie o zejściu Józefa Ofiary, Akt ten Stawającym pisać nieumiejącym przeczytany, przez Nas tylko podpisany został. X. Jan Kłochowski Proboszcz Jedliński.",
+    "translation_pl": "Działo się w mieście Jedlińsku, dnia dziewiątego lipca, tysiąc osiemset sześćdziesiątego trzeciego roku, o godzinie ósmej rano. Stawił się Jakub Ofiara, ojciec zmarłego, lat czterdzieści, i Marcin ..., lat czterdzieści dziewięć, włościanie ze Wsi Wola Gutowska; i oświadczyli, iż w dniu ósmym lipca bieżącego roku, o godzinie ósmej rano, umarł we wsi Woli Gutowskiej Józef Ofiara, syn wspomnianego Jakuba i Magdaleny z Wieczorków, małżonków Ofiarów, włościanin, urodzony we wsi Woli Gutowskiej, lat dwa. Po naocznym przekonaniu się o zejściu Józefa Ofiary, Akt ten stawiającym, pisać nieumiejącym, przeczytany, przez Nas tylko podpisany został. Ks. Jan Kłochowski, Proboszcz Jedliński.",
+    "translation_en": "It happened in the town of Jedlińsk on the ninth of July, one thousand eight hundred and sixty-three, at eight o'clock in the morning. Appeared Jakub Ofiara, father of the deceased, aged forty, and Marcin ..., aged forty-nine, peasants from the Village of Wola Gutowska; and they declared that on the eighth of July of the current year, at eight o'clock in the morning, died in the village of Wola Gutowska Józef Ofiara, son of the aforementioned Jakub and Magdalena née Wieczorek, spouses Ofiara, a peasant, born in the village of Wola Gutowska, aged two years. After visually confirming the passing of Józef Ofiara, this Act was read to the declarants, who are unable to write, and was signed only by Us. Fr. Jan Kłochowski, Pastor of Jedlińsk.",
+    "extracted_data": [
+      {
+        "label_pl": "Zmarły",
+        "label_en": "Deceased",
+        "value_pl": "Józef Ofiara",
+        "value_en": "Józef Ofiara"
+      },
+      {
+        "label_pl": "Data zgonu",
+        "label_en": "Date of Death",
+        "value_pl": "8 lipca 1863",
+        "value_en": "July 8, 1863"
+      },
+      {
+        "label_pl": "Godzina zgonu",
+        "label_en": "Time of Death",
+        "value_pl": "8:00 rano",
+        "value_en": "8:00 AM"
+      },
+      {
+        "label_pl": "Wiek w chwili zgonu",
+        "label_en": "Age at Death",
+        "value_pl": "2 lata",
+        "value_en": "2 years"
+      },
+      {
+        "label_pl": "Rodzice",
+        "label_en": "Parents",
+        "value_pl": "Jakub Ofiara i Magdalena z Wieczorków",
+        "value_en": "Jakub Ofiara and Magdalena née Wieczorek"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title_pl": "Akt Zgonu: Tekla Ofiara z d. Ichnowska (1865)",
+    "title_en": "Death Record: Tekla Ofiara née Ichnowska (1865)",
+    "type": "death_record",
+    "description_pl": "Parafia Jedlińsk, akt nr 30, 1865 r. Dokument dotyczy 80-letniej Tekli, wdowy po Jędrzeju Ofiarze. Zgon zgłosił jej 48-letni syn, Jakub. Rodzina ta stanowi prawdopodobnie boczną gałąź rodu Ofiara, spokrewnioną z linią Konstantego.",
+    "description_en": "Jedlińsk Parish, record no. 30, 1865. The document concerns 80-year-old Tekla, widow of Jędrzej Ofiara. The death was reported by her 48-year-old son, Jakub. This family likely represents a collateral branch of the Ofiara family, related to Konstanty's line.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się w mieście Jedlińsku, dnia dwudziestego siódmego Sierpnia, tysiąc osmset sześćdziesiątego piątego roku, o godzinie dziesiątej rano. Stawili się Jakób Ofiara syn zmarłej, lat czterdzieści ośm maiący, włościanin gospodarz, i Jan Kłochowski kościelny lat pięćdziesiąt maiący, obydwa z Jedlanki zamieszkali, i oświadczyli, iż w dniu dwudziestym szóstym Sierpnia bieżącego roku, o godzinie szóstej rano, umarła we wsi Jedlance Tekla z Ichnowskich Ofiarowa, wdowa po zmarłym mężu niegdyś Jędrzeju Ofiarze, włościanka, córka zmarłych... małżonków Ichnowskich, urodzona we wsi Jedlance, lat ośmdziesiąt maiąca, zostawiwszy syna Jakóba. Po przekonaniu się naocznie o zejściu Tekli Ofiarowej, Akt ten Stawającym pisać nieumiejącym przeczytany, przez Nas tylko podpisany został. X. Jan Kłochowski Proboszcz Jedliński utrzymujący akta Stanu Cywilnego.",
+    "translation_pl": "Działo się w mieście Jedlińsku, dnia dwudziestego siódmego sierpnia, tysiąc osiemset sześćdziesiątego piątego roku, o godzinie dziesiątej rano. Stawili się Jakub Ofiara, syn zmarłej, lat czterdzieści osiem, włościanin gospodarz, i Jan Kłochowski, kościelny, lat pięćdziesiąt, obaj z Jedlanki zamieszkali, i oświadczyli, iż w dniu dwudziestym szóstym sierpnia bieżącego roku, o godzinie szóstej rano, umarła we wsi Jedlanka Tekla z Ichnowskich Ofiarowa, wdowa po zmarłym mężu niegdyś Jędrzeju Ofiarze, włościanka, córka zmarłych... małżonków Ichnowskich, urodzona we wsi Jedlance, lat osiemdziesiąt, zostawiwszy syna Jakuba. Po naocznym przekonaniu się o zejściu Tekli Ofiarowej, Akt ten stawiającym, pisać nieumiejącym, przeczytany, przez nas tylko podpisany został. Ks. Jan Kłochowski, Proboszcz Jedliński, utrzymujący akta Stanu Cywilnego.",
+    "translation_en": "It happened in the town of Jedlińsk, on the twenty-seventh of August, one thousand eight hundred and sixty-five, at ten o'clock in the morning. Appeared Jakub Ofiara, son of the deceased, forty-eight years old, a peasant farmer, and Jan Kłochowski, churchman, fifty years old, both residing in Jedlanka, and they declared that on the twenty-sixth of August of the current year, at six o'clock in the morning, died in the village of Jedlanka Tekla née Ichnowska Ofiarowa, widow of the late husband Jędrzej Ofiara, a peasant woman, daughter of the deceased... spouses Ichnowski, born in the village of Jedlanka, aged eighty years, leaving behind her son Jakub. After visually confirming the passing of Tekla Ofiarowa, this Act was read to the declarants, who are unable to write, and was signed only by Us. Fr. Jan Kłochowski, Jedlińsk Pastor, Keeper of the Civil Registry.",
+    "extracted_data": [
+      {
+        "label_pl": "Zmarła",
+        "label_en": "Deceased",
+        "value_pl": "Tekla Ofiara (z d. Ichnowska)",
+        "value_en": "Tekla Ofiara (née Ichnowska)"
+      },
+      {
+        "label_pl": "Data zgonu",
+        "label_en": "Date of Death",
+        "value_pl": "26 sierpnia 1865",
+        "value_en": "August 26, 1865"
+      },
+      {
+        "label_pl": "Godzina zgonu",
+        "label_en": "Time of Death",
+        "value_pl": "6:00 rano",
+        "value_en": "6:00 AM"
+      },
+      {
+        "label_pl": "Wiek w chwili zgonu",
+        "label_en": "Age at Death",
+        "value_pl": "80 lat",
+        "value_en": "80 years"
+      },
+      {
+        "label_pl": "Mąż (zmarły)",
+        "label_en": "Husband (deceased)",
+        "value_pl": "Jędrzej Ofiara",
+        "value_en": "Jędrzej Ofiara"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title_pl": "Akt Zgonu: Julianna Ofiara (1868)",
+    "title_en": "Death Record: Julianna Ofiara (1868)",
+    "type": "death_record",
+    "description_pl": "Parafia Jedlińsk, akt nr 26, 1868 r. Dokument potwierdza zgon rocznej Julianny. Jako ojca błędnie wpisano Jana, zamiast Jakuba, co jest kolejnym przykładem pomyłki kancelaryjnej w tej rodzinie.",
+    "description_en": "Jedlińsk Parish, record no. 26, 1868. The document confirms the death of one-year-old Julianna. Her father was mistakenly recorded as Jan instead of Jakub, which is another example of a clerical error in this family's records.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się w mieście Jedlińsku dnia dwudziestego siódmego Sierpnia, tysiąc osmset sześćdziesiątego ósmego roku o godzinie ósmej rano. Stawili się Dominik Gumiński, lat czterdzieści ieden i Jan Kłochowski lat pięćdziesiąt trzy maiący, obydwa włościanie z Woli Gutowskiej; i oświadczyli Nam iż w Woli Gutowskiej dnia dwudziestego piątego Sierpnia bieżącego roku, o godzinie szóstej rano, umarła Julianna Ofiara, córka Jana i Maryanny z Wieczorków małżonków Ofiarów, włościanka, urodzona we wsi Woli Gutowskiej, rok ieden maiąca. Po przekonaniu się naocznie o zejściu Julianny Ofiary, Akt ten Stawającym pisać nieumiejącym przeczytany, przez Nas tylko podpisany został. X. Jan Kłochowski Proboszcz i Urzędnik Stanu Cywilnego Parafii Jedlińsko.",
+    "translation_pl": "Działo się w mieście Jedlińsku dnia dwudziestego siódmego sierpnia tysiąc osiemset sześćdziesiątego ósmego roku o godzinie ósmej rano. Stawili się Dominik Gumiński, lat czterdzieści jeden, i Jan Kłochowski, lat pięćdziesiąt trzy, obaj włościanie z Woli Gutowskiej; i oświadczyli nam, iż w Woli Gutowskiej dnia dwudziestego piątego sierpnia bieżącego roku o godzinie szóstej rano zmarła Julianna Ofiara, córka Jana i Marianny z Wieczorków, małżonków Ofiarów, włościanka, urodzona we wsi Woli Gutowskiej, mająca jeden rok. Po naocznym przekonaniu się o zejściu Julianny Ofiary, Akt ten stawiającym, pisać nieumiejącym, przeczytany, przez nas tylko podpisany został. Ks. Jan Kłochowski, Proboszcz i Urzędnik Stanu Cywilnego Parafii Jedlińsko.",
+    "translation_en": "It happened in the town of Jedlińsk on the twenty-seventh of August, one thousand eight hundred and sixty-eight, at eight o'clock in the morning. Appeared Dominik Gumiński, forty-one years old, and Jan Kłochowski, fifty-three years old, both peasants from Wola Gutowska; and they declared to us that in Wola Gutowska on the twenty-fifth of August of the current year, at six o'clock in the morning, died Julianna Ofiara, daughter of Jan and Marianna née Wieczorek, spouses Ofiara, a peasant woman, born in the village of Wola Gutowska, aged one year. After visually confirming the passing of Julianna Ofiara, this Act was read to the declarants, who are unable to write, and was signed only by Us. Fr. Jan Kłochowski, Pastor and Civil Registrar of the Jedlińsko Parish.",
+    "extracted_data": [
+      {
+        "label_pl": "Zmarła",
+        "label_en": "Deceased",
+        "value_pl": "Julianna Ofiara",
+        "value_en": "Julianna Ofiara"
+      },
+      {
+        "label_pl": "Data zgonu",
+        "label_en": "Date of Death",
+        "value_pl": "25 sierpnia 1868",
+        "value_en": "August 25, 1868"
+      },
+      {
+        "label_pl": "Godzina zgonu",
+        "label_en": "Time of Death",
+        "value_pl": "6:00 rano",
+        "value_en": "6:00 AM"
+      },
+      {
+        "label_pl": "Wiek w chwili zgonu",
+        "label_en": "Age at Death",
+        "value_pl": "1 rok",
+        "value_en": "1 year"
+      },
+      {
+        "label_pl": "Rodzice",
+        "label_en": "Parents",
+        "value_pl": "Jan (Jakub) Ofiara i Marianna z Wieczorków",
+        "value_en": "Jan (Jakub) Ofiara and Marianna née Wieczorek"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title_pl": "Akt Zgonu: Katarzyna Ofiara (1870)",
+    "title_en": "Death Record: Katarzyna Ofiara (1870)",
+    "type": "death_record",
+    "description_pl": "Parafia Jedlińsk, akt nr 26, 1870 r. Dokument potwierdza zgon 12-letniej Katarzyny, córki Jakuba i Marianny z Wieczorków.",
+    "description_en": "Jedlińsk Parish, record no. 26, 1870. The document confirms the death of 12-year-old Katarzyna, daughter of Jakub and Marianna née Wieczorek.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się w mieście Jedlińsku dnia dwudziestego siódmego Sierpnia, tysiąc osmset siedmdziesiątego roku o godzinie ósmej rano. Stawili się Jakób Ofiara, ojciec zmarłej lat czterdzieści dziewięć maiący i Jan Kłochowski lat pięćdziesiąt pięć maiący, włościanin gospodarz z Wsi Woli Gutowskiej, i oświadczyli Nam iż w Woli Gutowskiej dnia dwudziestym piątym Sierpnia bieżącego roku, o godzinie ósmej rano, umarła Katarzyna Ofiara, córka wspomnianego Jakóba i Magdaleny z Wieczorków małżonków Ofiarów, włościanka, urodzona we wsi Woli Gutowskiej, lat dwanaście maiąca. Po przekonaniu się naocznie o zejściu Katarzyny Ofiary, Akt ten Stawającym pisać nieumiejącym przeczytany, przez Nas tylko podpisany został. X. Jan Kłochowski Proboszcz i Urzędnik Stanu Cywilnego Parafii Jedlińsko.",
+    "translation_pl": "Działo się w mieście Jedlińsku dnia dwudziestego siódmego sierpnia tysiąc osiemset siedemdziesiątego roku o godzinie ósmej rano. Stawili się Jakub Ofiara, ojciec zmarłej, lat czterdzieści dziewięć, i Jan Kłochowski, lat pięćdziesiąt pięć, włościanin gospodarz z Wsi Wola Gutowska; i oświadczyli nam, iż w Woli Gutowskiej dnia dwudziestego piątego sierpnia bieżącego roku o godzinie ósmej rano zmarła we wsi Wola Gutowska Katarzyna Ofiara, córka wspomnianego Jakuba i Magdaleny z Wieczorków, małżonków Ofiarów, włościanka, urodzona we wsi Wola Gutowska, lat dwanaście. Po naocznym przekonaniu się o zejściu Katarzyny Ofiary, Akt ten stawiającym, pisać nieumiejącym, przeczytany, przez nas tylko podpisany został. Ks. Jan Kłochowski, Proboszcz i Urzędnik Stanu Cywilnego Parafii Jedlińsko.",
+    "translation_en": "It happened in the town of Jedlińsk on the twenty-seventh of August, one thousand eight hundred and seventy, at eight o'clock in the morning. Appeared Jakub Ofiara, father of the deceased, forty-nine years old, and Jan Kłochowski, fifty-five years old, a peasant farmer from the Village of Wola Gutowska; and they declared that on the twenty-fifth of August of the current year, at eight o'clock in the morning, died in the village of Wola Gutowska Katarzyna Ofiara, daughter of the aforementioned Jakub and Magdalena née Wieczorek, spouses Ofiara, a peasant woman, born in the village of Wola Gutowska, aged twelve years. After visually confirming the passing of Katarzyna Ofiara, this Act was read to the declarants, who are unable to write, and was signed only by Us. Fr. Jan Kłochowski, Pastor and Civil Registrar of the Jedlińsko Parish.",
+    "extracted_data": [
+      {
+        "label_pl": "Zmarła",
+        "label_en": "Deceased",
+        "value_pl": "Katarzyna Ofiara"
+      },
+      {
+        "label_pl": "Data zgonu",
+        "label_en": "Date of Death",
+        "value_pl": "25 sierpnia 1870"
+      },
+      {
+        "label_pl": "Godzina zgonu",
+        "label_en": "Time of Death",
+        "value_pl": "8:00 rano"
+      },
+      {
+        "label_pl": "Wiek w chwili zgonu",
+        "label_en": "Age at Death",
+        "value_pl": "12 lat"
+      },
+      {
+        "label_pl": "Rodzice",
+        "label_en": "Parents",
+        "value_pl": "Jakub Ofiara i Magdalena (Marianna) z Wieczorków"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title_pl": "Akt Zgonu: Stanisław Ofiara (1871)",
+    "title_en": "Death Record: Stanisław Ofiara (1871)",
+    "type": "death_record",
+    "description_pl": "Parafia Jedlińsk, akt nr 18, 1871 r. Dokument potwierdza zgon rocznego Stanisława, syna Wojciecha i Franciszki z Puzianowskich.",
+    "description_en": "Jedlińsk Parish, record no. 18, 1871. The document confirms the death of one-year-old Stanisław, son of Wojciech and Franciszka née Puzianowska.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Состоялось въ Едлинскѣ, двадцатого Марта (перваго Апрѣля) тысяча восемьсотъ семьдесятъ перваго года, въ восемь часовъ утра. Явились Войцехъ Офяра, отецъ умершаго, сорока шести лѣтъ, и Павелъ Кубикъ, пятидесяти одного года отъ роду, оба земледѣльцы изъ Гутовской Воли, и объявили, что вчерашняго дня по полудни, умеръ въ Гутовской Волѣ Станиславъ Офяра, одного года отъ роду, сынъ Войцеха и Францишки изъ Пузяновскихъ, законныхъ супруговъ Офяровъ, родившійся въ Гутовской Волѣ. По наочномъ удостовѣреніи о кончинѣ Станислава Офяры, актъ сей неграмотнымъ прочитанъ, и Нами только подписанъ. Кс. Іоаннъ Кержковскій.",
+    "translation_pl": "Działo się w Jedlińsku, dwudziestego marca (pierwszego kwietnia) tysiąc osiemset siedemdziesiątego pierwszego roku, o godzinie ósmej rano. Stawili się Wojciech Ofiara, ojciec zmarłego, lat czterdzieści sześć, i Paweł Kubik, lat pięćdziesiąt jeden, obaj rolnicy z Woli Gutowskiej, i oświadczyli, że wczorajszego dnia po południu zmarł w Woli Gutowskiej Stanisław Ofiara, mający jeden rok, syn Wojciecha i Franciszki z Puzianowskich, prawnych małżonków Ofiarów, urodzony w Woli Gutowskiej. Po naocznym stwierdzeniu zgonu Stanisława Ofiary, akt ten niepiśmiennym przeczytano i tylko przez nas podpisano. Ks. Jan Kierzkowski.",
+    "translation_en": "It happened in Jedlińsk, on the twentieth of March (first of April), eighteen hundred and seventy-one, at eight o'clock in the morning. Appeared Wojciech Ofiara, father of the deceased, forty-six years old, and Paweł Kubik, fifty-one years old, both farmers from Wola Gutowska, and they declared that yesterday in the afternoon, Stanisław Ofiara passed away in Wola Gutowska, aged one year, son of Wojciech and Franciszka née Puzianowska, the lawful spouses Ofiara, born in Wola Gutowska. After visually confirming the death of Stanisław Ofiara, this act was read to the illiterate persons present and was signed only by us. Fr. Jan Kierzkowski.",
+    "extracted_data": [
+      {
+        "label_pl": "Zmarły",
+        "label_en": "Deceased",
+        "value_pl": "Stanisław Ofiara"
+      },
+      {
+        "label_pl": "Data zgonu",
+        "label_en": "Date of Death",
+        "value_pl": "31 marca 1871",
+        "value_en": "March 31, 1871"
+      },
+      {
+        "label_pl": "Wiek w chwili zgonu",
+        "label_en": "Age at Death",
+        "value_pl": "1 rok",
+        "value_en": "1 year"
+      },
+      {
+        "label_pl": "Rodzice",
+        "label_en": "Parents",
+        "value_pl": "Wojciech Ofiara i Franciszka z Puzianowskich"
+      }
+    ]
+  },
+  {
     "id": 27,
     "title_pl": "Akt Ślubu: Paweł Gierczak i Katarzyna Czerwińska (1887)",
     "title_en": "Marriage Record: Paweł Gierczak & Katarzyna Czerwińska (1887)",
@@ -833,6 +1084,44 @@
         "label_en": "Spouse",
         "value_pl": "Franciszek Kornafel",
         "value_en": "Franciszek Kornafel"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "title_pl": "Akt Zgonu: Roch Ofiara (1855)",
+    "title_en": "Death Record: Roch Ofiara (1855)",
+    "type": "death_record",
+    "description_pl": "Parafia Jedlińsk, akt nr 65, 1855 r. Zgon dwuletniego Rocha, syna Stefana i Marianny z d. Strączek. W akcie omyłkowo zapisano imię ojca jako Roch (zamiast Stefan).",
+    "description_en": "Jedlińsk Parish, record no. 65, 1855. Death of two-year-old Roch, son of Stefan and Marianna née Strączek. The father's name was mistakenly recorded as Roch (instead of Stefan).",
+    "imageUrl": "/images/k.avif",
+    "transcription": "N= 65. Ofiara Roch. Wola Gutowska Wieś. Działo się w mieście Jedlińsku, dnia osmnastego Sierpnia, tysiąc osmset pięćdziesiątego piątego roku, o godzinie dziewiątej rano. Stawili się Roch Ofiara ojciec umarłego, lat pięćdziesiąt, i Wincenty Ofiara, lat dwadzieścia dziewięć liczący, włościanie gospodarze z Woli Gutowskiej; i oświadczyli nam iż w tejże wsi dnia trzynastego Sierpnia bieżącego roku, po południu umarł Roch Ofiara, syn wspomnianego Rocha i Maryanny ze Strączków małżonków Ofiarów, włościanin, dwa lat liczący. Po przekonaniu się naocznie o zejściu Rocha Ofiary, Akt ten stawającym przeczytany, a że pisać nieumieją, przez Nas tylko podpisany został. X. Jan Kłochowski Proboszcz i Urzędnik Stanu Cywilnego Parafii Jedlińsko.",
+    "translation_pl": "Nr 65. Ofiara Roch. Wieś Wola Gutowska. Działo się w mieście Jedlińsku, dnia osiemnastego sierpnia tysiąc osiemset pięćdziesiątego piątego roku, o godzinie dziewiątej rano. Stawili się Roch Ofiara, ojciec umarłego, lat pięćdziesiąt, i Wincenty Ofiara, lat dwadzieścia dziewięć, włościanie gospodarze z Woli Gutowskiej; i oświadczyli nam, iż w tejże wsi dnia trzynastego sierpnia bieżącego roku, po południu umarł Roch Ofiara, syn wspomnianego Rocha i Marianny ze Strączków małżonków Ofiarów, włościanin, liczący dwa lata. Po naocznym przekonaniu się o zejściu Rocha Ofiary, Akt ten stawiającym przeczytany, a że pisać nie umieją, przez Nas tylko podpisany został. Ks. Jan Kłochowski Proboszcz i Urzędnik Stanu Cywilnego Parafii Jedlińsko.",
+    "translation_en": "No. 65. Ofiara Roch. Wola Gutowska Village. It happened in the town of Jedlińsk on the eighteenth of August, one thousand eight hundred and fifty-five, at nine o'clock in the morning. Appeared Roch Ofiara, father of the deceased, aged fifty, and Wincenty Ofiara, aged twenty-nine, peasant farmers from Wola Gutowska; and they declared to us that in the same village on the thirteenth of August of the current year, in the afternoon, died Roch Ofiara, son of the aforementioned Roch and Marianna née Strączek, spouses Ofiara, a peasant, aged two years. After visually confirming the passing of Roch Ofiara, this act was read to the declarants, and as they cannot write, it was signed only by Us. Fr. Jan Kłochowski, Pastor and Civil Registrar of the Jedlińsko Parish.",
+    "extracted_data": [
+      {
+        "label_pl": "Zmarły",
+        "label_en": "Deceased",
+        "value_pl": "Roch Ofiara",
+        "value_en": "Roch Ofiara"
+      },
+      {
+        "label_pl": "Data zgonu",
+        "label_en": "Date of Death",
+        "value_pl": "13 sierpnia 1855",
+        "value_en": "August 13, 1855"
+      },
+      {
+        "label_pl": "Wiek w chwili zgonu",
+        "label_en": "Age at Death",
+        "value_pl": "2 lata",
+        "value_en": "2 years"
+      },
+      {
+        "label_pl": "Rodzice",
+        "label_en": "Parents",
+        "value_pl": "Roch (Stefan) Ofiara i Marianna ze Strączków",
+        "value_en": "Roch (Stefan) Ofiara and Marianna née Strączek"
       }
     ]
   },
@@ -4578,6 +4867,252 @@
         "label_en": "Parents",
         "value_pl": "Wincenty Ofiara i Franciszka z Walczaków",
         "value_en": "Wincenty Ofiara and Franciszka née Walczak"
+      }
+    ]
+  },
+  {
+    "id": 293,
+    "title_pl": "Akt Zgonu: Rozalia Ofiara (1858)",
+    "title_en": "Death Record: Rozalia Ofiara (1858)",
+    "type": "death_record",
+    "description_pl": "Parafia Jedlińsk, akt nr 28, 1858 r. Zgon siedmioletniej Rozalii, córki Wincentego i Franciszki z Walczaków.",
+    "description_en": "Jedlińsk Parish, record no. 28, 1858. Death of seven-year-old Rozalia, daughter of Wincenty and Franciszka née Walczak.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "N= 28. Ofiara Rozalia. Wola Gutowska Wieś. Działo się w mieście Jedlińsku Dnia trzynastego Sierpnia, tysiąc osmset pięćdziesiątego osmego roku, o godzinie dziesiątej rano. Stawił się Wincenty Ofiara, ojciec zmarłej, lat trzydzieści trzy, i Jakób Ofiara lat dwadzieścia sześć maiący, włościanie gospodarze z Woli Gutowskiej, i oświadczyli iż w tejże wsi dnia trzynastego Sierpnia bieżącego roku, o godzinie dziewiątej rano umarła Rozalia Ofiara, córka wspomnianego Wincentego i Franciszki z Walczaków małżonków Ofiarów, włościanka, siedm lat życia licząca. Po naocznym przekonaniu się o zejściu Rozalii Ofiarowy, Akt ten stawającym przeczytany, a że pisać nie umieją, przez Nas tylko podpisany został. X. Jan Kłochowski Proboszcz i Urzędnik Stanu Cywilnego Parafii Jedlińsko.",
+    "translation_pl": "Nr 28. Ofiara Rozalia. Wieś Wola Gutowska. Działo się w mieście Jedlińsku dnia trzynastego sierpnia tysiąc osiemset pięćdziesiątego ósmego roku, o godzinie dziesiątej rano. Stawił się Wincenty Ofiara, ojciec zmarłej, lat trzydzieści trzy, i Jakub Ofiara, lat dwadzieścia sześć, włościanie gospodarze z Woli Gutowskiej, i oświadczyli, iż w tejże wsi dnia trzynastego sierpnia bieżącego roku o godzinie dziewiątej rano zmarła Rozalia Ofiara, córka wspomnianego Wincentego i Franciszki z Walczaków małżonków Ofiarów, włościanka, licząca siedem lat życia. Po naocznym przekonaniu się o zejściu Rozalii Ofiarowej, Akt ten stawiającym przeczytany, a że pisać nie umieją, przez Nas tylko podpisany został. Ks. Jan Kłochowski Proboszcz i Urzędnik Stanu Cywilnego Parafii Jedlińsko.",
+    "translation_en": "No. 28. Ofiara Rozalia. Wola Gutowska Village. It happened in the town of Jedlińsk on the thirteenth of August, one thousand eight hundred and fifty-eight, at ten o'clock in the morning. Appeared Wincenty Ofiara, father of the deceased, aged thirty-three, and Jakub Ofiara, aged twenty-six, peasant farmers from Wola Gutowska, and they declared that in the same village on the thirteenth of August of the current year, at nine o'clock in the morning, died Rozalia Ofiara, daughter of the aforementioned Wincenty and Franciszka née Walczak, spouses Ofiara, a peasant woman, aged seven years. After visually confirming the passing of Rozalia Ofiarowa, this act was read to the declarants, and as they cannot write, it was signed only by Us. Fr. Jan Kłochowski, Pastor and Civil Registrar of the Jedlińsko Parish.",
+    "extracted_data": [
+      {
+        "label_pl": "Zmarła",
+        "label_en": "Deceased",
+        "value_pl": "Rozalia Ofiara",
+        "value_en": "Rozalia Ofiara"
+      },
+      {
+        "label_pl": "Data zgonu",
+        "label_en": "Date of Death",
+        "value_pl": "13 sierpnia 1858",
+        "value_en": "August 13, 1858"
+      },
+      {
+        "label_pl": "Wiek w chwili zgonu",
+        "label_en": "Age at Death",
+        "value_pl": "7 lat",
+        "value_en": "7 years"
+      },
+      {
+        "label_pl": "Rodzice",
+        "label_en": "Parents",
+        "value_pl": "Wincenty Ofiara i Franciszka z Walczaków",
+        "value_en": "Wincenty Ofiara and Franciszka née Walczak"
+      }
+    ]
+  },
+  {
+    "id": 294,
+    "title_pl": "Akt Zgonu: Jędrzej Ofiara (1860)",
+    "title_en": "Death Record: Jędrzej Ofiara (1860)",
+    "type": "death_record",
+    "description_pl": "Parafia Jedlińsk, akt nr 3, 1860 r. Zgon dwumiesięcznego Jędrzeja, syna Jakuba i Apolonii (błędny zapis, powinno być Marianny) z Wieczorków.",
+    "description_en": "Jedlińsk Parish, record no. 3, 1860. Death of two-month-old Jędrzej, son of Jakub and Apolonia (incorrect record, should be Marianna) née Wieczorek.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "N= 3. Ofiara Jędrzej - Działo się w mieście Jedlińsku, dnia dwudziestego Stycznia, tysiąc osmset sześćdziesiątego roku, o godzinie dziewiątej rano. Stawili się Jakób Ofiara, ojciec zmarłego, lat czterdzieści maiący, włościanin gospodarz z Wsi Woli Gutowskiej, i Jan Cichopek lat dwadzieścia siedm maiący, włościanin z Wsi Woli Gutowskiej; i oświadczyli, iż w dniu ośmnastym Stycznia bieżącego roku, o godzinie pierwszej w nocy, umarł we wsi Woli Gutowskiej Jędrzej Ofiara, syn wspomnianego Jakóba i Apolonii z Wieczorków małżonków Ofiarów, włościanin, urodzony we wsi Woli Gutowskiej, dwa miesiące życia liczący. Po przekonaniu się naocznie o zejściu Jędrzeja Ofiary, Akt ten Stawającym pisać nieumiejącym przeczytany, przez Nas tylko podpisany został. - X. Jan Kłochowski Proboszcz i Urzędnik Stanu Cywilnego Parafii Jedlińsko.",
+    "translation_pl": "Nr 3. Ofiara Jędrzej - Działo się w mieście Jedlińsku, dnia dwudziestego stycznia, tysiąc osiemset sześćdziesiątego roku, o godzinie dziewiątej rano. Stawili się Jakub Ofiara, ojciec zmarłego, lat czterdzieści, włościanin gospodarz ze Wsi Wola Gutowska, i Jan Cichopek, lat dwadzieścia siedem, włościanin ze Wsi Wola Gutowska; i oświadczyli, iż w dniu osiemnastym stycznia bieżącego roku, o godzinie pierwszej w nocy, umarł we wsi Woli Gutowskiej Jędrzej Ofiara, syn wspomnianego Jakuba i Apolonii z Wieczorków małżonków Ofiarów, włościanin, urodzony we wsi Woli Gutowskiej, liczący dwa miesiące życia. Po naocznym przekonaniu się o zejściu Jędrzeja Ofiary, Akt ten Stawiającym, pisać nieumiejącym, przeczytany, przez Nas tylko podpisany został. - Ks. Jan Kłochowski Proboszcz i Urzędnik Stanu Cywilnego Parafii Jedlińsko.",
+    "translation_en": "No. 3. Ofiara Jędrzej - It happened in the town of Jedlińsk, on the twentieth of January, one thousand eight hundred and sixty, at nine o'clock in the morning. Appeared Jakub Ofiara, father of the deceased, aged forty, a peasant farmer from the Village of Wola Gutowska, and Jan Cichopek, aged twenty-seven, a peasant from the Village of Wola Gutowska; and they declared that on the eighteenth day of January of the current year, at one o'clock at night, died in the village of Wola Gutowska Jędrzej Ofiara, son of the aforementioned Jakub and Apolonia née Wieczorek, spouses Ofiara, a peasant, born in the village of Wola Gutowska, aged two months of life. After visually confirming the passing of Jędrzej Ofiara, this Act was read to the declarants, who are unable to write, and was signed only by Us. - Fr. Jan Kłochowski, Pastor and Civil Registrar of the Jedlińsko Parish.",
+    "extracted_data": [
+      {
+        "label_pl": "Zmarły",
+        "label_en": "Deceased",
+        "value_pl": "Jędrzej Ofiara",
+        "value_en": "Jędrzej Ofiara"
+      },
+      {
+        "label_pl": "Data zgonu",
+        "label_en": "Date of Death",
+        "value_pl": "18 stycznia 1860",
+        "value_en": "January 18, 1860"
+      },
+      {
+        "label_pl": "Wiek w chwili zgonu",
+        "label_en": "Age at Death",
+        "value_pl": "2 miesiące",
+        "value_en": "2 months"
+      },
+      {
+        "label_pl": "Rodzice",
+        "label_en": "Parents",
+        "value_pl": "Jakub Ofiara i Apolonia z Wieczorków",
+        "value_en": "Jakub Ofiara and Apolonia née Wieczorek"
+      }
+    ]
+  },
+  {
+    "id": 295,
+    "title_pl": "Akt Zgonu: Wincenty Ofiara (1862)",
+    "title_en": "Death Record: Wincenty Ofiara (1862)",
+    "type": "death_record",
+    "description_pl": "Parafia Jedlińsk, akt nr 27, 1862 r. Zgon Wincentego, syna Szczepana i Małgorzaty z Kowalczyków, w wieku 33 lat.",
+    "description_en": "Jedlińsk Parish, record no. 27, 1862. Death of Wincenty, son of Szczepan and Małgorzata née Kowalczyk, at the age of 33.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "N= 27. Ofiara Wincenty. Wola Gutowska Wieś. Działo się w mieście Jedlińsku dnia drugiego Września, tysiąc osmset sześćdziesiątego drugiego roku o godzinie ósmej rano. Stawili się Jan Cichosz lat pięćdziesiąt dziewięć maiący, włościanin gospodarz z Woli Gutowskiej, i Franciszek Sumiński, lat czterdzieści ośm maiący, włościanin gospodarz z Woli Gutowskiej, i oświadczyli iż w dniu trzydziestym pierwszym Sierpnia bieżącego roku, o godzinie jedenastej rano, umarł we wsi Woli Gutowskiej Wincenty Ofiara, włościanin parobek, syn Szczepana i Małgorzaty z Kowalczyków małżonków Ofiarów, włościan, urodzony we wsi Woli Gutowskiej, lat trzydzieści trzy maiący, zostawiwszy owdowiałą żonę Franciszkę z Walczaków. Po przekonaniu się naocznie o zejściu Wincentego Ofiary, Akt ten Stawającym przeczytany, a że pisać nieumieją, przez Nas tylko podpisany został. X. Jan Kłochowski Proboszcz i Urzędnik Stanu Cywilnego.",
+    "translation_pl": "Nr 27. Ofiara Wincenty. Wieś Wola Gutowska. Działo się w mieście Jedlińsku dnia drugiego września, tysiąc osiemset sześćdziesiątego drugiego roku o godzinie ósmej rano. Stawili się Jan Cichosz, lat pięćdziesiąt dziewięć, włościanin gospodarz z Woli Gutowskiej, i Franciszek Sumiński, lat czterdzieści osiem, włościanin gospodarz z Woli Gutowskiej, i oświadczyli, iż w dniu trzydziestym pierwszym sierpnia bieżącego roku, o godzinie jedenastej rano, umarł we wsi Woli Gutowskiej Wincenty Ofiara, włościanin parobek, syn Szczepana i Małgorzaty z Kowalczyków małżonków Ofiarów, włościanin, urodzony we wsi Woli Gutowskiej, lat trzydzieści trzy, zostawiwszy owdowiałą żonę Franciszkę z Walczaków. Po naocznym przekonaniu się o zejściu Wincentego Ofiary, Akt ten Stawiającym przeczytany, a że pisać nie umieją, przez Nas tylko podpisany został. X. Jan Kłochowski Proboszcz i Urzędnik Stanu Cywilnego.",
+    "translation_en": "No. 27. Ofiara Wincenty. Wola Gutowska Village. It happened in the town of Jedlińsk on the second of September, one thousand eight hundred and sixty-two, at eight o'clock in the morning. Appeared Jan Cichosz, aged fifty-nine, a peasant farmer from Wola Gutowska, and Franciszek Sumiński, aged forty-eight, a peasant farmer from Wola Gutowska, and they declared that on the thirty-first of August of the current year, at eleven o'clock in the morning, died in the village of Wola Gutowska Wincenty Ofiara, a peasant farmhand, son of Szczepan and Małgorzata née Kowalczyk, spouses Ofiara, a peasant, born in the village of Wola Gutowska, aged thirty-three, leaving his widowed wife Franciszka née Walczak. After visually confirming the passing of Wincenty Ofiara, this Act was read to the declarants, and as they cannot write, it was signed only by Us. Fr. Jan Kłochowski, Pastor and Civil Registrar.",
+    "extracted_data": [
+      {
+        "label_pl": "Zmarły",
+        "label_en": "Deceased",
+        "value_pl": "Wincenty Ofiara",
+        "value_en": "Wincenty Ofiara"
+      },
+      {
+        "label_pl": "Data zgonu",
+        "label_en": "Date of Death",
+        "value_pl": "31 sierpnia 1862",
+        "value_en": "August 31, 1862"
+      },
+      {
+        "label_pl": "Wiek w chwili zgonu",
+        "label_en": "Age at Death",
+        "value_pl": "33 lata",
+        "value_en": "33 years"
+      },
+      {
+        "label_pl": "Rodzice",
+        "label_en": "Parents",
+        "value_pl": "Szczepan Ofiara i Małgorzata z Kowalczyków",
+        "value_en": "Szczepan Ofiara and Małgorzata née Kowalczyk"
+      },
+      {
+        "label_pl": "Małżonka",
+        "label_en": "Spouse",
+        "value_pl": "Franciszka z Walczaków",
+        "value_en": "Franciszka née Walczak"
+      }
+    ]
+  },
+  {
+    "id": 296,
+    "title_pl": "Akt Zgonu: Zofia Ofiara (1872)",
+    "title_en": "Death Record: Zofia Ofiara (1872)",
+    "type": "death_record",
+    "description_pl": "Parafia Jedlińsk, akt nr 4, 1872 r. Dokument potwierdza zgon 9-letniej Zofii, córki Jakuba i Marianny z Wieczorków.",
+    "description_en": "Jedlińsk Parish, record no. 4, 1872. The document confirms the death of 9-year-old Zofia, daughter of Jakub and Marianna née Wieczorek.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Состоялось въ Едлинскѣ, седьмаго (девятнадцатаго) Января тысяча восемьсотъ семьдесятъ второго года, въ одиннадцать часовъ утра. — Явились: Якобъ Офяра, отецъ умершей, сорока девяти, и Янъ Бонкъ, сорока четырехъ лѣтъ отъ роду, земледѣльцевъ въ Гутовской Волѣ; — и объявили, что вчерашняго числа, по полудни, умерла въ Гутовской Волѣ Зофія Офяра, девяти лѣтъ отъ роду, дочь Якоба и Маріанны изъ Вечорковъ, законныхъ супруговъ Офяровъ, родившаяся въ Гутовской Волѣ. — По наочномъ удостовѣреніи о кончинѣ Зофіи Офяры, актъ сей неграмотнымъ прочитанъ, и Нами только подписанъ. Кс. Іоаннъ Кержковскій.",
+    "translation_pl": "Działo się w Jedlińsku, siódmego (dziewiętnastego) stycznia tysiąc osiemset siedemdziesiątego drugiego roku, o godzinie jedenastej rano. — Stawili się: Jakub Ofiara, ojciec zmarłej, lat czterdzieści dziewięć, i Jan Bąk, lat czterdzieści cztery, rolnicy z Woli Gutowskiej; — i oświadczyli, że wczoraj, po południu, zmarła w Woli Gutowskiej Zofia Ofiara, lat dziewięć, córka Jakuba i Marianny z Wieczorków, prawnych małżonków Ofiarów, urodzona w Woli Gutowskiej. — Po naocznym stwierdzeniu zgonu Zofii Ofiary, akt ten niepiśmiennym przeczytano i tylko przez nas podpisano. Ks. Jan Kierzkowski.",
+    "translation_en": "It happened in Jedlińsk on the seventh (nineteenth) of January, eighteen hundred and seventy-two, at eleven o'clock in the morning. — Appeared: Jakub Ofiara, father of the deceased, forty-nine years old, and Jan Bąk, forty-four years old, farmers from Wola Gutowska; — and they declared that yesterday, in the afternoon, Zofia Ofiara passed away in Wola Gutowska, aged nine, daughter of Jakub and Marianna née Wieczorek, the lawful spouses Ofiara, born in Wola Gutowska. — After visually confirming the death of Zofia Ofiara, this act was read to the illiterate persons present and signed only by us. Fr. Jan Kierzkowski.",
+    "extracted_data": [
+      {
+        "label_pl": "Zmarła",
+        "label_en": "Deceased",
+        "value_pl": "Zofia Ofiara",
+        "value_en": "Zofia Ofiara"
+      },
+      {
+        "label_pl": "Data zgonu",
+        "label_en": "Date of Death",
+        "value_pl": "18 stycznia 1872",
+        "value_en": "January 18, 1872"
+      },
+      {
+        "label_pl": "Wiek w chwili zgonu",
+        "label_en": "Age at Death",
+        "value_pl": "9 lat",
+        "value_en": "9 years"
+      },
+      {
+        "label_pl": "Rodzice",
+        "label_en": "Parents",
+        "value_pl": "Jakub i Marianna z Wieczorków",
+        "value_en": "Jakub and Marianna née Wieczorek"
+      },
+      {
+        "label_pl": "Świadkowie",
+        "label_en": "Witnesses",
+        "value_pl": "Jakub Ofiara (ojciec, 49 lat), Jan Bąk (44 lata)",
+        "value_en": "Jakub Ofiara (father, 49 years), Jan Bąk (44 years)"
+      }
+    ]
+  },
+  {
+    "id": 297,
+    "title_pl": "Akt Zgonu: Agnieszka Ofiara (1874)",
+    "title_en": "Death Record: Agnieszka Ofiara (1874)",
+    "type": "death_record",
+    "description_pl": "Parafia Jedlińsk, akt nr 35, 1874 r. Dokument potwierdza zgon Agnieszki, córki Jakuba i Magdaleny (Marianny) z Wieczorków, w wieku niespełna dwóch lat.",
+    "description_en": "Jedlińsk Parish, record no. 35, 1874. The document confirms the death of Agnieszka, daughter of Jakub and Magdalena (Marianna) née Wieczorek, at the age of nearly two.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Состоялось въ Едлинскѣ, двадцати шестаго Мая (седьмаго Іюня) тысяча восемьсотъ семьдесятъ четвертаго года, по полудни. — Явились: Якобъ Офяра, отецъ умершей, сорока шести лѣтъ, и Янъ Офяра, пятидесяти четырехъ лѣтъ отъ роду, земледѣльцы въ Гутовской Волѣ; — и объявили, что вчерашняго числа, по полудни, умерла въ Гутовской Волѣ Агнешка Офяра, дочь Якоба и Магдалены изъ Вечорковъ, законныхъ супруговъ Офяровъ, родившаяся въ Гутовской Волѣ. — По наочномъ удостовѣреніи о кончинѣ Агнешки Офяры, актъ сей неграмотнымъ прочитанъ, и Нами только подписанъ. Кс. Іоаннъ Кержковскій.",
+    "translation_pl": "Działo się w Jedlińsku, dwudziestego szóstego maja (siódmego czerwca) tysiąc osiemset siedemdziesiątego czwartego roku, po południu. — Stawili się: Jakub Ofiara, ojciec zmarłej, lat czterdzieści sześć, i Jan Ofiara, lat pięćdziesiąt cztery, rolnicy z Woli Gutowskiej; — i oświadczyli, że wczoraj, po południu, zmarła w Woli Gutowskiej Agnieszka Ofiara, córka Jakuba i Magdaleny z Wieczorków, prawnych małżonków Ofiarów, urodzona w Woli Gutowskiej. — Po naocznym stwierdzeniu zgonu Agnieszki Ofiary, akt ten niepiśmiennym przeczytano i tylko przez nas podpisano. Ks. Jan Kierzkowski.",
+    "translation_en": "It happened in Jedlińsk on the twenty-sixth of May (seventh of June), eighteen hundred and seventy-four, in the afternoon. — Appeared: Jakub Ofiara, father of the deceased, forty-six years old, and Jan Ofiara, fifty-four years old, farmers from Wola Gutowska; — and they declared that yesterday, in the afternoon, Agnieszka Ofiara passed away in Wola Gutowska, daughter of Jakub and Magdalena née Wieczorek, the lawful spouses Ofiara, born in Wola Gutowska. — After visually confirming the death of Agnieszka Ofiara, this act was read to the illiterate persons present and signed only by us. Fr. Jan Kierzkowski.",
+    "extracted_data": [
+      {
+        "label_pl": "Zmarła",
+        "label_en": "Deceased",
+        "value_pl": "Agnieszka Ofiara",
+        "value_en": "Agnieszka Ofiara"
+      },
+      {
+        "label_pl": "Data zgonu",
+        "label_en": "Date of Death",
+        "value_pl": "6 czerwca 1874",
+        "value_en": "June 6, 1874"
+      },
+      {
+        "label_pl": "Rodzice",
+        "label_en": "Parents",
+        "value_pl": "Jakub i Magdalena z Wieczorków",
+        "value_en": "Jakub and Magdalena née Wieczorek"
+      },
+      {
+        "label_pl": "Świadkowie",
+        "label_en": "Witnesses",
+        "value_pl": "Jakub Ofiara (ojciec, 46 lat), Jan Ofiara (54 lata)",
+        "value_en": "Jakub Ofiara (father, 46 years), Jan Ofiara (54 years)"
+      }
+    ]
+  },
+  {
+    "id": 298,
+    "title_pl": "Akt Zgonu: Anna Ofiara (1880)",
+    "title_en": "Death Record: Anna Ofiara (1880)",
+    "type": "death_record",
+    "description_pl": "Parafia Jedlińsk, akt nr 41, 1880 r. Dokument potwierdza zgon dwudniowej Anny. Jako ojciec błędnie figuruje Józef zamiast Jakuba. Wiek zgłaszającego (47 lat) jest zgodny z wiekiem Jakuba Ofiary w 1880 r. Miejscowość zapisano jako 'Tymowska Wola'.",
+    "description_en": "Jedlińsk Parish, record no. 41, 1880. The document confirms the death of two-day-old Anna. The father is incorrectly listed as Józef instead of Jakub. The informant's age (47) matches Jakub Ofiara's age in 1880. The locality is recorded as 'Tymowska Wola'.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Состоялось въ Едлинскѣ, тринадцатаго (двадцать пятаго) Іюля тысяча восемьсотъ восьмидесятаго года, въ семь часовъ по полуночи. Явились: Іосифъ Офяра, отецъ умершей, сорока семи лѣтъ, и Іосифъ Мыдловскій, шестидесяти лѣтъ отъ роду, земледѣльцы въ Гутовской Волѣ; и объявили, что двѣнадцатаго (двадцать четвертаго) Іюля текущаго года, въ семь часовъ по полуночи, умерла въ Гутовской Волѣ Анна Офяра, дочь упомянутаго Іосифа и Маріанны изъ Вечорковъ, законныхъ супруговъ Офяровъ, двухъ дней отъ роду. По наочномъ удостовѣреніи о кончинѣ Анны Офяры, актъ сей неграмотнымъ прочитанъ, и Нами только подписанъ. Кс. Іоаннъ Кержковскій.",
+    "translation_pl": "Działo się w Jedlińsku, trzynastego (dwudziestego piątego) lipca tysiąc osiemset osiemdziesiątego roku, o godzinie siódmej po północy. Stawili się: Józef Ofiara, ojciec zmarłej, lat czterdzieści siedem, i Józef Mydłowski, lat sześćdziesiąt, rolnicy z Woli Gutowskiej; i oświadczyli, że dwunastego (dwudziestego czwartego) lipca bieżącego roku, o godzinie siódmej po północy, zmarła w Woli Gutowskiej Anna Ofiara, córka wspomnianego Józefa i Marianny z Wieczorków, prawnych małżonków Ofiarów, mająca dwa dni. Po naocznym stwierdzeniu zgonu Anny Ofiary, akt ten niepiśmiennym przeczytano i tylko przez nas podpisano. Ks. Jan Kierzkowski.",
+    "translation_en": "It happened in Jedlińsk on the thirteenth (twenty-fifth) of July, eighteen hundred and eighty, at seven o'clock past midnight. Appeared: Józef Ofiara, father of the deceased, forty-seven years old, and Józef Mydłowski, sixty years old, farmers from Wola Gutowska; and they declared that on the twelfth (twenty-fourth) of July of the current year, at seven o'clock past midnight, Anna Ofiara passed away in Wola Gutowska, daughter of the aforementioned Józef and Marianna née Wieczorek, the lawful spouses Ofiara, aged two days. After visually confirming the death of Anna Ofiara, this act was read to the illiterate persons present and signed only by us. Fr. Jan Kierzkowski.",
+    "extracted_data": [
+      {
+        "label_pl": "Zmarła",
+        "label_en": "Deceased",
+        "value_pl": "Anna Ofiara",
+        "value_en": "Anna Ofiara"
+      },
+      {
+        "label_pl": "Data zgonu",
+        "label_en": "Date of Death",
+        "value_pl": "24 lipca 1880",
+        "value_en": "July 24, 1880"
+      },
+      {
+        "label_pl": "Wiek w chwili zgonu",
+        "label_en": "Age at Death",
+        "value_pl": "2 dni",
+        "value_en": "2 days"
+      },
+      {
+        "label_pl": "Rodzice",
+        "label_en": "Parents",
+        "value_pl": "Józef (Jakub) i Marianna z Wieczorków",
+        "value_en": "Józef (Jakub) and Marianna née Wieczorek"
+      },
+      {
+        "label_pl": "Świadkowie",
+        "label_en": "Witnesses",
+        "value_pl": "Józef Ofiara (ojciec, 47 lat), Józef Mydłowski (60 lat)",
+        "value_en": "Józef Ofiara (father, 47 years), Józef Mydłowski (60 years)"
       }
     ]
   }
