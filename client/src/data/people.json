@@ -308,10 +308,10 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [129, 130],
+    "parentIds": [273, 274],
     "biography": {
-      "pl": "Córka Jakuba Ofiary i Marianny z d. Wieczorek. Zmarła w wieku jednego roku. W jej akcie zgonu ojciec został błędnie zapisany jako Jan.",
-      "en": "Daughter of Jakub Ofiara and Marianna née Wieczorek. She died at the age of one. In her death record, her father was mistakenly recorded as Jan."
+      "pl": "Córka Jana Ofiary i Marianny z d. Wieczorek. Zmarła w wieku jednego roku.",
+      "en": "Daughter of Jan Ofiara and Marianna née Wieczorek. She died at the age of one."
     },
     "events": [
       {
@@ -484,6 +484,32 @@
       "pl": "Żona Pawła. Rodzicami Katarzyny byli Mateusz i Marianna z domu Kieraga. Wyszła za mąż w wieku 19 lat.",
       "en": "Wife of Paweł. Katarzyna's parents were Mateusz and Marianna née Kieraga. She married at the age of 19."
     }
+  },
+  {
+    "id": 23,
+    "firstName": "Franciszka",
+    "lastName": "Ofiara",
+    "birthDateNote": "ok. 1873",
+    "deathDate": "1874-01-25",
+    "deathTime": "17:00",
+    "family": "ofiara",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [273, 274],
+    "biography": {
+      "pl": "Córka Jana i Marianny z Wieczorków. Zmarła w wieku jednego roku.",
+      "en": "Daughter of Jan and Marianna née Wieczorek. Died at the age of one."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1874-01-25",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 300
+        }
+      }
+    ]
   },
   {
     "id": 26,
@@ -2706,7 +2732,7 @@
     "deathTime": "15:00",
     "photoUrl": "/images/jakub.avif",
     "spouseIds": [130],
-    "childIds": [57, 131, 132, 210, 211, 214, 215, 216, 11],
+    "childIds": [57, 131, 132, 210, 211, 214, 215, 216, 298],
     "parentIds": [133, 134],
     "occupation": {
       "pl": "Gospodarz",
@@ -2722,8 +2748,8 @@
       }
     ],
     "biography": {
-      "pl": "Syn Szczepana i Małgorzaty z d. Kowalczyk. Mąż Marianny Wieczorek. Ojciec Andrzeja, Zofii, Agnieszki, Józefy, Katarzyny, Jędrzeja, Bartłomieja i Józefa. Mieszkał z rodziną w Woli Gutowskiej k. Jedlińska. Zmarł w wieku 86 lat.",
-      "en": "Son of Szczepan and Małgorzata née Kowalczyk. Husband of Marianna Wieczorek. Father of Andrzej, Zofia, Agnieszka, Józefa, Katarzyna, Jędrzej, Bartłomiej and Józef. Lived with his family in Wola Gutowska near Jedlińsk. He died at the age of 86."
+      "pl": "Syn Szczepana i Małgorzaty z d. Kowalczyk. Mąż Marianny z Wieczorków (ID: 130). Ojciec licznego potomstwa, z którego dorosłości dożył syn Andrzej. Pozostałe znane dzieci – Zofia, Agnieszka, Józefa, Katarzyna, Jędrzej, Bartłomiej, Józef i Anna – zmarły w dzieciństwie lub młodości. Mieszkał z rodziną w Woli Gutowskiej. Zmarł w wieku 86 lat.",
+      "en": "Son of Szczepan and Małgorzata née Kowalczyk. Husband of Marianna née Wieczorek (ID: 130). Father of numerous offspring, of whom only his son Andrzej reached adulthood. The other known children – Zofia, Agnieszka, Józefa, Katarzyna, Jędrzej, Bartłomiej, Józef, and Anna – died in childhood or youth. He lived with his family in Wola Gutowska. He died at the age of 86."
     },
     "events": [
       {
@@ -2751,9 +2777,10 @@
     "maidenName": "Wieczorek",
     "family": "ofiara",
     "birthDateNote": "ok. 1832",
-    "deathDateNote": "po 1919-11-22",
+    "deathDate": "1905-01-11",
+    "deathTime": "20:00",
     "spouseIds": [129],
-    "childIds": [57, 131, 132, 210, 211, 214, 215, 216, 11],
+    "childIds": [57, 131, 132, 210, 211, 214, 215, 216, 298],
     "parentIds": [],
     "marriages": [
       {
@@ -2765,9 +2792,19 @@
       }
     ],
     "biography": {
-      "pl": "Żona Jakuba Ofiary. Matka Andrzeja, Zofii, Agnieszki, Józefy, Katarzyny, Jędrzeja, Bartłomieja i Józefa. Córka Kacpra i Małgorzaty z Grzelaków. W aktach urodzenia części jej dzieci (np. Jędrzeja, akt nr 281 i Józefa, akt nr 283) została błędnie zapisana pod imieniem Magdalena. Jej prawidłowe imię, Marianna, potwierdza akt ślubu (nr 211) oraz akt zgonu jej męża (nr 210). Wiadomo, że żyła jeszcze w listopadzie 1919 roku.",
-      "en": "Wife of Jakub Ofiara. Mother of Andrzej, Zofia, Agnieszka, Józefa, Katarzyna, Jędrzej, Bartłomiej, and Józef. Daughter of Kacper and Małgorzata née Grzelak. In the birth records of some of her children (e.g., Jędrzej, record no. 281, and Józef, record no. 283), her name was mistakenly recorded as Magdalena. Her correct name, Marianna, is confirmed by the marriage record (no. 211) and her husband's death record (no. 210). It is known that she was still alive in November 1919."
-    }
+      "pl": "Żona Jakuba Ofiary (ID: 129). Córka Kacpra i Małgorzaty z Grzelaków. Matka licznego potomstwa, z którego dorosłości dożył syn Andrzej. Pozostałe znane dzieci – Zofia, Agnieszka, Józefa, Katarzyna, Jędrzej, Bartłomiej, Józef i Anna – zmarły w dzieciństwie lub młodości. W swoim akcie zgonu została błędnie zapisana pod imieniem Magdalena. Zmarła w wieku 74 lat.",
+      "en": "Wife of Jakub Ofiara (ID: 129). Daughter of Kacper and Małgorzata née Grzelak. Mother of numerous offspring, of whom only her son Andrzej reached adulthood. The other known children – Zofia, Agnieszka, Józefa, Katarzyna, Jędrzej, Bartłomiej, Józef, and Anna – died in childhood or youth. In her death record, she was mistakenly recorded under the name Magdalena. She died at the age of 74."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1905-01-11",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 328
+        }
+      }
+    ]
   },
   {
     "id": 131,
@@ -3012,7 +3049,7 @@
     "family": "ofiara",
     "parentIds": [133, 134],
     "spouseIds": [151, 152, 153],
-    "childIds": [24],
+    "childIds": [24, 25, 239],
     "marriages": [
       {
         "spouseId": 151,
@@ -3314,10 +3351,11 @@
     "lastName": "Ofiara",
     "maidenName": "Puzianowska (primo voto Okrój)",
     "birthDateNote": "ok. 1841",
-    "deathDateNote": "przed 1921",
+    "deathDate": "1873-12-25",
+    "deathTime": "17:00",
     "family": "ofiara",
     "spouseIds": [138],
-    "childIds": [24],
+    "childIds": [24, 25],
     "parentIds": [],
     "marriages": [
       {
@@ -3330,8 +3368,18 @@
     ],
     "biography": {
       "pl": "Żona Wojciecha Ofiary. Córka Łucji i Ewy z Piwowarczyków. W chwili ślubu z Wojciechem była wdową po Okroju. Urodzona w Amelkowie.",
-      "en": "Wife of Wojciech Ofiara. Daughter of Łucja and Ewa née Piwowarczyk. At the time of her marriage to Wojciech, she was the widow of Okrój. Born in Amelków."
-    }
+      "en": "Wife of Wojciech Ofiara. Daughter of Łucja and Ewa née Piwowarczyk. At the time of her marriage to Wojciech, she was a widow of Okrój. Born in Amelków."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1873-12-25",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 299
+        }
+      }
+    ]
   },
   {
     "id": 152,
@@ -3341,6 +3389,7 @@
     "birthDateNote": "ok. 1864",
     "family": "ofiara",
     "deathDate": "1886-06-04",
+    "deathTimeQualifier": "afternoon",
     "spouseIds": [138],
     "childIds": [],
     "parentIds": [],
@@ -3356,7 +3405,17 @@
     "biography": {
       "pl": "Druga żona Wojciecha Ofiary. Córka Rocha i Julianny z Jemiołowskich. Urodzona we wsi Przychodź Jankowska. Zmarła w Jedlance niedługo po ślubie, po niespełna trzech miesiącach małżeństwa.",
       "en": "Second wife of Wojciech Ofiara. Daughter of Roch and Julianna née Jemiołowska. Born in the village of Przychodź Jankowska. She passed away in Jedlanka shortly after her wedding, after less than three months of marriage."
-    }
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1886-06-04",
+        "place": "Jedlanka",
+        "source": {
+          "documentId": 304
+        }
+      }
+    ]
   },
   {
     "id": 153,
@@ -3367,7 +3426,7 @@
     "family": "ofiara",
     "deathDateNote": "przed 1921",
     "spouseIds": [138],
-    "childIds": [],
+    "childIds": [239],
     "parentIds": [],
     "marriages": [
       {
@@ -3602,17 +3661,28 @@
     "family": "ofiara",
     "birthDate": "1837-07-02",
     "birthTime": "5:00",
+    "deathDateNote": "po 1887-11-10",
     "parentIds": [133, 134],
-    "spouseIds": [],
+    "spouseIds": [21, 205],
     "childIds": [],
+    "marriages": [
+      {
+        "spouseId": 21,
+        "date": "?"
+      },
+      {
+        "spouseId": 205,
+        "date": "?"
+      }
+    ],
     "biography": {
-      "pl": "Syn Szczepana i Małgorzaty z d. Kowalczyk.",
-      "en": "Son of Szczepan and Małgorzata née Kowalczyk."
+      "pl": "Syn Szczepana i Małgorzaty z d. Kowalczyk. Mąż Józefy z d. Prasek, a po jej śmierci mąż Małgorzaty z d. Wydłowskiej. Żył jeszcze w listopadzie 1887 roku.",
+      "en": "Son of Szczepan and Małgorzata née Kowalczyk. Husband of Józefa née Prasek, and after her death, husband of Małgorzata née Wydłowska. He was still alive in November 1887."
     },
     "events": [
       {
         "type": "birth",
-        "date": "1837",
+        "date": "1837-07-02",
         "place": "Wola Gutowska",
         "source": {
           "documentId": 241
@@ -4658,6 +4728,65 @@
     ]
   },
   {
+    "id": 205,
+    "firstName": "Małgorzata",
+    "lastName": "Ofiara",
+    "maidenName": "Wydłowska",
+    "birthDateNote": "ok. 1831",
+    "deathDate": "1887-11-10",
+    "deathTime": "21:00",
+    "family": "ofiara",
+    "spouseIds": [160],
+    "childIds": [],
+    "parentIds": [],
+    "marriages": [
+      {
+        "spouseId": 160,
+        "date": "?"
+      }
+    ],
+    "biography": {
+      "pl": "Żona Józefa Ofiary (ID: 160). Córka Sebastiana i Józefy z domu Kowalczyk. Zmarła w Jedlance w wieku 55 lat.",
+      "en": "Wife of Józef Ofiara (ID: 160). Daughter of Sebastian and Józefa née Kowalczyk. She died in Jedlanka at the age of 55."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1887-11-10",
+        "place": "Jedlanka",
+        "source": {
+          "documentId": 305
+        }
+      }
+    ]
+  },
+  {
+    "id": 206,
+    "firstName": "Teofila",
+    "lastName": "Ofiara",
+    "birthDateNote": "ok. 1844",
+    "deathDate": "1881-10-05",
+    "deathTime": "21:00",
+    "family": "ofiara",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [273, 274],
+    "biography": {
+      "pl": "Córka Jana i Marianny z Wieczorków. Zmarła w wieku 37 lat.",
+      "en": "Daughter of Jan and Marianna née Wieczorek. She died at the age of 37."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1881-10-05",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 306
+        }
+      }
+    ]
+  },
+  {
     "id": 208,
     "firstName": "Franciszek",
     "lastName": "Ofiara",
@@ -4692,6 +4821,33 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 292
+        }
+      }
+    ]
+  },
+  {
+    "id": 209,
+    "firstName": "Teofila",
+    "lastName": "Ofiara",
+    "birthDateNote": "ok. 1884",
+    "deathDate": "1886-09-22",
+    "deathTime": "unknown",
+    "deathTimeQualifier": "unknown",
+    "family": "ofiara",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [273, 274],
+    "biography": {
+      "pl": "Córka Jana i Marianny z Wieczorków. Zmarła w wieku jednego roku i dziesięciu miesięcy.",
+      "en": "Daughter of Jan and Marianna née Wieczorek. She died at the age of one year and ten months."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1886-09-22",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 307
         }
       }
     ]
@@ -4786,6 +4942,32 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 279
+        }
+      }
+    ]
+  },
+  {
+    "id": 213,
+    "firstName": "Stanisław",
+    "lastName": "Ofiara",
+    "birthDateNote": "ok. 1861",
+    "deathDate": "1889-04-19",
+    "deathTime": "22:00",
+    "family": "ofiara",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [273, 274],
+    "biography": {
+      "pl": "Syn Jana i Marianny z Wieczorków. Zmarł w wieku 28 lat.",
+      "en": "Son of Jan and Marianna née Wieczorek. He died at the age of 28."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1889-04-19",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 308
         }
       }
     ]
@@ -4912,7 +5094,7 @@
     "photoUrl": null,
     "family": "ofiara",
     "spouseIds": [],
-    "childIds": [],
+    "childIds": [238, 270],
     "parentIds": [159, 202],
     "marriages": [],
     "biography": {
@@ -5276,6 +5458,32 @@
     }
   },
   {
+    "id": 236,
+    "firstName": "Franciszek",
+    "lastName": "Ofiara",
+    "birthDateNote": "ok. 1892",
+    "deathDate": "1894-04-10",
+    "deathTime": "20:00",
+    "family": "ofiara",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [273, 274],
+    "biography": {
+      "pl": "Syn Jana i Marianny z Wieczorków. Zmarł w wieku jednego roku i pięciu miesięcy.",
+      "en": "Son of Jan and Marianna née Wieczorek. He died at the age of one year and five months."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1894-04-10",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 309
+        }
+      }
+    ]
+  },
+  {
     "id": 237,
     "firstName": "Marianna",
     "lastName": "Ofiara",
@@ -5298,6 +5506,997 @@
     "biography": {
       "pl": "Córka Wincentego i Elżbiety z d. Russak. Urodzona w Woli Gutowskiej. Siostra Jana (ID 234), który zmarł w niemowlęctwie.",
       "en": "Daughter of Wincenty and Elżbieta née Russak. Born in Wola Gutowska. Sister of Jan (ID 234), who died in infancy."
+    }
+  },
+  {
+    "id": 238,
+    "firstName": "Zofia",
+    "lastName": "Ofiara",
+    "birthDateNote": "ok. 1894",
+    "deathDate": "1894-05-19",
+    "deathTime": "21:00",
+    "family": "ofiara",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [217],
+    "biography": {
+      "pl": "Córka Piotra Ofiary i Franciszki z domu Ofiara. Zmarła w wieku trzech tygodni.",
+      "en": "Daughter of Piotr Ofiara and Franciszka née Ofiara. She died at the age of three weeks."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1894-05-19",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 310
+        }
+      }
+    ]
+  },
+  {
+    "id": 239,
+    "firstName": "Józef",
+    "lastName": "Ofiara",
+    "birthDateNote": "ok. 1893",
+    "deathDate": "1894-07-08",
+    "deathTime": "21:00",
+    "family": "ofiara",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [138, 153],
+    "biography": {
+      "pl": "Syn Wojciecha Ofiary i jego trzeciej żony, Wiktorii z domu Wieczorek. Zmarł w wieku jednego roku i jednego miesiąca.",
+      "en": "Son of Wojciech Ofiara and his third wife, Wiktoria née Wieczorek. He died at the age of one year and one month."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1894-07-08",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 311
+        }
+      }
+    ]
+  },
+  {
+    "id": 240,
+    "firstName": "Helena",
+    "lastName": "Ofiara",
+    "birthDateNote": "ok. 1893",
+    "deathDate": "1894-08-24",
+    "deathTime": "21:00",
+    "family": "ofiara",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [241, 242],
+    "biography": {
+      "pl": "Córka Adama i Marianny z domu Bińkowskiej. Zmarła w wieku jednego roku i jednego miesiąca.",
+      "en": "Daughter of Adam and Marianna née Bińkowska. She died at the age of one year and one month."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1894-08-24",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 312
+        }
+      }
+    ]
+  },
+  {
+    "id": 241,
+    "firstName": "Adam",
+    "lastName": "Ofiara",
+    "birthDateNote": "ok. 1858",
+    "family": "ofiara",
+    "spouseIds": [242],
+    "childIds": [240, 252, 275],
+    "parentIds": [],
+    "marriages": [
+      {
+        "spouseId": 242,
+        "date": "?"
+      }
+    ],
+    "biography": {
+      "pl": "Mąż Marianny z domu Bińkowskiej i ojciec Heleny. W 1894 roku, zgłaszając zgon córki, miał 36 lat. Jego krewnym był Jakub Ofiara (ID: 129).",
+      "en": "Husband of Marianna née Bińkowska and father of Helena. In 1894, when reporting his daughter's death, he was 36 years old. He was related to Jakub Ofiara (ID: 129)."
+    }
+  },
+  {
+    "id": 242,
+    "firstName": "Marianna",
+    "lastName": "Ofiara",
+    "maidenName": "Bińkowska",
+    "family": "ofiara",
+    "spouseIds": [241],
+    "childIds": [240, 252, 275],
+    "parentIds": [],
+    "marriages": [
+      {
+        "spouseId": 241,
+        "date": "?"
+      }
+    ],
+    "biography": {
+      "pl": "Żona Adama Ofiary i matka Heleny.",
+      "en": "Wife of Adam Ofiara and mother of Helena."
+    }
+  },
+  {
+    "id": 243,
+    "firstName": "Ludwika",
+    "lastName": "Ofiara",
+    "birthDateNote": "ok. 1878",
+    "deathDate": "1898-08-27",
+    "deathTime": "21:00",
+    "family": "ofiara",
+    "spouseIds": [248],
+    "childIds": [247],
+    "parentIds": [273, 274],
+    "marriages": [
+      {
+        "spouseId": 248,
+        "date": "?"
+      }
+    ],
+    "biography": {
+      "pl": "Córka Jana i Marianny z Wieczorków. Żona Ludwika Chudzika i matka Marianny. Zmarła w wieku 20 lat.",
+      "en": "Daughter of Jan and Marianna née Wieczorek. Wife of Ludwik Chudzik and mother of Marianna. She died at the age of 20."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1898-08-27",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 313
+        }
+      }
+    ]
+  },
+  {
+    "id": 244,
+    "firstName": "Marianna",
+    "lastName": "Ofiara",
+    "birthDateNote": "ok. 1898",
+    "deathDate": "1899-01-30",
+    "deathTime": "21:00",
+    "family": "ofiara",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [245, 246],
+    "biography": {
+      "pl": "Córka Józefa i Antoniny z domu Świniarskiej. Zmarła w wieku dwóch miesięcy.",
+      "en": "Daughter of Józef and Antonina née Świniarska. She died at the age of two months."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1899-01-30",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 314
+        }
+      }
+    ]
+  },
+  {
+    "id": 245,
+    "firstName": "Józef",
+    "lastName": "Ofiara",
+    "birthDateNote": "ok. 1873",
+    "family": "ofiara",
+    "spouseIds": [246],
+    "childIds": [244, 254],
+    "parentIds": [],
+    "marriages": [
+      {
+        "spouseId": 246,
+        "date": "?"
+      }
+    ],
+    "biography": {
+      "pl": "Mąż Antoniny z domu Świniarskiej i ojciec Marianny. W 1899 roku, zgłaszając zgon córki, miał 26 lat.",
+      "en": "Husband of Antonina née Świniarska and father of Marianna. In 1899, when reporting his daughter's death, he was 26 years old."
+    }
+  },
+  {
+    "id": 246,
+    "firstName": "Antonina",
+    "lastName": "Ofiara",
+    "maidenName": "Świniarska",
+    "family": "ofiara",
+    "spouseIds": [245],
+    "childIds": [244, 254],
+    "parentIds": [],
+    "marriages": [
+      {
+        "spouseId": 245,
+        "date": "?"
+      }
+    ],
+    "biography": {
+      "pl": "Żona Józefa Ofiary i matka Marianny.",
+      "en": "Wife of Józef Ofiara and mother of Marianna."
+    }
+  },
+  {
+    "id": 247,
+    "firstName": "Marianna",
+    "lastName": "Chudzik",
+    "birthDateNote": "ok. 1898",
+    "deathDate": "1899-11-13",
+    "deathTime": "21:00",
+    "family": "ofiara",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [248, 243],
+    "biography": {
+      "pl": "Córka Ludwika Chudzika i Ludwiki z domu Ofiara. Wnuczka Jakuba Ofiary. Zmarła w wieku jednego roku i siedmiu miesięcy.",
+      "en": "Daughter of Ludwik Chudzik and Ludwika née Ofiara. Granddaughter of Jakub Ofiara. She died at the age of one year and seven months."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1899-11-13",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 315
+        }
+      }
+    ]
+  },
+  {
+    "id": 248,
+    "firstName": "Ludwik",
+    "lastName": "Chudzik",
+    "family": "ofiara",
+    "spouseIds": [243],
+    "childIds": [247],
+    "parentIds": [],
+    "marriages": [
+      {
+        "spouseId": 243,
+        "date": "?"
+      }
+    ],
+    "biography": {
+      "pl": "Mąż Ludwiki Ofiary (ID: 243) i ojciec Marianny.",
+      "en": "Husband of Ludwika Ofiara (ID: 243) and father of Marianna."
+    }
+  },
+  {
+    "id": 249,
+    "firstName": "Jan",
+    "lastName": "Ofiara",
+    "birthDateNote": "ok. 1900",
+    "deathDate": "1900-02-01",
+    "deathTime": "21:00",
+    "family": "ofiara",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [250, 251],
+    "biography": {
+      "pl": "Syn Jana i Eleonory z domu Mokosa. Zmarł w wieku jednego tygodnia.",
+      "en": "Son of Jan and Eleonora née Mokos. He died at the age of one week."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1900-02-01",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 316
+        }
+      }
+    ]
+  },
+  {
+    "id": 250,
+    "firstName": "Jan",
+    "lastName": "Ofiara",
+    "family": "ofiara",
+    "spouseIds": [251, 268],
+    "childIds": [249, 254, 255, 269, 276],
+    "parentIds": [],
+    "marriages": [
+      {
+        "spouseId": 251,
+        "date": "?"
+      },
+      {
+        "spouseId": 268,
+        "date": "?"
+      }
+    ],
+    "biography": {
+      "pl": "Mąż Eleonory z domu Mokosa i Marianny z domu Kołodziejskiej. Ojciec Jana i Władysława, którzy zmarli w niemowlęctwie.",
+      "en": "Husband of Eleonora née Mokos and Marianna née Kołodziejska. Father of Jan and Władysław, who died in infancy."
+    }
+  },
+  {
+    "id": 251,
+    "firstName": "Eleonora",
+    "lastName": "Ofiara",
+    "maidenName": "Mokosa",
+    "family": "ofiara",
+    "spouseIds": [250],
+    "childIds": [249, 254, 255, 269, 276],
+    "parentIds": [],
+    "marriages": [
+      {
+        "spouseId": 250,
+        "date": "?"
+      }
+    ],
+    "biography": {
+      "pl": "Żona Jana Ofiary i matka Jana.",
+      "en": "Wife of Jan Ofiara and mother of Jan."
+    }
+  },
+  {
+    "id": 252,
+    "firstName": "Jan",
+    "lastName": "Ofiara",
+    "birthDateNote": "ok. 1899",
+    "deathDate": "1900-02-22",
+    "deathTime": "21:00",
+    "family": "ofiara",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [241, 242],
+    "biography": {
+      "pl": "Syn Adama i Marianny z domu Bieniek (Bińkowska). Zmarł w wieku jednego miesiąca.",
+      "en": "Son of Adam and Marianna née Bieniek (Bińkowska). He died at the age of one month."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1900-02-22",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 317
+        }
+      }
+    ]
+  },
+  {
+    "id": 253,
+    "firstName": "Adam",
+    "lastName": "Ofiara",
+    "birthDateNote": "ok. 1858",
+    "deathDate": "1900-09-13",
+    "deathTime": "21:00",
+    "family": "ofiara",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [273, 274],
+    "biography": {
+      "pl": "Syn Jana i Marianny z Wieczorków. Zmarł w wieku 42 lat. Zostawił po sobie żonę Mariannę.",
+      "en": "Son of Jan and Marianna née Wieczorek. He died at the age of 42. He was survived by his wife Marianna."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1900-09-13",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 318
+        }
+      }
+    ]
+  },
+  {
+    "id": 254,
+    "firstName": "Jan",
+    "lastName": "Ofiara",
+    "birthDateNote": "ok. 1900",
+    "deathDate": "1900-10-28",
+    "deathTime": "21:00",
+    "family": "ofiara",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [245, 246],
+    "biography": {
+      "pl": "Syn Józefa i Antoniny z domu Świniarskiej. Zmarł w wieku jednego miesiąca i siedmiu dni.",
+      "en": "Son of Józef and Antonina née Świniarska. He died at the age of one month and seven days."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1900-10-28",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 319
+        }
+      }
+    ]
+  },
+  {
+    "id": 255,
+    "firstName": "Władysław",
+    "lastName": "Ofiara",
+    "birthDateNote": "ok. 1900",
+    "deathDate": "1901-01-10",
+    "deathTime": "22:00",
+    "family": "ofiara",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [250, 251],
+    "biography": {
+      "pl": "Syn Jana i Eleonory z domu Mokosa (w akcie zgonu jako Marianna z Chamerskich). Zmarł w wieku jednego miesiąca.",
+      "en": "Son of Jan and Eleonora née Mokos (in the death record as Marianna née Chamerska). He died at the age of one month."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1901-01-10",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 320
+        }
+      }
+    ]
+  },
+  {
+    "id": 256,
+    "firstName": "Salomea",
+    "lastName": "Kwiecień",
+    "birthDateNote": "ok. 1901",
+    "deathDate": "1901-09-11",
+    "deathTime": "21:00",
+    "family": "ofiara",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [257, 258],
+    "biography": {
+      "pl": "Córka Marcina Kwietnia i Antoniny z domu Ofiara. Zmarła w wieku jednego miesiąca.",
+      "en": "Daughter of Marcin Kwiecień and Antonina née Ofiara. She died at the age of one month."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1901-09-11",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 321
+        }
+      }
+    ]
+  },
+  {
+    "id": 257,
+    "firstName": "Marcin",
+    "lastName": "Kwiecień",
+    "family": "ofiara",
+    "spouseIds": [258],
+    "childIds": [256],
+    "parentIds": [],
+    "marriages": [
+      {
+        "spouseId": 258,
+        "date": "?"
+      }
+    ],
+    "biography": {
+      "pl": "Mąż Antoniny Ofiary i ojciec Salomei.",
+      "en": "Husband of Antonina Ofiara and father of Salomea."
+    }
+  },
+  {
+    "id": 258,
+    "firstName": "Antonina",
+    "lastName": "Kwiecień",
+    "maidenName": "Ofiara",
+    "family": "ofiara",
+    "spouseIds": [257, 278],
+    "childIds": [256, 277],
+    "parentIds": [],
+    "marriages": [
+      {
+        "spouseId": 257,
+        "date": "?"
+      },
+      {
+        "spouseId": 278,
+        "date": "?"
+      }
+    ],
+    "biography": {
+      "pl": "Żona Marcina Kwietnia i Józefa Ofiary. Matka Salomei i Leona. Prawdopodobnie spokrewniona z Jakubem Ofiarą (ID: 129).",
+      "en": "Wife of Marcin Kwiecień and Józef Ofiara. Mother of Salomea and Leon. Likely related to Jakub Ofiara (ID: 129)."
+    }
+  },
+  {
+    "id": 259,
+    "firstName": "Apolonia",
+    "lastName": "Walter",
+    "birthDateNote": "ok. 1901",
+    "deathDate": "1902-03-05",
+    "deathTime": "21:00",
+    "family": "ofiara",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [260, 261],
+    "biography": {
+      "pl": "Córka Bogumiła Waltera i Franciszki z domu Ofiara. Zmarła w wieku dwóch miesięcy.",
+      "en": "Daughter of Bogumił Walter and Franciszka née Ofiara. She died at the age of two months."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1902-03-05",
+        "place": "Nowe Zawady",
+        "source": {
+          "documentId": 322
+        }
+      }
+    ]
+  },
+  {
+    "id": 260,
+    "firstName": "Bogumił",
+    "lastName": "Walter",
+    "family": "ofiara",
+    "spouseIds": [261],
+    "childIds": [259],
+    "parentIds": [],
+    "marriages": [
+      {
+        "spouseId": 261,
+        "date": "?"
+      }
+    ],
+    "biography": {
+      "pl": "Mąż Franciszki Ofiary i ojciec Apolonii.",
+      "en": "Husband of Franciszka Ofiara and father of Apolonia."
+    }
+  },
+  {
+    "id": 261,
+    "firstName": "Franciszka",
+    "lastName": "Walter",
+    "maidenName": "Ofiara",
+    "family": "ofiara",
+    "spouseIds": [260],
+    "childIds": [259],
+    "parentIds": [],
+    "marriages": [
+      {
+        "spouseId": 260,
+        "date": "?"
+      }
+    ],
+    "biography": {
+      "pl": "Żona Bogumiła Waltera i matka Apolonii.",
+      "en": "Wife of Bogumił Walter and mother of Apolonia."
+    }
+  },
+  {
+    "id": 262,
+    "firstName": "Dorota",
+    "lastName": "Jadach",
+    "birthDateNote": "ok. 1903",
+    "deathDate": "1903-08-30",
+    "deathTime": "21:00",
+    "family": "ofiara",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [263, 264],
+    "biography": {
+      "pl": "Córka Józefa Jadacha i Marianny z domu Ofiara. Zmarła w wieku sześciu miesięcy.",
+      "en": "Daughter of Józef Jadach and Marianna née Ofiara. She died at the age of six months."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1903-08-30",
+        "place": "Jedlanka",
+        "source": {
+          "documentId": 323
+        }
+      }
+    ]
+  },
+  {
+    "id": 263,
+    "firstName": "Józef",
+    "lastName": "Jadach",
+    "family": "ofiara",
+    "spouseIds": [264],
+    "childIds": [262],
+    "parentIds": [],
+    "marriages": [
+      {
+        "spouseId": 264,
+        "date": "?"
+      }
+    ],
+    "biography": {
+      "pl": "Mąż Marianny Ofiary i ojciec Doroty.",
+      "en": "Husband of Marianna Ofiara and father of Dorota."
+    }
+  },
+  {
+    "id": 264,
+    "firstName": "Marianna",
+    "lastName": "Jadach",
+    "maidenName": "Ofiara",
+    "family": "ofiara",
+    "spouseIds": [263],
+    "childIds": [262],
+    "parentIds": [],
+    "marriages": [
+      {
+        "spouseId": 263,
+        "date": "?"
+      }
+    ],
+    "biography": {
+      "pl": "Żona Józefa Jadacha i matka Doroty.",
+      "en": "Wife of Józef Jadach and mother of Dorota."
+    }
+  },
+  {
+    "id": 265,
+    "firstName": "Jan",
+    "lastName": "Ofiara",
+    "birthDateNote": "ok. 1874",
+    "deathDate": "1903-05-30",
+    "deathTime": "21:00",
+    "family": "ofiara",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [266, 267],
+    "biography": {
+      "pl": "Syn Jakuba i Anastazji z domu Solemowskiej. Zmarł w wieku 29 lat.",
+      "en": "Son of Jakub and Anastazja née Solemowska. He died at the age of 29."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1903-05-30",
+        "place": "Jedlanka",
+        "source": {
+          "documentId": 324
+        }
+      }
+    ]
+  },
+  {
+    "id": 266,
+    "firstName": "Jakub",
+    "lastName": "Ofiara",
+    "birthDateNote": "ok. 1834",
+    "family": "ofiara",
+    "spouseIds": [267],
+    "childIds": [265],
+    "parentIds": [],
+    "marriages": [
+      {
+        "spouseId": 267,
+        "date": "?"
+      }
+    ],
+    "biography": {
+      "pl": "Mąż Anastazji z domu Solemowskiej i ojciec Jana. Prawdopodobnie kuzyn Jakuba Ofiary (ID: 129). W 1903 roku, zgłaszając zgon syna, miał 69 lat.",
+      "en": "Husband of Anastazja née Solemowska and father of Jan. Likely a cousin of Jakub Ofiara (ID: 129). In 1903, when reporting his son's death, he was 69 years old."
+    }
+  },
+  {
+    "id": 267,
+    "firstName": "Anastazja",
+    "lastName": "Ofiara",
+    "maidenName": "Solemowska",
+    "deathDateNote": "przed 1903",
+    "family": "ofiara",
+    "spouseIds": [266],
+    "childIds": [265],
+    "parentIds": [],
+    "marriages": [
+      {
+        "spouseId": 266,
+        "date": "?"
+      }
+    ],
+    "biography": {
+      "pl": "Żona Jakuba Ofiary i matka Jana. Zmarła przed 1903 rokiem.",
+      "en": "Wife of Jakub Ofiara and mother of Jan. She passed away before 1903."
+    }
+  },
+  {
+    "id": 268,
+    "firstName": "Marianna",
+    "lastName": "Ofiara",
+    "maidenName": "Kołodziejska",
+    "birthDateNote": "ok. 1876",
+    "deathDate": "1904-09-07",
+    "deathTime": "21:00",
+    "family": "ofiara",
+    "spouseIds": [250],
+    "childIds": [],
+    "parentIds": [],
+    "marriages": [
+      {
+        "spouseId": 250,
+        "date": "?"
+      }
+    ],
+    "biography": {
+      "pl": "Żona Jana Ofiary (ID: 250). Córka Jana i Ewy z domu Tulik. Zmarła w wieku 28 lat.",
+      "en": "Wife of Jan Ofiara (ID: 250). Daughter of Jan and Ewa née Tulik. She died at the age of 28."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1904-09-07",
+        "place": "Jedlanka",
+        "source": {
+          "documentId": 325
+        }
+      }
+    ]
+  },
+  {
+    "id": 269,
+    "firstName": "NN (córka)",
+    "lastName": "Ofiara",
+    "birthDateNote": "1904-10-03",
+    "deathDate": "1904-10-03",
+    "deathTime": "21:00",
+    "family": "ofiara",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [250, 251],
+    "biography": {
+      "pl": "Córka Jana i Eleonory z domu Mokosa. Urodziła się martwa.",
+      "en": "Daughter of Jan and Eleonora née Mokos. She was stillborn."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1904-10-03",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 326
+        }
+      }
+    ]
+  },
+  {
+    "id": 271,
+    "firstName": "Józef",
+    "lastName": "Ofiara",
+    "birthDateNote": "ok. 1904",
+    "deathDate": "1905-03-28",
+    "deathTime": "22:00",
+    "family": "ofiara",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [273, 274],
+    "biography": {
+      "pl": "Nieślubny syn Agnieszki Ofiary. Zmarł w wieku jednego roku.",
+      "en": "Illegitimate son of Agnieszka Ofiara. He died at the age of one."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1905-03-28",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 329
+        }
+      }
+    ]
+  },
+  {
+    "id": 272,
+    "firstName": "Agnieszka",
+    "lastName": "Ofiara",
+    "family": "ofiara",
+    "spouseIds": [],
+    "childIds": [271],
+    "parentIds": [273, 274],
+    "marriages": [],
+    "biography": {
+      "pl": "Córka Jana i Marianny z Wieczorków. Matka nieślubnego syna Józefa.",
+      "en": "Daughter of Jan and Marianna née Wieczorek. Mother of the illegitimate son Józef."
+    }
+  },
+  {
+    "id": 273,
+    "firstName": "Jan",
+    "lastName": "Ofiara",
+    "birthDateNote": "ok. 1830-1840",
+    "family": "ofiara",
+    "spouseIds": [274],
+    "childIds": [11, 23, 206, 209, 213, 236, 243, 253],
+    "parentIds": [],
+    "marriages": [
+      {
+        "spouseId": 274,
+        "date": "?"
+      }
+    ],
+    "biography": {
+      "pl": "Mąż Marianny z domu Wieczorek (ID: 274). Ojciec licznego potomstwa, z którego niestety żadne ze znanych dzieci nie dożyło dorosłości: Julianna, Franciszka, dwie córki o imieniu Teofila, Stanisław, Franciszek, Ludwika i Adam. Prawdopodobnie brat lub kuzyn Jakuba Ofiary (ID: 129).",
+      "en": "Husband of Marianna née Wieczorek (ID: 274). Father of numerous children, none of whom are known to have reached adulthood: Julianna, Franciszka, two daughters named Teofila, Stanisław, Franciszek, Ludwika, and Adam. Likely the brother or cousin of Jakub Ofiara (ID: 129)."
+    }
+  },
+  {
+    "id": 274,
+    "firstName": "Marianna",
+    "lastName": "Ofiara",
+    "maidenName": "Wieczorek",
+    "birthDateNote": "ok. 1838",
+    "deathDate": "1907-02-13",
+    "deathTime": "21:00",
+    "family": "ofiara",
+    "spouseIds": [273],
+    "childIds": [11, 23, 206, 209, 213, 236, 243, 253],
+    "parentIds": [],
+    "marriages": [
+      {
+        "spouseId": 273,
+        "date": "?"
+      }
+    ],
+    "biography": {
+      "pl": "Żona Jana Ofiary (ID: 273). Córka Kacpra i Małgorzaty Wieczorków. Matka licznego potomstwa, z którego niestety żadne ze znanych dzieci nie dożyło dorosłości: Julianna, Franciszka, dwie córki o imieniu Teofila, Stanisław, Franciszek, Ludwika i Adam. Zmarła w wieku 69 lat.",
+      "en": "Wife of Jan Ofiara (ID: 273). Daughter of Kacper and Małgorzata Wieczorek. Mother of numerous children, none of whom are known to have reached adulthood: Julianna, Franciszka, two daughters named Teofila, Stanisław, Franciszek, Ludwika, and Adam. She died at the age of 69."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1907-02-13",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 330
+        }
+      }
+    ]
+  },
+  {
+    "id": 275,
+    "firstName": "Marian",
+    "lastName": "Ofiara",
+    "birthDateNote": "ok. 1908",
+    "deathDate": "1908-03-09",
+    "deathTime": "21:00",
+    "family": "ofiara",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [241, 242],
+    "biography": {
+      "pl": "Syn Adama i Marianny z domu Bieniek (Bińkowska). Zmarł w wieku jednego tygodnia.",
+      "en": "Son of Adam and Marianna née Bieniek (Bińkowska). He died at the age of one week."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1908-03-09",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 331
+        }
+      }
+    ]
+  },
+  {
+    "id": 276,
+    "firstName": "NN (córka)",
+    "lastName": "Ofiara",
+    "birthDateNote": "1909-02-13",
+    "deathDate": "1909-02-13",
+    "deathTime": "22:00",
+    "family": "ofiara",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [250, 251],
+    "biography": {
+      "pl": "Córka Jana i Eleonory z domu Mokosa. Urodziła się martwa.",
+      "en": "Daughter of Jan and Eleonora née Mokos. She was stillborn."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1909-02-13",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 332
+        }
+      }
+    ]
+  },
+  {
+    "id": 277,
+    "firstName": "Leon",
+    "lastName": "Ofiara",
+    "birthDateNote": "ok. 1910",
+    "deathDate": "1910-09-28",
+    "deathTimeQualifier": "afternoon",
+    "family": "ofiara",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [278, 258],
+    "biography": {
+      "pl": "Syn Józefa Ofiary i Marianny z domu Kwiecień. Zmarł w wieku jednego dnia.",
+      "en": "Son of Józef Ofiara and Marianna née Kwiecień. He died at the age of one day."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1910-09-28",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 333
+        }
+      }
+    ]
+  },
+  {
+    "id": 278,
+    "firstName": "Józef",
+    "lastName": "Ofiara",
+    "family": "ofiara",
+    "spouseIds": [258],
+    "childIds": [277],
+    "parentIds": [],
+    "marriages": [
+      {
+        "spouseId": 258,
+        "date": "?"
+      }
+    ],
+    "biography": {
+      "pl": "Mąż Marianny z domu Kwiecień i ojciec Leona.",
+      "en": "Husband of Marianna née Kwiecień and father of Leon."
+    }
+  },
+  {
+    "id": 279,
+    "firstName": "Jan",
+    "lastName": "Ofiara",
+    "birthDateNote": "ok. 1832",
+    "deathDate": "1912-02-25",
+    "deathTime": "?",
+    "deathTimeQualifier": "afternoon",
+    "family": "ofiara",
+    "spouseIds": [],
+    "childIds": [280],
+    "parentIds": [],
+    "marriages": [],
+    "biography": {
+      "pl": "Mieszkaniec Woli Gutowskiej. Ojciec Karola Ofiary. Zmarł jako wdowiec w wieku 80 lat.",
+      "en": "A resident of Wola Gutowska. Father of Karol Ofiara. He died a widower at the age of 80."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1912-02-25",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 334
+        }
+      }
+    ]
+  },
+  {
+    "id": 280,
+    "firstName": "Karol",
+    "lastName": "Ofiara",
+    "family": "ofiara",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [279],
+    "marriages": [],
+    "biography": {
+      "pl": "Syn Jana Ofiary. W 1912 roku zgłosił zgon swojego ojca.",
+      "en": "Son of Jan Ofiara. In 1912, he reported the death of his father."
     }
   },
   {
@@ -5328,6 +6527,39 @@
     }
   },
   {
+    "id": 21,
+    "firstName": "Józefa",
+    "lastName": "Ofiara",
+    "maidenName": "Prasek",
+    "birthDateNote": "ok. 1830",
+    "deathDate": "1886-03-17",
+    "deathTime": "21:00",
+    "family": "ofiara",
+    "spouseIds": [160],
+    "childIds": [],
+    "parentIds": [],
+    "marriages": [
+      {
+        "spouseId": 160,
+        "date": "?"
+      }
+    ],
+    "biography": {
+      "pl": "Żona Józefa Ofiary (ID: 160). Córka Mateusza i Marianny z domu Piwowarczyk. Zmarła jako wdowa w Woli Gutowskiej.",
+      "en": "Wife of Józef Ofiara (ID: 160). Daughter of Mateusz and Marianna née Piwowarczyk. She died as a widow in Wola Gutowska."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1886-03-17",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 303
+        }
+      }
+    ]
+  },
+  {
     "id": 24,
     "firstName": "Stanisław",
     "lastName": "Ofiara",
@@ -5355,6 +6587,32 @@
     ]
   },
   {
+    "id": 25,
+    "firstName": "Józef",
+    "lastName": "Ofiara",
+    "birthDateNote": "ok. 1872",
+    "deathDate": "1874-02-25",
+    "deathTime": "21:00",
+    "family": "ofiara",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [138, 151],
+    "biography": {
+      "pl": "Syn Wojciecha Ofiary i Franciszki z d. Puzianowskiej. Zmarł w wieku jednego roku i siedmiu miesięcy w Kolonii Janki.",
+      "en": "Son of Wojciech Ofiara and Franciszka née Puzianowska. He died at the age of one year and seven months in Janki Kolonia."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1874-02-25",
+        "place": "Janki Kolonia",
+        "source": {
+          "documentId": 302
+        }
+      }
+    ]
+  },
+  {
     "id": 298,
     "firstName": "Anna",
     "lastName": "Ofiara",
@@ -5377,6 +6635,39 @@
         "place": "Tymowska Wola",
         "source": {
           "documentId": 298
+        }
+      }
+    ]
+  },
+  {
+    "id": 299,
+    "firstName": "Katarzyna",
+    "lastName": "Kalbarczyk",
+    "maidenName": "Ofiara",
+    "birthDateNote": "ok. 1855",
+    "deathDate": "1913-04-25",
+    "deathTime": "21:00",
+    "family": "ofiara",
+    "spouseIds": [300],
+    "childIds": [],
+    "parentIds": [273, 274],
+    "marriages": [
+      {
+        "spouseId": 300,
+        "date": "?"
+      }
+    ],
+    "biography": {
+      "pl": "Córka Jana Ofiary i Marianny z domu Wieczorek. Żona Ignacego Kalbarczyka. Zmarła w Woli Gutowskiej w wieku 58 lat.",
+      "en": "Daughter of Jan Ofiara and Marianna née Wieczorek. Wife of Ignacy Kalbarczyk. She died in Wola Gutowska at the age of 58."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1913-04-25",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 335
         }
       }
     ]

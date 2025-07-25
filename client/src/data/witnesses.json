@@ -164,6 +164,12 @@
   },
   {
     "lastName": "Chudzik",
+    "firstName": "Ludwik",
+    "residence": "Wola Gutowska",
+    "documentIds": [315]
+  },
+  {
+    "lastName": "Chudzik",
     "firstName": "Tomasz",
     "residence": "Wola Gutowska",
     "documentIds": [217]
@@ -229,6 +235,12 @@
     "documentIds": [182]
   },
   {
+    "lastName": "Dłużniewski",
+    "firstName": "Dominik",
+    "residence": "Wola Gutowska",
+    "documentIds": [306]
+  },
+  {
     "lastName": "Drużdżel",
     "firstName": "Kazimierz",
     "residence": "Gulinek",
@@ -251,6 +263,18 @@
     "firstName": "Józef",
     "residence": "Milejowice",
     "documentIds": [221]
+  },
+  {
+    "lastName": "Jadach",
+    "firstName": "Józef",
+    "residence": "Jedlanka",
+    "documentIds": [323]
+  },
+  {
+    "lastName": "Nowak",
+    "firstName": "Andrzej",
+    "residence": "Jedlanka",
+    "documentIds": [323]
   },
   {
     "lastName": "Frąckiewicz",
@@ -391,6 +415,12 @@
     "documentIds": [35]
   },
   {
+    "lastName": "Gołąb",
+    "firstName": "Franciszek",
+    "residence": "Jedlanka",
+    "documentIds": [325, 326, 329, 330, 332, 334]
+  },
+  {
     "lastName": "Goralski",
     "firstName": "Franciszek",
     "residence": "Jedlińsk",
@@ -470,9 +500,21 @@
   },
   {
     "lastName": "Kalbarczyk",
+    "firstName": "Ignacy",
+    "residence": "Wola Gutowska",
+    "documentIds": [335]
+  },
+  {
+    "lastName": "Kalbarczyk",
     "firstName": "Jan",
     "residence": "Wola Gutowska",
     "documentIds": [275]
+  },
+  {
+    "lastName": "Kalbarczyk",
+    "firstName": "Tomasz",
+    "residence": "Wola Gutowska",
+    "documentIds": [308]
   },
   {
     "lastName": "Karafińska",
@@ -493,10 +535,22 @@
     "documentIds": [39, 229, 256, 257, 258]
   },
   {
+    "lastName": "Kasperski",
+    "firstName": "Franciszek",
+    "residence": "Wola Gutowska",
+    "documentIds": [328]
+  },
+  {
     "lastName": "Kierzkowski",
     "firstName": "Jan",
     "residence": "Jedlińsk",
     "documentIds": [219]
+  },
+  {
+    "lastName": "Klimecki",
+    "firstName": "Stanisław",
+    "residence": "Jedlanka",
+    "documentIds": [324]
   },
   {
     "lastName": "Kłochowska",
@@ -508,7 +562,7 @@
     "lastName": "Kłochowski",
     "firstName": "Jan",
     "residence": "Jedlińsk",
-    "documentIds": [17, 18, 211, 212, 217, 218, 250]
+    "documentIds": [17, 18, 211, 212, 217, 218, 250, 313, 318]
   },
   {
     "lastName": "Kłochowska",
@@ -551,6 +605,12 @@
     "firstName": "Paweł",
     "residence": "Wola Gutowska",
     "documentIds": [18]
+  },
+  {
+    "lastName": "Kwiecień",
+    "firstName": "Marcin",
+    "residence": "Wola Gutowska",
+    "documentIds": [321]
   },
   {
     "lastName": "Kwiecińska",
@@ -760,7 +820,7 @@
     "lastName": "Mydłowski",
     "firstName": "Józef",
     "residence": "Wola Gutowska",
-    "documentIds": [298]
+    "documentIds": [298, 299]
   },
   {
     "lastName": "Nabisówna",
@@ -782,6 +842,12 @@
   },
   {
     "lastName": "Ofiara",
+    "firstName": "Adam",
+    "residence": "Wola Gutowska",
+    "documentIds": [312, 317, 322, 327, 331]
+  },
+  {
+    "lastName": "Ofiara",
     "firstName": "Antoni",
     "residence": "Gulinek",
     "documentIds": [239]
@@ -791,20 +857,36 @@
     "firstName": "Jakub",
     "residence": "Wola Gutowska",
     "documentIds": [
-      15, 16, 18, 212, 213, 277, 279, 281, 293, 294, 296, 297, 298
+      15, 16, 18, 212, 213, 277, 279, 281, 293, 294, 296, 297, 298, 300, 304,
+      305, 308, 309, 311, 312, 313, 314, 315, 317, 318, 319, 320, 321, 324, 328,
+      329, 331, 333, 335
     ]
   },
   {
     "lastName": "Ofiara",
     "firstName": "Jan",
     "residence": "Wola Gutowska",
-    "documentIds": [14, 210, 284, 297]
+    "documentIds": [
+      14, 210, 284, 297, 303, 306, 308, 316, 320, 325, 326, 330, 332
+    ]
+  },
+  {
+    "lastName": "Ofiara",
+    "firstName": "Karol",
+    "residence": "Wola Gutowska",
+    "documentIds": [334]
   },
   {
     "lastName": "Ofiara",
     "firstName": "Konstanty",
     "residence": "Wola Gutowska",
     "documentIds": [285]
+  },
+  {
+    "lastName": "Ofiara",
+    "firstName": "Piotr",
+    "residence": "Wola Gutowska",
+    "documentIds": [310, 327]
   },
   {
     "lastName": "Ofiara",
@@ -822,13 +904,25 @@
     "lastName": "Ofiara",
     "firstName": "Wojciech",
     "residence": "Wola Gutowska",
-    "documentIds": [18, 219]
+    "documentIds": [18, 219, 299, 302, 304, 311]
   },
   {
     "lastName": "Ofiara",
     "firstName": "Wincenty",
     "residence": "Wola Gutowska",
     "documentIds": [65, 277, 282, 288, 290, 291, 292, 293]
+  },
+  {
+    "lastName": "Ofiara",
+    "firstName": "Józef",
+    "residence": "Jedlanka",
+    "documentIds": [305, 314, 319, 333]
+  },
+  {
+    "lastName": "Kowalczyk",
+    "firstName": "Stanisław",
+    "residence": "Jedlanka",
+    "documentIds": [305]
   },
   {
     "lastName": "Ofiarowa",
@@ -871,6 +965,12 @@
     "firstName": "Tadeusz",
     "residence": "Jedlińsk",
     "documentIds": [213, 214]
+  },
+  {
+    "lastName": "Piwowarski",
+    "firstName": "Józef",
+    "residence": "Janki Kolonia",
+    "documentIds": [302]
   },
   {
     "lastName": "Plewa",
@@ -987,6 +1087,12 @@
     "documentIds": [36]
   },
   {
+    "lastName": "Serwatka",
+    "firstName": "Adam",
+    "residence": "Wola Gutowska",
+    "documentIds": [316]
+  },
+  {
     "lastName": "Sitek",
     "firstName": "Adam",
     "residence": "Gulinek",
@@ -1021,6 +1127,12 @@
     "firstName": "Wojciech",
     "residence": "Wola Gutowska",
     "documentIds": [279]
+  },
+  {
+    "lastName": "Straczek",
+    "firstName": "Mateusz",
+    "residence": "Wola Gutowska",
+    "documentIds": [303]
   },
   {
     "lastName": "Strzelczyk",
@@ -1117,6 +1229,12 @@
     "firstName": "Wojciech",
     "residence": "Wola Gutowska",
     "documentIds": [273]
+  },
+  {
+    "lastName": "Walter",
+    "firstName": "Bogumił",
+    "residence": "Nowe Zawady",
+    "documentIds": [322]
   },
   {
     "lastName": "Warchoł",
@@ -1225,6 +1343,12 @@
     "firstName": "Marianna",
     "residence": "",
     "documentIds": [283]
+  },
+  {
+    "lastName": "Wieczorek",
+    "firstName": "Dominik",
+    "residence": "Wola Gutowska",
+    "documentIds": [309, 310]
   },
   {
     "lastName": "Wieczorek",
