@@ -2777,11 +2777,10 @@
     "maidenName": "Wieczorek",
     "family": "ofiara",
     "birthDateNote": "ok. 1832",
-    "deathDate": "1905-01-11",
-    "deathTime": "20:00",
+    "deathDateNote": "nieznana",
     "spouseIds": [129],
     "childIds": [57, 131, 132, 210, 211, 214, 215, 216, 298],
-    "parentIds": [],
+    "parentIds": [322, 323],
     "marriages": [
       {
         "spouseId": 129,
@@ -2792,19 +2791,9 @@
       }
     ],
     "biography": {
-      "pl": "Żona Jakuba Ofiary (ID: 129). Córka Kacpra i Małgorzaty z Grzelaków. Matka licznego potomstwa, z którego dorosłości dożył syn Andrzej. Pozostałe znane dzieci – Zofia, Agnieszka, Józefa, Katarzyna, Jędrzej, Bartłomiej, Józef i Anna – zmarły w dzieciństwie lub młodości. W swoim akcie zgonu została błędnie zapisana pod imieniem Magdalena. Zmarła w wieku 74 lat.",
-      "en": "Wife of Jakub Ofiara (ID: 129). Daughter of Kacper and Małgorzata née Grzelak. Mother of numerous offspring, of whom only her son Andrzej reached adulthood. The other known children – Zofia, Agnieszka, Józefa, Katarzyna, Jędrzej, Bartłomiej, Józef, and Anna – died in childhood or youth. In her death record, she was mistakenly recorded under the name Magdalena. She died at the age of 74."
-    },
-    "events": [
-      {
-        "type": "death",
-        "date": "1905-01-11",
-        "place": "Wola Gutowska",
-        "source": {
-          "documentId": 328
-        }
-      }
-    ]
+      "pl": "Żona Jakuba Ofiary (ID: 129) i praprababcia autora. Córka Kacpra i Małgorzaty z Grzelaków Wieczorków. Należy ją odróżnić od jej prawdopodobnej siostry lub kuzynki, również Marianny Wieczorek (córki Kacpra), która poślubiła Jana Ofiarę (ID 273).",
+      "en": "Wife of Jakub Ofiara (ID: 129) and the author's great-great-grandmother. Daughter of Kacper and Małgorzata née Grzelak Wieczorek. She should be distinguished from her probable sister or cousin, also named Marianna Wieczorek (daughter of Kacper), who married Jan Ofiara (ID 273)."
+    }
   },
   {
     "id": 131,
@@ -2890,8 +2879,8 @@
       }
     ],
     "biography": {
-      "pl": "Syn protoplasty rodu, Konstantego Ofiary, i Agnieszki Grzegorzewskiej. W akcie urodzenia zapisany pod łacińską formą imienia Stephanum. W 1824 roku poślubił Małgorzatę Kowalczyk. W aktach urodzeń części swoich dzieci (np. Jakuba, Anny) jest konsekwentnie zapisywany pod imieniem Stefan, co było częstą praktyką kancelaryjną w XIX wieku. W akcie urodzenia syna Ignacego (1830) został omyłkowo zapisany jako Szymon. W dokumentach często występuje pod imieniem Stefan (np. w akcie urodzenia syna Jakuba, nr 103), co było powszechną praktyką kancelaryjną zamiennego stosowania polskiego imienia Szczepan z jego zlatynizowanym odpowiednikiem. Jego własny akt urodzenia (nr 242) podaje imię w formie łacińskiej: Stephanum.",
-      "en": "Son of the progenitor of the family, Konstanty Ofiara, and Agnieszka Grzegorzewska. In his birth record, his name appears in the Latin form Stephanum. In 1824, he married Małgorzata Kowalczyk. In the birth records of some of his children (e.g., Jakub, Anna), he is consistently recorded under the name Stefan, which was a common clerical practice in the 19th century. In the birth record of his son Ignacy (1830), he was mistakenly listed as Szymon. He frequently appears in documents under the name Stefan (e.g., in the birth record of his son Jakub, no. 103), which reflects the widespread clerical practice of using the Polish name Szczepan interchangeably with its Latin equivalent. His own birth record (no. 242) gives the name in its Latin form: Stephanum."
+      "pl": "Syn protoplasty rodu, Konstantego Ofiary, i Agnieszki Grzegorzewskiej. Brat Karola Ofiary. W akcie urodzenia zapisany pod łacińską formą imienia Stephanum. W 1824 roku poślubił Małgorzatę Kowalczyk. W aktach urodzeń części swoich dzieci (np. Jakuba, Anny) jest konsekwentnie zapisywany pod imieniem Stefan, co było częstą praktyką kancelaryjną w XIX wieku. W akcie urodzenia syna Ignacego (1830) został omyłkowo zapisany jako Szymon. W dokumentach często występuje pod imieniem Stefan (np. w akcie urodzenia syna Jakuba, nr 103), co było powszechną praktyką kancelaryjną zamiennego stosowania polskiego imienia Szczepan z jego zlatynizowanym odpowiednikiem. Jego własny akt urodzenia (nr 242) podaje imię w formie łacińskiej: Stephanum.",
+      "en": "Son of the progenitor of the family, Konstanty Ofiara, and Agnieszka Grzegorzewska. Brother of Karol Ofiara. In his birth record, his name appears in the Latin form Stephanum. In 1824, he married Małgorzata Kowalczyk. In the birth records of some of his children (e.g., Jakub, Anna), he is consistently recorded under the name Stefan, which was a common clerical practice in the 19th century. In the birth record of his son Ignacy (1830), he was mistakenly listed as Szymon. He frequently appears in documents under the name Stefan (e.g., in the birth record of his son Jakub, no. 103), which reflects the widespread clerical practice of using the Polish name Szczepan interchangeably with its Latin equivalent. His own birth record (no. 242) gives the name in its Latin form: Stephanum."
     },
     "events": [
       {
@@ -5054,8 +5043,8 @@
     "childIds": [],
     "parentIds": [129, 130],
     "biography": {
-      "pl": "Syn Jakuba Ofiary i Marianny z d. Wieczorek. W jego akcie urodzenia matka została błędnie zapisana jako Magdalena. Zmarł w wieku niespełna dwóch lat. Istnieją dwa sprzeczne akty jego zgonu z 1863 roku: jeden wskazuje na datę 27 lutego (w którym ojca błędnie zapisano jako Jana), a drugi na 8 lipca. Rozbieżności w danych metrykalnych były częstym zjawiskiem w tamtym okresie.",
-      "en": "Son of Jakub Ofiara and Marianna née Wieczorek. In his birth record, his mother was mistakenly recorded as Magdalena. He died at the age of nearly two. There are two conflicting death records for him from 1863: one indicates the date of February 27 (in which his father is incorrectly recorded as Jan), and the other indicates July 8. Discrepancies in vital records were a common phenomenon during that period."
+      "pl": "Syn Jakuba Ofiary i Marianny z d. Wieczorek. W jego akcie urodzenia matka została błędnie zapisana jako Magdalena. Zmarł w wieku dwóch lat. Jego akt zgonu (nr 67 z 1863 r.) został ostatecznie zidentyfikowany po odkryciu, że jego kuzyn o tym samym imieniu, syn Jana Ofiary, zmarł w tym samym roku, co wyjaśniło wcześniejsze nieścisłości w dokumentacji.",
+      "en": "Son of Jakub Ofiara and Marianna née Wieczorek. In his birth record, his mother was mistakenly recorded as Magdalena. He died at the age of two. His death record (no. 67 from 1863) was definitively identified after it was discovered that his cousin of the same name, son of Jan Ofiara, had died in the same year, which clarified earlier documentary discrepancies."
     },
     "events": [
       {
@@ -5064,14 +5053,6 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 283
-        }
-      },
-      {
-        "type": "death",
-        "date": "1863-02-27",
-        "place": "Wola Gutowska",
-        "source": {
-          "documentId": 14
         }
       },
       {
@@ -5093,13 +5074,21 @@
     "birthTimeQualifier": "morning",
     "photoUrl": null,
     "family": "ofiara",
-    "spouseIds": [],
+    "spouseIds": [285],
     "childIds": [238, 270],
     "parentIds": [159, 202],
-    "marriages": [],
+    "marriages": [
+      {
+        "spouseId": 285,
+        "date": "1881-02-09",
+        "source": {
+          "documentId": 336
+        }
+      }
+    ],
     "biography": {
-      "pl": "Syn Wincentego Ofiary i Franciszki z d. Walczak. Brat Ignacego, Rozalii, Franciszka i Jana.",
-      "en": "Son of Wincenty Ofiara and Franciszka née Walczak. Brother of Ignacy, Rozalia, Franciszek and Jan."
+      "pl": "Syn Wincentego Ofiary i Franciszki z d. Walczak. Brat Ignacego, Rozalii, Franciszka i Jana. W 1881 roku poślubił swoją kuzynkę drugiego stopnia, Franciszkę Ofiarę, córkę Jana.",
+      "en": "Son of Wincenty Ofiara and Franciszka née Walczak. Brother of Ignacy, Rozalia, Franciszek and Jan. In 1881, he married his second cousin, Franciszka Ofiara, daughter of Jan."
     },
     "events": [
       {
@@ -5688,40 +5677,47 @@
     "id": 245,
     "firstName": "Józef",
     "lastName": "Ofiara",
-    "birthDateNote": "ok. 1873",
+    "birthDateNote": "ok. 1871",
     "family": "ofiara",
     "spouseIds": [246],
     "childIds": [244, 254],
-    "parentIds": [],
+    "parentIds": [283, 284],
     "marriages": [
       {
         "spouseId": 246,
-        "date": "?"
+        "date": "1893-03-11",
+        "source": {
+          "documentId": 338
+        }
       }
     ],
     "biography": {
-      "pl": "Mąż Antoniny z domu Świniarskiej i ojciec Marianny. W 1899 roku, zgłaszając zgon córki, miał 26 lat.",
-      "en": "Husband of Antonina née Świniarska and father of Marianna. In 1899, when reporting his daughter's death, he was 26 years old."
+      "pl": "Syn Jana Ofiary i Marianny z domu Wieczorek. Mąż Antoniny (w akcie ślubu Apolonii) ze Świniarskich i ojciec Marianny oraz Jana. W 1899 roku, zgłaszając zgon córki, miał 26 lat, co sugeruje rok urodzenia ok. 1873, natomiast w akcie ślubu z 1893 roku podano wiek 22 lata, co sugeruje rok urodzenia ok. 1871.",
+      "en": "Son of Jan Ofiara and Marianna née Wieczorek. Husband of Antonina (in the marriage record Apolonia) née Świniarska and father of Marianna and Jan. In 1899, when reporting his daughter's death, he was 26 years old, which suggests a birth year of around 1873, whereas his 1893 marriage record states he was 22, suggesting a birth year of around 1871."
     }
   },
   {
     "id": 246,
-    "firstName": "Antonina",
+    "firstName": "Apolonia",
     "lastName": "Ofiara",
     "maidenName": "Świniarska",
+    "birthDateNote": "ok. 1876",
     "family": "ofiara",
     "spouseIds": [245],
     "childIds": [244, 254],
-    "parentIds": [],
+    "parentIds": [305, 306],
     "marriages": [
       {
         "spouseId": 245,
-        "date": "?"
+        "date": "1893-03-11",
+        "source": {
+          "documentId": 338
+        }
       }
     ],
     "biography": {
-      "pl": "Żona Józefa Ofiary i matka Marianny.",
-      "en": "Wife of Józef Ofiara and mother of Marianna."
+      "pl": "Żona Józefa Ofiary i matka Marianny oraz Jana. W akcie ślubu występuje jako Apolonia, córka Andrzeja i Barbary z Maliszewskich. W aktach zgonów jej dzieci jest zapisana jako Antonina.",
+      "en": "Wife of Józef Ofiara and mother of Marianna and Jan. In her marriage record, she appears as Apolonia, daughter of Andrzej and Barbara née Maliszewska. In her children's death records, she is recorded as Antonina."
     }
   },
   {
@@ -6312,9 +6308,10 @@
     "firstName": "Jan",
     "lastName": "Ofiara",
     "birthDateNote": "ok. 1830-1840",
+    "deathDateNote": "po 1907",
     "family": "ofiara",
     "spouseIds": [274],
-    "childIds": [11, 23, 206, 209, 213, 236, 243, 253],
+    "childIds": [11, 23, 206, 209, 213, 236, 243, 253, 272, 299],
     "parentIds": [],
     "marriages": [
       {
@@ -6323,8 +6320,8 @@
       }
     ],
     "biography": {
-      "pl": "Mąż Marianny z domu Wieczorek (ID: 274). Ojciec licznego potomstwa, z którego niestety żadne ze znanych dzieci nie dożyło dorosłości: Julianna, Franciszka, dwie córki o imieniu Teofila, Stanisław, Franciszek, Ludwika i Adam. Prawdopodobnie brat lub kuzyn Jakuba Ofiary (ID: 129).",
-      "en": "Husband of Marianna née Wieczorek (ID: 274). Father of numerous children, none of whom are known to have reached adulthood: Julianna, Franciszka, two daughters named Teofila, Stanisław, Franciszek, Ludwika, and Adam. Likely the brother or cousin of Jakub Ofiara (ID: 129)."
+      "pl": "Mąż Marianny z domu Wieczorek (ID: 274). Ojciec licznego potomstwa, z którego niestety większość zmarła w dzieciństwie: Julianna, Franciszka, dwie córki o imieniu Teofila, Stanisław, Franciszek, Ludwika, Adam, Agnieszka i Katarzyna. Prawdopodobnie brat lub kuzyn Jakuba Ofiary (ID: 129).",
+      "en": "Husband of Marianna née Wieczorek (ID: 274). Father of numerous children, most of whom unfortunately died in childhood: Julianna, Franciszka, two daughters named Teofila, Stanisław, Franciszek, Ludwika, Adam, Agnieszka and Katarzyna. Likely the brother or cousin of Jakub Ofiara (ID: 129)."
     }
   },
   {
@@ -6337,8 +6334,8 @@
     "deathTime": "21:00",
     "family": "ofiara",
     "spouseIds": [273],
-    "childIds": [11, 23, 206, 209, 213, 236, 243, 253],
-    "parentIds": [],
+    "childIds": [11, 23, 206, 209, 213, 236, 243, 253, 272, 299],
+    "parentIds": [322, 323],
     "marriages": [
       {
         "spouseId": 273,
@@ -6346,8 +6343,8 @@
       }
     ],
     "biography": {
-      "pl": "Żona Jana Ofiary (ID: 273). Córka Kacpra i Małgorzaty Wieczorków. Matka licznego potomstwa, z którego niestety żadne ze znanych dzieci nie dożyło dorosłości: Julianna, Franciszka, dwie córki o imieniu Teofila, Stanisław, Franciszek, Ludwika i Adam. Zmarła w wieku 69 lat.",
-      "en": "Wife of Jan Ofiara (ID: 273). Daughter of Kacper and Małgorzata Wieczorek. Mother of numerous children, none of whom are known to have reached adulthood: Julianna, Franciszka, two daughters named Teofila, Stanisław, Franciszek, Ludwika, and Adam. She died at the age of 69."
+      "pl": "Żona Jana Ofiary (ID: 273). Córka Kacpra i Małgorzaty Wieczorków. Matka licznego potomstwa, z którego większość zmarła w dzieciństwie. Prawdopodobnie siostra lub bliska kuzynka Marianny Wieczorek (ID 130), żony Jakuba Ofiary. Zmarła w wieku 69 lat.",
+      "en": "Wife of Jan Ofiara (ID: 273). Daughter of Kacper and Małgorzata Wieczorek. Mother of numerous children, most of whom died in childhood. Likely the sister or a close cousin of Marianna Wieczorek (ID 130), wife of Jakub Ofiara. She died at the age of 69."
     },
     "events": [
       {
@@ -6500,13 +6497,129 @@
     }
   },
   {
+    "id": 281,
+    "firstName": "Karol",
+    "lastName": "Ofiara",
+    "birthDateNote": "ok. 1780",
+    "family": "ofiara",
+    "spouseIds": [282],
+    "childIds": [283],
+    "parentIds": [12, 20],
+    "biography": {
+      "pl": "Syn protoplasty rodu, brat Szczepana Ofiary (ID 133). Jego istnienie i relacja braterska ze Szczepanem zostały udowodnione poprzez akt ślubu ich wnuków (Piotra i Franciszki) w 1881 roku. Mąż Salomei z domu Jemiołek i ojciec Jana Ofiary.",
+      "en": "Son of the family progenitor, brother of Szczepan Ofiara (ID 133). His existence and fraternal relationship with Szczepan were proven through the marriage record of their grandchildren (Piotr and Franciszka) in 1881. Husband of Salomea née Jemiołek and father of Jan Ofiara."
+    }
+  },
+  {
+    "id": 282,
+    "firstName": "Salomea",
+    "lastName": "Ofiara",
+    "maidenName": "Jemiołek",
+    "family": "ofiara",
+    "spouseIds": [281],
+    "childIds": [283],
+    "parentIds": [],
+    "biography": {
+      "pl": "Żona Karola Ofiary i matka Jana Ofiary. Jej dane pochodzą z aktu ślubu jej syna z 1852 roku.",
+      "en": "Wife of Karol Ofiara and mother of Jan Ofiara. Her details come from her son's marriage record from 1852."
+    }
+  },
+  {
+    "id": 283,
+    "firstName": "Jan",
+    "lastName": "Ofiara",
+    "birthDateNote": "ok. 1826",
+    "deathDateNote": "po 1906",
+    "family": "ofiara",
+    "spouseIds": [284],
+    "childIds": [285, 301, 245, 307, 311, 315, 319, 342],
+    "parentIds": [281, 282],
+    "marriages": [
+      {
+        "spouseId": 284,
+        "date": "1852-02-08"
+      }
+    ],
+    "biography": {
+      "pl": "Syn Karola Ofiary i Salomei z Jemiołków. W 1852 roku poślubił Mariannę Wieczorek. Ojciec Franciszki, Zofii, Józefa, Józefy, Antoniny, Jana (zm. 1887 w niemowlęctwie), Józefa (zm. 1863) oraz przybrany ojciec Anny Blicharz. Jego ojciec, Karol, był bratem Szczepana Ofiary, co czyni Jana kuzynem pierwszej linii (bratem stryjecznym) Jakuba Ofiary (ID 129).",
+      "en": "Son of Karol Ofiara and Salomea née Jemiołek. In 1852, he married Marianna Wieczorek. Father of Franciszka, Zofia, Józef, Józefa, Antonina, Jan (d. 1887 in infancy), Józef (d. 1863), and stepfather to Anna Blicharz. His father, Karol, was the brother of Szczepan Ofiara, which makes Jan a first cousin (paternal cousin) to Jakub Ofiara (ID 129)."
+    }
+  },
+  {
+    "id": 284,
+    "firstName": "Marianna",
+    "lastName": "Ofiara",
+    "maidenName": "Wieczorek",
+    "birthDate": "1861-01-02",
+    "birthTime": "12:00",
+    "birthTimeQualifier": "noon",
+    "deathDate": "1897-02-26",
+    "deathTime": "20:00",
+    "family": "ofiara",
+    "spouseIds": [283],
+    "childIds": [285, 301, 245, 307, 311, 315, 319, 342],
+    "parentIds": [320, 321],
+    "marriages": [
+      {
+        "spouseId": 283,
+        "date": "1852-02-08"
+      }
+    ],
+    "biography": {
+      "pl": "Żona Jana Ofiary (syna Karola). Córka Dominika Wieczorka i Salomei z domu Dobrowolskiej. Matka licznych dzieci. Należy ją odróżnić od drugiej Marianny Wieczorek (córki Kacpra), która poślubiła Jakuba Ofiarę.",
+      "en": "Wife of Jan Ofiara (son of Karol). Daughter of Dominik Wieczorek and Salomea née Dobrowolska. Mother of numerous children. She should be distinguished from the other Marianna Wieczorek (daughter of Kacper), who married Jakub Ofiara."
+    },
+    "events": [
+      {
+        "type": "birth",
+        "date": "1861-01-02",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 344
+        }
+      },
+      {
+        "type": "death",
+        "date": "1897-02-26",
+        "place": "Tymowska Wola",
+        "source": {
+          "documentId": 343
+        }
+      }
+    ]
+  },
+  {
+    "id": 285,
+    "firstName": "Franciszka",
+    "lastName": "Ofiara",
+    "maidenName": "Ofiara",
+    "birthDateNote": "ok. 1863",
+    "family": "ofiara",
+    "spouseIds": [217],
+    "childIds": [],
+    "parentIds": [283, 284],
+    "marriages": [
+      {
+        "spouseId": 217,
+        "date": "1881-02-09",
+        "source": {
+          "documentId": 336
+        }
+      }
+    ],
+    "biography": {
+      "pl": "Córka Jana Ofiary i Marianny z domu Wieczorek. W 1881 roku poślubiła swojego kuzyna drugiego stopnia, Piotra Ofiarę (syna Wincentego, wnuka Szczepana). Jej ślub jest kluczowym dowodem łączącym gałęzie Szczepana i Karola Ofiarów.",
+      "en": "Daughter of Jan Ofiara and Marianna née Wieczorek. In 1881, she married her second cousin, Piotr Ofiara (son of Wincenty, grandson of Szczepan). Her marriage is the key evidence connecting the branches of Szczepan and Karol Ofiara."
+    }
+  },
+  {
     "id": 12,
     "firstName": "NN",
     "lastName": "Ofiara",
     "birthDateNote": "ok. 1750",
     "family": "ofiara",
     "spouseIds": [20],
-    "childIds": [161, 9, 225, 232],
+    "childIds": [161, 281, 9, 225, 232],
     "parentIds": [],
     "biography": {
       "pl": "Symboliczny protoplasta rodu Ofiara, ojciec Konstantego, Jędrzeja, Jana i Wincentego. Jego istnienie jest wnioskiem genealogicznym, pozwalającym połączyć główne gałęzie rodu w jedno drzewo.",
@@ -6519,7 +6632,7 @@
     "lastName": "Ofiara",
     "family": "ofiara",
     "spouseIds": [12],
-    "childIds": [161, 9, 225, 232],
+    "childIds": [161, 281, 9, 225, 232],
     "parentIds": [],
     "biography": {
       "pl": "Symboliczna protoplastka rodu Ofiara, matka Konstantego, Jędrzeja, Jana i Wincentego.",
@@ -6668,6 +6781,423 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 335
+        }
+      }
+    ]
+  },
+  {
+    "id": 301,
+    "firstName": "Zofia",
+    "lastName": "Bartosiak",
+    "maidenName": "Ofiara",
+    "birthDateNote": "ok. 1873",
+    "family": "ofiara",
+    "spouseIds": [302],
+    "childIds": [],
+    "parentIds": [283, 284],
+    "marriages": [
+      {
+        "spouseId": 302,
+        "date": "1891-02-08",
+        "source": {
+          "documentId": 337
+        }
+      }
+    ],
+    "biography": {
+      "pl": "Córka Jana Ofiary i Marianny z domu Wieczorek. Siostra Franciszki. W 1891 roku, w wieku 18 lat, poślubiła Franciszka Bartosiaka.",
+      "en": "Daughter of Jan Ofiara and Marianna née Wieczorek. Sister of Franciszka. In 1891, at the age of 18, she married Franciszek Bartosiak."
+    }
+  },
+  {
+    "id": 302,
+    "firstName": "Franciszek",
+    "lastName": "Bartosiak",
+    "birthDateNote": "ok. 1865",
+    "spouseIds": [301],
+    "childIds": [],
+    "parentIds": [303, 304],
+    "marriages": [
+      {
+        "spouseId": 301,
+        "date": "1891-02-08",
+        "source": {
+          "documentId": 337
+        }
+      }
+    ],
+    "biography": {
+      "pl": "Mąż Zofii Ofiary, córki Jana i Marianny. Syn Jana i zmarłej Marianny z domu Michalskiej.",
+      "en": "Husband of Zofia Ofiara, daughter of Jan and Marianna. Son of Jan and the late Marianna née Michalska."
+    }
+  },
+  {
+    "id": 303,
+    "firstName": "Jan",
+    "lastName": "Bartosiak",
+    "spouseIds": [304],
+    "childIds": [302],
+    "parentIds": [],
+    "biography": {
+      "pl": "Mąż Marianny z domu Michalskiej i ojciec Franciszka Bartosiaka.",
+      "en": "Husband of Marianna née Michalska and father of Franciszek Bartosiak."
+    }
+  },
+  {
+    "id": 304,
+    "firstName": "Marianna",
+    "lastName": "Bartosiak",
+    "maidenName": "Michalska",
+    "deathDateNote": "przed 1891",
+    "spouseIds": [303],
+    "childIds": [302],
+    "parentIds": [],
+    "biography": {
+      "pl": "Żona Jana Bartosiaka i matka Franciszka. Zmarła przed ślubem syna w 1891 roku.",
+      "en": "Wife of Jan Bartosiak and mother of Franciszek. She died before her son's wedding in 1891."
+    }
+  },
+  {
+    "id": 305,
+    "firstName": "Andrzej",
+    "lastName": "Świniarski",
+    "spouseIds": [306],
+    "childIds": [246],
+    "parentIds": [],
+    "biography": {
+      "pl": "Mąż Barbary z domu Maliszewskiej i ojciec Apolonii Świniarskiej.",
+      "en": "Husband of Barbara née Maliszewska and father of Apolonia Świniarska."
+    }
+  },
+  {
+    "id": 306,
+    "firstName": "Barbara",
+    "lastName": "Świniarska",
+    "maidenName": "Maliszewska",
+    "spouseIds": [305],
+    "childIds": [246],
+    "parentIds": [],
+    "biography": {
+      "pl": "Żona Andrzeja Świniarskiego i matka Apolonii.",
+      "en": "Wife of Andrzej Świniarski and mother of Apolonia."
+    }
+  },
+  {
+    "id": 307,
+    "firstName": "Józefa",
+    "lastName": "Kowalczyk",
+    "maidenName": "Ofiara",
+    "birthDateNote": "ok. 1888",
+    "family": "ofiara",
+    "spouseIds": [308],
+    "childIds": [],
+    "parentIds": [283, 284],
+    "marriages": [
+      {
+        "spouseId": 308,
+        "date": "1906-02-11",
+        "source": {
+          "documentId": 339
+        }
+      }
+    ],
+    "biography": {
+      "pl": "Córka Jana Ofiary i Marianny z domu Wieczorek. Siostra Franciszki, Zofii i Józefa. W 1906 roku, w wieku 18 lat, poślubiła Jana Kowalczyka.",
+      "en": "Daughter of Jan Ofiara and Marianna née Wieczorek. Sister of Franciszka, Zofia and Józef. In 1906, at the age of 18, she married Jan Kowalczyk."
+    }
+  },
+  {
+    "id": 308,
+    "firstName": "Jan",
+    "lastName": "Kowalczyk",
+    "birthDateNote": "ok. 1885",
+    "spouseIds": [307],
+    "childIds": [],
+    "parentIds": [309, 310],
+    "marriages": [
+      {
+        "spouseId": 307,
+        "date": "1906-02-11",
+        "source": {
+          "documentId": 339
+        }
+      }
+    ],
+    "biography": {
+      "pl": "Mąż Józefy Ofiary, córki Jana i Marianny. Syn Ludwika i Teofili z domu Stachowicz.",
+      "en": "Husband of Józefa Ofiara, daughter of Jan and Marianna. Son of Ludwik and Teofila née Stachowicz."
+    }
+  },
+  {
+    "id": 309,
+    "firstName": "Ludwik",
+    "lastName": "Kowalczyk",
+    "spouseIds": [310],
+    "childIds": [308],
+    "parentIds": [],
+    "biography": {
+      "pl": "Mąż Teofili z domu Stachowicz i ojciec Jana Kowalczyka.",
+      "en": "Husband of Teofila née Stachowicz and father of Jan Kowalczyk."
+    }
+  },
+  {
+    "id": 310,
+    "firstName": "Teofila",
+    "lastName": "Kowalczyk",
+    "maidenName": "Stachowicz",
+    "spouseIds": [309],
+    "childIds": [308],
+    "parentIds": [],
+    "biography": {
+      "pl": "Żona Ludwika Kowalczyka i matka Jana.",
+      "en": "Wife of Ludwik Kowalczyk and mother of Jan."
+    }
+  },
+  {
+    "id": 311,
+    "firstName": "Antonina",
+    "lastName": "Sobień",
+    "maidenName": "Ofiara",
+    "birthDateNote": "ok. 1909",
+    "family": "ofiara",
+    "spouseIds": [312],
+    "childIds": [],
+    "parentIds": [283, 284],
+    "marriages": [
+      {
+        "spouseId": 312,
+        "date": "1932-08-27",
+        "source": {
+          "documentId": 340
+        }
+      }
+    ],
+    "biography": {
+      "pl": "Córka Jana Ofiary i Marianny z domu Wieczorek. Siostra Franciszki, Zofii, Józefa i Józefy. W 1932 roku, w wieku 23 lat, poślubiła Józefa Sobienia.",
+      "en": "Daughter of Jan Ofiara and Marianna née Wieczorek. Sister of Franciszka, Zofia, Józef and Józefa. In 1932, at the age of 23, she married Józef Sobień."
+    }
+  },
+  {
+    "id": 312,
+    "firstName": "Józef",
+    "lastName": "Sobień",
+    "birthDateNote": "ok. 1909",
+    "spouseIds": [311],
+    "childIds": [],
+    "parentIds": [313, 314],
+    "marriages": [
+      {
+        "spouseId": 311,
+        "date": "1932-08-27",
+        "source": {
+          "documentId": 340
+        }
+      }
+    ],
+    "biography": {
+      "pl": "Mąż Antoniny Ofiary, córki Jana i Marianny. Syn Antoniego i zmarłej Marianny Sobień.",
+      "en": "Husband of Antonina Ofiara, daughter of Jan and Marianna. Son of Antoni and the late Marianna Sobień."
+    }
+  },
+  {
+    "id": 313,
+    "firstName": "Antoni",
+    "lastName": "Sobień",
+    "spouseIds": [314],
+    "childIds": [312],
+    "parentIds": [],
+    "biography": {
+      "pl": "Mąż Marianny i ojciec Józefa Sobienia.",
+      "en": "Husband of Marianna and father of Józef Sobień."
+    }
+  },
+  {
+    "id": 314,
+    "firstName": "Marianna",
+    "lastName": "Sobień",
+    "maidenName": "NN",
+    "deathDateNote": "przed 1932",
+    "spouseIds": [313],
+    "childIds": [312],
+    "parentIds": [],
+    "biography": {
+      "pl": "Żona Antoniego Sobienia i matka Józefa. Zmarła przed ślubem syna w 1932 roku.",
+      "en": "Wife of Antoni Sobień and mother of Józef. She died before her son's wedding in 1932."
+    }
+  },
+  {
+    "id": 315,
+    "firstName": "Anna",
+    "lastName": "Jaskulska",
+    "maidenName": "Blicharz",
+    "birthDateNote": "ok. 1913",
+    "family": "ofiara",
+    "photoUrl": "/images/anna.avif",
+    "spouseIds": [316],
+    "childIds": [],
+    "parentIds": [283, 284],
+    "marriages": [
+      {
+        "spouseId": 316,
+        "date": "1935-10-30",
+        "source": {
+          "documentId": 341
+        }
+      }
+    ],
+    "biography": {
+      "pl": "Córka Marianny z Wieczorków (żony Jana Ofiary) i nieznanego z imienia mężczyzny o nazwisku Blicharz. Urodziła się w dworze w Jedlance, co sugeruje, że jej matka tam pracowała. Wychowywała się w rodzinie Ofiarów. W 1935 roku poślubiła Józefa Jaskulskiego.",
+      "en": "Daughter of Marianna née Wieczorek (wife of Jan Ofiara) and a man of unknown first name with the surname Blicharz. She was born in the manor in Jedlanka, which suggests her mother worked there. She was raised in the Ofiara family. In 1935, she married Józef Jaskulski."
+    }
+  },
+  {
+    "id": 316,
+    "firstName": "Józef",
+    "lastName": "Jaskulski",
+    "birthDateNote": "ok. 1913",
+    "spouseIds": [315],
+    "childIds": [],
+    "parentIds": [317, 318],
+    "marriages": [
+      {
+        "spouseId": 315,
+        "date": "1935-10-30",
+        "source": {
+          "documentId": 341
+        }
+      }
+    ],
+    "biography": {
+      "pl": "Mąż Anny Blicharz. Syn Pawła i Julianny z domu Bębeniec.",
+      "en": "Husband of Anna Blicharz. Son of Paweł and Julianna née Bębeniec."
+    }
+  },
+  {
+    "id": 317,
+    "firstName": "Paweł",
+    "lastName": "Jaskulski",
+    "spouseIds": [318],
+    "childIds": [316],
+    "parentIds": [],
+    "biography": {
+      "pl": "Mąż Julianny z domu Bębeniec i ojciec Józefa Jaskulskiego.",
+      "en": "Husband of Julianna née Bębeniec and father of Józef Jaskulski."
+    }
+  },
+  {
+    "id": 318,
+    "firstName": "Julianna",
+    "lastName": "Jaskulska",
+    "maidenName": "Bębeniec",
+    "spouseIds": [317],
+    "childIds": [316],
+    "parentIds": [],
+    "biography": {
+      "pl": "Żona Pawła Jaskulskiego i matka Józefa.",
+      "en": "Wife of Paweł Jaskulski and mother of Józef."
+    }
+  },
+  {
+    "id": 319,
+    "firstName": "Józef",
+    "lastName": "Ofiara",
+    "birthDateNote": "ok. 1861",
+    "deathDate": "1863-02-27",
+    "deathTime": "09:00",
+    "deathTimeQualifier": "morning",
+    "family": "ofiara",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [283, 284],
+    "biography": {
+      "pl": "Syn Jana Ofiary i Marianny z domu Wieczorek. Zmarł w wieku dwóch lat. Jego istnienie i pochodzenie potwierdza akt zgonu, w którym jego ojciec Jan jest zgłaszającym i podaje swój wiek (37 lat), co odróżnia go od jego kuzyna, również Józefa (syna Jakuba), który zmarł w tym samym roku.",
+      "en": "Son of Jan Ofiara and Marianna née Wieczorek. He died at the age of two. His existence and parentage are confirmed by his death record, in which his father Jan is the informant and states his age (37), distinguishing him from his cousin, also named Józef (son of Jakub), who died in the same year."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1863-02-27",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 342
+        }
+      }
+    ]
+  },
+  {
+    "id": 320,
+    "firstName": "Dominik",
+    "lastName": "Wieczorek",
+    "birthDateNote": "ok. 1836",
+    "spouseIds": [321],
+    "childIds": [284],
+    "parentIds": [],
+    "biography": {
+      "pl": "Mąż Salomei z domu Dobrowolskiej i ojciec Marianny Wieczorek, żony Jana Ofiary. W 1861 roku miał 25 lat.",
+      "en": "Husband of Salomea née Dobrowolska and father of Marianna Wieczorek, wife of Jan Ofiara. In 1861, he was 25 years old."
+    }
+  },
+  {
+    "id": 321,
+    "firstName": "Salomea",
+    "lastName": "Wieczorek",
+    "maidenName": "Dobrowolska",
+    "birthDateNote": "ok. 1832",
+    "spouseIds": [320],
+    "childIds": [284],
+    "parentIds": [],
+    "biography": {
+      "pl": "Żona Dominika Wieczorka i matka Marianny, żony Jana Ofiary. W 1861 roku miała 29 lat.",
+      "en": "Wife of Dominik Wieczorek and mother of Marianna, wife of Jan Ofiara. In 1861, she was 29 years old."
+    }
+  },
+  {
+    "id": 322,
+    "firstName": "Kacper",
+    "lastName": "Wieczorek",
+    "spouseIds": [323],
+    "childIds": [130],
+    "parentIds": [],
+    "biography": {
+      "pl": "Mąż Małgorzaty z domu Grzelak. Ojciec Marianny Wieczorek (ID 130), żony Jakuba Ofiary.",
+      "en": "Husband of Małgorzata née Grzelak. Father of Marianna Wieczorek (ID 130), wife of Jakub Ofiara."
+    }
+  },
+  {
+    "id": 323,
+    "firstName": "Małgorzata",
+    "lastName": "Wieczorek",
+    "maidenName": "Grzelak",
+    "spouseIds": [322],
+    "childIds": [130],
+    "parentIds": [],
+    "biography": {
+      "pl": "Żona Kacpra Wieczorka i matka Marianny (ID 130), żony Jakuba Ofiary.",
+      "en": "Wife of Kacper Wieczorek and mother of Marianna (ID 130), wife of Jakub Ofiara."
+    }
+  },
+  {
+    "id": 342,
+    "firstName": "Jan",
+    "lastName": "Ofiara",
+    "birthDate": "1887-02-25",
+    "deathDate": "1887-02-25",
+    "deathTime": "20:00",
+    "family": "ofiara",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [283, 284],
+    "biography": {
+      "pl": "Syn Jana Ofiary i Marianny z domu Wieczorek. Zmarł w dniu narodzin, w wieku 11 godzin. W akcie zgonu błędnie zapisano jego wiek jako 11 lat. Zgon zgłosił jego ojciec w towarzystwie swojego kuzyna, Jakuba Ofiary (ID 129).",
+      "en": "Son of Jan Ofiara and Marianna née Wieczorek. He died on the day of his birth, at the age of 11 hours. His death record mistakenly states his age as 11 years. His death was reported by his father, accompanied by his cousin, Jakub Ofiara (ID 129)."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1887-02-25",
+        "place": "Tymowska Wola",
+        "source": {
+          "documentId": 342
         }
       }
     ]

@@ -234,89 +234,51 @@
   },
   {
     "id": 14,
-    "title_pl": "Akt Zgonu: Józef Ofiara (1863)",
-    "title_en": "Death Record: Józef Ofiara (1863)",
+    "title_pl": "Akt Zgonu: Józef Ofiara, syn Jana (1863)",
+    "title_en": "Death Record: Józef Ofiara, son of Jan (1863)",
     "type": "death_record",
-    "description_pl": "Parafia Jedlińsk, akt nr 47, 1863 r. Dokument potwierdza zgon dwuletniego Józefa, syna Jakuba (w akcie błędnie jako Jan) i Marianny z Wieczorków.",
-    "description_en": "Jedlińsk Parish, record no. 47, 1863. The document confirms the death of two-year-old Józef, son of Jakub (incorrectly recorded as Jan) and Marianna née Wieczorek.",
+    "description_pl": "Parafia Jedlińsk, akt nr 47, 1863 r. Kluczowy dokument potwierdzający zgon dwuletniego Józefa, syna Jana i Marianny z Wieczorków. Ojciec, Jan Ofiara, zgłaszając zgon, podał swój wiek (37 lat), co pozwoliło odróżnić tego Józefa od jego kuzyna, Józefa syna Jakuba, który zmarł w tym samym roku.",
+    "description_en": "Jedlińsk Parish, record no. 47, 1863. A key document confirming the death of two-year-old Józef, son of Jan and Marianna née Wieczorek. The father, Jan Ofiara, reporting the death, stated his age (37), which made it possible to distinguish this Józef from his cousin, Józef son of Jakub, who died in the same year.",
     "imageUrl": "/images/k.avif",
     "transcription": "Działo się w mieście Jedlińsku, dnia pierwszego Marca, tysiąc osmset sześćdziesiątego trzeciego roku, o godzinie jedenastej rano. Stawił się Jan Ofiara, ojciec zmarłego, lat trzydzieści i siedm maiący, i Dominik Niemonek, lat trzydzieści dwa liczący, obydwa włościanie z Woli Gutowskiej; i oświadczyli Nam iż w Woli Gutowskiej dnia dwudziestego siódmego Lutego bieżącego roku, o godzinie dziewiątej rano umarł Józef Ofiara, syn wspomnianego Jana i Maryanny z Wieczorków małżonków Ofiarów, włościanin, dwa lata liczący. Po przekonaniu się naocznie o zejściu Józefa Ofiary, Akt ten Stawającym przeczytany, a że pisać nieumieją, przez Nas tylko podpisany został. X. Jan Kłochowski Proboszcz i Urzędnik Stanu Cywilnego Parafii Jedlińsko.",
     "translation_pl": "Działo się w mieście Jedlińsku dnia pierwszego marca tysiąc osiemset sześćdziesiątego trzeciego roku o godzinie jedenastej rano. Stawił się Jan Ofiara, ojciec zmarłego, lat trzydzieści siedem, i Dominik Niemonek, lat trzydzieści dwa, obaj włościanie z Woli Gutowskiej; i oświadczyli nam, iż w Woli Gutowskiej dnia dwudziestego siódmego lutego bieżącego roku o godzinie dziewiątej rano zmarł Józef Ofiara, syn wspomnianego Jana i Marianny z Wieczorków, małżonków Ofiarów, włościanin, liczący dwa lata. Po naocznym przekonaniu się o zejściu Józefa Ofiary, Akt ten stawiającym przeczytany, a że pisać nie umieją, przez nas tylko podpisany został. Ks. Jan Kłochowski, Proboszcz i Urzędnik Stanu Cywilnego Parafii Jedlińsko.",
-    "translation_en": "It happened in the town of Jedlińsk on the first of March, one thousand eight hundred and sixty-three, at eleven o'clock in the morning. Appeared Jan Ofiara, father of the deceased, aged thirty-seven, and Dominik Niemonek, aged thirty-two, both peasants from Wola Gutowska; and they declared to us that in Wola Gutowska on the twenty-seventh of February of the current year, at nine o'clock in the morning, died Józef Ofiara, son of the aforementioned Jan and Marianna née Wieczorek, spouses Ofiara, a peasant, aged two years. After visually confirming the passing of Józef Ofiara, this act was read to the declarants, and as they cannot write, it was signed only by Us. Fr. Jan Kłochowski, Pastor and Civil Registrar of the Jedlińsko Parish.",
-    "extracted_data": [
-      {
-        "label_pl": "Zmarły",
-        "label_en": "Deceased",
-        "value_pl": "Józef Ofiara",
-        "value_en": "Józef Ofiara"
-      },
-      {
-        "label_pl": "Data zgonu",
-        "label_en": "Date of Death",
-        "value_pl": "27 lutego 1863",
-        "value_en": "February 27, 1863"
-      },
-      {
-        "label_pl": "Godzina zgonu",
-        "label_en": "Time of Death",
-        "value_pl": "9:00 rano",
-        "value_en": "9:00 AM"
-      },
-      {
-        "label_pl": "Wiek w chwili zgonu",
-        "label_en": "Age at Death",
-        "value_pl": "2 lata",
-        "value_en": "2 years"
-      },
-      {
-        "label_pl": "Rodzice",
-        "label_en": "Parents",
-        "value_pl": "Jan (Jakub) Ofiara i Marianna z Wieczorków",
-        "value_en": "Jan (Jakub) Ofiara and Marianna née Wieczorek"
-      }
-    ]
+    "translation_en": "It happened in the town of Jedlińsk on the first of March, one thousand eight hundred and sixty-three, at eleven o'clock in the morning. Appeared Jan Ofiara, father of the deceased, aged thirty-seven, and Dominik Niemonek, aged thirty-two, both peasants from Wola Gutowska; and they declared to us that in Wola Gutowska on the twenty-seventh of February of the current year, at nine o'clock in the morning, died Józef Ofiara, son of the aforementioned Jan and Marianna née Wieczorek, spouses Ofiara, a peasant, aged two years. After visually confirming the passing of Józef Ofiara, this act was read to the declarants, and as they cannot write, it was signed only by Us. Fr. Jan Kłochowski, Pastor and Civil Registrar of the Jedlińsko Parish."
   },
   {
-    "id": 15,
-    "title_pl": "Akt Zgonu: Józef Ofiara (1863) - drugi wpis",
-    "title_en": "Death Record: Józef Ofiara (1863) - second entry",
-    "type": "death_record",
-    "description_pl": "Parafia Jedlińsk, akt nr 67, 1863 r. Drugi, sprzeczny akt zgonu dla dwuletniego Józefa, syna Jakuba i Magdaleny (Marianny) z Wieczorków, wskazujący datę śmierci na 8 lipca. Wpis ten jest prawdopodobnie bardziej wiarygodny ze względu na poprawnie zapisane imię ojca.",
-    "description_en": "Jedlińsk Parish, record no. 67, 1863. A second, conflicting death record for two-year-old Józef, son of Jakub and Magdalena (Marianna) née Wieczorek, indicating the date of death as July 8. This entry is likely more credible due to the correctly recorded father's name.",
-    "imageUrl": "/images/k.avif",
-    "transcription": "Działo się w mieście Jedlińsku, dnia dziewiątego Lipca, tysiąc osmset sześćdziesiątego trzeciego roku, o godzinie ósmej rano. Stawił się Jakób Ofiara, ojciec zmarłego lat czterdzieści i Marcin ..., lat czterdzieści dziewięć maiący, włościanie z Wsi Woli Gutowskiej, i oświadczyli iż w dniu ósmym Lipca bieżącego roku, o godzinie ósmej rano, umarł we wsi Woli Gutowskiej Józef Ofiara, syn wspomnianego Jakóba i Magdaleny z Wieczorków małżonków Ofiarów, włościanin, urodzony we wsi Woli Gutowskiej, lat dwa maiący. Po przekonaniu się naocznie o zejściu Józefa Ofiary, Akt ten Stawającym pisać nieumiejącym przeczytany, przez Nas tylko podpisany został. X. Jan Kłochowski Proboszcz Jedliński.",
-    "translation_pl": "Działo się w mieście Jedlińsku, dnia dziewiątego lipca, tysiąc osiemset sześćdziesiątego trzeciego roku, o godzinie ósmej rano. Stawił się Jakub Ofiara, ojciec zmarłego, lat czterdzieści, i Marcin ..., lat czterdzieści dziewięć, włościanie ze Wsi Wola Gutowska; i oświadczyli, iż w dniu ósmym lipca bieżącego roku, o godzinie ósmej rano, umarł we wsi Woli Gutowskiej Józef Ofiara, syn wspomnianego Jakuba i Magdaleny z Wieczorków, małżonków Ofiarów, włościanin, urodzony we wsi Woli Gutowskiej, lat dwa. Po naocznym przekonaniu się o zejściu Józefa Ofiary, Akt ten stawiającym, pisać nieumiejącym, przeczytany, przez Nas tylko podpisany został. Ks. Jan Kłochowski, Proboszcz Jedliński.",
-    "translation_en": "It happened in the town of Jedlińsk on the ninth of July, one thousand eight hundred and sixty-three, at eight o'clock in the morning. Appeared Jakub Ofiara, father of the deceased, aged forty, and Marcin ..., aged forty-nine, peasants from the Village of Wola Gutowska; and they declared that on the eighth of July of the current year, at eight o'clock in the morning, died in the village of Wola Gutowska Józef Ofiara, son of the aforementioned Jakub and Magdalena née Wieczorek, spouses Ofiara, a peasant, born in the village of Wola Gutowska, aged two years. After visually confirming the passing of Józef Ofiara, this Act was read to the declarants, who are unable to write, and was signed only by Us. Fr. Jan Kłochowski, Pastor of Jedlińsk.",
-    "extracted_data": [
+    "id": 216,
+    "firstName": "Józef",
+    "lastName": "Ofiara",
+    "birthDate": "1861-03-11",
+    "birthTime": "21:00",
+    "birthTimeQualifier": "night",
+    "deathDate": "1863-07-08",
+    "deathTime": "08:00",
+    "deathTimeQualifier": "morning",
+    "photoUrl": null,
+    "family": "ofiara",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [129, 130],
+    "biography": {
+      "pl": "Syn Jakuba Ofiary i Marianny z d. Wieczorek. W jego akcie urodzenia matka została błędnie zapisana jako Magdalena. Zmarł w wieku dwóch lat. Jego akt zgonu (nr 67 z 1863 r.) został ostatecznie zidentyfikowany po odkryciu, że jego kuzyn o tym samym imieniu, syn Jana Ofiary, zmarł w tym samym roku, co wyjaśniło wcześniejsze nieścisłości w dokumentacji.",
+      "en": "Son of Jakub Ofiara and Marianna née Wieczorek. In his birth record, his mother was mistakenly recorded as Magdalena. He died at the age of two. His death record (no. 67 from 1863) was definitively identified after it was discovered that his cousin of the same name, son of Jan Ofiara, had died in the same year, which clarified earlier documentary discrepancies."
+    },
+    "events": [
       {
-        "label_pl": "Zmarły",
-        "label_en": "Deceased",
-        "value_pl": "Józef Ofiara",
-        "value_en": "Józef Ofiara"
+        "type": "birth",
+        "date": "1861-03-11",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 283
+        }
       },
       {
-        "label_pl": "Data zgonu",
-        "label_en": "Date of Death",
-        "value_pl": "8 lipca 1863",
-        "value_en": "July 8, 1863"
-      },
-      {
-        "label_pl": "Godzina zgonu",
-        "label_en": "Time of Death",
-        "value_pl": "8:00 rano",
-        "value_en": "8:00 AM"
-      },
-      {
-        "label_pl": "Wiek w chwili zgonu",
-        "label_en": "Age at Death",
-        "value_pl": "2 lata",
-        "value_en": "2 years"
-      },
-      {
-        "label_pl": "Rodzice",
-        "label_en": "Parents",
-        "value_pl": "Jakub Ofiara i Magdalena z Wieczorków",
-        "value_en": "Jakub Ofiara and Magdalena née Wieczorek"
+        "type": "death",
+        "date": "1863-07-08",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 15
+        }
       }
     ]
   },
@@ -5478,11 +5440,11 @@
   },
   {
     "id": 330,
-    "title_pl": "Akt Zgonu: Marianna Ofiara z d. Wieczorek (1907)",
-    "title_en": "Death Record: Marianna Ofiara née Wieczorek (1907)",
+    "title_pl": "Akt Zgonu: Marianna Ofiara z d. Wieczorek, żona Jana (1907)",
+    "title_en": "Death Record: Marianna Ofiara née Wieczorek, wife of Jan (1907)",
     "type": "death_record",
-    "description_pl": "Parafia Jedlińsk, akt nr 18, 1907 r. Dokument potwierdza zgon Marianny, żony Jana Ofiary, w wieku 69 lat.",
-    "description_en": "Jedlińsk Parish, record no. 18, 1907. The document confirms the death of Marianna, wife of Jan Ofiara, at the age of 69.",
+    "description_pl": "Parafia Jedlińsk, akt nr 18, 1907 r. Dokument potwierdza zgon Marianny (ID 274), żony Jana Ofiary (ID 273), w wieku 69 lat. Zapis ten, podający jej rodziców jako Kacpra i Małgorzatę Wieczorków, ostatecznie potwierdza istnienie w Woli Gutowskiej dwóch różnych par: Jakuba Ofiary z Marianną Wieczorek oraz Jana Ofiary z inną Marianną Wieczorek, która była córką tych samych rodziców, co żona Jakuba.",
+    "description_en": "Jedlińsk Parish, record no. 18, 1907. This document confirms the death of Marianna (ID 274), wife of Jan Ofiara (ID 273), at the age of 69. This record, which names her parents as Kacper and Małgorzata Wieczorek, definitively confirms the existence of two different couples in Wola Gutowska: Jakub Ofiara with Marianna Wieczorek, and Jan Ofiara with another Marianna Wieczorek, who was the daughter of the same parents as Jakub's wife.",
     "imageUrl": "/images/k.avif",
     "transcription": "Состоялось въ Едлинскѣ, перваго (четырнадцатаго) Февраля тысяча девятьсотъ седьмаго года, въ десять часовъ утра. — Явились: Янъ Офяра, мужъ умершей, и Францишекъ Голомбъ, оба земледѣльцы изъ Гутовской Воли; — и объявили, что вчерашняго числа, въ девять часовъ вечера, умерла въ Гутовской Волѣ Маріянна изъ Вечорковъ Офяра, дочь Каспра и Малгоржаты, законныхъ супруговъ Вечорковъ, родившаяся въ Гутовской Волѣ, шестидесяти девяти лѣтъ отъ роду, оставивъ по себѣ мужа Яна Офяру. — По наочномъ удостовѣреніи о кончинѣ Маріанны Офяры, актъ сей присутствующимъ неграмотнымъ прочитанъ, и Нами только подписанъ. Кс. Францишекъ Сверчинскій.",
     "translation_pl": "Działo się w Jedlińsku, pierwszego (czternastego) lutego tysiąc dziewięćset siódmego roku, o godzinie dziesiątej rano. — Stawili się: Jan Ofiara, mąż zmarłej, i Franciszek Gołąb, obaj rolnicy z Woli Gutowskiej; — i oświadczyli, że wczorajszego dnia, o godzinie dziewiątej wieczorem, zmarła w Woli Gutowskiej Marianna z Wieczorków Ofiara, córka Kacpra i Małgorzaty, prawnych małżonków Wieczorków, urodzona w Woli Gutowskiej, mająca sześćdziesiąt dziewięć lat, zostawiwszy po sobie męża Jana Ofiarę. — Po naocznym stwierdzeniu zgonu Marianny Ofiary, akt ten obecnym niepiśmiennym przeczytano i tylko przez nas podpisany. Ks. Franciszek Świerczyński.",
@@ -5591,5 +5553,113 @@
         "value_en": "Ignacy Kalbarczyk (husband), Jakub Ofiara"
       }
     ]
+  },
+  {
+    "id": 336,
+    "title_pl": "Akt Ślubu: Piotr Ofiara i Franciszka Ofiara (1881)",
+    "title_en": "Marriage Record: Piotr Ofiara & Franciszka Ofiara (1881)",
+    "type": "marriage_record",
+    "description_pl": "Parafia Jedlińsk, akt nr 5 z 1881 r. Kluczowy dokument potwierdzający małżeństwo Piotra (wnuka Szczepana Ofiary) z Franciszką (wnuczką Karola Ofiary). Ten akt ostatecznie dowodzi, że Szczepan i Karol byli braćmi, a w Woli Gutowskiej żyły dwie różne Marianny Wieczorek.",
+    "description_en": "Jedlińsk Parish, record no. 5 from 1881. A key document confirming the marriage of Piotr (grandson of Szczepan Ofiara) to Franciszka (granddaughter of Karol Ofiara). This act definitively proves that Szczepan and Karol were brothers and that there were two different women named Marianna Wieczorek living in Wola Gutowska.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Состоялось въ Едлинскѣ, двадцать восьмаго Января (девятаго Февраля) тысяча восемьсотъ восемьдесятъ перваго года, въ одинъ часъ по полудни. — Объявляемъ, что въ присутствіи свидѣтелей: Якоба Тармуса, шестидесяти двухъ, и Валентего Бальбрака, земледѣльца изъ Тымовской Воли, шестидесяти двухъ лѣтъ отъ роду; — заключено сего дня религіозный брачный союзъ, между: Пётромъ Офярою, холостымъ, крестьяниномъ, уроженцемъ и жителемъ въ Тымовской Волѣ, сыномъ покойныхъ: Винцентего и Францишки изъ Вальчаковъ, законныхъ супруговъ Офяровъ, двадцати лѣтъ отъ роду; — а Францишкою Офярою, дѣвицею, при родителяхъ на землѣ состоящею, дочерью: Яна и Маріанны изъ Вечорковъ, законныхъ супруговъ Офяровъ, земледѣльцевъ, родившеюся въ Тымовской Волѣ, осьмнадцати лѣтъ отъ роду. — Браку сему предшествовала троекратныя оглашенія въ дняхъ семнадцатомъ, двадцать четвертомъ и тридцать первомъ Января текущаго года, въ Приходскомъ Костелѣ Едлинскомъ. — Новобрачные объявили, что никакого брачнаго договора между ними не заключили. — Религіозный обрядъ бракосочетанія совершилъ Ксендзъ Іоаннъ Кержковскій, Настоятель Прихода Едлинскаго. — Актъ сей по прочтеніи Нами только подписанъ, присутствующіе писать неумѣютъ.",
+    "translation_pl": "Działo się w Jedlińsku, dwudziestego ósmego stycznia (dziewiątego lutego) tysiąc osiemset osiemdziesiątego pierwszego roku, o godzinie pierwszej po południu. — Oświadczamy, że w obecności świadków: Jakuba Tarmusa, lat sześćdziesiąt dwa, i Walentego Balbraka, rolnika z Tymowskiej Woli, lat sześćdziesiąt dwa; — zawarto dziś religijny związek małżeński, między: Piotrem Ofiarą, kawalerem, włościaninem, urodzonym i zamieszkałym w Tymowskiej Woli, synem zmarłych: Wincentego i Franciszki z Walczaków, prawnych małżonków Ofiarów, lat dwadzieścia; — a Franciszką Ofiarą, panną, przy rodzicach na ziemi pozostającą, córką: Jana i Marianny z Wieczorków, prawnych małżonków Ofiarów, rolników, urodzoną w Tymowskiej Woli, lat osiemnaście. — Małżeństwo to poprzedziły trzy zapowiedzi w dniach siedemnastym, dwudziestym czwartym i trzydziestym pierwszym stycznia bieżącego roku, w Przychodzkim Kościele Jedlińskim. — Nowożeńcy oświadczyli, że żadnej umowy przedślubnej między sobą nie zawarli. — Obrzęd ślubu odprawił Ksiądz Jan Kierzkowski, Proboszcz Parafii Jedlińskiej. — Akt ten po przeczytaniu przez nas tylko podpisany, obecni pisać nie umieją.",
+    "translation_en": "It happened in Jedlińsk on the twenty-eighth of January (ninth of February), eighteen hundred and eighty-one, at one o'clock in the afternoon. — We declare that in the presence of witnesses: Jakub Tarmus, sixty-two years old, and Walenty Balbrak, a farmer from Tymowska Wola, sixty-two years old; — a religious marital union was contracted today, between: Piotr Ofiara, a bachelor, peasant, born and residing in Tymowska Wola, son of the deceased: Wincenty and Franciszka née Walczak, the lawful spouses Ofiara, twenty years old; — and Franciszka Ofiara, a maiden, residing with her parents, daughter of: Jan and Marianna née Wieczorek, the lawful spouses Ofiara, farmers, born in Tymowska Wola, eighteen years old. — This marriage was preceded by three banns on the seventeenth, twenty-fourth, and thirty-first of January of the current year, in the Parish Church of Jedlińsk. — The newlyweds declared that they had not entered into any prenuptial agreement. — The marriage ceremony was performed by Father Jan Kierzkowski, Pastor of the Jedlińsk Parish. — This act, after being read, was signed only by us, as those present cannot write."
+  },
+  {
+    "id": 337,
+    "title_pl": "Akt Ślubu: Franciszek Bartosiak i Zofia Ofiara (1891)",
+    "title_en": "Marriage Record: Franciszek Bartosiak & Zofia Ofiara (1891)",
+    "type": "marriage_record",
+    "description_pl": "Parafia Jedlińsk, akt nr 8 z 1891 r. Dokument potwierdza małżeństwo Zofii (córki Jana Ofiary i Marianny z Wieczorków) z Franciszkiem Bartosiakiem. Jest to kolejny dowód na istnienie bocznej gałęzi rodu Ofiara.",
+    "description_en": "Jedlińsk Parish, record no. 8 from 1891. The document confirms the marriage of Zofia (daughter of Jan Ofiara and Marianna née Wieczorek) to Franciszek Bartosiak. This is further proof of the existence of a collateral branch of the Ofiara family.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Состоялось въ Едлинскѣ, двадцать седьмаго Января (осьмаго Февраля) тысяча восемьсотъ девяносто перваго года, въ часъ по полудни. — Объявляемъ, что въ присутствіи свидѣтелей: Яна и Андрея Бомбовъ, земледѣльцевъ въ Тымовской Волѣ; — заключено сего дня религіозный брачный союзъ, между: Францишкомъ Бартосякомъ, холостымъ, сыномъ Яна и покойной Марціанны изъ Михальскихъ, законныхъ супруговъ Бартосяковъ, земледѣльцевъ, родившимся въ Тымовской Волѣ, двадцати шести лѣтъ отъ роду; — а Зофіею Офярою, дѣвицею, при родителяхъ на землѣ состоящею, дочерью: Яна и Маріанны изъ Вечорковъ, законныхъ супруговъ Офяровъ, земледѣльцевъ, родившеюся въ Тымовской Волѣ, осьмнадцати лѣтъ отъ роду. — Браку сему предшествовала троекратныя оглашенія въ дняхъ одинадцатомъ, восемнадцатомъ и двадцать пятомъ Января текущаго года, въ Приходскомъ Костелѣ Едлинскомъ. — Новобрачные объявили, что никакого брачнаго договора между ними не заключили. — Религіозный обрядъ бракосочетанія совершилъ Ксендзъ Павелъ Пабѣдзинскій, Настоятель Прихода Едлинскаго. — Актъ сей по прочтеніи Нами только подписанъ, присутствующіе писать неумѣютъ.",
+    "translation_pl": "Działo się w Jedlińsku, dwudziestego siódmego stycznia (ósmego lutego) tysiąc osiemset dziewięćdziesiątego pierwszego roku, o godzinie pierwszej po południu. — Oświadczamy, że w obecności świadków: Jana i Andrzeja Bąków, rolników z Tymowskiej Woli; — zawarto dziś religijny związek małżeński, między: Franciszkiem Bartosiakiem, kawalerem, synem Jana i zmarłej Marcjanny z Michalskich, prawnych małżonków Bartosiaków, rolników, urodzonym w Tymowskiej Woli, lat dwadzieścia sześć; — a Zofią Ofiarą, panną, przy rodzicach na ziemi pozostającą, córką: Jana i Marianny z Wieczorków, prawnych małżonków Ofiarów, rolników, urodzoną w Tymowskiej Woli, lat osiemnaście. — Małżeństwo to poprzedziły trzy zapowiedzi w dniach jedenastym, osiemnastym i dwudziestym piątym stycznia bieżącego roku, w Przychodzkim Kościele Jedlińskim. — Nowożeńcy oświadczyli, że żadnej umowy przedślubnej między sobą nie zawarli. — Obrzęd ślubu odprawił Ksiądz Paweł Pabiedziński, Proboszcz Parafii Jedlińskiej. — Akt ten po przeczytaniu przez nas tylko podpisany, obecni pisać nie umieją.",
+    "translation_en": "It happened in Jedlińsk on the twenty-seventh of January (eighth of February), eighteen hundred and ninety-one, at one o'clock in the afternoon. — We declare that in the presence of witnesses: Jan and Andrzej Bąk, farmers from Tymowska Wola; — a religious marital union was contracted today, between: Franciszek Bartosiak, a bachelor, son of Jan and the late Marcjanna née Michalska, the lawful spouses Bartosiak, farmers, born in Tymowska Wola, twenty-six years old; — and Zofia Ofiara, a maiden, residing with her parents, daughter of: Jan and Marianna née Wieczorek, the lawful spouses Ofiara, farmers, born in Tymowska Wola, eighteen years old. — This marriage was preceded by three banns on the eleventh, eighteenth, and twenty-fifth of January of the current year, in the Parish Church of Jedlińsk. — The newlyweds declared that they had not entered into any prenuptial agreement. — The marriage ceremony was performed by Father Paweł Pabiedziński, Pastor of the Jedlińsk Parish. — This act, after being read, was signed only by us, as those present cannot write."
+  },
+  {
+    "id": 338,
+    "title_pl": "Akt Ślubu: Józef Ofiara i Apolonia Świniarska (1893)",
+    "title_en": "Marriage Record: Józef Ofiara & Apolonia Świniarska (1893)",
+    "type": "marriage_record",
+    "description_pl": "Parafia Jedlińsk, akt nr 27 z 1893 r. Dokument potwierdza małżeństwo Józefa (syna Jana Ofiary i Marianny z Wieczorków) z Apolonią Świniarską. To trzecie odnalezione dziecko z tej gałęzi rodu.",
+    "description_en": "Jedlińsk Parish, record no. 27 from 1893. The document confirms the marriage of Józef (son of Jan Ofiara and Marianna née Wieczorek) to Apolonia Świniarska. This is the third child discovered from this branch of the family.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Состоялось въ Едлинскѣ, двадцать седьмаго Февраля (одиннадцатаго Марта) тысяча восемьсотъ девяносто третьяго года, въ часъ по полудни. — Объявляемъ, что въ присутствіи свидѣтелей: Матеуша Опахо, помѣщичьяго эконома изъ Заблудцѣ, сорока шести лѣтъ, и Болеслава Пискоржа, помѣщичьяго эконома изъ Тымовской Воли, сорока четырехъ лѣтъ отъ роду; — заключено сего дня религіозный брачный союзъ, между: Іосифомъ Офярою, холостымъ, при родителяхъ въ Тымовской Волѣ живущимъ, сыномъ: Яна и Маріанны изъ Вечорковъ, законныхъ супруговъ Офяровъ, земледѣльцевъ, родившимся въ Тымовской Волѣ, двадцати двухъ лѣтъ отъ роду; — а Аполоніею Свинярскою, дѣвицею, при родителяхъ на землѣ состоящею, дочерью: Андрея и Барбары изъ Малишевскихъ, законныхъ супруговъ Свинярскихъ, колонистовъ, родившеюся въ колоніи Заблудцѣ, семнадцати лѣтъ отъ роду. — Браку сему предшествовала троекратныя оглашенія въ дняхъ: одинадцатомъ, восемнадцатомъ и двадцать пятомъ Февраля текущаго года, въ Приходскомъ Костелѣ Едлинскомъ. — Новобрачные объявили, что никакого брачнаго договора между ними не заключили. — Религіозный обрядъ бракосочетанія совершилъ Ксендзъ Павелъ Пабѣдзинскій, Администраторъ Прихода Едлинскаго. — Актъ сей по прочтеніи Нами только подписанъ, присутствующіе писать неумѣютъ.",
+    "translation_pl": "Działo się w Jedlińsku, dwudziestego siódmego lutego (jedenastego marca) tysiąc osiemset dziewięćdziesiątego trzeciego roku, o godzinie pierwszej po południu. — Oświadczamy, że w obecności świadków: Mateusza Opacho, ekonoma dworskiego z Zabłocia, lat czterdzieści sześć, i Bolesława Piskorza, ekonoma dworskiego z Tymowskiej Woli, lat czterdzieści cztery; — zawarto dziś religijny związek małżeński, między: Józefem Ofiarą, kawalerem, przy rodzicach w Tymowskiej Woli żyjącym, synem: Jana i Marianny z Wieczorków, prawnych małżonków Ofiarów, rolników, urodzonym w Tymowskiej Woli, lat dwadzieścia dwa; — a Apolonią Świniarską, panną, przy rodzicach na ziemi pozostającą, córką: Andrzeja i Barbary z Maliszewskich, prawnych małżonków Świniarskich, kolonistów, urodzoną w kolonii Zabłocie, lat siedemnaście. — Małżeństwo to poprzedziły trzy zapowiedzi w dniach: jedenastym, osiemnastym i dwudziestym piątym lutego bieżącego roku, w Przychodzkim Kościele Jedlińskim. — Nowożeńcy oświadczyli, że żadnej umowy przedślubnej między sobą nie zawarli. — Obrzęd ślubu odprawił Ksiądz Paweł Pabiedziński, Administrator Parafii Jedlińskiej. — Akt ten po przeczytaniu przez nas tylko podpisany, obecni pisać nie umieją.",
+    "translation_en": "It happened in Jedlińsk on the twenty-seventh of February (eleventh of March), eighteen hundred and ninety-three, at one o'clock in the afternoon. — We declare that in the presence of witnesses: Mateusz Opacho, a manor farm manager from Zabłocie, forty-six years old, and Bolesław Piskorz, a manor farm manager from Tymowska Wola, forty-four years old; — a religious marital union was contracted today, between: Józef Ofiara, a bachelor, living with his parents in Tymowska Wola, son of: Jan and Marianna née Wieczorek, the lawful spouses Ofiara, farmers, born in Tymowska Wola, twenty-two years old; — and Apolonia Świniarska, a maiden, residing with her parents, daughter of: Andrzej and Barbara née Maliszewska, the lawful spouses Świniarski, colonists, born in the Zabłocie colony, seventeen years old. — This marriage was preceded by three banns on the days: the eleventh, eighteenth, and twenty-fifth of February of the current year, in the Parish Church of Jedlińsk. — The newlyweds declared that they had not entered into any prenuptial agreement. — The marriage ceremony was performed by Father Paweł Pabiedziński, Administrator of the Jedlińsk Parish. — This act, after being read, was signed only by us, as those present cannot write."
+  },
+  {
+    "id": 339,
+    "title_pl": "Akt Ślubu: Jan Kowalczyk i Józefa Ofiara (1906)",
+    "title_en": "Marriage Record: Jan Kowalczyk & Józefa Ofiara (1906)",
+    "type": "marriage_record",
+    "description_pl": "Parafia Jedlińsk, akt nr 23 z 1906 r. Dokument potwierdza małżeństwo Józefy (córki Jana Ofiary i Marianny z Wieczorków) z Janem Kowalczykiem. To czwarte odnalezione dziecko z tej gałęzi rodu.",
+    "description_en": "Jedlińsk Parish, record no. 23 from 1906. The document confirms the marriage of Józefa (daughter of Jan Ofiara and Marianna née Wieczorek) to Jan Kowalczyk. This is the fourth child discovered from this branch of the family.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Состоялось въ Едлинскѣ, двадцать девятаго Января (одиннадцатаго Февраля) тысяча девятьсотъ шестого года, въ десять часовъ утра. — Объявляемъ, что въ присутствіи свидѣтелей: Іосифа и Антона Кацперовъ, земледѣльцевъ въ Едлянкѣ; — заключено сего дня религіозный брачный союзъ, между: Яномъ Ковальчикомъ, холостымъ, сыномъ Людвика и Теофили изъ Стаховичевъ, законныхъ супруговъ Ковальчиковъ, земледѣльцевъ, родившимся въ Едлянкѣ, двадцати одного года отъ роду; — а Іосифою Офярою, дѣвицею, при родителяхъ на землѣ состоящею, дочерью: Яна и Маріанны изъ Вечорковъ, законныхъ супруговъ Офяровъ, земледѣльцевъ, родившеюся въ Гутовской Волѣ, осьмнадцати лѣтъ отъ роду. — Браку сему предшествовала троекратныя оглашенія въ дняхъ двадцать первомъ, двадцать восьмомъ Января и четвертомъ Февраля текущаго года, въ Приходскомъ Костелѣ Едлинскомъ. — Новобрачные объявили, что никакого брачнаго договора между ними не заключили. — Религіозный обрядъ бракосочетанія совершилъ Ксендзъ Павелъ Пабѣдзинскій, Настоятель Прихода Едлинскаго. — Актъ сей по прочтеніи Нами только подписанъ, присутствующіе писать неумѣютъ.",
+    "translation_pl": "Działo się w Jedlińsku, dwudziestego dziewiątego stycznia (jedenastego lutego) tysiąc dziewięćset szóstego roku, o godzinie dziesiątej rano. — Oświadczamy, że w obecności świadków: Józefa i Antoniego Kacprów, rolników z Jedlanki; — zawarto dziś religijny związek małżeński, między: Janem Kowalczykiem, kawalerem, synem Ludwika i Teofili ze Stachowiczów, prawnych małżonków Kowalczyków, rolników, urodzonym w Jedlance, lat dwadzieścia jeden; — a Józefą Ofiarą, panną, przy rodzicach na ziemi pozostającą, córką: Jana i Marianny z Wieczorków, prawnych małżonków Ofiarów, rolników, urodzoną w Woli Gutowskiej, lat osiemnaście. — Małżeństwo to poprzedziły trzy zapowiedzi w dniach dwudziestym pierwszym, dwudziestym ósmym stycznia i czwartym lutego bieżącego roku, w Przychodzkim Kościele Jedlińskim. — Nowożeńcy oświadczyli, że żadnej umowy przedślubnej między sobą nie zawarli. — Obrzęd ślubu odprawił Ksiądz Paweł Pabiedziński, Proboszcz Parafii Jedlińskiej. — Akt ten po przeczytaniu przez nas tylko podpisany, obecni pisać nie umieją.",
+    "translation_en": "It happened in Jedlińsk on the twenty-ninth of January (eleventh of February), nineteen hundred and six, at ten o'clock in the morning. — We declare that in the presence of witnesses: Józef and Antoni Kacper, farmers from Jedlanka; — a religious marital union was contracted today, between: Jan Kowalczyk, a bachelor, son of Ludwik and Teofila née Stachowicz, the lawful spouses Kowalczyk, farmers, born in Jedlanka, twenty-one years old; — and Józefa Ofiara, a maiden, residing with her parents, daughter of: Jan and Marianna née Wieczorek, the lawful spouses Ofiara, farmers, born in Wola Gutowska, eighteen years old. — This marriage was preceded by three banns on the twenty-first, twenty-eighth of January, and the fourth of February of the current year, in the Parish Church of Jedlińsk. — The newlyweds declared that they had not entered into any prenuptial agreement. — The marriage ceremony was performed by Father Paweł Pabiedziński, Pastor of the Jedlińsk Parish. — This act, after being read, was signed only by us, as those present cannot write."
+  },
+  {
+    "id": 340,
+    "title_pl": "Akt Ślubu: Józef Sobień i Antonina Ofiara (1932)",
+    "title_en": "Marriage Record: Józef Sobień & Antonina Ofiara (1932)",
+    "type": "marriage_record",
+    "description_pl": "Parafia Błotnica, akt nr 3 z 1932 r. Dokument potwierdza małżeństwo Antoniny (córki Jana Ofiary i Marianny z Wieczorków) z Józefem Sobieniem. To piąte odnalezione dorosłe dziecko z tej gałęzi rodu.",
+    "description_en": "Błotnica Parish, record no. 3 from 1932. The document confirms the marriage of Antonina (daughter of Jan Ofiara and Marianna née Wieczorek) to Józef Sobień. This is the fifth adult child discovered from this branch of the family.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się we wsi Błotnicy dnia dwudziestego siódmego Sierpnia Tysiąc dziewięćset trzydziestego drugiego roku o godzinie dziewiątej rano. Wiadomo czynimy, iż w obecności świadków Stanisława Sobienia i Stanisława Ofiary obydwóch pełnoletnich, na dniu dzisiejszym zawarte zostało religijne małżeństwo między Józefem Sobieniem, kawalerem, synem Antoniego i zmarłej Marjanny małżonków Sobieniów lat dwadzieścia trzy mającym, urodzonym i zamieszkałym we wsi Kobylniku parafji tutejszej a Antoniną Ofiarą, panną, córką Jana i zmarłej Marjanny z Wieczorków małżonków Ofiarów lat dwadzieścia trzy mającą, urodzoną we wsi Gutowskiej woli parafji Jankowice a zamieszkałą we wsi Kobylniku parafji tutejszej. Małżeństwo to poprzedziły trzy zapowiedzie tu w Błotnicy i w parafjalnym kościele w Jedlińsku w dniach dziesiątym, siedemnastym i dwudziestym czwartym Sierpnia roku bieżącego ogłoszone. Małżonkowie nowi oświadczyli, iż umowy przedślubnej na piśmie między sobą nie zawarli. Obrzęd ten religijny dopełniony został przez księdza Jana Gajewskiego miejscowego wikarjusza. Akt ten stawiającym i świadkom pisać nieumiejącym przeczytany sami podpisaliśmy.",
+    "translation_pl": "Działo się we wsi Błotnicy dnia dwudziestego siódmego sierpnia tysiąc dziewięćset trzydziestego drugiego roku o godzinie dziewiątej rano. Wiadomo czynimy, iż w obecności świadków Stanisława Sobienia i Stanisława Ofiary obydwóch pełnoletnich, na dniu dzisiejszym zawarte zostało religijne małżeństwo między Józefem Sobieniem, kawalerem, synem Antoniego i zmarłej Marianny małżonków Sobieniów, lat dwadzieścia trzy mającym, urodzonym i zamieszkałym we wsi Kobylniku parafii tutejszej, a Antoniną Ofiarą, panną, córką Jana i zmarłej Marianny z Wieczorków małżonków Ofiarów, lat dwadzieścia trzy mającą, urodzoną we wsi Gutowskiej woli parafii Jankowice a zamieszkałą we wsi Kobylniku parafii tutejszej. Małżeństwo to poprzedziły trzy zapowiedzie tu w Błotnicy i w parafialnym kościele w Jedlińsku w dniach dziesiątym, siedemnastym i dwudziestym czwartym sierpnia roku bieżącego ogłoszone. Małżonkowie nowi oświadczyli, iż umowy przedślubnej na piśmie między sobą nie zawarli. Obrzęd ten religijny dopełniony został przez księdza Jana Gajewskiego miejscowego wikariusza. Akt ten stawiającym i świadkom pisać nieumiejącym przeczytany sami podpisaliśmy.",
+    "translation_en": "It happened in the village of Błotnica on the twenty-seventh of August, one thousand nine hundred and thirty-two, at nine o'clock in the morning. We make it known that in the presence of witnesses Stanisław Sobień and Stanisław Ofiara, both of legal age, on this day a religious marriage was contracted between Józef Sobień, a bachelor, son of Antoni and the late Marianna, spouses Sobień, aged twenty-three, born and residing in the village of Kobylnik of this parish, and Antonina Ofiara, a maiden, daughter of Jan and the late Marianna née Wieczorek, spouses Ofiara, aged twenty-three, born in the village of Gutowska wola of the Jankowice parish and residing in the village of Kobylnik of this parish. This marriage was preceded by three banns announced here in Błotnica and in the parish church in Jedlińsk on the tenth, seventeenth, and twenty-fourth days of August of the current year. The new spouses declared that they had not entered into a written prenuptial agreement. This religious rite was performed by Father Jan Gajewski, the local vicar. This act was read to the declarants and witnesses, who are illiterate, and we ourselves signed it."
+  },
+  {
+    "id": 341,
+    "title_pl": "Akt Ślubu: Józef Jaskulski i Anna Blicharz (1935)",
+    "title_en": "Marriage Record: Józef Jaskulski & Anna Blicharz (1935)",
+    "type": "marriage_record",
+    "description_pl": "Parafia Jedlińsk, akt nr 20 z 1935 r. Dokument potwierdza małżeństwo Anny Blicharz, córki Marianny z Wieczorków (żony Jana Ofiary). Ujawnia, że Anna była prawdopodobnie nieślubnym dzieckiem Marianny, które nosiło nazwisko biologicznego ojca.",
+    "description_en": "Jedlińsk Parish, record no. 20 from 1935. The document confirms the marriage of Anna Blicharz, daughter of Marianna née Wieczorek (wife of Jan Ofiara). It reveals that Anna was likely the illegitimate child of Marianna, who carried her biological father's surname.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się w Jedlińsku dnia trzydziestego Października tysiąc dziewięćset trzydziestego piątego roku o godzinie dziewiątej rano. Wiadomo czynimy, że w obecności świadków Piotra Pawełka lat pięćdziesiąt i Jana Jaskulskiego lat czterdzieści i trzy mających, obydwóch gospodarzy zamieszkałych w Nowych Zawadach, na dniu dzisiejszym zawarte zostało religijne małżeństwo między Józefem Jaskulskim, kawalerem urodzonym i zamieszkałym w Nowych Zawadach, synem Pawła i Julianny z Bębeńców, lat dwadzieścia dwa mającym – a Anną Blicharz, panną urodzoną w Jedlance we dworze, córką Jana i Marjanny z Wieczorków, lat dwadzieścia dwa mającą w Błotnicy, a zamieszkałą w Jedlance we dworze. Małżeństwo to poprzedziły trzy zapowiedzie ogłoszone w parafjalnym kościele w Jedlińsku w dniach szóstego, trzynastego i dziewiętnastego Czerwca roku bieżącego. Małżonkowie nowi oświadczyli, że nie zawarli żadnej przedślubnej umowy. Obrzęd religijny dopełniony został w Jedlińsku przez księdza Franciszka Góralskiego, proboszcza miejscowego. Akt ten stawiającym i świadkom niepiśmiennym przeczytany, przez nas tylko podpisany został. Ks. Fr. Góralski.",
+    "translation_pl": "Działo się w Jedlińsku dnia trzydziestego października tysiąc dziewięćset trzydziestego piątego roku o godzinie dziewiątej rano. Wiadomo czynimy, że w obecności świadków Piotra Pawełka, lat pięćdziesiąt, i Jana Jaskulskiego, lat czterdzieści trzy, obydwóch gospodarzy zamieszkałych w Nowych Zawadach, na dniu dzisiejszym zawarte zostało religijne małżeństwo między Józefem Jaskulskim, kawalerem urodzonym i zamieszkałym w Nowych Zawadach, synem Pawła i Julianny z Bębeńców, lat dwadzieścia dwa mającym – a Anną Blicharz, panną urodzoną w Jedlance we dworze, córką Jana i Marianny z Wieczorków, lat dwadzieścia dwa mającą, w Błotnicy, a zamieszkałą w Jedlance we dworze. Małżeństwo to poprzedziły trzy zapowiedzie ogłoszone w parafialnym kościele w Jedlińsku w dniach szóstego, trzynastego i dziewiętnastego czerwca roku bieżącego. Małżonkowie nowi oświadczyli, że nie zawarli żadnej przedślubnej umowy. Obrzęd religijny dopełniony został w Jedlińsku przez księdza Franciszka Góralskiego, proboszcza miejscowego. Akt ten stawiającym i świadkom niepiśmiennym przeczytany, przez nas tylko podpisany został. Ks. Fr. Góralski.",
+    "translation_en": "It happened in Jedlińsk on the thirtieth of October, nineteen hundred and thirty-five, at nine o'clock in the morning. We make it known that in the presence of witnesses Piotr Pawełek, fifty years old, and Jan Jaskulski, forty-three years old, both farmers residing in Nowe Zawady, on this day a religious marriage was contracted between Józef Jaskulski, a bachelor born and residing in Nowe Zawady, son of Paweł and Julianna née Bębeniec, aged twenty-two – and Anna Blicharz, a maiden born in the manor of Jedlanka, daughter of Jan and Marianna née Wieczorek, aged twenty-two, from Błotnica, and residing in the manor of Jedlanka. This marriage was preceded by three banns announced in the parish church in Jedlińsk on the sixth, thirteenth, and nineteenth of June of the current year. The new spouses declared that they had not entered into any prenuptial agreement. The religious rite was performed in Jedlińsk by Father Franciszek Góralski, the local parish priest. This act was read to the declarants and illiterate witnesses, and was signed only by us. Fr. Fr. Góralski."
+  },
+  {
+    "id": 342,
+    "title_pl": "Akt Zgonu: Jan Ofiara (niemowlę, 1887)",
+    "title_en": "Death Record: Jan Ofiara (infant, 1887)",
+    "type": "death_record",
+    "description_pl": "Parafia Cerekiew, akt nr 31 z 1887 r. Dokument potwierdza zgon Jana, syna Jana Ofiary i Marianny z Wieczorków. W akcie błędnie zapisano wiek zmarłego jako 11 lat, podczas gdy adnotacje i kontekst wskazują, że zmarł w wieku 11 godzin. Zgon zgłosił ojciec, Jan, oraz jego kuzyn, Jakub Ofiara (ID 129), co jest dowodem bliskich relacji między gałęziami rodu.",
+    "description_en": "Cerekiew Parish, record no. 31 from 1887. The document confirms the death of Jan, son of Jan Ofiara and Marianna née Wieczorek. The record mistakenly states the deceased's age as 11 years, while annotations and context indicate he died at 11 hours old. The death was reported by his father, Jan, and his cousin, Jakub Ofiara (ID 129), which is proof of the close relationship between the family branches.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Состоялось въ Едлинскѣ, четырнадцатаго (двадцать шестаго) Февраля тысяча восемьсотъ восемьдесятъ седьмаго года, въ десять часовъ по полудни. — Явились: Янъ Офяра, отецъ умершаго, пятидесяти двухъ лѣтъ, и Якобъ Офяра, пятидесяти четырехъ лѣтъ отъ роду, земледѣльцы въ Тымовской Волѣ; — и объявили, что вчерашняго числа, въ восемь часовъ вечера, умеръ въ Тымовской Волѣ Янъ Офяра, сынъ помянутаго Яна и Маріанны изъ Вечорковъ, законныхъ супруговъ Офяровъ, родившійся въ Тымовской Волѣ, одиннадцати лѣтъ отъ роду. — По наочномъ удостовѣреніи о кончинѣ Яна Офяры, актъ сей присутствующимъ неграмотнымъ прочитанъ, и Нами только подписанъ. Кс. Тадеушъ Павловскій, Адм: Пр: Едлинска.",
+    "translation_pl": "Działo się w Jedlińsku, czternastego (dwudziestego szóstego) lutego tysiąc osiemset osiemdziesiątego siódmego roku, o godzinie dziesiątej po południu. — Stawili się: Jan Ofiara, ojciec zmarłego, lat pięćdziesiąt dwa, i Jakub Ofiara, lat pięćdziesiąt cztery, rolnicy z Tymowskiej Woli; — i oświadczyli, że wczorajszego dnia, o godzinie ósmej wieczorem, zmarł w Tymowskiej Woli Jan Ofiara, syn wspomnianego Jana i Marianny z Wieczorków, prawnych małżonków Ofiarów, urodzony w Tymowskiej Woli, mający jedenaście lat [błąd kancelaryjny, adnotacja wskazuje na 11 godzin]. — Po naocznym stwierdzeniu zgonu Jana Ofiary, akt ten obecnym niepiśmiennym przeczytano i tylko przez nas podpisany. Ks. Tadeusz Pawłowski, Adm: Par: Jedlińskiej.",
+    "translation_en": "It happened in Jedlińsk on the fourteenth (twenty-sixth) of February, eighteen hundred and eighty-seven, at ten o'clock in the afternoon. — Appeared: Jan Ofiara, father of the deceased, fifty-two years old, and Jakub Ofiara, fifty-four years old, farmers from Tymowska Wola; — and they declared that yesterday, at eight o'clock in the evening, Jan Ofiara passed away in Tymowska Wola, son of the aforementioned Jan and Marianna née Wieczorek, the lawful spouses Ofiara, born in Tymowska Wola, aged eleven [clerical error, annotation indicates 11 hours]. — After visually confirming the death of Jan Ofiara, this act was read to the illiterate persons present and signed only by us. Fr. Tadeusz Pawłowski, Adm: of the Jedlińsk Parish."
+  },
+  {
+    "id": 343,
+    "title_pl": "Akt Zgonu: Marianna Ofiara z d. Wieczorek (1897)",
+    "title_en": "Death Record: Marianna Ofiara née Wieczorek (1897)",
+    "type": "death_record",
+    "description_pl": "Parafia Cerekiew, akt nr 51 z 1897 r. Dokument potwierdza zgon Marianny, żony Jana Ofiary, w wieku 42 lat. Kluczowa informacja w akcie to dane jej rodziców: Dominika i Salomei z Dąbrowskich Wieczorków, co ostatecznie odróżnia ją od Marianny Wieczorek, żony Jakuba Ofiary.",
+    "description_en": "Cerekiew Parish, record no. 51 from 1897. The document confirms the death of Marianna, wife of Jan Ofiara, at the age of 42. The key information in the record is the names of her parents: Dominik Wieczorek and Salomea née Dąbrowska, which definitively distinguishes her from Marianna Wieczorek, the wife of Jakub Ofiara.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Состоялось въ Едлинскѣ, четырнадцатаго (двадцать шестаго) Февраля тысяча восемьсотъ девяносто седьмаго года, въ десять часовъ по полудни. — Явились: Янъ Офяра, мужъ умершей, и Францишекъ Икхманъ, оба земледѣльцы изъ Тымовской Воли; — и объявили, что вчерашняго числа, въ восемь часовъ вечера, умерла въ Тымовской Волѣ Маріянна изъ Вечорковъ Офяра, дочь покойныхъ: Доминика и Саломеи изъ Домбровскихъ, законныхъ супруговъ Вечорковъ, родившаяся въ Тымовской Волѣ, сорока двухъ лѣтъ отъ роду, оставивъ по себѣ овдовѣлаго мужа Яна Офяру. — По наочномъ удостовѣреніи о кончинѣ Маріанны Офяры, актъ сей присутствующимъ и Нами только подписанъ, потому что присутствующіе писать неумѣютъ. Кс. Тадеушъ Павловскій, Адм: Пр: Едлинска.",
+    "translation_pl": "Działo się w Jedlińsku, czternastego (dwudziestego szóstego) lutego tysiąc osiemset dziewięćdziesiątego siódmego roku, o godzinie dziesiątej po południu. — Stawili się: Jan Ofiara, mąż zmarłej, i Franciszek Ickiewicz, obaj rolnicy z Tymowskiej Woli; — i oświadczyli, że wczorajszego dnia, o godzinie ósmej wieczorem, zmarła w Tymowskiej Woli Marianna z Wieczorków Ofiara, córka zmarłych: Dominika i Salomei z Dąbrowskich, prawnych małżonków Wieczorków, urodzona w Tymowskiej Woli, mająca czterdzieści dwa lata, zostawiwszy po sobie owdowiałego męża Jana Ofiarę. — Po naocznym stwierdzeniu zgonu Marianny Ofiary, akt ten obecnym i przez nas tylko podpisany, ponieważ obecni pisać nie umieją. Ks. Tadeusz Pawłowski, Adm: Par: Jedlińskiej.",
+    "translation_en": "It happened in Jedlińsk on the fourteenth (twenty-sixth) of February, eighteen hundred and ninety-seven, at ten o'clock in the afternoon. — Appeared: Jan Ofiara, husband of the deceased, and Franciszek Ickiewicz, both farmers from Tymowska Wola; — and they declared that yesterday, at eight o'clock in the evening, Marianna née Wieczorek Ofiara passed away in Tymowska Wola, daughter of the deceased: Dominik and Salomea née Dąbrowska, the lawful spouses Wieczorek, born in Tymowska Wola, aged forty-two, leaving behind her widower husband Jan Ofiara. — After visually confirming the death of Marianna Ofiara, this act was read to those present and signed only by us, because those present cannot write. Fr. Tadeusz Pawłowski, Adm: of the Jedlińsk Parish."
+  },
+  {
+    "id": 344,
+    "title_pl": "Akt Urodzenia: Marianna Wieczorek (1861)",
+    "title_en": "Birth Record: Marianna Wieczorek (1861)",
+    "type": "birth_record",
+    "description_pl": "Parafia Jedlińsk, akt nr 2 z 1861 r. Kluczowy dokument potwierdzający datę urodzenia Marianny Wieczorek (żony Jana Ofiary) oraz tożsamość jej rodziców: Dominika Wieczorka i Salomei z Dobrowolskich. Rozwiązuje to ostatecznie kwestię istnienia dwóch różnych Mariann Wieczorek w tej samej okolicy.",
+    "description_en": "Jedlińsk Parish, record no. 2 from 1861. A key document confirming the birth date of Marianna Wieczorek (wife of Jan Ofiara) and the identity of her parents: Dominik Wieczorek and Salomea née Dobrowolska. This definitively resolves the issue of two different women named Marianna Wieczorek in the same area.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się w mieście Jedlińsku dnia szóstego Stycznia, tysiąc ośmset sześćdziesiątego pierwszego roku o godzinie dwunastej w południe. Stawił się Dominik Wieczorek, włościanin gospodarz, we wsi Woli Gutowskiej zamieszkały, lat dwadzieścia pięć mający, w obecności Macieja Skalskiego lat czterdzieści i Jana Ofiary lat dwadzieścia dziewięć mających, włościan gospodarzy z Wsi Woli Gutowskiej, i okazał nam dziecię płci żeńskiej, oświadczając, iż takowe urodzone jest we wsi Woli Gutowskiej, na dniu drugim Stycznia bieżącego roku, o godzinie dwunastej w południe z jego małżonki Salomei z Dobrowolskich lat dwadzieścia dziewięć mającej. Dziecięciu temu na Chrzcie Świętym w dniu dzisiejszym, przez księdza Pawła Pawłowskiego Wikaryusza Parafii Jedlińsko odbytym, nadane zostało imię Maryanna, a Rodzicami jego Chrzestnymi byli: wspomniany Marcin Maj i Katarzyna Kalbarczyk. Akt ten oświadczającemu i świadkom pisać nieumiejącym przeczytany i przez nas tylko podpisany został. X. Jan Kłochowski Proboszcz Jedliński utrzymujący akta Stanu Cywilnego.",
+    "translation_pl": "Działo się w mieście Jedlińsku dnia szóstego stycznia, tysiąc osiemset sześćdziesiątego pierwszego roku o godzinie dwunastej w południe. Stawił się Dominik Wieczorek, włościanin gospodarz, we wsi Woli Gutowskiej zamieszkały, lat dwadzieścia pięć, w obecności Macieja Skalskiego, lat czterdzieści, i Jana Ofiary, lat dwadzieścia dziewięć, włościan gospodarzy z Wsi Woli Gutowskiej, i okazał nam dziecko płci żeńskiej, oświadczając, iż takowe urodzone jest we wsi Woli Gutowskiej, na dniu drugim stycznia bieżącego roku, o godzinie dwunastej w południe z jego małżonki Salomei z Dobrowolskich, lat dwadzieścia dziewięć. Dziecięciu temu na Chrzcie Świętym w dniu dzisiejszym, przez księdza Pawła Pawłowskiego Wikariusza Parafii Jedlińskiej odbytym, nadane zostało imię Marianna, a Rodzicami jego Chrzestnymi byli: wspomniany Marcin Maj i Katarzyna Kalbarczyk. Akt ten oświadczającemu i świadkom pisać nieumiejącym przeczytany i przez nas tylko podpisany został. X. Jan Kłochowski Proboszcz Jedliński utrzymujący akta Stanu Cywilnego.",
+    "translation_en": "It happened in the Town of Jedlińsk on the sixth of January, one thousand eight hundred and sixty-one, at twelve o'clock at noon. Appeared Dominik Wieczorek, a peasant farmer, residing in the village of Wola Gutowska, aged twenty-five, in the presence of Maciej Skalski, aged forty, and Jan Ofiara, aged twenty-nine, peasant farmers from the Village of Wola Gutowska, and he presented to us a female child, declaring that she was born in the village of Wola Gutowska, on the second day of January of the current year, at twelve o'clock at noon to his wife Salomea née Dobrowolska, aged twenty-nine. At the Holy Baptism performed this day by Father Paweł Pawłowski, Vicar of the Jedlińsk Parish, this child was given the name Marianna, and her Godparents were: the aforementioned Marcin Maj and Katarzyna Kalbarczyk. This act was read to the declarant and witnesses, who are illiterate, and was signed only by us. Fr. Jan Kłochowski, Jedlińsk Pastor, Keeper of the Civil Registry."
   }
 ]

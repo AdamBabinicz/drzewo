@@ -122,9 +122,15 @@
   },
   {
     "lastName": "Bąk",
+    "firstName": "Andrzej",
+    "residence": "Tymowska Wola",
+    "documentIds": [337]
+  },
+  {
+    "lastName": "Bąk",
     "firstName": "Jan",
     "residence": "Wola Gutowska",
-    "documentIds": [213, 296]
+    "documentIds": [213, 296, 337]
   },
   {
     "lastName": "Brodniczówna",
@@ -449,6 +455,12 @@
     "firstName": "Dominik",
     "residence": "Wola Gutowska",
     "documentIds": [17]
+  },
+  {
+    "lastName": "Ickiewicz",
+    "firstName": "Franciszek",
+    "residence": "Tymowska Wola",
+    "documentIds": [343]
   },
   {
     "lastName": "Jakubiak",
@@ -867,8 +879,14 @@
     "firstName": "Jan",
     "residence": "Wola Gutowska",
     "documentIds": [
-      14, 210, 284, 297, 303, 306, 308, 316, 320, 325, 326, 330, 332
+      14, 210, 284, 297, 303, 306, 308, 316, 320, 325, 326, 330, 332, 343
     ]
+  },
+  {
+    "lastName": "Ofiara",
+    "firstName": "Jan",
+    "residence": "Tymowska Wola",
+    "documentIds": [343]
   },
   {
     "lastName": "Ofiara",
@@ -1115,6 +1133,18 @@
     "firstName": "Karol",
     "residence": "Gulinek",
     "documentIds": [222, 238]
+  },
+  {
+    "lastName": "Sobień",
+    "firstName": "Stanisław",
+    "residence": "Kobylnik",
+    "documentIds": [340]
+  },
+  {
+    "lastName": "Ofiara",
+    "firstName": "Stanisław",
+    "residence": "Kobylnik",
+    "documentIds": [340]
   },
   {
     "lastName": "Staworzyńska",
@@ -1379,5 +1409,65 @@
     "firstName": "Jan",
     "residence": "Jedlińsk",
     "documentIds": [13]
+  },
+  {
+    "lastName": "Tarmus",
+    "firstName": "Jakub",
+    "residence": "Tymowska Wola",
+    "documentIds": [336]
+  },
+  {
+    "lastName": "Balbrak",
+    "firstName": "Walenty",
+    "residence": "Tymowska Wola",
+    "documentIds": [336]
+  },
+  {
+    "lastName": "Opacho",
+    "firstName": "Mateusz",
+    "residence": "Zabłocie",
+    "documentIds": [338]
+  },
+  {
+    "lastName": "Piskorz",
+    "firstName": "Bolesław",
+    "residence": "Tymowska Wola",
+    "documentIds": [338]
+  },
+  {
+    "lastName": "Kacper",
+    "firstName": "Józef",
+    "residence": "Jedlanka",
+    "documentIds": [339]
+  },
+  {
+    "lastName": "Kacper",
+    "firstName": "Antoni",
+    "residence": "Jedlanka",
+    "documentIds": [339]
+  },
+  {
+    "lastName": "Pawelec",
+    "firstName": "Piotr",
+    "residence": "Nowe Zawady",
+    "documentIds": [341]
+  },
+  {
+    "lastName": "Jaskulski",
+    "firstName": "Jan",
+    "residence": "Nowe Zawady",
+    "documentIds": [341]
+  },
+  {
+    "lastName": "Skalski",
+    "firstName": "Maciej",
+    "residence": "Wola Gutowska",
+    "documentIds": [344]
+  },
+  {
+    "lastName": "Maj",
+    "firstName": "Marcin",
+    "residence": "Wola Gutowska",
+    "documentIds": [344]
   }
 ]
