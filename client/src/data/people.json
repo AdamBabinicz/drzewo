@@ -3766,16 +3766,26 @@
   {
     "id": 164,
     "firstName": "Marianna",
-    "lastName": "Ofiera vel Ofiara",
+    "lastName": "Lipiec",
+    "maidenName": "Ofiera vel Ofiara",
     "family": "ofiara",
     "birthDate": "1800-04-14",
-    "parentIds": [161, 162],
-    "spouseIds": [],
+    "deathDate": "1873-09-03",
+    "deathTime": "21:00",
+    "deathTimeQualifier": "evening",
+    "spouseIds": [352],
     "childIds": [],
+    "parentIds": [161, 162],
     "biography": {
-      "pl": "Córka Konstantego i Agnieszki z d. Grzegorzewskiej, urodzona w Woli Gutowskiej. Jej nazwisko w akcie urodzenia zapisano jako 'Ofiera'. Była siostrą Wincentego, Szczepana i Stefana.",
-      "en": "Daughter of Konstanty and Agnieszka née Grzegorzewska, born in Wola Gutowska. Her surname was recorded as 'Ofiera' in her birth certificate. She was the sister of Wincenty, Szczepan, and Stefan."
+      "pl": "Córka Konstantego i Agnieszki z d. Grzegorzewskiej. Urodzona w Woli Gutowskiej. Wyszła za mąż za Dominika Lipca i mieszkała z nim w Płaskowie, gdzie zmarła w wieku 72 lat.",
+      "en": "Daughter of Konstanty and Agnieszka née Grzegorzewska. Born in Wola Gutowska. She married Dominik Lipiec and lived with him in Płasków, where she died at the age of 72."
     },
+    "marriages": [
+      {
+        "spouseId": 352,
+        "date": "?"
+      }
+    ],
     "events": [
       {
         "type": "birth",
@@ -3783,6 +3793,14 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 244
+        }
+      },
+      {
+        "type": "death",
+        "date": "1873-09-03",
+        "place": "Płasków",
+        "source": {
+          "documentId": 86
         }
       }
     ]
@@ -4850,13 +4868,28 @@
     "birthTimeQualifier": "morning",
     "photoUrl": null,
     "family": "ofiara",
-    "spouseIds": [],
+    "spouseIds": [346, 347],
     "childIds": [],
     "parentIds": [129, 130],
-    "marriages": [],
+    "marriages": [
+      {
+        "spouseId": 346,
+        "date": "1873",
+        "source": {
+          "documentId": 346
+        }
+      },
+      {
+        "spouseId": 347,
+        "date": "1898",
+        "source": {
+          "documentId": 347
+        }
+      }
+    ],
     "biography": {
-      "pl": "Córka Jakuba Ofiary i Marianny z d. Wieczorek (w akcie urodzenia matka błędnie zapisana jako Magdalena). Siostra Andrzeja, Zofii i Agnieszki.",
-      "en": "Daughter of Jakub Ofiara and Marianna née Wieczorek (in the birth record, the mother was mistakenly recorded as Magdalena). Sister of Andrzej, Zofia and Agnieszka."
+      "pl": "Córka Jakuba Ofiary i Marianny z d. Wieczorek. W jej akcie urodzenia matka została błędnie zapisana jako Magdalena. Była dwukrotnie zamężna: najpierw z Michałem Ofiarą (ślub w 1873 r.), a po jego śmierci z Janem Kucharskim (ślub w 1898 r.).",
+      "en": "Daughter of Jakub Ofiara and Marianna née Wieczorek. In her birth certificate, her mother was mistakenly recorded as Magdalena. She was married twice: first to Michał Ofiara (marriage in 1873), and after his death, to Jan Kucharski (marriage in 1898)."
     },
     "events": [
       {
@@ -7034,7 +7067,7 @@
     "family": "ofiara",
     "photoUrl": "/images/anna.avif",
     "spouseIds": [316],
-    "childIds": [],
+    "childIds": [345],
     "parentIds": [283, 284],
     "marriages": [
       {
@@ -7056,7 +7089,7 @@
     "lastName": "Jaskulski",
     "birthDateNote": "ok. 1913",
     "spouseIds": [315],
-    "childIds": [],
+    "childIds": [345],
     "parentIds": [317, 318],
     "marriages": [
       {
@@ -7199,6 +7232,170 @@
         "source": {
           "documentId": 342
         }
+      }
+    ]
+  },
+  {
+    "id": 345,
+    "firstName": "Genowefa",
+    "lastName": "Jaskulska",
+    "family": "ofiara",
+    "birthDateNote": "ok. 1929",
+    "deathDate": "1939-04-11",
+    "parentIds": [316, 315],
+    "spouseIds": [],
+    "childIds": [],
+    "biography": {
+      "pl": "Córka Józefa Jaskulskiego i Anny z d. Blicharz. Wnuczka Marianny z Wieczorków (żony Jana Ofiary). Zmarła w wieku 10 lat. Jej akt zgonu wskazuje na datę urodzenia ok. 1929 roku, czyli na ok. 6 lat przed ślubem jej rodziców.",
+      "en": "Daughter of Józef Jaskulski and Anna née Blicharz. Granddaughter of Marianna née Wieczorek (wife of Jan Ofiara). She died at the age of 10. Her death certificate indicates a birth date of ca. 1929, which is approx. 6 years before her parents' marriage."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1939-04-11",
+        "place": "Nowe Zawady",
+        "source": {
+          "documentId": 345
+        }
+      }
+    ]
+  },
+  {
+    "id": 346,
+    "firstName": "Michał",
+    "lastName": "Ofiara",
+    "deathDateNote": "przed 1898",
+    "family": "ofiara",
+    "spouseIds": [210],
+    "childIds": [],
+    "parentIds": [],
+    "marriages": [
+      {
+        "spouseId": 210,
+        "date": "1873",
+        "source": {
+          "documentId": 346
+        }
+      }
+    ],
+    "biography": {
+      "pl": "Pierwszy mąż Józefy Ofiary (ID 210), córki Jakuba. Syn Marcina i Apolonii z d. Walter. Zmarł przed 1898 rokiem, ponieważ w tym roku jego żona wyszła ponownie za mąż.",
+      "en": "First husband of Józefa Ofiara (ID 210), daughter of Jakub. Son of Marcin and Apolonia née Walter. He died before 1898, as his wife remarried in that year."
+    }
+  },
+  {
+    "id": 347,
+    "firstName": "Jan",
+    "lastName": "Kucharski",
+    "family": "ofiara",
+    "spouseIds": [210],
+    "childIds": [],
+    "parentIds": [350, 351],
+    "marriages": [
+      {
+        "spouseId": 210,
+        "date": "1898",
+        "source": {
+          "documentId": 347
+        }
+      }
+    ],
+    "biography": {
+      "pl": "Drugi mąż Józefy Ofiary (ID 210), córki Jakuba. Był synem Szymona i Justyny z d. Grzesiak.",
+      "en": "Second husband of Józefa Ofiara (ID 210), daughter of Jakub. He was the son of Szymon and Justyna née Grzesiak."
+    }
+  },
+  {
+    "id": 348,
+    "firstName": "Marcin",
+    "lastName": "Ofiara",
+    "family": "ofiara",
+    "spouseIds": [349],
+    "childIds": [346],
+    "parentIds": [],
+    "marriages": [
+      {
+        "spouseId": 349,
+        "date": "?"
+      }
+    ],
+    "biography": {
+      "pl": "Mąż Apolonii z d. Walter, ojciec Michała Ofiary (ID 346).",
+      "en": "Husband of Apolonia née Walter, father of Michał Ofiara (ID 346)."
+    }
+  },
+  {
+    "id": 349,
+    "firstName": "Apolonia",
+    "lastName": "Ofiara",
+    "maidenName": "Walter",
+    "family": "ofiara",
+    "spouseIds": [348],
+    "childIds": [346],
+    "parentIds": [],
+    "marriages": [
+      {
+        "spouseId": 348,
+        "date": "?"
+      }
+    ],
+    "biography": {
+      "pl": "Żona Marcina Ofiary, matka Michała (ID 346).",
+      "en": "Wife of Marcin Ofiara, mother of Michał (ID 346)."
+    }
+  },
+  {
+    "id": 350,
+    "firstName": "Szymon",
+    "lastName": "Kucharski",
+    "family": "ofiara",
+    "spouseIds": [351],
+    "childIds": [347],
+    "parentIds": [],
+    "marriages": [
+      {
+        "spouseId": 351,
+        "date": "?"
+      }
+    ],
+    "biography": {
+      "pl": "Mąż Justyny z d. Grzesiak, ojciec Jana Kucharskiego.",
+      "en": "Husband of Justyna née Grzesiak, father of Jan Kucharski."
+    }
+  },
+  {
+    "id": 351,
+    "firstName": "Justyna",
+    "lastName": "Kucharska",
+    "maidenName": "Grzesiak",
+    "family": "ofiara",
+    "spouseIds": [350],
+    "childIds": [347],
+    "parentIds": [],
+    "marriages": [
+      {
+        "spouseId": 350,
+        "date": "?"
+      }
+    ],
+    "biography": {
+      "pl": "Żona Szymona Kucharskiego, matka Jana.",
+      "en": "Wife of Szymon Kucharski, mother of Jan."
+    }
+  },
+  {
+    "id": 352,
+    "firstName": "Dominik",
+    "lastName": "Lipiec",
+    "spouseIds": [164],
+    "biography": {
+      "pl": "Mąż Marianny z d. Ofiara (ID 164), córki protoplastów rodu. W 1873 roku zgłosił jej zgon w Płaskowie. Prawdopodobnie spokrewniony z Błażejem i Dionizym Lipcem, którzy pojawiają się jako świadkowie w innych aktach.",
+      "en": "Husband of Marianna née Ofiara (ID 164), daughter of the family progenitors. In 1873, he reported her death in Płasków. Likely related to Błażej and Dionizy Lipiec, who appear as witnesses in other records."
+    },
+    "marriages": [
+      {
+        "spouseId": 164,
+        "date": "?"
       }
     ]
   }

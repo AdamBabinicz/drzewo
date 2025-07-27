@@ -1,11 +1,11 @@
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import InteractiveTree from "@/components/tree/InteractiveTree";
 import PersonModal from "@/components/ui/PersonModal";
 import KeepsakesModal from "@/components/ui/KeepsakesModal";
 import { Person } from "@shared/schema";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Alert, AlertDescription } from "@/components/ui/alert";
-import { AlertCircle, Check, Settings } from "lucide-react";
+import { AlertCircle, Check, Settings, Users, ZoomIn } from "lucide-react";
 import SEO from "@/components/SEO";
 import { useLanguage } from "@/hooks/useLanguage";
 import genealogyData from "@/data/index";
@@ -36,9 +36,9 @@ export default function InteractiveTreeView() {
   const { t } = useLanguage();
   const [selectedPerson, setSelectedPerson] = useState<Person | null>(null);
   const [modalOpen, setModalOpen] = useState(false);
-
-  // KROK 2: Dodaj stan dla modala z pamiątkami
   const [keepsakesPerson, setKeepsakesPerson] = useState<Person | null>(null);
+
+  const [focusedPersonId, setFocusedPersonId] = useState<number>(1);
 
   const [showGierczak, setShowGierczak] = useState(true);
   const [showOfiara, setShowOfiara] = useState(true);
@@ -48,6 +48,11 @@ export default function InteractiveTreeView() {
   const allPeople = genealogyData.people as Person[];
   const isLoading = false;
   const error = null;
+
+  const focusedPerson = useMemo(
+    () => allPeople.find((p) => p.id === focusedPersonId),
+    [allPeople, focusedPersonId]
+  );
 
   const handlePersonClick = (person: Person) => {
     setSelectedPerson(person);
@@ -59,11 +64,15 @@ export default function InteractiveTreeView() {
     setSelectedPerson(null);
   };
 
-  // KROK 3: Dodaj funkcje do obsługi modala z pamiątkami
+  const handleSetFocus = (personId: number) => {
+    setFocusedPersonId(personId);
+    handleModalClose();
+  };
+
   const handleOpenKeepsakes = (person: Person) => {
-    handleModalClose(); // Zamknij modal osoby
+    handleModalClose();
     setTimeout(() => {
-      setKeepsakesPerson(person); // Otwórz modal pamiątek
+      setKeepsakesPerson(person);
     }, 150);
   };
 
@@ -114,13 +123,22 @@ export default function InteractiveTreeView() {
 
         <div className="flex-grow h-[calc(100vh-164px)] relative">
           <InteractiveTree
+            key={focusedPersonId}
             allPeople={allPeople}
+            focusedPersonId={focusedPersonId}
             onPersonClick={handlePersonClick}
             showGierczak={showGierczak}
             showOfiara={showOfiara}
             showDescendants={showDescendants}
             showMarriages={showMarriages}
           />
+
+          <div className="absolute top-4 left-4 bg-card/95 backdrop-blur-sm rounded-lg p-3 shadow-lg heritage-border flex items-center gap-2">
+            <ZoomIn className="w-4 h-4 text-muted-foreground" />
+            <span className="text-sm font-medium heritage-text">
+              {focusedPerson?.firstName} {focusedPerson?.lastName}
+            </span>
+          </div>
 
           <div className="absolute bottom-4 left-4 bg-card/95 backdrop-blur-sm rounded-lg p-3 shadow-lg heritage-border flex items-center flex-wrap gap-x-6 gap-y-2">
             <div className="flex items-center text-sm font-semibold heritage-text mr-2">
@@ -160,10 +178,10 @@ export default function InteractiveTreeView() {
           onClose={handleModalClose}
           onPersonClick={handlePersonClick}
           allPeople={allPeople}
-          onOpenKeepsakes={handleOpenKeepsakes} // KROK 4: Przekaż prop
+          onOpenKeepsakes={handleOpenKeepsakes}
+          onSetFocus={handleSetFocus}
         />
 
-        {/* KROK 5: Renderuj KeepsakesModal tutaj */}
         {keepsakesPerson && (
           <KeepsakesModal
             person={keepsakesPerson}

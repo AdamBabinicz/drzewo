@@ -75,6 +75,7 @@ const translations = {
     "tree.legend.descendants": "Potomkowie",
     "tree.legend.marriages": "Małżeństwa",
     "tree.viewFilters": "Filtry widoku",
+    "tree.setAsFocus": "Ustaw jako centrum",
     "index.title": "Indeks Osób",
     "index.subtitle":
       "Alfabetyczny spis wszystkich osób w bazie genealogicznej",
@@ -430,6 +431,7 @@ const translations = {
     "tree.legend.descendants": "Descendants",
     "tree.legend.marriages": "Marriages",
     "tree.viewFilters": "View Filters",
+    "tree.setAsFocus": "Set as Focus",
     "index.title": "Person Index",
     "index.subtitle":
       "Alphabetical list of all people in the genealogical database",

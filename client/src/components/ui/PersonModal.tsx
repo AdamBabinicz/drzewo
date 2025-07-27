@@ -22,6 +22,7 @@ import {
   Heart,
   Archive,
   Asterisk,
+  Focus,
 } from "lucide-react";
 import {
   Popover,
@@ -37,6 +38,7 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
+import { Button } from "./button";
 
 interface PersonModalProps {
   person: Person | null;
@@ -45,6 +47,7 @@ interface PersonModalProps {
   onPersonClick: (person: Person) => void;
   allPeople: Person[];
   onOpenKeepsakes: (person: Person) => void;
+  onSetFocus?: (personId: number) => void;
 }
 
 const formatDate = (dateString: string | null | undefined, locale: string) => {
@@ -129,6 +132,7 @@ export default function PersonModal({
   onPersonClick,
   allPeople,
   onOpenKeepsakes,
+  onSetFocus,
 }: PersonModalProps) {
   const { t, language } = useLanguage();
   const [documentModalOpen, setDocumentModalOpen] = useState(false);
@@ -136,9 +140,15 @@ export default function PersonModal({
     null
   );
 
-  const currentPerson = allPeople.find((p) => p.id === person?.id) || person;
+  if (!isOpen || !person || !allPeople) {
+    return null;
+  }
 
-  if (!currentPerson) return null;
+  const currentPerson = allPeople.find((p) => p.id === person.id) || person;
+
+  if (!currentPerson) {
+    return null;
+  }
 
   const handleDocumentClick = (docId: number) => {
     setSelectedDocumentId(docId);
@@ -213,6 +223,18 @@ export default function PersonModal({
                 {familyName}
               </DialogDescription>
             </DialogHeader>
+
+            {onSetFocus && (
+              <Button
+                variant="outline"
+                size="sm"
+                className="absolute top-4 right-14"
+                onClick={() => onSetFocus(currentPerson.id)}
+              >
+                <Focus className="w-4 h-4 mr-2" />
+                {t("tree.setAsFocus")}
+              </Button>
+            )}
 
             <ScrollArea className="max-h-[70vh] pr-4">
               <div className="space-y-6">
@@ -309,15 +331,6 @@ export default function PersonModal({
                       );
                       if (!spouse) return null;
 
-                      const isCurrentPersonMale =
-                        !currentPerson.maidenName ||
-                        currentPerson.lastName === currentPerson.maidenName;
-                      const spouseName =
-                        !isCurrentPersonMale &&
-                        spouse.id === currentPerson.spouseIds?.[0]
-                          ? spouse.lastName
-                          : spouse.maidenName || spouse.lastName;
-
                       const marriageDocId = marriage.source?.documentId;
 
                       return (
@@ -331,7 +344,7 @@ export default function PersonModal({
                               <span className="font-semibold">
                                 {t("person.marriedTo")}:
                               </span>{" "}
-                              {spouse.firstName} {spouseName}
+                              {spouse.firstName} {spouse.lastName}
                             </p>
                             {marriage.date && (
                               <div className="flex items-center gap-2">

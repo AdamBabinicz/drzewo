@@ -1088,6 +1088,50 @@
     ]
   },
   {
+    "id": 86,
+    "title_pl": "Akt Zgonu: Marianna Lipiec z d. Ofiara (1873)",
+    "title_en": "Death Record: Marianna Lipiec née Ofiara (1873)",
+    "type": "death_record",
+    "description_pl": "Parafia Jedlińsk, akt nr 86, 1873 r. Kluczowy dokument potwierdzający losy Marianny, córki protoplastów rodu, Konstantego i Agnieszki Ofiarów. Potwierdza jej małżeństwo z Dominikiem Lipcem i śmierć w wieku 72 lat w Płaskowie.",
+    "description_en": "Jedlińsk Parish, record no. 86, 1873. A key document confirming the fate of Marianna, daughter of the family progenitors, Konstanty and Agnieszka Ofiara. It confirms her marriage to Dominik Lipiec and her death at the age of 72 in Płasków.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Состоялось въ Едлинскѣ, двадцатъ третьяго Августа (четвертаго Сентября) тысяча восемьсотъ семьдесятъ третьяго года, въ восемь часовъ утра. Явились: Доминикъ Липецъ, мужъ умершей, и Космина Офяра, оба земледѣльцы изъ Пляскова; и объявили, что вчерашняго числа, въ девять часовъ вечера, умерла въ Плясковѣ Маріянна изъ Офяровъ Липецъ, дочь покойныхъ: Константина и Агнешки изъ Гржегоржевскихъ, законныхъ супруговъ Офяровъ, родившаяся въ Гутовской Волѣ, семидесяти двухъ лѣтъ отъ роду, оставивъ по себѣ овдовѣлаго мужа Доминика Липца. По наочномъ удостовѣреніи о кончинѣ Маріанны Липецъ, актъ сей присутствующимъ неграмотнымъ прочитанъ, и Нами только подписанъ. Кс. Іоаннъ Кержковскій.",
+    "translation_pl": "Działo się w Jedlińsku, dwudziestego trzeciego sierpnia (czwartego września) tysiąc osiemset siedemdziesiątego trzeciego roku, o godzinie ósmej rano. Stawili się: Dominik Lipiec, mąż zmarłej, i Kosma Ofiara, obaj rolnicy z Płaskowa; i oświadczyli, że wczorajszego dnia, o godzinie dziewiątej wieczorem, zmarła w Płaskowie Marianna z Ofiarów Lipiec, córka zmarłych: Konstantego i Agnieszki z Grzegorzewskich, prawnych małżonków Ofiarów, urodzona w Woli Gutowskiej, mająca siedemdziesiąt dwa lata, zostawiwszy po sobie owdowiałego męża Dominika Lipca. Po naocznym stwierdzeniu zgonu Marianny Lipiec, akt ten obecnym niepiśmiennym przeczytano i tylko przez nas podpisany. Ks. Jan Kierzkowski.",
+    "translation_en": "It happened in Jedlińsk on the twenty-third of August (fourth of September), eighteen hundred and seventy-three, at eight o'clock in the morning. Appeared: Dominik Lipiec, husband of the deceased, and Kosma Ofiara, both farmers from Płasków; and they declared that yesterday, at nine o'clock in the evening, Marianna née Ofiara Lipiec passed away in Płasków, daughter of the deceased: Konstanty and Agnieszka née Grzegorzewska, the lawful spouses Ofiara, born in Wola Gutowska, aged seventy-two, leaving behind her widower husband Dominik Lipiec. After visually confirming the death of Marianna Lipiec, this act was read to the illiterate persons present and signed only by us. Fr. Jan Kierzkowski.",
+    "extracted_data": [
+      {
+        "label_pl": "Zmarła",
+        "label_en": "Deceased",
+        "value_pl": "Marianna Lipiec (z d. Ofiara)",
+        "value_en": "Marianna Lipiec (née Ofiara)"
+      },
+      {
+        "label_pl": "Data zgonu",
+        "label_en": "Date of Death",
+        "value_pl": "3 września 1873",
+        "value_en": "September 3, 1873"
+      },
+      {
+        "label_pl": "Wiek w chwili zgonu",
+        "label_en": "Age at Death",
+        "value_pl": "72 lata",
+        "value_en": "72 years"
+      },
+      {
+        "label_pl": "Rodzice",
+        "label_en": "Parents",
+        "value_pl": "Konstanty Ofiara i Agnieszka z Grzegorzewskich",
+        "value_en": "Konstanty Ofiara and Agnieszka née Grzegorzewska"
+      },
+      {
+        "label_pl": "Mąż",
+        "label_en": "Husband",
+        "value_pl": "Dominik Lipiec",
+        "value_en": "Dominik Lipiec"
+      }
+    ]
+  },
+  {
     "id": 101,
     "title_pl": "Akt Zgonu: Ambroży Gierczak (1836)",
     "title_en": "Death Record: Ambroży Gierczak (1836)",
@@ -5661,5 +5705,119 @@
     "transcription": "Działo się w mieście Jedlińsku dnia szóstego Stycznia, tysiąc ośmset sześćdziesiątego pierwszego roku o godzinie dwunastej w południe. Stawił się Dominik Wieczorek, włościanin gospodarz, we wsi Woli Gutowskiej zamieszkały, lat dwadzieścia pięć mający, w obecności Macieja Skalskiego lat czterdzieści i Jana Ofiary lat dwadzieścia dziewięć mających, włościan gospodarzy z Wsi Woli Gutowskiej, i okazał nam dziecię płci żeńskiej, oświadczając, iż takowe urodzone jest we wsi Woli Gutowskiej, na dniu drugim Stycznia bieżącego roku, o godzinie dwunastej w południe z jego małżonki Salomei z Dobrowolskich lat dwadzieścia dziewięć mającej. Dziecięciu temu na Chrzcie Świętym w dniu dzisiejszym, przez księdza Pawła Pawłowskiego Wikaryusza Parafii Jedlińsko odbytym, nadane zostało imię Maryanna, a Rodzicami jego Chrzestnymi byli: wspomniany Marcin Maj i Katarzyna Kalbarczyk. Akt ten oświadczającemu i świadkom pisać nieumiejącym przeczytany i przez nas tylko podpisany został. X. Jan Kłochowski Proboszcz Jedliński utrzymujący akta Stanu Cywilnego.",
     "translation_pl": "Działo się w mieście Jedlińsku dnia szóstego stycznia, tysiąc osiemset sześćdziesiątego pierwszego roku o godzinie dwunastej w południe. Stawił się Dominik Wieczorek, włościanin gospodarz, we wsi Woli Gutowskiej zamieszkały, lat dwadzieścia pięć, w obecności Macieja Skalskiego, lat czterdzieści, i Jana Ofiary, lat dwadzieścia dziewięć, włościan gospodarzy z Wsi Woli Gutowskiej, i okazał nam dziecko płci żeńskiej, oświadczając, iż takowe urodzone jest we wsi Woli Gutowskiej, na dniu drugim stycznia bieżącego roku, o godzinie dwunastej w południe z jego małżonki Salomei z Dobrowolskich, lat dwadzieścia dziewięć. Dziecięciu temu na Chrzcie Świętym w dniu dzisiejszym, przez księdza Pawła Pawłowskiego Wikariusza Parafii Jedlińskiej odbytym, nadane zostało imię Marianna, a Rodzicami jego Chrzestnymi byli: wspomniany Marcin Maj i Katarzyna Kalbarczyk. Akt ten oświadczającemu i świadkom pisać nieumiejącym przeczytany i przez nas tylko podpisany został. X. Jan Kłochowski Proboszcz Jedliński utrzymujący akta Stanu Cywilnego.",
     "translation_en": "It happened in the Town of Jedlińsk on the sixth of January, one thousand eight hundred and sixty-one, at twelve o'clock at noon. Appeared Dominik Wieczorek, a peasant farmer, residing in the village of Wola Gutowska, aged twenty-five, in the presence of Maciej Skalski, aged forty, and Jan Ofiara, aged twenty-nine, peasant farmers from the Village of Wola Gutowska, and he presented to us a female child, declaring that she was born in the village of Wola Gutowska, on the second day of January of the current year, at twelve o'clock at noon to his wife Salomea née Dobrowolska, aged twenty-nine. At the Holy Baptism performed this day by Father Paweł Pawłowski, Vicar of the Jedlińsk Parish, this child was given the name Marianna, and her Godparents were: the aforementioned Marcin Maj and Katarzyna Kalbarczyk. This act was read to the declarant and witnesses, who are illiterate, and was signed only by us. Fr. Jan Kłochowski, Jedlińsk Pastor, Keeper of the Civil Registry."
+  },
+  {
+    "id": 345,
+    "title_pl": "Akt Zgonu: Genowefa Jaskulska (1939)",
+    "title_en": "Death Record: Genowefa Jaskulska (1939)",
+    "type": "death_record",
+    "description_pl": "Parafia Jedlińsk, akt nr 17, 1939 r. Dokument potwierdza zgon 10-letniej Genowefy. Zgon zgłosił jej ojciec, Józef Jaskulski.",
+    "description_en": "Jedlińsk Parish, record no. 17, 1939. The document confirms the death of 10-year-old Genowefa. The death was reported by her father, Józef Jaskulski.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Numerus currens: 17. Actus conficiendi dies/mensis: 12 Aprilis. Mortis dies/mensis: 11 Aprilis. Testium Nomina, cognomina, conditio, locus domicilii: Josephus Jaskulski, agr. 40 annor. Nowe Zawady. Bronislaus Herwik(?), de Lesiow(?). Defuncti Locus domicilii et mortis: Nowe Zawady. Nomen, cognomen et conditio: Genovefa Jaskulska. aetas: 10 annor.",
+    "translation_pl": "Numer bieżący: 17. Data spisania aktu: 12 kwietnia. Data zgonu: 11 kwietnia. Świadkowie: Józef Jaskulski, rolnik, 40 lat, Nowe Zawady. Bronisław Herwik(?), z Lesiowa(?). Zmarła - Miejsce zamieszkania i zgonu: Nowe Zawady. Imię, nazwisko i stan: Genowefa Jaskulska. Wiek: 10 lat.",
+    "translation_en": "Running number: 17. Date of act preparation: April 12. Date of death: April 11. Witnesses: Józef Jaskulski, farmer, 40 years old, Nowe Zawady. Bronisław Herwik(?), from Lesiów(?). Deceased - Place of residence and death: Nowe Zawady. Name, surname and condition: Genowefa Jaskulska. Age: 10 years.",
+    "extracted_data": [
+      {
+        "label_pl": "Zmarła",
+        "label_en": "Deceased",
+        "value_pl": "Genowefa Jaskulska",
+        "value_en": "Genowefa Jaskulska"
+      },
+      {
+        "label_pl": "Data zgonu",
+        "label_en": "Date of Death",
+        "value_pl": "11 kwietnia 1939",
+        "value_en": "April 11, 1939"
+      },
+      {
+        "label_pl": "Wiek w chwili zgonu",
+        "label_en": "Age at Death",
+        "value_pl": "10 lat",
+        "value_en": "10 years"
+      },
+      {
+        "label_pl": "Zgłaszający (ojciec)",
+        "label_en": "Informant (father)",
+        "value_pl": "Józef Jaskulski, 40 lat",
+        "value_en": "Józef Jaskulski, 40 years old"
+      }
+    ]
+  },
+  {
+    "id": 346,
+    "title_pl": "Akt Ślubu: Michał Ofiara i Józefa Ofiara (1873)",
+    "title_en": "Marriage Record: Michał Ofiara & Józefa Ofiara (1873)",
+    "type": "marriage_record",
+    "description_pl": "Parafia Jedlińsk, akt nr 15 z 1873 r. Dokument potwierdza pierwsze małżeństwo Józefy Ofiary (córki Jakuba) z Michałem Ofiarą, synem Marcina i Apolonii z d. Walter.",
+    "description_en": "Jedlińsk Parish, record no. 15 from 1873. The document confirms the first marriage of Józefa Ofiara (daughter of Jakub) to Michał Ofiara, son of Marcin and Apolonia née Walter.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Состоялось въ Едлинскѣ, перваго (тринадцатаго) Февраля тысяча восемьсотъ семьдесятъ третьяго года, въ часъ по полудни. — Объявляемъ что, въ присутствіи свидѣтелей: Францишка Татарскаго, сорока, и Якоба Клоса, сорока шести лѣтъ отъ роду, земледѣльцевъ въ Гутовской Волѣ; — заключено сего дня религіозный брачный союзъ, между: Михаиломъ Офярою, холостымъ, сыномъ Марцина и Аполоніи изъ Вальтеровъ, законныхъ супруговъ Офяровъ, родившимся въ Едлинки, двадцати одного года отъ роду; — а Іозефою Офярою, дѣвицею, при родителяхъ на землѣ состоящею, дочерью: Якоба и Магдалены изъ Вечорковъ, законныхъ супруговъ Офяровъ, родившеюся въ Гутовской Волѣ, шестнадцати лѣтъ отъ роду. — Браку сему предшествовала троекратныя оглашенія... Новобрачные объявили что никакого брачнаго договора между ними не заключили... Обрядъ бракосочетанія совершилъ Ксендзъ Іоаннъ Кержковскій.",
+    "translation_pl": "Działo się w Jedlińsku, pierwszego (trzynastego) lutego tysiąc osiemset siedemdziesiątego trzeciego roku, o godzinie pierwszej po południu. — Oświadczamy, że w obecności świadków: Franciszka Tatalskiego, lat czterdzieści, i Jakuba Kłosa, lat czterdzieści sześć, rolników z Woli Gutowskiej; — zawarto dziś religijny związek małżeński, między: Michałem Ofiarą, kawalerem, synem Marcina i Apolonii z Walterów, prawnych małżonków Ofiarów, urodzonym w Jedlance, lat dwadzieścia jeden; — a Józefą Ofiarą, panną, przy rodzicach na ziemi pozostającą, córką: Jakuba i Magdaleny z Wieczorków, prawnych małżonków Ofiarów, urodzoną w Woli Gutowskiej, lat szesnaście. — Małżeństwo to poprzedziły trzy zapowiedzi... Nowożeńcy oświadczyli, że żadnej umowy przedślubnej między sobą nie zawarli... Obrzęd ślubu odprawił Ksiądz Jan Kierzkowski.",
+    "translation_en": "It happened in Jedlińsk on the first (thirteenth) of February, eighteen hundred and seventy-three, at one o'clock in the afternoon. — We declare that in the presence of witnesses: Franciszek Tatalski, forty years old, and Jakub Kłos, forty-six years old, farmers from Wola Gutowska; — a religious marital union was contracted today, between: Michał Ofiara, a bachelor, son of Marcin and Apolonia née Walter, the lawful spouses Ofiara, born in Jedlanka, twenty-one years old; — and Józefa Ofiara, a maiden, residing with her parents, daughter of: Jakub and Magdalena née Wieczorek, the lawful spouses Ofiara, born in Wola Gutowska, sixteen years old. — This marriage was preceded by three banns... The newlyweds declared that they had not entered into any prenuptial agreement... The marriage ceremony was performed by Father Jan Kierzkowski.",
+    "extracted_data": [
+      {
+        "label_pl": "Pan Młody",
+        "label_en": "Groom",
+        "value_pl": "Michał Ofiara, 21 lat",
+        "value_en": "Michał Ofiara, 21 years old"
+      },
+      {
+        "label_pl": "Rodzice Pana Młodego",
+        "label_en": "Groom's Parents",
+        "value_pl": "Marcin Ofiara i Apolonia Walter",
+        "value_en": "Marcin Ofiara and Apolonia Walter"
+      },
+      {
+        "label_pl": "Panna Młoda",
+        "label_en": "Bride",
+        "value_pl": "Józefa Ofiara, 16 lat",
+        "value_en": "Józefa Ofiara, 16 years old"
+      },
+      {
+        "label_pl": "Rodzice Panny Młodej",
+        "label_en": "Bride's Parents",
+        "value_pl": "Jakub Ofiara i Magdalena (Marianna) Wieczorek",
+        "value_en": "Jakub Ofiara and Magdalena (Marianna) Wieczorek"
+      }
+    ]
+  },
+  {
+    "id": 347,
+    "title_pl": "Akt Ślubu: Jan Kucharski i Józefa Ofiara (1898)",
+    "title_en": "Marriage Record: Jan Kucharski & Józefa Ofiara (1898)",
+    "type": "marriage_record",
+    "description_pl": "Parafia Jedlińsk, akt nr 7 z 1898 r. Dokument potwierdza drugie małżeństwo Józefy Ofiary (córki Jakuba), wdowy po Michale Ofiarze, z Janem Kucharskim.",
+    "description_en": "Jedlińsk Parish, record no. 7 from 1898. The document confirms the second marriage of Józefa Ofiara (daughter of Jakub), widow of Michał Ofiara, to Jan Kucharski.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Состоялось въ Едлинскѣ, двадцатого Января (перваго Февраля) тысяча восемьсотъ девяносто восьмаго года, въ три часа по полудни. — Объявляемъ, что въ присутствіи свидѣтелей: Іоанна Кубика, двадцати восьми лѣтъ, и Антона Рулскаго, пятидесяти одного года отъ роду, земледѣльцевъ въ Гутовской Волѣ; — заключено сего дня религіозный брачный союзъ, между: Іоанномъ Кухарскимъ, холостымъ, сыномъ покойныхъ: Шимона и Іустины изъ Гржесяковъ, законныхъ супруговъ Кухарскихъ, земледѣльцевъ, родившимся въ Едлинки, двадцати шести лѣтъ отъ роду; — а Іозефою Офярою, вдовою по Михалѣ Офярѣ, умершемъ въ Едлинки, дочерью: Якоба и Магдалены изъ Вечорковъ, законныхъ супруговъ Офяровъ, родившеюся въ Гутовской Волѣ, сорока лѣтъ отъ роду. — Браку сему предшествовала троекратныя оглашенія... Новобрачные объявили что никакого брачнаго договора между ними не заключили... Обрядъ бракосочетанія совершилъ Ксендзъ Францишекъ Сверчинскій, Администраторъ Прихода Едлинскаго. — Актъ сей по прочтеніи Нами только подписанъ, присутствующіе писать неумѣютъ.",
+    "translation_pl": "Działo się w Jedlińsku, dwudziestego stycznia (pierwszego lutego) tysiąc osiemset dziewięćdziesiątego ósmego roku, o godzinie trzeciej po południu. — Oświadczamy, że w obecności świadków: Jana Kubika, lat dwadzieścia osiem, i Antoniego Rulskiego, lat pięćdziesiąt jeden, rolników z Woli Gutowskiej; — zawarto dziś religijny związek małżeński, między: Janem Kucharskim, kawalerem, synem zmarłych: Szymona i Justyny z Grzesiaków, prawnych małżonków Kucharskich, rolników, urodzonym w Jedlance, lat dwadzieścia sześć; — a Józefą Ofiarą, wdową po Michale Ofierze, zmarłym w Jedlance, córką: Jakuba i Magdaleny z Wieczorków, prawnych małżonków Ofiarów, urodzoną w Woli Gutowskiej, lat czterdzieści. — Małżeństwo to poprzedziły trzy zapowiedzi... Nowożeńcy oświadczyli, że żadnej umowy przedślubnej między sobą nie zawarli... Obrzęd ślubu odprawił Ksiądz Franciszek Świerczyński, Administrator Parafii Jedlińskiej. — Akt ten po przeczytaniu przez nas tylko podpisany, obecni pisać nie umieją.",
+    "translation_en": "It happened in Jedlińsk on the twentieth of January (first of February), eighteen hundred and ninety-eight, at three o'clock in the afternoon. — We declare that in the presence of witnesses: Jan Kubik, twenty-eight years old, and Antoni Rulski, fifty-one years old, farmers from Wola Gutowska; — a religious marital union was contracted today, between: Jan Kucharski, a bachelor, son of the deceased: Szymon and Justyna née Grzesiak, the lawful spouses Kucharski, farmers, born in Jedlanka, twenty-six years old; — and Józefa Ofiara, a widow after Michał Ofiara, who died in Jedlanka, daughter of: Jakub and Magdalena née Wieczorek, the lawful spouses Ofiara, born in Wola Gutowska, forty years old. — This marriage was preceded by three banns... The newlyweds declared that they had not entered into any prenuptial agreement... The marriage ceremony was performed by Father Franciszek Świerczyński, Administrator of the Jedlińsk Parish. — This act, after being read, was signed only by us, as those present cannot write.",
+    "extracted_data": [
+      {
+        "label_pl": "Pan Młody",
+        "label_en": "Groom",
+        "value_pl": "Jan Kucharski, 26 lat, kawaler",
+        "value_en": "Jan Kucharski, 26 years old, bachelor"
+      },
+      {
+        "label_pl": "Rodzice Pana Młodego",
+        "label_en": "Groom's Parents",
+        "value_pl": "Szymon Kucharski i Justyna Grzesiak",
+        "value_en": "Szymon Kucharski and Justyna Grzesiak"
+      },
+      {
+        "label_pl": "Panna Młoda",
+        "label_en": "Bride",
+        "value_pl": "Józefa Ofiara, 40 lat, wdowa",
+        "value_en": "Józefa Ofiara, 40 years old, widow"
+      },
+      {
+        "label_pl": "Rodzice Panny Młodej",
+        "label_en": "Bride's Parents",
+        "value_pl": "Jakub Ofiara i Magdalena (Marianna) Wieczorek",
+        "value_en": "Jakub Ofiara and Magdalena (Marianna) Wieczorek"
+      }
+    ]
   }
 ]

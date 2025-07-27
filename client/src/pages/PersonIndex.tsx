@@ -25,6 +25,7 @@ export default function PersonIndex() {
   });
 
   const availableLetters = useMemo(() => {
+    if (!people) return [];
     const letters = new Set(
       people.map((person) => person.lastName.charAt(0).toUpperCase())
     );
@@ -32,21 +33,27 @@ export default function PersonIndex() {
   }, [people]);
 
   const filteredPeople = useMemo(() => {
+    if (!people) return [];
     let filtered = people;
+
     if (searchTerm) {
-      filtered = filtered.filter(
-        (person) =>
-          `${person.firstName} ${person.lastName}`
-            .toLowerCase()
-            .includes(searchTerm.toLowerCase()) ||
-          (person.maidenName &&
-            person.maidenName
-              .toLowerCase()
-              .includes(searchTerm.toLowerCase())) ||
-          (person.birthPlace &&
-            person.birthPlace.toLowerCase().includes(searchTerm.toLowerCase()))
-      );
+      const searchWords = searchTerm
+        .toLowerCase()
+        .split(" ")
+        .filter((word) => word.length > 0);
+
+      filtered = filtered.filter((person) => {
+        const personText = `
+          ${person.firstName}
+          ${person.lastName}
+          ${person.maidenName || ""}
+          ${person.birthPlace || ""}
+        `.toLowerCase();
+
+        return searchWords.every((word) => personText.includes(word));
+      });
     }
+
     if (selectedLetter) {
       filtered = filtered.filter(
         (person) => person.lastName.charAt(0).toUpperCase() === selectedLetter
@@ -201,21 +208,26 @@ export default function PersonIndex() {
         </div>
       </div>
 
-      <PersonModal
-        person={selectedPerson}
-        isOpen={modalOpen}
-        onClose={() => setModalOpen(false)}
-        onPersonClick={handlePersonClick}
-        allPeople={people}
-        onOpenKeepsakes={handleOpenKeepsakes}
-      />
+      {/* KLUCZOWA POPRAWKA - Renderowanie warunkowe modala */}
+      {people && people.length > 0 && (
+        <>
+          <PersonModal
+            person={selectedPerson}
+            isOpen={modalOpen}
+            onClose={() => setModalOpen(false)}
+            onPersonClick={handlePersonClick}
+            allPeople={people}
+            onOpenKeepsakes={handleOpenKeepsakes}
+          />
 
-      {keepsakesPerson && (
-        <KeepsakesModal
-          person={keepsakesPerson}
-          isOpen={!!keepsakesPerson}
-          onClose={handleCloseKeepsakes}
-        />
+          {keepsakesPerson && (
+            <KeepsakesModal
+              person={keepsakesPerson}
+              isOpen={!!keepsakesPerson}
+              onClose={handleCloseKeepsakes}
+            />
+          )}
+        </>
       )}
     </>
   );

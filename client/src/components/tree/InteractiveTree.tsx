@@ -19,6 +19,7 @@ import { useTheme } from "@/hooks/useTheme";
 
 interface InteractiveTreeProps {
   allPeople: Person[];
+  focusedPersonId: number;
   onPersonClick: (person: Person) => void;
   showGierczak: boolean;
   showOfiara: boolean;
@@ -26,23 +27,21 @@ interface InteractiveTreeProps {
   showMarriages: boolean;
 }
 
-type LayoutEdge = Edge & {
-  minlen?: number;
-  weight?: number;
-};
-
 const dagreGraph = new dagre.graphlib.Graph();
 dagreGraph.setDefaultEdgeLabel(() => ({}));
 
 const nodeWidth = 240;
 const nodeHeight = 100;
 
+// --- KLUCZOWA POPRAWKA ---
+// Definicja `nodeTypes` została wyniesiona POZA komponent.
+// Jest teraz tworzona tylko raz, a nie przy każdym renderowaniu.
 const nodeTypes: NodeTypes = {
   person: PersonNode,
 };
 
-const getLayoutedElements = (nodes: Node[], edges: LayoutEdge[]) => {
-  dagreGraph.setGraph({ rankdir: "TB", nodesep: 25, ranksep: 90 });
+const getLayoutedElements = (nodes: Node[], edges: Edge[]) => {
+  dagreGraph.setGraph({ rankdir: "TB", nodesep: 50, ranksep: 90 });
 
   nodes.forEach((node) => {
     const width = node.id.startsWith("union-") ? 0 : nodeWidth;
@@ -51,31 +50,33 @@ const getLayoutedElements = (nodes: Node[], edges: LayoutEdge[]) => {
   });
 
   edges.forEach((edge) => {
-    dagreGraph.setEdge(edge.source, edge.target, {
-      minlen: edge.minlen || 1,
-      weight: edge.weight || 1,
-    });
+    dagreGraph.setEdge(edge.source, edge.target);
   });
 
   dagre.layout(dagreGraph);
 
   nodes.forEach((node) => {
-    const n = dagreGraph.node(node.id);
-    if (n) {
+    const nodeWithPosition = dagreGraph.node(node.id);
+    if (nodeWithPosition) {
       node.targetPosition = Position.Top;
       node.sourcePosition = Position.Bottom;
       node.position = {
-        x: n.x - n.width / 2,
-        y: n.y - n.height / 2,
+        x:
+          nodeWithPosition.x -
+          (node.id.startsWith("union-") ? 0 : nodeWidth / 2),
+        y:
+          nodeWithPosition.y -
+          (node.id.startsWith("union-") ? 0 : nodeHeight / 2),
       };
     }
   });
 
-  return { nodes };
+  return { nodes, edges };
 };
 
 export default function InteractiveTree({
   allPeople,
+  focusedPersonId,
   onPersonClick,
   showGierczak,
   showOfiara,
@@ -87,14 +88,49 @@ export default function InteractiveTree({
   const { theme } = useTheme();
 
   useLayoutEffect(() => {
-    if (!allPeople || allPeople.length === 0) {
-      setNodes([]);
-      setEdges([]);
-      return;
-    }
+    const personMap = new Map(allPeople.map((p) => [p.id, p]));
+    const focusedPerson = personMap.get(focusedPersonId);
+    if (!focusedPerson) return;
+
+    const familyUnitIds = new Set<number>();
+
+    const getFamilyUnit = (personId: number) => {
+      const person = personMap.get(personId);
+      if (!person || familyUnitIds.has(personId)) return;
+
+      familyUnitIds.add(personId);
+      person.parentIds?.forEach((pId) => familyUnitIds.add(pId));
+      person.spouseIds?.forEach((spId) => familyUnitIds.add(spId));
+      person.childIds?.forEach((cId) => familyUnitIds.add(cId));
+    };
+
+    getFamilyUnit(focusedPersonId);
+
+    const peopleInUnit = Array.from(familyUnitIds)
+      .map((id) => personMap.get(id))
+      .filter((p): p is Person => p !== undefined);
+
+    const visiblePeople = peopleInUnit.filter((p) => {
+      if (
+        (p.family === "gierczak" && showGierczak) ||
+        (p.family === "ofiara" && showOfiara)
+      ) {
+        return true;
+      }
+      return p.spouseIds?.some((spId) => {
+        const spouse = personMap.get(spId);
+        if (!spouse) return false;
+        const spouseFamily = spouse.family;
+        return (
+          (spouseFamily === "gierczak" && showGierczak) ||
+          (spouseFamily === "ofiara" && showOfiara)
+        );
+      });
+    });
+
+    const visibleFinalIds = new Set(visiblePeople.map((p) => p.id));
 
     const isDarkMode = theme === "dark";
-
     const descendantColor = isDarkMode
       ? "hsl(35, 70%, 75%)"
       : "hsl(0, 65%, 45%)";
@@ -102,7 +138,7 @@ export default function InteractiveTree({
       ? "hsl(200, 60%, 70%)"
       : "hsl(220, 50%, 45%)";
 
-    const allPersonNodes: Node[] = allPeople.map((person) => ({
+    const personNodes: Node[] = visiblePeople.map((person) => ({
       id: person.id.toString(),
       type: "person",
       data: {
@@ -114,181 +150,86 @@ export default function InteractiveTree({
     }));
 
     const unionNodes: Node[] = [];
-    const layoutEdges: LayoutEdge[] = [];
+    const layoutEdges: Edge[] = [];
 
-    allPeople.forEach((person) => {
-      const pid = person.id.toString();
-
-      if (person.parentIds?.length === 2) {
+    visiblePeople.forEach((person) => {
+      if (person.parentIds && person.parentIds.length === 2) {
         const [p1, p2] = person.parentIds.sort((a, b) => a - b);
-        const coupleKey = `${p1}-${p2}`;
-        const unionId = `union-${coupleKey}`;
 
-        if (!unionNodes.find((u) => u.id === unionId)) {
-          unionNodes.push({
-            id: unionId,
-            type: "default",
-            position: { x: 0, y: 0 },
-            data: {},
-            className: "w-0 h-0",
-            sourcePosition: Position.Bottom,
-            targetPosition: Position.Top,
-          });
-          layoutEdges.push({
-            id: `l-${p1}-${unionId}`,
-            source: p1.toString(),
-            target: unionId,
-            weight: 2,
-          });
-          layoutEdges.push({
-            id: `l-${p2}-${unionId}`,
-            source: p2.toString(),
-            target: unionId,
-            weight: 2,
-          });
-        }
-        layoutEdges.push({
-          id: `l-${unionId}-${pid}`,
-          source: unionId,
-          target: pid,
-          weight: 2,
-        });
-      } else if (person.parentIds?.length === 1) {
-        const p = person.parentIds[0].toString();
-        layoutEdges.push({
-          id: `l-${p}-${pid}`,
-          source: p,
-          target: pid,
-          weight: 2,
-        });
-      }
-
-      person.spouseIds?.forEach((sid) => {
-        if (person.id < sid) {
-          layoutEdges.push({
-            id: `rank-${person.id}-${sid}`,
-            source: person.id.toString(),
-            target: sid.toString(),
-            minlen: 1,
-            weight: 10,
-          });
-        }
-      });
-    });
-
-    const rootNode: Node = {
-      id: "root",
-      type: "default",
-      position: { x: 0, y: 0 },
-      className: "w-0 h-0 !border-none",
-      data: {},
-    };
-
-    layoutEdges.push({
-      id: "root-gierczak",
-      source: "root",
-      target: "1",
-      weight: 100,
-    });
-    layoutEdges.push({
-      id: "root-ofiara",
-      source: "root",
-      target: "161",
-      weight: 100,
-    });
-
-    layoutEdges.push({
-      id: `rank-fix-155`,
-      source: "4",
-      target: "155",
-      minlen: 0,
-      weight: 10,
-    });
-
-    const allNodesForLayout = [...allPersonNodes, ...unionNodes, rootNode];
-    const { nodes: positionedNodes } = getLayoutedElements(
-      allNodesForLayout,
-      layoutEdges
-    );
-
-    const visibleIds = new Set(
-      allPeople
-        .filter(
-          (p) =>
-            (p.family === "gierczak" && showGierczak) ||
-            (p.family === "ofiara" && showOfiara)
-        )
-        .map((p) => p.id.toString())
-    );
-
-    const allPeopleMap = new Map(allPeople.map((p) => [p.id, p]));
-    allPeople.forEach((p) => {
-      if (p.parentIds?.length === 2) {
-        const p1 = allPeopleMap.get(p.parentIds[0]);
-        const p2 = allPeopleMap.get(p.parentIds[1]);
-        if (p1 && p2 && p1.family !== p2.family) {
-          if (
-            visibleIds.has(p1.id.toString()) ||
-            visibleIds.has(p2.id.toString())
-          ) {
-            visibleIds.add(p.id.toString());
-            visibleIds.add(p1.id.toString());
-            visibleIds.add(p2.id.toString());
-          }
-        }
-      }
-    });
-
-    const finalNodes = positionedNodes.filter(
-      (node) =>
-        !node.id.startsWith("union-") &&
-        node.id !== "root" &&
-        visibleIds.has(node.id)
-    );
-
-    const finalEdges: Edge[] = [];
-
-    if (showDescendants) {
-      allPeople.forEach((p) => {
-        p.parentIds?.forEach((par) => {
-          const cid = p.id.toString(),
-            pid = par.toString();
-          if (visibleIds.has(cid) && visibleIds.has(pid)) {
-            finalEdges.push({
-              id: `s-${pid}-${cid}`,
-              source: pid,
-              target: cid,
-              type: "smoothstep",
-              markerEnd: {
-                type: MarkerType.ArrowClosed,
-                color: descendantColor,
-              },
-              style: { stroke: descendantColor, strokeWidth: 2 },
+        if (visibleFinalIds.has(p1) && visibleFinalIds.has(p2)) {
+          const unionKey = `union-${p1}-${p2}`;
+          if (!unionNodes.find((n) => n.id === unionKey)) {
+            unionNodes.push({
+              id: unionKey,
+              type: "default",
+              data: {},
+              position: { x: 0, y: 0 },
+              className: "w-0 h-0 !border-none",
+            });
+            layoutEdges.push({
+              id: `l-${p1}-${unionKey}`,
+              source: p1.toString(),
+              target: unionKey,
+            });
+            layoutEdges.push({
+              id: `l-${p2}-${unionKey}`,
+              source: p2.toString(),
+              target: unionKey,
             });
           }
+          layoutEdges.push({
+            id: `l-${unionKey}-${person.id}`,
+            source: unionKey,
+            target: person.id.toString(),
+          });
+        }
+      } else if (person.parentIds && person.parentIds.length === 1) {
+        const pId = person.parentIds[0];
+        if (visibleFinalIds.has(pId)) {
+          layoutEdges.push({
+            id: `l-${pId}-${person.id}`,
+            source: pId.toString(),
+            target: person.id.toString(),
+          });
+        }
+      }
+    });
+
+    const allLayoutNodes = [...personNodes, ...unionNodes];
+    const { nodes: positionedNodes, edges: positionedEdges } =
+      getLayoutedElements(allLayoutNodes, layoutEdges);
+
+    const finalNodes = positionedNodes;
+
+    const finalEdges: Edge[] = [];
+    if (showDescendants) {
+      positionedEdges.forEach((edge) => {
+        finalEdges.push({
+          ...edge,
+          id: `e-${edge.id}`,
+          type: "smoothstep",
+          markerEnd: { type: MarkerType.ArrowClosed, color: descendantColor },
+          style: { stroke: descendantColor, strokeWidth: 1.5 },
+          zIndex: 0,
         });
       });
     }
 
     if (showMarriages) {
       const positionedNodesMap = new Map(finalNodes.map((n) => [n.id, n]));
-      allPeople.forEach((p) => {
+      visiblePeople.forEach((p) => {
         p.spouseIds?.forEach((sid) => {
-          const pidStr = p.id.toString();
-          const sidStr = sid.toString();
-          if (p.id < sid && visibleIds.has(pidStr) && visibleIds.has(sidStr)) {
-            const sourceNode = positionedNodesMap.get(pidStr);
-            const targetNode = positionedNodesMap.get(sidStr);
-
+          if (p.id < sid && visibleFinalIds.has(sid)) {
+            const sourceNode = positionedNodesMap.get(p.id.toString());
+            const targetNode = positionedNodesMap.get(sid.toString());
             if (sourceNode && targetNode) {
               const isSourceOnLeft =
                 sourceNode.position.x < targetNode.position.x;
-
               finalEdges.push({
-                id: `m-${pidStr}-${sidStr}`,
+                id: `m-${p.id}-${sid}`,
                 type: "default",
-                source: pidStr,
-                target: sidStr,
+                source: p.id.toString(),
+                target: sid.toString(),
                 sourceHandle: isSourceOnLeft ? Position.Right : Position.Left,
                 targetHandle: isSourceOnLeft ? Position.Left : Position.Right,
                 zIndex: 1,
@@ -308,14 +249,15 @@ export default function InteractiveTree({
     setEdges(finalEdges);
   }, [
     allPeople,
+    focusedPersonId,
     onPersonClick,
-    showGierczak,
-    showOfiara,
-    showDescendants,
-    showMarriages,
     setNodes,
     setEdges,
     theme,
+    showMarriages,
+    showDescendants,
+    showGierczak,
+    showOfiara,
   ]);
 
   return (
