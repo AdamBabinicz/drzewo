@@ -245,44 +245,6 @@
     "translation_en": "It happened in the town of Jedlińsk on the first of March, one thousand eight hundred and sixty-three, at eleven o'clock in the morning. Appeared Jan Ofiara, father of the deceased, aged thirty-seven, and Dominik Niemonek, aged thirty-two, both peasants from Wola Gutowska; and they declared to us that in Wola Gutowska on the twenty-seventh of February of the current year, at nine o'clock in the morning, died Józef Ofiara, son of the aforementioned Jan and Marianna née Wieczorek, spouses Ofiara, a peasant, aged two years. After visually confirming the passing of Józef Ofiara, this act was read to the declarants, and as they cannot write, it was signed only by Us. Fr. Jan Kłochowski, Pastor and Civil Registrar of the Jedlińsko Parish."
   },
   {
-    "id": 216,
-    "firstName": "Józef",
-    "lastName": "Ofiara",
-    "birthDate": "1861-03-11",
-    "birthTime": "21:00",
-    "birthTimeQualifier": "night",
-    "deathDate": "1863-07-08",
-    "deathTime": "08:00",
-    "deathTimeQualifier": "morning",
-    "photoUrl": null,
-    "family": "ofiara",
-    "spouseIds": [],
-    "childIds": [],
-    "parentIds": [129, 130],
-    "biography": {
-      "pl": "Syn Jakuba Ofiary i Marianny z d. Wieczorek. W jego akcie urodzenia matka została błędnie zapisana jako Magdalena. Zmarł w wieku dwóch lat. Jego akt zgonu (nr 67 z 1863 r.) został ostatecznie zidentyfikowany po odkryciu, że jego kuzyn o tym samym imieniu, syn Jana Ofiary, zmarł w tym samym roku, co wyjaśniło wcześniejsze nieścisłości w dokumentacji.",
-      "en": "Son of Jakub Ofiara and Marianna née Wieczorek. In his birth record, his mother was mistakenly recorded as Magdalena. He died at the age of two. His death record (no. 67 from 1863) was definitively identified after it was discovered that his cousin of the same name, son of Jan Ofiara, had died in the same year, which clarified earlier documentary discrepancies."
-    },
-    "events": [
-      {
-        "type": "birth",
-        "date": "1861-03-11",
-        "place": "Wola Gutowska",
-        "source": {
-          "documentId": 283
-        }
-      },
-      {
-        "type": "death",
-        "date": "1863-07-08",
-        "place": "Wola Gutowska",
-        "source": {
-          "documentId": 15
-        }
-      }
-    ]
-  },
-  {
     "id": 16,
     "title_pl": "Akt Zgonu: Tekla Ofiara z d. Ichnowska (1865)",
     "title_en": "Death Record: Tekla Ofiara née Ichnowska (1865)",
