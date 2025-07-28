@@ -1,4 +1,6 @@
-import React, { useLayoutEffect } from "react";
+// --- START OF FILE InteractiveTree.tsx ---
+
+import React, { useLayoutEffect, useMemo } from "react"; // <--- 1. Dodaj import useMemo
 import ReactFlow, {
   Background,
   Controls,
@@ -27,20 +29,14 @@ interface InteractiveTreeProps {
   showMarriages: boolean;
 }
 
-const dagreGraph = new dagre.graphlib.Graph();
-dagreGraph.setDefaultEdgeLabel(() => ({}));
-
 const nodeWidth = 240;
 const nodeHeight = 100;
 
-// --- KLUCZOWA POPRAWKA ---
-// Definicja `nodeTypes` została wyniesiona POZA komponent.
-// Jest teraz tworzona tylko raz, a nie przy każdym renderowaniu.
-const nodeTypes: NodeTypes = {
-  person: PersonNode,
-};
+// Usunęliśmy definicję nodeTypes stąd.
 
 const getLayoutedElements = (nodes: Node[], edges: Edge[]) => {
+  const dagreGraph = new dagre.graphlib.Graph();
+  dagreGraph.setDefaultEdgeLabel(() => ({}));
   dagreGraph.setGraph({ rankdir: "TB", nodesep: 50, ranksep: 90 });
 
   nodes.forEach((node) => {
@@ -87,6 +83,18 @@ export default function InteractiveTree({
   const [edges, setEdges, onEdgesChange] = useEdgesState<Edge[]>([]);
   const { theme } = useTheme();
 
+  // ---  KLUCZOWE ROZWIĄZANIE OSTRZEŻENIA (WERSJA Z useMemo) ---
+  // Memoizujemy obiekt `nodeTypes`. `useMemo` z pustą tablicą zależności (`[]`)
+  // zadziała tak samo, jak definicja stałej na zewnątrz - obiekt zostanie
+  // stworzony tylko podczas pierwszego renderowania komponentu.
+  // Jest to bardziej niezawodne w środowiskach z Hot Reload.
+  const nodeTypes: NodeTypes = useMemo(
+    () => ({
+      person: PersonNode,
+    }),
+    []
+  ); // <--- 2. Zdefiniuj nodeTypes przy użyciu useMemo
+
   useLayoutEffect(() => {
     const personMap = new Map(allPeople.map((p) => [p.id, p]));
     const focusedPerson = personMap.get(focusedPersonId);
@@ -100,33 +108,24 @@ export default function InteractiveTree({
 
       familyUnitIds.add(personId);
       person.parentIds?.forEach((pId) => familyUnitIds.add(pId));
-      person.spouseIds?.forEach((spId) => familyUnitIds.add(spId));
+      person.spouseIds?.forEach((spId) => {
+        familyUnitIds.add(spId);
+        const spouse = personMap.get(spId);
+        spouse?.parentIds?.forEach((pId) => familyUnitIds.add(pId));
+      });
       person.childIds?.forEach((cId) => familyUnitIds.add(cId));
     };
 
     getFamilyUnit(focusedPersonId);
 
-    const peopleInUnit = Array.from(familyUnitIds)
+    const visiblePeople = Array.from(familyUnitIds)
       .map((id) => personMap.get(id))
-      .filter((p): p is Person => p !== undefined);
-
-    const visiblePeople = peopleInUnit.filter((p) => {
-      if (
-        (p.family === "gierczak" && showGierczak) ||
-        (p.family === "ofiara" && showOfiara)
-      ) {
-        return true;
-      }
-      return p.spouseIds?.some((spId) => {
-        const spouse = personMap.get(spId);
-        if (!spouse) return false;
-        const spouseFamily = spouse.family;
-        return (
-          (spouseFamily === "gierczak" && showGierczak) ||
-          (spouseFamily === "ofiara" && showOfiara)
-        );
+      .filter((p): p is Person => {
+        if (!p) return false;
+        if (p.family === "gierczak" && showGierczak) return true;
+        if (p.family === "ofiara" && showOfiara) return true;
+        return false;
       });
-    });
 
     const visibleFinalIds = new Set(visiblePeople.map((p) => p.id));
 
@@ -153,45 +152,44 @@ export default function InteractiveTree({
     const layoutEdges: Edge[] = [];
 
     visiblePeople.forEach((person) => {
-      if (person.parentIds && person.parentIds.length === 2) {
-        const [p1, p2] = person.parentIds.sort((a, b) => a - b);
+      const visibleParentIds =
+        person.parentIds?.filter((pId) => visibleFinalIds.has(pId)) || [];
 
-        if (visibleFinalIds.has(p1) && visibleFinalIds.has(p2)) {
-          const unionKey = `union-${p1}-${p2}`;
-          if (!unionNodes.find((n) => n.id === unionKey)) {
-            unionNodes.push({
-              id: unionKey,
-              type: "default",
-              data: {},
-              position: { x: 0, y: 0 },
-              className: "w-0 h-0 !border-none",
-            });
-            layoutEdges.push({
-              id: `l-${p1}-${unionKey}`,
-              source: p1.toString(),
-              target: unionKey,
-            });
-            layoutEdges.push({
-              id: `l-${p2}-${unionKey}`,
-              source: p2.toString(),
-              target: unionKey,
-            });
-          }
+      if (visibleParentIds.length === 2) {
+        const [p1, p2] = visibleParentIds.sort((a, b) => a - b);
+        const unionKey = `union-${p1}-${p2}`;
+
+        if (!unionNodes.find((n) => n.id === unionKey)) {
+          unionNodes.push({
+            id: unionKey,
+            type: "default",
+            data: {},
+            position: { x: 0, y: 0 },
+            className: "w-0 h-0 !border-none",
+          });
           layoutEdges.push({
-            id: `l-${unionKey}-${person.id}`,
-            source: unionKey,
-            target: person.id.toString(),
+            id: `l-${p1}-${unionKey}`,
+            source: p1.toString(),
+            target: unionKey,
+          });
+          layoutEdges.push({
+            id: `l-${p2}-${unionKey}`,
+            source: p2.toString(),
+            target: unionKey,
           });
         }
-      } else if (person.parentIds && person.parentIds.length === 1) {
-        const pId = person.parentIds[0];
-        if (visibleFinalIds.has(pId)) {
-          layoutEdges.push({
-            id: `l-${pId}-${person.id}`,
-            source: pId.toString(),
-            target: person.id.toString(),
-          });
-        }
+        layoutEdges.push({
+          id: `l-${unionKey}-${person.id}`,
+          source: unionKey,
+          target: person.id.toString(),
+        });
+      } else if (visibleParentIds.length === 1) {
+        const pId = visibleParentIds[0];
+        layoutEdges.push({
+          id: `l-${pId}-${person.id}`,
+          source: pId.toString(),
+          target: person.id.toString(),
+        });
       }
     });
 
@@ -267,7 +265,7 @@ export default function InteractiveTree({
         edges={edges}
         onNodesChange={onNodesChange}
         onEdgesChange={onEdgesChange}
-        nodeTypes={nodeTypes}
+        nodeTypes={nodeTypes} // <--- 3. Przekaż zamemoizowaną wartość
         fitView
         minZoom={0.1}
         className="react-flow-heritage z-10"

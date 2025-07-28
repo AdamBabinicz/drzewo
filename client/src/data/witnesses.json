@@ -77,7 +77,12 @@
     "residence": "",
     "documentIds": [278]
   },
-
+  {
+    "lastName": "Bartosik",
+    "firstName": "Paweł",
+    "residence": "Wola Gutowska",
+    "documentIds": [278, 351]
+  },
   {
     "lastName": "Bartosik",
     "firstName": "Tekla",
@@ -364,7 +369,7 @@
     "lastName": "Gierczak",
     "firstName": "Tomasz",
     "residence": "Wola Gutowska",
-    "documentIds": [286]
+    "documentIds": [286, 348]
   },
   {
     "lastName": "Gierczak",
@@ -574,7 +579,7 @@
     "lastName": "Kłochowski",
     "firstName": "Jan",
     "residence": "Jedlińsk",
-    "documentIds": [17, 18, 211, 212, 217, 218, 250, 313, 318]
+    "documentIds": [17, 18, 211, 212, 217, 218, 250, 313, 318, 352]
   },
   {
     "lastName": "Kłochowska",
@@ -635,6 +640,12 @@
     "firstName": "Franciszka",
     "residence": "",
     "documentIds": [275, 279]
+  },
+  {
+    "lastName": "Kwieciński",
+    "firstName": "Feliks",
+    "residence": "Jedlanka",
+    "documentIds": [352]
   },
   {
     "lastName": "Komorowski",
@@ -748,7 +759,7 @@
     "lastName": "Lipiec",
     "firstName": "Dionizy",
     "residence": "Wola Gutowska",
-    "documentIds": [218, 290, 291]
+    "documentIds": [218, 290, 291, 350]
   },
   {
     "lastName": "Lipiec",
@@ -1063,6 +1074,12 @@
     "documentIds": [204]
   },
   {
+    "lastName": "Romanik",
+    "firstName": "Tomasz",
+    "residence": "Jedlanka",
+    "documentIds": [350]
+  },
+  {
     "lastName": "Rondthaler",
     "firstName": "Jan",
     "residence": "Błotnica",
@@ -1195,6 +1212,12 @@
     "documentIds": [226]
   },
   {
+    "lastName": "Strzelczyk",
+    "firstName": "Tomasz",
+    "residence": "Wola Gutowska",
+    "documentIds": [348]
+  },
+  {
     "lastName": "Sułecki",
     "firstName": "Franciszek",
     "residence": "Wola Gutowska",
@@ -1276,7 +1299,7 @@
     "lastName": "Walczak",
     "firstName": "Wojciech",
     "residence": "Wola Gutowska",
-    "documentIds": [273]
+    "documentIds": [273, 351]
   },
   {
     "lastName": "Walter",

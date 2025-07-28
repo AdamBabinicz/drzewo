@@ -2731,7 +2731,7 @@
     "deathDate": "1919-11-22",
     "deathTime": "15:00",
     "photoUrl": "/images/jakub.avif",
-    "spouseIds": [130],
+    "spouseIds": [362],
     "childIds": [57, 131, 132, 210, 211, 214, 215, 216, 298],
     "parentIds": [133, 134],
     "occupation": {
@@ -2740,29 +2740,54 @@
     },
     "marriages": [
       {
-        "spouseId": 130,
-        "date": "1856-02-25",
+        "spouseId": 362,
+        "date": "1856-01-25",
+        "time": "15:00",
+        "timeQualifier": "afternoon",
         "source": {
-          "documentId": 211
+          "documentId": 351
         }
       }
     ],
     "biography": {
-      "pl": "Syn Szczepana i Małgorzaty z d. Kowalczyk. Mąż Marianny z Wieczorków (ID: 130). Ojciec licznego potomstwa, z którego dorosłości dożył syn Andrzej. Pozostałe znane dzieci – Zofia, Agnieszka, Józefa, Katarzyna, Jędrzej, Bartłomiej, Józef i Anna – zmarły w dzieciństwie lub młodości. Mieszkał z rodziną w Woli Gutowskiej. Zmarł w wieku 86 lat.",
-      "en": "Son of Szczepan and Małgorzata née Kowalczyk. Husband of Marianna née Wieczorek (ID: 130). Father of numerous offspring, of whom only his son Andrzej reached adulthood. The other known children – Zofia, Agnieszka, Józefa, Katarzyna, Jędrzej, Bartłomiej, Józef, and Anna – died in childhood or youth. He lived with his family in Wola Gutowska. He died at the age of 86."
+      "pl": "Syn Szczepana i Małgorzaty z d. Kowalczyk. W 1856 roku poślubił Magdalenę z Wieczorków, wdowę po Józefie Rusie i siostrę Marianny Wieczorek. Ojciec licznego potomstwa, z którego dorosłości dożył syn Andrzej. Pozostałe znane dzieci – Zofia, Agnieszka, Józefa, Katarzyna, Jędrzej, Bartłomiej, Józef i Anna – zmarły w dzieciństwie lub młodości. Mieszkał z rodziną w Woli Gutowskiej. Zmarł w wieku 86 lat.",
+      "en": "Son of Szczepan and Małgorzata née Kowalczyk. In 1856, he married Magdalena née Wieczorek, widow of Józef Russ and sister of Marianna Wieczorek. Father of numerous offspring, of whom only his son Andrzej reached adulthood. The other known children – Zofia, Agnieszka, Józefa, Katarzyna, Jędrzej, Bartłomiej, Józef, and Anna – died in childhood or youth. He lived with his family in Wola Gutowska. He died at the age of 86."
     },
     "events": [
       {
         "type": "birth",
         "date": "1833-07-22",
+        "time": "9:00",
+        "timeQualifier": "morning",
         "place": "Wola Gutowska",
         "source": {
           "documentId": 103
         }
       },
       {
+        "type": "marriage",
+        "spouseId": 362,
+        "date": "1856-01-25",
+        "time": "15:00",
+        "timeQualifier": "afternoon",
+        "place": "Jedlińsk",
+        "witnesses": [
+          {
+            "firstName": "Wojciech",
+            "lastName": "Walczak",
+            "age": 31
+          },
+          {
+            "firstName": "Paweł",
+            "lastName": "Bartosik",
+            "age": 31
+          }
+        ]
+      },
+      {
         "type": "death",
         "date": "1919-11-22",
+        "time": "15:00",
         "place": "Wola Gutowska",
         "source": {
           "documentId": 210
@@ -2776,24 +2801,43 @@
     "lastName": "Ofiara",
     "maidenName": "Wieczorek",
     "family": "ofiara",
-    "birthDateNote": "ok. 1832",
-    "deathDateNote": "nieznana",
-    "spouseIds": [129],
-    "childIds": [57, 131, 132, 210, 211, 214, 215, 216, 298],
+    "birthDate": "1836-03-15",
+    "birthTime": "7:00",
+    "birthTimeQualifier": "morning",
+    "deathDate": "1905-01-11",
+    "deathTime": "20:00",
+    "spouseIds": [],
+    "childIds": [],
     "parentIds": [322, 323],
-    "marriages": [
-      {
-        "spouseId": 129,
-        "date": "1856-02-25",
-        "source": {
-          "documentId": 211
-        }
-      }
-    ],
+    "marriages": [],
     "biography": {
-      "pl": "Żona Jakuba Ofiary (ID: 129) i praprababcia autora. Córka Kacpra i Małgorzaty z Grzelaków Wieczorków. Należy ją odróżnić od jej prawdopodobnej siostry lub kuzynki, również Marianny Wieczorek (córki Kacpra), która poślubiła Jana Ofiarę (ID 273).",
-      "en": "Wife of Jakub Ofiara (ID: 129) and the author's great-great-grandmother. Daughter of Kacper and Małgorzata née Grzelak Wieczorek. She should be distinguished from her probable sister or cousin, also named Marianna Wieczorek (daughter of Kacper), who married Jan Ofiara (ID 273)."
-    }
+      "pl": "Córka Kacpra i Małgorzaty z Grzelaków Wieczorków. Siostra Magdaleny (żony Jakuba Ofiary) oraz Marianny (żony Jana Ofiary). Jej dalsze losy, w tym informacja o ewentualnym małżeństwie, nie są znane.",
+      "en": "Daughter of Kacper and Małgorzata née Grzelak Wieczorek. Sister of Magdalena (wife of Jakub Ofiara) and Marianna (wife of Jan Ofiara). Her subsequent fate, including information about a possible marriage, is unknown."
+    },
+    "events": [
+      {
+        "type": "birth",
+        "date": "1836-03-15",
+        "time": "7:00",
+        "timeQualifier": "morning",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 348
+        },
+        "witnesses": [
+          {
+            "firstName": "Tomasz",
+            "lastName": "Strzelczyk",
+            "age": 40
+          },
+          {
+            "firstName": "Tomasz",
+            "lastName": "Gierczak",
+            "age": 48
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 131,
@@ -6340,49 +6384,106 @@
     "id": 273,
     "firstName": "Jan",
     "lastName": "Ofiara",
-    "birthDateNote": "ok. 1830-1840",
+    "birthDate": "1826-12-28",
     "deathDateNote": "po 1907",
     "family": "ofiara",
     "spouseIds": [274],
     "childIds": [11, 23, 206, 209, 213, 236, 243, 253, 272, 299],
-    "parentIds": [],
+    "parentIds": [281, 282],
+    "occupation": {
+      "pl": "Parobek / Włościanin",
+      "en": "Farmhand / Peasant"
+    },
     "marriages": [
       {
         "spouseId": 274,
-        "date": "?"
+        "date": "1852-02-08",
+        "time": "9:00",
+        "timeQualifier": "morning",
+        "source": {
+          "documentId": 350
+        }
       }
     ],
     "biography": {
-      "pl": "Mąż Marianny z domu Wieczorek (ID: 274). Ojciec licznego potomstwa, z którego niestety większość zmarła w dzieciństwie: Julianna, Franciszka, dwie córki o imieniu Teofila, Stanisław, Franciszek, Ludwika, Adam, Agnieszka i Katarzyna. Prawdopodobnie brat lub kuzyn Jakuba Ofiary (ID: 129).",
-      "en": "Husband of Marianna née Wieczorek (ID: 274). Father of numerous children, most of whom unfortunately died in childhood: Julianna, Franciszka, two daughters named Teofila, Stanisław, Franciszek, Ludwika, Adam, Agnieszka and Katarzyna. Likely the brother or cousin of Jakub Ofiara (ID: 129)."
-    }
+      "pl": "Syn Karola Ofiary i Salomei z Jemiołków. W 1852 roku poślubił Mariannę Wieczorek (ID 274), siostrę żony swojego brata stryjecznego Jakuba. Ojciec licznego potomstwa, z którego niestety większość zmarła w dzieciństwie: Julianna, Franciszka, dwie córki o imieniu Teofila, Stanisław, Franciszek, Ludwika, Adam, Agnieszka i Katarzyna. Jego ojciec, Karol, był bratem Szczepana Ofiary, co czyni Jana kuzynem pierwszej linii (bratem stryjecznym) Jakuba Ofiary (ID 129).",
+      "en": "Son of Karol Ofiara and Salomea née Jemiołek. In 1852, he married Marianna Wieczorek (ID 274), the sister of his first cousin Jakub's wife. Father of numerous children, most of whom unfortunately died in childhood: Julianna, Franciszka, two daughters named Teofila, Stanisław, Franciszek, Ludwika, Adam, Agnieszka and Katarzyna. His father, Karol, was the brother of Szczepan Ofiara, which makes Jan a first cousin to Jakub Ofiara (ID 129)."
+    },
+    "events": [
+      {
+        "type": "marriage",
+        "spouseId": 274,
+        "date": "1852-02-08",
+        "time": "9:00",
+        "timeQualifier": "morning",
+        "place": "Jedlińsk",
+        "witnesses": [
+          {
+            "firstName": "Tomasz",
+            "lastName": "Romanik",
+            "age": 50
+          },
+          {
+            "firstName": "Dionizy",
+            "lastName": "Lipiec",
+            "age": 50
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 274,
     "firstName": "Marianna",
     "lastName": "Ofiara",
     "maidenName": "Wieczorek",
-    "birthDateNote": "ok. 1838",
+    "family": "ofiara",
+    "birthDate": "1832-01-16",
     "deathDate": "1907-02-13",
     "deathTime": "21:00",
-    "family": "ofiara",
     "spouseIds": [273],
     "childIds": [11, 23, 206, 209, 213, 236, 243, 253, 272, 299],
     "parentIds": [322, 323],
     "marriages": [
       {
         "spouseId": 273,
-        "date": "?"
+        "date": "1852-02-08",
+        "time": "9:00",
+        "timeQualifier": "morning",
+        "source": {
+          "documentId": 350
+        }
       }
     ],
     "biography": {
-      "pl": "Żona Jana Ofiary (ID: 273). Córka Kacpra i Małgorzaty Wieczorków. Matka licznego potomstwa, z którego większość zmarła w dzieciństwie. Prawdopodobnie siostra lub bliska kuzynka Marianny Wieczorek (ID 130), żony Jakuba Ofiary. Zmarła w wieku 69 lat.",
-      "en": "Wife of Jan Ofiara (ID: 273). Daughter of Kacper and Małgorzata Wieczorek. Mother of numerous children, most of whom died in childhood. Likely the sister or a close cousin of Marianna Wieczorek (ID 130), wife of Jakub Ofiara. She died at the age of 69."
+      "pl": "Żona Jana Ofiary (ID: 273). Córka Kacpra i Małgorzaty z Grzelaków Wieczorków. Jej siostra, również Marianna (ID 130), poślubiła Jakuba Ofiarę, brata stryjecznego jej męża. Matka licznego potomstwa, z którego większość zmarła w dzieciństwie. Zmarła w wieku 69 lat.",
+      "en": "Wife of Jan Ofiara (ID: 273). Daughter of Kacper and Małgorzata née Grzelak Wieczorek. Her sister, also named Marianna (ID 130), married Jakub Ofiara, her husband's first cousin. Mother of numerous children, most of whom died in childhood. She died at the age of 69."
     },
     "events": [
       {
+        "type": "marriage",
+        "spouseId": 273,
+        "date": "1852-02-08",
+        "time": "9:00",
+        "timeQualifier": "morning",
+        "place": "Jedlińsk",
+        "witnesses": [
+          {
+            "firstName": "Tomasz",
+            "lastName": "Romanik",
+            "age": 50
+          },
+          {
+            "firstName": "Dionizy",
+            "lastName": "Lipiec",
+            "age": 50
+          }
+        ]
+      },
+      {
         "type": "death",
         "date": "1907-02-13",
+        "time": "21:00",
         "place": "Wola Gutowska",
         "source": {
           "documentId": 330
@@ -6570,50 +6671,93 @@
     "marriages": [
       {
         "spouseId": 284,
-        "date": "1852-02-08"
+        "date": "1852-02-08",
+        "time": "9:00",
+        "timeQualifier": "morning",
+        "source": {
+          "documentId": 350
+        }
       }
     ],
     "biography": {
       "pl": "Syn Karola Ofiary i Salomei z Jemiołków. W 1852 roku poślubił Mariannę Wieczorek. Ojciec Franciszki, Zofii, Józefa, Józefy, Antoniny, Jana (zm. 1887 w niemowlęctwie), Józefa (zm. 1863) oraz przybrany ojciec Anny Blicharz. Jego ojciec, Karol, był bratem Szczepana Ofiary, co czyni Jana kuzynem pierwszej linii (bratem stryjecznym) Jakuba Ofiary (ID 129).",
       "en": "Son of Karol Ofiara and Salomea née Jemiołek. In 1852, he married Marianna Wieczorek. Father of Franciszka, Zofia, Józef, Józefa, Antonina, Jan (d. 1887 in infancy), Józef (d. 1863), and stepfather to Anna Blicharz. His father, Karol, was the brother of Szczepan Ofiara, which makes Jan a first cousin (paternal cousin) to Jakub Ofiara (ID 129)."
-    }
+    },
+    "events": [
+      {
+        "type": "marriage",
+        "spouseId": 284,
+        "date": "1852-02-08",
+        "time": "9:00",
+        "timeQualifier": "morning",
+        "place": "Jedlińsk",
+        "witnesses": [
+          {
+            "firstName": "Tomasz",
+            "lastName": "Romanik",
+            "age": 50
+          },
+          {
+            "firstName": "Dionizy",
+            "lastName": "Lipiec",
+            "age": 50
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 284,
     "firstName": "Marianna",
     "lastName": "Ofiara",
     "maidenName": "Wieczorek",
-    "birthDate": "1861-01-02",
-    "birthTime": "12:00",
-    "birthTimeQualifier": "noon",
+    "family": "ofiara",
+    "birthDateNote": "ok. 1832",
     "deathDate": "1897-02-26",
     "deathTime": "20:00",
-    "family": "ofiara",
     "spouseIds": [283],
     "childIds": [285, 301, 245, 307, 311, 315, 319, 342],
-    "parentIds": [320, 321],
+    "parentIds": [322, 323],
     "marriages": [
       {
         "spouseId": 283,
-        "date": "1852-02-08"
+        "date": "1852-02-08",
+        "time": "9:00",
+        "timeQualifier": "morning",
+        "source": {
+          "documentId": 350
+        }
       }
     ],
     "biography": {
-      "pl": "Żona Jana Ofiary (syna Karola). Córka Dominika Wieczorka i Salomei z domu Dobrowolskiej. Matka licznych dzieci. Należy ją odróżnić od drugiej Marianny Wieczorek (córki Kacpra), która poślubiła Jakuba Ofiarę.",
-      "en": "Wife of Jan Ofiara (son of Karol). Daughter of Dominik Wieczorek and Salomea née Dobrowolska. Mother of numerous children. She should be distinguished from the other Marianna Wieczorek (daughter of Kacper), who married Jakub Ofiara."
+      "pl": "Żona Jana Ofiary (syna Karola). Córka Kacpra i Małgorzaty z Grzelaków Wieczorków. Należy ją odróżnić od jej siostry, również Marianny Wieczorek (ID 130), która poślubiła Jakuba Ofiarę.",
+      "en": "Wife of Jan Ofiara (son of Karol). Daughter of Kacper and Małgorzata née Grzelak Wieczorek. She should be distinguished from her sister, also named Marianna Wieczorek (ID 130), who married Jakub Ofiara."
     },
     "events": [
       {
-        "type": "birth",
-        "date": "1861-01-02",
-        "place": "Wola Gutowska",
-        "source": {
-          "documentId": 344
-        }
+        "type": "marriage",
+        "spouseId": 283,
+        "date": "1852-02-08",
+        "time": "9:00",
+        "timeQualifier": "morning",
+        "place": "Jedlińsk",
+        "witnesses": [
+          {
+            "firstName": "Tomasz",
+            "lastName": "Romanik",
+            "age": 50
+          },
+          {
+            "firstName": "Dionizy",
+            "lastName": "Lipiec",
+            "age": 50
+          }
+        ]
       },
       {
         "type": "death",
         "date": "1897-02-26",
+        "time": "20:00",
         "place": "Tymowska Wola",
         "source": {
           "documentId": 343
@@ -7398,5 +7542,94 @@
         "date": "?"
       }
     ]
+  },
+  {
+    "id": 362,
+    "firstName": "Magdalena",
+    "lastName": "Ofiara",
+    "maidenName": "Wieczorek (primo voto Russ)",
+    "family": "ofiara",
+    "birthDate": "1830-07-19",
+    "spouseIds": [363, 129],
+    "childIds": [],
+    "parentIds": [322, 323],
+    "marriages": [
+      {
+        "spouseId": 363,
+        "date": "1846-11-16",
+        "time": "15:00",
+        "timeQualifier": "afternoon",
+        "source": {
+          "documentId": 352
+        }
+      },
+      {
+        "spouseId": 129,
+        "date": "1856-01-25",
+        "time": "15:00",
+        "timeQualifier": "afternoon",
+        "source": {
+          "documentId": 351
+        }
+      }
+    ],
+    "biography": {
+      "pl": "Córka Kacpra i Małgorzaty z Grzelaków Wieczorków, siostra dwóch Mariann (ID 130 i 274). Jej pierwszym mężem był Józef Russ. Po jego śmierci, jako wdowa w wieku 25 lat, poślubiła Jakuba Ofiarę (ID 129).",
+      "en": "Daughter of Kacper and Małgorzata née Grzelak Wieczorek, sister of the two Mariannas (ID 130 and 274). Her first husband was Józef Russ. After his death, as a 25-year-old widow, she married Jakub Ofiara (ID 129)."
+    }
+  },
+  {
+    "id": 363,
+    "firstName": "Józef",
+    "lastName": "Russ",
+    "family": "ofiara",
+    "birthDate": "1825-03-07",
+    "deathDate": "1855-02-05",
+    "spouseIds": [362],
+    "childIds": [],
+    "parentIds": [364, 365],
+    "marriages": [
+      {
+        "spouseId": 362,
+        "date": "1846-11-16",
+        "time": "15:00",
+        "timeQualifier": "afternoon",
+        "source": {
+          "documentId": 352
+        }
+      }
+    ],
+    "biography": {
+      "pl": "Pierwszy mąż Magdaleny z domu Wieczorek. Syn Jana i Łucji z Piwowarczyków. Zmarł w Woli Gutowskiej dnia 5 lutego 1855 roku.",
+      "en": "First husband of Magdalena née Wieczorek. Son of Jan and Łucja née Piwowarczyk. He died in Wola Gutowska on February 5, 1855."
+    }
+  },
+  {
+    "id": 364,
+    "firstName": "Jan",
+    "lastName": "Russ",
+    "family": "ofiara",
+    "deathDateNote": "przed 1846-11-16",
+    "spouseIds": [365],
+    "childIds": [363],
+    "parentIds": [],
+    "biography": {
+      "pl": "Mąż Łucji z Piwowarczyków, ojciec Józefa Russa.",
+      "en": "Husband of Łucja née Piwowarczyk, father of Józef Russ."
+    }
+  },
+  {
+    "id": 365,
+    "firstName": "Łucja",
+    "lastName": "Russ",
+    "maidenName": "Piwowarczyk",
+    "family": "ofiara",
+    "spouseIds": [364],
+    "childIds": [363],
+    "parentIds": [],
+    "biography": {
+      "pl": "Żona Jana Russa, matka Józefa.",
+      "en": "Wife of Jan Russ, mother of Józef."
+    }
   }
 ]

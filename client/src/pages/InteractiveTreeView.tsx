@@ -32,13 +32,19 @@ const ControlCheckbox = ({
   </button>
 );
 
+// --- NOWE STAŁE DLA CZYTELNOŚCI ---
+const GIERCZAK_ROOT_ID = 1;
+const OFIARA_ROOT_ID = 161;
+
 export default function InteractiveTreeView() {
   const { t } = useLanguage();
   const [selectedPerson, setSelectedPerson] = useState<Person | null>(null);
   const [modalOpen, setModalOpen] = useState(false);
   const [keepsakesPerson, setKeepsakesPerson] = useState<Person | null>(null);
 
-  const [focusedPersonId, setFocusedPersonId] = useState<number>(1);
+  // Zmieniono domyślny ID na stałą
+  const [focusedPersonId, setFocusedPersonId] =
+    useState<number>(GIERCZAK_ROOT_ID);
 
   const [showGierczak, setShowGierczak] = useState(true);
   const [showOfiara, setShowOfiara] = useState(true);
@@ -149,27 +155,50 @@ export default function InteractiveTreeView() {
               label={t("family.gierczak")}
               checked={showGierczak}
               onToggle={() => setShowGierczak(!showGierczak)}
-              colorClass="heritage-burgundy"
+              colorClass="heritage-burgundy-text"
             />
             <ControlCheckbox
               label={t("family.ofiara")}
               checked={showOfiara}
               onToggle={() => setShowOfiara(!showOfiara)}
-              colorClass="heritage-teal"
+              colorClass="heritage-teal-text"
             />
             <ControlCheckbox
               label={t("tree.legend.descendants")}
               checked={showDescendants}
               onToggle={() => setShowDescendants(!showDescendants)}
-              colorClass="heritage-burgundy"
+              colorClass="heritage-burgundy-text"
             />
             <ControlCheckbox
               label={t("tree.legend.marriages")}
               checked={showMarriages}
               onToggle={() => setShowMarriages(!showMarriages)}
-              colorClass="heritage-teal"
+              colorClass="heritage-teal-text"
             />
           </div>
+
+          {/* --- NOWY BLOK KONTROLEK DO ZMIANY FOKUSU --- */}
+          <div className="absolute bottom-4 right-4 bg-card/95 backdrop-blur-sm rounded-lg p-3 shadow-lg heritage-border flex items-center flex-wrap gap-x-4 gap-y-2">
+            <div className="flex items-center text-sm font-semibold heritage-text mr-2">
+              <Users className="w-4 h-4 mr-2" />
+              <span>{t("tree.focusOn")}</span>
+            </div>
+            <button
+              onClick={() => setFocusedPersonId(GIERCZAK_ROOT_ID)}
+              className="px-3 py-1 rounded text-sm transition-colors data-[active=true]:bg-heritage-burgundy data-[active=true]:text-white data-[active=false]:bg-background"
+              data-active={focusedPerson?.family === "gierczak"}
+            >
+              {t("family.gierczak")}
+            </button>
+            <button
+              onClick={() => setFocusedPersonId(OFIARA_ROOT_ID)}
+              className="px-3 py-1 rounded text-sm transition-colors data-[active=true]:bg-heritage-teal data-[active=true]:text-white data-[active=false]:bg-background"
+              data-active={focusedPerson?.family === "ofiara"}
+            >
+              {t("family.ofiara")}
+            </button>
+          </div>
+          {/* --- KONIEC NOWEGO BLOKU --- */}
         </div>
 
         <PersonModal
