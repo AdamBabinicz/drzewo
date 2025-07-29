@@ -1490,6 +1490,40 @@
     ]
   },
   {
+    "id": 138,
+    "title_pl": "Akt Urodzenia: Jan Sierac (1852)",
+    "title_en": "Birth Record: Jan Sierac (1852)",
+    "type": "birth_record",
+    "description_pl": "Parafia Cerekiew, akt nr 138 z 1852 r. Dokument potwierdza narodziny Jana, syna Tomasza Sieraka i Katarzyny z domu Gierczak.",
+    "description_en": "Cerekiew Parish, record no. 138 from 1852. The document confirms the birth of Jan, son of Tomasz Sierak and Katarzyna née Gierczak.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się we wsi Cerkwi Dnia Dwudziestego szóstego Listopada Roku tysiąc Osiemset pięćdziesiątego drugiego o godzinie dziewiątey rano. Stawił się Tomasz Sierak Wyrobnik w Jaszowicach zamieszkały, lat dwadzieścia siedm maiący, w obecności Mikołaja Kornafela lat dwadzieścia siedm i Franciszka Warchoła lat pięćdziesiąt dwa maiących, obydwóch Włościan w Jaszowicach zamieszkałych, i okazał Nam Dziecię płci męskiej, urodzone w Jaszowicach w Domu pod Numerem dwudziestym trzecim Dnia dwudziestego piątego Miesiąca Listopada Roku tegoż o godzinie dziewiątej rano z Jego Małżonki Katarzyny z Gierczaków lat dwadzieścia pięć maiącey. Dziecięciu temu na Chrzcie Świętym w Dniu dzisiejszym odbytym, nadane zostało Imię Jan, a Rodzicami Jego Chrzestnymi byli: Mikołaj Kornafel i Katarzyna Kornaflowa. Akt ten Stawaiącemu i Świadkom przeczytany, pisać nie umiejącym, podpisany został. X. Kłobossowski Proboszcz Parafii Cerekiewskiej.",
+    "translation_pl": "Wydarzyło się we wsi Cerekiew dnia dwudziestego szóstego listopada roku tysiąc osiemset pięćdziesiątego drugiego o godzinie dziewiątej rano. Stawił się Tomasz Sierak, wyrobnik w Jaszowicach zamieszkały, lat dwadzieścia siedem, w obecności Mikołaja Kornafela, lat dwadzieścia siedem, i Franciszka Warchoła, lat pięćdziesiąt dwa, obydwóch włościan w Jaszowicach zamieszkałych. Okazał nam dziecko płci męskiej, urodzone w Jaszowicach w domu pod numerem dwudziestym trzecim, dnia dwudziestego piątego listopada tegoż roku o godzinie dziewiątej rano, z jego małżonki Katarzyny z domu Gierczak, lat dwadzieścia pięć. Dziecku temu na chrzcie świętym w dniu dzisiejszym odbytym nadano imię Jan, a jego rodzicami chrzestnymi byli: Mikołaj Kornafel i Katarzyna Kornaflowa. Akt ten stawiającemu i świadkom, którzy pisać nie umieją, został przeczytany i podpisany. Ksiądz Kłobossowski, Proboszcz Parafii Cerekiewskiej.",
+    "translation_en": "It happened in the village of Cerekiew on the twenty-sixth day of November of the year one thousand eight hundred and fifty-two at nine o'clock in the morning. Appeared Tomasz Sierak, a laborer residing in Jaszowice, aged twenty-seven, in the presence of Mikołaj Kornafel, aged twenty-seven, and Franciszek Warchoł, aged fifty-two, both peasants residing in Jaszowice. He presented to us a male child, born in Jaszowice in the house at number twenty-three, on the twenty-fifth day of November of this same year at nine o'clock in the morning, of his wife Katarzyna née Gierczak, aged twenty-five. To this child, at the Holy Baptism performed this day, was given the name Jan, and his godparents were: Mikołaj Kornafel and Katarzyna Kornaflowa. This act was read to the declarant and witnesses, who are unable to write, and was signed. Father Kłobossowski, Pastor of the Cerekiew Parish.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Tomasz Sierak, 27 lat"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Katarzyna z Gierczaków, 25 lat"
+      },
+      {
+        "label_pl": "Świadkowie",
+        "label_en": "Witnesses",
+        "value_pl": "Mikołaj Kornafel (27 lat), Franciszek Warchoł (52 lata)"
+      },
+      {
+        "label_pl": "Chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Mikołaj Kornafel i Katarzyna Kornaflowa"
+      }
+    ]
+  },
+  {
     "id": 201,
     "title_pl": "Akt Urodzenia: Karol Sobień (1894)",
     "title_en": "Birth Record: Karol Sobień (1894)",
@@ -5949,6 +5983,338 @@
         "label_en": "Witnesses",
         "value_pl": "Jan Kłochowski (42 lata), Feliks Kwieciński (50 lat)",
         "value_en": "Jan Kłochowski (42 years), Feliks Kwieciński (50 years)"
+      }
+    ]
+  },
+  {
+    "id": 353,
+    "title_pl": "Akt Urodzenia: Marianna Gerczak (1826)",
+    "title_en": "Birth Record: Marianna Gerczak (1826)",
+    "type": "birth_record",
+    "description_pl": "Parafia Cerekiew, akt nr 110, 1826 r. Kluczowy dokument potwierdzający, że matką Marianny była Marianna z domu Nabis, co dowodzi pierwszego małżeństwa Michała Gierczaka (ID 5).",
+    "description_en": "Cerekiew Parish, record no. 110, 1826. A key document confirming that Marianna's mother was Marianna née Nabis, proving the first marriage of Michał Gierczak (ID 5).",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się we wsi Cerkwi Dnia Dwudziestego siódmego Miesiąca Października Roku tysiąc Osiemset dwudziestego szóstego o godzinie dziewiątey rano. Stawił się Michał Gierczak Włościanin w Jaszowicach zamieszkały, lat dwadzieścia ośm maiący, w obecności Pawła Karcza lat czterdzieści i Franciszka Zielińskiego lat trzydzieści pięć maiących, obydwóch Włościan w Jaszowicach zamieszkałych, i okazał Nam Dziecię płci żeńskiey, urodzone w Jaszowicach w Domu pod Numerem dwudziestym trzecim Dnia dwudziestego piątego Miesiąca Października Roku tegoż o godzinie dziesiątey rano, z Jego Małżonki Maryanny z Nabisów lat dwadzieścia sześć maiącey. Dziecięciu temu na Chrzcie Świętym w Dniu dzisiejszym odbytym nadane zostało Imię Maryanna, a Rodzicami Jego Chrzestnymi byli: Paweł Karcz i Katarzyna Nabisówna. Akt ten Stawaiącemu i Świadkom przeczytany, pisać nie umieiącym, podpisany został. X. Stanisław Kłobossowski Proboszcz Parafii Cerekiewskiey.",
+    "translation_pl": "Wydarzyło się we wsi Cerekiew dnia dwudziestego siódmego października roku tysiąc osiemset dwudziestego szóstego o godzinie dziewiątej rano. Stawił się Michał Gierczak, włościanin w Jaszowicach zamieszkały, lat dwadzieścia osiem, w obecności Pawła Karcza, lat czterdzieści, i Franciszka Zielińskiego, lat trzydzieści pięć, obydwóch włościan w Jaszowicach zamieszkałych. Okazał nam dziecko płci żeńskiej, urodzone w Jaszowicach w domu pod numerem dwudziestym trzecim, dnia dwudziestego piątego października tegoż roku o godzinie dziesiątej rano, z jego małżonki Marianny z domu Nabis, lat dwadzieścia sześć. Dziecku temu na chrzcie świętym w dniu dzisiejszym odbytym nadano imię Marianna, a jego rodzicami chrzestnymi byli: Paweł Karcz i Katarzyna Nabisówna. Akt ten stawiającemu i świadkom, którzy pisać nie umieją, został przeczytany i podpisany. Ksiądz Stanisław Kłobossowski, Proboszcz Parafii Cerekiewskiej.",
+    "translation_en": "It happened in the village of Cerekiew on the twenty-seventh day of October of the year one thousand eight hundred and twenty-six at nine o'clock in the morning. Appeared Michał Gierczak, a peasant residing in Jaszowice, aged twenty-eight, in the presence of Paweł Karcz, aged forty, and Franciszek Zieliński, aged thirty-five, both peasants residing in Jaszowice. He presented to us a female child, born in Jaszowice in the house at number twenty-three, on the twenty-fifth day of October of this same year at ten o'clock in the morning, of his wife Marianna née Nabis, aged twenty-six. To this child, at the Holy Baptism performed this day, was given the name Marianna, and her godparents were: Paweł Karcz and Katarzyna Nabisówna. This act was read to the declarant and witnesses, who are unable to write, and was signed. Father Stanisław Kłobossowski, Pastor of the Cerekiew Parish.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Michał Gierczak, 28 lat",
+        "value_en": "Michał Gierczak, 28 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Marianna z Nabisów, 26 lat",
+        "value_en": "Marianna née Nabis, 26 years old"
+      },
+      {
+        "label_pl": "Chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Paweł Karcz i Katarzyna Nabisówna",
+        "value_en": "Paweł Karcz and Katarzyna Nabisówna"
+      }
+    ]
+  },
+  {
+    "id": 354,
+    "title_pl": "Akt Urodzenia: Katarzyna Gierczak (1829)",
+    "title_en": "Birth Record: Katarzyna Gierczak (1829)",
+    "type": "birth_record",
+    "description_pl": "Parafia Cerekiew, akt nr 88, 1829 r. Dokument potwierdza narodziny Katarzyny, drugiej znanej córki Michała Gierczaka i jego pierwszej żony, Marianny z domu Nabis.",
+    "description_en": "Cerekiew Parish, record no. 88, 1829. The document confirms the birth of Katarzyna, the second known daughter of Michał Gierczak and his first wife, Marianna née Nabis.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się we wsi Cerkwi Dnia Dwudziestego dziewiątego Miesiąca Sierpnia Roku tysiąc Osiemset dwudziestego dziewiątego o godzinie dziewiątey rano. Stawił się Michał Gierczak Włościanin w Jaszowicach zamieszkały, lat trzydzieści ieden maiący, w obecności Walentego Baćmagi lat czterdzieści dwa i Mateusza Zycha lat pięćdziesiąt maiących, obydwóch Włościan w Jaszowicach zamieszkałych, i okazał Nam Dziecię płci żeńskiey, urodzone w Jaszowicach w Domu pod Numerem dwudziestym trzecim Dnia dwudziestego ósmego Miesiąca Sierpnia Roku tegoż o godzinie dziesiątey rano, z Jego Małżonki Maryanny z Nabisów lat dwadzieścia ośm maiącey. Dziecięciu temu na Chrzcie Świętym w Dniu dzisiejszym odbytym nadane zostało Imię Katarzyna, a Rodzicami Jego Chrzestnymi byli: Mateusz Zych i Katarzyna Nabisówna. Akt ten Stawaiącemu i Świadkom przeczytany, pisać nie umieiącym, podpisany został. X. Kłobossowski Proboszcz Parafii Cerekiewskiey.",
+    "translation_pl": "Wydarzyło się we wsi Cerekiew dnia dwudziestego dziewiątego sierpnia roku tysiąc osiemset dwudziestego dziewiątego o godzinie dziewiątej rano. Stawił się Michał Gierczak, włościanin w Jaszowicach zamieszkały, lat trzydzieści jeden, w obecności Walentego Baćmagi, lat czterdzieści dwa, i Mateusza Zycha, lat pięćdziesiąt, obydwóch włościan w Jaszowicach zamieszkałych. Okazał nam dziecko płci żeńskiej, urodzone w Jaszowicach w domu pod numerem dwudziestym trzecim, dnia dwudziestego ósmego sierpnia tegoż roku o godzinie dziesiątej rano, z jego małżonki Marianny z domu Nabis, lat dwadzieścia osiem. Dziecku temu na chrzcie świętym w dniu dzisiejszym odbytym nadano imię Katarzyna, a jego rodzicami chrzestnymi byli: Mateusz Zych i Katarzyna Nabisówna. Akt ten stawiającemu i świadkom, którzy pisać nie umieją, został przeczytany i podpisany. Ksiądz Kłobossowski, Proboszcz Parafii Cerekiewskiej.",
+    "translation_en": "It happened in the village of Cerekiew on the twenty-ninth day of August of the year one thousand eight hundred and twenty-nine at nine o'clock in the morning. Appeared Michał Gierczak, a peasant residing in Jaszowice, aged thirty-one, in the presence of Walenty Baćmaga, aged forty-two, and Mateusz Zych, aged fifty, both peasants residing in Jaszowice. He presented to us a female child, born in Jaszowice in the house at number twenty-three, on the twenty-eighth day of August of this same year at ten o'clock in the morning, of his wife Marianna née Nabis, aged twenty-eight. To this child, at the Holy Baptism performed this day, was given the name Katarzyna, and her godparents were: Mateusz Zych and Katarzyna Nabisówna. This act was read to the declarant and witnesses, who are unable to write, and was signed. Father Kłobossowski, Pastor of the Cerekiew Parish.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Michał Gierczak, 31 lat",
+        "value_en": "Michał Gierczak, 31 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Marianna z Nabisów, 28 lat",
+        "value_en": "Marianna née Nabis, 28 years old"
+      },
+      {
+        "label_pl": "Chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Mateusz Zych i Katarzyna Nabisówna",
+        "value_en": "Mateusz Zych and Katarzyna Nabisówna"
+      }
+    ]
+  },
+  {
+    "id": 355,
+    "title_pl": "Akt Urodzenia: Antonina Gierczak (1832)",
+    "title_en": "Birth Record: Antonina Gierczak (1832)",
+    "type": "birth_record",
+    "description_pl": "Parafia Cerekiew, akt nr 41, 1832 r. Dokument potwierdza narodziny Antoniny, trzeciej znanej córki Michała Gierczaka i jego pierwszej żony, Marianny z domu Nabis.",
+    "description_en": "Cerekiew Parish, record no. 41, 1832. The document confirms the birth of Antonina, the third known daughter of Michał Gierczak and his first wife, Marianna née Nabis.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się we wsi Cerkwi Dnia osiemnastego Miesiąca Maja Roku tysiąc Osiemset trzydziestego drugiego o godzinie dziewiątej rano. Stawił się Michał Gierczak, Wyrobnik w Jaszowicach zamieszkały, lat trzydzieści cztery maiący, w obecności Walentego Baćmagi lat czterdzieści pięć i Mateusza Zycha lat pięćdziesiąt dwa maiących, obydwóch Wyrobników w Jaszowicach zamieszkałych, i okazał Nam Dziecię płci żeńskiey, urodzone w Jaszowicach w Domu pod Numerem dwudziestym trzecim Dnia szesnastego Miesiąca Maja Roku tegoż o godzinie trzeciey po południu, z Jego Małżonki Maryanny z Nabisów lat trzydzieści dwa maiącey. Dziecięciu temu na Chrzcie Świętym w Dniu dzisiejszym nadane zostało Imię Antonina, a Rodzicami Jego Chrzestnymi byli: Paweł Karcz i Katarzyna Nabisówna. Akt ten Stawaiącemu i Świadkom przeczytany, pisać nie umieiącym, podpisany został. X. Kłobossowski Proboszcz Parafii Cerekiewskiey.",
+    "translation_pl": "Wydarzyło się we wsi Cerekiew dnia osiemnastego maja roku tysiąc osiemset trzydziestego drugiego o godzinie dziewiątej rano. Stawił się Michał Gierczak, wyrobnik w Jaszowicach zamieszkały, lat trzydzieści cztery, w obecności Walentego Baćmagi, lat czterdzieści pięć, i Mateusza Zycha, lat pięćdziesiąt dwa, obydwóch wyrobników w Jaszowicach zamieszkałych. Okazał nam dziecko płci żeńskiej, urodzone w Jaszowicach w domu pod numerem dwudziestym trzecim, dnia szesnastego maja tegoż roku o godzinie trzeciej po południu, z jego małżonki Marianny z domu Nabis, lat trzydzieści dwa. Dziecku temu na chrzcie świętym w dniu dzisiejszym odbytym nadano imię Antonina, a jego rodzicami chrzestnymi byli: Paweł Karcz i Katarzyna Nabisówna. Akt ten stawiającemu i świadkom, którzy pisać nie umieją, został przeczytany i podpisany. Ksiądz Kłobossowski, Proboszcz Parafii Cerekiewskiej.",
+    "translation_en": "It happened in the village of Cerekiew on the eighteenth day of May of the year one thousand eight hundred and thirty-two at nine o'clock in the morning. Appeared Michał Gierczak, a laborer residing in Jaszowice, aged thirty-four, in the presence of Walenty Baćmaga, aged forty-five, and Mateusz Zych, aged fifty-two, both laborers residing in Jaszowice. He presented to us a female child, born in Jaszowice in the house at number twenty-three, on the sixteenth day of May of this same year at three o'clock in the afternoon, of his wife Marianna née Nabis, aged thirty-two. To this child, at the Holy Baptism performed this day, was given the name Antonina, and her godparents were: Paweł Karcz and Katarzyna Nabisówna. This act was read to the declarant and witnesses, who are unable to write, and was signed. Father Kłobossowski, Pastor of the Cerekiew Parish.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Michał Gierczak, 34 lata",
+        "value_en": "Michał Gierczak, 34 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Marianna z Nabisów, 32 lata",
+        "value_en": "Marianna née Nabis, 32 years old"
+      },
+      {
+        "label_pl": "Chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Paweł Karcz i Katarzyna Nabisówna",
+        "value_en": "Paweł Karcz and Katarzyna Nabisówna"
+      }
+    ]
+  },
+  {
+    "id": 356,
+    "title_pl": "Akt Urodzenia: Klara Gierczak (1838)",
+    "title_en": "Birth Record: Klara Gierczak (1838)",
+    "type": "birth_record",
+    "description_pl": "Parafia Cerekiew, akt nr 76, 1838 r. Dokument potwierdza narodziny Klary, czwartej znanej córki Michała Gierczaka i jego pierwszej żony, Marianny z domu Nabis.",
+    "description_en": "Cerekiew Parish, record no. 76, 1838. The document confirms the birth of Klara, the fourth known daughter of Michał Gierczak and his first wife, Marianna née Nabis.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się we wsi Cerkwi Dnia trzydziestego pierwszego Lipca Roku tysiąc osiemset trzydziestego ósmego o godzinie dziewiątej rano. Stawił się Michał Gierczak, Wyrobnik w Jaszowicach zamieszkały, lat czterdzieści maiący, w obecności Franciszka Warchoła lat czterdzieści i Józefa Drachowskiego lat trzydzieści dwa maiących, obydwóch Wyrobników w Jaszowicach zamieszkałych, i okazał Nam Dziecię płci żeńskiej, urodzone w Jaszowicach w Domu pod Numerem dwudziestym trzecim Dnia trzydziestego Miesiąca Lipca Roku tegoż o godzinie trzeciej po południu z Jego Małżonki Marianny z Nabisów lat trzydzieści sześć maiącej. Dziecięciu temu na Chrzcie Świętym w Dniu dzisiejszym odbytym, nadane zostało Imię Klara, a Rodzicami Jego Chrzestnymi byli: Franciszek Warchoł i Katarzyna Nabisówna. Akt ten Stawaiącemu i Świadkom przeczytany, pisać nie umiejącym, podpisany został. X. Kłobossowski Proboszcz Parafii Cerekiewskiej.",
+    "translation_pl": "Wydarzyło się we wsi Cerekiew dnia trzydziestego pierwszego lipca roku tysiąc osiemset trzydziestego ósmego o godzinie dziewiątej rano. Stawił się Michał Gierczak, wyrobnik w Jaszowicach zamieszkały, lat czterdzieści, w obecności Franciszka Warchoła, lat czterdzieści, i Józefa Drachowskiego, lat trzydzieści dwa, obydwóch wyrobników w Jaszowicach zamieszkałych. Okazał nam dziecko płci żeńskiej, urodzone w Jaszowicach w domu pod numerem dwudziestym trzecim, dnia trzydziestego lipca tegoż roku o godzinie trzeciej po południu, z jego małżonki Marianny z domu Nabis, lat trzydzieści sześć. Dziecku temu na chrzcie świętym w dniu dzisiejszym odbytym nadano imię Klara, a jego rodzicami chrzestnymi byli: Franciszek Warchoł i Katarzyna Nabisówna. Akt ten stawiającemu i świadkom, którzy pisać nie umieją, został przeczytany i podpisany. Ksiądz Kłobossowski, Proboszcz Parafii Cerekiewskiej.",
+    "translation_en": "It happened in the village of Cerekiew on the thirty-first day of July of the year one thousand eight hundred and thirty-eight at nine o'clock in the morning. Appeared Michał Gierczak, a laborer residing in Jaszowice, aged forty, in the presence of Franciszek Warchoł, aged forty, and Józef Drachowski, aged thirty-two, both laborers residing in Jaszowice. He presented to us a female child, born in Jaszowice in the house at number twenty-three, on the thirtieth day of July of this same year at three o'clock in the afternoon, of his wife Marianna née Nabis, aged thirty-six. To this child, at the Holy Baptism performed this day, was given the name Klara, and her godparents were: Franciszek Warchoł and Katarzyna Nabisówna. This act was read to the declarant and witnesses, who are unable to write, and was signed. Father Kłobossowski, Pastor of the Cerekiew Parish.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Michał Gierczak, 40 lat",
+        "value_en": "Michał Gierczak, 40 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Marianna z Nabisów, 36 lat",
+        "value_en": "Marianna née Nabis, 36 years old"
+      },
+      {
+        "label_pl": "Chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Franciszek Warchoł i Katarzyna Nabisówna",
+        "value_en": "Franciszek Warchoł and Katarzyna Nabisówna"
+      }
+    ]
+  },
+  {
+    "id": 357,
+    "title_pl": "Akt Urodzenia: Józefa Gierczak (1842)",
+    "title_en": "Birth Record: Józefa Gierczak (1842)",
+    "type": "birth_record",
+    "description_pl": "Parafia Cerekiew, akt nr 22, 1842 r. Dokument potwierdza narodziny Józefy, piątej znanej córki Michała Gierczaka i jego pierwszej żony, Marianny z domu Nabis.",
+    "description_en": "Cerekiew Parish, record no. 22, 1842. The document confirms the birth of Józefa, the fifth known daughter of Michał Gierczak and his first wife, Marianna née Nabis.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się we wsi Cerekwi Dnia Dwudziestego ósmego Lipca Roku Tysiąc osiemset czterdziestego drugiego o godzinie siódmej rano. Stawił się Michał Gierczak Wyrobnik w Jaszowicach zamieszkały, lat czterdzieści cztery maiący, w obecności Jakuba Gierczaka lat pięćdziesiąt i Augustyna Tyczyńskiego lat dwadzieścia siedm maiących, obydwóch Wyrobników w Jaszowicach zamieszkałych, i okazał Nam Dziecię płci żeńskiej, urodzone w Jaszowicach w Domu pod Numerem dwudziestym trzecim Dnia dzisiejszego Miesiąca Lipca Roku tegoż o godzinie czwartej rano, z Jego Małżonki Maryanny z Nabisów lat czterdzieści dwa maiącej. Dziecięciu temu na Chrzcie Świętym w Dniu dzisiejszym odbytym, nadane zostało Imię Józefa, a Rodzicami Jego Chrzestnymi byli: Augustyn Tyczyński i Katarzyna Nabisówna. Akt ten Stawaiącemu i Świadkom przeczytany, pisać nie umiejącym, podpisany został. X. Kłobossowski Proboszcz Parafii Cerekiewskiej.",
+    "translation_pl": "Wydarzyło się we wsi Cerekiew dnia dwudziestego ósmego lipca roku tysiąc osiemset czterdziestego drugiego o godzinie siódmej rano. Stawił się Michał Gierczak, wyrobnik w Jaszowicach zamieszkały, lat czterdzieści cztery, w obecności Jakuba Gierczaka, lat pięćdziesiąt, i Augustyna Tyczyńskiego, lat dwadzieścia siedem, obydwóch wyrobników w Jaszowicach zamieszkałych. Okazał nam dziecko płci żeńskiej, urodzone w Jaszowicach w domu pod numerem dwudziestym trzecim, dnia dzisiejszego, miesiąca lipca, tegoż roku o godzinie czwartej rano, z jego małżonki Marianny z domu Nabis, lat czterdzieści dwa. Dziecku temu na chrzcie świętym w dniu dzisiejszym odbytym nadano imię Józefa, a jego rodzicami chrzestnymi byli: Augustyn Tyczyński i Katarzyna Nabisówna. Akt ten stawiającemu i świadkom, którzy pisać nie umieją, został przeczytany i podpisany. Ksiądz Kłobossowski, Proboszcz Parafii Cerekiewskiej.",
+    "translation_en": "It happened in the village of Cerekiew on the twenty-eighth day of July of the year one thousand eight hundred and forty-two at seven o'clock in the morning. Appeared Michał Gierczak, a laborer residing in Jaszowice, aged forty-four, in the presence of Jakub Gierczak, aged fifty, and Augustyn Tyczyński, aged twenty-seven, both laborers residing in Jaszowice. He presented to us a female child, born in Jaszowice in the house at number twenty-three, on this day of the month of July of this same year at four o'clock in the morning, of his wife Marianna née Nabis, aged forty-two. To this child, at the Holy Baptism performed this day, was given the name Józefa, and her godparents were: Augustyn Tyczyński and Katarzyna Nabisówna. This act was read to the declarant and witnesses, who are unable to write, and was signed. Father Kłobossowski, Pastor of the Cerekiew Parish.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Michał Gierczak, 44 lata",
+        "value_en": "Michał Gierczak, 44 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Marianna z Nabisów, 42 lata",
+        "value_en": "Marianna née Nabis, 42 years old"
+      },
+      {
+        "label_pl": "Chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Augustyn Tyczyński i Katarzyna Nabisówna",
+        "value_en": "Augustyn Tyczyński and Katarzyna Nabisówna"
+      }
+    ]
+  },
+  {
+    "id": 358,
+    "title_pl": "Akt Urodzenia: Józef Gerczak (1847)",
+    "title_en": "Birth Record: Józef Gerczak (1847)",
+    "type": "birth_record",
+    "description_pl": "Parafia Cerekiew, akt nr 25, 1847 r. Dokument potwierdza narodziny Józefa, szóstego znanego dziecka i pierwszego syna Michała Gierczaka i jego pierwszej żony, Marianny z domu Nabis.",
+    "description_en": "Cerekiew Parish, record no. 25, 1847. The document confirms the birth of Józef, the sixth known child and first son of Michał Gierczak and his first wife, Marianna née Nabis.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się we wsi Cerekwi Dnia Dziesiątego Marca Roku tysiąc Osiemset czterdziestego siódmego o godzinie drugiej po południu. Stawił się Michał Gerczak Wyrobnik w Jaszowicach zamieszkały, lat czterdzieści dziewięć maiący, w obecności Mateusza Drabika lat czterdzieści i Józefa Drachowskiego lat trzydzieści siedm maiących, obydwóch Wyrobników w Jaszowicach zamieszkałych, i okazał Nam Dziecię płci męskiej, urodzone w Jaszowicach w Domu pod Numerem dwudziestym trzecim Dnia ósmego Miesiąca Marca Roku tegoż o godzinie drugiej po południu z Jego Małżonki Marianny z Nabisów lat czterdzieści pięć maiącej. Dziecięciu temu na Chrzcie Świętym w Dniu dzisiejszym odbytym, nadane zostało Imię Józef, a Rodzicami Jego Chrzestnymi byli: Józef Nabis i Józefa Drachowska. Akt ten Stawaiącemu i Świadkom przeczytany, pisać nie umiejącym, podpisany został. X. Kłobossowski Proboszcz Parafii Cerekiewskiej.",
+    "translation_pl": "Wydarzyło się we wsi Cerekiew dnia dziesiątego marca roku tysiąc osiemset czterdziestego siódmego o godzinie drugiej po południu. Stawił się Michał Gerczak, wyrobnik w Jaszowicach zamieszkały, lat czterdzieści dziewięć, w obecności Mateusza Drabika, lat czterdzieści, i Józefa Drachowskiego, lat trzydzieści siedem, obydwóch wyrobników w Jaszowicach zamieszkałych. Okazał nam dziecko płci męskiej, urodzone w Jaszowicach w domu pod numerem dwudziestym trzecim, dnia ósmego marca tegoż roku o godzinie drugiej po południu, z jego małżonki Marianny z domu Nabis, lat czterdzieści pięć. Dziecku temu na chrzcie świętym w dniu dzisiejszym odbytym nadano imię Józef, a jego rodzicami chrzestnymi byli: Józef Nabis i Józefa Drachowska. Akt ten stawiającemu i świadkom, którzy pisać nie umieją, został przeczytany i podpisany. Ksiądz Kłobossowski, Proboszcz Parafii Cerekiewskiej.",
+    "translation_en": "It happened in the village of Cerekiew on the tenth day of March of the year one thousand eight hundred and forty-seven at two o'clock in the afternoon. Appeared Michał Gerczak, a laborer residing in Jaszowice, aged forty-nine, in the presence of Mateusz Drabik, aged forty, and Józef Drachowski, aged thirty-seven, both laborers residing in Jaszowice. He presented to us a male child, born in Jaszowice in the house at number twenty-three, on the eighth day of March of this same year at two o'clock in the afternoon, of his wife Marianna née Nabis, aged forty-five. To this child, at the Holy Baptism performed this day, was given the name Józef, and his godparents were: Józef Nabis and Józefa Drachowska. This act was read to the declarant and witnesses, who are unable to write, and was signed. Father Kłobossowski, Pastor of the Cerekiew Parish.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Michał Gerczak, 49 lat",
+        "value_en": "Michał Gerczak, 49 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Marianna z Nabisów, 45 lat",
+        "value_en": "Marianna née Nabis, 45 years old"
+      },
+      {
+        "label_pl": "Chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Józef Nabis i Józefa Drachowska",
+        "value_en": "Józef Nabis and Józefa Drachowska"
+      }
+    ]
+  },
+  {
+    "id": 359,
+    "title_pl": "Akt Urodzenia: Łucja Gierczak (1848)",
+    "title_en": "Birth Record: Łucja Gierczak (1848)",
+    "type": "birth_record",
+    "description_pl": "Parafia Cerekiew, akt nr 62, 1848 r. Dokument potwierdza narodziny Łucji, czwartego znanego dziecka Kacpra Gierczaka i jego żony, Marianny z domu Moskwa.",
+    "description_en": "Cerekiew Parish, record no. 62, 1848. The document confirms the birth of Łucja, the fourth known child of Kacper Gierczak and his wife, Marianna née Moskwa.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się we wsi Cerkwi Dnia Dwudziestego ósmego Grudnia Roku tysiąc Osiemset czterdziestego ósmego o godzinie dziesiątej rano. Stawił się Kacper Gierczak Wyrobnik w Jaszowicach zamieszkały, lat dwadzieścia trzy maiący, w obecności Mikołaja Kornafela lat dwadzieścia siedm i Franciszka Warchoła lat czterdzieści dziewięć maiących, obydwóch Włościan w Jaszowicach zamieszkałych, i okazał Nam Dziecię płci żeńskiej, urodzone w Jaszowicach w Domu pod Numerem dwudziestym trzecim Dnia trzynastego Miesiąca Grudnia Roku tegoż o godzinie drugiej po południu z Jego Małżonki Marianny z Moskwów lat dwadzieścia trzy maiącej. Dziecięciu temu na Chrzcie Świętym w Dniu dzisiejszym odbytym, nadane zostało Imię Łucja, a Rodzicami Jego Chrzestnymi byli: Mikołaj Kornafel i Katarzyna Kornaflowa. Akt ten Stawaiącemu i Świadkom przeczytany, pisać nie umiejącym, podpisany został. X. Kłobossowski Proboszcz Parafii Cerekiewskiej.",
+    "translation_pl": "Wydarzyło się we wsi Cerekiew dnia dwudziestego ósmego grudnia roku tysiąc osiemset czterdziestego ósmego o godzinie dziesiątej rano. Stawił się Kacper Gierczak, wyrobnik w Jaszowicach zamieszkały, lat dwadzieścia trzy, w obecności Mikołaja Kornafela, lat dwadzieścia siedem, i Franciszka Warchoła, lat czterdzieści dziewięć, obydwóch włościan w Jaszowicach zamieszkałych. Okazał nam dziecko płci żeńskiej, urodzone w Jaszowicach w domu pod numerem dwudziestym trzecim, dnia trzynastego grudnia tegoż roku o godzinie drugiej po południu, z jego małżonki Marianny z domu Moskwa, lat dwadzieścia trzy. Dziecku temu na chrzcie świętym w dniu dzisiejszym odbytym nadano imię Łucja, a jego rodzicami chrzestnymi byli: Mikołaj Kornafel i Katarzyna Kornaflowa. Akt ten stawiającemu i świadkom, którzy pisać nie umieją, został przeczytany i podpisany. Ksiądz Kłobossowski, Proboszcz Parafii Cerekiewskiej.",
+    "translation_en": "It happened in the village of Cerekiew on the twenty-eighth day of December of the year one thousand eight hundred and forty-eight at ten o'clock in the morning. Appeared Kacper Gierczak, a laborer residing in Jaszowice, aged twenty-three, in the presence of Mikołaj Kornafel, aged twenty-seven, and Franciszek Warchoł, aged forty-nine, both peasants residing in Jaszowice. He presented to us a female child, born in Jaszowice in the house at number twenty-three, on the thirteenth day of December of this same year at two o'clock in the afternoon, of his wife Marianna née Moskwa, aged twenty-three. To this child, at the Holy Baptism performed this day, was given the name Łucja, and her godparents were: Mikołaj Kornafel and Katarzyna Kornaflowa. This act was read to the declarant and witnesses, who are unable to write, and was signed. Father Kłobossowski, Pastor of the Cerekiew Parish.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Kacper Gierczak, 23 lata",
+        "value_en": "Kacper Gierczak, 23 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Marianna z Moskwów, 23 lata",
+        "value_en": "Marianna née Moskwa, 23 years old"
+      },
+      {
+        "label_pl": "Chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Mikołaj Kornafel i Katarzyna Kornaflowa",
+        "value_en": "Mikołaj Kornafel and Katarzyna Kornaflowa"
+      }
+    ]
+  },
+  {
+    "id": 360,
+    "title_pl": "Akt Urodzenia: Franciszka Gierczak (1851)",
+    "title_en": "Birth Record: Franciszka Gierczak (1851)",
+    "type": "birth_record",
+    "description_pl": "Parafia Cerekiew, akt nr 98, 1851 r. Dokument potwierdza narodziny Franciszki, córki Kacpra Gierczaka i jego żony, Marianny z domu Moskwa. W akcie nazwisko ojca zapisano jako 'Gierczak', a córki jako 'Gerczak'.",
+    "description_en": "Cerekiew Parish, record no. 98, 1851. The document confirms the birth of Franciszka, daughter of Kacper Gierczak and his wife, Marianna née Moskwa. In the record, the father's surname is written as 'Gierczak' and the daughter's as 'Gerczak'.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się we wsi Cerkwi Dnia Dwudziestego ósmego Sierpnia Roku tysiąc Osiemset pięćdziesiątego pierwszego o godzinie czwartej po południu. Stawił się Kacper Gierczak Wyrobnik w Jaszowicach zamieszkały, lat dwadzieścia cztery maiący, w obecności Walentego Baćmagi lat pięćdziesiąt cztery i Franciszka Warchoła lat pięćdziesiąt dwa maiących, obydwóch Włościan w Jaszowicach zamieszkałych, i okazał Nam Dziecię płci żeńskiej, urodzone w Jaszowicach w Domu pod Numerem dwudziestym trzecim Dnia dwudziestego siódmego Miesiąca Sierpnia Roku tegoż o godzinie szóstej rano, z Jego Małżonki Marianny z Moskwów lat dwadzieścia trzy maiącej. Dziecięciu temu na Chrzcie Świętym w Dniu dzisiejszym odbytym, nadane zostało Imię Franciszka, a Rodzicami Jego Chrzestnymi byli Wojciech Warchoł i Katarzyna Baćmażanka. Akt ten Stawaiącemu i Świadkom przeczytany, pisać nie umiejącym, podpisany został. X. Kłobossowski Proboszcz Parafii Cerekiewskiej.",
+    "translation_pl": "Wydarzyło się we wsi Cerekiew dnia dwudziestego ósmego sierpnia roku tysiąc osiemset pięćdziesiątego pierwszego o godzinie czwartej po południu. Stawił się Kacper Gierczak, wyrobnik w Jaszowicach zamieszkały, lat dwadzieścia cztery, w obecności Walentego Baćmagi, lat pięćdziesiąt cztery, i Franciszka Warchoła, lat pięćdziesiąt dwa, obydwóch włościan w Jaszowicach zamieszkałych. Okazał nam dziecko płci żeńskiej, urodzone w Jaszowicach w domu pod numerem dwudziestym trzecim, dnia dwudziestego siódmego sierpnia tegoż roku o godzinie szóstej rano, z jego małżonki Marianny z domu Moskwa, lat dwadzieścia trzy. Dziecku temu na chrzcie świętym w dniu dzisiejszym odbytym nadano imię Franciszka, a jego rodzicami chrzestnymi byli: Wojciech Warchoł i Katarzyna Baćmażanka. Akt ten stawiającemu i świadkom, którzy pisać nie umieją, został przeczytany i podpisany. Ksiądz Kłobossowski, Proboszcz Parafii Cerekiewskiej.",
+    "translation_en": "It happened in the village of Cerekiew on the twenty-eighth day of August of the year one thousand eight hundred and fifty-one at four o'clock in the afternoon. Appeared Kacper Gierczak, a laborer residing in Jaszowice, aged twenty-four, in the presence of Walenty Baćmaga, aged fifty-four, and Franciszek Warchoł, aged fifty-two, both peasants residing in Jaszowice. He presented to us a female child, born in Jaszowice in the house at number twenty-three, on the twenty-seventh day of August of this same year at six o'clock in the morning, of his wife Marianna née Moskwa, aged twenty-three. To this child, at the Holy Baptism performed this day, was given the name Franciszka, and her godparents were: Wojciech Warchoł and Katarzyna Baćmażanka. This act was read to the declarant and witnesses, who are unable to write, and was signed. Father Kłobossowski, Pastor of the Cerekiew Parish.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Kacper Gierczak, 24 lata",
+        "value_en": "Kacper Gierczak, 24 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Marianna z Moskwów, 23 lata",
+        "value_en": "Marianna née Moskwa, 23 years old"
+      },
+      {
+        "label_pl": "Chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Wojciech Warchoł i Katarzyna Baćmażanka",
+        "value_en": "Wojciech Warchoł and Katarzyna Baćmażanka"
+      }
+    ]
+  },
+  {
+    "id": 361,
+    "title_pl": "Akt Urodzenia: Franciszka Slifirczyk (1852)",
+    "title_en": "Birth Record: Franciszka Slifirczyk (1852)",
+    "type": "birth_record",
+    "description_pl": "Parafia Cerekiew, akt nr 87, 1852 r. Dokument potwierdza narodziny Franciszki, córki Franciszka Ślifirczyka i Antoniny z domu Gierczak.",
+    "description_en": "Cerekiew Parish, record no. 87, 1852. The document confirms the birth of Franciszka, daughter of Franciszek Ślifirczyk and Antonina née Gierczak.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się we wsi Cerkwi Dnia Dwudziestego siódmego Sierpnia Roku tysiąc Osiemset pięćdziesiątego drugiego o godzinie drugiey po południu. Stawił się Franciszek Slifirczyk Wyrobnik w Jaszowicach zamieszkały, lat dwadzieścia ieden maiący, w obecności Mikołaja Kornafela lat dwadzieścia siedm i Franciszka Warchoła lat pięćdziesiąt cztery maiących, obydwóch Włościan w Jaszowicach zamieszkałych, i okazał Nam Dziecię płci żeńskiej, urodzone w Jaszowicach w Domu pod Numerem dwudziestym trzecim Dnia dwudziestego piątego Miesiąca Sierpnia Roku tegoż o godzinie dziesiątej rano, z Jego Małżonki Antoniny z Gierczaków lat dwadzieścia siedm maiącej. Dziecięciu temu na Chrzcie Świętym w Dniu dzisiejszym odbytym, nadane zostało Imię Franciszka, a Rodzicami Jego Chrzestnymi byli: Franciszek Warchoł i Katarzyna Kornaflowa. Akt ten Stawaiącemu i Świadkom przeczytany, pisać nie umiejącym, podpisany został. X. Kłobossowski Proboszcz Parafii Cerekiewskiej.",
+    "translation_pl": "Wydarzyło się we wsi Cerekiew dnia dwudziestego siódmego sierpnia roku tysiąc osiemset pięćdziesiątego drugiego o godzinie drugiej po południu. Stawił się Franciszek Slifirczyk, wyrobnik w Jaszowicach zamieszkały, lat dwadzieścia jeden, w obecności Mikołaja Kornafela, lat dwadzieścia siedem, i Franciszka Warchoła, lat pięćdziesiąt cztery, obydwóch włościan w Jaszowicach zamieszkałych. Okazał nam dziecko płci żeńskiej, urodzone w Jaszowicach w domu pod numerem dwudziestym trzecim, dnia dwudziestego piątego sierpnia tegoż roku o godzinie dziesiątej rano, z jego małżonki Antoniny z domu Gierczak, lat dwadzieścia siedem. Dziecku temu na chrzcie świętym w dniu dzisiejszym odbytym nadano imię Franciszka, a jego rodzicami chrzestnymi byli: Franciszek Warchoł i Katarzyna Kornaflowa. Akt ten stawiającemu i świadkom, którzy pisać nie umieją, został przeczytany i podpisany. Ksiądz Kłobossowski, Proboszcz Parafii Cerekiewskiej.",
+    "translation_en": "It happened in the village of Cerekiew on the twenty-seventh day of August of the year one thousand eight hundred and fifty-two at two o'clock in the afternoon. Appeared Franciszek Slifirczyk, a laborer residing in Jaszowice, aged twenty-one, in the presence of Mikołaj Kornafel, aged twenty-seven, and Franciszek Warchoł, aged fifty-four, both peasants residing in Jaszowice. He presented to us a female child, born in Jaszowice in the house at number twenty-three, on the twenty-fifth day of August of this same year at ten o'clock in the morning, of his wife Antonina née Gierczak, aged twenty-seven. To this child, at the Holy Baptism performed this day, was given the name Franciszka, and her godparents were: Franciszek Warchoł and Katarzyna Kornaflowa. This act was read to the declarant and witnesses, who are unable to write, and was signed. Father Kłobossowski, Pastor of the Cerekiew Parish.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Franciszek Slifirczyk, 21 lat",
+        "value_en": "Franciszek Slifirczyk, 21 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Antonina z Gierczaków, 27 lat",
+        "value_en": "Antonina née Gierczak, 27 years old"
+      },
+      {
+        "label_pl": "Chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Franciszek Warchoł i Katarzyna Kornaflowa",
+        "value_en": "Franciszek Warchoł and Katarzyna Kornaflowa"
+      }
+    ]
+  },
+  {
+    "id": 362,
+    "title_pl": "Akt Urodzenia: Feliksa Jurczak (1909)",
+    "title_en": "Birth Record: Feliksa Jurczak (1909)",
+    "type": "birth_record",
+    "description_pl": "Parafia Zakrzew (Zakrzów), akt nr 19, 1909 r. Dokument potwierdza narodziny Feliksy, córki Jana Jurczaka i Antoniny z domu Gierczak. Zawiera adnotację o jej zgonie w 1914 roku.",
+    "description_en": "Zakrzew (Zakrzów) Parish, record no. 19, 1909. The document confirms the birth of Feliksa, daughter of Jan Jurczak and Antonina née Gierczak. It includes an annotation about her death in 1914.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Состоялось въ селеніи Закшевѣ, девятаго (двадцать второго) Февраля тысяча девятьсотъ девятаго года, въ три часа по полудни. Явился Янъ Юрчакъ, тридцати лѣтъ отъ роду, земледелецъ изъ Гулинка, въ присутствіи свидѣтелей Яна Березы сорока пяти, и Владыслава Бурака сорока двухъ лѣтъ отъ роду, земледельцевъ изъ Гулинка, и предъявилъ намъ младенца женскаго пола, объявляя, что онъ родился въ деревнѣ Гулинекъ сего числа въ часъ по полудни, отъ jego законной жены Антонины изъ Герчаковъ, тридцати шести лѣтъ отъ роду. Младенцу сему при святомъ крещеніи совершенномъ сего числа дано имя Феликса, а воспріемниками ея были: Іосифъ Митакъ и Марiанна Коберская. Актъ сей объявляющему и свидѣтелямъ неграмотнымъ прочитанъ и нами только подписанъ.",
+    "translation_pl": "Działo się w osadzie Zakrzew, dziewiątego (dwudziestego drugiego) lutego tysiąc dziewięćset dziewiątego roku, o godzinie trzeciej po południu. Stawił się Jan Jurczak, lat trzydzieści, rolnik z Gulinka, w obecności świadków Jana Berezy, lat czterdzieści pięć, i Władysława Buraka, lat czterdzieści dwa, rolników z Gulinka, i okazał nam niemowlę płci żeńskiej, oświadczając, że urodziło się ono we wsi Gulinek tegoż dnia o godzinie pierwszej po południu, z jego prawowitej żony Antoniny z Gierczaków, lat trzydzieści sześć. Niemowlęciu temu przy chrzcie świętym, który odbył się dzisiaj, nadano imię Feliksa, a jej rodzicami chrzestnymi byli: Józef Mitak i Marianna Koberska. Akt ten oświadczającemu i świadkom, którzy są niepiśmienni, został przeczytany i tylko przez nas podpisany.",
+    "translation_en": "It happened in the settlement of Zakrzew, on the ninth (twenty-second) of February, nineteen hundred and nine, at three o'clock in the afternoon. Appeared Jan Jurczak, thirty years old, a farmer from Gulinek, in the presence of witnesses Jan Bereza, forty-five years old, and Władysław Burak, forty-two years old, farmers from Gulinek, and presented to us a female infant, declaring that she was born in the village of Gulinek on this day at one o'clock in the afternoon, to his lawful wife Antonina née Gierczak, thirty-six years old. At the holy baptism performed this day, this infant was given the name Feliksa, and her godparents were: Józef Mitak and Marianna Koberska. This act was read to the declarant and the illiterate witnesses, and signed only by us.",
+    "extracted_data": [
+      {
+        "label_pl": "Data urodzenia",
+        "label_en": "Date of Birth",
+        "value_pl": "22 lutego 1909",
+        "value_en": "February 22, 1909"
+      },
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Jan Jurczak, 30 lat",
+        "value_en": "Jan Jurczak, 30 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Antonina z Gierczaków, 36 lat",
+        "value_en": "Antonina née Gierczak, 36 years old"
+      },
+      {
+        "label_pl": "Rodzice chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Józef Mitak i Marianna Koberska",
+        "value_en": "Józef Mitak and Marianna Koberska"
+      },
+      {
+        "label_pl": "Świadkowie",
+        "label_en": "Witnesses",
+        "value_pl": "Jan Bereza (45 lat), Władysław Burak (42 lata)",
+        "value_en": "Jan Bereza (45 years), Władysław Burak (42 years)"
       }
     ]
   }

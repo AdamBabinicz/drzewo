@@ -128,23 +128,27 @@
   {
     "id": 5,
     "firstName": "Michał",
-    "lastName": "Gierczak",
+    "lastName": "Gerczak vel Gierczak",
     "birthDateNote": "ok. 1798",
     "deathDate": "1854-04-12",
     "deathTime": "10:00",
     "photoUrl": null,
     "family": "gierczak",
-    "spouseIds": [147],
-    "childIds": [182, 183, 185, 189],
+    "spouseIds": [188, 147],
+    "childIds": [182, 183, 185, 189, 187, 366, 367, 368, 369, 370],
     "parentIds": [1, 2],
     "biography": {
-      "pl": "Syn Tomasza i Zofii Gierczak. Jego żoną była Marianna z domu Gocman. Wiek podany w akcie zgonu (70 lat) jest zawyżony; akt zgonu jego córki z 1829 roku wskazuje, że miał wtedy 31 lat.",
-      "en": "Son of Tomasz and Zofia Gierczak. His wife was Marianna née Gocman. The age stated in his death record (70 years) is an overestimation; his daughter's death record from 1829 indicates he was 31 at the time."
+      "pl": "Syn Tomasza Gierczaka i Zofii. Był co najmniej dwukrotnie żonaty. Jego pierwszą żoną była Marianna z domu Nabis, matka Marianny (ur. 1826), Katarzyny (ur. 1829), Antoniny (ur. 1832), Klary (ur. 1838), Józefy (ur. 1842) i Józefa (ur. 1847). W aktach urodzenia jego dzieci nazwisko zapisano w formie 'Gerczak' lub 'Gierczak'. Jego drugą żoną była Marianna z domu Gocman, która została wdową po jego śmierci w 1854 roku. Wiek podany w akcie zgonu (70 lat) jest zawyżony; akty urodzenia dzieci potwierdzają, że miał wtedy ok. 30-49 lat, co wskazuje na rok urodzenia ok. 1798.",
+      "en": "Son of Tomasz Gierczak and Zofia. He was married at least twice. His first wife was Marianna née Nabis, mother of Marianna (b. 1826), Katarzyna (b. 1829), Antonina (b. 1832), Klara (b. 1838), and Józefa (b. 1842), and Józef (b. 1847). In his children's birth records, his surname was recorded as 'Gerczak' or 'Gierczak'. His second wife was Marianna née Gocman, who was his widow upon his death in 1854. The age stated in his death record (70 years) is an overestimation; his children's birth records confirm he was around 30-49 years old at the time, indicating a birth year of ca. 1798."
     },
     "marriages": [
       {
+        "spouseId": 188,
+        "date": "przed 1826"
+      },
+      {
         "spouseId": 147,
-        "date": "?"
+        "date": "po 1847"
       }
     ],
     "events": [
@@ -376,7 +380,8 @@
     "firstName": "Tekla",
     "lastName": "Gierczak",
     "maidenName": "Kozyra",
-    "birthDate": "1831-10-19",
+    "birthDate": null,
+    "birthDateNote": "ok. 1829",
     "deathDate": "1909-02-10",
     "deathTime": "8:00",
     "deathTimeQualifier": "morning",
@@ -392,8 +397,8 @@
       }
     ],
     "biography": {
-      "pl": "Żona Karola Gierczaka. Córka Wojciecha Kozyry i Józefy z domu Kredowskiej. Zmarła w Gulinku w wieku 80 lat.",
-      "en": "Wife of Karol Gierczak. Daughter of Wojciech Kozyra and Józefa née Kredowska. She died in Gulinek at the age of 80."
+      "pl": "Żona Karola Gierczaka. Córka Wojciecha Kozyry i Józefy z domu Kredowskiej. Wiek w akcie zgonu (dokument nr 15) wskazuje na rok urodzenia ok. 1829, jednak w akcie urodzenia syna Pawła (dokument nr 2) z 1867 roku podano jej wiek jako 27 lat, co sugerowałoby rok urodzenia ok. 1840. Zmarła w Gulinku.",
+      "en": "Wife of Karol Gierczak. Daughter of Wojciech Kozyra and Józefa née Kredowska. The age in her death record (document no. 15) indicates a birth year of ca. 1829, however, in the birth record of her son Paweł (document no. 2) from 1867, her age was given as 27, which would suggest a birth year of ca. 1840. She died in Gulinek."
     },
     "events": [
       {
@@ -974,7 +979,7 @@
     "family": "ofiara",
     "spouseIds": [58],
     "childIds": [89, 90, 45, 91],
-    "parentIds": [129, 130],
+    "parentIds": [129, 362],
     "occupation": {
       "pl": "Gospodarz",
       "en": "Farmer"
@@ -990,8 +995,8 @@
       }
     ],
     "biography": {
-      "pl": "Pradziadek autora. Syn Jakuba i Marianny z d. Wieczorek. Ożenił się z Franciszką Szaruch. Mieli 4 dzieci. Mieszkał i zmarł w Ludwikowie.",
-      "en": "The author's great-grandfather. Son of Jakub and Marianna née Wieczorek. He married Franciszka Szaruch. They had 4 children. He lived and died in Ludwików."
+      "pl": "Pradziadek autora. Syn Jakuba i Magdaleny z d. Wieczorek. Ożenił się z Franciszką Szaruch. W jego akcie zgonu (dokument nr 104) nazwisko panieńskie żony błędnie zapisano jako 'Popis'. Mieli 4 dzieci. Mieszkał i zmarł w Ludwikowie.",
+      "en": "The author's great-grandfather. Son of Jakub and Magdalena née Wieczorek. He married Franciszka Szaruch. In his death certificate (document no. 104), his wife's maiden name was incorrectly recorded as 'Popis'. They had 4 children. He lived and died in Ludwików."
     },
     "events": [
       {
@@ -1027,8 +1032,8 @@
       }
     ],
     "biography": {
-      "pl": "Żona Andrzeja Ofiary. Jej szacowany rok urodzenia opiera się na fakcie, że rodziła dzieci w długim okresie, od ok. 1872 (Ignacy) do ok. 1897 (Józef). Zmarła przed 1922 rokiem.",
-      "en": "Wife of Andrzej Ofiara. Her estimated year of birth is based on the fact that she had children over a long period, from around 1872 (Ignacy) to around 1897 (Józef). She died before 1922."
+      "pl": "Żona Andrzeja Ofiary. Jej nazwisko panieńskie zostało jednoznacznie potwierdzone w aktach ślubu jej synów: Ignacego (dokument nr 220), Antoniego (dokument nr 221) i Józefa (dokument nr 105). W akcie zgonu jej męża (dokument nr 104) błędnie zapisano je jako 'Popis'. Zmarła przed 1922 rokiem.",
+      "en": "Wife of Andrzej Ofiara. Her maiden name is unequivocally confirmed in the marriage records of her sons: Ignacy (document no. 220), Antoni (document no. 221), and Józef (document no. 105). In her husband's death certificate (document no. 104), it was incorrectly recorded as 'Popis'. She died before 1922."
     }
   },
   {
@@ -1180,7 +1185,7 @@
   {
     "id": 63,
     "firstName": "Kacper",
-    "lastName": "Gierczak",
+    "lastName": "Gerczak vel Gierczak",
     "birthDate": "1826-01-01",
     "birthTime": "10:00",
     "birthTimeQualifier": "morning",
@@ -1190,7 +1195,7 @@
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [105, 106],
-    "childIds": [66, 67, 179],
+    "childIds": [66, 67, 179, 371],
     "parentIds": [4, 8],
     "marriages": [
       {
@@ -1209,8 +1214,8 @@
       }
     ],
     "biography": {
-      "pl": "Syn Ambrożego i Kunegundy. Pierwszą żoną była Marianna Moskwa, z którą miał dwoje dzieci. Po jej śmierci, w 1893 ożenił się z wdową Franciszką Mortką z domu Skop.",
-      "en": "Son of Ambroży and Kunegunda. His first wife was Marianna Moskwa, with whom he had two children. After her death, in 1893, he married the widow Franciszka Mortka née Skop."
+      "pl": "Syn Ambrożego i Kunegundy. Pierwszą żoną była Marianna Moskwa, z którą miał czworo dzieci: Mariannę, Jędrzeja, Franciszkę i Łucję. Po jej śmierci, w 1893 ożenił się z wdową Franciszką Mortką z domu Skop.",
+      "en": "Son of Ambroży and Kunegunda. His first wife was Marianna Moskwa, with whom he had four children: Marianna, Jędrzej, Franciszka, and Łucja. After her death, in 1893, he married the widow Franciszka Mortka née Skop."
     },
     "events": [
       {
@@ -1329,7 +1334,7 @@
     "photoUrl": "/images/antonina.avif",
     "family": "gierczak",
     "spouseIds": [149, 150],
-    "childIds": [191],
+    "childIds": [191, 375],
     "parentIds": [13, 18],
     "marriages": [
       {
@@ -2181,14 +2186,14 @@
   {
     "id": 105,
     "firstName": "Marianna",
-    "lastName": "Gierczak",
+    "lastName": "Gerczak vel Gierczak",
     "maidenName": "Moskwa vel Moskwina",
     "deathDate": null,
     "deathDateNote": "przed 1893",
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [63],
-    "childIds": [66, 67, 179],
+    "childIds": [66, 67, 179, 371],
     "parentIds": [],
     "marriages": [
       {
@@ -2200,8 +2205,8 @@
       }
     ],
     "biography": {
-      "pl": "Pierwsza żona Kacpra Gierczaka. Matka Jędrzeja i Marianny.",
-      "en": "First wife of Kacper Gierczak. Mother of Jędrzej and Marianna."
+      "pl": "Pierwsza żona Kacpra Gierczaka. Matka Marianny, Jędrzeja, Franciszki i Łucji.",
+      "en": "First wife of Kacper Gierczak. Mother of Marianna, Jędrzej, Franciszka and Łucja."
     }
   },
   {
@@ -3362,7 +3367,7 @@
     "photoUrl": "/images/janjurczak.avif",
     "family": "gierczak",
     "spouseIds": [68],
-    "childIds": [],
+    "childIds": [375],
     "parentIds": [],
     "marriages": [
       {
@@ -4140,9 +4145,9 @@
   {
     "id": 179,
     "firstName": "Franciszka",
-    "lastName": "Gerczak",
+    "lastName": "Gerczak vel Gierczak",
     "birthDate": "1851-08-27",
-    "birthTime": "6:00",
+    "birthTime": "06:00",
     "birthTimeQualifier": "morning",
     "deathDate": null,
     "photoUrl": null,
@@ -4152,8 +4157,8 @@
     "parentIds": [63, 105],
     "marriages": [],
     "biography": {
-      "pl": "Córka Kacpra Gerczaka i Marianny z domu Moskwa.",
-      "en": "Daughter of Kacper Gerczak and Marianna née Moskwa."
+      "pl": "Córka Kacpra Gierczaka i Marianny z domu Moskwa. W jej akcie urodzenia (dokument nr 360) nazwisko ojca zapisano jako 'Gierczak', a jej jako 'Gerczak'. Jest siostrą Łucji (ID 371) oraz rodzeństwa zmarłego w dzieciństwie: Marianny (ID 66) i Jędrzeja (ID 67).",
+      "en": "Daughter of Kacper Gierczak and Marianna née Moskwa. In her birth record (document no. 360), her father's surname was recorded as 'Gierczak' and hers as 'Gerczak'. She is the sister of Łucja (ID 371) and of her siblings who died in childhood: Marianna (ID 66) and Jędrzej (ID 67)."
     },
     "events": [
       {
@@ -4161,7 +4166,7 @@
         "date": "1851-08-27",
         "place": "Jaszowice",
         "source": {
-          "documentId": 265
+          "documentId": 360
         }
       }
     ]
@@ -4260,8 +4265,8 @@
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [184],
-    "childIds": [],
-    "parentIds": [5, 147],
+    "childIds": [374],
+    "parentIds": [5, 188],
     "marriages": [
       {
         "spouseId": 184,
@@ -4269,8 +4274,8 @@
       }
     ],
     "biography": {
-      "pl": "Córka Michała Gierczaka i Marianny z d. Gocman. Żona Tomasza Sieraka. Zmarła w Jaszowicach w wieku 28 lat.",
-      "en": "Daughter of Michał Gierczak and Marianna née Gocman. Wife of Tomasz Sierak. She died in Jaszowice at the age of 28."
+      "pl": "Córka Michała Gierczaka i jego pierwszej żony, Marianny z d. Nabis. Żona Tomasza Sieraka i matka Jana (ur. 1852). Zmarła w Jaszowicach w wieku 28 lat.",
+      "en": "Daughter of Michał Gierczak and his first wife, Marianna née Nabis. Wife of Tomasz Sierak and mother of Jan (b. 1852). She died in Jaszowice at the age of 28."
     },
     "events": [
       {
@@ -4292,7 +4297,7 @@
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [183],
-    "childIds": [],
+    "childIds": [374],
     "parentIds": [],
     "marriages": [
       {
@@ -4301,8 +4306,8 @@
       }
     ],
     "biography": {
-      "pl": "Mąż Katarzyny z domu Gierczak (córki Michała). Mieszkał w Jaszowicach.",
-      "en": "Husband of Katarzyna née Gierczak (daughter of Michał). He lived in Jaszowice."
+      "pl": "Mąż Katarzyny z domu Gierczak (córki Michała), ojciec Jana (ur. 1852). Mieszkał w Jaszowicach.",
+      "en": "Husband of Katarzyna née Gierczak (daughter of Michał), father of Jan (b. 1852). He lived in Jaszowice."
     }
   },
   {
@@ -4316,7 +4321,7 @@
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [186],
-    "childIds": [],
+    "childIds": [373],
     "parentIds": [5, 147],
     "marriages": [
       {
@@ -4349,7 +4354,7 @@
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [185],
-    "childIds": [],
+    "childIds": [373],
     "parentIds": [],
     "marriages": [
       {
@@ -4361,6 +4366,53 @@
     "biography": {
       "pl": "Mąż Antoniny z domu Gierczak (córki Michała). Syn Jakuba i Teofili z Duchnickich. W akcie zgonu żony z 1855 r. został błędnie zapisany pod imieniem Jakub.",
       "en": "Husband of Antonina née Gierczak (daughter of Michał). Son of Jakub and Teofila née Duchnicka. In his wife's death record from 1855, he was mistakenly recorded under the name Jakub."
+    }
+  },
+  {
+    "id": 187,
+    "firstName": "Marianna",
+    "lastName": "Gerczak vel Gierczak",
+    "birthDate": "1826-10-25",
+    "birthTime": "10:00",
+    "family": "gierczak",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [5, 188],
+    "biography": {
+      "pl": "Córka Michała Gerczaka vel Gierczaka i jego pierwszej żony, Marianny z domu Nabis. Jej odkrycie w akcie urodzenia nr 110 z 1826 r. (dokument nr 353) dowiodło, że jej ojciec był co najmniej dwukrotnie żonaty.",
+      "en": "Daughter of Michał Gerczak vel Gierczak and his first wife, Marianna née Nabis. Her discovery in birth record no. 110 from 1826 (document no. 353) proved that her father was married at least twice."
+    },
+    "events": [
+      {
+        "type": "birth",
+        "date": "1826-10-25",
+        "place": "Jaszowice",
+        "source": {
+          "documentId": 353
+        }
+      }
+    ]
+  },
+  {
+    "id": 188,
+    "firstName": "Marianna",
+    "lastName": "Gerczak vel Gierczak",
+    "maidenName": "Nabis",
+    "birthDateNote": "ok. 1800",
+    "deathDateNote": "po 1847",
+    "family": "gierczak",
+    "spouseIds": [5],
+    "childIds": [187, 366, 367, 368, 369, 370],
+    "parentIds": [],
+    "marriages": [
+      {
+        "spouseId": 5,
+        "date": "przed 1826"
+      }
+    ],
+    "biography": {
+      "pl": "Pierwsza żona Michała Gerczaka vel Gierczaka (ID 5). Matka Marianny (ur. 1826), Katarzyny (ur. 1829), Antoniny (ur. 1832), Klary (ur. 1838), Józefy (ur. 1842) i Józefa (ur. 1847). Jej mąż ożenił się powtórnie z Marianną Gocman, co oznacza, że zmarła między 1847 a 1854 rokiem.",
+      "en": "The first wife of Michał Gerczak vel Gierczak (ID 5). Mother of Marianna (b. 1826), Katarzyna (b. 1829), Antonina (b. 1832), Klara (b. 1838), Józefa (b. 1842), and Józef (b. 1847). Her husband later remarried to Marianna Gocman, which means she died between 1847 and 1854."
     }
   },
   {
@@ -7551,7 +7603,7 @@
     "family": "ofiara",
     "birthDate": "1830-07-19",
     "spouseIds": [363, 129],
-    "childIds": [],
+    "childIds": [57, 131, 132, 210, 211, 214, 215, 216, 298],
     "parentIds": [322, 323],
     "marriages": [
       {
@@ -7574,8 +7626,8 @@
       }
     ],
     "biography": {
-      "pl": "Córka Kacpra i Małgorzaty z Grzelaków Wieczorków, siostra dwóch Mariann (ID 130 i 274). Jej pierwszym mężem był Józef Russ. Po jego śmierci, jako wdowa w wieku 25 lat, poślubiła Jakuba Ofiarę (ID 129).",
-      "en": "Daughter of Kacper and Małgorzata née Grzelak Wieczorek, sister of the two Mariannas (ID 130 and 274). Her first husband was Józef Russ. After his death, as a 25-year-old widow, she married Jakub Ofiara (ID 129)."
+      "pl": "Córka Kacpra i Małgorzaty z Grzelaków Wieczorków, siostra dwóch Mariann (ID 130 i 274). Jej pierwszym mężem był Józef Russ. Po jego śmierci, jako wdowa w wieku 25 lat, poślubiła Jakuba Ofiarę (ID 129). Matka Andrzeja Ofiary (ID: 57).",
+      "en": "Daughter of Kacper and Małgorzata née Grzelak Wieczorek, sister of the two Mariannas (ID 130 and 274). Her first husband was Józef Russ. After his death, as a 25-year-old widow, she married Jakub Ofiara (ID 129). Mother of Andrzej Ofiara (ID: 57)."
     }
   },
   {
@@ -7631,5 +7683,245 @@
       "pl": "Żona Jana Russa, matka Józefa.",
       "en": "Wife of Jan Russ, mother of Józef."
     }
+  },
+  {
+    "id": 366,
+    "firstName": "Katarzyna",
+    "lastName": "Gerczak vel Gierczak",
+    "birthDate": "1829-08-28",
+    "birthTime": "10:00",
+    "family": "gierczak",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [5, 188],
+    "biography": {
+      "pl": "Córka Michała Gerczaka vel Gierczaka i jego pierwszej żony, Marianny z domu Nabis. Siostra Marianny (ID 187).",
+      "en": "Daughter of Michał Gerczak vel Gierczak and his first wife, Marianna née Nabis. Sister of Marianna (ID 187)."
+    },
+    "events": [
+      {
+        "type": "birth",
+        "date": "1829-08-28",
+        "place": "Jaszowice",
+        "source": {
+          "documentId": 354
+        }
+      }
+    ]
+  },
+  {
+    "id": 367,
+    "firstName": "Antonina",
+    "lastName": "Gerczak vel Gierczak",
+    "birthDate": "1832-05-16",
+    "birthTime": "15:00",
+    "family": "gierczak",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [5, 188],
+    "biography": {
+      "pl": "Córka Michała Gerczaka vel Gierczaka i jego pierwszej żony, Marianny z domu Nabis. Siostra Marianny (ID 187) i Katarzyny (ID 366). W jej akcie urodzenia nazwisko ojca zapisano jako 'Gierczak'.",
+      "en": "Daughter of Michał Gerczak vel Gierczak and his first wife, Marianna née Nabis. Sister of Marianna (ID 187) and Katarzyna (ID 366). In her birth record, her father's surname was recorded as 'Gierczak'."
+    },
+    "events": [
+      {
+        "type": "birth",
+        "date": "1832-05-16",
+        "place": "Jaszowice",
+        "source": {
+          "documentId": 355
+        }
+      }
+    ]
+  },
+  {
+    "id": 368,
+    "firstName": "Klara",
+    "lastName": "Gierczak",
+    "birthDate": "1838-07-30",
+    "birthTime": "15:00",
+    "family": "gierczak",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [5, 188],
+    "biography": {
+      "pl": "Córka Michała Gierczaka i jego pierwszej żony, Marianny z domu Nabis. Siostra Marianny (ID 187), Katarzyny (ID 366) i Antoniny (ID 367).",
+      "en": "Daughter of Michał Gierczak and his first wife, Marianna née Nabis. Sister of Marianna (ID 187), Katarzyna (ID 366), and Antonina (ID 367)."
+    },
+    "events": [
+      {
+        "type": "birth",
+        "date": "1838-07-30",
+        "place": "Jaszowice",
+        "source": {
+          "documentId": 356
+        }
+      }
+    ]
+  },
+  {
+    "id": 369,
+    "firstName": "Józefa",
+    "lastName": "Gierczak",
+    "birthDate": "1842-07-28",
+    "birthTime": "04:00",
+    "family": "gierczak",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [5, 188],
+    "biography": {
+      "pl": "Córka Michała Gierczaka i jego pierwszej żony, Marianny z domu Nabis. Siostra Marianny (ID 187), Katarzyny (ID 366), Antoniny (ID 367) i Klary (ID 368).",
+      "en": "Daughter of Michał Gierczak and his first wife, Marianna née Nabis. Sister of Marianna (ID 187), Katarzyna (ID 366), Antonina (ID 367), and Klara (ID 368)."
+    },
+    "events": [
+      {
+        "type": "birth",
+        "date": "1842-07-28",
+        "place": "Jaszowice",
+        "source": {
+          "documentId": 357
+        }
+      }
+    ]
+  },
+  {
+    "id": 370,
+    "firstName": "Józef",
+    "lastName": "Gerczak",
+    "birthDate": "1847-03-08",
+    "birthTime": "14:00",
+    "family": "gierczak",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [5, 188],
+    "biography": {
+      "pl": "Syn Michała Gierczaka i jego pierwszej żony, Marianny z domu Nabis. Brat Marianny (ID 187), Katarzyny (ID 366), Antoniny (ID 367), Klary (ID 368) i Józefy (ID 369).",
+      "en": "Son of Michał Gierczak and his first wife, Marianna née Nabis. Brother of Marianna (ID 187), Katarzyna (ID 366), Antonina (ID 367), Klara (ID 368), and Józefa (ID 369)."
+    },
+    "events": [
+      {
+        "type": "birth",
+        "date": "1847-03-08",
+        "place": "Jaszowice",
+        "source": {
+          "documentId": 358
+        }
+      }
+    ]
+  },
+  {
+    "id": 371,
+    "firstName": "Łucja",
+    "lastName": "Gierczak",
+    "birthDate": "1848-12-13",
+    "birthTime": "14:00",
+    "family": "gierczak",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [63, 105],
+    "biography": {
+      "pl": "Córka Kacpra Gierczaka i jego pierwszej żony, Marianny z domu Moskwa. Wnuczka Ambrożego Gerczaka vel Gierczaka (ID 4).",
+      "en": "Daughter of Kacper Gierczak and his first wife, Marianna née Moskwa. Granddaughter of Ambroży Gerczak vel Gierczak (ID 4)."
+    },
+    "events": [
+      {
+        "type": "birth",
+        "date": "1848-12-13",
+        "place": "Jaszowice",
+        "source": {
+          "documentId": 359
+        }
+      }
+    ]
+  },
+  {
+    "id": 373,
+    "firstName": "Franciszka",
+    "lastName": "Slifirczyk",
+    "birthDate": "1852-08-25",
+    "birthTime": "10:00",
+    "family": "gierczak",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [186, 185],
+    "biography": {
+      "pl": "Córka Franciszka Ślifirczyka i Antoniny z domu Gierczak (ID 185). Wnuczka Michała Gerczaka vel Gierczaka (ID 5).",
+      "en": "Daughter of Franciszek Ślifirczyk and Antonina née Gierczak (ID 185). Granddaughter of Michał Gerczak vel Gierczak (ID 5)."
+    },
+    "events": [
+      {
+        "type": "birth",
+        "date": "1852-08-25",
+        "place": "Jaszowice",
+        "source": {
+          "documentId": 361
+        }
+      }
+    ]
+  },
+  {
+    "id": 374,
+    "firstName": "Jan",
+    "lastName": "Sierac",
+    "birthDate": "1852-11-25",
+    "birthTime": "09:00",
+    "family": "gierczak",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [184, 183],
+    "biography": {
+      "pl": "Syn Tomasza Sieraka i Katarzyny z domu Gierczak (ID 183). Wnuk Michała Gerczaka vel Gierczaka (ID 5).",
+      "en": "Son of Tomasz Sierak and Katarzyna née Gierczak (ID 183). Grandson of Michał Gerczak vel Gierczak (ID 5)."
+    },
+    "events": [
+      {
+        "type": "birth",
+        "date": "1852-11-25",
+        "place": "Jaszowice",
+        "source": {
+          "documentId": 138
+        }
+      }
+    ]
+  },
+  {
+    "id": 375,
+    "firstName": "Feliksa",
+    "lastName": "Jurczak",
+    "birthDate": "1909-02-22",
+    "birthTime": "13:00",
+    "birthTimeQualifier": "afternoon",
+    "deathDate": "1914-06-11",
+    "photoUrl": null,
+    "family": "gierczak",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [150, 68],
+    "marriages": [],
+    "biography": {
+      "pl": "Córka Jana Jurczaka i Antoniny z domu Gierczak. Była wnuczką Karola Gierczaka (ID: 13) i Tekli z d. Kozyra (ID: 18) oraz bratanicą prapradziadka autora, Pawła Gierczaka (ID: 19). Zmarła w wieku 5 lat, co zostało odnotowane na marginesie jej aktu urodzenia (dokument nr 362).",
+      "en": "Daughter of Jan Jurczak and Antonina née Gierczak. She was the granddaughter of Karol Gierczak (ID: 13) and Tekla née Kozyra (ID: 18), and the niece of the author's great-great-grandfather, Paweł Gierczak (ID: 19). She died at the age of 5, as noted in the margin of her birth certificate (document no. 362)."
+    },
+    "events": [
+      {
+        "type": "birth",
+        "date": "1909-02-22",
+        "time": "13:00",
+        "timeQualifier": "afternoon",
+        "place": "Gulinek",
+        "source": {
+          "documentId": 362
+        }
+      },
+      {
+        "type": "death",
+        "date": "1914-06-11",
+        "place": "Zakrzew",
+        "note": {
+          "pl": "Informacja o zgonie pochodzi z adnotacji na marginesie aktu urodzenia (dokument nr 362).",
+          "en": "Information about the death comes from an annotation in the margin of the birth certificate (document no. 362)."
+        }
+      }
+    ]
   }
 ]
