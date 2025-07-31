@@ -46,7 +46,7 @@ const translations = {
     "home.cta.history": "Poznaj Historię",
     "home.about.title": "Początki Rodów",
     "home.about.p1":
-      "Historia rodzin Gierczak i Ofiara sięga głęboko w przeszłość okolic radomskich. Te dwa rody, związane z Jaszowicami, Wolą Gutowską, Ludwikowem, Gulinkiem i Mleczkowem, tworzą fascynującą opowieść o życiu na ziemiach polskich regionu radomskiego na przestrzeni wieków.",
+      "Historia rodzin Gierczak i Ofiara sięga głęboko w przeszłość okolic radomskich. Te dwa rody, związane z Wrzosem, Jaszowicami, Wolą Gutowską, Ludwikowem, Gulinkiem i Mleczkowem, tworzą fascynującą opowieść o życiu na ziemiach polskich regionu radomskiego na przestrzeni wieków.",
     "home.about.p2":
       "Dzięki zachowanym metrykom, aktom kościelnym i przekazom rodzinnym, możemy prześledzić losy pokoleń, poznać ich imiona, miejsca zamieszkania i najważniejsze wydarzenia z ich życia.",
     "home.branches.title": "Gałęzie Rodzinne",
@@ -54,7 +54,7 @@ const translations = {
     "home.branches.gierczak.cta": "Poznaj Wszystkich Gierczaków",
     "home.branches.ofiara.cta": "Poznaj Wszystkich Ofiarów",
     "home.branches.gierczak.desc":
-      "Ród Gierczaków, wywodzący się z Jaszowic, to historia chłopskiej rodziny, której korzenie sięgają Tomasza Gierczaka. Kolejne pokolenia, poprzez małżeństwa, dziedziczenie ziemi i swoje decyzje, rozprzestrzeniły się, osiedlając się m.in. w Gulinku, Mleczkowie, Dąbrówce Nagórnej, Klwatach i Radomiu.",
+      "Ród Gierczaków, wywodzący się z Wrzosu i Jaszowic, to historia chłopskiej rodziny, której korzenie sięgają Tomasza Gierczaka. Kolejne pokolenia, poprzez małżeństwa, dziedziczenie ziemi i swoje decyzje, rozprzestrzeniły się, osiedlając się m.in. w Gulinku, Mleczkowie, Dąbrówce Nagórnej, Klwatach i Radomiu.",
     "home.branches.ofiara.desc":
       "Historia rodu Ofiarów nierozerwalnie związana jest z Wolą Gutowską i Ludwikowem. Jego protoplastą jest Konstanty Ofiara, którego potomkowie przez dekady tworzyli lokalną społeczność, a ich losy połączyły się z rodem Gierczaków.",
     "home.explore.title": "Rozpocznij Eksplorację",
@@ -402,7 +402,7 @@ const translations = {
     "home.cta.history": "Learn the History",
     "home.about.title": "The Beginnings of the Families",
     "home.about.p1":
-      "The history of the Gierczak and Ofiara families reaches deep into the past of the Radom region. These two lineages, connected to Jaszowice, Wola Gutowska, Ludwików, Gulinek and Mleczków form a fascinating story of life in the Polish lands of the Radom area across the centuries.",
+      "The history of the Gierczak and Ofiara families reaches deep into the past of the Radom region. These two lineages, connected to Wrzos, Jaszowice, Wola Gutowska, Ludwików, Gulinek and Mleczków form a fascinating story of life in the Polish lands of the Radom area across the centuries.",
     "home.about.p2":
       "Thanks to preserved vital records, church documents, and family accounts, we can trace the fates of generations, learn their names, places of residence, and the most important events of their lives.",
     "home.branches.title": "Family Branches",
@@ -410,7 +410,7 @@ const translations = {
     "home.branches.gierczak.cta": "Meet All the Gierczaks",
     "home.branches.ofiara.cta": "Meet All the Ofiaras",
     "home.branches.gierczak.desc":
-      "The Gierczak family, originating from Jaszowice, is a story of a peasant family whose roots go back to Tomasz Gierczak. Subsequent generations, through marriages, inheriting land and their own decisions, spread, settling in Gulinek, Mleczków, Dąbrówka Nagórna, Klwaty and Radom.",
+      "The Gierczak family, originating from Wrzos and Jaszowice, is a story of a peasant family whose roots go back to Tomasz Gierczak. Subsequent generations, through marriages, inheriting land and their own decisions, spread, settling in Gulinek, Mleczków, Dąbrówka Nagórna, Klwaty and Radom.",
     "home.branches.ofiara.desc":
       "The history of the Ofiara family is inseparably linked with Wola Gutowska and Ludwików. Its progenitor is Konstanty Ofiara, whose descendants formed the local community for decades, and their fates merged with the Gierczak family.",
     "home.explore.title": "Start Exploring",

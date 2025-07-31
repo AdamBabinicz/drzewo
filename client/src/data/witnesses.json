@@ -6,6 +6,12 @@
     "documentIds": [61]
   },
   {
+    "lastName": "Bacona",
+    "firstName": "Walenty",
+    "residence": "Olszów",
+    "documentIds": [25]
+  },
+  {
     "lastName": "Baczyński",
     "firstName": "Bolesław",
     "residence": "Błotnica",
@@ -27,7 +33,7 @@
     "lastName": "Baćmaga",
     "firstName": "Jan",
     "residence": "Gulinek",
-    "documentIds": [105, 107, 235, 238]
+    "documentIds": [7, 105, 107, 235, 238]
   },
   {
     "lastName": "Baćmaga",
@@ -102,6 +108,12 @@
     "documentIds": [106, 362]
   },
   {
+    "lastName": "Bielawski",
+    "firstName": "Stanisław",
+    "residence": "Wrzos",
+    "documentIds": [15]
+  },
+  {
     "lastName": "Bielewski",
     "firstName": "Józef",
     "residence": "Kasców",
@@ -142,6 +154,12 @@
     "firstName": "Brygida",
     "residence": "Wola Gutowska",
     "documentIds": [240]
+  },
+  {
+    "lastName": "Bujak",
+    "firstName": "Antoni",
+    "residence": "Domaniów",
+    "documentIds": [380]
   },
   {
     "lastName": "Burak",
@@ -240,6 +258,12 @@
     "documentIds": [103, 241]
   },
   {
+    "lastName": "Domański",
+    "firstName": "Walenty",
+    "residence": "Cerekiew",
+    "documentIds": [232]
+  },
+  {
     "lastName": "Drabik",
     "firstName": "Mateusz",
     "residence": "Jaszowice",
@@ -324,6 +348,12 @@
     "documentIds": [186]
   },
   {
+    "lastName": "Gerczak",
+    "firstName": "Mikołaj",
+    "residence": "Wrzos",
+    "documentIds": [379]
+  },
+  {
     "lastName": "Gierczak",
     "firstName": "Ambroży",
     "residence": "Jaszowice",
@@ -343,9 +373,15 @@
   },
   {
     "lastName": "Gierczak",
+    "firstName": "Jakub",
+    "residence": "Wrzos",
+    "documentIds": [21, 22]
+  },
+  {
+    "lastName": "Gierczak",
     "firstName": "Jan",
     "residence": "Gulinek",
-    "documentIds": [225]
+    "documentIds": [225, 7]
   },
   {
     "lastName": "Gierczak",
@@ -357,7 +393,7 @@
     "lastName": "Gierczak",
     "firstName": "Kacper",
     "residence": "Jaszowice",
-    "documentIds": [55, 260]
+    "documentIds": [43, 55, 260]
   },
   {
     "lastName": "Gierczak",
@@ -373,6 +409,12 @@
   },
   {
     "lastName": "Gierczak",
+    "firstName": "Stanisław",
+    "residence": "Wrzos",
+    "documentIds": [22]
+  },
+  {
+    "lastName": "Gierczak",
     "firstName": "Tomasz",
     "residence": "Wola Gutowska",
     "documentIds": [286, 348]
@@ -382,6 +424,12 @@
     "firstName": "Walenty",
     "residence": "Gulinek",
     "documentIds": [10, 107]
+  },
+  {
+    "lastName": "Gierczak",
+    "firstName": "Walenty",
+    "residence": "Wrzos",
+    "documentIds": [20]
   },
   {
     "lastName": "Gierczakowa",
@@ -405,7 +453,7 @@
     "lastName": "Gielowski",
     "firstName": "Andrzej",
     "residence": "Wrzos",
-    "documentIds": [111]
+    "documentIds": [111, 378]
   },
   {
     "lastName": "Gielowski",
@@ -448,6 +496,18 @@
     "firstName": "Łukasz",
     "residence": "Jaszowice",
     "documentIds": [208]
+  },
+  {
+    "lastName": "Górski",
+    "firstName": "Jan",
+    "residence": "Domaniów",
+    "documentIds": [380, 15]
+  },
+  {
+    "lastName": "Grabowski",
+    "firstName": "Jakub",
+    "residence": "Olszów",
+    "documentIds": [25]
   },
   {
     "lastName": "Grzegorzewski",
@@ -496,6 +556,12 @@
     "firstName": "Józef",
     "residence": "Wola Gutowska",
     "documentIds": [13]
+  },
+  {
+    "lastName": "Kacprzak",
+    "firstName": "Franciszek",
+    "residence": "Gulin",
+    "documentIds": [8, 43]
   },
   {
     "lastName": "Kaczor",
@@ -564,6 +630,24 @@
     "documentIds": [328]
   },
   {
+    "lastName": "Kiełbasa",
+    "firstName": "Szczepan",
+    "residence": "Dąbrowa",
+    "documentIds": [372]
+  },
+  {
+    "lastName": "Kiełbasa",
+    "firstName": "Walenty",
+    "residence": "Domaniów",
+    "documentIds": [24]
+  },
+  {
+    "lastName": "Kiełbasa",
+    "firstName": "Urszula",
+    "residence": "Domaniów",
+    "documentIds": [24]
+  },
+  {
     "lastName": "Kierzkowski",
     "firstName": "Jan",
     "residence": "Jedlińsk",
@@ -609,7 +693,7 @@
     "lastName": "Koberska",
     "firstName": "Marianna",
     "residence": "Gulinek",
-    "documentIds": [29]
+    "documentIds": [29, 44]
   },
   {
     "lastName": "Kobierski",
@@ -634,6 +718,30 @@
     "firstName": "Paweł",
     "residence": "Wola Gutowska",
     "documentIds": [18, 19]
+  },
+  {
+    "lastName": "Kustra",
+    "firstName": "Franciszek",
+    "residence": "Wrzos",
+    "documentIds": [9]
+  },
+  {
+    "lastName": "Kustra",
+    "firstName": "Jan",
+    "residence": "Wrzos",
+    "documentIds": [22]
+  },
+  {
+    "lastName": "Kustra",
+    "firstName": "Paweł",
+    "residence": "Wrzos",
+    "documentIds": [20]
+  },
+  {
+    "lastName": "Kwiecień",
+    "firstName": "Antoni",
+    "residence": "Wrzos",
+    "documentIds": [9]
   },
   {
     "lastName": "Kwiecień",
@@ -696,10 +804,22 @@
     "documentIds": [27]
   },
   {
+    "lastName": "Koperski",
+    "firstName": "Mateusz",
+    "residence": "Gulinek",
+    "documentIds": [44]
+  },
+  {
     "lastName": "Kowalczyk",
     "firstName": "Jan",
     "residence": "Gulinek",
     "documentIds": [202, 205]
+  },
+  {
+    "lastName": "Kowalczyk",
+    "firstName": "Jan",
+    "residence": "Wrzos",
+    "documentIds": [21]
   },
   {
     "lastName": "Kowalczyk",
@@ -721,9 +841,21 @@
   },
   {
     "lastName": "Kowalik",
+    "firstName": "Stanisław",
+    "residence": "Domaniów",
+    "documentIds": [24]
+  },
+  {
+    "lastName": "Kowalik",
     "firstName": "Szczepan",
     "residence": "Gulinek",
     "documentIds": [267]
+  },
+  {
+    "lastName": "Kowalski",
+    "firstName": "Jan",
+    "residence": "Cerekiew",
+    "documentIds": [232]
   },
   {
     "lastName": "Kozana",
@@ -844,6 +976,12 @@
     "firstName": "Jan",
     "residence": "Gulinek",
     "documentIds": [269]
+  },
+  {
+    "lastName": "Mitak",
+    "firstName": "Józef",
+    "residence": "Gulinek",
+    "documentIds": [44]
   },
   {
     "lastName": "Mitak",
@@ -1050,6 +1188,12 @@
     "documentIds": [28, 29, 109, 266]
   },
   {
+    "lastName": "Pobideł",
+    "firstName": "Stanisław",
+    "residence": "Wrzos",
+    "documentIds": [379]
+  },
+  {
     "lastName": "Przybyłowski",
     "firstName": "Marcin",
     "residence": "Wola Gutowska",
@@ -1078,6 +1222,12 @@
     "firstName": "Mikołaj",
     "residence": "Jaszowice",
     "documentIds": [208]
+  },
+  {
+    "lastName": "Rogala",
+    "firstName": "Jan",
+    "residence": "",
+    "documentIds": [8]
   },
   {
     "lastName": "Rogala",
@@ -1170,6 +1320,12 @@
     "documentIds": [108]
   },
   {
+    "lastName": "Skrodzka",
+    "firstName": "Joanna",
+    "residence": "Wrzos",
+    "documentIds": [15]
+  },
+  {
     "lastName": "Skrzeczewska",
     "firstName": "Rozalia",
     "residence": "",
@@ -1192,6 +1348,18 @@
     "firstName": "Stanisław",
     "residence": "Kobylnik",
     "documentIds": [340]
+  },
+  {
+    "lastName": "Sowa",
+    "firstName": "Franciszek",
+    "residence": "Wrzos",
+    "documentIds": [22]
+  },
+  {
+    "lastName": "Sowiński",
+    "firstName": "Wawrzyniec",
+    "residence": "Dąbrowa",
+    "documentIds": [372]
   },
   {
     "lastName": "Ofiara",
@@ -1383,7 +1551,7 @@
     "lastName": "Zielony",
     "firstName": "Stanisław",
     "residence": "Wrzos",
-    "documentIds": [111]
+    "documentIds": [111, 378]
   },
   {
     "lastName": "Zych",
@@ -1546,5 +1714,23 @@
     "firstName": "Franciszek",
     "residence": "Jaszowice",
     "documentIds": [353]
+  },
+  {
+    "lastName": "Skonieczny",
+    "firstName": "Tomasz",
+    "residence": "Jaszowice",
+    "documentIds": [377]
+  },
+  {
+    "lastName": "Nagaba",
+    "firstName": "Jan",
+    "residence": "Jaszowice",
+    "documentIds": [377]
+  },
+  {
+    "lastName": "Gierczakowa",
+    "firstName": "Katarzyna",
+    "residence": "Jaszowice",
+    "documentIds": [377]
   }
 ]

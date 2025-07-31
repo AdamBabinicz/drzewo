@@ -6,7 +6,7 @@
     "type": "marriage_record",
     "description_pl": "Dokument ślubu z 14 listopada 1917 roku, parafia Zakrzew.",
     "description_en": "Marriage document from November 14, 1917, Zakrzew parish.",
-    "imageUrl": "/images/doc-slub-jan-agnieszka.avif"
+    "imageUrl": "/images/k.avif"
   },
   {
     "id": 2,
@@ -108,6 +108,132 @@
         "label_en": "Witnesses",
         "value_pl": "Maciej Dobrowolski (40 lat), Stanisław Ziemborowski (40 lat)",
         "value_en": "Maciej Dobrowolski (40), Stanisław Ziemborowski (40)"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title_pl": "Akt Ślubu: Władysław Walczak i Józefa Gierczak (1928)",
+    "title_en": "Marriage Record: Władysław Walczak & Józefa Gierczak (1928)",
+    "type": "marriage_record",
+    "description_pl": "Parafia Zakrzew (Zakrzów), akt nr 10, 1928 r. Dokument potwierdza małżeństwo 22-letniej Józefy Gierczak z 25-letnim wdowcem Władysławem Walczakiem.",
+    "description_en": "Zakrzew (Zakrzów) Parish, record no. 10, 1928. The document confirms the marriage of 22-year-old Józefa Gierczak to the 25-year-old widower Władysław Walczak.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się w Zakrzewie, jedenastego lipca tysiąc dziewięćset dwudziestego ósmego roku o godzinie dziewiątej. W obecności dwóch pełnoletnich świadków: Jana Gierczaka i Jana Baćmagi z Gulinka zawarte zostało dzisiaj w tutejszym kościele parafialnym religijne małżeństwo między: Władysławem Walczakiem, lat dwadzieścia pięć mającym wdowcem po Józefie z Mokosów zmarłej dnia trzeciego kwietnia tysiąc dziewięćset dwudziestego siódmego roku w Trolicy parafii Końskiej, synem Józefa i Franciszki z Woźniaków urodzonym i zamieszkałym w Dąbrówce parafii Błotnica, a Józefą Gerczak panną lat dwadzieścia dwa mającą, córką Pawła i Katarzyny z Czerwińskich urodzoną i zamieszkałą w Gulinku. Małżeństwo to poprzedziły trzy zapowiedzie ogłoszone w tutejszym i Błotnickim parafialnym kościele w następujące dni niedziel: dwudziestego dziewiątego stycznia, piątego i dwunastego lutego bieżącego roku. Obrzęd religijny dokonany został przez księdza Józefa Saermańskiego miejscowego proboszcza. Akt ten nowożeńcom i świadkom przeczytany pod pisaliśmy.",
+    "translation_pl": "Działo się w Zakrzewie, jedenastego lipca tysiąc dziewięćset dwudziestego ósmego roku o godzinie dziewiątej. W obecności dwóch pełnoletnich świadków: Jana Gierczaka i Jana Baćmagi z Gulinka zawarte zostało dzisiaj w tutejszym kościele parafialnym religijne małżeństwo między: Władysławem Walczakiem, lat dwadzieścia pięć, wdowcem po Józefie z Mokosów zmarłej dnia trzeciego kwietnia tysiąc dziewięćset dwudziestego siódmego roku w Trolicy, parafia Końskie, synem Józefa i Franciszki z Woźniaków, urodzonym i zamieszkałym w Dąbrówce, parafia Błotnica, a Józefą Gerczak, panną lat dwadzieścia dwa, córką Pawła i Katarzyny z Czerwińskich, urodzoną i zamieszkałą w Gulinku. Małżeństwo to poprzedziły trzy zapowiedzie ogłoszone w tutejszym i Błotnickim kościele parafialnym w następujące niedziele: dwudziestego dziewiątego stycznia, piątego i dwunastego lutego bieżącego roku. Obrzęd religijny dokonany został przez księdza Józefa Saermańskiego, miejscowego proboszcza. Akt ten nowożeńcom i świadkom przeczytany, podpisaliśmy.",
+    "translation_en": "It happened in Zakrzew on the eleventh of July, one thousand nine hundred and twenty-eight, at nine o'clock. In the presence of two adult witnesses: Jan Gierczak and Jan Baćmaga from Gulinek, a religious marriage was contracted today in the local parish church between: Władysław Walczak, a twenty-five-year-old widower of Józefa née Mokos, who died on the third of April, one thousand nine hundred and twenty-seven, in Trolica, parish of Końskie, son of Józef and Franciszka née Woźniak, born and residing in Dąbrówka, parish of Błotnica, and Józefa Gerczak, a maiden, twenty-two years old, daughter of Paweł and Katarzyna née Czerwińska, born and residing in Gulinek. This marriage was preceded by three banns announced in the local and Błotnica parish churches on the following Sundays: the twenty-ninth of January, the fifth and twelfth of February of the current year. The religious ceremony was performed by priest Józef Saermański, the local parish priest. This act was read to the newlyweds and witnesses, and we signed it.",
+    "extracted_data": [
+      {
+        "label_pl": "Pan Młody",
+        "label_en": "Groom",
+        "value_pl": "Władysław Walczak, 25 lat, wdowiec",
+        "value_en": "Władysław Walczak, 25 years old, widower"
+      },
+      {
+        "label_pl": "Rodzice Pana Młodego",
+        "label_en": "Groom's Parents",
+        "value_pl": "Józef i Franciszka z Woźniaków",
+        "value_en": "Józef and Franciszka née Woźniak"
+      },
+      {
+        "label_pl": "Panna Młoda",
+        "label_en": "Bride",
+        "value_pl": "Józefa Gierczak, 22 lata, panna",
+        "value_en": "Józefa Gierczak, 22 years old, maiden"
+      },
+      {
+        "label_pl": "Rodzice Panny Młodej",
+        "label_en": "Bride's Parents",
+        "value_pl": "Paweł i Katarzyna z Czerwińskich",
+        "value_en": "Paweł and Katarzyna née Czerwińska"
+      },
+      {
+        "label_pl": "Świadkowie",
+        "label_en": "Witnesses",
+        "value_pl": "Jan Gierczak, Jan Baćmaga",
+        "value_en": "Jan Gierczak, Jan Baćmaga"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title_pl": "Akt Ślubu: Jan Kacprzak i Marianna Gerczak z d. Sowa (1863)",
+    "title_en": "Marriage Record: Jan Kacprzak & Marianna Gerczak née Sowa (1863)",
+    "type": "marriage_record",
+    "description_pl": "Parafia Zakrzew (Zakrzów), akt nr 2, 1863 r. Dokument potwierdza drugie małżeństwo Marianny Gerczak, wdowy po Pawle Sowie, córki Pawła i Antoniny z Mitaków Gerczaków.",
+    "description_en": "Zakrzew (Zakrzów) Parish, record no. 2, 1863. The document confirms the second marriage of Marianna Gerczak, widow of Paweł Sowa, daughter of Paweł and Antonina née Mitak Gerczak.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się we wsi Zakrzowie dnia dwudziestego szóstego Stycznia Tysiąc ośmset sześćdziesiątego trzeciego roku o godzinie trzeciej z południa. Wiadomo czyniemy, iż w przytomności świadków Franciszka Kacprzaka lat trzydzieści trzy i Jana Rogali lat trzydzieści cztery mających obydwóch włościan zamieszkałych, na dniu dzisiejszym zawarte zostało religijne małżeństwo między Janem Kacprzakiem młodzianem, synem Marcina i zmarłej Tekli z Januszków urodzonym i zamieszkałym w Gulinie lat ośmnaście mającym, a Maryanną Gerczakową wdową po zmarłym we wsi Gulinie dnia dwudziestego trzeciego roku ubiegłego Pawle Sowie, córką niegdy Pawła i żyjącej Antoniny z Mittaków małżonków Gerczaków urodzoną i zamieszkałą w Gulinie lat dwadzieścia siedm mającą. Małżeństwo to poprzedziły trzy zapowiedzie w dniach jedenastym, osiemnastym i dwudziestym piątym Stycznia roku bieżącego w kościele tutejszym parafialnym głoszone. Zezwolenie ojca ze strony nowozaślubionego oświadczone było. Nowożeńcy oświadczają iż umowy przedślubnej jakiejkolwiek między sobą nie zawarli. Obrzęd ten religijny dopełniony został przez miejscowego proboszcza. Akt ten stawiającym i świadkom pisać nieumiejącym przeczytany, podpisaliśmy. X. Franciszek Stapiński.",
+    "translation_pl": "Działo się we wsi Zakrzew, dnia dwudziestego szóstego stycznia tysiąc osiemset sześćdziesiątego trzeciego roku, o godzinie trzeciej po południu. Czynimy wiadomo, iż w obecności świadków Franciszka Kacprzaka, lat trzydzieści trzy, i Jana Rogali, lat trzydzieści cztery, obu włościan, na dniu dzisiejszym zawarte zostało religijne małżeństwo między Janem Kacprzakiem, młodzianem, synem Marcina i zmarłej Tekli z Januszków, urodzonym i zamieszkałym w Gulinie, lat osiemnaście mającym, a Marianną Gerczakową, wdową po zmarłym we wsi Gulinie dnia dwudziestego trzeciego roku ubiegłego Pawle Sowie, córką zmarłego Pawła i żyjącej Antoniny z Mitaków, małżonków Gerczaków, urodzoną i zamieszkałą w Gulinie, lat dwadzieścia siedem mającą. Małżeństwo to poprzedziły trzy zapowiedzie w dniach jedenastym, osiemnastym i dwudziestym piątym stycznia bieżącego roku w tutejszym kościele parafialnym głoszone. Zezwolenie ojca ze strony nowozaślubionego zostało oświadczone. Nowożeńcy oświadczają, iż żadnej umowy przedślubnej między sobą nie zawarli. Obrzęd ten religijny dopełniony został przez miejscowego proboszcza. Akt ten stawiającym i świadkom pisać nieumiejącym przeczytany, podpisaliśmy. Ks. Franciszek Stapiński.",
+    "translation_en": "It happened in the village of Zakrzew on the twenty-sixth of January, one thousand eight hundred and sixty-three, at three o'clock in the afternoon. We make it known that in the presence of witnesses Franciszek Kacprzak, aged thirty-three, and Jan Rogala, aged thirty-four, both peasants, a religious marriage was contracted on this day between Jan Kacprzak, a youth, son of Marcin and the late Tekla née Januszek, born and residing in Gulin, aged eighteen, and Marianna Gerczak, a widow of Paweł Sowa who died in the village of Gulin on the twenty-third of the past year, daughter of the late Paweł and the living Antonina née Mitak, the Gerczak spouses, born and residing in Gulin, aged twenty-seven. This marriage was preceded by three banns announced on the eleventh, eighteenth, and twenty-fifth of January of the current year in the local parish church. The consent of the groom's father was declared. The newlyweds declare that they did not enter into any prenuptial agreement. This religious ceremony was performed by the local parish priest. This act was read to the declarants and witnesses, who are illiterate, and we signed it. Fr. Franciszek Stapiński.",
+    "extracted_data": [
+      {
+        "label_pl": "Pan Młody",
+        "label_en": "Groom",
+        "value_pl": "Jan Kacprzak, 18 lat, kawaler",
+        "value_en": "Jan Kacprzak, 18 years old, bachelor"
+      },
+      {
+        "label_pl": "Rodzice Pana Młodego",
+        "label_en": "Groom's Parents",
+        "value_pl": "Marcin i Tekla z Januszków",
+        "value_en": "Marcin and Tekla née Januszek"
+      },
+      {
+        "label_pl": "Panna Młoda",
+        "label_en": "Bride",
+        "value_pl": "Marianna Gerczak (primo voto Sowa), 27 lat, wdowa",
+        "value_en": "Marianna Gerczak (primo voto Sowa), 27 years old, widow"
+      },
+      {
+        "label_pl": "Rodzice Panny Młodej",
+        "label_en": "Bride's Parents",
+        "value_pl": "Paweł i Antonina z Mitaków",
+        "value_en": "Paweł and Antonina née Mitak"
+      },
+      {
+        "label_pl": "Świadkowie",
+        "label_en": "Witnesses",
+        "value_pl": "Franciszek Kacprzak (33 lata), Jan Rogala (34 lata)",
+        "value_en": "Franciszek Kacprzak (33 years), Jan Rogala (34 years)"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title_pl": "Akt Urodzenia: Małgorzata Gerczak (1828)",
+    "title_en": "Birth Record: Małgorzata Gerczak (1828)",
+    "type": "birth_record",
+    "description_pl": "Parafia Wrzos, akt nr 31 z 1828 r. Dokument potwierdza narodziny Małgorzaty, córki Ludwika Gierczaka i Rozalii z domu Sulis. Odkrycie tej gałęzi we Wrzosie, gdzie mieszkał protoplasta rodu Tomasz, wskazuje na bliskie pokrewieństwo.",
+    "description_en": "Wrzos Parish, record no. 31 from 1828. The document confirms the birth of Małgorzata, daughter of Ludwik Gierczak and Rozalia née Sulis. The discovery of this branch in Wrzos, where the family progenitor Tomasz lived, indicates a close relationship.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się we wsi Wrzosie dnia dwudziestego siódmego Sierpnia tysiąc osiemset dwudziestego ósmego roku o godzinie piątey po południu. Stawił się Ludwik Gierczak włościanin we Wrzosie zamieszkały, lat dwadzieścia ośm maiący, w obecności Antoniego Kwietnia lat pięćdziesiąt i Franciszka Kustry lat czterdzieści ośm maiących obydwóch włościan we Wrzosie zamieszkałych i okazał Nam Dziecię płci żeńskiej, urodzone w Wrzosie w domu pod Numerem dwudziestym ósmym dnia dwudziestego szóstego miesiąca Sierpnia roku tegoż o godzinie dziesiątej rano z Jego Małżonki Rozalii z Sulisów lat dwadzieścia maiącej. Dziecięciu temu na Chrzcie Świętym w dniu dzisiejszym odbytym, nadane zostało Imię Małgorzata, a Rodzicami Jego Chrzestnymi byli Antoni Kwiecień i Ludwika Popisowa. Akt ten stawaiącemu i świadkom przeczytany, z powodu że pisać nie umieją przez nas tylko podpisany został. Xiądz Konstanty Gierczewski Proboszcz Parafii Wrzoskiey.",
+    "translation_pl": "Działo się we wsi Wrzosie dnia dwudziestego siódmego sierpnia tysiąc osiemset dwudziestego ósmego roku o godzinie piątej po południu. Stawił się Ludwik Gierczak, włościanin we Wrzosie zamieszkały, lat dwadzieścia osiem, w obecności Antoniego Kwietnia, lat pięćdziesiąt, i Franciszka Kustry, lat czterdzieści osiem, obydwóch włościan we Wrzosie zamieszkałych, i okazał nam dziecko płci żeńskiej, urodzone we Wrzosie w domu pod numerem dwudziestym ósmym dnia dwudziestego szóstego miesiąca sierpnia tegoż roku o godzinie dziesiątej rano, z jego małżonki Rozalii z Sulisów, lat dwadzieścia. Dziecku temu na chrzcie świętym w dniu dzisiejszym odbytym nadano imię Małgorzata, a jego rodzicami chrzestnymi byli Antoni Kwiecień i Ludwika Popisowa. Akt ten stawiającemu i świadkom, którzy pisać nie umieją, został przeczytany i tylko przez nas podpisany. Ksiądz Konstanty Gierczewski, Proboszcz Parafii Wrzoskiej.",
+    "translation_en": "It happened in the village of Wrzos on the twenty-seventh of August, one thousand eight hundred and twenty-eight, at five o'clock in the afternoon. Appeared Ludwik Gierczak, a peasant residing in Wrzos, aged twenty-eight, in the presence of Antoni Kwiecień, aged fifty, and Franciszek Kustra, aged forty-eight, both peasants residing in Wrzos, and he presented to us a female child, born in Wrzos in the house at number twenty-eight on the twenty-sixth of August of this same year at ten o'clock in the morning, of his wife Rozalia née Sulis, aged twenty. To this child, at the Holy Baptism performed this day, was given the name Małgorzata, and her godparents were Antoni Kwiecień and Ludwika Popisowa. This act was read to the declarant and witnesses, who are unable to write, and was signed only by us. Father Konstanty Gierczewski, Pastor of the Wrzos Parish.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Ludwik Gierczak, 28 lat",
+        "value_en": "Ludwik Gierczak, 28 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Rozalia z Sulisów, 20 lat",
+        "value_en": "Rozalia née Sulis, 20 years old"
+      },
+      {
+        "label_pl": "Chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Antoni Kwiecień i Ludwika Popisowa",
+        "value_en": "Antoni Kwiecień and Ludwika Popisowa"
+      },
+      {
+        "label_pl": "Świadkowie",
+        "label_en": "Witnesses",
+        "value_pl": "Antoni Kwiecień (50 lat), Franciszek Kustra (48 lat)",
+        "value_en": "Antoni Kwiecień (50), Franciszek Kustra (48)"
       }
     ]
   },
@@ -243,6 +369,44 @@
     "transcription": "Działo się w mieście Jedlińsku, dnia pierwszego Marca, tysiąc osmset sześćdziesiątego trzeciego roku, o godzinie jedenastej rano. Stawił się Jan Ofiara, ojciec zmarłego, lat trzydzieści i siedm maiący, i Dominik Niemonek, lat trzydzieści dwa liczący, obydwa włościanie z Woli Gutowskiej; i oświadczyli Nam iż w Woli Gutowskiej dnia dwudziestego siódmego Lutego bieżącego roku, o godzinie dziewiątej rano umarł Józef Ofiara, syn wspomnianego Jana i Maryanny z Wieczorków małżonków Ofiarów, włościanin, dwa lata liczący. Po przekonaniu się naocznie o zejściu Józefa Ofiary, Akt ten Stawającym przeczytany, a że pisać nieumieją, przez Nas tylko podpisany został. X. Jan Kłochowski Proboszcz i Urzędnik Stanu Cywilnego Parafii Jedlińsko.",
     "translation_pl": "Działo się w mieście Jedlińsku dnia pierwszego marca tysiąc osiemset sześćdziesiątego trzeciego roku o godzinie jedenastej rano. Stawił się Jan Ofiara, ojciec zmarłego, lat trzydzieści siedem, i Dominik Niemonek, lat trzydzieści dwa, obaj włościanie z Woli Gutowskiej; i oświadczyli nam, iż w Woli Gutowskiej dnia dwudziestego siódmego lutego bieżącego roku o godzinie dziewiątej rano zmarł Józef Ofiara, syn wspomnianego Jana i Marianny z Wieczorków, małżonków Ofiarów, włościanin, liczący dwa lata. Po naocznym przekonaniu się o zejściu Józefa Ofiary, Akt ten stawiającym przeczytany, a że pisać nie umieją, przez nas tylko podpisany został. Ks. Jan Kłochowski, Proboszcz i Urzędnik Stanu Cywilnego Parafii Jedlińsko.",
     "translation_en": "It happened in the town of Jedlińsk on the first of March, one thousand eight hundred and sixty-three, at eleven o'clock in the morning. Appeared Jan Ofiara, father of the deceased, aged thirty-seven, and Dominik Niemonek, aged thirty-two, both peasants from Wola Gutowska; and they declared to us that in Wola Gutowska on the twenty-seventh of February of the current year, at nine o'clock in the morning, died Józef Ofiara, son of the aforementioned Jan and Marianna née Wieczorek, spouses Ofiara, a peasant, aged two years. After visually confirming the passing of Józef Ofiara, this act was read to the declarants, and as they cannot write, it was signed only by Us. Fr. Jan Kłochowski, Pastor and Civil Registrar of the Jedlińsko Parish."
+  },
+  {
+    "id": 15,
+    "title_pl": "Akt Urodzenia: Stanisław Gerczak (1848)",
+    "title_en": "Birth Record: Stanisław Gerczak (1848)",
+    "type": "birth_record",
+    "description_pl": "Parafia Wrzos, akt nr 15 z 1848 r. Dokument potwierdza narodziny Stanisława, syna Wawrzyńca Gerczaka i Marianny z domu Bratkowskiej. Jest to brat Walentego Gerczaka (ID 393).",
+    "description_en": "Wrzos Parish, record no. 15 from 1848. The document confirms the birth of Stanisław, son of Wawrzyniec Gerczak and Marianna née Bratkowska. He is the brother of Walenty Gerczak (ID 393).",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się w Wrzosie dnia piątego Miesiąca Maja Tysiąc ośmset czterdziestego ósmego roku o godzinie Szostey wieczorem. Stawił się Wawrzyniec Gerczak, Gospodarz z Wrzosu, w obecności Świadków Stanisława Bilawskiego Propinatora lat trzydzieści dziewięć i Jana Górskiego lat trzydzieści pięć liczących, obydwóch w Wsi Wrzosie zamieszkałych i okazał nam Dziecię płci Męzkiey urodzone w Wrzosie dnia dwudziestego siódmego Miesiąca Kwietnia roku bieżącego o godzinie dziewiątey rano z Jego Małżonki Maryanny z Bratkowskich lat Dwadzieścia dziewięć liczącej. Dziecięciu temu na Chrzcie Świętym odbytym w dniu dzisiejszym nadane zostało Imię Stanisław, a Rodzicami jego Chrzestnymi byli Stanisław Bielawski i Joanna Skrodzka z Wrzosu. Akt ten stawaiącemu i Świadkom pisać nieumiejącym przeczytany, przez nas podpisany został. X Antoni Ambroziewicz USC.",
+    "translation_pl": "Działo się we Wrzosie dnia piątego maja tysiąc osiemset czterdziestego ósmego roku o godzinie szóstej wieczorem. Stawił się Wawrzyniec Gerczak, gospodarz z Wrzosu, w obecności świadków Stanisława Bilawskiego, propinatora [karczmarza], lat trzydzieści dziewięć, i Jana Górskiego, lat trzydzieści pięć, obydwóch we wsi Wrzosie zamieszkałych, i okazał nam dziecko płci męskiej urodzone we Wrzosie dnia dwudziestego siódmego kwietnia bieżącego roku o godzinie dziewiątej rano z jego małżonki Marianny z Bratkowskich, lat dwadzieścia dziewięć. Dziecku temu na chrzcie świętym odbytym w dniu dzisiejszym nadano imię Stanisław, a jego rodzicami chrzestnymi byli Stanisław Bielawski i Joanna Skrodzka z Wrzosu. Akt ten stawiającemu i świadkom pisać nieumiejącym przeczytany, przez nas podpisany został. Ks. Antoni Ambroziewicz, Urzędnik Stanu Cywilnego.",
+    "translation_en": "It happened in Wrzos on the fifth of May, one thousand eight hundred and forty-eight, at six o'clock in the evening. Appeared Wawrzyniec Gerczak, a farmer from Wrzos, in the presence of witnesses Stanisław Bilawski, an innkeeper/distiller, aged thirty-nine, and Jan Górski, aged thirty-five, both residing in the village of Wrzos, and he presented to us a male child born in Wrzos on the twenty-seventh of April of the current year at nine o'clock in the morning to his wife Marianna née Bratkowska, aged twenty-nine. At the Holy Baptism performed today, this child was given the name Stanisław, and his Godparents were Stanisław Bielawski and Joanna Skrodzka from Wrzos. This act was read to the declarant and witnesses, who are illiterate, and was signed by us. Fr. Antoni Ambroziewicz, Civil Registrar.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Wawrzyniec Gerczak",
+        "value_en": "Wawrzyniec Gerczak"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Marianna z Bratkowskich, 29 lat",
+        "value_en": "Marianna née Bratkowska, 29 years old"
+      },
+      {
+        "label_pl": "Chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Stanisław Bielawski i Joanna Skrodzka",
+        "value_en": "Stanisław Bielawski and Joanna Skrodzka"
+      },
+      {
+        "label_pl": "Świadkowie",
+        "label_en": "Witnesses",
+        "value_pl": "Stanisław Bilawski (39 lat), Jan Górski (35 lat)",
+        "value_en": "Stanisław Bilawski (39), Jan Górski (35)"
+      }
+    ]
   },
   {
     "id": 16,
@@ -404,6 +568,190 @@
         "label_pl": "Rodzice",
         "label_en": "Parents",
         "value_pl": "Wojciech Ofiara i Franciszka z Puzianowskich"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title_pl": "Akt Urodzenia: Wawrzyniec Gierczak (1818)",
+    "title_en": "Birth Record: Wawrzyniec Gierczak (1818)",
+    "type": "birth_record",
+    "description_pl": "Parafia Wrzos, akt nr 29 z 1818 r. Dokument potwierdza narodziny Wawrzyńca, syna Ludwika Gierczaka i Rozalii z domu Sulis. Jest on bratem Małgorzaty (ID 406). Jednym ze świadków jest 60-letni Walenty Gierczak, prawdopodobnie dziadek dziecka.",
+    "description_en": "Wrzos Parish, record no. 29 from 1818. The document confirms the birth of Wawrzyniec, son of Ludwik Gierczak and Rozalia née Sulis. He is the brother of Małgorzata (ID 406). One of the witnesses is 60-year-old Walenty Gierczak, likely the child's grandfather.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się we wsi Wrzosie dnia Dwudziestego dziewiątego Kwietnia Tysiąc Ośmset ośmnastego Roku o godzinie wtórey po południu. Stawił się Ludwik Gierczak Włościanin w Młynku Wrzoskim zamieszkały liczący lat ośmnaście w obecności Świadków Walentego Gierczaka lat Sześćdziesiąt i Pawła Kustry lat czterdzieści ośm maiących obydwóch Włościan we Wrzosie zamieszkałych i okazał Nam Dziecię płci Męskiey, które urodziło się w Młynku Wrzoskim na Dniu Dwudziestym siódmym Miesiąca Kwietnia Roku tegoż o godzinie dziesiątej rano z Jego Małżonki Rozalii z Suliszów lat ośmnaście maiącey. Dziecięciu temu na Chrzcie Świętym w Dniu dzisiejszym odbytym, nadane zostało Imię Wawrzyniec, a Rodzicami Jego Chrzestnemi byli Franciszek Kowal i Katarzyna Kustrzyna z Wrzosu. Akt ten stawaiącemu i Świadkom przeczytany, pisać nie umiejącym, podpisany został. Xiądz Konstanty Gierczewski Proboszcz Wrzoski Urzędnik Cywilny.",
+    "translation_pl": "Działo się we wsi Wrzosie dnia dwudziestego dziewiątego kwietnia tysiąc osiemset osiemnastego roku o godzinie drugiej po południu. Stawił się Ludwik Gierczak, włościanin w Młynku Wrzoskim zamieszkały, liczący lat osiemnaście, w obecności świadków Walentego Gierczaka, lat sześćdziesiąt, i Pawła Kustry, lat czterdzieści osiem, obydwóch włościan we Wrzosie zamieszkałych, i okazał nam dziecko płci męskiej, które urodziło się w Młynku Wrzoskim dnia dwudziestego siódmego miesiąca kwietnia tegoż roku o godzinie dziesiątej rano, z jego małżonki Rozalii z Suliszów, lat osiemnaście. Dziecku temu na chrzcie świętym w dniu dzisiejszym odbytym nadano imię Wawrzyniec, a jego rodzicami chrzestnymi byli Franciszek Kowal i Katarzyna Kustrzyna z Wrzosu. Akt ten stawiającemu i świadkom, którzy pisać nie umieją, został przeczytany i tylko przez nas podpisany. Ksiądz Konstanty Gierczewski, Proboszcz Wrzoski, Urzędnik Stanu Cywilnego.",
+    "translation_en": "It happened in the village of Wrzos on the twenty-ninth of April, one thousand eight hundred and eighteen, at two o'clock in the afternoon. Appeared Ludwik Gierczak, a peasant residing in Młynek Wrzoski, aged eighteen, in the presence of witnesses Walenty Gierczak, aged sixty, and Paweł Kustra, aged forty-eight, both peasants residing in Wrzos, and he presented to us a male child, born in Młynek Wrzoski on the twenty-seventh day of April of this same year at ten o'clock in the morning to his wife Rozalia née Sulisz, aged eighteen. To this child at the Holy Baptism performed today, was given the name Wawrzyniec, and his Godparents were Franciszek Kowal and Katarzyna Kustrzyna from Wrzos. This act was read to the declarant and witnesses, who are unable to write, and was signed only by us. Father Konstanty Gierczewski, Pastor of Wrzos, Civil Registrar.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Ludwik Gierczak, 18 lat",
+        "value_en": "Ludwik Gierczak, 18 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Rozalia z Suliszów, 18 lat",
+        "value_en": "Rozalia née Sulisz, 18 years old"
+      },
+      {
+        "label_pl": "Chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Franciszek Kowal i Katarzyna Kustrzyna",
+        "value_en": "Franciszek Kowal and Katarzyna Kustrzyna"
+      },
+      {
+        "label_pl": "Świadkowie",
+        "label_en": "Witnesses",
+        "value_pl": "Walenty Gierczak (60 lat), Paweł Kustra (48 lat)",
+        "value_en": "Walenty Gierczak (60), Paweł Kustra (48)"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title_pl": "Akt Urodzenia: Marianna Gierczak (1821)",
+    "title_en": "Birth Record: Marianna Gierczak (1821)",
+    "type": "birth_record",
+    "description_pl": "Parafia Wrzos, akt nr 19 z 1821 r. Dokument potwierdza narodziny Marianny, córki Ludwika Gierczaka i Rozalii z domu Sulis. Jest siostrą Wawrzyńca (ID 420) i Małgorzaty (ID 406).",
+    "description_en": "Wrzos Parish, record no. 19 from 1821. The document confirms the birth of Marianna, daughter of Ludwik Gierczak and Rozalia née Sulis. She is the sister of Wawrzyniec (ID 420) and Małgorzata (ID 406).",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się we wsi Wrzosie dnia Dwudziestego dziewiątego Maja Tysiąc Ośmset dwudziestego pierwszego Roku o godzinie dziewiątey rano, Przed Nami Proboszczem Wrzoskim Urzędnikiem Cywilnym Gminy Wrzoskiey Obwodu Radomskiego w Woiewództwie Sandomierskim. Stawił się Ludwik Gierczak Włościanin Gospodarz z Wrzoskiego Młynka liczący lat Dwadzieścia ieden, w obecności Świadków Jana Kowalczyka lat czterdzieści i Jakuba Gierczaka lat sześćdziesiąt liczących obydwóch Włościan we Wrzosie zamieszkałych, i okazał Nam Dziecię płci żeńskiey, które urodziło się w Młynku Wrzoskim na dniu dwudziestym ósmym Miesiąca Maja Roku tegoż o godzinie dziewiątey rano z Jego Małżonki Rozalii z Suliszów lat dwadzieścia ieden maiącey. Dziecięciu temu na Chrzcie Świętym w Dniu dzisiejszym odbytym, nadane zostało Imię Maryanna, a Rodzicami Jego Chrzestnemi byli Franciszek Kowalczyk i Katarzyna Gierczakówna. Akt ten stawaiącemu i świadkom przeczytany, pisać nie umiejącym, podpisany został. X. Konstanty Gierczewski.",
+    "translation_pl": "Działo się we wsi Wrzosie dnia dwudziestego dziewiątego maja tysiąc osiemset dwudziestego pierwszego roku o godzinie dziewiątej rano. Stawił się Ludwik Gierczak, włościanin gospodarz z Wrzoskiego Młynka, liczący lat dwadzieścia jeden, w obecności świadków Jana Kowalczyka, lat czterdzieści, i Jakuba Gierczaka, lat sześćdziesiąt, obydwóch włościan we Wrzosie zamieszkałych, i okazał nam dziecko płci żeńskiej, które urodziło się w Młynku Wrzoskim dnia dwudziestego ósmego miesiąca maja tegoż roku o godzinie dziewiątej rano, z jego małżonki Rozalii z Suliszów, lat dwadzieścia jeden. Dziecku temu na chrzcie świętym w dniu dzisiejszym odbytym nadano imię Marianna, a jego rodzicami chrzestnymi byli Franciszek Kowalczyk i Katarzyna Gierczakówna. Akt ten stawiającemu i świadkom, którzy pisać nie umieją, został przeczytany i tylko przez nas podpisany. Ksiądz Konstanty Gierczewski.",
+    "translation_en": "It happened in the village of Wrzos on the twenty-ninth of May, one thousand eight hundred and twenty-one, at nine o'clock in the morning. Appeared Ludwik Gierczak, a peasant farmer from Wrzoski Młynek, aged twenty-one, in the presence of witnesses Jan Kowalczyk, aged forty, and Jakub Gierczak, aged sixty, both peasants residing in Wrzos, and he presented to us a female child, born in Młynek Wrzoski on the twenty-eighth day of May of this same year at nine o'clock in the morning to his wife Rozalia née Sulisz, aged twenty-one. To this child at the Holy Baptism performed today, was given the name Marianna, and her Godparents were Franciszek Kowalczyk and Katarzyna Gierczakówna. This act was read to the declarant and witnesses, who are illiterate, and was signed only by us. Father Konstanty Gierczewski.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Ludwik Gierczak, 21 lat",
+        "value_en": "Ludwik Gierczak, 21 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Rozalia z Suliszów, 21 lat",
+        "value_en": "Rozalia née Sulisz, 21 years old"
+      },
+      {
+        "label_pl": "Chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Franciszek Kowalczyk i Katarzyna Gierczakówna",
+        "value_en": "Franciszek Kowalczyk and Katarzyna Gierczakówna"
+      },
+      {
+        "label_pl": "Świadkowie",
+        "label_en": "Witnesses",
+        "value_pl": "Jan Kowalczyk (40 lat), Jakub Gierczak (60 lat)",
+        "value_en": "Jan Kowalczyk (40), Jakub Gierczak (60)"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title_pl": "Akt Urodzenia: Anastazja Gerczak (1821)",
+    "title_en": "Birth Record: Anastazja Gerczak (1821)",
+    "type": "birth_record",
+    "description_pl": "Parafia Wrzos, akt nr 22 z 1821 r. Dokument potwierdza narodziny Anastazji, córki Ludwika Gierczaka i Rozalii z domu Sulis. Jest siostrą Wawrzyńca (ID 420) i Małgorzaty (ID 406).",
+    "description_en": "Wrzos Parish, record no. 22 from 1821. The document confirms the birth of Anastazja, daughter of Ludwik Gierczak and Rozalia née Sulis. She is the sister of Wawrzyniec (ID 420) and Małgorzata (ID 406).",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się we wsi Wrzosie dnia Dwudziestego szóstego Maja Tysiąc osiemset dwudziestego pierwszego Roku o godzinie piątey po południu. Stawił się Ludwik Gierczak Włościanin Gospodarz z Wrzoskiego Młynka liczący lat Dwadzieścia ieden, w obecności Świadków Jakuba Gierczaka lat sześćdziesiąt i Franciszka Sowy lat czterdzieści liczących obydwóch Włościan we Wrzosie zamieszkałych i okazał Nam Dziecię płci żeńskiey, które urodziło się w Młynku Wrzoskim na Dniu Dwudziestym piątym Miesiąca Maja Roku tegoż o godzinie dziesiątej rano z Jego Małżonki Rozalii z Suliszów lat dwadzieścia ieden maiącey. Dziecięciu temu na Chrzcie Świętym w Dniu dzisiejszym odbytym, nadane zostało Imię Anastazya, a Rodzicami Jego Chrzestnemi byli Walenty Warchoł i Katarzyna Kustrzyna z Wrzosu. Akt ten stawaiącemu i świadkom przeczytany, pisać nie umiejącym, podpisany został. Xiądz Konstanty Gierczewski.",
+    "translation_pl": "Działo się we wsi Wrzosie dnia dwudziestego szóstego maja tysiąc osiemset dwudziestego pierwszego roku o godzinie piątej po południu. Stawił się Ludwik Gierczak, włościanin gospodarz z Wrzoskiego Młynka, liczący lat dwadzieścia jeden, w obecności świadków Jakuba Gierczaka, lat sześćdziesiąt, i Franciszka Sowy, lat czterdzieści, obydwóch włościan we Wrzosie zamieszkałych, i okazał nam dziecko płci żeńskiej, które urodziło się w Młynku Wrzoskim dnia dwudziestego piątego miesiąca maja tegoż roku o godzinie dziesiątej rano, z jego małżonki Rozalii z Suliszów, lat dwadzieścia jeden. Dziecku temu na chrzcie świętym w dniu dzisiejszym odbytym nadano imię Anastazja, a jego rodzicami chrzestnymi byli Walenty Warchoł i Katarzyna Kustrzyna z Wrzosu. Akt ten stawiającemu i świadkom, którzy pisać nie umieją, został przeczytany i tylko przez nas podpisany. Ksiądz Konstanty Gierczewski.",
+    "translation_en": "It happened in the village of Wrzos on the twenty-sixth of May, one thousand eight hundred and twenty-one, at five o'clock in the afternoon. Appeared Ludwik Gierczak, a peasant farmer from Wrzoski Młynek, aged twenty-one, in the presence of witnesses Jakub Gierczak, aged sixty, and Franciszek Sowa, aged forty, both peasants residing in Wrzos, and he presented to us a female child, born in Młynek Wrzoski on the twenty-fifth day of May of this same year at ten o'clock in the morning to his wife Rozalia née Sulisz, aged twenty-one. To this child at the Holy Baptism performed today, was given the name Anastazja, and her Godparents were Walenty Warchoł and Katarzyna Kustrzyna from Wrzos. This act was read to the declarant and witnesses, who are unable to write, and was signed only by us. Father Konstanty Gierczewski.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Ludwik Gierczak, 21 lat",
+        "value_en": "Ludwik Gierczak, 21 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Rozalia z Suliszów, 21 lat",
+        "value_en": "Rozalia née Sulisz, 21 years old"
+      },
+      {
+        "label_pl": "Chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Walenty Warchoł i Katarzyna Kustrzyna",
+        "value_en": "Walenty Warchoł and Katarzyna Kustrzyna"
+      },
+      {
+        "label_pl": "Świadkowie",
+        "label_en": "Witnesses",
+        "value_pl": "Jakub Gierczak (60 lat), Franciszek Sowa (40 lat)",
+        "value_en": "Jakub Gierczak (60), Franciszek Sowa (40)"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title_pl": "Akt Urodzenia: Walenty Gierczak (1864)",
+    "title_en": "Birth Record: Walenty Gierczak (1864)",
+    "type": "birth_record",
+    "description_pl": "Parafia Wrzos, akt nr 14 z 1864 r. Dokument potwierdza narodziny Walentego, syna Wawrzyńca Gierczaka i Marianny z domu Oparcik.",
+    "description_en": "Wrzos Parish, record no. 14 from 1864. The document confirms the birth of Walenty, son of Wawrzyniec Gierczak and Marianna née Oparcik.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się we Wrzosie Dnia czternastego Lutego Tysiąc Ośmset Sześćdziesiątego czwartego roku o godzinie dwunastej w południe. Stawił się Wawrzyniec Gierczak Rolnik w Domaniowie zamieszkały lat czterdzieści sześć maiący, w obecności świadków Stanisława Kowalika lat czterdzieści i Walentego Kiełbasy lat czterdzieści maiących, obydwóch Rolników w Domaniowie zamieszkałych, i okazał nam Dziecię płci męskiej, urodzone w Domaniowie dnia dzisiejszego o godzinie szóstej rano, z jego Małżonki Maryanny z Oparcików lat czterdzieści maiącej. Dziecięciu temu na Chrzcie Świętym w dniu dzisiejszym odbytym, nadane zostało imię Walenty, a Rodzicami jego Chrzestnymi byli Walenty Kiełbasa z Urszulą Kiełbasą.",
+    "translation_pl": "Działo się we Wrzosie dnia 14 lutego 1864 roku o godzinie dwunastej w południe. Stawił się Wawrzyniec Gierczak, rolnik z Domaniowa, lat 46, w obecności świadków Stanisława Kowalika, lat 40, i Walentego Kiełbasy, lat 40, obydwóch rolników z Domaniowa, i okazał nam dziecko płci męskiej, urodzone w Domaniowie dnia dzisiejszego o godzinie szóstej rano z jego małżonki Marianny z Oparcików, lat 40. Dziecku temu na chrzcie świętym w dniu dzisiejszym nadano imię Walenty, a jego rodzicami chrzestnymi byli Walenty Kiełbasa z Urszulą Kiełbasą.",
+    "translation_en": "It happened in Wrzos on the 14th of February, 1864, at twelve o'clock noon. Appeared Wawrzyniec Gierczak, a farmer from Domaniów, aged 46, in the presence of witnesses Stanisław Kowalik, aged 40, and Walenty Kiełbasa, aged 40, both farmers from Domaniów, and he showed us a male child, born in Domaniów on this day at six o'clock in the morning, to his wife Marianna née Oparcik, aged 40. At the Holy Baptism performed on this day, the child was given the name Walenty, and his godparents were Walenty Kiełbasa with Urszula Kiełbasa.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Wawrzyniec Gierczak, 46 lat",
+        "value_en": "Wawrzyniec Gierczak, 46 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Marianna z Oparcików, 40 lat",
+        "value_en": "Marianna née Oparcik, 40 years old"
+      },
+      {
+        "label_pl": "Chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Walenty Kiełbasa i Urszula Kiełbasa",
+        "value_en": "Walenty Kiełbasa and Urszula Kiełbasa"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title_pl": "Akt Ślubu: Walenty Gierczak i Marianna Delkowska (1886)",
+    "title_en": "Marriage Record: Walenty Gierczak & Marianna Delkowska (1886)",
+    "type": "marriage_record",
+    "description_pl": "Parafia Zakrzew (Zakrzów), akt nr 13, 1886 r. Dokument potwierdza pierwsze małżeństwo Walentego Gierczaka z Marianną Delkowską.",
+    "description_en": "Zakrzew (Zakrzów) Parish, record no. 13, 1886. The document confirms the first marriage of Walenty Gierczak to Marianna Delkowska.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Состоялось в Закржеве дня четвертого (шестнадцатого) Февраля тысяча восемьсот восемьдесят шестого года в час по полудни. Объявляем, что в присутствии свидетелей Валентего Бацоны и Якоба Грабовского, земледельцев в Олашеве, заключен в этот день религиозный обряд бракосочетания между Валентием Герчаком, холостым, двадцати трех лет от роду, сыном Вавжинца и Марианны из Опарциков, земледельцем, родившимся и проживающим в Доманеве, и Марианною Дельковскою, девицею, восемнадцати лет от роду, дочерью Леона и Марианны из Банасев, при родителях в Доманеве живущею. Бракосочетанию этому предшествовали три оглашения в здешнем приходском костеле. Новобрачные объявили, что брачного договора они между собою не заключали. Религиозный обряд совершен ксендзом Иосифом Тальбергом. Этот акт присутствующим и новобрачным неграмотным прочитан, нами только подписан.",
+    "translation_pl": "Działo się w Zakrzewie dnia czwartego (szesnastego) lutego tysiąc osiemset osiemdziesiątego szóstego roku o godzinie pierwszej po południu. Oświadczamy, że w obecności świadków Walentego Bacony i Jakuba Grabowskiego, rolników z Olszowa, zawarty został dzisiaj religijny obrzęd zawarcia małżeństwa między Walentym Gierczakiem, kawalerem, lat dwadzieścia trzy, synem Wawrzyńca i Marianny z Oparcików, rolnikiem, urodzonym i zamieszkałym w Domaniowie, a Marianną Delkowską, panną, lat osiemnaście, córką Leona i Marianny z Banasiów, przy rodzicach w Domaniowie zamieszkałą. Małżeństwo to poprzedziły trzy zapowiedzi ogłoszone w tutejszym kościele parafialnym. Nowożeńcy oświadczyli, że nie zawarli między sobą umowy przedślubnej. Obrzęd religijny został dokonany przez księdza Józefa Talberga. Akt ten obecnym i nowożeńcom, którzy są niepiśmienni, został przeczytany i tylko przez nas podpisany.",
+    "translation_en": "It happened in Zakrzew on the fourth (sixteenth) of February, eighteen hundred and eighty-six, at one o'clock in the afternoon. We declare that in the presence of witnesses Walenty Bacona and Jakub Grabowski, farmers from Olszów, a religious marriage ceremony was contracted today between Walenty Gierczak, a bachelor, twenty-three years old, son of Wawrzyniec and Marianna née Oparcik, a farmer, born and residing in Domaniów, and Marianna Delkowska, a maiden, eighteen years old, daughter of Leon and Marianna née Banaś, living with her parents in Domaniów. This marriage was preceded by three banns announced in the local parish church. The newlyweds declared that they had not entered into a prenuptial agreement. The religious ceremony was performed by Father Józef Talberg. This act was read to the present and to the illiterate newlyweds, and was signed only by us.",
+    "extracted_data": [
+      {
+        "label_pl": "Pan Młody",
+        "label_en": "Groom",
+        "value_pl": "Walenty Gierczak, 23 lata, kawaler",
+        "value_en": "Walenty Gierczak, 23 years old, bachelor"
+      },
+      {
+        "label_pl": "Rodzice Pana Młodego",
+        "label_en": "Groom's Parents",
+        "value_pl": "Wawrzyniec i Marianna z Oparcików",
+        "value_en": "Wawrzyniec and Marianna née Oparcik"
+      },
+      {
+        "label_pl": "Panna Młoda",
+        "label_en": "Bride",
+        "value_pl": "Marianna Delkowska, 18 lat, panna",
+        "value_en": "Marianna Delkowska, 18 years old, maiden"
+      },
+      {
+        "label_pl": "Rodzice Panny Młodej",
+        "label_en": "Bride's Parents",
+        "value_pl": "Leon i Marianna z Banasiów",
+        "value_en": "Leon and Marianna née Banaś"
       }
     ]
   },
@@ -880,6 +1228,120 @@
         "label_en": "Bride",
         "value_pl": "Marianna Poneta z d. Sobolewska, 40 lat, wdowa",
         "value_en": "Marianna Poneta née Sobolewska, 40 years old, widow"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title_pl": "Akt Urodzenia: Michalina Kacprzak (1866)",
+    "title_en": "Birth Record: Michalina Kacprzak (1866)",
+    "type": "birth_record",
+    "description_pl": "Parafia Zakrzew (Zakrzów), akt nr 41 z 1866 r. Dokument potwierdza narodziny Michaliny, córki Jana Kacprzaka i Marianny z domu Gerczak (primo voto Sowa).",
+    "description_en": "Zakrzew (Zakrzów) Parish, record no. 41 from 1866. The document confirms the birth of Michalina, daughter of Jan Kacprzak and Marianna née Gerczak (primo voto Sowa).",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się we wsi Zakrzewie dnia pietnastego Lipca tysiąc ośmset sześćdziesiątego szóstego roku o godzinie dziewiątej przed południem. Stawił się Jan Kacprzak, wyrobnik w Gulinie zamieszkały, lat dwadzieścia ieden maiący w obecności świadków Franciszka Kacprzaka lat trzydzieści sześć i Kacpra Gierczaka lat trzydzieści dziewięć maiących, obydwóch gospodarzy w Gulinie zamieszkałych, i okazał Nam Dziecię płci żeńskiej, oświadczając, iż takowe urodzone jest w Gulinie na dniu dziewiątego Lipca bieżącego roku o godzinie czwartej rano z jego małżonki Maryanny z Gerczaków lat trzydzieści maiącej. Dziecięciu temu na Chrzcie Świętym w dniu dzisiejszym odbytym, nadane było imię Michalina a Rodzicami jego Chrzestnemi byli Jan Falkowski ze Studzienic Stanisława Chojnacka z Gulina. Akt ten stawającemu i świadkom pisać nieumiejącym przeczytany, przez nas podpisany został. X. Franciszek Stapiński.",
+    "translation_pl": "Działo się we wsi Zakrzewie dnia piętnastego lipca tysiąc osiemset sześćdziesiątego szóstego roku o godzinie dziewiątej przed południem. Stawił się Jan Kacprzak, wyrobnik w Gulinie zamieszkały, lat dwadzieścia jeden, w obecności świadków Franciszka Kacprzaka, lat trzydzieści sześć, i Kacpra Gierczaka, lat trzydzieści dziewięć, obydwóch gospodarzy w Gulinie zamieszkałych, i okazał nam dziecko płci żeńskiej, oświadczając, że urodziło się ono w Gulinie dnia dziewiątego lipca bieżącego roku o godzinie czwartej rano z jego małżonki Marianny z Gerczaków, lat trzydzieści. Dziecku temu na chrzcie świętym w dniu dzisiejszym odbytym nadano imię Michalina, a jego rodzicami chrzestnymi byli Jan Falkowski ze Studzienic i Stanisława Chojnacka z Gulina. Akt ten stawiającemu i świadkom pisać nieumiejącym przeczytany, przez nas podpisany został. Ks. Franciszek Stapiński.",
+    "translation_en": "It happened in the village of Zakrzew on the fifteenth of July, one thousand eight hundred and sixty-six, at nine o'clock in the morning. Appeared Jan Kacprzak, a laborer residing in Gulin, aged twenty-one, in the presence of witnesses Franciszek Kacprzak, aged thirty-six, and Kacper Gierczak, aged thirty-nine, both farmers residing in Gulin, and he presented to us a female child, declaring that she was born in Gulin on the ninth of July of the current year at four o'clock in the morning to his wife Marianna née Gerczak, aged thirty. At the Holy Baptism performed today, this child was given the name Michalina, and her godparents were Jan Falkowski from Studzienice and Stanisława Chojnacka from Gulin. This act was read to the declarant and witnesses, who are illiterate, and was signed by us. Fr. Franciszek Stapiński.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Jan Kacprzak, 21 lat",
+        "value_en": "Jan Kacprzak, 21 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Marianna z Gerczaków, 30 lat",
+        "value_en": "Marianna née Gerczak, 30 years old"
+      },
+      {
+        "label_pl": "Chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Jan Falkowski i Stanisława Chojnacka",
+        "value_en": "Jan Falkowski and Stanisława Chojnacka"
+      },
+      {
+        "label_pl": "Świadkowie",
+        "label_en": "Witnesses",
+        "value_pl": "Franciszek Kacprzak (36 lat), Kacper Gierczak (39 lat)",
+        "value_en": "Franciszek Kacprzak (36), Kacper Gierczak (39)"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title_pl": "Akt Urodzenia: Jan Mitak (1895)",
+    "title_en": "Birth Record: Jan Mitak (1895)",
+    "type": "birth_record",
+    "description_pl": "Parafia Zakrzew (Zakrzów), akt nr 49 z 1895 r. Dokument potwierdza narodziny Jana, syna Stanisława Mitaka i Antoniny z domu Gierczak.",
+    "description_en": "Zakrzew (Zakrzów) Parish, record no. 49 from 1895. The document confirms the birth of Jan, son of Stanisław Mitak and Antonina née Gierczak.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Состоялось въ деревнѣ Закшевѣ, двадцатого Iюля (перваго Августа) тысяча восемьсотъ девяносто пятаго года, въ часъ по полудни. Явился Станиславъ Митакъ, тридцати двухъ лѣтъ отъ роду, земледелецъ, житель деревни Гулинекъ, въ присутствіи Іосифа Митака и Матеуша Коперскаго тридцати пяти лѣтъ отъ роду, обоихъ земледельцевъ изъ деревни Гулинекъ, и предъявилъ намъ младенца мужескаго пола, объявляя, что онъ родился въ деревнѣ Гулинекъ девятнадцатаго (тридцать перваго) сего Iюля въ десять часовъ вечера, отъ его законной жены Антонины урожденной Герчакъ, двадцати шести лѣтъ отъ роду. Младенцу сему при святомъ крещеніи совершенномъ сего числа дано имя Янъ, а воспріемниками его были: Іосифъ Митакъ и Марiанна Коберская. Актъ сей объявляющему и свидѣтелямъ неграмотнымъ прочитанъ, Нами только подписанъ.",
+    "translation_pl": "Działo się we wsi Zakrzew, dwudziestego lipca (pierwszego sierpnia) tysiąc osiemset dziewięćdziesiątego piątego roku, o godzinie pierwszej po południu. Stawił się Stanisław Mitak, lat trzydzieści dwa, rolnik, mieszkaniec wsi Gulinek, w obecności Józefa Mitaka i Mateusza Koperskiego, lat trzydzieści pięć, obu rolników ze wsi Gulinek, i okazał nam niemowlę płci męskiej, oświadczając, że urodziło się ono we wsi Gulinek dziewiętnastego (trzydziestego pierwszego) bieżącego lipca o godzinie dziesiątej wieczorem, z jego prawowitej żony Antoniny z domu Gierczak, lat dwadzieścia sześć. Niemowlęciu temu przy chrzcie świętym, który odbył się dzisiaj, nadano imię Jan, a jego rodzicami chrzestnymi byli: Józef Mitak i Marianna Koberska. Akt ten oświadczającemu i świadkom, którzy są niepiśmienni, został przeczytany i tylko przez nas podpisany.",
+    "translation_en": "It happened in the village of Zakrzew on the twentieth of July (first of August), eighteen hundred and ninety-five, at one o'clock in the afternoon. Appeared Stanisław Mitak, aged thirty-two, a farmer, resident of the village of Gulinek, in the presence of Józef Mitak and Mateusz Koperski, aged thirty-five, both farmers from the village of Gulinek, and he presented to us a male infant, declaring that he was born in the village of Gulinek on the nineteenth (thirty-first) of the current July at ten o'clock in the evening, to his lawful wife Antonina née Gierczak, aged twenty-six. At the Holy Baptism performed this day, this infant was given the name Jan, and his godparents were: Józef Mitak and Marianna Koberska. This act was read to the declarant and the illiterate witnesses, and signed only by us.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Stanisław Mitak, 32 lata",
+        "value_en": "Stanisław Mitak, 32 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Antonina z Gierczaków, 26 lat",
+        "value_en": "Antonina née Gierczak, 26 years old"
+      },
+      {
+        "label_pl": "Chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Józef Mitak i Marianna Koberska",
+        "value_en": "Józef Mitak and Marianna Koberska"
+      },
+      {
+        "label_pl": "Świadkowie",
+        "label_en": "Witnesses",
+        "value_pl": "Józef Mitak, Mateusz Koperski (35 lat)",
+        "value_en": "Józef Mitak, Mateusz Koperski (35)"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title_pl": "Akt Urodzenia: Marianna Gerczak (1823)",
+    "title_en": "Birth Record: Marianna Gerczak (1823)",
+    "type": "birth_record",
+    "description_pl": "Parafia Wrzos, akt nr 22 z 1823 r. Dokument potwierdza narodziny Marianny, córki Ludwika Gierczaka i Rozalii z domu Sulis. Jest siostrą Wawrzyńca (ID 420), Małgorzaty (ID 406) i Anastazji (ID 426).",
+    "description_en": "Wrzos Parish, record no. 22 from 1823. The document confirms the birth of Marianna, daughter of Ludwik Gierczak and Rozalia née Sulis. She is the sister of Wawrzyniec (ID 420), Małgorzata (ID 406) and Anastazja (ID 426).",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się we wsi Wrzosie dnia Dwudziestego szóstego Miesiąca Maja Tysiąc osiemset dwudziestego trzeciego Roku o godzinie piątey po południu. Stawił się Ludwik Gierczak Włościanin Gospodarz z Wrzoskiego Młynka liczący lat Dwadzieścia trzy, w obecności Świadków Jana Kustry lat czterdzieści i Stanisława Gierczaka lat sześćdziesiąt liczących obydwóch Włościan we Wrzosie zamieszkałych i okazał Nam Dziecię płci żeńskiey, które urodziło się w Młynku Wrzoskim na Dniu Dwudziestym piątym Miesiąca Maja Roku tegoż o godzinie dziewiątey rano z Jego Małżonki Rozalii z Suliszów lat dwadzieścia trzy maiącey. Dziecięciu temu na Chrzcie Świętym w Dniu dzisiejszym odbytym, nadane zostało Imię Maryanna, a Rodzicami Jego Chrzestnemi byli Stanisław Gierczak i Katarzyna Kustrzyna. Akt ten stawaiącemu i świadkom przeczytany, pisać nie umiejącym, podpisany został. Xiądz Konstanty Gierczewski.",
+    "translation_pl": "Działo się we wsi Wrzosie dnia dwudziestego szóstego maja tysiąc osiemset dwudziestego trzeciego roku o godzinie piątej po południu. Stawił się Ludwik Gierczak, włościanin gospodarz z Wrzoskiego Młynka, liczący lat dwadzieścia trzy, w obecności świadków Jana Kustry, lat czterdzieści, i Stanisława Gierczaka, lat sześćdziesiąt, obydwóch włościan we Wrzosie zamieszkałych, i okazał nam dziecko płci żeńskiej, które urodziło się w Młynku Wrzoskim dnia dwudziestego piątego miesiąca maja tegoż roku o godzinie dziewiątej rano, z jego małżonki Rozalii z Suliszów, lat dwadzieścia trzy. Dziecku temu na chrzcie świętym w dniu dzisiejszym odbytym nadano imię Marianna, a jego rodzicami chrzestnymi byli Stanisław Gierczak i Katarzyna Kustrzyna. Akt ten stawiającemu i świadkom, którzy pisać nie umieją, został przeczytany i tylko przez nas podpisany. Ksiądz Konstanty Gierczewski.",
+    "translation_en": "It happened in the village of Wrzos on the twenty-sixth of May, one thousand eight hundred and twenty-three, at five o'clock in the afternoon. Appeared Ludwik Gierczak, a peasant farmer from Wrzoski Młynek, aged twenty-three, in the presence of witnesses Jan Kustra, aged forty, and Stanisław Gierczak, aged sixty, both peasants residing in Wrzos, and he presented to us a female child, born in Młynek Wrzoski on the twenty-fifth day of May of this same year at nine o'clock in the morning to his wife Rozalia née Sulisz, aged twenty-three. To this child at the Holy Baptism performed today, was given the name Marianna, and her Godparents were Stanisław Gierczak and Katarzyna Kustrzyna. This act was read to the declarant and witnesses, who are unable to write, and was signed only by us. Father Konstanty Gierczewski.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Ludwik Gierczak, 23 lata",
+        "value_en": "Ludwik Gierczak, 23 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Rozalia z Suliszów, 23 lata",
+        "value_en": "Rozalia née Sulisz, 23 years old"
+      },
+      {
+        "label_pl": "Chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Stanisław Gierczak i Katarzyna Kustrzyna",
+        "value_en": "Stanisław Gierczak and Katarzyna Kustrzyna"
+      },
+      {
+        "label_pl": "Świadkowie",
+        "label_en": "Witnesses",
+        "value_pl": "Jan Kustra (40 lat), Stanisław Gierczak (60 lat)",
+        "value_en": "Jan Kustra (40), Stanisław Gierczak (60)"
       }
     ]
   },
@@ -2685,38 +3147,13 @@
     "title_pl": "Akt Ślubu: Ambroży Cobista i Kunegunda Kanionka (1820)",
     "title_en": "Marriage Record: Ambroży Cobista & Kunegunda Kanionka (1820)",
     "type": "marriage_record",
-    "description_pl": "Parafia Cerekiew, akt nr 4, 1820 r. Prawdopodobnie akt ślubu Ambrożego Gierczaka, zapisanego tu pod nazwiskiem Cobista.",
-    "description_en": "Cerekiew Parish, record no. 4, 1820. Likely the marriage record of Ambroży Gierczak, listed here under the surname Cobista.",
+    "description_pl": "Parafia Cerekiew, akt nr 4, 1820 r. Kluczowy dokument potwierdzający małżeństwo Ambrożego, syna Tomasza i Zofii z Gielów, z Kunegundą, córką Stanisława i Magdaleny Kaniów. W akcie pan młody zapisany jest pod nazwiskiem 'Cobista', które później ewoluowało w 'Gierczak'.",
+    "description_en": "Cerekiew Parish, record no. 4, 1820. A key document confirming the marriage of Ambroży, son of Tomasz and Zofia née Giel, to Kunegunda, daughter of Stanisław and Magdalena Kania. In the record, the groom is listed under the surname 'Cobista', which later evolved into 'Gierczak'.",
     "imageUrl": "/images/k.avif",
-    "transcription": "Działo się we wsi Cerekwi Dnia Trzeciego Lutego Roku Tysiącznego Ośmsetnego Dwudziestego o godzinie Drugiey po południu (...) zawarte zostało Religiyne Małżeństwo między Ambrożym Cobistą, Kawalerem, wyrobnikiem w Jaszowicach osiadłym, w teyże wsi urodzonym, maiącym lat dwadzieścia, synem niegdy Tomasza i Zofii z Gielów Małżonków; a Kunegundą Kanionką, Panną, córką niegdy Stanisława i żyiącej Magdaleny Małżonków Kaniów, we wsi Jaszowicach zamieszkałą, maiącą lat dziewiętnaście. Małżeństwo to poprzedziły trzy zapowiedzi...",
-    "translation_pl": "Dnia 3 lutego 1820 roku, o godzinie drugiej po południu we wsi Cerekiew (...) zawarte zostało religijne małżeństwo pomiędzy Ambrożym Cobistą, kawalerem, robotnikiem osiadłym i urodzonym w Jaszowicach, mającym 20 lat, synem zmarłego Tomasza i Zofii z Gielów; a Kunegundą Kanionką, panną, córką zmarłego Stanisława i żyjącej Magdaleny małżonków Kaniów, zamieszkałą w Jaszowicach, mającą 19 lat.",
-    "translation_en": "On February 3, 1820, at two o'clock in the afternoon in the village of Cerekiew (...) a religious marriage was contracted between Ambroży Cobista, a bachelor, a laborer settled and born in Jaszowice, aged 20, son of the late Tomasz and Zofia née Giel; and Kunegunda Kanionka, a maiden, daughter of the late Stanisław and the living Magdalena, spouses Kania, residing in Jaszowice, aged 19.",
-    "extracted_data": [
-      {
-        "label_pl": "Pan Młody",
-        "label_en": "Groom",
-        "value_pl": "Ambroży Cobista, 20 lat, kawaler",
-        "value_en": "Ambroży Cobista, 20 years old, bachelor"
-      },
-      {
-        "label_pl": "Rodzice Pana Młodego",
-        "label_en": "Groom's Parents",
-        "value_pl": "Tomasz i Zofia z Gielów",
-        "value_en": "Tomasz and Zofia née Giel"
-      },
-      {
-        "label_pl": "Panna Młoda",
-        "label_en": "Bride",
-        "value_pl": "Kunegunda Kanionka, 19 lat, panna",
-        "value_en": "Kunegunda Kanionka, 19 years old, maiden"
-      },
-      {
-        "label_pl": "Rodzice Panny Młodej",
-        "label_en": "Bride's Parents",
-        "value_pl": "Stanisław i Magdalena Kania",
-        "value_en": "Stanisław and Magdalena Kania"
-      }
-    ]
+    "transcription": "Działo się we wsi Cerekwi Dnia Trzeciego Lutego Roku Tysiącznego Ośmsetnego Dwudziestego o godzinie Drugiey po południu. Wiadomo czyniemy iż w przytomności Świadków Walentego Domańskiego lat pięćdziesiąt i Jana Kowalskiego lat czterdzieści liczących, obydwóch komorników w Cerekwi zamieszkałych, zawarte zostało w Dniu dzisiejszym religiyne Małżeństwo między Ambrożym Cobistą, Kawalerem, wyrobnikiem w Jaszowicach osiadłym, w teyże wsi urodzonym, maiącym lat dwadzieścia, synem niegdy Tomasza i Zofii z Gielów Małżonków; a Kunegundą Kanionką, Panną, córką niegdy Stanisława i żyiącej Magdaleny Małżonków Kaniów, we wsi Jaszowicach zamieszkałą, maiącą lat dziewiętnaście. Małżeństwo to poprzedziły trzy zapowiedzi ogłoszone w dniach osiemnastym, dwudziestym piątym Stycznia i pierwszym Lutego roku bieżącego w tuteyszym Parafialnym Kościele. Nowożeńcy oświadczyli iż żadna umowa przedślubna między niemi nie była zawarta. Akt ten po przeczytaniu Stawającym i Świadkom, gdy pisać nie umieją, podpisaliśmy.",
+    "translation_pl": "Dnia 3 lutego 1820 roku, o godzinie drugiej po południu we wsi Cerekiew. Czynimy wiadomo, że w obecności świadków: Walentego Domańskiego, lat 50, i Jana Kowalskiego, lat 40, obu komorników (robotników rolnych) zamieszkałych w Cerekwi, zostało w dniu dzisiejszym zawarte religijne małżeństwo pomiędzy: Ambrożym Cobistą, kawalerem, robotnikiem rolnym osiadłym i urodzonym w Jaszowicach, mającym 20 lat, synem zmarłego Tomasza i Zofii z domu Giel; a Kunegundą Kanią (zapisaną jako Kanionka), panną, lat 19, córką zmarłego Stanisława i żyjącej Magdaleny, małżonków Kaniów, zamieszkałą w Jaszowicach. Małżeństwo to poprzedziły trzy zapowiedzi ogłoszone w dniach 18 i 25 stycznia oraz 1 lutego bieżącego roku w tutejszym kościele parafialnym. Nowożeńcy oświadczyli, że nie zawarli umowy przedślubnej. Akt ten, po przeczytaniu stawiającym i świadkom, którzy nie umieją pisać, podpisaliśmy.",
+    "translation_en": "On February 3, 1820, at two o'clock in the afternoon in the village of Cerekiew. We make it known that in the presence of witnesses: Walenty Domański, aged 50, and Jan Kowalski, aged 40, both landless laborers residing in Cerekiew, a religious marriage was contracted on this day between: Ambroży Cobista, a bachelor, a laborer settled and born in Jaszowice, aged 20, son of the late Tomasz and Zofia née Giel; and Kunegunda Kania (recorded as Kanionka), a maiden, aged 19, daughter of the late Stanisław and the living Magdalena, spouses Kania, residing in Jaszowice. This marriage was preceded by three banns announced on January 18, 25, and February 1 of the current year in the local parish church. The newlyweds declared that they had not entered into a prenuptial agreement. This act, having been read to the appearing parties and witnesses, who are illiterate, we have signed.",
+    "extracted_data": []
   },
   {
     "id": 233,
@@ -6315,6 +6752,190 @@
         "label_en": "Witnesses",
         "value_pl": "Jan Bereza (45 lat), Władysław Burak (42 lata)",
         "value_en": "Jan Bereza (45 years), Władysław Burak (42 years)"
+      }
+    ]
+  },
+  {
+    "id": 372,
+    "title_pl": "Akt Ślubu: Franciszek Gierczak i Agnieszka Kowalska (1820)",
+    "title_en": "Marriage Record: Franciszek Gierczak & Agnieszka Kowalska (1820)",
+    "type": "marriage_record",
+    "description_pl": "Parafia Cerekiew, akt nr 3, 1820 r. Dokument ślubu 50-letniego wdowca Franciszka Gierczaka, syna Walentego i Agnieszki.",
+    "description_en": "Cerekiew Parish, record no. 3, 1820. Marriage document of the 50-year-old widower Franciszek Gierczak, son of Walenty and Agnieszka.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się w Gminie Cerekwi w Powiecie i Obwodzie Radomskim w Województwie Sandomierskim Dwudziestego Dnia Siódmego Miesiąca Stycznia Roku bieżącego o godzinie Drugiej z południa. Wiadomo czyniemy iż w przytomności Świadków Wawrzyńca Sowińskiego lat Sześćdziesiąt i Szczepana Kiełbasy lat Pięćdziesiąt liczących, obydwóch Włościan z Dąbrowy w tejże Gminie zamieszkałych, zawarte zostało w dniu dzisiejszym religiyne Małżeństwo między Franciszkiem Gierczakiem Wdowcem lat Pięćdziesiąt maiącym, w Dąbrowie zamieszkałym, synem niegdy Walentego i Agnieszki Gierczaków, a Agnieszką Kowalską Panną lat dwadzieścia siedm maiącą, córką Rocha i Marianny Kowalskich także włościan w Dąbrowie zamieszkałych. Małżeństwo to poprzedziły trzy zapowiedzi w dniach Siódmym, Czternastym i Dwudziestym pierwszym Stycznia roku bieżącego to iest w Niedziele po sobie idące w Parafialnym tuteyszym Kościele ogłoszone. Tamowanie rzeczonego Małżeństwa nie zaszło. Małżonkowie nowi oświadczają iż żadnej z sobą umowy przedślubnej nie zawarli. Akt ten po przeczytaniu Stawaiącym i Świadkom pisać nie umiejącym podpisany przez nas został.",
+    "translation_pl": "Dnia 27 stycznia 1820 roku, o godzinie drugiej po południu w gminie Cerekiew. Czynimy wiadomo, że w obecności świadków, Wawrzyńca Sowińskiego (lat 60) i Szczepana Kiełbasy (lat 50), obu włościan z Dąbrowy, zawarte zostało religijne małżeństwo pomiędzy Franciszkiem Gierczakiem, wdowcem lat 50, zamieszkałym w Dąbrowie, synem zmarłego Walentego i Agnieszki Gierczaków, a Agnieszką Kowalską, panną lat 27, córką Rocha i Marianny Kowalskich, również włościan z Dąbrowy. Małżeństwo poprzedziły trzy zapowiedzi w dniach 7, 14 i 21 stycznia. Nowożeńcy oświadczyli, że nie zawarli umowy przedślubnej.",
+    "translation_en": "On January 27, 1820, at two o'clock in the afternoon in the Cerekiew commune. We make it known that in the presence of witnesses, Wawrzyniec Sowiński (aged 60) and Szczepan Kiełbasa (aged 50), both peasants from Dąbrowa, a religious marriage was contracted between Franciszek Gierczak, a widower aged 50, residing in Dąbrowa, son of the late Walenty and Agnieszka Gierczak, and Agnieszka Kowalska, a maiden aged 27, daughter of Roch and Marianna Kowalski, also peasants from Dąbrowa. The marriage was preceded by three banns on January 7, 14, and 21. The newlyweds declared they had not entered into a prenuptial agreement.",
+    "extracted_data": [
+      {
+        "label_pl": "Pan Młody",
+        "label_en": "Groom",
+        "value_pl": "Franciszek Gierczak, 50 lat, wdowiec",
+        "value_en": "Franciszek Gierczak, 50 years old, widower"
+      },
+      {
+        "label_pl": "Rodzice Pana Młodego",
+        "label_en": "Groom's Parents",
+        "value_pl": "Walenty (zm.) i Agnieszka Gierczak",
+        "value_en": "Walenty (dec.) and Agnieszka Gierczak"
+      },
+      {
+        "label_pl": "Panna Młoda",
+        "label_en": "Bride",
+        "value_pl": "Agnieszka Kowalska, 27 lat, panna",
+        "value_en": "Agnieszka Kowalska, 27 years old, maiden"
+      },
+      {
+        "label_pl": "Rodzice Panny Młodej",
+        "label_en": "Bride's Parents",
+        "value_pl": "Roch i Marianna Kowalski",
+        "value_en": "Roch and Marianna Kowalski"
+      }
+    ]
+  },
+  {
+    "id": 377,
+    "title_pl": "Akt Urodzenia: Józef Gierczak (1818)",
+    "title_en": "Birth Record: Józef Gierczak (1818)",
+    "type": "birth_record",
+    "description_pl": "Parafia Cerekiew, akt nr 109, 1818 r. Kluczowy dokument ujawniający istnienie Józefa, syna Ambrożego Gierczaka i jego pierwszej, dotąd nieznanej żony Marianny z Nagabów.",
+    "description_en": "Cerekiew Parish, record no. 109, 1818. A key document revealing the existence of Józef, son of Ambroży Gierczak and his first, previously unknown wife, Marianna née Nagaba.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się we wsi Cerekwi Dnia dwudziestego ósmego Października Roku tysiąc osiemset osiemnastego o godzinie jedenastej rano. Stawił się Ambroży Gierczak Wyrobnik lat dwadzieścia maiący w przytomności Tomasza Skoniecznego lat trzydzieści i Jana Nagaby lat czterdzieści maiących, obydwóch Włościan w Jaszowicach zamieszkałych, i okazał Nam Dziecię płci męskiej, urodzone w Jaszowicach w Domu pod Numerem dwudziestym trzecim Dnia dwudziestego szóstego Miesiąca Października Roku tegoż o godzinie dziesiątej rano, z Jego Małżonki Maryanny z Nagabów lat dwadzieścia maiącej. Dziecięciu temu na Chrzcie Świętym w Dniu dzisiejszym odbytym nadane zostało Imię Józef, a Rodzicami Jego Chrzestnymi byli Tomasz Skonieczny i Katarzyna Gierczakowa. Akt ten Stawaiącemu i Świadkom przeczytany, pisać nie umiejącym, podpisany został.",
+    "translation_pl": "Dnia 28 października 1818 roku, o godzinie jedenastej rano we wsi Cerekiew. Stawił się Ambroży Gierczak, robotnik rolny lat 20, w obecności Tomasza Skoniecznego (lat 30) i Jana Nagaby (lat 40), obu włościan zamieszkałych w Jaszowicach. Okazał nam dziecko płci męskiej, urodzone w Jaszowicach w domu pod numerem 23, dnia 26 października tegoż roku o godzinie dziesiątej rano, z jego małżonki Marianny z domu Nagabów, lat 20. Dziecku temu na chrzcie świętym nadano imię Józef, a jego rodzicami chrzestnymi byli Tomasz Skonieczny i Katarzyna Gierczakowa. Akt ten, po przeczytaniu stawiającym i świadkom, którzy nie umieją pisać, podpisano.",
+    "translation_en": "On October 28, 1818, at eleven o'clock in the morning in the village of Cerekiew. Appeared Ambroży Gierczak, a farm laborer aged 20, in the presence of Tomasz Skonieczny (aged 30) and Jan Nagaba (aged 40), both peasants residing in Jaszowice. He presented to us a male child, born in Jaszowice in the house at number 23, on the 26th of October of the same year at ten o'clock in the morning, to his wife Marianna née Nagaba, aged 20. At the Holy Baptism, the child was given the name Józef, and his godparents were Tomasz Skonieczny and Katarzyna Gierczakowa. This act was read to the declarants and witnesses, who are illiterate, and was signed.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Ambroży Gierczak, 20 lat",
+        "value_en": "Ambroży Gierczak, 20 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Marianna z Nagabów, 20 lat",
+        "value_en": "Marianna née Nagaba, 20 years old"
+      },
+      {
+        "label_pl": "Chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Tomasz Skonieczny i Katarzyna Gierczakowa",
+        "value_en": "Tomasz Skonieczny and Katarzyna Gierczakowa"
+      }
+    ]
+  },
+  {
+    "id": 378,
+    "title_pl": "Akt Urodzenia: Franciszek Gierczak (II) (1820)",
+    "title_en": "Birth Record: Franciszek Gierczak (II) (1820)",
+    "type": "birth_record",
+    "description_pl": "Parafia Wrzos, akt nr 36, 1820 r. Dokument potwierdza narodziny drugiego syna Tomasza i Zofii Gierczaków o imieniu Franciszek.",
+    "description_en": "Wrzos Parish, record no. 36, 1820. The document confirms the birth of the second son of Tomasz and Zofia Gierczak named Franciszek.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Roku Tysiącznego Ośmsetnego Dwudziestego Dnia Dwudziestego Czwartego Miesiąca Listopada o Godzinie Drugiey po Południu. Przed Nami Proboszczem Wrzoskim Urzędnikiem Cywilnym Gminy Wrzoskiey, Obwodu Radomskiego Województwa Sandomierskiego. Stawił się Tomasz Gierczak, Wyrobnik we Wrzosie zamieszkały, liczący sobie Lat Trzydzieści, w przytomności Andrzeja Gielowskiego liczącego sobie Lat Dwadzieścia Ośm, i Stanisława Zielonego maiącego lat Czterdzieści, obydwóch we Wrzosie zamieszkałych. I okazał Nam Dziecię Płci Męskiey, ktore urodziło się w Domu pod Numerem Dwudziestym Czwartym na Dniu Dwudziestym Czwartym Miesiąca Listopada, to iest Dziś o Godzinie Siódmey z rana, z niego y z Zofii z Gielow jego małżonki, liczącey sobie Lat Dwadzieścia Pięć. Oświadczaiąc iż życzeniem Jego iest nadać Mu Imię Franciszek. Po uczynieniu powyższego oświadczenia i Okazania Dziecięcia w przytomności powyżey wymienionych Świadkow, Akt ninieyszy został Stawaiącym przeczytany, y przez Nas samych podpisany, bo wyżey rzeczeni w Akcie pisać nieumieią. Xiądz Konstanty Gierczewski Urzędnik Cywilny Gminy i Parafii Wrzoskiey.",
+    "translation_pl": "Dnia dwudziestego czwartego listopada tysiąc osiemset dwudziestego roku, o godzinie drugiej po południu, we Wrzosie. Przed proboszczem wrzosowskim, urzędnikiem cywilnym gminy Wrzos, w obwodzie radomskim województwa sandomierskiego, stawił się Tomasz Gierczak, robotnik rolny zamieszkały we Wrzosie, lat 30, w obecności Andrzeja Gielowskiego, lat 28, i Stanisława Zielonego, lat 40, obydwóch zamieszkałych we Wrzosie. Okazał nam dziecko płci męskiej, które urodziło się w domu pod numerem 24, dnia 24 listopada, czyli dzisiaj, o godzinie siódmej rano, z niego i z jego żony Zofii z domu Gielów, lat 25. Oświadczył przy tym, że jego życzeniem jest nadać mu imię Franciszek. Po złożeniu powyższego oświadczenia i okazaniu dziecka w obecności wyżej wymienionych świadków, niniejszy akt został stawiającemu odczytany i, ponieważ wyżej wymienieni nie umieją pisać, podpisany tylko przez nas samych.",
+    "translation_en": "On the twenty-fourth day of November, in the year one thousand eight hundred and twenty, at two o'clock in the afternoon, in Wrzos. Before the pastor of Wrzos, a civil registrar of the Wrzos commune, in the Radom district of the Sandomierz voivodeship, appeared Tomasz Gierczak, a farm laborer residing in Wrzos, aged 30, in the presence of Andrzej Gielowski, aged 28, and Stanisław Zielony, aged 40, both residing in Wrzos. He presented to us a male child, born in the house at number 24, on the 24th day of November, that is today, at seven o'clock in the morning, of him and his wife Zofia née Giel, aged 25. He declared that it is his wish to give him the name Franciszek. After the above declaration was made and the child was presented in the presence of the aforementioned witnesses, this act was read to the appearing party, and because the above-mentioned persons cannot write, it was signed only by us.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Tomasz Gierczak, 30 lat",
+        "value_en": "Tomasz Gierczak, 30 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Zofia z Gielów, 25 lat",
+        "value_en": "Zofia née Giel, 25 years old"
+      },
+      {
+        "label_pl": "Świadkowie",
+        "label_en": "Witnesses",
+        "value_pl": "Andrzej Gielowski (28 lat), Stanisław Zielony (40 lat)",
+        "value_en": "Andrzej Gielowski (28), Stanisław Zielony (40)"
+      }
+    ]
+  },
+  {
+    "id": 379,
+    "title_pl": "Akt Zgonu: Ludwik Gerczak (1829)",
+    "title_en": "Death Record: Ludwik Gerczak (1829)",
+    "type": "death_record",
+    "description_pl": "Parafia Wrzos, akt zgonu nr 3, 1829 r. Dokument potwierdza zgon półtorarocznego Ludwika, syna Joachima Gerczaka i Marianny z domu Wójcik.",
+    "description_en": "Wrzos Parish, death record no. 3, 1829. The document confirms the death of one-and-a-half-year-old Ludwik, son of Joachim Gerczak and Marianna née Wójcik.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się we wsi Wrzosie dnia trzynastego Lipca tysiąc osiemset dwudziestego dziewiątego roku o godzinie piątej po południu. Stawili się Stanisław Pobideł gospodarz lat czterdzieści i Mikołaj Gerczak gospodarz lat czterdzieści maiący, obydwa włościanie we Wrzosie zamieszkali; I oświadczyli iż we wsi Wrzosie w domu pod numerem dwudziestym dnia wczorajszego o godzinie piątej z rana umarł Ludwik Gerczak maiący lat Półtora, syn Joachima i Marianny z Woycików małżonków Gerczaków włościan we Wrzosie zamieszkałych. Po naocznem przekonaniu się o zejściu Ludwika Gerczaka Akt ten stawającym i świadkom przeczytany, z powodu że pisać nie umieją przez nas tylko podpisany został.",
+    "translation_pl": "Dnia 13 lipca 1829 roku o godzinie piątej po południu we wsi Wrzos. Stawili się Stanisław Pobideł, gospodarz lat 40, i Mikołaj Gerczak, gospodarz lat 40, obaj włościanie zamieszkali we Wrzosie. Oświadczyli oni, że we wsi Wrzos w domu pod numerem 20, w dniu wczorajszym (12 lipca) o godzinie piątej rano zmarł Ludwik Gerczak, mający półtora roku, syn Joachima i Marianny z domu Wójcik, małżonków Gerczaków, włościan zamieszkałych we Wrzosie. Po naocznym stwierdzeniu zgonu Ludwika Gerczaka, akt ten, po przeczytaniu stawiającym i świadkom, którzy nie umieją pisać, został przez nas podpisany.",
+    "translation_en": "On July 13, 1829, at five o'clock in the afternoon in the village of Wrzos. Appeared Stanisław Pobideł, a farmer aged 40, and Mikołaj Gerczak, a farmer aged 40, both peasants residing in Wrzos. They declared that in the village of Wrzos, in the house at number 20, on the previous day (July 12) at five o'clock in the morning, died Ludwik Gerczak, aged one and a half years, son of Joachim and Marianna née Wójcik, the Gerczak spouses, peasants residing in Wrzos. After visually confirming the death of Ludwik Gerczak, this act was read to the declarants and witnesses, who are illiterate, and was signed by us.",
+    "extracted_data": [
+      {
+        "label_pl": "Zmarły",
+        "label_en": "Deceased",
+        "value_pl": "Ludwik Gerczak",
+        "value_en": "Ludwik Gerczak"
+      },
+      {
+        "label_pl": "Data i godzina zgonu",
+        "label_en": "Date and Time of Death",
+        "value_pl": "12 lipca 1829, 5:00 rano",
+        "value_en": "July 12, 1829, 5:00 AM"
+      },
+      {
+        "label_pl": "Wiek w chwili zgonu",
+        "label_en": "Age at Death",
+        "value_pl": "1,5 roku",
+        "value_en": "1.5 years"
+      },
+      {
+        "label_pl": "Rodzice",
+        "label_en": "Parents",
+        "value_pl": "Joachim Gerczak i Marianna z Wójcików",
+        "value_en": "Joachim Gerczak and Marianna née Wójcik"
+      },
+      {
+        "label_pl": "Zgłaszający",
+        "label_en": "Informants",
+        "value_pl": "Stanisław Pobideł (40 lat), Mikołaj Gerczak (40 lat)",
+        "value_en": "Stanisław Pobideł (40), Mikołaj Gerczak (40)"
+      }
+    ]
+  },
+  {
+    "id": 380,
+    "title_pl": "Akt Ślubu: Walenty Gerczak i Julianna Wojcieszak (1919)",
+    "title_en": "Marriage Record: Walenty Gerczak & Julianna Wojcieszak (1919)",
+    "type": "marriage_record",
+    "description_pl": "Parafia Wrzos, akt ślubu nr 26, 1919 r. Dokument potwierdza drugie małżeństwo 56-letniego Walentego Gerczaka z 60-letnią Julianną Wojcieszak.",
+    "description_en": "Wrzos Parish, marriage record no. 26, 1919. The document confirms the second marriage of 56-year-old Walenty Gerczak to 60-year-old Julianna Wojcieszak.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się we Wrzosie dnia jedenastego Czerwca tysiąc dziewięćset dziewiętnastego roku, o godzinie dziesiątej rano. Wiadomo czynimy, iż w przytomności świadków Jana Gorskiego i Antoniego Bujaka pełnoletnich gospodarzy wsi Domaniów w dniu dzisiejszym zawarte zostało religijne małżeństwo między Walentym Gerczakiem, wdowcem, urodzonym i zamieszkałym w Domaniowie, synem Wawrzyńca i Marianny z Oparcików, lat pięćdziesiąt sześć mającym, a Julianną z Tokarskich Wojcieszak, wdową, urodzoną w Kłuatkowie parafii Końskowola, córką Andrzeja i Józefy z Kotkowskich małżonków Tokarskich. Małżeństwo to poprzedziły trzy zapowiedzi ogłoszone w tutejszym parafialnym i Końskowolskim kościele w dniach niedzielnych, dwudziestym pierwszym i dwudziestym ósmym Maja, pierwszym i ósmym Czerwca bieżącego roku. Tamowanie małżeństwa nie zaszło. Małżonkowie nowi oświadczyli, iż umowy przedślubnej nie zawarli. Związek religijny błogosławił Ksiądz Piotr Dembowski. Akt ten stawającym i świadkom pisać nieumiejącym przeczytany, podpisaliśmy.",
+    "translation_pl": "Dnia 11 czerwca 1919 roku o godzinie dziesiątej rano we Wrzosie. Czynimy wiadomo, że w obecności świadków, Jana Górskiego i Antoniego Bujaka, pełnoletnich gospodarzy ze wsi Domaniów, w dniu dzisiejszym zawarto religijne małżeństwo pomiędzy Walentym Gerczakiem, wdowcem, lat 56, urodzonym i zamieszkałym w Domaniowie, synem Wawrzyńca i Marianny z Oparcików, a Julianną z Tokarskich Wojcieszak, wdową, lat 60, urodzoną w Kłuatkowie (parafia Końskowola), córką Andrzeja i Józefy z Kotkowskich, małżonków Tokarskich. Małżeństwo poprzedziły zapowiedzi. Nowożeńcy oświadczyli, że nie zawarli umowy przedślubnej. Związek pobłogosławił ks. Piotr Dębowski.",
+    "translation_en": "On June 11, 1919, at ten o'clock in the morning in Wrzos. We make it known that in the presence of witnesses, Jan Górski and Antoni Bujak, adult farmers from the village of Domaniów, a religious marriage was contracted today between Walenty Gerczak, a widower, aged 56, born and residing in Domaniów, son of Wawrzyniec and Marianna née Oparcik, and Julianna née Tokarska Wojcieszak, a widow, aged 60, born in Kłuatków (parish of Końskowola), daughter of Andrzej and Józefa née Kotkowska, spouses Tokarski. The marriage was preceded by banns. The newlyweds declared they had not entered into a prenuptial agreement. The union was blessed by Fr. Piotr Dębowski.",
+    "extracted_data": [
+      {
+        "label_pl": "Pan Młody",
+        "label_en": "Groom",
+        "value_pl": "Walenty Gerczak, 56 lat, wdowiec",
+        "value_en": "Walenty Gerczak, 56 years old, widower"
+      },
+      {
+        "label_pl": "Rodzice Pana Młodego",
+        "label_en": "Groom's Parents",
+        "value_pl": "Wawrzyniec i Marianna z Oparcików",
+        "value_en": "Wawrzyniec and Marianna née Oparcik"
+      },
+      {
+        "label_pl": "Panna Młoda",
+        "label_en": "Bride",
+        "value_pl": "Julianna Wojcieszak z d. Tokarska, 60 lat, wdowa",
+        "value_en": "Julianna Wojcieszak née Tokarska, 60 years old, widow"
+      },
+      {
+        "label_pl": "Rodzice Panny Młodej",
+        "label_en": "Bride's Parents",
+        "value_pl": "Andrzej i Józefa z Kotkowskich",
+        "value_en": "Andrzej and Józefa née Kotkowska"
       }
     ]
   }
