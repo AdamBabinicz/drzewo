@@ -384,8 +384,9 @@
     "firstName": "Tekla",
     "lastName": "Gierczak",
     "maidenName": "Kozyra",
-    "birthDate": null,
-    "birthDateNote": "ok. 1829",
+    "birthDate": "1831-04-29",
+    "birthTime": "10:00",
+    "birthTimeQualifier": "morning",
     "deathDate": "1909-02-10",
     "deathTime": "8:00",
     "deathTimeQualifier": "morning",
@@ -393,7 +394,7 @@
     "family": "gierczak",
     "spouseIds": [13],
     "childIds": [19, 68, 69],
-    "parentIds": [],
+    "parentIds": [440, 441],
     "marriages": [
       {
         "spouseId": 13,
@@ -401,17 +402,21 @@
       }
     ],
     "biography": {
-      "pl": "Żona Karola Gierczaka. Córka Wojciecha Kozyry i Józefy z domu Kredowskiej. Wiek w akcie zgonu (dokument nr 15) wskazuje na rok urodzenia ok. 1829, jednak w akcie urodzenia syna Pawła (dokument nr 2) z 1867 roku podano jej wiek jako 27 lat, co sugerowałoby rok urodzenia ok. 1840. Zmarła w Gulinku.",
-      "en": "Wife of Karol Gierczak. Daughter of Wojciech Kozyra and Józefa née Kredowska. The age in her death record (document no. 15) indicates a birth year of ca. 1829, however, in the birth record of her son Paweł (document no. 2) from 1867, her age was given as 27, which would suggest a birth year of ca. 1840. She died in Gulinek."
+      "pl": "Żona Karola Gierczaka. Córka Adama Kozyry i Józefy z domu Kredowskiej. Akt urodzenia (ID 57) skorygował imię jej ojca, które w akcie zgonu (ID 15) błędnie zapisano jako Wojciech. Zmarła w Gulinku.",
+      "en": "Wife of Karol Gierczak. Daughter of Adam Kozyra and Józefa née Kredowska. Her birth certificate (ID 57) corrected her father's name, which was mistakenly recorded as Wojciech in her death certificate (ID 15). She died in Gulinek."
     },
     "events": [
+      {
+        "type": "birth",
+        "date": "1831-04-29",
+        "place": "Gulinek",
+        "source": { "documentId": 57 }
+      },
       {
         "type": "death",
         "date": "1909-02-10",
         "place": "Gulinek",
-        "source": {
-          "documentId": 15
-        }
+        "source": { "documentId": 15 }
       }
     ]
   },
@@ -8120,6 +8125,8 @@
     "lastName": "Gerczak",
     "birthDateNote": "ok. 1828",
     "deathDate": "1829-07-12",
+    "deathTime": "05:00",
+    "deathTimeQualifier": "morning",
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [],
@@ -8256,11 +8263,11 @@
     "birthTimeQualifier": "morning",
     "family": "gierczak",
     "spouseIds": [411, 395],
-    "childIds": [410, 393],
+    "childIds": [410, 393, 429, 430, 431, 432],
     "parentIds": [407, 408],
     "biography": {
-      "pl": "Syn Ludwika Gierczaka i Rozalii z domu Sulis. Urodził się w Młynku Wrzoskim. Był dwukrotnie żonaty. Z pierwszą żoną, Marianną z domu Bratkowską, miał syna Stanisława (ur. 1848). Z drugą żoną, Marianną z domu Oparcik, miał syna Walentego (ur. ok. 1863). Mieszkał we Wrzosie i Domaniowie.",
-      "en": "Son of Ludwik Gierczak and Rozalia née Sulis. He was born in Młynek Wrzoski. He was married twice. With his first wife, Marianna née Bratkowska, he had a son, Stanisław (b. 1848). With his second wife, Marianna née Oparcik, he had a son, Walenty (b. ca. 1863). He lived in Wrzos and Domaniów."
+      "pl": "Syn Ludwika Gierczaka i Rozalii z domu Sulis. Urodził się w Młynku Wrzoskim. Był dwukrotnie żonaty. Z pierwszą żoną, Marianną z domu Bratkowską, miał syna Stanisława (ur. 1848) oraz córki Katarzynę (zm. 1858), Mariannę (zm. 1849) i Józefę (zm. 1856). Z drugą żoną, Marianną z domu Oparcik, miał synów Walentego (ur. ok. 1863) i Mateusza (zm. 1873). Mieszkał we Wrzosie i Domaniowie.",
+      "en": "Son of Ludwik Gierczak and Rozalia née Sulis. He was born in Młynek Wrzoski. He was married twice. With his first wife, Marianna née Bratkowska, he had a son, Stanisław (b. 1848) and daughters Katarzyna (d. 1858), Marianna (d. 1849), and Józefa (d. 1856). With his second wife, Marianna née Oparcik, he had sons Walenty (b. ca. 1863) and Mateusz (d. 1873). He lived in Wrzos and Domaniów."
     },
     "events": [
       {
@@ -8280,11 +8287,11 @@
     "maidenName": "Oparcik",
     "family": "gierczak",
     "spouseIds": [394],
-    "childIds": [393],
+    "childIds": [393, 432],
     "parentIds": [],
     "biography": {
-      "pl": "Żona Wawrzyńca Gerczaka (ID 394) i matka Walentego. Nazwisko panieńskie pochodzi z aktu ślubu jej syna (ID 393). Prawdopodobnie była drugą żoną Wawrzyńca, ponieważ w akcie urodzenia jej starszego przyrodniego syna Stanisława (ID 410) matką jest Marianna z Bratkowskich.",
-      "en": "Wife of Wawrzyniec Gerczak (ID 394) and mother of Walenty. Her maiden name comes from her son's marriage certificate (ID 393). She was likely Wawrzyniec's second wife, as the birth certificate of her older stepson Stanisław (ID 410) lists his mother as Marianna née Bratkowska."
+      "pl": "Żona Wawrzyńca Gerczaka (ID 394) i matka Walentego oraz Mateusza. Nazwisko panieńskie pochodzi z aktu ślubu jej syna (ID 393). Prawdopodobnie była drugą żoną Wawrzyńca, ponieważ w akcie urodzenia jej starszego przyrodniego syna Stanisława (ID 410) matką jest Marianna z Bratkowskich.",
+      "en": "Wife of Wawrzyniec Gerczak (ID 394) and mother of Walenty and Mateusz. Her maiden name comes from her son's marriage certificate (ID 393). She was likely Wawrzyniec's second wife, as the birth certificate of her older stepson Stanisław (ID 410) lists his mother as Marianna née Bratkowska."
     }
   },
   {
@@ -8475,14 +8482,23 @@
     "id": 407,
     "firstName": "Ludwik",
     "lastName": "Gierczak",
-    "birthDateNote": "ok. 1800",
+    "birthDateNote": "ok. 1797",
     "family": "gierczak",
     "spouseIds": [408],
-    "childIds": [406, 420, 423, 427, 428],
-    "parentIds": [],
+    "childIds": [420, 423, 426, 428, 406],
+    "parentIds": [436, 437],
+    "marriages": [
+      {
+        "spouseId": 408,
+        "date": "1816-10-22",
+        "source": {
+          "documentId": 56
+        }
+      }
+    ],
     "biography": {
-      "pl": "Mąż Rozalii z domu Sulis i ojciec Małgorzaty, Wawrzyńca, Marianny oraz Ewy. Mieszkał we Wrzosie i był włościaninem. Prawdopodobnie brat lub bliski krewny Ambrożego i Michała Gierczaków, synów protoplasty Tomasza.",
-      "en": "Husband of Rozalia née Sulis and father of Małgorzata, Wawrzyniec, Marianna, and Ewa. He lived in Wrzos and was a peasant. He was likely a brother or close relative of Ambroży and Michał Gierczak, the sons of the progenitor Tomasz."
+      "pl": "Syn Joachima i Marianny. Mąż Rozalii z domu Sulis i ojciec Wawrzyńca, Marianny (ur. 1821), Anastazji, Marianny (ur. 1823) i Małgorzaty. Mieszkał we Wrzosie i był włościaninem. Prawdopodobnie brat lub bliski krewny Ambrożego i Michała Gierczaków.",
+      "en": "Son of Joachim and Marianna. Husband of Rozalia née Sulis and father of Wawrzyniec, Marianna (b. 1821), Anastazja, Marianna (b. 1823), and Małgorzata. He lived in Wrzos and was a peasant. He was likely a brother or close relative of Ambroży and Michał Gierczak."
     }
   },
   {
@@ -8490,14 +8506,23 @@
     "firstName": "Rozalia",
     "lastName": "Gierczak",
     "maidenName": "Sulis",
-    "birthDateNote": "ok. 1800",
+    "birthDateNote": "ok. 1797",
     "family": "gierczak",
     "spouseIds": [407],
-    "childIds": [406, 420, 423, 427, 428],
-    "parentIds": [],
+    "childIds": [420, 423, 426, 428, 406],
+    "parentIds": [438, 439],
+    "marriages": [
+      {
+        "spouseId": 407,
+        "date": "1816-10-22",
+        "source": {
+          "documentId": 56
+        }
+      }
+    ],
     "biography": {
-      "pl": "Żona Ludwika Gierczaka i matka Małgorzaty, Wawrzyńca, Marianny oraz Ewy. W aktach urodzenia jej dzieci jej nazwisko panieńskie zapisywane jest jako 'Sulis' lub 'Sulisz', a wiek jako 18 lat (w 1818 r.), 21 lat (w 1821 r.) i 20 lat (w 1828 r.), co wskazuje na rok urodzenia ok. 1800.",
-      "en": "Wife of Ludwik Gierczak and mother of Małgorzata, Wawrzyniec, Marianna and Ewa. In her children's birth records, her maiden name is recorded as 'Sulis' or 'Sulisz', and her age as 18 (in 1818), 21 (in 1821) and 20 (in 1828), which indicates a birth year of ca. 1800."
+      "pl": "Córka Kazimierza i Marianny. Żona Ludwika Gierczaka i matka Wawrzyńca, Marianny (ur. 1821), Anastazji, Marianny (ur. 1823) i Małgorzaty. W aktach urodzenia jej dzieci jej nazwisko panieńskie zapisywane jest jako 'Sulis' lub 'Sulisz', a wiek jako 18 lat (w 1818 r.), 21 lat (w 1821 r.) i 20 lat (w 1828 r.), co wskazuje na rok urodzenia ok. 1800.",
+      "en": "Daughter of Kazimierz and Marianna. Wife of Ludwik Gierczak and mother of Wawrzyniec, Marianna (b. 1821), Anastazja, Marianna (b. 1823), and Małgorzata. In her children's birth records, her maiden name is recorded as 'Sulis' or 'Sulisz', and her age as 18 (in 1818), 21 (in 1821) and 20 (in 1828), which indicates a birth year of ca. 1800."
     }
   },
   {
@@ -8517,13 +8542,16 @@
     "birthDate": "1848-04-27",
     "birthTime": "09:00",
     "birthTimeQualifier": "morning",
+    "deathDate": "1849-08-02",
+    "deathTime": "05:00",
+    "deathTimeQualifier": "morning",
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
     "parentIds": [394, 411],
     "biography": {
-      "pl": "Syn Wawrzyńca Gerczaka i Marianny z domu Bratkowskiej. Brat przyrodni Walentego (ID 393). Urodził się we Wrzosie. Jego dalsze losy nie są znane.",
-      "en": "Son of Wawrzyniec Gerczak and Marianna née Bratkowska. Half-brother of Walenty (ID 393). He was born in Wrzos. His subsequent fate is unknown."
+      "pl": "Syn Wawrzyńca Gerczaka i Marianny z domu Bratkowskiej. Brat przyrodni Walentego (ID 393). Urodził się we Wrzosie. Zmarł w Domaniowie w wieku niespełna dwóch lat.",
+      "en": "Son of Wawrzyniec Gerczak and Marianna née Bratkowska. Half-brother of Walenty (ID 393). He was born in Wrzos. He died in Domaniów at the age of nearly two."
     },
     "events": [
       {
@@ -8532,6 +8560,14 @@
         "place": "Wrzos",
         "source": {
           "documentId": 15
+        }
+      },
+      {
+        "type": "death",
+        "date": "1849-08-02",
+        "place": "Domaniów",
+        "source": {
+          "documentId": 49
         }
       }
     ]
@@ -8544,7 +8580,7 @@
     "birthDateNote": "ok. 1819",
     "family": "gierczak",
     "spouseIds": [394],
-    "childIds": [410],
+    "childIds": [410, 429, 430, 427],
     "parentIds": [],
     "marriages": [
       {
@@ -8553,8 +8589,8 @@
       }
     ],
     "biography": {
-      "pl": "Żona Wawrzyńca Gerczaka (ID 394) i matka Stanisława.",
-      "en": "Wife of Wawrzyniec Gerczak (ID 394) and mother of Stanisław."
+      "pl": "Żona Wawrzyńca Gerczaka (ID 394) i matka Stanisława, Marianny, Józefy oraz Katarzyny.",
+      "en": "Wife of Wawrzyniec Gerczak (ID 394) and mother of Stanisław, Marianna, Józefa, and Katarzyna."
     }
   },
   {
@@ -8701,6 +8737,33 @@
     ]
   },
   {
+    "id": 427,
+    "firstName": "Katarzyna",
+    "lastName": "Gierczak",
+    "birthDateNote": "ok. 1844",
+    "deathDate": "1858-10-22",
+    "deathTime": "19:00",
+    "photoUrl": null,
+    "family": "gierczak",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [394, 411],
+    "biography": {
+      "pl": "Córka Wawrzyńca Gierczaka i jego pierwszej żony, Marianny z domu Bratkowskiej. Siostra Stanisława (ID 410), Marianny (ID 429) i Józefy (ID 430). Zmarła w wieku czternastu lat w Domaniowie.",
+      "en": "Daughter of Wawrzyniec Gierczak and his first wife, Marianna née Bratkowska. Sister of Stanisław (ID 410), Marianna (ID 429), and Józefa (ID 430). She died in Domaniów at the age of fourteen."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1858-10-22",
+        "place": "Domaniów",
+        "source": {
+          "documentId": 52
+        }
+      }
+    ]
+  },
+  {
     "id": 428,
     "firstName": "Marianna",
     "lastName": "Gerczak",
@@ -8726,5 +8789,228 @@
         }
       }
     ]
+  },
+  {
+    "id": 429,
+    "firstName": "Marianna",
+    "lastName": "Gierczak",
+    "birthDateNote": "ok. 1845",
+    "deathDate": "1849-09-28",
+    "deathTime": "20:00",
+    "photoUrl": null,
+    "family": "gierczak",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [394, 411],
+    "biography": {
+      "pl": "Córka Wawrzyńca Gierczaka i jego pierwszej żony, Marianny z domu Bratkowskiej. Siostra Stanisława (ID 410). Zmarła w wieku czterech lat w Domaniowie.",
+      "en": "Daughter of Wawrzyniec Gierczak and his first wife, Marianna née Bratkowska. Sister of Stanisław (ID 410). She died in Domaniów at the age of four."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1849-09-28",
+        "place": "Domaniów",
+        "source": {
+          "documentId": 50
+        }
+      }
+    ]
+  },
+  {
+    "id": 430,
+    "firstName": "Józefa",
+    "lastName": "Gierczak",
+    "birthDateNote": "ok. 1853",
+    "deathDate": "1856-02-21",
+    "deathTime": "05:00",
+    "deathTimeQualifier": "morning",
+    "photoUrl": null,
+    "family": "gierczak",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [394, 411],
+    "biography": {
+      "pl": "Córka Wawrzyńca Gierczaka i jego pierwszej żony, Marianny z domu Bratkowskiej. Siostra Stanisława (ID 410) i Marianny (ID 429). Zmarła w wieku trzech lat w Domaniowie.",
+      "en": "Daughter of Wawrzyniec Gierczak and his first wife, Marianna née Bratkowska. Sister of Stanisław (ID 410) and Marianna (ID 429). She died in Domaniów at the age of three."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1856-02-21",
+        "place": "Domaniów",
+        "source": {
+          "documentId": 51
+        }
+      }
+    ]
+  },
+  {
+    "id": 432,
+    "firstName": "Mateusz",
+    "lastName": "Gierczak",
+    "birthDateNote": "ok. 1871",
+    "deathDate": "1873-01-30",
+    "deathTime": "?",
+    "deathTimeQualifier": "afternoon",
+    "photoUrl": null,
+    "family": "gierczak",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [394, 395],
+    "biography": {
+      "pl": "Syn Wawrzyńca Gierczaka i jego drugiej żony, Marianny z domu Oparcik. Brat Walentego (ID 393). Zmarł w wieku dwóch lat w Starym Młynie.",
+      "en": "Son of Wawrzyniec Gierczak and his second wife, Marianna née Oparcik. Brother of Walenty (ID 393). He died at the age of two in Stary Młyn."
+    },
+    "events": [
+      {
+        "type": "death",
+        "date": "1873-01-30",
+        "place": "Stary Młyn",
+        "source": {
+          "documentId": 53
+        }
+      }
+    ]
+  },
+  {
+    "id": 433,
+    "firstName": "Franciszka",
+    "lastName": "Gierczak",
+    "birthDate": "1814-12-26",
+    "birthTime": "06:00",
+    "birthTimeQualifier": "morning",
+    "photoUrl": null,
+    "family": "gierczak",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [434, 435],
+    "biography": {
+      "pl": "Córka Jana Gierczaka i Katarzyny z domu Wilk. Urodzona w Jabłonnie. Jej ojciec był prawdopodobnie bratem protoplasty rodu, Tomasza Gierczaka. Jej dalsze losy są nieznane.",
+      "en": "Daughter of Jan Gierczak and Katarzyna née Wilk. Born in Jabłonna. Her father was likely the brother of the family progenitor, Tomasz Gierczak. Her subsequent fate is unknown."
+    },
+    "events": [
+      {
+        "type": "birth",
+        "date": "1814-12-26",
+        "place": "Jabłonna",
+        "source": {
+          "documentId": 54
+        }
+      }
+    ]
+  },
+  {
+    "id": 434,
+    "firstName": "Jan",
+    "lastName": "Gierczak",
+    "birthDateNote": "ok. 1782",
+    "family": "gierczak",
+    "spouseIds": [435],
+    "childIds": [433],
+    "parentIds": [],
+    "biography": {
+      "pl": "Mąż Katarzyny z domu Wilk i ojciec Franciszki. Mieszkał w Jabłonnie, w parafii Wrzos. Prawdopodobnie brat Tomasza Gierczaka (ID 1).",
+      "en": "Husband of Katarzyna née Wilk and father of Franciszka. He lived in Jabłonna, in the Wrzos parish. Likely the brother of Tomasz Gierczak (ID 1)."
+    }
+  },
+  {
+    "id": 435,
+    "firstName": "Katarzyna",
+    "lastName": "Gierczak",
+    "maidenName": "Wilk",
+    "birthDateNote": "ok. 1784",
+    "family": "gierczak",
+    "spouseIds": [434],
+    "childIds": [433],
+    "parentIds": [],
+    "biography": {
+      "pl": "Żona Jana Gierczaka i matka Franciszki.",
+      "en": "Wife of Jan Gierczak and mother of Franciszka."
+    }
+  },
+  {
+    "id": 436,
+    "firstName": "Joachim",
+    "lastName": "Gierczak",
+    "family": "gierczak",
+    "spouseIds": [437],
+    "childIds": [407],
+    "parentIds": [],
+    "biography": {
+      "pl": "Mąż Marianny, ojciec Ludwika Gierczaka (ID 407).",
+      "en": "Husband of Marianna, father of Ludwik Gierczak (ID 407)."
+    }
+  },
+  {
+    "id": 437,
+    "firstName": "Marianna",
+    "lastName": "Gierczak",
+    "maidenName": "NN",
+    "family": "gierczak",
+    "spouseIds": [436],
+    "childIds": [407],
+    "parentIds": [],
+    "biography": {
+      "pl": "Żona Joachima Gierczaka, matka Ludwika (ID 407).",
+      "en": "Wife of Joachim Gierczak, mother of Ludwik (ID 407)."
+    }
+  },
+  {
+    "id": 438,
+    "firstName": "Kazimierz",
+    "lastName": "Sulis",
+    "family": "gierczak",
+    "spouseIds": [439],
+    "childIds": [408],
+    "parentIds": [],
+    "biography": {
+      "pl": "Mąż Marianny, ojciec Rozalii Sulis.",
+      "en": "Husband of Marianna, father of Rozalia Sulis."
+    }
+  },
+  {
+    "id": 439,
+    "firstName": "Marianna",
+    "lastName": "Sulis",
+    "maidenName": "NN",
+    "family": "gierczak",
+    "spouseIds": [438],
+    "childIds": [408],
+    "parentIds": [],
+    "biography": {
+      "pl": "Żona Kazimierza Sulisa, matka Rozalii.",
+      "en": "Wife of Kazimierz Sulis, mother of Rozalia."
+    }
+  },
+  {
+    "id": 440,
+    "firstName": "Adam",
+    "lastName": "Kozyra",
+    "birthDateNote": "ok. 1796",
+    "family": "gierczak",
+    "spouseIds": [441],
+    "childIds": [18],
+    "parentIds": [],
+    "occupation": { "pl": "Gospodarz", "en": "Farmer" },
+    "biography": {
+      "pl": "Mąż Józefy z Kredowskich i ojciec Tekli Kozyry (ID 18). Mieszkał w Gulinku.",
+      "en": "Husband of Józefa née Kredowska and father of Tekla Kozyra (ID 18). He lived in Gulinek."
+    }
+  },
+  {
+    "id": 441,
+    "firstName": "Józefa",
+    "lastName": "Kozyra",
+    "maidenName": "Kredowska",
+    "birthDateNote": "ok. 1798",
+    "family": "gierczak",
+    "spouseIds": [440],
+    "childIds": [18],
+    "parentIds": [],
+    "biography": {
+      "pl": "Żona Adama Kozyry i matka Tekli (ID 18).",
+      "en": "Wife of Adam Kozyra and mother of Tekla (ID 18)."
+    }
   }
 ]

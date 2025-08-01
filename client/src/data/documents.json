@@ -1346,6 +1346,264 @@
     ]
   },
   {
+    "id": 49,
+    "title_pl": "Akt Zgonu: Stanisław Gierczak (1849)",
+    "title_en": "Death Record: Stanisław Gierczak (1849)",
+    "type": "death_record",
+    "description_pl": "Parafia Wrzos, akt nr 33 z 1849 r. Dokument potwierdza zgon Stanisława, syna Wawrzyńca Gierczaka i Marianny z Bratkowskich, w wieku dwóch lat. Zgon zgłosił ojciec zmarłego, Wawrzyniec, co potwierdza tożsamość dziecka.",
+    "description_en": "Wrzos Parish, record no. 33 from 1849. The document confirms the death of Stanisław, son of Wawrzyniec Gierczak and Marianna née Bratkowska, at the age of two. The death was reported by the deceased's father, Wawrzyniec, which confirms the child's identity.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się w Wrzosie, dnia Trzeciego Miesiąca Sierpnia Tysiąc Ośmset czterdziestego dziewiątego roku, o godzinie szóstej rano. Stawili się Wawrzyniec Gierczak, ojciec zmarłego, lat pięćdziesiąt i Walenty Kępczyński, lat pięćdziesiąt, Rolnicy we wsi Domaniów zamieszkali, i oświadczyli że Dnia wczorajszego o godzinie piątej rano w Domaniowie umarł Stanisław Gierczak, lat Dwa liczący, pozbawiony życia z Woli Boskiej, syn Wawrzyńca i Maryanny z Bratkowskich, ślubnych Małżonków Gierczaków w Domaniowie zamieszkałych. Po przekonaniu się naocznem o zejściu Stanisława Gierczaka, Akt ten stawiającym pisać nie umiejącym przeczytany, podpisaliśmy. X. Antoni Ambroziewicz Prob. Wrzos. USC.",
+    "translation_pl": "Działo się we Wrzosie, dnia trzeciego sierpnia tysiąc osiemset czterdziestego dziewiątego roku, o godzinie szóstej rano. Stawili się Wawrzyniec Gierczak, ojciec zmarłego, lat pięćdziesiąt, i Walenty Kępczyński, lat pięćdziesiąt, rolnicy we wsi Domaniów zamieszkali, i oświadczyli, że dnia wczorajszego o godzinie piątej rano w Domaniowie umarł Stanisław Gierczak, lat dwa liczący, pozbawiony życia z woli Bożej, syn Wawrzyńca i Marianny z Bratkowskich, ślubnych małżonków Gierczaków w Domaniowie zamieszkałych. Po naocznym przekonaniu się o zejściu Stanisława Gierczaka, akt ten stawiającym, pisać nie umiejącym, przeczytany, podpisaliśmy. Ksiądz Antoni Ambroziewicz Proboszcz Wrzoski Urzędnik Stanu Cywilnego.",
+    "translation_en": "It happened in Wrzos on the third day of August, one thousand eight hundred and forty-nine, at six o'clock in the morning. Appeared Wawrzyniec Gierczak, father of the deceased, fifty years old, and Walenty Kępczyński, fifty years old, farmers residing in the village of Domaniów, and they declared that on the previous day at five o'clock in the morning in Domaniów died Stanisław Gierczak, aged two, deprived of life by the will of God, son of Wawrzyniec and Marianna née Bratkowska, the wedded spouses Gierczak residing in Domaniów. After visually confirming the passing of Stanisław Gierczak, this act was read to the declarants, who are illiterate, and we signed. Father Antoni Ambroziewicz, Wrzos Pastor, Civil Registrar.",
+    "extracted_data": [
+      {
+        "label_pl": "Zmarły",
+        "label_en": "Deceased",
+        "value_pl": "Stanisław Gierczak",
+        "value_en": "Stanisław Gierczak"
+      },
+      {
+        "label_pl": "Data i godzina zgonu",
+        "label_en": "Date and Time of Death",
+        "value_pl": "2 sierpnia 1849, 5:00 rano",
+        "value_en": "August 2, 1849, 5:00 AM"
+      },
+      {
+        "label_pl": "Wiek w chwili zgonu",
+        "label_en": "Age at Death",
+        "value_pl": "2 lata",
+        "value_en": "2 years"
+      },
+      {
+        "label_pl": "Rodzice",
+        "label_en": "Parents",
+        "value_pl": "Wawrzyniec Gierczak i Marianna z Bratkowskich",
+        "value_en": "Wawrzyniec Gierczak and Marianna née Bratkowska"
+      },
+      {
+        "label_pl": "Zgłaszający",
+        "label_en": "Informants",
+        "value_pl": "Wawrzyniec Gierczak (ojciec, 50 lat), Walenty Kępczyński (50 lat)",
+        "value_en": "Wawrzyniec Gierczak (father, 50 years), Walenty Kępczyński (50 years)"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title_pl": "Akt Zgonu: Marianna Gierczak (1849)",
+    "title_en": "Death Record: Marianna Gierczak (1849)",
+    "type": "death_record",
+    "description_pl": "Parafia Wrzos, akt nr 38 z 1849 r. Dokument potwierdza zgon czteroletniej Marianny, córki Wawrzyńca Gierczaka i Marianny z Bratkowskich. Zgon zgłosił ojciec zmarłej, Wawrzyniec.",
+    "description_en": "Wrzos Parish, record no. 38 from 1849. The document confirms the death of four-year-old Marianna, daughter of Wawrzyniec Gierczak and Marianna née Bratkowska. The death was reported by the deceased's father, Wawrzyniec.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się w Wrzosie, Dnia Dwudziestego Dziewiątego Miesiąca Września Tysiąc Ośmset czterdziestego dziewiątego roku o godzinie ósmey po południu. Stawili się Wawrzyniec Gierczak Ojciec zmarłej lat czterdzieści ieden, Walenty Buszka lat czterdzieści, Rolnicy we wsi Domaniów zamieszkali, i oświadczyli że Dnia wczorajszego o godzinie ósmey wieczorem w Domaniowie umarła Maryanna Gierczak lat cztery licząca, pozbawiona życia, córka Wawrzyńca i Matki Maryanny z Bratkowskich w Domaniowie mieszkających. Po przekonaniu się naocznem o zejściu Maryanny, Akt ten stawiającym pisać nie umiejącym przeczytany, podpisaliśmy. X. Antoni Ambroziewicz P.W. U.S.C.",
+    "translation_pl": "Działo się we Wrzosie, dnia dwudziestego dziewiątego miesiąca września tysiąc osiemset czterdziestego dziewiątego roku, o godzinie ósmej po południu. Stawili się Wawrzyniec Gierczak, ojciec zmarłej, lat czterdzieści jeden, i Walenty Buszka, lat czterdzieści, rolnicy we wsi Domaniów zamieszkali, i oświadczyli, że dnia wczorajszego o godzinie ósmej wieczorem w Domaniowie umarła Marianna Gierczak, lat cztery licząca, pozbawiona życia, córka Wawrzyńca i matki Marianny z Bratkowskich w Domaniowie mieszkających. Po naocznym przekonaniu się o zejściu Marianny, akt ten stawiającym, pisać nie umiejącym, przeczytany, podpisaliśmy. Ksiądz Antoni Ambroziewicz Proboszcz Wrzoski Urzędnik Stanu Cywilnego.",
+    "translation_en": "It happened in Wrzos on the twenty-ninth day of September, one thousand eight hundred and forty-nine, at eight o'clock in the afternoon. Appeared Wawrzyniec Gierczak, father of the deceased, forty-one years old, and Walenty Buszka, forty years old, farmers residing in the village of Domaniów, and they declared that on the previous day at eight o'clock in the evening in Domaniów died Marianna Gierczak, aged four, deprived of life, daughter of Wawrzyniec and mother Marianna née Bratkowska residing in Domaniów. After visually confirming the passing of Marianna, this act was read to the declarants, who are illiterate, and we signed. Father Antoni Ambroziewicz, Wrzos Pastor, Civil Registrar.",
+    "extracted_data": [
+      {
+        "label_pl": "Zmarła",
+        "label_en": "Deceased",
+        "value_pl": "Marianna Gierczak",
+        "value_en": "Marianna Gierczak"
+      },
+      {
+        "label_pl": "Data i godzina zgonu",
+        "label_en": "Date and Time of Death",
+        "value_pl": "28 września 1849, 20:00 (ósma wieczorem)",
+        "value_en": "September 28, 1849, 8:00 PM"
+      },
+      {
+        "label_pl": "Wiek w chwili zgonu",
+        "label_en": "Age at Death",
+        "value_pl": "4 lata",
+        "value_en": "4 years"
+      },
+      {
+        "label_pl": "Rodzice",
+        "label_en": "Parents",
+        "value_pl": "Wawrzyniec Gierczak i Marianna z Bratkowskich",
+        "value_en": "Wawrzyniec Gierczak and Marianna née Bratkowska"
+      },
+      {
+        "label_pl": "Zgłaszający",
+        "label_en": "Informants",
+        "value_pl": "Wawrzyniec Gierczak (ojciec, 41 lat), Walenty Buszka (40 lat)",
+        "value_en": "Wawrzyniec Gierczak (father, 41 years), Walenty Buszka (40 years)"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "title_pl": "Akt Zgonu: Józefa Gierczak (1856)",
+    "title_en": "Death Record: Józefa Gierczak (1856)",
+    "type": "death_record",
+    "description_pl": "Parafia Wrzos, akt nr 18 z 1856 r. Dokument potwierdza zgon trzyletniej Józefy, córki Wawrzyńca Gierczaka i Marianny z Bratkowskich. Zgon zgłosił ojciec zmarłej.",
+    "description_en": "Wrzos Parish, record no. 18 from 1856. The document confirms the death of three-year-old Józefa, daughter of Wawrzyniec Gierczak and Marianna née Bratkowska. The death was reported by the deceased's father.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się w Wrzosie dnia Dwudziestego Trzeciego Lutego Tysiąc Ośmset pięćdziesiątego szóstego roku o godzinie ósmej rano. Stawili się Wawrzyniec Gierczak lat dwadzieścia i Antoni Senator lat pięćdziesiąt maiący, rolnicy we wsi Domaniowie zamieszkali, i oświadczyli że Dnia Dwudziestego pierwszego Lutego roku bieżącego o godzinie piątej rano w Domaniowie umarła Józefa Gierczak maiąca lat trzy, córka Wawrzyńca i Maryanny z Bratków Małżonków Gierczaków. Po przekonaniu się naocznem o zejściu Gierczakównej, Akt ten Stawającym Świadkom nieumiejącym przeczytany, podpisaliśmy. X. Antoni Ambroziewicz P.W. U.S.C.",
+    "translation_pl": "Działo się we Wrzosie, dnia dwudziestego trzeciego lutego tysiąc osiemset pięćdziesiątego szóstego roku, o godzinie ósmej rano. Stawili się Wawrzyniec Gierczak, lat dwadzieścia [błąd w zapisie wieku, powinien mieć ok. 38 lat], i Antoni Senator, lat pięćdziesiąt, rolnicy we wsi Domaniów zamieszkali, i oświadczyli, że dnia dwudziestego pierwszego lutego roku bieżącego o godzinie piątej rano w Domaniowie umarła Józefa Gierczak, mająca lat trzy, córka Wawrzyńca i Marianny z Bratków, małżonków Gierczaków. Po naocznym przekonaniu się o zejściu Gierczakówny, akt ten stawiającym świadkom nieumiejącym przeczytany, podpisaliśmy. Ksiądz Antoni Ambroziewicz Proboszcz Wrzoski Urzędnik Stanu Cywilnego.",
+    "translation_en": "It happened in Wrzos on the twenty-third of February, one thousand eight hundred and fifty-six, at eight o'clock in the morning. Appeared Wawrzyniec Gierczak, twenty years old [error in age record, should be approx. 38], and Antoni Senator, fifty years old, farmers residing in the village of Domaniów, and they declared that on the twenty-first of February of the current year at five o'clock in the morning in Domaniów died Józefa Gierczak, aged three, daughter of Wawrzyniec and Marianna née Bratkowska, the wedded spouses Gierczak. After visually confirming the passing of Gierczakówna, this act was read to the declarants and illiterate witnesses, and we signed. Father Antoni Ambroziewicz, Wrzos Pastor, Civil Registrar.",
+    "extracted_data": [
+      {
+        "label_pl": "Zmarła",
+        "label_en": "Deceased",
+        "value_pl": "Józefa Gierczak",
+        "value_en": "Józefa Gierczak"
+      },
+      {
+        "label_pl": "Data i godzina zgonu",
+        "label_en": "Date and Time of Death",
+        "value_pl": "21 lutego 1856, 5:00 rano",
+        "value_en": "February 21, 1856, 5:00 AM"
+      },
+      {
+        "label_pl": "Wiek w chwili zgonu",
+        "label_en": "Age at Death",
+        "value_pl": "3 lata",
+        "value_en": "3 years"
+      },
+      {
+        "label_pl": "Rodzice",
+        "label_en": "Parents",
+        "value_pl": "Wawrzyniec Gierczak i Marianna z Bratków",
+        "value_en": "Wawrzyniec Gierczak and Marianna née Bratkowska"
+      },
+      {
+        "label_pl": "Zgłaszający",
+        "label_en": "Informants",
+        "value_pl": "Wawrzyniec Gierczak (ojciec, 20 lat [błąd]), Antoni Senator (50 lat)",
+        "value_en": "Wawrzyniec Gierczak (father, 20 years [error]), Antoni Senator (50 years)"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "title_pl": "Akt Zgonu: Katarzyna Gierczak (1858)",
+    "title_en": "Death Record: Katarzyna Gierczak (1858)",
+    "type": "death_record",
+    "description_pl": "Parafia Wrzos, akt nr 27 z 1858 r. Dokument potwierdza zgon czternastoletniej Katarzyny, córki Wawrzyńca Gierczaka i Marianny z Bratkowskich.",
+    "description_en": "Wrzos Parish, record no. 27 from 1858. The document confirms the death of fourteen-year-old Katarzyna, daughter of Wawrzyniec Gierczak and Marianna née Bratkowska.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się w Wrzosie dnia Dwudziestego czwartego Października Tysiąc ośmset pięćdziesiątego ósmego roku o godzinie ósmej rano. Stawili się Jan Górski lat czterdzieści i Stanisław Gajszczyk lat czterdzieści maiący Rolnicy w Domaniowie zamieszkali, i oświadczyli że Dnia dwudziestego drugiego Października roku bieżącego o godzinie siódmej wieczorem w Domaniowie umarła Katarzyna Gierczak lat czternaście maiąca, Córka Wawrzyńca i Maryanny z Batoskich Małżonków Gierczaków. Po przekonaniu się naocznem o zejściu Gierczakównej, Akt ten Stawającym Świadkom nieumiejącym przeczytany, podpisaliśmy. X. Antoni Ambroziewicz P.W. U.S.C.",
+    "translation_pl": "Działo się we Wrzosie, dnia dwudziestego czwartego października tysiąc osiemset pięćdziesiątego ósmego roku, o godzinie ósmej rano. Stawili się Jan Górski, lat czterdzieści, i Stanisław Gajszczyk, lat czterdzieści, rolnicy w Domaniowie zamieszkali, i oświadczyli, że dnia dwudziestego drugiego października roku bieżącego o godzinie siódmej wieczorem w Domaniowie umarła Katarzyna Gierczak, lat czternaście mająca, córka Wawrzyńca i Marianny z Batoskich, małżonków Gierczaków. Po naocznym przekonaniu się o zejściu Gierczakówny, akt ten stawiającym świadkom nieumiejącym przeczytany, podpisaliśmy. Ksiądz Antoni Ambroziewicz Proboszcz Wrzoski Urzędnik Stanu Cywilnego.",
+    "translation_en": "It happened in Wrzos on the twenty-fourth day of October, one thousand eight hundred and fifty-eight, at eight o'clock in the morning. Appeared Jan Górski, forty years old, and Stanisław Gajszczyk, forty years old, farmers residing in Domaniów, and they declared that on the twenty-second day of October of the current year at seven o'clock in the evening in Domaniów died Katarzyna Gierczak, aged fourteen, daughter of Wawrzyniec and Marianna née Batoska, the wedded spouses Gierczak. After visually confirming the passing of Gierczakówna, this act was read to the declarants and illiterate witnesses, and we signed. Father Antoni Ambroziewicz, Wrzos Pastor, Civil Registrar.",
+    "extracted_data": [
+      {
+        "label_pl": "Zmarła",
+        "label_en": "Deceased",
+        "value_pl": "Katarzyna Gierczak",
+        "value_en": "Katarzyna Gierczak"
+      },
+      {
+        "label_pl": "Data i godzina zgonu",
+        "label_en": "Date and Time of Death",
+        "value_pl": "22 października 1858, 19:00 (siódma wieczorem)",
+        "value_en": "October 22, 1858, 7:00 PM"
+      },
+      {
+        "label_pl": "Wiek w chwili zgonu",
+        "label_en": "Age at Death",
+        "value_pl": "14 lat",
+        "value_en": "14 years"
+      },
+      {
+        "label_pl": "Rodzice",
+        "label_en": "Parents",
+        "value_pl": "Wawrzyniec Gierczak i Marianna z Batoskich (Bratkowskich)",
+        "value_en": "Wawrzyniec Gierczak and Marianna née Batoska (Bratkowska)"
+      },
+      {
+        "label_pl": "Zgłaszający",
+        "label_en": "Informants",
+        "value_pl": "Jan Górski (40 lat), Stanisław Gajszczyk (40 lat)",
+        "value_en": "Jan Górski (40 years), Stanisław Gajszczyk (40 years)"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "title_pl": "Akt Zgonu: Mateusz Gierczak (1873)",
+    "title_en": "Death Record: Mateusz Gierczak (1873)",
+    "type": "death_record",
+    "description_pl": "Parafia Wrzos, akt nr 4 z 1873 r. Dokument potwierdza zgon dwuletniego Mateusza, syna Wawrzyńca Gierczaka i Marianny z Oparcików. Zgon zgłosił ojciec zmarłego, Wawrzyniec.",
+    "description_en": "Wrzos Parish, record no. 4 from 1873. The document confirms the death of two-year-old Mateusz, son of Wawrzyniec Gierczak and Marianna née Oparcik. The death was reported by the deceased's father, Wawrzyniec.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Состоялось въ Вржосѣ, девятнадцатаго (тридцать перваго) Января тысяча восемьсотъ семьдесятъ третьяго года, въ часъ по полудни. Явились: Вавржинецъ Герчакъ, отецъ умершаго, пятидесяти четырехъ лѣтъ, и Константинъ Казана, сорока четырехъ лѣтъ отъ роду, земледѣльцы въ Старомъ Млынѣ; и объявили, что вчерашняго числа, по полудни, умеръ въ Старомъ Млынѣ Матеушъ Герчакъ, сынъ помянутаго Вавржинца и Маріанны изъ Опарчиковъ, законныхъ супруговъ Герчаковъ, родившійся въ Старомъ Млынѣ, двухъ лѣтъ отъ роду. По наочномъ удостовѣреніи о кончинѣ Матеуша Герчака, актъ сей присутствующимъ неграмотнымъ прочитанъ, и Нами только подписанъ. Кс. Антоній Амброжевичъ.",
+    "translation_pl": "Działo się we Wrzosie, dziewiętnastego (trzydziestego pierwszego) stycznia tysiąc osiemset siedemdziesiątego trzeciego roku, o godzinie pierwszej po południu. Stawili się: Wawrzyniec Gierczak, ojciec zmarłego, lat pięćdziesiąt cztery, i Konstanty Kazana, lat czterdzieści cztery, rolnicy ze Starego Młyna; i oświadczyli, że wczorajszego dnia, po południu, zmarł w Starym Młynie Mateusz Gierczak, syn wspomnianego Wawrzyńca i Marianny z Oparcików, prawnych małżonków Gierczaków, urodzony w Starym Młynie, mający dwa lata. Po naocznym stwierdzeniu zgonu Mateusza Gierczaka, akt ten obecnym niepiśmiennym przeczytano i tylko przez nas podpisany. Ks. Antoni Ambrożewicz.",
+    "translation_en": "It happened in Wrzos on the nineteenth (thirty-first) of January, eighteen hundred and seventy-three, at one o'clock in the afternoon. Appeared: Wawrzyniec Gierczak, father of the deceased, fifty-four years old, and Konstanty Kazana, forty-four years old, farmers from Stary Młyn; and they declared that yesterday, in the afternoon, Mateusz Gierczak passed away in Stary Młyn, son of the aforementioned Wawrzyniec and Marianna née Oparcik, the lawful spouses Gierczak, born in Stary Młyn, aged two. After visually confirming the death of Mateusz Gierczak, this act was read to the illiterate persons present and signed only by us. Fr. Antoni Ambrożewicz.",
+    "extracted_data": [
+      {
+        "label_pl": "Zmarły",
+        "label_en": "Deceased",
+        "value_pl": "Mateusz Gierczak",
+        "value_en": "Mateusz Gierczak"
+      },
+      {
+        "label_pl": "Data zgonu",
+        "label_en": "Date of Death",
+        "value_pl": "30 stycznia 1873",
+        "value_en": "January 30, 1873"
+      },
+      {
+        "label_pl": "Pora zgonu",
+        "label_en": "Time of Death",
+        "value_pl": "po południu",
+        "value_en": "afternoon"
+      },
+      {
+        "label_pl": "Wiek w chwili zgonu",
+        "label_en": "Age at Death",
+        "value_pl": "2 lata",
+        "value_en": "2 years"
+      },
+      {
+        "label_pl": "Rodzice",
+        "label_en": "Parents",
+        "value_pl": "Wawrzyniec Gierczak i Marianna z Oparcików",
+        "value_en": "Wawrzyniec Gierczak and Marianna née Oparcik"
+      },
+      {
+        "label_pl": "Zgłaszający",
+        "label_en": "Informants",
+        "value_pl": "Wawrzyniec Gierczak (ojciec, 54 lata), Konstanty Kazana (44 lata)",
+        "value_en": "Wawrzyniec Gierczak (father, 54 years), Konstanty Kazana (44 years)"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "title_pl": "Akt Urodzenia: Franciszka Gierczak (1814)",
+    "title_en": "Birth Record: Franciszka Gierczak (1814)",
+    "type": "birth_record",
+    "description_pl": "Parafia Wrzos, akt nr 9 z 1814 r. Dokument potwierdza narodziny Franciszki, córki Jana i Katarzyny Gierczaków, co stanowi nową gałąź w drzewie genealogicznym.",
+    "description_en": "Wrzos Parish, record no. 9 from 1814. The document confirms the birth of Franciszka, daughter of Jan and Katarzyna Gierczak, establishing a new branch in the family tree.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się w Wrzosie dnia Dwudziestego siódmego Grudnia, tysiąc osiemset czternastego roku, o godzinie jedenastej przed południem. Stawił się Jan Gierczak, włościanin w Jabłonnie zamieszkały, lat trzydzieści dwa liczący, w obecności Michała Gierczaka lat czterdzieści i Pawła Gierczaka lat trzydzieści ośm maiących, obydwóch włościan w Jabłonnie zamieszkałych. I okazał Nam Dziecię płci żeńskiej, urodzone w Jabłonnie w domu pod numerem ósmym, dnia dwudziestego szóstego Grudnia roku bieżącego o godzinie szóstej rano, z jego małżonki Katarzyny z Wilków, lat trzydzieści liczącej. Dziecięciu temu na Chrzcie Świętym w dniu dzisiejszym odbytym nadane zostało imię Franciszka, a Rodzicami jego Chrzestnymi byli Michał Gierczak i Zofia Gielowska. Akt ten stawiającemu i świadkom przeczytany, a że pisać nie umieją, przez Nas tylko podpisany został. X. Konstanty Gierczewski Proboszcz Wrzoski.",
+    "translation_pl": "Działo się we Wrzosie, dnia dwudziestego siódmego grudnia tysiąc osiemset czternastego roku, o godzinie jedenastej przed południem. Stawił się Jan Gierczak, włościanin w Jabłonnie zamieszkały, lat trzydzieści dwa liczący, w obecności Michała Gierczaka, lat czterdzieści, i Pawła Gierczaka, lat trzydzieści osiem, obydwóch włościan w Jabłonnie zamieszkałych. I okazał Nam Dziecię płci żeńskiej, urodzone w Jabłonnie w domu pod numerem ósmym, dnia dwudziestego szóstego grudnia roku bieżącego o godzinie szóstej rano, z jego małżonki Katarzyny z Wilków, lat trzydzieści liczącej. Dziecięciu temu na Chrzcie Świętym w dniu dzisiejszym odbytym nadane zostało imię Franciszka, a Rodzicami jego Chrzestnymi byli Michał Gierczak i Zofia Gielowska. Akt ten stawiającemu i świadkom przeczytany, a że pisać nie umieją, przez Nas tylko podpisany został. Ksiądz Konstanty Gierczewski Proboszcz Wrzoski.",
+    "translation_en": "It happened in Wrzos on the twenty-seventh of December, one thousand eight hundred and fourteen, at eleven o'clock in the forenoon. Appeared Jan Gierczak, a peasant residing in Jabłonna, aged thirty-two, in the presence of Michał Gierczak, aged forty, and Paweł Gierczak, aged thirty-eight, both peasants residing in Jabłonna. And he presented to us a female child, born in Jabłonna in the house at number eight, on the twenty-sixth of December of the current year at six o'clock in the morning, to his wife Katarzyna née Wilk, aged thirty. At the Holy Baptism performed this day, this child was given the name Franciszka, and her Godparents were Michał Gierczak and Zofia Gielowska. This act was read to the declarant and witnesses, and as they cannot write, it was signed only by Us. Father Konstanty Gierczewski, Wrzos Pastor.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Jan Gierczak, 32 lata",
+        "value_en": "Jan Gierczak, 32 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Katarzyna z Wilków, 30 lat",
+        "value_en": "Katarzyna née Wilk, 30 years old"
+      },
+      {
+        "label_pl": "Rodzice chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Michał Gierczak i Zofia Gielowska",
+        "value_en": "Michał Gierczak and Zofia Gielowska"
+      }
+    ]
+  },
+  {
     "id": 55,
     "title_pl": "Akt Zgonu: Michał Gierczak (1854)",
     "title_en": "Death Record: Michał Gierczak (1854)",
@@ -1374,6 +1632,76 @@
         "label_en": "Spouse",
         "value_pl": "Marianna z Gocmanów",
         "value_en": "Marianna née Gocman"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "title_pl": "Akt Ślubu: Ludwik Gierczak i Roza Sulis (1816)",
+    "title_en": "Marriage Record: Ludwik Gierczak & Roza Sulis (1816)",
+    "type": "marriage_record",
+    "description_pl": "Parafia Wrzos, akt nr 5 z 1816 r. Dokument potwierdza małżeństwo Ludwika Gierczaka z Rozalią Sulis oraz identyfikuje ich rodziców, tworząc nową gałąź rodu.",
+    "description_en": "Wrzos Parish, record no. 5 from 1816. The document confirms the marriage of Ludwik Gierczak to Rozalia Sulis and identifies their parents, establishing a new branch of the family.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Roku Tysiącznego Ośmsetnego Szesnastego Dnia Dwudziestego Drugiego Miesiąca Października, przed Nami Proboszczem Wrzoskim Urzędnikiem Stanu Cywilnego Gminy Wrzoskiej w Powiecie i Departamencie Radomskim. Stawili się osobiście Ludwik Gierczak, Kawaler, Włościanin na Wyrobku w Wrzosie zamieszkały, maiący lat dziewiętnaście, Syn Joachima i Maryanny Gierczaków, a Panna Roza Sulisówna, Córka Kazimierza i Maryanny Sulisów, Włościan we Wrzosie zamieszkałych, maiąca lat dziewiętnaście. Strony stawaiące żądaią, abyśmy do utorzenia między niemi węzła Małżeńskiego przystąpili, którego zapowiedzi wyszły przed głównemi Drzwiami naszego Domu Gminnego, to jest Pierwsza Dnia Siódmego, Druga Dnia Czternastego i Trzecia Dnia Dwudziestego pierwszego Października Roku bieżącego o godzinie dwunastej w południe. Gdy o żadnym tamowaniu rzeczonego Małżeństwa doniesiono Nam nie było, a Rodzice na ten związek zezwalaią, przychylaiąc się zatem do żądania, po przeczytaniu wszystkich wyżej wspomnianych papierów i Działu szóstego w Tytule Kodexu Napoleona o Małżeństwie, zapytaliśmy się przyszłego Małżonka i przyszłej Małżonki, czyli chcą połączyć się z sobą węzłem Małżeńskim? Na co gdy każde z nich oddzielnie odpowiedziało, iż taka ich iest wola, Ogłaszamy w Imieniu Prawa, iż Ludwik Gierczak Kawaler i Roza Sulisówna Panna są połączeni z sobą węzłem Małżeństwa. Czego Akt spisaliśmy w przytomności Rocha Zarębskiego, liczącego lat czterdzieści i Michała Gierczaka, liczącego lat czterdzieści, obydwóch Włościan we Wrzosie zamieszkałych. Akt ten stawiającym i świadkom pisać nie umiejącym przeczytany, podpisaliśmy. X. Konstanty Gierczewski Proboszcz Wrzoski.",
+    "translation_pl": "Działo się we Wrzosie, dnia dwudziestego drugiego października tysiąc osiemset szesnastego roku, przed nami, proboszczem wrzoskim, urzędnikiem stanu cywilnego gminy wrzoskiej w powiecie i departamencie radomskim. Stawili się osobiście Ludwik Gierczak, kawaler, włościanin na wyrobku we Wrzosie zamieszkały, mający lat dziewiętnaście, syn Joachima i Marianny Gierczaków, a panna Roza Sulisówna, córka Kazimierza i Marianny Sulisów, włościan we Wrzosie zamieszkałych, mająca lat dziewiętnaście. Strony stawiające żądają, abyśmy do utworzenia między nimi węzła małżeńskiego przystąpili, którego zapowiedzi wyszły przed głównymi drzwiami naszego domu gminnego, to jest pierwsza dnia siódmego, druga dnia czternastego i trzecia dnia dwudziestego pierwszego października roku bieżącego o godzinie dwunastej w południe. Gdy o żadnym tamowaniu rzeczonego małżeństwa nie doniesiono nam, a rodzice na ten związek zezwalają, przychylając się zatem do żądania, po przeczytaniu wszystkich wyżej wspomnianych papierów i Działu szóstego w Tytule Kodeksu Napoleona o Małżeństwie, zapytaliśmy przyszłego małżonka i przyszłą małżonkę, czyli chcą połączyć się z sobą węzłem małżeńskim? Na co gdy każde z nich oddzielnie odpowiedziało, iż taka ich jest wola, ogłaszamy w imieniu prawa, iż Ludwik Gierczak, kawaler, i Roza Sulisówna, panna, są połączeni z sobą węzłem małżeństwa. Czego akt spisaliśmy w przytomności Rocha Zarębskiego, liczącego lat czterdzieści, i Michała Gierczaka, liczącego lat czterdzieści, obydwóch włościan we Wrzosie zamieszkałych. Akt ten stawiającym i świadkom, pisać nie umiejącym, przeczytany, podpisaliśmy. Ksiądz Konstanty Gierczewski, Proboszcz Wrzoski.",
+    "translation_en": "It happened in Wrzos on the twenty-second day of October, one thousand eight hundred and sixteen, before us, the Pastor of Wrzos, Civil Registrar of the Wrzos Commune in the Radom County and Department. Appeared in person Ludwik Gierczak, a bachelor, a peasant laborer residing in Wrzos, aged nineteen, son of Joachim and Marianna Gierczak, and maiden Roza Sulisówna, daughter of Kazimierz and Marianna Sulis, peasants residing in Wrzos, aged nineteen. The appearing parties request that we proceed to the formation of a marital bond between them, the banns of which were published before the main doors of our commune house, that is, the first on the seventh, the second on the fourteenth, and the third on the twenty-first day of October of the current year at twelve o'clock noon. As no impediment to the said marriage was reported to us, and the parents consent to this union, we therefore comply with the request, and after reading all the above-mentioned papers and the sixth Chapter of the Napoleonic Code on Marriage, we asked the future husband and future wife if they wish to join together in the bond of matrimony. To which, when each of them answered separately that such is their will, we declare in the name of the law that Ludwik Gierczak, bachelor, and Roza Sulisówna, maiden, are joined together in the bond of matrimony. Of which we have drawn up this act in the presence of Roch Zarębski, aged forty, and Michał Gierczak, aged forty, both peasants residing in Wrzos. This act was read to the appearing parties and witnesses, who are illiterate, and we signed. Father Konstanty Gierczewski, Pastor of Wrzos.",
+    "extracted_data": [
+      {
+        "label_pl": "Pan Młody",
+        "label_en": "Groom",
+        "value_pl": "Ludwik Gierczak, 19 lat, kawaler",
+        "value_en": "Ludwik Gierczak, 19 years old, bachelor"
+      },
+      {
+        "label_pl": "Rodzice Pana Młodego",
+        "label_en": "Groom's Parents",
+        "value_pl": "Joachim i Marianna Gierczak",
+        "value_en": "Joachim and Marianna Gierczak"
+      },
+      {
+        "label_pl": "Panna Młoda",
+        "label_en": "Bride",
+        "value_pl": "Roza Sulis, 19 lat, panna",
+        "value_en": "Roza Sulis, 19 years old, maiden"
+      },
+      {
+        "label_pl": "Rodzice Panny Młodej",
+        "label_en": "Bride's Parents",
+        "value_pl": "Kazimierz i Marianna Sulis",
+        "value_en": "Kazimierz and Marianna Sulis"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "title_pl": "Akt Urodzenia: Tekla Kozyra (1831)",
+    "title_en": "Birth Record: Tekla Kozyra (1831)",
+    "type": "birth_record",
+    "description_pl": "Parafia Zakrzew (Zakrzów), akt nr 29 z 1831 r. Dokument potwierdza narodziny Tekli, córki Adama Kozyry i Józefy z Kredowskich. Jest to akt urodzenia przyszłej żony Karola Gierczaka (ID 13).",
+    "description_en": "Zakrzew (Zakrzów) Parish, record no. 29 from 1831. The document confirms the birth of Tekla, daughter of Adam Kozyra and Józefa née Kredowska. This is the birth record of the future wife of Karol Gierczak (ID 13).",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się we wsi Zakrzowie dnia Dwudziestego dziewiątego Kwietnia Tysiąc osiemset trzydziestego pierwszego roku o godzinie piątej po południu. Stawił się Adam Kozyra, Gospodarz, we wsi Gulinku zamieszkały, lat trzydzieści pięć maiący, w obecności Jakuba Sowy lat pięćdziesiąt i Franciszka Piątka lat czterdzieści ośm maiących, obydwóch Włościan w Gulinku zamieszkałych, i okazał Nam Dziecię płci żeńskiej, urodzone w Gulinku w Domu pod Numerem dwunastym Dnia dwudziestego dziewiątego Kwietnia Roku tegoż o godzinie dziesiątej rano z Jego Małżonki Józefy z Kredowskich lat trzydzieści trzy maiącej. Dziecięciu temu na Chrzcie Świętym w Dniu dzisiejszym odbytym, nadane zostało Imię Tekla, a Rodzicami Jego Chrzestnymi byli Jakub Sowa i Tekla z Piątków. Akt ten Stawaiącemu i Świadkom przeczytany, pisać nie umiejącym, podpisany został. X. Bernard Machlarski Pleban Parafii Zakrzow.",
+    "translation_pl": "Działo się we wsi Zakrzewie dnia dwudziestego dziewiątego kwietnia tysiąc osiemset trzydziestego pierwszego roku o godzinie piątej po południu. Stawił się Adam Kozyra, gospodarz, we wsi Gulinek zamieszkały, lat trzydzieści pięć, w obecności Jakuba Sowy, lat pięćdziesiąt, i Franciszka Piątka, lat czterdzieści osiem, obydwóch włościan w Gulinku zamieszkałych, i okazał nam dziecko płci żeńskiej, urodzone w Gulinku w domu pod numerem dwunastym dnia dwudziestego dziewiątego kwietnia roku tegoż o godzinie dziesiątej rano z jego małżonki Józefy z Kredowskich, lat trzydzieści trzy. Dziecku temu na chrzcie świętym w dniu dzisiejszym odbytym nadano imię Tekla, a jego rodzicami chrzestnymi byli Jakub Sowa i Tekla z Piątków. Akt ten stawiającemu i świadkom, pisać nie umiejącym, przeczytany, podpisany został. Ksiądz Bernard Machlarski, Pleban Parafii Zakrzew.",
+    "translation_en": "It happened in the village of Zakrzew on the twenty-ninth of April, one thousand eight hundred and thirty-one, at five o'clock in the afternoon. Appeared Adam Kozyra, a farmer, residing in the village of Gulinek, aged thirty-five, in the presence of Jakub Sowa, aged fifty, and Franciszek Piątek, aged forty-eight, both peasants residing in Gulinek, and he presented to us a female child, born in Gulinek in the house at number twelve on the twenty-ninth of April of the current year at ten o'clock in the morning, to his wife Józefa née Kredowska, aged thirty-three. At the Holy Baptism performed this day, this child was given the name Tekla, and her godparents were Jakub Sowa and Tekla née Piątek. This act was read to the declarant and witnesses, who are illiterate, and was signed. Father Bernard Machlarski, Pastor of the Zakrzew Parish.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Adam Kozyra, 35 lat",
+        "value_en": "Adam Kozyra, 35 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Józefa z Kredowskich, 33 lata",
+        "value_en": "Józefa née Kredowska, 33 years old"
+      },
+      {
+        "label_pl": "Rodzice chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Jakub Sowa i Tekla z Piątków",
+        "value_en": "Jakub Sowa and Tekla née Piątek"
       }
     ]
   },
