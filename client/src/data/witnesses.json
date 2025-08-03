@@ -78,6 +78,18 @@
     "documentIds": [217]
   },
   {
+    "lastName": "Banaś",
+    "firstName": "Franciszek",
+    "residence": "Oblas",
+    "documentIds": [58]
+  },
+  {
+    "lastName": "Banaś",
+    "firstName": "Stanisław",
+    "residence": "Oblas",
+    "documentIds": [58]
+  },
+  {
     "lastName": "Bartosik",
     "firstName": "Jan",
     "residence": "",
@@ -412,6 +424,12 @@
     "firstName": "Kacper",
     "residence": "Jaszowice",
     "documentIds": [43, 55, 260]
+  },
+  {
+    "lastName": "Gierczak",
+    "firstName": "Karol",
+    "residence": "",
+    "documentIds": [59]
   },
   {
     "lastName": "Gierczak",
@@ -921,13 +939,13 @@
     "lastName": "Kozyra",
     "firstName": "Adam",
     "residence": "Gulinek",
-    "documentIds": [57]
+    "documentIds": [57, 381]
   },
   {
     "lastName": "Kozyra",
     "firstName": "Franciszek",
     "residence": "Gulinek",
-    "documentIds": [12]
+    "documentIds": [12, 59, 381]
   },
   {
     "lastName": "Kozyra",

@@ -353,12 +353,15 @@
     "marriages": [
       {
         "spouseId": 18,
-        "date": "1857-11-23"
+        "date": "1857-11-16",
+        "source": {
+          "documentId": 381
+        }
       }
     ],
     "biography": {
-      "pl": "Syn Ambrożego i Kunegundy. Żoną Karola została 23.11.1857 Tekla Kozyra. Zamieszkali w Gulinku. Mieli 3 dzieci.",
-      "en": "Son of Ambroży and Kunegunda. Karol's wife became Tekla Kozyra on November 23, 1857. They settled in Gulinek. They had 3 children."
+      "pl": "Syn Ambrożego i Kunegundy. Żoną Karola została 16.11.1857 Tekla Kozyra. Zamieszkali w Gulinku. Mieli 3 dzieci.",
+      "en": "Son of Ambroży and Kunegunda. Karol's wife became Tekla Kozyra on November 16, 1857. They settled in Gulinek. They had 3 children."
     },
     "events": [
       {
@@ -398,7 +401,10 @@
     "marriages": [
       {
         "spouseId": 13,
-        "date": "1857-11-23"
+        "date": "1857-11-16",
+        "source": {
+          "documentId": 381
+        }
       }
     ],
     "biography": {
@@ -1109,17 +1115,6 @@
     "firstName": "Marianna",
     "lastName": "Ślifirczyk",
     "maidenName": "Gierczak",
-    "birthDate": "1833-08-19",
-    "birthTime": "10:00",
-    "birthTimeQualifier": "morning",
-    "deathDate": "1875-01-15",
-    "deathTime": "8:00",
-    "deathTimeQualifier": "morning",
-    "photoUrl": null,
-    "family": "gierczak",
-    "spouseIds": [148, 176],
-    "childIds": [195, 196, 197],
-    "parentIds": [4, 8],
     "marriages": [
       {
         "spouseId": 148,
@@ -1135,33 +1130,15 @@
           "documentId": 262
         },
         "note": {
-          "pl": "Wiek podany w tym akcie ślubu (18 lat) jest błędny. Zgodnie z jej aktem urodzenia, Marianna miała w tym czasie prawie 22 lata. Rozbieżności w wieku były częstym zjawiskiem w XIX-wiecznych dokumentach.",
-          "en": "The age stated in this marriage record (18 years) is incorrect. Based on her birth certificate, Marianna was nearly 22 years old at the time. Age discrepancies were common in 19th-century documents."
+          "pl": "Wiek podany w tym akcie ślubu (18 lat) jest błędny. Zgodnie z jej aktem urodzenia, Marianna miała w tym czasie prawie 22 lata. Dodatkowo, nazwisko panieńskie jej matki, Kunegundy, błędnie zapisano jako 'z Kaimów' zamiast 'z Kaniów'. Rozbieżności w danych były częstym zjawiskiem w XIX-wiecznych dokumentach.",
+          "en": "The age stated in this marriage record (18 years) is incorrect. Based on her birth certificate, Marianna was nearly 22 years old at the time. Additionally, her mother Kunegunda's maiden name was incorrectly recorded as 'z Kaimów' instead of 'z Kaniów'. Data discrepancies were common in 19th-century documents."
         }
       }
     ],
     "biography": {
       "pl": "Córka Ambrożego i Kunegundy. Jej pierwszym mężem był Antoni Stępień (zm. przed 1855). Po jego śmierci, w 1855 roku poślubiła Józefa Ślifirczyka, z którym miała córkę Antoninę. Zmarła w 1875 roku w Jaszowicach.",
       "en": "Daughter of Ambroży and Kunegunda. Her first husband was Antoni Stępień (d. before 1855). After his death, she married Józef Ślifirczyk in 1855, with whom she had a daughter, Antonina. She died in 1875 in Jaszowice."
-    },
-    "events": [
-      {
-        "type": "birth",
-        "date": "1833-08-19",
-        "place": "Jaszowice",
-        "source": {
-          "documentId": 229
-        }
-      },
-      {
-        "type": "death",
-        "date": "1875-01-15",
-        "place": "Jaszowice",
-        "source": {
-          "documentId": 9
-        }
-      }
-    ]
+    }
   },
   {
     "id": 62,
@@ -2873,10 +2850,10 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [129, 130],
+    "parentIds": [129, 362],
     "biography": {
-      "pl": "Córka Jakuba i Marianny. Zmarła w wieku 9 lat.",
-      "en": "Daughter of Jakub and Marianna. Died at the age of 9."
+      "pl": "Córka Jakuba i Magdaleny z d. Wieczorek. Zmarła w wieku 9 lat.",
+      "en": "Daughter of Jakub and Magdalena née Wieczorek. Died at the age of 9."
     },
     "events": [
       {
@@ -2899,10 +2876,10 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [129, 130],
+    "parentIds": [129, 362],
     "biography": {
-      "pl": "Córka Jakuba i Marianny z Wieczorków. Urodzona w Woli Gutowskiej. Zmarła w wieku niespełna dwóch lat.",
-      "en": "Daughter of Jakub and Marianna née Wieczorek. Born in Wola Gutowska. She died at the age of nearly two."
+      "pl": "Córka Jakuba i Magdaleny z d. Wieczorek. Urodzona w Woli Gutowskiej. Zmarła w wieku niespełna dwóch lat.",
+      "en": "Daughter of Jakub and Magdalena née Wieczorek. Born in Wola Gutowska. She died at the age of nearly two."
     },
     "events": [
       {
@@ -3757,7 +3734,7 @@
     "deathDate": "1812-08-22",
     "photoUrl": "/images/konstanty.avif",
     "spouseIds": [162],
-    "childIds": [163, 164, 165, 166, 167, 133, 157],
+    "childIds": [163, 164, 165, 166, 167, 133, 157, 222],
     "parentIds": [12, 20],
     "occupation": {
       "pl": "Włościanin / Mieszczanin",
@@ -3790,7 +3767,7 @@
     "deathTimeQualifier": "morning",
     "photoUrl": "/images/agnieszka.avif",
     "spouseIds": [161],
-    "childIds": [163, 164, 165, 166, 167, 133, 157],
+    "childIds": [163, 164, 165, 166, 167, 133, 157, 222],
     "parentIds": [],
     "biography": {
       "pl": "Żona Konstantego Ofiary, matka siedmiorga dzieci. Mieszkała w Woli Gutowskiej. Zmarła osiem lat po swoim mężu, w wieku 50 lat. W akcie zgonu, zgłoszonym przez jej syna Szczepana, nazwisko zapisano w formie 'Ofierzyna'.",
@@ -4986,7 +4963,7 @@
     "family": "ofiara",
     "spouseIds": [346, 347],
     "childIds": [],
-    "parentIds": [129, 130],
+    "parentIds": [129, 362],
     "marriages": [
       {
         "spouseId": 346,
@@ -5004,8 +4981,8 @@
       }
     ],
     "biography": {
-      "pl": "Córka Jakuba Ofiary i Marianny z d. Wieczorek. W jej akcie urodzenia matka została błędnie zapisana jako Magdalena. Była dwukrotnie zamężna: najpierw z Michałem Ofiarą (ślub w 1873 r.), a po jego śmierci z Janem Kucharskim (ślub w 1898 r.).",
-      "en": "Daughter of Jakub Ofiara and Marianna née Wieczorek. In her birth certificate, her mother was mistakenly recorded as Magdalena. She was married twice: first to Michał Ofiara (marriage in 1873), and after his death, to Jan Kucharski (marriage in 1898)."
+      "pl": "Córka Jakuba Ofiary i Magdaleny z d. Wieczorek. Była dwukrotnie zamężna: najpierw z Michałem Ofiarą (ślub w 1873 r.), a po jego śmierci z Janem Kucharskim (ślub w 1898 r.).",
+      "en": "Daughter of Jakub Ofiara and Magdalena née Wieczorek. She was married twice: first to Michał Ofiara (marriage in 1873), and after his death, to Jan Kucharski (marriage in 1898)."
     },
     "events": [
       {
@@ -5031,11 +5008,11 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [129, 130],
+    "parentIds": [129, 362],
     "marriages": [],
     "biography": {
-      "pl": "Córka Jakuba Ofiary i Marianny z d. Wieczorek. W jej akcie urodzenia ojciec został błędnie zapisany jako Jan. Zmarła w wieku 12 lat.",
-      "en": "Daughter of Jakub Ofiara and Marianna née Wieczorek. In her birth record, her father was mistakenly recorded as Jan. She died at the age of 12."
+      "pl": "Córka Jakuba Ofiary i Magdaleny z d. Wieczorek. Zmarła w wieku 12 lat.",
+      "en": "Daughter of Jakub Ofiara and Magdalena née Wieczorek. She died at the age of 12."
     },
     "events": [
       {
@@ -5123,11 +5100,11 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [129, 130],
+    "parentIds": [129, 362],
     "marriages": [],
     "biography": {
-      "pl": "Syn Jakuba Ofiary i Marianny z d. Wieczorek. W akcie urodzenia jego matka została błędnie zapisana jako Magdalena. Zmarł jako dwumiesięczne niemowlę. W jego akcie zgonu matka została z kolei błędnie zapisana jako Apolonia.",
-      "en": "Son of Jakub Ofiara and Marianna née Wieczorek. In his birth record, his mother was mistakenly recorded as Magdalena. He died as a two-month-old infant. In his death certificate, his mother was in turn mistakenly recorded as Apolonia."
+      "pl": "Syn Jakuba Ofiary i Magdaleny z d. Wieczorek. Zmarł jako dwumiesięczne niemowlę. W jego akcie zgonu matka została błędnie zapisana jako Apolonia.",
+      "en": "Son of Jakub Ofiara and Magdalena née Wieczorek. He died as a two-month-old infant. In his death certificate, his mother was mistakenly recorded as Apolonia."
     },
     "events": [
       {
@@ -5159,11 +5136,11 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [129, 130],
+    "parentIds": [129, 362],
     "marriages": [],
     "biography": {
-      "pl": "Syn Jakuba Ofiary (w akcie błędnie jako Jan) i Marianny z d. Wieczorek. Brat Andrzeja, Zofii, Agnieszki, Józefy, Katarzyny i Jędrzeja.",
-      "en": "Son of Jakub Ofiara (in the record mistakenly as Jan) and Marianna née Wieczorek. Brother of Andrzej, Zofia, Agnieszka, Józefa, Katarzyna and Jędrzej."
+      "pl": "Syn Jakuba Ofiary i Magdaleny z d. Wieczorek. Brat Andrzeja, Zofii, Agnieszki, Józefy, Katarzyny i Jędrzeja.",
+      "en": "Son of Jakub Ofiara and Magdalena née Wieczorek. Brother of Andrzej, Zofia, Agnieszka, Józefa, Katarzyna and Jędrzej."
     },
     "events": [
       {
@@ -5190,10 +5167,10 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [129, 130],
+    "parentIds": [129, 362],
     "biography": {
-      "pl": "Syn Jakuba Ofiary i Marianny z d. Wieczorek. W jego akcie urodzenia matka została błędnie zapisana jako Magdalena. Zmarł w wieku dwóch lat. Jego akt zgonu (nr 67 z 1863 r.) został ostatecznie zidentyfikowany po odkryciu, że jego kuzyn o tym samym imieniu, syn Jana Ofiary, zmarł w tym samym roku, co wyjaśniło wcześniejsze nieścisłości w dokumentacji.",
-      "en": "Son of Jakub Ofiara and Marianna née Wieczorek. In his birth record, his mother was mistakenly recorded as Magdalena. He died at the age of two. His death record (no. 67 from 1863) was definitively identified after it was discovered that his cousin of the same name, son of Jan Ofiara, had died in the same year, which clarified earlier documentary discrepancies."
+      "pl": "Syn Jakuba Ofiary i Magdaleny z d. Wieczorek. Zmarł w wieku dwóch lat. Jego akt zgonu (nr 67 z 1863 r.) został ostatecznie zidentyfikowany po odkryciu, że jego kuzyn o tym samym imieniu, syn Jana Ofiary, zmarł w tym samym roku, co wyjaśniło wcześniejsze nieścisłości w dokumentacji.",
+      "en": "Son of Jakub Ofiara and Magdalena née Wieczorek. He died at the age of two. His death record (no. 67 from 1863) was definitively identified after it was discovered that his cousin of the same name, son of Jan Ofiara, had died in the same year, which clarified earlier documentary discrepancies."
     },
     "events": [
       {
@@ -6985,10 +6962,10 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [129, 130],
+    "parentIds": [129, 362],
     "biography": {
-      "pl": "Córka Jakuba i Marianny z Wieczorków. W jej akcie zgonu ojciec został błędnie zapisany jako Józef. Zmarła w wieku dwóch dni.",
-      "en": "Daughter of Jakub and Marianna née Wieczorek. In her death record, her father was mistakenly recorded as Józef. She died at the age of two days."
+      "pl": "Córka Jakuba i Magdaleny z d. Wieczorek. W jej akcie zgonu ojciec został błędnie zapisany jako Józef. Zmarła w wieku dwóch dni.",
+      "en": "Daughter of Jakub and Magdalena née Wieczorek. In her death record, her father was mistakenly recorded as Józef. She died at the age of two days."
     },
     "events": [
       {
@@ -8263,11 +8240,11 @@
     "birthTimeQualifier": "morning",
     "family": "gierczak",
     "spouseIds": [411, 395],
-    "childIds": [410, 393, 429, 430, 431, 432],
+    "childIds": [410, 393, 429, 430, 431, 432, 442],
     "parentIds": [407, 408],
     "biography": {
-      "pl": "Syn Ludwika Gierczaka i Rozalii z domu Sulis. Urodził się w Młynku Wrzoskim. Był dwukrotnie żonaty. Z pierwszą żoną, Marianną z domu Bratkowską, miał syna Stanisława (ur. 1848) oraz córki Katarzynę (zm. 1858), Mariannę (zm. 1849) i Józefę (zm. 1856). Z drugą żoną, Marianną z domu Oparcik, miał synów Walentego (ur. ok. 1863) i Mateusza (zm. 1873). Mieszkał we Wrzosie i Domaniowie.",
-      "en": "Son of Ludwik Gierczak and Rozalia née Sulis. He was born in Młynek Wrzoski. He was married twice. With his first wife, Marianna née Bratkowska, he had a son, Stanisław (b. 1848) and daughters Katarzyna (d. 1858), Marianna (d. 1849), and Józefa (d. 1856). With his second wife, Marianna née Oparcik, he had sons Walenty (b. ca. 1863) and Mateusz (d. 1873). He lived in Wrzos and Domaniów."
+      "pl": "Syn Ludwika Gierczaka i Rozalii z domu Sulis. Urodził się w Młynku Wrzoskim. Był dwukrotnie żonaty. Z pierwszą żoną, Marianną z domu Bratkowską, miał syna Stanisława (ur. 1848) oraz córki Katarzynę (zm. 1858), Mariannę (zm. 1849) i Józefę (zm. 1856). Z drugą żoną, Marianną z domu Oparcik, miał synów Walentego (ur. ok. 1863), Mateusza (zm. 1873) oraz córkę Ewę (ur. ok. 1869). Mieszkał we Wrzosie i Domaniowie.",
+      "en": "Son of Ludwik Gierczak and Rozalia née Sulis. He was born in Młynek Wrzoski. He was married twice. With his first wife, Marianna née Bratkowska, he had a son, Stanisław (b. 1848) and daughters Katarzyna (d. 1858), Marianna (d. 1849), and Józefa (d. 1856). With his second wife, Marianna née Oparcik, he had sons Walenty (b. ca. 1863), Mateusz (d. 1873), and a daughter Ewa (b. ca. 1869). He lived in Wrzos and Domaniów."
     },
     "events": [
       {
@@ -8287,11 +8264,11 @@
     "maidenName": "Oparcik",
     "family": "gierczak",
     "spouseIds": [394],
-    "childIds": [393, 432],
+    "childIds": [393, 432, 442],
     "parentIds": [],
     "biography": {
-      "pl": "Żona Wawrzyńca Gerczaka (ID 394) i matka Walentego oraz Mateusza. Nazwisko panieńskie pochodzi z aktu ślubu jej syna (ID 393). Prawdopodobnie była drugą żoną Wawrzyńca, ponieważ w akcie urodzenia jej starszego przyrodniego syna Stanisława (ID 410) matką jest Marianna z Bratkowskich.",
-      "en": "Wife of Wawrzyniec Gerczak (ID 394) and mother of Walenty and Mateusz. Her maiden name comes from her son's marriage certificate (ID 393). She was likely Wawrzyniec's second wife, as the birth certificate of her older stepson Stanisław (ID 410) lists his mother as Marianna née Bratkowska."
+      "pl": "Żona Wawrzyńca Gerczaka (ID 394) i matka Walentego, Mateusza oraz Ewy. Nazwisko panieńskie pochodzi z aktów ślubu jej dzieci. Prawdopodobnie była drugą żoną Wawrzyńca.",
+      "en": "Wife of Wawrzyniec Gerczak (ID 394) and mother of Walenty, Mateusz and Ewa. Her maiden name comes from her children's marriage certificates. She was likely Wawrzyniec's second wife."
     }
   },
   {
@@ -9012,5 +8989,77 @@
       "pl": "Żona Adama Kozyry i matka Tekli (ID 18).",
       "en": "Wife of Adam Kozyra and mother of Tekla (ID 18)."
     }
+  },
+  {
+    "id": 442,
+    "firstName": "Ewa",
+    "lastName": "Sadowska",
+    "maidenName": "Gierczak",
+    "birthDateNote": "ok. 1869",
+    "photoUrl": null,
+    "family": "gierczak",
+    "spouseIds": [443],
+    "childIds": [444],
+    "parentIds": [394, 395],
+    "marriages": [
+      {
+        "spouseId": 443,
+        "date": "1885-02-02",
+        "source": {
+          "documentId": 59
+        }
+      }
+    ],
+    "biography": {
+      "pl": "Córka Wawrzyńca Gierczaka i Marianny z d. Oparcik. Siostra Walentego Gerczaka (ID 393). W 1885 roku, w wieku 16 lat, poślubiła Adama Sadowskiego.",
+      "en": "Daughter of Wawrzyniec Gierczak and Marianna née Oparcik. Sister of Walenty Gerczak (ID 393). In 1885, at the age of 16, she married Adam Sadowski."
+    }
+  },
+  {
+    "id": 443,
+    "firstName": "Adam",
+    "lastName": "Sadowski",
+    "photoUrl": null,
+    "family": "gierczak",
+    "spouseIds": [442],
+    "childIds": [444],
+    "parentIds": [],
+    "marriages": [
+      {
+        "spouseId": 442,
+        "date": "przed 1892"
+      }
+    ],
+    "biography": {
+      "pl": "Mąż Ewy z domu Gerczak (ID 442) i ojciec Franciszki Sadowskiej. Mieszkał w Oblasie.",
+      "en": "Husband of Ewa née Gerczak (ID 442) and father of Franciszka Sadowska. Lived in Oblas."
+    }
+  },
+  {
+    "id": 444,
+    "firstName": "Franciszka",
+    "lastName": "Sadowska",
+    "birthDate": "1892-03-04",
+    "birthTime": "22:00",
+    "birthTimeQualifier": "evening",
+    "photoUrl": null,
+    "family": "gierczak",
+    "spouseIds": [],
+    "childIds": [],
+    "parentIds": [443, 442],
+    "biography": {
+      "pl": "Córka Adama Sadowskiego i Ewy z domu Gerczak (ID 442). Urodzona w Oblasie.",
+      "en": "Daughter of Adam Sadowski and Ewa née Gerczak (ID 442). Born in Oblas."
+    },
+    "events": [
+      {
+        "type": "birth",
+        "date": "1892-03-04",
+        "place": "Oblas",
+        "source": {
+          "documentId": 58
+        }
+      }
+    ]
   }
 ]

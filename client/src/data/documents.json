@@ -1706,6 +1706,76 @@
     ]
   },
   {
+    "id": 58,
+    "title_pl": "Akt Urodzenia: Franciszka Sadowska (1892)",
+    "title_en": "Birth Record: Franciszka Sadowska (1892)",
+    "type": "birth_record",
+    "description_pl": "Parafia Zakrzew (Zakrzów), akt nr 17 z 1892 r.",
+    "description_en": "Zakrzew (Zakrzów) Parish, record no. 17 from 1892.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Состоялось въ селеніи Закшевѣ, Девятнадцатаго Февраля (четвертаго Марта) тысяча восемьсотъ девяносто второго года, въ девять часовъ утра. Явился Адамъ Садовскій, двадцати четырехъ лѣтъ отъ роду, земледелецъ, житель деревни Обласъ, въ присутствіи свидѣтелей Станислава и Францишка Банасѣевъ, земледельцевъ изъ деревни Обласъ, и предъявилъ намъ младенца женскаго пола, объявляя, что онъ родился въ деревнѣ Обласъ двадцатого Февраля (четвертаго Марта) сего года въ десять часовъ вечера, отъ его законной жены Евы урожденной Герчакъ, двадцати двухъ лѣтъ отъ роду. Младенцу сему при святомъ крещеніи совершенномъ сего числа дано имя Францишка, а воспріемниками ея были: Станиславъ Банасѣкъ и Маріанна Патей. Этотъ актъ объявляющему и свидѣтелямъ неграмотнымъ прочитанъ, Нами только подписанъ.",
+    "translation_pl": "Działo się w osadzie Zakrzew, dziewiętnastego lutego (czwartego marca) tysiąc osiemset dziewięćdziesiątego drugiego roku, o godzinie dziewiątej rano. Stawił się Adam Sadowski, lat dwadzieścia cztery, rolnik, mieszkaniec wsi Oblas, w obecności świadków Stanisława i Franciszka Banasiów, rolników ze wsi Oblas, i okazał nam niemowlę płci żeńskiej, oświadczając, że urodziło się ono we wsi Oblas dwudziestego lutego (czwartego marca) bieżącego roku o godzinie dziesiątej wieczorem, z jego prawowitej żony Ewy z domu Gerczak, lat dwadzieścia dwa. Niemowlęciu temu przy chrzcie świętym, który odbył się dzisiaj, nadano imię Franciszka, a jej rodzicami chrzestnymi byli: Stanisław Banaś i Marianna Patej. Akt ten oświadczającemu i świadkom, którzy są niepiśmienni, został przeczytany i tylko przez nas podpisany.",
+    "translation_en": "It happened in the settlement of Zakrzew, on the nineteenth of February (fourth of March), eighteen hundred and ninety-two, at nine o'clock in the morning. Appeared Adam Sadowski, twenty-four years old, a farmer, resident of the village of Oblas, in the presence of witnesses Stanisław and Franciszek Banaś, farmers from the village of Oblas, and he presented to us a female infant, declaring that she was born in the village of Oblas on the twentieth of February (fourth of March) of the current year at ten o'clock in the evening, to his lawful wife Ewa née Gerczak, twenty-two years old. At the holy baptism performed this day, this infant was given the name Franciszka, and her godparents were: Stanisław Banaś and Marianna Patej. This act was read to the declarant and the illiterate witnesses, and signed only by us.",
+    "extracted_data": [
+      {
+        "label_pl": "Ojciec",
+        "label_en": "Father",
+        "value_pl": "Adam Sadowski, 24 lata",
+        "value_en": "Adam Sadowski, 24 years old"
+      },
+      {
+        "label_pl": "Matka",
+        "label_en": "Mother",
+        "value_pl": "Ewa z Gerczaków, 22 lata",
+        "value_en": "Ewa née Gerczak, 22 years old"
+      },
+      {
+        "label_pl": "Chrzestni",
+        "label_en": "Godparents",
+        "value_pl": "Stanisław Banaś i Marianna Patej",
+        "value_en": "Stanisław Banaś and Marianna Patej"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "title_pl": "Akt Ślubu: Adam Sadowski i Ewa Gierczak (1885)",
+    "title_en": "Marriage Record: Adam Sadowski & Ewa Gierczak (1885)",
+    "type": "marriage_record",
+    "description_pl": "Parafia Zakrzew (Zakrzów), akt nr 4, 1885 r.",
+    "description_en": "Zakrzew (Zakrzów) Parish, record no. 4, 1885.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Состоялось въ деревнѣ Закшевѣ, Января двадцатого (Февраля второго) дня тысяча восемьсотъ восемьдесятъ пятаго года, въ часъ по полудни. Объявляемъ, что въ присутствіи свидѣтелей Карла Герчака и Францишка Козеры, земледельцевъ, заключенъ въ этотъ день религіозный обрядъ бракосочетанія между Адамомъ Садовскимъ, холостымъ, двадцати трехъ лѣтъ отъ роду, сыномъ Францишка и Анны урожденной Сукенникъ, крестьяниномъ изъ деревни Обласъ, и Евою Герчакъ, дѣвицею, шестнадцати лѣтъ отъ роду, дочерью Вавржинца и Марiанны урожденной Опарчикъ, при родителяхъ въ Доманевѣ живущею. Бракосочетанію этому предшествовали три оглашенія въ здѣшнемъ приходскомъ костелѣ въ дни: шестого (осьмнадцатого), тринадцатого (двадцать пятаго) Января и двадцатаго сего же месяца (перваго Февраля) сего года. Новобрачные объявили, что брачнаго договора они между собою не заключали. Религіозный обрядъ совершенъ ксендзомъ Іосифомъ Тальбергомъ. Этотъ актъ присутствующимъ и новобрачнымъ неграмотнымъ прочитанъ, нами только подписанъ.",
+    "translation_pl": "Działo się we wsi Zakrzew, dwudziestego stycznia (drugiego lutego) tysiąc osiemset osiemdziesiąt piątego roku, o godzinie pierwszej po południu. Oświadczamy, że w obecności świadków Karola Gierczaka i Franciszka Kozery, rolników, zawarty został dzisiaj religijny obrzęd zawarcia małżeństwa między Adamem Sadowskim, kawalerem, lat dwadzieścia trzy, synem Franciszka i Anny z domu Sukiennik, rolnikiem ze wsi Oblas, a Ewą Gierczak, panną, lat szesnaście, córką Wawrzyńca i Marianny z domu Oparcik, przy rodzicach w Domaniowie zamieszkałą. Małżeństwo to poprzedziły trzy zapowiedzi ogłoszone w tutejszym kościele parafialnym w dniach: szóstego (osiemnastego), trzynastego (dwudziestego piątego) stycznia i dwudziestego tegoż miesiąca (pierwszego lutego) tego roku. Nowożeńcy oświadczyli, że nie zawarli między sobą umowy przedślubnej. Obrzęd religijny został dokonany przez księdza Józefa Talberga. Akt ten obecnym i nowożeńcom, którzy są niepiśmienni, został przeczytany i tylko przez nas podpisany.",
+    "translation_en": "It happened in the village of Zakrzew, on the twentieth of January (second of February), eighteen hundred and eighty-five, at one o'clock in the afternoon. We declare that in the presence of witnesses Karol Gierczak and Franciszek Kozera, farmers, a religious marriage ceremony was contracted today between Adam Sadowski, a bachelor, twenty-three years old, son of Franciszek and Anna née Sukiennik, a farmer from the village of Oblas, and Ewa Gierczak, a maiden, sixteen years old, daughter of Wawrzyniec and Marianna née Oparcik, living with her parents in Domaniów. This marriage was preceded by three banns announced in the local parish church on the days: the sixth (eighteenth), thirteenth (twenty-fifth) of January, and the twentieth of this same month (first of February) of this year. The newlyweds declared that they had not entered into a prenuptial agreement. The religious ceremony was performed by Father Józef Talberg. This act was read to the present and to the illiterate newlyweds, and was signed only by us.",
+    "extracted_data": [
+      {
+        "label_pl": "Pan Młody",
+        "label_en": "Groom",
+        "value_pl": "Adam Sadowski, 23 lata",
+        "value_en": "Adam Sadowski, 23 years old"
+      },
+      {
+        "label_pl": "Rodzice Pana Młodego",
+        "label_en": "Groom's Parents",
+        "value_pl": "Franciszek i Anna z Sukienników",
+        "value_en": "Franciszek and Anna née Sukiennik"
+      },
+      {
+        "label_pl": "Panna Młoda",
+        "label_en": "Bride",
+        "value_pl": "Ewa Gierczak, 16 lat",
+        "value_en": "Ewa Gierczak, 16 years old"
+      },
+      {
+        "label_pl": "Rodzice Panny Młodej",
+        "label_en": "Bride's Parents",
+        "value_pl": "Wawrzyniec i Marianna z Oparcików",
+        "value_en": "Wawrzyniec and Marianna née Oparcik"
+      }
+    ]
+  },
+  {
     "id": 61,
     "title_pl": "Akt Zgonu: Andrzej Gierczak (1868)",
     "title_en": "Death Record: Andrzej Gierczak (1868)",
@@ -7264,6 +7334,50 @@
         "label_en": "Bride's Parents",
         "value_pl": "Andrzej i Józefa z Kotkowskich",
         "value_en": "Andrzej and Józefa née Kotkowska"
+      }
+    ]
+  },
+  {
+    "id": 381,
+    "title_pl": "Akt Ślubu: Karol Gierczak i Tekla Kozyra (1857)",
+    "title_en": "Marriage Record: Karol Gierczak & Tekla Kozyra (1857)",
+    "type": "marriage_record",
+    "description_pl": "Parafia Zakrzew (Zakrzów), akt nr 16, 1857 r. Ślub Karola Gierczaka, syna Ambrożego i Kunegundy, z Teklą Kozyrą, córką Adama i Józefy.",
+    "description_en": "Zakrzew (Zakrzów) Parish, record no. 16, 1857. Marriage of Karol Gierczak, son of Ambroży and Kunegunda, to Tekla Kozyra, daughter of Adam and Józefa.",
+    "imageUrl": "/images/k.avif",
+    "transcription": "Działo się we wsi Zakrzowie dnia czwartego /szesnastego/ Listopada Tysiąc Ośmset pięćdziesiątego siódmego roku o godzinie czwartej po południu. Wiadomo czyniemy, iż w przytomności Świadków Adama Kozyry lat czterdzieści i Franciszka Kozyry lat trzydzieści dwa mających, obydwóch włościan w Gulinku zamieszkałych, na dniu dzisiejszym zawarte zostało religijne Małżeństwo między Karolem Gierczakiem, młodzianem, we wsi Mleczkowie przy familii zostającym, lat dwadzieścia ieden maiącym, synem niegdy Ambrożego i zmarłej Kunegundy z Kaniów małżonków Gierczaków z iedney, a Teklą Kozyrówną, panną, przy familii w Gulinku zostającą, lat dwadzieścia sześć maiącą, córką Adama i Józefy z Kredowskich małżonków Kozyrów z drugiey strony. Małżeństwo to poprzedziły trzy zapowiedzi w dniach dwudziestym siódmym Października, pierwszym i ósmym Listopada roku bieżącego w tutejszym Parafialnym Kościele ogłoszone; Nowożeńcy oświadczyli, iż żadna tamująca zawarciu tegoż Małżeństwa nie zaszła przeszkoda, Rodzice na zawarcie tegoż Małżeństwa zezwolili. Nowożeńcy zatem oświadczyli iż zawierają węzeł Małżeński. Akt ten stawającym i świadkom pisać nie umiejącym przeczytany, przez nas podpisany został. X. Franciszek Stapiński.",
+    "translation_pl": "Działo się we wsi Zakrzew dnia czwartego (szesnastego) listopada tysiąc osiemset pięćdziesiątego siódmego roku o godzinie czwartej po południu. Czynimy wiadomo, że w obecności świadków Adama Kozyry, lat czterdzieści, i Franciszka Kozyry, lat trzydzieści dwa, obu włościan zamieszkałych w Gulinku, na dniu dzisiejszym zawarte zostało religijne małżeństwo między Karolem Gierczakiem, młodzianem, we wsi Mleczków przy rodzinie pozostającym, lat dwadzieścia jeden mającym, synem zmarłego Ambrożego i zmarłej Kunegundy z Kaniów małżonków Gierczaków z jednej strony, a Teklą Kozyrówną, panną, przy rodzinie w Gulinku pozostającą, lat dwadzieścia sześć mającą, córką Adama i Józefy z Kredowskich małżonków Kozyrów z drugiej strony. Małżeństwo to poprzedziły trzy zapowiedzi ogłoszone w dniach dwudziestym siódmym października, pierwszym i ósmym listopada roku bieżącego w tutejszym kościele parafialnym. Nowożeńcy oświadczyli, iż żadna przeszkoda uniemożliwiająca zawarcie tegoż małżeństwa nie zaszła, a rodzice na zawarcie tegoż małżeństwa zezwolili. Nowożeńcy zatem oświadczyli, iż zawierają węzeł małżeński. Akt ten stawiającym i świadkom, którzy pisać nie umieją, przeczytany, przez nas podpisany został. Ksiądz Franciszek Stapiński.",
+    "translation_en": "It happened in the village of Zakrzew on the fourth (sixteenth) of November, one thousand eight hundred and fifty-seven, at four o'clock in the afternoon. We make it known that in the presence of witnesses Adam Kozyra, forty years old, and Franciszek Kozyra, thirty-two years old, both peasants residing in Gulinek, on this day a religious marriage was contracted between Karol Gierczak, a young man, staying with his family in the village of Mleczków, twenty-one years of age, son of the late Ambroży and the deceased Kunegunda née Kania, spouses Gierczak, of the one part, and Tekla Kozyrówna, a maiden, staying with her family in Gulinek, twenty-six years of age, daughter of Adam and Józefa née Kredowska, spouses Kozyra, of the other part. This marriage was preceded by three banns announced on the twenty-seventh of October, the first and eighth of November of the current year in the local parish church. The newlyweds declared that no impediment preventing the solemnization of this marriage had arisen, and the parents consented to its contraction. The newlyweds therefore declared that they were entering into the bond of matrimony. This act, having been read to the appearing parties and the witnesses, who are illiterate, was signed by us. Father Franciszek Stapiński.",
+    "extracted_data": [
+      {
+        "label_pl": "Pan Młody",
+        "label_en": "Groom",
+        "value_pl": "Karol Gierczak, 21 lat",
+        "value_en": "Karol Gierczak, 21 years old"
+      },
+      {
+        "label_pl": "Rodzice Pana Młodego",
+        "label_en": "Groom's Parents",
+        "value_pl": "Ambroży (zm.) i Kunegunda z Kaniów (zm.)",
+        "value_en": "Ambroży (dec.) and Kunegunda née Kania (dec.)"
+      },
+      {
+        "label_pl": "Panna Młoda",
+        "label_en": "Bride",
+        "value_pl": "Tekla Kozyra, 26 lat",
+        "value_en": "Tekla Kozyra, 26 years old"
+      },
+      {
+        "label_pl": "Rodzice Panny Młodej",
+        "label_en": "Bride's Parents",
+        "value_pl": "Adam i Józefa z Kredowskich",
+        "value_en": "Adam and Józefa née Kredowska"
+      },
+      {
+        "label_pl": "Świadkowie",
+        "label_en": "Witnesses",
+        "value_pl": "Adam Kozyra (40 lat), Franciszek Kozyra (32 lata)",
+        "value_en": "Adam Kozyra (40 years old), Franciszek Kozyra (32 years old)"
       }
     ]
   }
