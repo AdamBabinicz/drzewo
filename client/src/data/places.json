@@ -117,5 +117,18 @@
       "en": "Radom is a historic royal city with origins dating back to the 10th century. In the 15th century, it was a site of nobility gatherings and general sejms; the 'Nihil novi' constitution was passed here. In the 19th century, under Russian partition, it became a governorate capital. After World War II, industrial development boomed, attracting people from surrounding villages in search of work. For the Gierczak and Ofiara families, Radom became a destination for economic migration in the 20th century, a symbol of social advancement, and the transition from rural to urban life, which was the fate of, among others, Józef Gierczak, the author's father."
     },
     "imageUrl": "/images/radom.avif"
+  },
+  {
+    "id": "wrzos",
+    "name": "Wrzos",
+    "description": {
+      "pl": "Miejsce czasowego pobytu protoplasty rodu Gierczaków, Tomasza.",
+      "en": "Temporary place of residence of the Gierczak family's progenitor, Tomasz."
+    },
+    "history": {
+      "pl": "Wrzos to wieś szlachecka, która od XIV wieku jest siedzibą parafii św. Wawrzyńca. [4, 5] W latach 1816-1820 mieszkał tu z rodziną Tomasz Gierczak, protoplasta rodu, pracując jako robotnik rolny. Był to ważny, choć tymczasowy, przystanek w historii rodziny przed jej osiedleniem się w Jaszowicach.",
+      "en": "Wrzos is a noble village that has been the seat of the St. Lawrence parish since the 14th century. [4, 5] Between 1816 and 1820, the family's progenitor, Tomasz Gierczak, lived here with his family, working as a farm laborer. It was an important, albeit temporary, stop in the family's history before they settled in Jaszowice."
+    },
+    "imageUrl": "/images/wrzos.avif"
   }
 ]
