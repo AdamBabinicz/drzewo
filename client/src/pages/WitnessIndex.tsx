@@ -1,5 +1,6 @@
 import { useState, useMemo } from "react";
-import { Search, MapPin, BookOpen, XCircle } from "lucide-react";
+import { Link } from "wouter";
+import { Search, MapPin, BookOpen, XCircle, User } from "lucide-react";
 import { useLanguage } from "@/hooks/useLanguage";
 import genealogyData from "@/data/index";
 import { Input } from "@/components/ui/input";
@@ -108,6 +109,15 @@ export default function WitnessIndex() {
                       <MapPin className="w-3.5 h-3.5 mr-2" />
                       {t("witnessIndex.residence")}: {witness.residence}
                     </p>
+                    {witness.personId && (
+                      <Link
+                        href={`/person/${witness.personId}`}
+                        className="text-sm text-blue-600 hover:underline mt-2 flex items-center"
+                      >
+                        <User className="w-3.5 h-3.5 mr-2" />
+                        {t("witnessIndex.viewInTree")}
+                      </Link>
+                    )}
                     <div className="mt-3 pt-3 border-t heritage-border">
                       <h4 className="text-xs font-semibold text-muted-foreground mb-2 flex items-center">
                         <BookOpen className="w-3.5 h-3.5 mr-2" />

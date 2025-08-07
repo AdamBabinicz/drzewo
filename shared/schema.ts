@@ -1,123 +1,101 @@
-// src/shared/schema.ts
-
-type LocalizedString = {
+export interface Translation {
   pl: string;
   en: string;
-};
+}
 
-export type Marriage = {
-  spouseId: number;
-  date?: string | null;
-  place?: string | null;
-  source?: EventSource;
-  note?: LocalizedString;
-};
-
-export type Anecdote = {
-  pl: string;
-  en: string;
-};
-
-export type Keepsake = {
+export interface Keepsake {
   imageUrl: string;
-  title: {
-    pl: string;
-    en: string;
-  };
-  description: {
-    pl: string;
-    en: string;
-  };
-};
+  title: Translation;
+  description: Translation;
+}
 
-export type EventSource = {
-  documentId: number;
-};
+export interface Marriage {
+  spouseId: number;
+  date: string | null;
+  source?: {
+    documentId: number;
+  };
+  note?: Translation;
+}
 
-export type Event = {
+export interface Event {
   type: "birth" | "death" | "marriage";
-  date: string;
-  place: string;
-  source: EventSource;
-  note?: {
-    pl: string;
-    en: string;
+  date?: string;
+  place?: string;
+  time?: string;
+  timeQualifier?: string;
+  source?: {
+    documentId: number;
   };
-};
+  note?: Translation;
+  spouseId?: number;
+  witnesses?: {
+    witnessId: number;
+  }[];
+}
 
-export type Person = {
+export interface Person {
   id: number;
   firstName: string;
   lastName: string;
-  maidenName?: string | null;
+  maidenName?: string;
   birthDate?: string | null;
-  birthDateNote?: string | null;
-  birthTime?: string | null;
-  birthTimeQualifier?: string | null;
+  birthDateNote?: string;
+  birthTime?: string;
+  birthTimeQualifier?: string;
   deathDate?: string | null;
-  deathDateNote?: string | null;
-  deathTime?: string | null;
-  deathTimeQualifier?: string | null;
-  birthPlace?: string | null;
-  deathPlace?: string | null;
-  occupation: LocalizedString | string | null;
-  biography: LocalizedString | string | null;
-  family: "gierczak" | "ofiara";
+  deathDateNote?: string;
+  deathTime?: string;
+  deathTimeQualifier?: string;
   photoUrl?: string | null;
-  parentIds?: number[];
-  spouseIds?: number[];
-  childIds?: number[];
-  marriages?: Marriage[];
-  anecdotes?: Anecdote[];
-  events?: Event[];
+  family: "gierczak" | "ofiara";
+  spouseIds: number[];
+  childIds: number[];
+  parentIds: number[];
+  occupation?: Translation;
+  marriages: Marriage[];
+  biography: Translation;
+  anecdotes?: Translation[];
   keepsakes?: Keepsake[];
-};
+  events?: Event[];
+}
 
-export type DocumentType =
-  | "marriage_record"
-  | "death_record"
-  | "birth_record"
-  | "photo"
-  | "genealogy_chart"
-  | "other";
-
-export type ExtractedDataItem = {
+export interface ExtractedData {
   label_pl: string;
   label_en: string;
   value_pl: string;
   value_en: string;
-};
+}
 
-export type Document = {
+export interface Document {
   id: number;
-  personId?: number;
-  title_pl?: string;
-  title_en?: string;
-  type: DocumentType;
-  description_pl?: string;
-  description_en?: string;
+  title_pl: string;
+  title_en: string;
+  type: string;
+  description_pl: string;
+  description_en: string;
   imageUrl: string;
   transcription?: string;
   translation_pl?: string;
   translation_en?: string;
-  extracted_data?: ExtractedDataItem[];
-};
+  witnessIds?: number[];
+  extracted_data?: ExtractedData[];
+}
 
-export type Place = {
+export interface Place {
   id: string;
   name: string;
-  context?: "gierczak" | "ofiara";
-  description: LocalizedString | string;
-  history?: LocalizedString;
+  context?: string;
+  description: Translation;
+  history: Translation;
   imageUrl: string;
-};
+}
 
-export type Witness = {
+export interface Witness {
+  id: number;
   lastName: string;
   firstName: string;
   residence: string;
   documentIds: number[];
-};
-
-export type InsertPerson = Omit<Person, "id">;
-export type InsertDocument = Omit<Document, "id">;
+  personId?: number;
+}

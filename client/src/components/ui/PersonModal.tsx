@@ -29,7 +29,7 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from "@/components/ui/popover";
-import { Person, Anecdote, Event } from "../../../../shared/schema";
+import { Person, Event, Translation } from "../../../../shared/schema";
 import { useLanguage } from "@/hooks/useLanguage";
 import DocumentModal from "./DocumentModal";
 import {
@@ -39,6 +39,7 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip";
 import { Button } from "./button";
+import genealogyData from "@/data/index";
 
 interface PersonModalProps {
   person: Person | null;
@@ -289,6 +290,49 @@ export default function PersonModal({
                                   </TooltipContent>
                                 </Tooltip>
                               )}
+                              {birthEvent?.witnesses &&
+                                birthEvent.witnesses.length > 0 && (
+                                  <Popover>
+                                    <PopoverTrigger asChild>
+                                      <Button
+                                        variant="ghost"
+                                        size="icon"
+                                        className="h-8 w-8 -ml-1"
+                                      >
+                                        <Users className="h-4 w-4" />
+                                      </Button>
+                                    </PopoverTrigger>
+                                    <PopoverContent className="w-64 z-50">
+                                      <div className="space-y-2">
+                                        <h4 className="font-semibold leading-none">
+                                          {t("person.witnesses")}
+                                        </h4>
+                                        <div className="text-sm">
+                                          <ul className="list-disc pl-4 space-y-1">
+                                            {birthEvent.witnesses.map(
+                                              ({ witnessId }) => {
+                                                const witness =
+                                                  genealogyData.witnesses.find(
+                                                    (w) => w.id === witnessId
+                                                  );
+                                                if (!witness) return null;
+                                                return (
+                                                  <li key={witness.id}>
+                                                    {witness.firstName}{" "}
+                                                    {witness.lastName}
+                                                    <span className="text-xs text-muted-foreground ml-1">
+                                                      ({witness.residence})
+                                                    </span>
+                                                  </li>
+                                                );
+                                              }
+                                            )}
+                                          </ul>
+                                        </div>
+                                      </div>
+                                    </PopoverContent>
+                                  </Popover>
+                                )}
                             </div>
                           )}
                           {(currentPerson.deathDate ||
@@ -319,6 +363,49 @@ export default function PersonModal({
                                   </TooltipContent>
                                 </Tooltip>
                               )}
+                              {deathEvent?.witnesses &&
+                                deathEvent.witnesses.length > 0 && (
+                                  <Popover>
+                                    <PopoverTrigger asChild>
+                                      <Button
+                                        variant="ghost"
+                                        size="icon"
+                                        className="h-8 w-8 -ml-1"
+                                      >
+                                        <Users className="h-4 w-4" />
+                                      </Button>
+                                    </PopoverTrigger>
+                                    <PopoverContent className="w-64 z-50">
+                                      <div className="space-y-2">
+                                        <h4 className="font-semibold leading-none">
+                                          {t("person.witnesses")}
+                                        </h4>
+                                        <div className="text-sm">
+                                          <ul className="list-disc pl-4 space-y-1">
+                                            {deathEvent.witnesses.map(
+                                              ({ witnessId }) => {
+                                                const witness =
+                                                  genealogyData.witnesses.find(
+                                                    (w) => w.id === witnessId
+                                                  );
+                                                if (!witness) return null;
+                                                return (
+                                                  <li key={witness.id}>
+                                                    {witness.firstName}{" "}
+                                                    {witness.lastName}
+                                                    <span className="text-xs text-muted-foreground ml-1">
+                                                      ({witness.residence})
+                                                    </span>
+                                                  </li>
+                                                );
+                                              }
+                                            )}
+                                          </ul>
+                                        </div>
+                                      </div>
+                                    </PopoverContent>
+                                  </Popover>
+                                )}
                             </div>
                           )}
                         </div>
@@ -332,6 +419,11 @@ export default function PersonModal({
                       if (!spouse) return null;
 
                       const marriageDocId = marriage.source?.documentId;
+                      const marriageEvent = currentPerson.events?.find(
+                        (e) =>
+                          e.type === "marriage" &&
+                          e.spouseId === marriage.spouseId
+                      );
 
                       return (
                         <div key={index} className="flex items-start space-x-3">
@@ -367,6 +459,49 @@ export default function PersonModal({
                                     </TooltipContent>
                                   </Tooltip>
                                 )}
+                                {marriageEvent?.witnesses &&
+                                  marriageEvent.witnesses.length > 0 && (
+                                    <Popover>
+                                      <PopoverTrigger asChild>
+                                        <Button
+                                          variant="ghost"
+                                          size="icon"
+                                          className="h-8 w-8 -ml-1"
+                                        >
+                                          <Users className="h-4 w-4" />
+                                        </Button>
+                                      </PopoverTrigger>
+                                      <PopoverContent className="w-64 z-50">
+                                        <div className="space-y-2">
+                                          <h4 className="font-semibold leading-none">
+                                            {t("person.witnesses")}
+                                          </h4>
+                                          <div className="text-sm">
+                                            <ul className="list-disc pl-4 space-y-1">
+                                              {marriageEvent.witnesses.map(
+                                                ({ witnessId }) => {
+                                                  const witness =
+                                                    genealogyData.witnesses.find(
+                                                      (w) => w.id === witnessId
+                                                    );
+                                                  if (!witness) return null;
+                                                  return (
+                                                    <li key={witness.id}>
+                                                      {witness.firstName}{" "}
+                                                      {witness.lastName}
+                                                      <span className="text-xs text-muted-foreground ml-1">
+                                                        ({witness.residence})
+                                                      </span>
+                                                    </li>
+                                                  );
+                                                }
+                                              )}
+                                            </ul>
+                                          </div>
+                                        </div>
+                                      </PopoverContent>
+                                    </Popover>
+                                  )}
                                 {marriage.note && (
                                   <Popover>
                                     <PopoverTrigger asChild>
@@ -438,11 +573,11 @@ export default function PersonModal({
                         </div>
                       </div>
                     )}
-                    {currentPerson.birthPlace && (
+                    {birthEvent?.place && (
                       <div className="flex items-center space-x-3">
                         <MapPin className="w-4 h-4 text-muted-foreground" />
                         <span className="heritage-text">
-                          {t("person.bornIn")}: {currentPerson.birthPlace}
+                          {t("person.bornIn")}: {birthEvent.place}
                         </span>
                       </div>
                     )}
@@ -473,7 +608,7 @@ export default function PersonModal({
                     </h4>
                     <div className="space-y-4">
                       {currentPerson.anecdotes?.map(
-                        (anecdote: Anecdote, index: number) => (
+                        (anecdote: Translation, index: number) => (
                           <blockquote
                             key={index}
                             className="border-l-4 border-heritage-gray dark:border-heritage-gold pl-4 italic text-muted-foreground"

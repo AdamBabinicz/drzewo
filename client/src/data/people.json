@@ -64,9 +64,7 @@
       {
         "spouseId": 154,
         "date": "1842-10-23",
-        "source": {
-          "documentId": 226
-        }
+        "source": { "documentId": 226 }
       }
     ],
     "biography": {
@@ -78,9 +76,19 @@
         "type": "birth",
         "date": "1816-11-24",
         "place": "Wrzos",
-        "source": {
-          "documentId": 111
-        }
+        "source": { "documentId": 111 },
+        "witnesses": [
+          { "witnessId": 90 },
+          { "witnessId": 91 },
+          { "witnessId": 299 }
+        ]
+      },
+      {
+        "type": "marriage",
+        "date": "1842-10-23",
+        "spouseId": 154,
+        "source": { "documentId": 226 },
+        "witnesses": [{ "witnessId": 267 }, { "witnessId": 301 }]
       }
     ]
   },
@@ -95,24 +103,12 @@
     "photoUrl": "/images/ambrozy.avif",
     "family": "gierczak",
     "spouseIds": [382, 8],
-    "childIds": [383, 59, 60, 61, 62, 63, 13, 64, 65],
+    "childIds": [13, 59, 60, 61, 62, 63, 64, 65, 383],
     "parentIds": [1, 2],
-    "occupation": {
-      "pl": "Gospodarz",
-      "en": "Farmer"
-    },
+    "occupation": { "pl": "Gospodarz", "en": "Farmer" },
     "marriages": [
-      {
-        "spouseId": 382,
-        "date": "przed 1818"
-      },
-      {
-        "spouseId": 8,
-        "date": "1820-02-03",
-        "source": {
-          "documentId": 232
-        }
-      }
+      { "spouseId": 382, "date": "przed 1818" },
+      { "spouseId": 8, "date": "1820-02-03", "source": { "documentId": 232 } }
     ],
     "biography": {
       "pl": "3 x pradziadek. Urodził się na początku XIX w. Jego pierwszą żoną była Marianna z domu Nagaba, z którą miał syna Józefa (ur. 1818). Po jej śmierci, w 1820 roku poślubił swoją drugą żonę, Kunegundę Kanię, z którą miał ośmioro dzieci. W akcie ślubu z Kunegundą jest zapisany pod nazwiskiem Cobista.",
@@ -120,12 +116,18 @@
     },
     "events": [
       {
+        "type": "marriage",
+        "date": "1820-02-03",
+        "spouseId": 8,
+        "source": { "documentId": 232 },
+        "witnesses": [{ "witnessId": 53 }, { "witnessId": 158 }]
+      },
+      {
         "type": "death",
         "date": "1836-01-22",
         "place": "Jaszowice",
-        "source": {
-          "documentId": 101
-        }
+        "source": { "documentId": 101 },
+        "witnesses": [{ "witnessId": 289 }, { "witnessId": 9 }]
       }
     ]
   },
@@ -139,30 +141,27 @@
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [188, 147],
-    "childIds": [182, 183, 185, 189, 187, 366, 367, 368, 369, 370],
+    "childIds": [187, 366, 367, 368, 369, 370, 183, 185, 182, 189],
     "parentIds": [1, 2],
     "biography": {
       "pl": "Syn Tomasza Gierczaka i Zofii. Był co najmniej dwukrotnie żonaty. Jego pierwszą żoną była Marianna z domu Nabis, matka Marianny (ur. 1826), Katarzyny (ur. 1829), Antoniny (ur. 1832), Klary (ur. 1838), Józefy (ur. 1842) i Józefa (ur. 1847). W aktach urodzenia jego dzieci nazwisko zapisano w formie 'Gerczak' lub 'Gierczak'. Jego drugą żoną była Marianna z domu Gocman, która została wdową po jego śmierci w 1854 roku. Wiek podany w akcie zgonu (70 lat) jest zawyżony; akty urodzenia dzieci potwierdzają, że miał wtedy ok. 30-49 lat, co wskazuje na rok urodzenia ok. 1798.",
       "en": "Son of Tomasz Gierczak and Zofia. He was married at least twice. His first wife was Marianna née Nabis, mother of Marianna (b. 1826), Katarzyna (b. 1829), Antonina (b. 1832), Klara (b. 1838), and Józefa (b. 1842), and Józef (b. 1847). In his children's birth records, his surname was recorded as 'Gerczak' or 'Gierczak'. His second wife was Marianna née Gocman, who was his widow upon his death in 1854. The age stated in his death record (70 years) is an overestimation; his children's birth records confirm he was around 30-49 years old at the time, indicating a birth year of ca. 1798."
     },
     "marriages": [
-      {
-        "spouseId": 188,
-        "date": "przed 1826"
-      },
-      {
-        "spouseId": 147,
-        "date": "po 1847"
-      }
+      { "spouseId": 188, "date": "przed 1826" },
+      { "spouseId": 147, "date": "po 1847" }
     ],
     "events": [
       {
         "type": "death",
         "date": "1854-04-12",
         "place": "Jaszowice",
-        "source": {
-          "documentId": 55
-        }
+        "source": { "documentId": 55 },
+        "witnesses": [
+          { "witnessId": 46 },
+          { "witnessId": 75 },
+          { "witnessId": 286 }
+        ]
       }
     ]
   },
@@ -194,12 +193,18 @@
     },
     "events": [
       {
+        "type": "marriage",
+        "date": "1837-11-26",
+        "spouseId": 101,
+        "source": { "documentId": 208 },
+        "witnesses": [{ "witnessId": 234 }, { "witnessId": 98 }]
+      },
+      {
         "type": "death",
         "date": "1868-08-29",
         "place": "Chruślice",
-        "source": {
-          "documentId": 61
-        }
+        "source": { "documentId": 61 },
+        "witnesses": [{ "witnessId": 70 }, { "witnessId": 1 }]
       }
     ]
   },
@@ -225,9 +230,8 @@
         "type": "death",
         "date": "1865-08-26",
         "place": "Jedlanka",
-        "source": {
-          "documentId": 16
-        }
+        "source": { "documentId": 16 },
+        "witnesses": [{ "witnessId": 135 }, { "witnessId": 202 }]
       }
     ]
   },
@@ -243,7 +247,7 @@
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [4, 107],
-    "childIds": [59, 60, 61, 62, 63, 13, 64, 65],
+    "childIds": [13, 59, 60, 61, 62, 63, 64, 65, 383],
     "parentIds": [],
     "marriages": [
       {
@@ -267,12 +271,52 @@
     },
     "events": [
       {
+        "type": "marriage",
+        "date": "1820-02-03",
+        "spouseId": 4,
+        "source": {
+          "documentId": 232
+        },
+        "witnesses": [
+          {
+            "witnessId": 53
+          },
+          {
+            "witnessId": 158
+          }
+        ]
+      },
+      {
+        "type": "marriage",
+        "date": "1837-02-27",
+        "spouseId": 107,
+        "source": {
+          "documentId": 231
+        },
+        "witnesses": [
+          {
+            "witnessId": 233
+          },
+          {
+            "witnessId": 287
+          }
+        ]
+      },
+      {
         "type": "death",
         "date": "1852-01-25",
         "place": "Jaszowice",
         "source": {
           "documentId": 230
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 137
+          },
+          {
+            "witnessId": 287
+          }
+        ]
       }
     ]
   },
@@ -316,7 +360,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [273, 274],
+    "parentIds": [283, 284],
     "biography": {
       "pl": "Córka Jana Ofiary i Marianny z d. Wieczorek. Zmarła w wieku jednego roku.",
       "en": "Daughter of Jan Ofiara and Marianna née Wieczorek. She died at the age of one."
@@ -326,9 +370,8 @@
         "type": "death",
         "date": "1868-08-25",
         "place": "Wola Gutowska",
-        "source": {
-          "documentId": 17
-        }
+        "source": { "documentId": 17 },
+        "witnesses": [{ "witnessId": 103 }, { "witnessId": 135 }]
       }
     ]
   },
@@ -346,16 +389,15 @@
     "spouseIds": [18],
     "childIds": [19, 68, 69],
     "parentIds": [4, 8],
-    "occupation": {
-      "pl": "Gospodarz",
-      "en": "Farmer"
-    },
+    "occupation": { "pl": "Gospodarz", "en": "Farmer" },
     "marriages": [
       {
         "spouseId": 18,
         "date": "1857-11-16",
-        "source": {
-          "documentId": 381
+        "source": { "documentId": 381 },
+        "note": {
+          "pl": "Wiek pana młodego podany w akcie (21 lat) jest niespójny z jego datą urodzenia (w rzeczywistości miał 29 lat). Jest to typowy błąd kancelaryjny dla tego okresu.",
+          "en": "The groom's age stated in the record (21 years) is inconsistent with his birth date (he was actually 29). This is a typical clerical error for the period."
         }
       }
     ],
@@ -368,17 +410,22 @@
         "type": "birth",
         "date": "1828-10-26",
         "place": "Jaszowice",
-        "source": {
-          "documentId": 102
-        }
+        "source": { "documentId": 102 },
+        "witnesses": [{ "witnessId": 9 }, { "witnessId": 289 }]
+      },
+      {
+        "type": "marriage",
+        "date": "1857-11-16",
+        "spouseId": 18,
+        "source": { "documentId": 381 },
+        "witnesses": [{ "witnessId": 162 }, { "witnessId": 163 }]
       },
       {
         "type": "death",
         "date": "1903-09-29",
         "place": "Gulinek",
-        "source": {
-          "documentId": 106
-        }
+        "source": { "documentId": 106 },
+        "witnesses": [{ "witnessId": 20 }, { "witnessId": 34 }]
       }
     ]
   },
@@ -416,13 +463,27 @@
         "type": "birth",
         "date": "1831-04-29",
         "place": "Gulinek",
-        "source": { "documentId": 57 }
+        "source": { "documentId": 57 },
+        "witnesses": [
+          { "witnessId": 162 },
+          { "witnessId": 224 },
+          { "witnessId": 260 },
+          { "witnessId": 304 }
+        ]
+      },
+      {
+        "type": "marriage",
+        "date": "1857-11-16",
+        "spouseId": 13,
+        "source": { "documentId": 381 },
+        "witnesses": [{ "witnessId": 162 }, { "witnessId": 163 }]
       },
       {
         "type": "death",
         "date": "1909-02-10",
         "place": "Gulinek",
-        "source": { "documentId": 15 }
+        "source": { "documentId": 15 },
+        "witnesses": [{ "witnessId": 318 }, { "witnessId": 110 }]
       }
     ]
   },
@@ -468,7 +529,15 @@
         "place": "Gulinek",
         "source": {
           "documentId": 2
-        }
+        },
+        "witnesses": [{ "witnessId": 94 }, { "witnessId": 283 }]
+      },
+      {
+        "type": "marriage",
+        "date": "1887-02-14",
+        "spouseId": 22,
+        "source": { "documentId": 27 },
+        "witnesses": [{ "witnessId": 149 }, { "witnessId": 118 }]
       },
       {
         "type": "death",
@@ -476,7 +545,8 @@
         "place": "Gulinek",
         "source": {
           "documentId": 108
-        }
+        },
+        "witnesses": [{ "witnessId": 236 }, { "witnessId": 251 }]
       }
     ]
   },
@@ -503,7 +573,16 @@
     "biography": {
       "pl": "Żona Pawła. Rodzicami Katarzyny byli Mateusz i Marianna z domu Kieraga. Wyszła za mąż w wieku 19 lat.",
       "en": "Wife of Paweł. Katarzyna's parents were Mateusz and Marianna née Kieraga. She married at the age of 19."
-    }
+    },
+    "events": [
+      {
+        "type": "marriage",
+        "date": "1887-02-14",
+        "spouseId": 19,
+        "source": { "documentId": 27 },
+        "witnesses": [{ "witnessId": 149 }, { "witnessId": 118 }]
+      }
+    ]
   },
   {
     "id": 23,
@@ -574,7 +653,34 @@
         "place": "Gulinek",
         "source": {
           "documentId": 28
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 228
+          },
+          {
+            "witnessId": 296
+          },
+          {
+            "witnessId": 298
+          }
+        ]
+      },
+      {
+        "type": "marriage",
+        "date": "1917-11-14",
+        "spouseId": 32,
+        "source": {
+          "documentId": 107
+        },
+        "witnesses": [
+          {
+            "witnessId": 84
+          },
+          {
+            "witnessId": 6
+          }
+        ]
       }
     ]
   },
@@ -626,7 +732,34 @@
         "place": "Gulinek",
         "source": {
           "documentId": 29
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 139
+          },
+          {
+            "witnessId": 187
+          },
+          {
+            "witnessId": 228
+          }
+        ]
+      },
+      {
+        "type": "marriage",
+        "date": "1917-11-14",
+        "spouseId": 26,
+        "source": {
+          "documentId": 107
+        },
+        "witnesses": [
+          {
+            "witnessId": 84
+          },
+          {
+            "witnessId": 6
+          }
+        ]
       }
     ]
   },
@@ -762,6 +895,40 @@
       "pl": "Dziadek autora. Syn Andrzeja Ofiary i Franciszki z d. Szaruch. 06 listopada 1918 poślubił Rozalię Mitak (zm. 22 listopada 1925), z którą miał 3 synów. Po jej śmierci ożenił się 09 lutego 1926 z Heleną Sobień, z którą miał 6 dzieci.",
       "en": "Author's grandfather. Son of Andrzej Ofiara and Franciszka née Szaruch. On November 6, 1918, he married Rozalia Mitak (d. November 22, 1925), with whom he had three sons. After her death, he married Helena Sobień on February 9, 1926, with whom he had six children."
     },
+    "events": [
+      {
+        "type": "marriage",
+        "date": "1918-11-06",
+        "spouseId": 47,
+        "source": {
+          "documentId": 207
+        },
+        "witnesses": [
+          {
+            "witnessId": 57
+          },
+          {
+            "witnessId": 25
+          }
+        ]
+      },
+      {
+        "type": "marriage",
+        "date": "1926-02-09",
+        "spouseId": 46,
+        "source": {
+          "documentId": 105
+        },
+        "witnesses": [
+          {
+            "witnessId": 25
+          },
+          {
+            "witnessId": 6
+          }
+        ]
+      }
+    ],
     "anecdotes": [
       {
         "pl": "Podczas okupacji niemieccy żołnierze stacjonowali w większej izbie, a w mniejszej przebywała siedmioosobowa rodzina. Dziadek opowiadał, że gdy zbliżał się front, podkuł swojego konia gwoździem, żeby udawał kulawego. Niemcy, myśląc, że koń jest niezdolny do pracy, nie zabrali go z wozem. Po ich ucieczce dziadek wyjął gwóźdź i koń chodził normalnie. Dzięki temu sprytnemu zabiegowi udało się ocalić nie tylko zwierzę, ale i wóz niezbędny do pracy w gospodarstwie.",
@@ -874,7 +1041,37 @@
         "place": "Gulinek",
         "source": {
           "documentId": 202
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 258
+          },
+          {
+            "witnessId": 150
+          },
+          {
+            "witnessId": 47
+          },
+          {
+            "witnessId": 191
+          }
+        ]
+      },
+      {
+        "type": "marriage",
+        "date": "1926-02-09",
+        "spouseId": 45,
+        "source": {
+          "documentId": 105
+        },
+        "witnesses": [
+          {
+            "witnessId": 25
+          },
+          {
+            "witnessId": 6
+          }
+        ]
       }
     ],
     "anecdotes": [
@@ -973,12 +1170,36 @@
     },
     "events": [
       {
+        "type": "marriage",
+        "date": "1918-11-06",
+        "spouseId": 45,
+        "source": {
+          "documentId": 207
+        },
+        "witnesses": [
+          {
+            "witnessId": 57
+          },
+          {
+            "witnessId": 25
+          }
+        ]
+      },
+      {
         "type": "death",
         "date": "1925-11-22",
         "place": "Gulinek",
         "source": {
           "documentId": 206
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 447
+          },
+          {
+            "witnessId": 25
+          }
+        ]
       }
     ]
   },
@@ -1009,10 +1230,6 @@
         }
       }
     ],
-    "biography": {
-      "pl": "Pradziadek autora. Syn Jakuba i Magdaleny z d. Wieczorek. Ożenił się z Franciszką Szaruch. W jego akcie zgonu (dokument nr 104) nazwisko panieńskie żony błędnie zapisano jako 'Popis'. Mieli 4 dzieci. Mieszkał i zmarł w Ludwikowie.",
-      "en": "The author's great-grandfather. Son of Jakub and Magdalena née Wieczorek. He married Franciszka Szaruch. In his death certificate (document no. 104), his wife's maiden name was incorrectly recorded as 'Popis'. They had 4 children. He lived and died in Ludwików."
-    },
     "events": [
       {
         "type": "death",
@@ -1020,9 +1237,21 @@
         "place": "Ludwików",
         "source": {
           "documentId": 104
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 26
+          },
+          {
+            "witnessId": 48
+          }
+        ]
       }
-    ]
+    ],
+    "biography": {
+      "pl": "Pradziadek autora. Syn Jakuba i Magdaleny z d. Wieczorek. Ożenił się z Franciszką Szaruch. W jego akcie zgonu (dokument nr 104) nazwisko panieńskie żony błędnie zapisano jako 'Popis'. Mieli 4 dzieci. Mieszkał i zmarł w Ludwikowie.",
+      "en": "The author's great-grandfather. Son of Jakub and Magdalena née Wieczorek. He married Franciszka Szaruch. In his death certificate (document no. 104), his wife's maiden name was incorrectly recorded as 'Popis'. They had 4 children. He lived and died in Ludwików."
+    }
   },
   {
     "id": 58,
@@ -1074,7 +1303,25 @@
     "biography": {
       "pl": "Córka Ambrożego i Kunegundy. W 1841 wyszła za mąż za Józefa Wierachę, komornika, czyli robotnika rolnego bez ziemi, miała wówczas 20 lat.",
       "en": "Daughter of Ambroży and Kunegunda. In 1841, she married Józef Wieracha, a komornik—a landless agricultural laborer. She was 20 years old at the time."
-    }
+    },
+    "events": [
+      {
+        "type": "marriage",
+        "date": "1841-02-16",
+        "spouseId": 102,
+        "source": {
+          "documentId": 11
+        },
+        "witnesses": [
+          {
+            "witnessId": 286
+          },
+          {
+            "witnessId": 116
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 60,
@@ -1106,7 +1353,8 @@
         "place": "Milejowice",
         "source": {
           "documentId": 38
-        }
+        },
+        "witnesses": [{ "witnessId": 314 }, { "witnessId": 58 }]
       }
     ]
   },
@@ -1115,20 +1363,22 @@
     "firstName": "Marianna",
     "lastName": "Ślifirczyk",
     "maidenName": "Gierczak",
+    "deathDate": "1875-01-15",
+    "photoUrl": null,
+    "family": "gierczak",
+    "spouseIds": [148, 176],
+    "childIds": [195, 196, 197],
+    "parentIds": [4, 8],
     "marriages": [
       {
         "spouseId": 148,
         "date": "1852-12-27",
-        "source": {
-          "documentId": 260
-        }
+        "source": { "documentId": 260 }
       },
       {
         "spouseId": 176,
         "date": "1855-08-26",
-        "source": {
-          "documentId": 262
-        },
+        "source": { "documentId": 262 },
         "note": {
           "pl": "Wiek podany w tym akcie ślubu (18 lat) jest błędny. Zgodnie z jej aktem urodzenia, Marianna miała w tym czasie prawie 22 lata. Dodatkowo, nazwisko panieńskie jej matki, Kunegundy, błędnie zapisano jako 'z Kaimów' zamiast 'z Kaniów'. Rozbieżności w danych były częstym zjawiskiem w XIX-wiecznych dokumentach.",
           "en": "The age stated in this marriage record (18 years) is incorrect. Based on her birth certificate, Marianna was nearly 22 years old at the time. Additionally, her mother Kunegunda's maiden name was incorrectly recorded as 'z Kaimów' instead of 'z Kaniów'. Data discrepancies were common in 19th-century documents."
@@ -1138,7 +1388,34 @@
     "biography": {
       "pl": "Córka Ambrożego i Kunegundy. Jej pierwszym mężem był Antoni Stępień (zm. przed 1855). Po jego śmierci, w 1855 roku poślubiła Józefa Ślifirczyka, z którym miała córkę Antoninę. Zmarła w 1875 roku w Jaszowicach.",
       "en": "Daughter of Ambroży and Kunegunda. Her first husband was Antoni Stępień (d. before 1855). After his death, she married Józef Ślifirczyk in 1855, with whom she had a daughter, Antonina. She died in 1875 in Jaszowice."
-    }
+    },
+    "events": [
+      {
+        "type": "marriage",
+        "date": "1852-12-27",
+        "spouseId": 148,
+        "source": { "documentId": 260 },
+        "witnesses": [{ "witnessId": 75 }, { "witnessId": 144 }]
+      },
+      {
+        "type": "marriage",
+        "date": "1855-08-26",
+        "spouseId": 176,
+        "source": { "documentId": 262 },
+        "witnesses": [
+          { "witnessId": 64 },
+          { "witnessId": 155 },
+          { "witnessId": 180 }
+        ]
+      },
+      {
+        "type": "death",
+        "date": "1875-01-15",
+        "place": "Jaszowice",
+        "source": { "documentId": 9 },
+        "witnesses": [{ "witnessId": 7 }, { "witnessId": 315 }]
+      }
+    ]
   },
   {
     "id": 62,
@@ -1164,7 +1441,12 @@
         "place": "Jaszowice",
         "source": {
           "documentId": 29
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 4
+          }
+        ]
       }
     ]
   },
@@ -1210,7 +1492,22 @@
         "place": "Jaszowice",
         "source": {
           "documentId": 258
-        }
+        },
+        "witnesses": [{ "witnessId": 9 }, { "witnessId": 301 }]
+      },
+      {
+        "type": "marriage",
+        "date": "1848-01-24",
+        "spouseId": 105,
+        "source": { "documentId": 259 },
+        "witnesses": [{ "witnessId": 145 }, { "witnessId": 286 }]
+      },
+      {
+        "type": "marriage",
+        "date": "1893-11-21",
+        "spouseId": 106,
+        "source": { "documentId": 261 },
+        "witnesses": [{ "witnessId": 7 }, { "witnessId": 286 }]
       },
       {
         "type": "death",
@@ -1218,7 +1515,8 @@
         "place": "Jaszowice",
         "source": {
           "documentId": 127
-        }
+        },
+        "witnesses": [{ "witnessId": 7 }, { "witnessId": 140 }]
       }
     ]
   },
@@ -1246,7 +1544,15 @@
         "place": "Jaszowice",
         "source": {
           "documentId": 256
-        }
+        },
+        "witnesses": [
+          { "witnessId": 4 },
+          { "witnessId": 9 },
+          { "witnessId": 125 },
+          { "witnessId": 137 },
+          { "witnessId": 222 },
+          { "witnessId": 289 }
+        ]
       }
     ]
   },
@@ -1274,7 +1580,15 @@
         "place": "Jaszowice",
         "source": {
           "documentId": 257
-        }
+        },
+        "witnesses": [
+          { "witnessId": 4 },
+          { "witnessId": 9 },
+          { "witnessId": 125 },
+          { "witnessId": 137 },
+          { "witnessId": 222 },
+          { "witnessId": 289 }
+        ]
       }
     ]
   },
@@ -1341,7 +1655,23 @@
     "biography": {
       "pl": "Córka Karola i Tekli. W wieku 17 lat wyszła za mąż za Stanisława Mitaka, z którym miała synów Józefa i Jana. Po jego śmierci, jako wdowa, w 1906 roku poślubiła Jana Jurczaka, z którym miała córkę Feliksę.",
       "en": "Daughter of Karol and Tekla. At the age of 17, she married Stanisław Mitak, with whom she had sons Józef and Jan. After his death, as a widow, she married Jan Jurczak in 1906, with whom she had a daughter, Feliksa."
-    }
+    },
+    "events": [
+      {
+        "type": "marriage",
+        "date": "1886-02-21",
+        "spouseId": 149,
+        "source": { "documentId": 12 },
+        "witnesses": [{ "witnessId": 42 }, { "witnessId": 163 }]
+      },
+      {
+        "type": "marriage",
+        "date": "1906-01-22",
+        "spouseId": 150,
+        "source": { "documentId": 10 },
+        "witnesses": [{ "witnessId": 69 }, { "witnessId": 84 }]
+      }
+    ]
   },
   {
     "id": 69,
@@ -1383,7 +1713,25 @@
     "biography": {
       "pl": "Córka Pawła i Katarzyny. W 1928 roku, w wieku 22 lat, wyszła za mąż za wdowca Władysława Walczaka.",
       "en": "Daughter of Paweł and Katarzyna. In 1928, at the age of 22, she married the widower Władysław Walczak."
-    }
+    },
+    "events": [
+      {
+        "type": "marriage",
+        "date": "1928-07-11",
+        "spouseId": 111,
+        "source": {
+          "documentId": 7
+        },
+        "witnesses": [
+          {
+            "witnessId": 72
+          },
+          {
+            "witnessId": 6
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 71,
@@ -1410,7 +1758,12 @@
         "place": "Gulinek",
         "source": {
           "documentId": 109
-        }
+        },
+        "witnesses": [
+          { "witnessId": 47 },
+          { "witnessId": 228 },
+          { "witnessId": 298 }
+        ]
       },
       {
         "type": "death",
@@ -1418,7 +1771,8 @@
         "place": "Gulinek",
         "source": {
           "documentId": 110
-        }
+        },
+        "witnesses": [{ "witnessId": 318 }, { "witnessId": 296 }]
       }
     ]
   },
@@ -1446,7 +1800,18 @@
         "place": "Gulinek",
         "source": {
           "documentId": 266
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 228
+          },
+          {
+            "witnessId": 296
+          },
+          {
+            "witnessId": 318
+          }
+        ]
       }
     ]
   },
@@ -1480,7 +1845,18 @@
         "place": "Gulinek",
         "source": {
           "documentId": 268
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 318
+          },
+          {
+            "witnessId": 228
+          },
+          {
+            "witnessId": 296
+          }
+        ]
       }
     ]
   },
@@ -1506,8 +1882,19 @@
         "date": "1900-09-08",
         "place": "Gulinek",
         "source": {
-          "documentId": 52
-        }
+          "documentId": 384
+        },
+        "witnesses": [
+          {
+            "witnessId": 318
+          },
+          {
+            "witnessId": 6
+          },
+          {
+            "witnessId": 319
+          }
+        ]
       }
     ]
   },
@@ -1613,7 +2000,15 @@
         "place": "Gulinek",
         "source": {
           "documentId": 233
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 81
+          },
+          {
+            "witnessId": 5
+          }
+        ]
       },
       {
         "type": "birth",
@@ -1621,7 +2016,18 @@
         "place": "Gulinek",
         "source": {
           "documentId": 236
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 81
+          },
+          {
+            "witnessId": 5
+          },
+          {
+            "witnessId": 316
+          }
+        ]
       }
     ]
   },
@@ -1651,7 +2057,15 @@
         "place": "Gulinek",
         "source": {
           "documentId": 234
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 81
+          },
+          {
+            "witnessId": 5
+          }
+        ]
       },
       {
         "type": "birth",
@@ -1659,7 +2073,18 @@
         "place": "Gulinek",
         "source": {
           "documentId": 237
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 26
+          },
+          {
+            "witnessId": 81
+          },
+          {
+            "witnessId": 5
+          }
+        ]
       }
     ]
   },
@@ -1688,7 +2113,15 @@
         "place": "Gulinek",
         "source": {
           "documentId": 235
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 6
+          },
+          {
+            "witnessId": 74
+          }
+        ]
       },
       {
         "type": "birth",
@@ -1696,7 +2129,18 @@
         "place": "Gulinek",
         "source": {
           "documentId": 238
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 320
+          },
+          {
+            "witnessId": 258
+          },
+          {
+            "witnessId": 72
+          }
+        ]
       }
     ]
   },
@@ -1867,7 +2311,28 @@
     "biography": {
       "pl": "Syn Andrzeja i Franciszki. W 1908 roku ożenił się z Katarzyną Sikorską (wdową z domu Jurczak), córką Andrzeja i Marianny Hudzik.",
       "en": "Son of Andrzej and Franciszka. In 1908, he married Katarzyna Sikorska (a widow née Jurczak), daughter of Andrzej and Marianna Hudzik."
-    }
+    },
+    "events": [
+      {
+        "type": "marriage",
+        "date": "1908-09-23",
+        "spouseId": 112,
+        "source": {
+          "documentId": 220
+        },
+        "witnesses": [
+          {
+            "witnessId": 3
+          },
+          {
+            "witnessId": 111
+          },
+          {
+            "witnessId": 153
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 90,
@@ -1893,7 +2358,25 @@
     "biography": {
       "pl": "Syn Andrzeja i Franciszki. Ożenił się w 1910 z wdową Rozalią Rojek (z domu Drużdżel), córką Kazimierza i Małgorzaty z Podkowiaków.",
       "en": "Son of Andrzej and Franciszka. In 1910, he married the widow Rozalia Rojek (née Drużdżel), daughter of Kazimierz and Małgorzata née Podkowiak."
-    }
+    },
+    "events": [
+      {
+        "type": "marriage",
+        "date": "1910-11-09",
+        "spouseId": 113,
+        "source": {
+          "documentId": 221
+        },
+        "witnesses": [
+          {
+            "witnessId": 257
+          },
+          {
+            "witnessId": 60
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 91,
@@ -1935,7 +2418,15 @@
         "place": "Gulinek",
         "source": {
           "documentId": 239
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 25
+          },
+          {
+            "witnessId": 258
+          }
+        ]
       },
       {
         "type": "death",
@@ -2003,7 +2494,15 @@
         "place": "Gulinek",
         "source": {
           "documentId": 222
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 25
+          },
+          {
+            "witnessId": 258
+          }
+        ]
       }
     ]
   },
@@ -2030,7 +2529,15 @@
         "place": "Gulinek",
         "source": {
           "documentId": 223
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 25
+          },
+          {
+            "witnessId": 6
+          }
+        ]
       }
     ]
   },
@@ -2057,7 +2564,15 @@
         "place": "Gulinek",
         "source": {
           "documentId": 224
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 8
+          },
+          {
+            "witnessId": 24
+          }
+        ]
       }
     ]
   },
@@ -2084,7 +2599,15 @@
         "place": "Gulinek",
         "source": {
           "documentId": 225
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 72
+          },
+          {
+            "witnessId": 107
+          }
+        ]
       }
     ]
   },
@@ -2126,7 +2649,16 @@
     "biography": {
       "pl": "Żona Andrzeja Gierczaka. Córka nieżyjącego Jakuba i Magdaleny z Kaczorowskich, małżonków Pączek. W akcie ślubu podano, że miała 24 lata.",
       "en": "Wife of Andrzej Gierczak. Daughter of the late Jakub and Magdalena née Kaczorowska, the married couple Pączek. The marriage record states she was 24 years old."
-    }
+    },
+    "events": [
+      {
+        "type": "marriage",
+        "date": "1837-11-26",
+        "spouseId": 6,
+        "source": { "documentId": 208 },
+        "witnesses": [{ "witnessId": 98 }, { "witnessId": 234 }]
+      }
+    ]
   },
   {
     "id": 102,
@@ -2150,7 +2682,16 @@
     "biography": {
       "pl": "Mąż Józefy Gierczak (córki Ambrożego).",
       "en": "Husband of Józefa Gierczak (daughter of Ambroży)."
-    }
+    },
+    "events": [
+      {
+        "type": "marriage",
+        "date": "1841-02-16",
+        "spouseId": 59,
+        "source": { "documentId": 11 },
+        "witnesses": [{ "witnessId": 286 }, { "witnessId": 116 }]
+      }
+    ]
   },
   {
     "id": 103,
@@ -2197,7 +2738,16 @@
     "biography": {
       "pl": "Pierwsza żona Kacpra Gierczaka. Matka Marianny, Jędrzeja, Franciszki i Łucji.",
       "en": "First wife of Kacper Gierczak. Mother of Marianna, Jędrzej, Franciszka and Łucja."
-    }
+    },
+    "events": [
+      {
+        "type": "marriage",
+        "date": "1848-01-24",
+        "spouseId": 63,
+        "source": { "documentId": 259 },
+        "witnesses": [{ "witnessId": 145 }, { "witnessId": 286 }]
+      }
+    ]
   },
   {
     "id": 106,
@@ -2335,7 +2885,25 @@
     "biography": {
       "pl": "Mąż Józefy Gierczak (córki Pawła). Syn Józefa i Franciszki z Woźniaków. W chwili ślubu z Józefą miał 25 lat i był wdowcem po Józefie z domu Mokos.",
       "en": "Husband of Józefa Gierczak (daughter of Paweł). Son of Józef and Franciszka née Woźniak. At the time of his marriage to Józefa, he was 25 years old and a widower of Józefa née Mokos."
-    }
+    },
+    "events": [
+      {
+        "type": "marriage",
+        "date": "1928-07-11",
+        "spouseId": 70,
+        "source": {
+          "documentId": 7
+        },
+        "witnesses": [
+          {
+            "witnessId": 72
+          },
+          {
+            "witnessId": 6
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 112,
@@ -2360,7 +2928,28 @@
     "biography": {
       "pl": "Żona Ignacego Ofiary. Córka Andrzeja i Marianny Hudzik. W chwili ślubu z Ignacym była wdową po Józefie Sikorskim.",
       "en": "Wife of Ignacy Ofiara. Daughter of Andrzej and Marianna Hudzik. At the time of her marriage to Ignacy, she was the widow of Józef Sikorski."
-    }
+    },
+    "events": [
+      {
+        "type": "marriage",
+        "date": "1908-09-23",
+        "spouseId": 89,
+        "source": {
+          "documentId": 220
+        },
+        "witnesses": [
+          {
+            "witnessId": 3
+          },
+          {
+            "witnessId": 111
+          },
+          {
+            "witnessId": 153
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 113,
@@ -2385,7 +2974,25 @@
     "biography": {
       "pl": "Żona Antoniego Ofiary. Córka Kazimierza i Małgorzaty z Podkowiaków. W chwili ślubu z Antonim była wdową po Józefie Rojku.",
       "en": "Wife of Antoni Ofiara. Daughter of Kazimierz and Małgorzata née Podkowiak. At the time of her marriage to Antoni, she was the widow of Józef Rojek."
-    }
+    },
+    "events": [
+      {
+        "type": "marriage",
+        "date": "1910-11-09",
+        "spouseId": 90,
+        "source": {
+          "documentId": 221
+        },
+        "witnesses": [
+          {
+            "witnessId": 257
+          },
+          {
+            "witnessId": 60
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 114,
@@ -2630,10 +3237,6 @@
         }
       }
     ],
-    "biography": {
-      "pl": "Druga żona Stefana Ofiary (id: 157), poślubiona po śmierci jego pierwszej żony, Heleny Hernik. Zmarła w Woli Gutowskiej.",
-      "en": "Second wife of Stefan Ofiara (id: 157), married after the death of his first wife, Helena Hernik. She died in Wola Gutowska."
-    },
     "events": [
       {
         "type": "death",
@@ -2641,9 +3244,21 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 289
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 209
+          },
+          {
+            "witnessId": 271
+          }
+        ]
       }
-    ]
+    ],
+    "biography": {
+      "pl": "Druga żona Stefana Ofiary (id: 157), poślubiona po śmierci jego pierwszej żony, Heleny Hernik. Zmarła w Woli Gutowskiej.",
+      "en": "Second wife of Stefan Ofiara (id: 157), married after the death of his first wife, Helena Hernik. She died in Wola Gutowska."
+    }
   },
   {
     "id": 125,
@@ -2751,10 +3366,6 @@
         }
       }
     ],
-    "biography": {
-      "pl": "Syn Szczepana i Małgorzaty z d. Kowalczyk. W 1856 roku poślubił Magdalenę z Wieczorków, wdowę po Józefie Rusie i siostrę Marianny Wieczorek. Ojciec licznego potomstwa, z którego dorosłości dożył syn Andrzej. Pozostałe znane dzieci – Zofia, Agnieszka, Józefa, Katarzyna, Jędrzej, Bartłomiej, Józef i Anna – zmarły w dzieciństwie lub młodości. Mieszkał z rodziną w Woli Gutowskiej. Zmarł w wieku 86 lat.",
-      "en": "Son of Szczepan and Małgorzata née Kowalczyk. In 1856, he married Magdalena née Wieczorek, widow of Józef Russ and sister of Marianna Wieczorek. Father of numerous offspring, of whom only his son Andrzej reached adulthood. The other known children – Zofia, Agnieszka, Józefa, Katarzyna, Jędrzej, Bartłomiej, Józef, and Anna – died in childhood or youth. He lived with his family in Wola Gutowska. He died at the age of 86."
-    },
     "events": [
       {
         "type": "birth",
@@ -2764,7 +3375,21 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 103
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 49
+          },
+          {
+            "witnessId": 93
+          },
+          {
+            "witnessId": 117
+          },
+          {
+            "witnessId": 240
+          }
+        ]
       },
       {
         "type": "marriage",
@@ -2773,16 +3398,15 @@
         "time": "15:00",
         "timeQualifier": "afternoon",
         "place": "Jedlińsk",
+        "source": {
+          "documentId": 351
+        },
         "witnesses": [
           {
-            "firstName": "Wojciech",
-            "lastName": "Walczak",
-            "age": 31
+            "witnessId": 282
           },
           {
-            "firstName": "Paweł",
-            "lastName": "Bartosik",
-            "age": 31
+            "witnessId": 17
           }
         ]
       },
@@ -2793,9 +3417,24 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 210
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 97
+          },
+          {
+            "witnessId": 203
+          },
+          {
+            "witnessId": 269
+          }
+        ]
       }
-    ]
+    ],
+    "biography": {
+      "pl": "Syn Szczepana i Małgorzaty z d. Kowalczyk. W 1856 roku poślubił Magdalenę z Wieczorków, wdowę po Józefie Rusie i siostrę Marianny Wieczorek. Ojciec licznego potomstwa, z którego dorosłości dożył syn Andrzej. Pozostałe znane dzieci – Zofia, Agnieszka, Józefa, Katarzyna, Jędrzej, Bartłomiej, Józef i Anna – zmarły w dzieciństwie lub młodości. Mieszkał z rodziną w Woli Gutowskiej. Zmarł w wieku 86 lat.",
+      "en": "Son of Szczepan and Małgorzata née Kowalczyk. In 1856, he married Magdalena née Wieczorek, widow of Józef Russ and sister of Marianna Wieczorek. Father of numerous offspring, of whom only his son Andrzej reached adulthood. The other known children – Zofia, Agnieszka, Józefa, Katarzyna, Jędrzej, Bartłomiej, Józef, and Anna – died in childhood or youth. He lived with his family in Wola Gutowska. He died at the age of 86."
+    }
   },
   {
     "id": 130,
@@ -2851,6 +3490,7 @@
     "spouseIds": [],
     "childIds": [],
     "parentIds": [129, 362],
+    "marriages": [],
     "biography": {
       "pl": "Córka Jakuba i Magdaleny z d. Wieczorek. Zmarła w wieku 9 lat.",
       "en": "Daughter of Jakub and Magdalena née Wieczorek. Died at the age of 9."
@@ -2862,7 +3502,15 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 296
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 202
+          },
+          {
+            "witnessId": 28
+          }
+        ]
       }
     ]
   },
@@ -2877,6 +3525,7 @@
     "spouseIds": [],
     "childIds": [],
     "parentIds": [129, 362],
+    "marriages": [],
     "biography": {
       "pl": "Córka Jakuba i Magdaleny z d. Wieczorek. Urodzona w Woli Gutowskiej. Zmarła w wieku niespełna dwóch lat.",
       "en": "Daughter of Jakub and Magdalena née Wieczorek. Born in Wola Gutowska. She died at the age of nearly two."
@@ -2888,7 +3537,18 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 219
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 202
+          },
+          {
+            "witnessId": 211
+          },
+          {
+            "witnessId": 328
+          }
+        ]
       },
       {
         "type": "death",
@@ -2896,7 +3556,15 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 297
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 202
+          },
+          {
+            "witnessId": 203
+          }
+        ]
       }
     ]
   },
@@ -2935,7 +3603,28 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 242
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 152
+          },
+          {
+            "witnessId": 43
+          }
+        ]
+      },
+      {
+        "type": "marriage",
+        "date": "1824-02-19",
+        "spouseId": 134,
+        "source": {
+          "documentId": 248
+        },
+        "witnesses": [
+          {
+            "witnessId": 240
+          }
+        ]
       }
     ]
   },
@@ -2961,20 +3650,41 @@
         }
       }
     ],
-    "biography": {
-      "pl": "Żona Szczepana Ofiary. Córka Karola i Julianny z d. Bogusz. Matka Wincentego, Kacpra, Jakuba, Ignacego, Anny, Józefa, Franciszki i Wojciecha. Wiek podany w jej akcie zgonu (48 lat) jest prawdopodobnie zawyżony w stosunku do wieku z aktu ślubu (19 lat).",
-      "en": "Wife of Szczepan Ofiara. Daughter of Karol and Julianna née Bogusz. Mother of Wincenty, Kacper, Jakub, Ignacy, Anna, Józef, Franciszka, and Wojciech. The age stated in her death record (48 years) is likely an overestimation compared to the age in her marriage record (19 years)."
-    },
     "events": [
+      {
+        "type": "marriage",
+        "date": "1824-02-19",
+        "spouseId": 133,
+        "source": {
+          "documentId": 248
+        },
+        "witnesses": [
+          {
+            "witnessId": 240
+          }
+        ]
+      },
       {
         "type": "death",
         "date": "1843-12-01",
         "place": "Wola Gutowska",
         "source": {
           "documentId": 286
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 209
+          },
+          {
+            "witnessId": 83
+          }
+        ]
       }
-    ]
+    ],
+    "biography": {
+      "pl": "Żona Szczepana Ofiary. Córka Karola i Julianny z d. Bogusz. Matka Wincentego, Kacpra, Jakuba, Ignacego, Anny, Józefa, Franciszki i Wojciecha. Wiek podany w jej akcie zgonu (48 lat) jest prawdopodobnie zawyżony w stosunku do wieku z aktu ślubu (19 lat).",
+      "en": "Wife of Szczepan Ofiara. Daughter of Karol and Julianna née Bogusz. Mother of Wincenty, Kacper, Jakub, Ignacy, Anna, Józef, Franciszka, and Wojciech. The age stated in her death record (48 years) is likely an overestimation compared to the age in her marriage record (19 years)."
+    }
   },
   {
     "id": 135,
@@ -2989,10 +3699,6 @@
     "parentIds": [133, 134],
     "spouseIds": [],
     "childIds": [],
-    "biography": {
-      "pl": "Syn Szczepana (w akcie urodzenia jako Stefan) i Małgorzaty z d. Kowalczyk. Urodzony w Woli Gutowskiej. Zmarł jako niemowlę, żył 7 dni.",
-      "en": "Son of Szczepan (recorded as Stefan in the birth certificate) and Małgorzata née Kowalczyk. Born in Wola Gutowska. Died as an infant, lived for 7 days."
-    },
     "events": [
       {
         "type": "birth",
@@ -3000,7 +3706,15 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 215
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 185
+          },
+          {
+            "witnessId": 231
+          }
+        ]
       },
       {
         "type": "death",
@@ -3008,9 +3722,21 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 253
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 179
+          },
+          {
+            "witnessId": 230
+          }
+        ]
       }
-    ]
+    ],
+    "biography": {
+      "pl": "Syn Szczepana (w akcie urodzenia jako Stefan) i Małgorzaty z d. Kowalczyk. Urodzony w Woli Gutowskiej. Zmarł jako niemowlę, żył 7 dni.",
+      "en": "Son of Szczepan (recorded as Stefan in the birth certificate) and Małgorzata née Kowalczyk. Born in Wola Gutowska. Died as an infant, lived for 7 days."
+    }
   },
   {
     "id": 136,
@@ -3022,10 +3748,6 @@
     "parentIds": [133, 134],
     "spouseIds": [],
     "childIds": [],
-    "biography": {
-      "pl": "Córka Stefana i Małgorzaty z d. Kowalczyk. Urodzona w Woli Gutowskiej.",
-      "en": "Daughter of Stefan and Małgorzata née Kowalczyk. Born in Wola Gutowska."
-    },
     "events": [
       {
         "type": "birth",
@@ -3033,9 +3755,21 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 216
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 220
+          },
+          {
+            "witnessId": 19
+          }
+        ]
       }
-    ]
+    ],
+    "biography": {
+      "pl": "Córka Stefana i Małgorzaty z d. Kowalczyk. Urodzona w Woli Gutowskiej.",
+      "en": "Daughter of Stefan and Małgorzata née Kowalczyk. Born in Wola Gutowska."
+    }
   },
   {
     "id": 137,
@@ -3051,10 +3785,6 @@
     "parentIds": [133, 134],
     "spouseIds": [],
     "childIds": [],
-    "biography": {
-      "pl": "Córka Szczepana (w akcie jako Stefan) i Małgorzaty z d. Kowalczyk. Urodzona w Woli Gutowskiej. Zmarła w wieku niespełna dwóch lat.",
-      "en": "Daughter of Szczepan (recorded as Stefan) and Małgorzata née Kowalczyk. Born in Wola Gutowska. She died at the age of nearly two."
-    },
     "events": [
       {
         "type": "birth",
@@ -3062,7 +3792,15 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 217
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 40
+          },
+          {
+            "witnessId": 216
+          }
+        ]
       },
       {
         "type": "death",
@@ -3070,9 +3808,18 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 255
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 142
+          }
+        ]
       }
-    ]
+    ],
+    "biography": {
+      "pl": "Córka Szczepana (w akcie jako Stefan) i Małgorzaty z d. Kowalczyk. Urodzona w Woli Gutowskiej. Zmarła w wieku niespełna dwóch lat.",
+      "en": "Daughter of Szczepan (recorded as Stefan) and Małgorzata née Kowalczyk. Born in Wola Gutowska. She died at the age of nearly two."
+    }
   },
   {
     "id": 138,
@@ -3108,10 +3855,6 @@
         }
       }
     ],
-    "biography": {
-      "pl": "Syn Stefana i Małgorzaty z d. Kowalczyk. Był trzykrotnie żonaty. Pierwszą żoną była Franciszka z Puzianowskich. Po jej śmierci ożenił się w marcu 1886 z Magdaleną Komach, która zmarła niedługo potem. W lipcu 1886 poślubił Wiktorię Wieczorek. Zmarł jako wdowiec w 1921 roku.",
-      "en": "Son of Stefan and Małgorzata née Kowalczyk. He was married three times. His first wife was Franciszka née Puzianowska. After her death, he married Magdalena Komach in March 1886, who died shortly after. In July 1886, he married Wiktoria Wieczorek. He died a widower in 1921."
-    },
     "events": [
       {
         "type": "birth",
@@ -3119,9 +3862,69 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 218
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 270
+          },
+          {
+            "witnessId": 177
+          }
+        ]
+      },
+      {
+        "type": "marriage",
+        "date": "1867-02-16",
+        "spouseId": 151,
+        "source": {
+          "documentId": 212
+        },
+        "witnesses": [
+          {
+            "witnessId": 202
+          },
+          {
+            "witnessId": 271
+          }
+        ]
+      },
+      {
+        "type": "marriage",
+        "date": "1886-03-07",
+        "spouseId": 152,
+        "source": {
+          "documentId": 213
+        },
+        "witnesses": [
+          {
+            "witnessId": 202
+          },
+          {
+            "witnessId": 28
+          }
+        ]
+      },
+      {
+        "type": "marriage",
+        "date": "1886-07-04",
+        "spouseId": 153,
+        "source": {
+          "documentId": 214
+        },
+        "witnesses": [
+          {
+            "witnessId": 306
+          },
+          {
+            "witnessId": 307
+          }
+        ]
       }
-    ]
+    ],
+    "biography": {
+      "pl": "Syn Stefana i Małgorzaty z d. Kowalczyk. Był trzykrotnie żonaty. Pierwszą żoną była Franciszka z Puzianowskich. Po jej śmierci ożenił się w marcu 1886 z Magdaleną Komach, która zmarła niedługo potem. W lipcu 1886 poślubił Wiktorię Wieczorek. Zmarł jako wdowiec w 1921 roku.",
+      "en": "Son of Stefan and Małgorzata née Kowalczyk. He was married three times. His first wife was Franciszka née Puzianowska. After her death, he married Magdalena Komach in March 1886, who died shortly after. In July 1886, he married Wiktoria Wieczorek. He died a widower in 1921."
+    }
   },
   {
     "id": 139,
@@ -3321,12 +4124,24 @@
     },
     "events": [
       {
+        "type": "marriage",
+        "date": "1852-12-27",
+        "spouseId": 61,
+        "source": { "documentId": 260 },
+        "witnesses": [{ "witnessId": 75 }, { "witnessId": 144 }]
+      },
+      {
         "type": "death",
         "date": "1854-11-27",
         "place": "Chruślice",
         "source": {
           "documentId": 263
-        }
+        },
+        "witnesses": [
+          { "witnessId": 317 },
+          { "witnessId": 59 },
+          { "witnessId": 46 }
+        ]
       }
     ]
   },
@@ -3353,7 +4168,16 @@
     "biography": {
       "pl": "Mąż Antoniny z domu Gierczak. Ojciec Józefa i Jana. W chwili ślubu w 1886 roku miał 22 lata.",
       "en": "Husband of Antonina née Gierczak. Father of Józef and Jan. At the time of his marriage in 1886, he was 22 years old."
-    }
+    },
+    "events": [
+      {
+        "type": "marriage",
+        "date": "1886-02-21",
+        "spouseId": 68,
+        "source": { "documentId": 12 },
+        "witnesses": [{ "witnessId": 42 }, { "witnessId": 163 }]
+      }
+    ]
   },
   {
     "id": 150,
@@ -3378,7 +4202,16 @@
     "biography": {
       "pl": "Drugi mąż Antoniny z domu Gierczak (wtedy wdowy po Stanisławie Mitaku). W chwili ślubu w 1906 roku miał 25 lat.",
       "en": "Second husband of Antonina née Gierczak (then a widow after Stanisław Mitak). At the time of his marriage in 1906, he was 25 years old."
-    }
+    },
+    "events": [
+      {
+        "type": "marriage",
+        "date": "1906-01-22",
+        "spouseId": 68,
+        "source": { "documentId": 10 },
+        "witnesses": [{ "witnessId": 69 }, { "witnessId": 84 }]
+      }
+    ]
   },
   {
     "id": 151,
@@ -3500,7 +4333,16 @@
     "biography": {
       "pl": "Żona Franciszka Gierczaka. Córka Józefa i Marianny z domu Łyżwa, małżonków Tkaczyków. W chwili ślubu z Franciszkiem w 1842 roku miała 30 lat i była wdową po Janie Cieslaku.",
       "en": "Wife of Franciszek Gierczak. Daughter of Józef and Marianna née Łyżwa, spouses Tkaczyk. At the time of her marriage to Franciszek in 1842, she was 30 years old and a widow of Jan Cieslak."
-    }
+    },
+    "events": [
+      {
+        "type": "marriage",
+        "date": "1842-10-23",
+        "spouseId": 3,
+        "source": { "documentId": 226 },
+        "witnesses": [{ "witnessId": 267 }, { "witnessId": 301 }]
+      }
+    ]
   },
   {
     "id": 155,
@@ -3591,20 +4433,60 @@
         }
       }
     ],
-    "biography": {
-      "pl": "Syn Konstantego i Agnieszki z Grzegorzewskich. Brat Szczepana (id: 133). Był trzykrotnie żonaty. Jego pierwszą żoną była Helena Hernik (ślub w 1844 r.). Po jej śmierci ożenił się z Heleną Zabułą, która zmarła w 1851 r. Jako wdowiec, w 1852 roku poślubił Mariannę z Jemiołków Strączkową.",
-      "en": "Son of Konstanty and Agnieszka née Grzegorzewska. Brother of Szczepan (id: 133). He was married three times. His first wife was Helena Hernik (married in 1844). After her death, he married Helena Zabuła, who died in 1851. As a widower, he married Marianna née Jemiołek Strączkowa in 1852."
-    },
     "events": [
+      {
+        "type": "marriage",
+        "date": "1844-02-18",
+        "spouseId": 158,
+        "source": {
+          "documentId": 249
+        },
+        "witnesses": [
+          {
+            "witnessId": 281
+          },
+          {
+            "witnessId": 280
+          }
+        ]
+      },
+      {
+        "type": "marriage",
+        "date": "1852-02-02",
+        "spouseId": 172,
+        "source": {
+          "documentId": 250
+        },
+        "witnesses": [
+          {
+            "witnessId": 148
+          },
+          {
+            "witnessId": 176
+          }
+        ]
+      },
       {
         "type": "death",
         "date": "1855-12-13",
         "place": "Wola Gutowska",
         "source": {
           "documentId": 290
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 212
+          },
+          {
+            "witnessId": 177
+          }
+        ]
       }
-    ]
+    ],
+    "biography": {
+      "pl": "Syn Konstantego i Agnieszki z Grzegorzewskich. Brat Szczepana (id: 133). Był trzykrotnie żonaty. Jego pierwszą żoną była Helena Hernik (ślub w 1844 r.). Po jej śmierci ożenił się z Heleną Zabułą, która zmarła w 1851 r. Jako wdowiec, w 1852 roku poślubił Mariannę z Jemiołków Strączkową.",
+      "en": "Son of Konstanty and Agnieszka née Grzegorzewska. Brother of Szczepan (id: 133). He was married three times. His first wife was Helena Hernik (married in 1844). After her death, he married Helena Zabuła, who died in 1851. As a widower, he married Marianna née Jemiołek Strączkowa in 1852."
+    }
   },
   {
     "id": 158,
@@ -3628,20 +4510,44 @@
         }
       }
     ],
-    "biography": {
-      "pl": "Pierwsza żona Stefana Ofiary (id: 157). Córka Antoniego i Barbary Herników. Wyszła za mąż w wieku 20 lat i zmarła niedługo po ślubie.",
-      "en": "First wife of Stefan Ofiara (id: 157). Daughter of Antoni and Barbara Hernik. She married at the age of 20 and died shortly after the wedding."
-    },
     "events": [
+      {
+        "type": "marriage",
+        "date": "1844-02-18",
+        "spouseId": 157,
+        "source": {
+          "documentId": 249
+        },
+        "witnesses": [
+          {
+            "witnessId": 281
+          },
+          {
+            "witnessId": 280
+          }
+        ]
+      },
       {
         "type": "death",
         "date": "1844-04-20",
         "place": "Wola Gutowska",
         "source": {
           "documentId": 287
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 209
+          },
+          {
+            "witnessId": 176
+          }
+        ]
       }
-    ]
+    ],
+    "biography": {
+      "pl": "Pierwsza żona Stefana Ofiary (id: 157). Córka Antoniego i Barbary Herników. Wyszła za mąż w wieku 20 lat i zmarła niedługo po ślubie.",
+      "en": "First wife of Stefan Ofiara (id: 157). Daughter of Antoni and Barbara Hernik. She married at the age of 20 and died shortly after the wedding."
+    }
   },
   {
     "id": 159,
@@ -3677,7 +4583,15 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 240
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 138
+          },
+          {
+            "witnessId": 270
+          }
+        ]
       },
       {
         "type": "death",
@@ -3685,7 +4599,15 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 295
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 45
+          },
+          {
+            "witnessId": 271
+          }
+        ]
       }
     ]
   },
@@ -3695,7 +4617,7 @@
     "lastName": "Ofiara",
     "family": "ofiara",
     "birthDate": "1837-07-02",
-    "birthTime": "5:00",
+    "birthTime": "05:00",
     "deathDateNote": "po 1887-11-10",
     "parentIds": [133, 134],
     "spouseIds": [21, 205],
@@ -3710,10 +4632,6 @@
         "date": "?"
       }
     ],
-    "biography": {
-      "pl": "Syn Szczepana i Małgorzaty z d. Kowalczyk. Mąż Józefy z d. Prasek, a po jej śmierci mąż Małgorzaty z d. Wydłowskiej. Żył jeszcze w listopadzie 1887 roku.",
-      "en": "Son of Szczepan and Małgorzata née Kowalczyk. Husband of Józefa née Prasek, and after her death, husband of Małgorzata née Wydłowska. He was still alive in November 1887."
-    },
     "events": [
       {
         "type": "birth",
@@ -3721,9 +4639,27 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 241
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 49
+          },
+          {
+            "witnessId": 329
+          },
+          {
+            "witnessId": 330
+          },
+          {
+            "witnessId": 240
+          }
+        ]
       }
-    ]
+    ],
+    "biography": {
+      "pl": "Syn Szczepana i Małgorzaty z d. Kowalczyk. Mąż Józefy z d. Prasek, a po jej śmierci mąż Małgorzaty z d. Wydłowskiej. Żył jeszcze w listopadzie 1887 roku.",
+      "en": "Son of Szczepan and Małgorzata née Kowalczyk. Husband of Józefa née Prasek, and after her death, husband of Małgorzata née Wydłowska. He was still alive in November 1887."
+    }
   },
   {
     "id": 161,
@@ -3751,7 +4687,15 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 251
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 61
+          },
+          {
+            "witnessId": 175
+          }
+        ]
       }
     ]
   },
@@ -3768,7 +4712,7 @@
     "photoUrl": "/images/agnieszka.avif",
     "spouseIds": [161],
     "childIds": [163, 164, 165, 166, 167, 133, 157, 222],
-    "parentIds": [],
+    "parentIds": [12, 20],
     "biography": {
       "pl": "Żona Konstantego Ofiary, matka siedmiorga dzieci. Mieszkała w Woli Gutowskiej. Zmarła osiem lat po swoim mężu, w wieku 50 lat. W akcie zgonu, zgłoszonym przez jej syna Szczepana, nazwisko zapisano w formie 'Ofierzyna'.",
       "en": "Wife of Konstanty Ofiara, mother of seven children. Lived in Wola Gutowska. She died eight years after her husband, at the age of 50. In her death record, reported by her son Szczepan, her surname was written as 'Ofierzyna'."
@@ -3780,7 +4724,15 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 252
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 209
+          },
+          {
+            "witnessId": 240
+          }
+        ]
       }
     ]
   },
@@ -3805,7 +4757,15 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 243
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 62
+          },
+          {
+            "witnessId": 123
+          }
+        ]
       }
     ]
   },
@@ -3839,7 +4799,15 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 244
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 101
+          },
+          {
+            "witnessId": 294
+          }
+        ]
       },
       {
         "type": "death",
@@ -3847,7 +4815,15 @@
         "place": "Płasków",
         "source": {
           "documentId": 86
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 178
+          },
+          {
+            "witnessId": 207
+          }
+        ]
       }
     ]
   },
@@ -3871,7 +4847,15 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 245
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 141
+          },
+          {
+            "witnessId": 321
+          }
+        ]
       }
     ]
   },
@@ -3895,7 +4879,15 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 246
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 244
+          },
+          {
+            "witnessId": 217
+          }
+        ]
       }
     ]
   },
@@ -3919,7 +4911,15 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 247
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 277
+          },
+          {
+            "witnessId": 63
+          }
+        ]
       }
     ]
   },
@@ -4001,20 +5001,44 @@
         }
       }
     ],
-    "biography": {
-      "pl": "Trzecia żona Stefana Ofiary. Córka Kazimierza i Heleny Jemiołków. Wyszła za mąż za Stefana jako wdowa po Franciszku Strączku. Zmarła tydzień po swoim mężu.",
-      "en": "Third wife of Stefan Ofiara. Daughter of Kazimierz and Helena Jemiołek. She married Stefan as a widow after Franciszek Strączek. She died a week after her husband."
-    },
     "events": [
+      {
+        "type": "marriage",
+        "date": "1852-02-02",
+        "spouseId": 157,
+        "source": {
+          "documentId": 250
+        },
+        "witnesses": [
+          {
+            "witnessId": 148
+          },
+          {
+            "witnessId": 176
+          }
+        ]
+      },
       {
         "type": "death",
         "date": "1855-12-20",
         "place": "Wola Gutowska",
         "source": {
           "documentId": 291
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 212
+          },
+          {
+            "witnessId": 177
+          }
+        ]
       }
-    ]
+    ],
+    "biography": {
+      "pl": "Trzecia żona Stefana Ofiary. Córka Kazimierza i Heleny Jemiołków. Wyszła za mąż za Stefana jako wdowa po Franciszku Strączku. Zmarła tydzień po swoim mężu.",
+      "en": "Third wife of Stefan Ofiara. Daughter of Kazimierz and Helena Jemiołek. She married Stefan as a widow after Franciszek Strączek. She died a week after her husband."
+    }
   },
   {
     "id": 173,
@@ -4055,10 +5079,6 @@
     "parentIds": [133, 134],
     "spouseIds": [],
     "childIds": [],
-    "biography": {
-      "pl": "Syn Szczepana i Małgorzaty z d. Kowalczyk. Zmarł w Woli Gutowskiej w wieku jednego roku.",
-      "en": "Son of Szczepan and Małgorzata née Kowalczyk. He died in Wola Gutowska at the age of one."
-    },
     "events": [
       {
         "type": "death",
@@ -4066,9 +5086,21 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 254
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 245
+          },
+          {
+            "witnessId": 36
+          }
+        ]
       }
-    ]
+    ],
+    "biography": {
+      "pl": "Syn Szczepana i Małgorzaty z d. Kowalczyk. Zmarł w Woli Gutowskiej w wieku jednego roku.",
+      "en": "Son of Szczepan and Małgorzata née Kowalczyk. He died in Wola Gutowska at the age of one."
+    }
   },
   {
     "id": 176,
@@ -4105,10 +5137,32 @@
     },
     "events": [
       {
+        "type": "marriage",
+        "date": "1855-08-26",
+        "spouseId": 61,
+        "source": { "documentId": 262 },
+        "witnesses": [{ "witnessId": 180 }, { "witnessId": 155 }]
+      },
+      {
+        "type": "marriage",
+        "date": "1875-02-11",
+        "spouseId": 198,
+        "source": { "documentId": 41 },
+        "witnesses": [{ "witnessId": 29 }, { "witnessId": 30 }]
+      },
+      {
+        "type": "marriage",
+        "date": "1890-02-11",
+        "spouseId": 200,
+        "source": { "documentId": 42 },
+        "witnesses": [{ "witnessId": 29 }, { "witnessId": 30 }]
+      },
+      {
         "type": "death",
         "date": "1912-12-30",
         "place": "Jaszowice",
-        "source": { "documentId": 264 }
+        "source": { "documentId": 264 },
+        "witnesses": [{ "witnessId": 186 }, { "witnessId": 12 }]
       }
     ]
   },
@@ -4247,7 +5301,15 @@
         "place": "Jaszowice",
         "source": {
           "documentId": 30
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 77
+          },
+          {
+            "witnessId": 87
+          }
+        ]
       }
     ]
   },
@@ -4281,7 +5343,15 @@
         "place": "Jaszowice",
         "source": {
           "documentId": 31
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 144
+          },
+          {
+            "witnessId": 278
+          }
+        ]
       }
     ]
   },
@@ -4324,7 +5394,9 @@
       {
         "spouseId": 186,
         "date": "1851-01-26",
-        "source": { "documentId": 39 }
+        "source": {
+          "documentId": 39
+        }
       }
     ],
     "biography": {
@@ -4333,12 +5405,36 @@
     },
     "events": [
       {
+        "type": "marriage",
+        "date": "1851-01-26",
+        "spouseId": 186,
+        "source": {
+          "documentId": 39
+        },
+        "witnesses": [
+          {
+            "witnessId": 125
+          },
+          {
+            "witnessId": 286
+          }
+        ]
+      },
+      {
         "type": "death",
         "date": "1855-08-02",
         "place": "Jaszowice",
         "source": {
           "documentId": 32
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 278
+          },
+          {
+            "witnessId": 144
+          }
+        ]
       }
     ]
   },
@@ -4363,7 +5459,16 @@
     "biography": {
       "pl": "Mąż Antoniny z domu Gierczak (córki Michała). Syn Jakuba i Teofili z Duchnickich. W akcie zgonu żony z 1855 r. został błędnie zapisany pod imieniem Jakub.",
       "en": "Husband of Antonina née Gierczak (daughter of Michał). Son of Jakub and Teofila née Duchnicka. In his wife's death record from 1855, he was mistakenly recorded under the name Jakub."
-    }
+    },
+    "events": [
+      {
+        "type": "marriage",
+        "date": "1851-01-26",
+        "spouseId": 185,
+        "source": { "documentId": 39 },
+        "witnesses": [{ "witnessId": 125 }, { "witnessId": 286 }]
+      }
+    ]
   },
   {
     "id": 187,
@@ -4386,7 +5491,18 @@
         "place": "Jaszowice",
         "source": {
           "documentId": 353
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 125
+          },
+          {
+            "witnessId": 297
+          },
+          {
+            "witnessId": 195
+          }
+        ]
       }
     ]
   },
@@ -4417,8 +5533,6 @@
     "firstName": "Józef",
     "lastName": "Gierczak",
     "birthDateNote": "ok. 1854",
-    "deathDate": null,
-    "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [190],
     "childIds": [],
@@ -4435,7 +5549,25 @@
     "biography": {
       "pl": "Syn Michała Gierczaka i Marianny z d. Gocman. W 1878 roku poślubił Rozalię Kozanę.",
       "en": "Son of Michał Gierczak and Marianna née Gocman. In 1878, he married Rozalia Kozana."
-    }
+    },
+    "events": [
+      {
+        "type": "marriage",
+        "date": "1878-11-20",
+        "spouseId": 190,
+        "source": {
+          "documentId": 34
+        },
+        "witnesses": [
+          {
+            "witnessId": 22
+          },
+          {
+            "witnessId": 160
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 190,
@@ -4461,7 +5593,18 @@
     "biography": {
       "pl": "Żona Józefa Gierczaka (syna Michała). Córka Franciszka i Marianny z Jasińskich.",
       "en": "Wife of Józef Gierczak (son of Michał). Daughter of Franciszek and Marianna née Jasińska."
-    }
+    },
+    "events": [
+      {
+        "type": "marriage",
+        "date": "1878-11-20",
+        "spouseId": 189,
+        "source": {
+          "documentId": 34
+        },
+        "witnesses": [{ "witnessId": 22 }, { "witnessId": 160 }]
+      }
+    ]
   },
   {
     "id": 191,
@@ -4486,7 +5629,16 @@
     "biography": {
       "pl": "Syn Stanisława Mitaka i Antoniny z d. Gierczak. W 1911 roku poślubił Józefę Golus.",
       "en": "Son of Stanisław Mitak and Antonina née Gierczak. In 1911, he married Józefa Golus."
-    }
+    },
+    "events": [
+      {
+        "type": "marriage",
+        "date": "1911-11-11",
+        "spouseId": 192,
+        "source": { "documentId": 35 },
+        "witnesses": [{ "witnessId": 190 }, { "witnessId": 95 }]
+      }
+    ]
   },
   {
     "id": 192,
@@ -4512,7 +5664,25 @@
     "biography": {
       "pl": "Żona Józefa Mitaka (syna Antoniny Gierczak). Córka Pawła i Marianny z Sułowskich.",
       "en": "Wife of Józef Mitak (son of Antonina Gierczak). Daughter of Paweł and Marianna née Sułowska."
-    }
+    },
+    "events": [
+      {
+        "type": "marriage",
+        "date": "1911-11-11",
+        "spouseId": 191,
+        "source": {
+          "documentId": 35
+        },
+        "witnesses": [
+          {
+            "witnessId": 190
+          },
+          {
+            "witnessId": 95
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 193,
@@ -4557,7 +5727,8 @@
         "place": "Jaszowice",
         "source": {
           "documentId": 36
-        }
+        },
+        "witnesses": [{ "witnessId": 248 }, { "witnessId": 274 }]
       }
     ]
   },
@@ -4584,7 +5755,8 @@
         "place": "Jaszowice",
         "source": {
           "documentId": 37
-        }
+        },
+        "witnesses": [{ "witnessId": 256 }, { "witnessId": 274 }]
       }
     ]
   },
@@ -4608,9 +5780,8 @@
         "type": "death",
         "date": "1875-03-14",
         "place": "Jaszowice",
-        "source": {
-          "documentId": 38
-        }
+        "source": { "documentId": 383 },
+        "witnesses": [{ "witnessId": 256 }, { "witnessId": 274 }]
       }
     ]
   },
@@ -4701,10 +5872,6 @@
     "childIds": [],
     "parentIds": [159, 202],
     "marriages": [],
-    "biography": {
-      "pl": "Syn Wincentego Ofiary i Franciszki z d. Walczak. Urodzony w Woli Gutowskiej. Zmarł w wieku dziewięciu miesięcy.",
-      "en": "Son of Wincenty Ofiara and Franciszka née Walczak. Born in Wola Gutowska. Died at the age of nine months."
-    },
     "events": [
       {
         "type": "birth",
@@ -4712,7 +5879,15 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 270
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 271
+          },
+          {
+            "witnessId": 284
+          }
+        ]
       },
       {
         "type": "death",
@@ -4720,9 +5895,21 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 288
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 212
+          },
+          {
+            "witnessId": 176
+          }
+        ]
       }
-    ]
+    ],
+    "biography": {
+      "pl": "Syn Wincentego Ofiary i Franciszki z d. Walczak. Urodzony w Woli Gutowskiej. Zmarł w wieku dziewięciu miesięcy.",
+      "en": "Son of Wincenty Ofiara and Franciszka née Walczak. Born in Wola Gutowska. Died at the age of nine months."
+    }
   },
   {
     "id": 202,
@@ -4766,10 +5953,6 @@
     "childIds": [],
     "parentIds": [159, 202],
     "marriages": [],
-    "biography": {
-      "pl": "Córka Wincentego Ofiary i Franciszki z d. Walczak. Siostra Ignacego. Zmarła w wieku 7 lat.",
-      "en": "Daughter of Wincenty Ofiara and Franciszka née Walczak. Sister of Ignacy. She died at the age of 7."
-    },
     "events": [
       {
         "type": "birth",
@@ -4777,7 +5960,18 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 271
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 242
+          },
+          {
+            "witnessId": 176
+          },
+          {
+            "witnessId": 255
+          }
+        ]
       },
       {
         "type": "death",
@@ -4785,9 +5979,21 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 293
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 212
+          },
+          {
+            "witnessId": 202
+          }
+        ]
       }
-    ]
+    ],
+    "biography": {
+      "pl": "Córka Wincentego Ofiary i Franciszki z d. Walczak. Siostra Ignacego. Zmarła w wieku 7 lat.",
+      "en": "Daughter of Wincenty Ofiara and Franciszka née Walczak. Sister of Ignacy. She died at the age of 7."
+    }
   },
   {
     "id": 204,
@@ -4804,10 +6010,6 @@
     "childIds": [],
     "parentIds": [157, 172],
     "marriages": [],
-    "biography": {
-      "pl": "Syn Stefana Ofiary i jego drugiej żony, Marianny z d. Jemiołek (primo voto Strączek). Zmarł w wieku niespełna dwóch lat. W jego akcie zgonu jako ojciec został błędnie zapisany 'Roch' zamiast 'Stefan'.",
-      "en": "Son of Stefan Ofiara and his second wife, Marianna née Jemiołek (primo voto Strączek). He died at the age of nearly two. In his death certificate, his father was mistakenly recorded as 'Roch' instead of 'Stefan'."
-    },
     "events": [
       {
         "type": "birth",
@@ -4815,7 +6017,15 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 272
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 102
+          },
+          {
+            "witnessId": 303
+          }
+        ]
       },
       {
         "type": "death",
@@ -4823,9 +6033,21 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 65
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 210
+          },
+          {
+            "witnessId": 212
+          }
+        ]
       }
-    ]
+    ],
+    "biography": {
+      "pl": "Syn Stefana Ofiary i jego drugiej żony, Marianny z d. Jemiołek (primo voto Strączek). Zmarł w wieku niespełna dwóch lat. W jego akcie zgonu jako ojciec został błędnie zapisany 'Roch' zamiast 'Stefan'.",
+      "en": "Son of Stefan Ofiara and his second wife, Marianna née Jemiołek (primo voto Strączek). He died at the age of nearly two. In his death certificate, his father was mistakenly recorded as 'Roch' instead of 'Stefan'."
+    }
   },
   {
     "id": 205,
@@ -4856,7 +6078,15 @@
         "place": "Jedlanka",
         "source": {
           "documentId": 305
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 213
+          },
+          {
+            "witnessId": 154
+          }
+        ]
       }
     ]
   },
@@ -4902,10 +6132,6 @@
     "childIds": [],
     "parentIds": [159, 202],
     "marriages": [],
-    "biography": {
-      "pl": "Syn Wincentego Ofiary i Franciszki z d. Walczak. Zmarł w wieku niespełna 10 miesięcy.",
-      "en": "Son of Wincenty Ofiara and Franciszka née Walczak. Died at the age of nearly 10 months."
-    },
     "events": [
       {
         "type": "birth",
@@ -4913,7 +6139,18 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 275
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 121
+          },
+          {
+            "witnessId": 176
+          },
+          {
+            "witnessId": 173
+          }
+        ]
       },
       {
         "type": "death",
@@ -4921,9 +6158,21 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 292
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 212
+          },
+          {
+            "witnessId": 52
+          }
+        ]
       }
-    ]
+    ],
+    "biography": {
+      "pl": "Syn Wincentego Ofiary i Franciszki z d. Walczak. Zmarł w wieku niespełna 10 miesięcy.",
+      "en": "Son of Wincenty Ofiara and Franciszka née Walczak. Died at the age of nearly 10 months."
+    }
   },
   {
     "id": 209,
@@ -4967,23 +6216,19 @@
     "marriages": [
       {
         "spouseId": 346,
-        "date": "1873",
+        "date": "1873-02-13",
         "source": {
           "documentId": 346
         }
       },
       {
         "spouseId": 347,
-        "date": "1898",
+        "date": "1898-02-01",
         "source": {
           "documentId": 347
         }
       }
     ],
-    "biography": {
-      "pl": "Córka Jakuba Ofiary i Magdaleny z d. Wieczorek. Była dwukrotnie zamężna: najpierw z Michałem Ofiarą (ślub w 1873 r.), a po jego śmierci z Janem Kucharskim (ślub w 1898 r.).",
-      "en": "Daughter of Jakub Ofiara and Magdalena née Wieczorek. She was married twice: first to Michał Ofiara (marriage in 1873), and after his death, to Jan Kucharski (marriage in 1898)."
-    },
     "events": [
       {
         "type": "birth",
@@ -4991,9 +6236,56 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 277
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 212
+          },
+          {
+            "witnessId": 184
+          },
+          {
+            "witnessId": 263
+          }
+        ]
+      },
+      {
+        "type": "marriage",
+        "date": "1873-02-13",
+        "spouseId": 346,
+        "source": {
+          "documentId": 346
+        },
+        "witnesses": [
+          {
+            "witnessId": 308
+          },
+          {
+            "witnessId": 138
+          }
+        ]
+      },
+      {
+        "type": "marriage",
+        "date": "1898-02-01",
+        "spouseId": 347,
+        "source": {
+          "documentId": 347
+        },
+        "witnesses": [
+          {
+            "witnessId": 166
+          },
+          {
+            "witnessId": 241
+          }
+        ]
       }
-    ]
+    ],
+    "biography": {
+      "pl": "Córka Jakuba Ofiary i Magdaleny z d. Wieczorek. Była dwukrotnie zamężna: najpierw z Michałem Ofiarą (ślub w 1873 r.), a po jego śmierci z Janem Kucharskim (ślub w 1898 r.).",
+      "en": "Daughter of Jakub Ofiara and Magdalena née Wieczorek. She was married twice: first to Michał Ofiara (marriage in 1873), and after his death, to Jan Kucharski (marriage in 1898)."
+    }
   },
   {
     "id": 211,
@@ -5021,7 +6313,18 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 278
-        }
+        },
+        "witnesses": [
+          {
+            "personId": 129
+          },
+          {
+            "witnessId": 322
+          },
+          {
+            "witnessId": 17
+          }
+        ]
       },
       {
         "type": "death",
@@ -5029,7 +6332,15 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 18
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 202
+          },
+          {
+            "witnessId": 135
+          }
+        ]
       }
     ]
   },
@@ -5046,10 +6357,6 @@
     "childIds": [],
     "parentIds": [159, 202],
     "marriages": [],
-    "biography": {
-      "pl": "Syn Wincentego Ofiary i Franciszki z d. Walczak. Brat Ignacego, Rozalii i Franciszka.",
-      "en": "Son of Wincenty Ofiara and Franciszka née Walczak. Brother of Ignacy, Rozalia and Franciszek."
-    },
     "events": [
       {
         "type": "birth",
@@ -5057,9 +6364,24 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 279
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 202
+          },
+          {
+            "witnessId": 264
+          },
+          {
+            "witnessId": 173
+          }
+        ]
       }
-    ]
+    ],
+    "biography": {
+      "pl": "Syn Wincentego Ofiary i Franciszki z d. Walczak. Brat Ignacego, Rozalii i Franciszka.",
+      "en": "Son of Wincenty Ofiara and Franciszka née Walczak. Brother of Ignacy, Rozalia and Franciszek."
+    }
   },
   {
     "id": 213,
@@ -5113,7 +6435,18 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 281
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 202
+          },
+          {
+            "witnessId": 50
+          },
+          {
+            "witnessId": 138
+          }
+        ]
       },
       {
         "type": "death",
@@ -5121,7 +6454,15 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 294
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 202
+          },
+          {
+            "witnessId": 44
+          }
+        ]
       }
     ]
   },
@@ -5149,7 +6490,18 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 282
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 324
+          },
+          {
+            "witnessId": 212
+          },
+          {
+            "witnessId": 292
+          }
+        ]
       }
     ]
   },
@@ -5168,6 +6520,7 @@
     "spouseIds": [],
     "childIds": [],
     "parentIds": [129, 362],
+    "marriages": [],
     "biography": {
       "pl": "Syn Jakuba Ofiary i Magdaleny z d. Wieczorek. Zmarł w wieku dwóch lat. Jego akt zgonu (nr 67 z 1863 r.) został ostatecznie zidentyfikowany po odkryciu, że jego kuzyn o tym samym imieniu, syn Jana Ofiary, zmarł w tym samym roku, co wyjaśniło wcześniejsze nieścisłości w dokumentacji.",
       "en": "Son of Jakub Ofiara and Magdalena née Wieczorek. He died at the age of two. His death record (no. 67 from 1863) was definitively identified after it was discovered that his cousin of the same name, son of Jan Ofiara, had died in the same year, which clarified earlier documentary discrepancies."
@@ -5179,15 +6532,34 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 283
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 202
+          },
+          {
+            "witnessId": 325
+          },
+          {
+            "witnessId": 291
+          }
+        ]
       },
       {
         "type": "death",
         "date": "1863-07-08",
         "place": "Wola Gutowska",
         "source": {
-          "documentId": 15
-        }
+          "documentId": 67
+        },
+        "witnesses": [
+          {
+            "witnessId": 202
+          },
+          {
+            "witnessId": 135
+          }
+        ]
       }
     ]
   },
@@ -5201,7 +6573,7 @@
     "photoUrl": null,
     "family": "ofiara",
     "spouseIds": [285],
-    "childIds": [238, 270],
+    "childIds": [238],
     "parentIds": [159, 202],
     "marriages": [
       {
@@ -5212,10 +6584,6 @@
         }
       }
     ],
-    "biography": {
-      "pl": "Syn Wincentego Ofiary i Franciszki z d. Walczak. Brat Ignacego, Rozalii, Franciszka i Jana. W 1881 roku poślubił swoją kuzynkę drugiego stopnia, Franciszkę Ofiarę, córkę Jana.",
-      "en": "Son of Wincenty Ofiara and Franciszka née Walczak. Brother of Ignacy, Rozalia, Franciszek and Jan. In 1881, he married his second cousin, Franciszka Ofiara, daughter of Jan."
-    },
     "events": [
       {
         "type": "birth",
@@ -5223,9 +6591,37 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 284
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 203
+          },
+          {
+            "witnessId": 313
+          }
+        ]
+      },
+      {
+        "type": "marriage",
+        "date": "1881-02-09",
+        "spouseId": 285,
+        "source": {
+          "documentId": 336
+        },
+        "witnesses": [
+          {
+            "witnessId": 276
+          },
+          {
+            "witnessId": 305
+          }
+        ]
       }
-    ]
+    ],
+    "biography": {
+      "pl": "Syn Wincentego Ofiary i Franciszki z d. Walczak. Brat Ignacego, Rozalii, Franciszka i Jana. W 1881 roku poślubił swoją kuzynkę drugiego stopnia, Franciszkę Ofiarę, córkę Jana.",
+      "en": "Son of Wincenty Ofiara and Franciszka née Walczak. Brother of Ignacy, Rozalia, Franciszek and Jan. In 1881, he married his second cousin, Franciszka Ofiara, daughter of Jan."
+    }
   },
   {
     "id": 218,
@@ -5317,7 +6713,25 @@
     "biography": {
       "pl": "Córka Konstantego Ofiary i Agnieszki z d. Grzegorzewskiej. Urodzona w Woli Gutowskiej. Po śmierci ojca w 1812 roku, do ślubu z Michałem Okrojem w 1813 roku stanęła w asyście opiekuna prawnego ('ojca przybranego'), Macieja Ofiary. W jej akcie ślubu dane matki zostały najprawdopodobniej błędnie zapisane jako Helena Pietrasikowna.",
       "en": "Daughter of Konstanty Ofiara and Agnieszka née Grzegorzewska. Born in Wola Gutowska. After her father's death in 1812, she married Michał Okrój in 1813, assisted by her legal guardian ('adopted father'), Maciej Ofiara. Her mother's details in her marriage record were most likely incorrectly recorded as Helena Pietrasikowna."
-    }
+    },
+    "events": [
+      {
+        "type": "marriage",
+        "date": "1813-01-27",
+        "spouseId": 223,
+        "source": {
+          "documentId": 273
+        },
+        "witnesses": [
+          {
+            "witnessId": 51
+          },
+          {
+            "witnessId": 300
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 223,
@@ -5334,6 +6748,24 @@
         "source": {
           "documentId": 273
         }
+      }
+    ],
+    "events": [
+      {
+        "type": "marriage",
+        "date": "1813-01-27",
+        "spouseId": 222,
+        "source": {
+          "documentId": 273
+        },
+        "witnesses": [
+          {
+            "witnessId": 51
+          },
+          {
+            "witnessId": 300
+          }
+        ]
       }
     ],
     "biography": {
@@ -5409,7 +6841,25 @@
     "biography": {
       "pl": "Syn Jana i Marianny z d. Cholewa. Kuzyn dzieci Konstantego Ofiary. W 1819 roku, w wieku 21 lat, poślubił Mariannę Wasiel. Mieszkał i pracował jako parobek w Woli Gutowskiej.",
       "en": "Son of Jan and Marianna née Cholewa. Cousin of Konstanty Ofiara's children. In 1819, at the age of 21, he married Marianna Wasiel. He lived and worked as a farmhand in Wola Gutowska."
-    }
+    },
+    "events": [
+      {
+        "type": "marriage",
+        "date": "1819-01-26",
+        "spouseId": 228,
+        "source": {
+          "documentId": 274
+        },
+        "witnesses": [
+          {
+            "witnessId": 119
+          },
+          {
+            "witnessId": 241
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 228,
@@ -5428,6 +6878,24 @@
         "source": {
           "documentId": 274
         }
+      }
+    ],
+    "events": [
+      {
+        "type": "marriage",
+        "date": "1819-01-26",
+        "spouseId": 227,
+        "source": {
+          "documentId": 274
+        },
+        "witnesses": [
+          {
+            "witnessId": 119
+          },
+          {
+            "witnessId": 241
+          }
+        ]
       }
     ],
     "biography": {
@@ -5484,7 +6952,15 @@
         "place": "Jedlanka",
         "source": {
           "documentId": 276
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 124
+          },
+          {
+            "witnessId": 273
+          }
+        ]
       }
     ],
     "biography": {
@@ -5545,7 +7021,15 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 280
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 243
+          },
+          {
+            "witnessId": 37
+          }
+        ]
       },
       {
         "type": "death",
@@ -5553,7 +7037,15 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 285
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 206
+          },
+          {
+            "witnessId": 246
+          }
+        ]
       }
     ],
     "biography": {
@@ -5615,7 +7107,18 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 13
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 112
+          },
+          {
+            "witnessId": 135
+          },
+          {
+            "witnessId": 272
+          }
+        ]
       }
     ],
     "biography": {
@@ -5630,10 +7133,12 @@
     "birthDateNote": "ok. 1894",
     "deathDate": "1894-05-19",
     "deathTime": "21:00",
+    "photoUrl": null,
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [217],
+    "parentIds": [217, 285],
+    "marriages": [],
     "biography": {
       "pl": "Córka Piotra Ofiary i Franciszki z domu Ofiara. Zmarła w wieku trzech tygodni.",
       "en": "Daughter of Piotr Ofiara and Franciszka née Ofiara. She died at the age of three weeks."
@@ -5645,7 +7150,15 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 310
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 208
+          },
+          {
+            "witnessId": 290
+          }
+        ]
       }
     ]
   },
@@ -6434,10 +7947,10 @@
     "firstName": "Jan",
     "lastName": "Ofiara",
     "birthDate": "1826-12-28",
-    "deathDateNote": "po 1907",
+    "deathDateNote": "po 1906",
     "family": "ofiara",
     "spouseIds": [274],
-    "childIds": [11, 23, 206, 209, 213, 236, 243, 253, 272, 299],
+    "childIds": [],
     "parentIds": [281, 282],
     "occupation": {
       "pl": "Parobek / Włościanin",
@@ -6454,10 +7967,6 @@
         }
       }
     ],
-    "biography": {
-      "pl": "Syn Karola Ofiary i Salomei z Jemiołków. W 1852 roku poślubił Mariannę Wieczorek (ID 274), siostrę żony swojego brata stryjecznego Jakuba. Ojciec licznego potomstwa, z którego niestety większość zmarła w dzieciństwie: Julianna, Franciszka, dwie córki o imieniu Teofila, Stanisław, Franciszek, Ludwika, Adam, Agnieszka i Katarzyna. Jego ojciec, Karol, był bratem Szczepana Ofiary, co czyni Jana kuzynem pierwszej linii (bratem stryjecznym) Jakuba Ofiary (ID 129).",
-      "en": "Son of Karol Ofiara and Salomea née Jemiołek. In 1852, he married Marianna Wieczorek (ID 274), the sister of his first cousin Jakub's wife. Father of numerous children, most of whom unfortunately died in childhood: Julianna, Franciszka, two daughters named Teofila, Stanisław, Franciszek, Ludwika, Adam, Agnieszka and Katarzyna. His father, Karol, was the brother of Szczepan Ofiara, which makes Jan a first cousin to Jakub Ofiara (ID 129)."
-    },
     "events": [
       {
         "type": "marriage",
@@ -6466,20 +7975,23 @@
         "time": "9:00",
         "timeQualifier": "morning",
         "place": "Jedlińsk",
+        "source": {
+          "documentId": 350
+        },
         "witnesses": [
           {
-            "firstName": "Tomasz",
-            "lastName": "Romanik",
-            "age": 50
+            "witnessId": 238
           },
           {
-            "firstName": "Dionizy",
-            "lastName": "Lipiec",
-            "age": 50
+            "witnessId": 177
           }
         ]
       }
-    ]
+    ],
+    "biography": {
+      "pl": "Syn Karola Ofiary i Salomei z Jemiołków. W 1852 roku poślubił Mariannę Wieczorek (córkę Kacpra i Małgorzaty). Jego ojciec, Karol, był bratem Szczepana Ofiary, co czyni Jana kuzynem pierwszej linii Jakuba Ofiary (ID 129).",
+      "en": "Son of Karol Ofiara and Salomea née Jemiołek. In 1852, he married Marianna Wieczorek (daughter of Kacper and Małgorzata). His father, Karol, was the brother of Szczepan Ofiara, which makes Jan a first cousin to Jakub Ofiara (ID 129)."
+    }
   },
   {
     "id": 274,
@@ -6491,7 +8003,7 @@
     "deathDate": "1907-02-13",
     "deathTime": "21:00",
     "spouseIds": [273],
-    "childIds": [11, 23, 206, 209, 213, 236, 243, 253, 272, 299],
+    "childIds": [],
     "parentIds": [322, 323],
     "marriages": [
       {
@@ -6504,41 +8016,47 @@
         }
       }
     ],
-    "biography": {
-      "pl": "Żona Jana Ofiary (ID: 273). Córka Kacpra i Małgorzaty z Grzelaków Wieczorków. Jej siostra, również Marianna (ID 130), poślubiła Jakuba Ofiarę, brata stryjecznego jej męża. Matka licznego potomstwa, z którego większość zmarła w dzieciństwie. Zmarła w wieku 69 lat.",
-      "en": "Wife of Jan Ofiara (ID: 273). Daughter of Kacper and Małgorzata née Grzelak Wieczorek. Her sister, also named Marianna (ID 130), married Jakub Ofiara, her husband's first cousin. Mother of numerous children, most of whom died in childhood. She died at the age of 69."
-    },
     "events": [
       {
         "type": "marriage",
         "spouseId": 273,
         "date": "1852-02-08",
-        "time": "9:00",
-        "timeQualifier": "morning",
-        "place": "Jedlińsk",
+        "source": {
+          "documentId": 350
+        },
         "witnesses": [
           {
-            "firstName": "Tomasz",
-            "lastName": "Romanik",
-            "age": 50
+            "witnessId": 238
           },
           {
-            "firstName": "Dionizy",
-            "lastName": "Lipiec",
-            "age": 50
+            "witnessId": 177
           }
         ]
       },
       {
         "type": "death",
         "date": "1907-02-13",
-        "time": "21:00",
         "place": "Wola Gutowska",
         "source": {
           "documentId": 330
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 203
+          },
+          {
+            "witnessId": 96
+          },
+          {
+            "witnessId": 311
+          }
+        ]
       }
-    ]
+    ],
+    "biography": {
+      "pl": "Żona Jana Ofiary (syna Karola). Córka Kacpra i Małgorzaty z Grzelaków Wieczorków. Należy ją odróżnić od Marianny Wieczorek (ID 284), żony innego Jana Ofiary.",
+      "en": "Wife of Jan Ofiara (son of Karol). Daughter of Kacper and Małgorzata née Grzelak Wieczorek. She should be distinguished from Marianna Wieczorek (ID 284), the wife of another Jan Ofiara."
+    }
   },
   {
     "id": 275,
@@ -6708,98 +8226,37 @@
     }
   },
   {
-    "id": 283,
-    "firstName": "Jan",
-    "lastName": "Ofiara",
-    "birthDateNote": "ok. 1826",
-    "deathDateNote": "po 1906",
-    "family": "ofiara",
-    "spouseIds": [284],
-    "childIds": [285, 301, 245, 307, 311, 315, 319, 342],
-    "parentIds": [281, 282],
-    "marriages": [
-      {
-        "spouseId": 284,
-        "date": "1852-02-08",
-        "time": "9:00",
-        "timeQualifier": "morning",
-        "source": {
-          "documentId": 350
-        }
-      }
-    ],
-    "biography": {
-      "pl": "Syn Karola Ofiary i Salomei z Jemiołków. W 1852 roku poślubił Mariannę Wieczorek. Ojciec Franciszki, Zofii, Józefa, Józefy, Antoniny, Jana (zm. 1887 w niemowlęctwie), Józefa (zm. 1863) oraz przybrany ojciec Anny Blicharz. Jego ojciec, Karol, był bratem Szczepana Ofiary, co czyni Jana kuzynem pierwszej linii (bratem stryjecznym) Jakuba Ofiary (ID 129).",
-      "en": "Son of Karol Ofiara and Salomea née Jemiołek. In 1852, he married Marianna Wieczorek. Father of Franciszka, Zofia, Józef, Józefa, Antonina, Jan (d. 1887 in infancy), Józef (d. 1863), and stepfather to Anna Blicharz. His father, Karol, was the brother of Szczepan Ofiara, which makes Jan a first cousin (paternal cousin) to Jakub Ofiara (ID 129)."
-    },
-    "events": [
-      {
-        "type": "marriage",
-        "spouseId": 284,
-        "date": "1852-02-08",
-        "time": "9:00",
-        "timeQualifier": "morning",
-        "place": "Jedlińsk",
-        "witnesses": [
-          {
-            "firstName": "Tomasz",
-            "lastName": "Romanik",
-            "age": 50
-          },
-          {
-            "firstName": "Dionizy",
-            "lastName": "Lipiec",
-            "age": 50
-          }
-        ]
-      }
-    ]
-  },
-  {
     "id": 284,
     "firstName": "Marianna",
     "lastName": "Ofiara",
     "maidenName": "Wieczorek",
     "family": "ofiara",
-    "birthDateNote": "ok. 1832",
+    "birthDate": "1861-01-02",
     "deathDate": "1897-02-26",
     "deathTime": "20:00",
-    "spouseIds": [283],
-    "childIds": [285, 301, 245, 307, 311, 315, 319, 342],
-    "parentIds": [322, 323],
+    "spouseIds": [203],
+    "childIds": [11, 23, 206, 209, 213, 236, 243, 253, 272, 299],
+    "parentIds": [320, 321],
     "marriages": [
       {
-        "spouseId": 283,
-        "date": "1852-02-08",
-        "time": "9:00",
-        "timeQualifier": "morning",
-        "source": {
-          "documentId": 350
-        }
+        "spouseId": 203,
+        "date": "?"
       }
     ],
-    "biography": {
-      "pl": "Żona Jana Ofiary (syna Karola). Córka Kacpra i Małgorzaty z Grzelaków Wieczorków. Należy ją odróżnić od jej siostry, również Marianny Wieczorek (ID 130), która poślubiła Jakuba Ofiarę.",
-      "en": "Wife of Jan Ofiara (son of Karol). Daughter of Kacper and Małgorzata née Grzelak Wieczorek. She should be distinguished from her sister, also named Marianna Wieczorek (ID 130), who married Jakub Ofiara."
-    },
     "events": [
       {
-        "type": "marriage",
-        "spouseId": 283,
-        "date": "1852-02-08",
-        "time": "9:00",
-        "timeQualifier": "morning",
-        "place": "Jedlińsk",
+        "type": "birth",
+        "date": "1861-01-02",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 344
+        },
         "witnesses": [
           {
-            "firstName": "Tomasz",
-            "lastName": "Romanik",
-            "age": 50
+            "witnessId": 252
           },
           {
-            "firstName": "Dionizy",
-            "lastName": "Lipiec",
-            "age": 50
+            "witnessId": 181
           }
         ]
       },
@@ -6810,9 +8267,21 @@
         "place": "Tymowska Wola",
         "source": {
           "documentId": 343
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 203
+          },
+          {
+            "witnessId": 105
+          }
+        ]
       }
-    ]
+    ],
+    "biography": {
+      "pl": "Żona Jana Ofiary. Córka Dominika i Salomei z Dobrowolskich Wieczorków. Należy ją odróżnić od Marianny Wieczorek (ID 274), żony Jana Ofiary, syna Karola.",
+      "en": "Wife of Jan Ofiara. Daughter of Dominik and Salomea née Dobrowolska Wieczorek. She should be distinguished from Marianna Wieczorek (ID 274), wife of Jan Ofiara, son of Karol."
+    }
   },
   {
     "id": 285,
@@ -6823,7 +8292,7 @@
     "family": "ofiara",
     "spouseIds": [217],
     "childIds": [],
-    "parentIds": [283, 284],
+    "parentIds": [273, 274],
     "marriages": [
       {
         "spouseId": 217,
@@ -6836,7 +8305,25 @@
     "biography": {
       "pl": "Córka Jana Ofiary i Marianny z domu Wieczorek. W 1881 roku poślubiła swojego kuzyna drugiego stopnia, Piotra Ofiarę (syna Wincentego, wnuka Szczepana). Jej ślub jest kluczowym dowodem łączącym gałęzie Szczepana i Karola Ofiarów.",
       "en": "Daughter of Jan Ofiara and Marianna née Wieczorek. In 1881, she married her second cousin, Piotr Ofiara (son of Wincenty, grandson of Szczepan). Her marriage is the key evidence connecting the branches of Szczepan and Karol Ofiara."
-    }
+    },
+    "events": [
+      {
+        "type": "marriage",
+        "date": "1881-02-09",
+        "spouseId": 217,
+        "source": {
+          "documentId": 336
+        },
+        "witnesses": [
+          {
+            "witnessId": 276
+          },
+          {
+            "witnessId": 305
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 12,
@@ -6872,7 +8359,8 @@
     "maidenName": "Prasek",
     "birthDateNote": "ok. 1830",
     "deathDate": "1886-03-17",
-    "deathTime": "21:00",
+    "deathTime": "09:00",
+    "deathTimeQualifier": "morning",
     "family": "ofiara",
     "spouseIds": [160],
     "childIds": [],
@@ -6894,7 +8382,15 @@
         "place": "Wola Gutowska",
         "source": {
           "documentId": 303
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 265
+          },
+          {
+            "witnessId": 203
+          }
+        ]
       }
     ]
   },
@@ -6957,12 +8453,13 @@
     "lastName": "Ofiara",
     "birthDateNote": "ok. 1880",
     "deathDate": "1880-07-24",
-    "deathTime": "7:00",
+    "deathTime": "07:00",
     "deathTimeQualifier": "morning",
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
     "parentIds": [129, 362],
+    "marriages": [],
     "biography": {
       "pl": "Córka Jakuba i Magdaleny z d. Wieczorek. W jej akcie zgonu ojciec został błędnie zapisany jako Józef. Zmarła w wieku dwóch dni.",
       "en": "Daughter of Jakub and Magdalena née Wieczorek. In her death record, her father was mistakenly recorded as Józef. She died at the age of two days."
@@ -6974,7 +8471,15 @@
         "place": "Tymowska Wola",
         "source": {
           "documentId": 298
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 202
+          },
+          {
+            "witnessId": 194
+          }
+        ]
       }
     ]
   },
@@ -7327,26 +8832,55 @@
     "id": 319,
     "firstName": "Józef",
     "lastName": "Ofiara",
-    "birthDateNote": "ok. 1861",
+    "birthDate": "1863-03-05",
+    "birthTime": "03:00",
+    "birthTimeQualifier": "morning",
     "deathDate": "1863-02-27",
     "deathTime": "09:00",
     "deathTimeQualifier": "morning",
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [283, 284],
+    "parentIds": [273, 274],
     "biography": {
-      "pl": "Syn Jana Ofiary i Marianny z domu Wieczorek. Zmarł w wieku dwóch lat. Jego istnienie i pochodzenie potwierdza akt zgonu, w którym jego ojciec Jan jest zgłaszającym i podaje swój wiek (37 lat), co odróżnia go od jego kuzyna, również Józefa (syna Jakuba), który zmarł w tym samym roku.",
-      "en": "Son of Jan Ofiara and Marianna née Wieczorek. He died at the age of two. His existence and parentage are confirmed by his death record, in which his father Jan is the informant and states his age (37), distinguishing him from his cousin, also named Józef (son of Jakub), who died in the same year."
+      "pl": "Syn Jana Ofiary i Marianny z domu Wieczorek. Urodził się 5 marca 1863 r. Zmarł w tym samym roku, 27 lutego, w wieku dwóch lat, co wskazuje na błąd w dacie zgonu zapisanej w akcie. Jego istnienie i pochodzenie potwierdza akt urodzenia (nr 21 z 1863 r.) oraz akt zgonu (nr 47 z 1863 r.), w którym jego ojciec Jan jest zgłaszającym i podaje swój wiek (37 lat). To odróżnia go od jego kuzyna, również Józefa (syna Jakuba), który także zmarł w 1863 roku.",
+      "en": "Son of Jan Ofiara and Marianna née Wieczorek. He was born on March 5, 1863. He died in the same year, on February 27, at the age of two, which indicates an error in the date of death recorded in the certificate. His existence and parentage are confirmed by his birth record (no. 21 from 1863) and his death record (no. 47 from 1863), in which his father Jan is the informant and states his age (37). This distinguishes him from his cousin, also named Józef (son of Jakub), who also died in 1863."
     },
     "events": [
+      {
+        "type": "birth",
+        "date": "1863-03-05",
+        "place": "Wola Gutowska",
+        "source": {
+          "documentId": 23
+        },
+        "witnesses": [
+          {
+            "witnessId": 203
+          },
+          {
+            "witnessId": 326
+          },
+          {
+            "witnessId": 202
+          }
+        ]
+      },
       {
         "type": "death",
         "date": "1863-02-27",
         "place": "Wola Gutowska",
         "source": {
-          "documentId": 342
-        }
+          "documentId": 47
+        },
+        "witnesses": [
+          {
+            "witnessId": 203
+          },
+          {
+            "witnessId": 197
+          }
+        ]
       }
     ]
   },
@@ -7461,11 +8995,11 @@
     "family": "ofiara",
     "spouseIds": [210],
     "childIds": [],
-    "parentIds": [],
+    "parentIds": [348, 349],
     "marriages": [
       {
         "spouseId": 210,
-        "date": "1873",
+        "date": "1873-02-13",
         "source": {
           "documentId": 346
         }
@@ -7474,7 +9008,25 @@
     "biography": {
       "pl": "Pierwszy mąż Józefy Ofiary (ID 210), córki Jakuba. Syn Marcina i Apolonii z d. Walter. Zmarł przed 1898 rokiem, ponieważ w tym roku jego żona wyszła ponownie za mąż.",
       "en": "First husband of Józefa Ofiara (ID 210), daughter of Jakub. Son of Marcin and Apolonia née Walter. He died before 1898, as his wife remarried in that year."
-    }
+    },
+    "events": [
+      {
+        "type": "marriage",
+        "date": "1873-02-13",
+        "spouseId": 210,
+        "source": {
+          "documentId": 346
+        },
+        "witnesses": [
+          {
+            "witnessId": 308
+          },
+          {
+            "witnessId": 138
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 347,
@@ -7487,7 +9039,7 @@
     "marriages": [
       {
         "spouseId": 210,
-        "date": "1898",
+        "date": "1898-02-01",
         "source": {
           "documentId": 347
         }
@@ -7496,7 +9048,25 @@
     "biography": {
       "pl": "Drugi mąż Józefy Ofiary (ID 210), córki Jakuba. Był synem Szymona i Justyny z d. Grzesiak.",
       "en": "Second husband of Józefa Ofiara (ID 210), daughter of Jakub. He was the son of Szymon and Justyna née Grzesiak."
-    }
+    },
+    "events": [
+      {
+        "type": "marriage",
+        "date": "1898-02-01",
+        "spouseId": 210,
+        "source": {
+          "documentId": 347
+        },
+        "witnesses": [
+          {
+            "witnessId": 166
+          },
+          {
+            "witnessId": 241
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 348,
@@ -7622,6 +9192,40 @@
         }
       }
     ],
+    "events": [
+      {
+        "type": "marriage",
+        "date": "1846-11-16",
+        "spouseId": 363,
+        "source": {
+          "documentId": 352
+        },
+        "witnesses": [
+          {
+            "witnessId": 135
+          },
+          {
+            "witnessId": 174
+          }
+        ]
+      },
+      {
+        "type": "marriage",
+        "date": "1856-01-25",
+        "spouseId": 129,
+        "source": {
+          "documentId": 351
+        },
+        "witnesses": [
+          {
+            "witnessId": 282
+          },
+          {
+            "witnessId": 17
+          }
+        ]
+      }
+    ],
     "biography": {
       "pl": "Córka Kacpra i Małgorzaty z Grzelaków Wieczorków, siostra dwóch Mariann (ID 130 i 274). Jej pierwszym mężem był Józef Russ. Po jego śmierci, jako wdowa w wieku 25 lat, poślubiła Jakuba Ofiarę (ID 129). Matka Andrzeja Ofiary (ID: 57).",
       "en": "Daughter of Kacper and Małgorzata née Grzelak Wieczorek, sister of the two Mariannas (ID 130 and 274). Her first husband was Józef Russ. After his death, as a 25-year-old widow, she married Jakub Ofiara (ID 129). Mother of Andrzej Ofiara (ID: 57)."
@@ -7702,7 +9306,18 @@
         "place": "Jaszowice",
         "source": {
           "documentId": 354
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 9
+          },
+          {
+            "witnessId": 302
+          },
+          {
+            "witnessId": 195
+          }
+        ]
       }
     ]
   },
@@ -7712,6 +9327,7 @@
     "lastName": "Gerczak vel Gierczak",
     "birthDate": "1832-05-16",
     "birthTime": "15:00",
+    "birthTimeQualifier": "afternoon",
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
@@ -7727,7 +9343,21 @@
         "place": "Jaszowice",
         "source": {
           "documentId": 355
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 9
+          },
+          {
+            "witnessId": 302
+          },
+          {
+            "witnessId": 125
+          },
+          {
+            "witnessId": 195
+          }
+        ]
       }
     ]
   },
@@ -7737,6 +9367,7 @@
     "lastName": "Gierczak",
     "birthDate": "1838-07-30",
     "birthTime": "15:00",
+    "birthTimeQualifier": "afternoon",
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
@@ -7752,7 +9383,18 @@
         "place": "Jaszowice",
         "source": {
           "documentId": 356
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 286
+          },
+          {
+            "witnessId": 55
+          },
+          {
+            "witnessId": 195
+          }
+        ]
       }
     ]
   },
@@ -7767,8 +9409,8 @@
     "childIds": [],
     "parentIds": [5, 188],
     "biography": {
-      "pl": "Córka Michała Gierczaka i jego pierwszej żony, Marianny z domu Nabis. Siostra Marianny (ID 187), Katarzyny (ID 366), Antoniny (ID 367) i Klary (ID 368).",
-      "en": "Daughter of Michał Gierczak and his first wife, Marianna née Nabis. Sister of Marianna (ID 187), Katarzyna (ID 366), Antonina (ID 367), and Klara (ID 368)."
+      "pl": "Córka Michała Gierczaka i jego pierwszej żony, Marianny z domu Nabis. Siostra Marianny (ID 187), Katarzyny (ID 366), Antoniny (ID 367), Klary (ID 368) i Józefa (ID 370).",
+      "en": "Daughter of Michał Gierczak and his first wife, Marianna née Nabis. Sister of Marianna (ID 187), Katarzyna (ID 366), Antonina (ID 367), Klara (ID 368), and Józef (ID 370)."
     },
     "events": [
       {
@@ -7777,7 +9419,18 @@
         "place": "Jaszowice",
         "source": {
           "documentId": 357
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 77
+          },
+          {
+            "witnessId": 70
+          },
+          {
+            "witnessId": 278
+          }
+        ]
       }
     ]
   },
@@ -7802,7 +9455,18 @@
         "place": "Jaszowice",
         "source": {
           "documentId": 358
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 77
+          },
+          {
+            "witnessId": 54
+          },
+          {
+            "witnessId": 55
+          }
+        ]
       }
     ]
   },
@@ -7852,7 +9516,12 @@
         "place": "Jaszowice",
         "source": {
           "documentId": 361
-        }
+        },
+        "witnesses": [
+          { "witnessId": 145 },
+          { "witnessId": 146 },
+          { "witnessId": 286 }
+        ]
       }
     ]
   },
@@ -7877,7 +9546,12 @@
         "place": "Jaszowice",
         "source": {
           "documentId": 138
-        }
+        },
+        "witnesses": [
+          { "witnessId": 145 },
+          { "witnessId": 146 },
+          { "witnessId": 286 }
+        ]
       }
     ]
   },
@@ -7908,7 +9582,13 @@
         "place": "Gulinek",
         "source": {
           "documentId": 362
-        }
+        },
+        "witnesses": [
+          { "witnessId": 20 },
+          { "witnessId": 34 },
+          { "witnessId": 189 },
+          { "witnessId": 139 }
+        ]
       },
       {
         "type": "death",
@@ -8064,7 +9744,18 @@
         "place": "Jaszowice",
         "source": {
           "documentId": 377
-        }
+        },
+        "witnesses": [
+          {
+            "witnessId": 4
+          },
+          {
+            "witnessId": 253
+          },
+          {
+            "witnessId": 196
+          }
+        ]
       }
     ]
   },
@@ -8090,9 +9781,8 @@
         "type": "birth",
         "date": "1820-11-24",
         "place": "Wrzos",
-        "source": {
-          "documentId": 378
-        }
+        "source": { "documentId": 378 },
+        "witnesses": [{ "witnessId": 91 }, { "witnessId": 299 }]
       }
     ]
   },
@@ -8451,7 +10141,8 @@
         "place": "Wrzos",
         "source": {
           "documentId": 9
-        }
+        },
+        "witnesses": [{ "witnessId": 171 }, { "witnessId": 168 }]
       }
     ]
   },
@@ -8536,7 +10227,7 @@
         "date": "1848-04-27",
         "place": "Wrzos",
         "source": {
-          "documentId": 15
+          "documentId": 385
         }
       },
       {
@@ -8629,7 +10320,12 @@
         "place": "Gulinek",
         "source": {
           "documentId": 44
-        }
+        },
+        "witnesses": [
+          { "witnessId": 139 },
+          { "witnessId": 143 },
+          { "witnessId": 189 }
+        ]
       }
     ]
   },
@@ -9061,5 +10757,34 @@
         }
       }
     ]
+  },
+  {
+    "id": 445,
+    "firstName": "Jan",
+    "lastName": "Ofiara",
+    "birthDateNote": "ok. 1832",
+    "family": "ofiara",
+    "spouseIds": [446],
+    "childIds": [215],
+    "parentIds": [],
+    "biography": {
+      "pl": "Ojciec Bartłomieja Ofiary. Zgodnie z aktem urodzenia syna (dokument nr 282) w 1860 roku miał 28 lat i był żonaty z Marianną z domu Wieczorek.",
+      "en": "Father of Bartłomiej Ofiara. According to his son's birth record (document no. 282), in 1860 he was 28 years old and married to Marianna née Wieczorek."
+    }
+  },
+  {
+    "id": 446,
+    "firstName": "Marianna",
+    "lastName": "Ofiara",
+    "maidenName": "Wieczorek",
+    "birthDateNote": "ok. 1835",
+    "family": "ofiara",
+    "spouseIds": [445],
+    "childIds": [215],
+    "parentIds": [],
+    "biography": {
+      "pl": "Matka Bartłomieja Ofiary. Zgodnie z aktem urodzenia syna (dokument nr 282) w 1860 roku miała 25 lat i była żoną Jana Ofiary.",
+      "en": "Mother of Bartłomiej Ofiara. According to her son's birth record (document no. 282), in 1860 she was 25 years old and was the wife of Jan Ofiara."
+    }
   }
 ]
