@@ -41,7 +41,7 @@ export default function WitnessIndex() {
 
     return sortedWitnesses.filter((witness: Witness) => {
       const fullName = `${witness.firstName} ${witness.lastName}`.toLowerCase();
-      const residence = witness.residence.toLowerCase();
+      const residence = (witness.residence || "").toLowerCase(); // POPRAWKA TUTAJ
       const term = searchTerm.toLowerCase();
       return fullName.includes(term) || residence.includes(term);
     });
@@ -107,7 +107,8 @@ export default function WitnessIndex() {
                     </h3>
                     <p className="text-sm text-muted-foreground flex items-center mt-1">
                       <MapPin className="w-3.5 h-3.5 mr-2" />
-                      {t("witnessIndex.residence")}: {witness.residence}
+                      {t("witnessIndex.residence")}:{" "}
+                      {witness.residence || t("data.unknown")}
                     </p>
                     {witness.personId && (
                       <Link
@@ -125,7 +126,7 @@ export default function WitnessIndex() {
                       </h4>
                       <div className="flex flex-wrap gap-2">
                         <TooltipProvider>
-                          {witness.documentIds.map((id: number) => {
+                          {witness.documentIds?.map((id: number) => {
                             const doc = genealogyData.documents.find(
                               (d) => d.id === id
                             );
