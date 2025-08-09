@@ -9,9 +9,30 @@ export interface Keepsake {
   description: Translation;
 }
 
+export interface FamilyLink {
+  personId: number;
+  certaintyLevel?: "pewne" | "hipoteza";
+}
+
+export interface Residence {
+  placeId: string;
+  dateFrom?: string;
+  dateTo?: string;
+  source?: {
+    documentId: number;
+  };
+}
+
+export interface Occupation {
+  title: Translation;
+  date?: string;
+  details?: string;
+}
+
 export interface Marriage {
   spouseId: number;
   date: string | null;
+  place?: string;
   source?: {
     documentId: number;
   };
@@ -26,6 +47,7 @@ export interface Event {
   timeQualifier?: string;
   source?: {
     documentId: number;
+    note?: Translation;
   };
   note?: Translation;
   spouseId?: number;
@@ -39,6 +61,7 @@ export interface Person {
   firstName: string;
   lastName: string;
   maidenName?: string;
+  aliases?: string[];
   birthDate?: string | null;
   birthDateNote?: string;
   birthTime?: string;
@@ -50,9 +73,10 @@ export interface Person {
   photoUrl?: string | null;
   family: "gierczak" | "ofiara";
   spouseIds: number[];
-  childIds: number[];
-  parentIds: number[];
-  occupation?: Translation;
+  childIds: FamilyLink[];
+  parentIds: FamilyLink[];
+  occupations?: Occupation[];
+  residences?: Residence[];
   marriages: Marriage[];
   biography: Translation;
   anecdotes?: Translation[];
@@ -85,6 +109,7 @@ export interface Document {
 export interface Place {
   id: string;
   name: string;
+  parish?: string;
   context?: string;
   description: Translation;
   history: Translation;
@@ -95,7 +120,8 @@ export interface Witness {
   id: number;
   lastName: string;
   firstName: string;
-  residence: string;
+  residence?: string;
   documentIds: number[];
   personId?: number;
+  aliases?: string[];
 }

@@ -278,6 +278,8 @@ const translations = {
     "person.anecdotes": "Wspomnienia i anegdoty",
     "person.hasAnecdotes": "Kliknij, aby przeczytać wspomnienia",
     "person.keepsakes": "Pamiątki",
+    "person.residences": "Historia Miejsc Zamieszkania",
+    "person.occupations": "Historia Zawodów",
     "person.hasKeepsakesDesc": "Zobacz kolekcję pamiątkowych przedmiotów",
     "time.night": "w nocy",
     "time.evening": "wieczorem",
@@ -291,6 +293,7 @@ const translations = {
     "tooltip.viewBirthRecord": "Zobacz akt urodzenia",
     "tooltip.viewDeathRecord": "Zobacz akt zgonu",
     "tooltip.viewMarriageRecord": "Zobacz akt ślubu",
+    "tooltip.viewSource": "Zobacz dokument źródłowy",
     "footer.title": "Korzenie rodu",
     "footer.description":
       "Cyfrowe archiwum i interaktywne drzewo genealogiczne rodów Gierczak i Ofiara z okolic Radomia.",
@@ -640,6 +643,8 @@ const translations = {
     "person.anecdotes": "Memories and Anecdotes",
     "person.hasAnecdotes": "Click to read anecdotes",
     "person.keepsakes": "Keepsakes",
+    "person.residences": "Residence History",
+    "person.occupations": "Occupation History",
     "person.hasKeepsakesDesc": "View the collection of keepsakes",
     "time.morning": "in the morning",
     "time.night": "at night",
@@ -653,6 +658,7 @@ const translations = {
     "tooltip.viewBirthRecord": "View birth record",
     "tooltip.viewDeathRecord": "View death record",
     "tooltip.viewMarriageRecord": "View marriage record",
+    "tooltip.viewSource": "View source document",
     "footer.title": "Family Roots",
     "footer.description":
       "A digital archive and interactive genealogical tree of the Gierczak and Ofiara families from the Radom area.",

@@ -1,6 +1,4 @@
-// --- START OF FILE InteractiveTree.tsx ---
-
-import React, { useLayoutEffect, useMemo } from "react"; // <--- 1. Dodaj import useMemo
+import React, { useLayoutEffect, useMemo } from "react";
 import ReactFlow, {
   Background,
   Controls,
@@ -15,7 +13,7 @@ import ReactFlow, {
 } from "reactflow";
 import "reactflow/dist/style.css";
 import PersonNode from "./PersonNode";
-import { Person } from "@shared/schema";
+import { Person, FamilyLink } from "@shared/schema"; // Załóżmy, że FamilyLink jest zdefiniowany w schema
 import dagre from "dagre";
 import { useTheme } from "@/hooks/useTheme";
 
@@ -31,8 +29,6 @@ interface InteractiveTreeProps {
 
 const nodeWidth = 240;
 const nodeHeight = 100;
-
-// Usunęliśmy definicję nodeTypes stąd.
 
 const getLayoutedElements = (nodes: Node[], edges: Edge[]) => {
   const dagreGraph = new dagre.graphlib.Graph();
@@ -83,17 +79,12 @@ export default function InteractiveTree({
   const [edges, setEdges, onEdgesChange] = useEdgesState<Edge[]>([]);
   const { theme } = useTheme();
 
-  // ---  KLUCZOWE ROZWIĄZANIE OSTRZEŻENIA (WERSJA Z useMemo) ---
-  // Memoizujemy obiekt `nodeTypes`. `useMemo` z pustą tablicą zależności (`[]`)
-  // zadziała tak samo, jak definicja stałej na zewnątrz - obiekt zostanie
-  // stworzony tylko podczas pierwszego renderowania komponentu.
-  // Jest to bardziej niezawodne w środowiskach z Hot Reload.
   const nodeTypes: NodeTypes = useMemo(
     () => ({
       person: PersonNode,
     }),
     []
-  ); // <--- 2. Zdefiniuj nodeTypes przy użyciu useMemo
+  );
 
   useLayoutEffect(() => {
     const personMap = new Map(allPeople.map((p) => [p.id, p]));
@@ -107,13 +98,16 @@ export default function InteractiveTree({
       if (!person || familyUnitIds.has(personId)) return;
 
       familyUnitIds.add(personId);
-      person.parentIds?.forEach((pId) => familyUnitIds.add(pId));
+      // --- POPRAWKA: Dostęp do `pId.personId` zamiast `pId` ---
+      person.parentIds?.forEach((pId) => familyUnitIds.add(pId.personId));
       person.spouseIds?.forEach((spId) => {
         familyUnitIds.add(spId);
         const spouse = personMap.get(spId);
-        spouse?.parentIds?.forEach((pId) => familyUnitIds.add(pId));
+        // --- POPRAWKA: Dostęp do `pId.personId` dla współmałżonka ---
+        spouse?.parentIds?.forEach((pId) => familyUnitIds.add(pId.personId));
       });
-      person.childIds?.forEach((cId) => familyUnitIds.add(cId));
+      // --- POPRAWKA: Dostęp do `cId.personId` zamiast `cId` ---
+      person.childIds?.forEach((cId) => familyUnitIds.add(cId.personId));
     };
 
     getFamilyUnit(focusedPersonId);
@@ -152,12 +146,18 @@ export default function InteractiveTree({
     const layoutEdges: Edge[] = [];
 
     visiblePeople.forEach((person) => {
+      // --- POPRAWKA: Dostęp do `pId.personId` w filtrze ---
       const visibleParentIds =
-        person.parentIds?.filter((pId) => visibleFinalIds.has(pId)) || [];
+        person.parentIds?.filter((pId) => visibleFinalIds.has(pId.personId)) ||
+        [];
 
       if (visibleParentIds.length === 2) {
-        const [p1, p2] = visibleParentIds.sort((a, b) => a - b);
-        const unionKey = `union-${p1}-${p2}`;
+        // --- POPRAWKA: Sortowanie po `personId` ---
+        const [p1, p2] = visibleParentIds.sort(
+          (a, b) => a.personId - b.personId
+        );
+        // --- POPRAWKA: Użycie `personId` do tworzenia klucza ---
+        const unionKey = `union-${p1.personId}-${p2.personId}`;
 
         if (!unionNodes.find((n) => n.id === unionKey)) {
           unionNodes.push({
@@ -167,14 +167,15 @@ export default function InteractiveTree({
             position: { x: 0, y: 0 },
             className: "w-0 h-0 !border-none",
           });
+          // --- POPRAWKA: Użycie `personId` jako źródła krawędzi ---
           layoutEdges.push({
-            id: `l-${p1}-${unionKey}`,
-            source: p1.toString(),
+            id: `l-${p1.personId}-${unionKey}`,
+            source: p1.personId.toString(),
             target: unionKey,
           });
           layoutEdges.push({
-            id: `l-${p2}-${unionKey}`,
-            source: p2.toString(),
+            id: `l-${p2.personId}-${unionKey}`,
+            source: p2.personId.toString(),
             target: unionKey,
           });
         }
@@ -185,9 +186,10 @@ export default function InteractiveTree({
         });
       } else if (visibleParentIds.length === 1) {
         const pId = visibleParentIds[0];
+        // --- POPRAWKA: Użycie `personId` jako źródła krawędzi ---
         layoutEdges.push({
-          id: `l-${pId}-${person.id}`,
-          source: pId.toString(),
+          id: `l-${pId.personId}-${person.id}`,
+          source: pId.personId.toString(),
           target: person.id.toString(),
         });
       }
@@ -265,7 +267,7 @@ export default function InteractiveTree({
         edges={edges}
         onNodesChange={onNodesChange}
         onEdgesChange={onEdgesChange}
-        nodeTypes={nodeTypes} // <--- 3. Przekaż zamemoizowaną wartość
+        nodeTypes={nodeTypes}
         fitView
         minZoom={0.1}
         className="react-flow-heritage z-10"

@@ -1,4 +1,3 @@
-// src/lib/genealogyUtils.ts
 import { Person } from "@shared/schema";
 
 export interface FamilyUnit {
@@ -58,7 +57,11 @@ function getFullBranch(
       if (spouse) fullBranchSet.add(spouse);
     });
 
-    (person.childIds ?? []).forEach((childId) => {
+    (person.childIds ?? []).forEach((childIdOrLink) => {
+      const childId =
+        typeof childIdOrLink === "number"
+          ? childIdOrLink
+          : childIdOrLink.personId;
       const child = peopleMap.get(childId);
       if (child) queue.push(child);
     });
@@ -101,7 +104,11 @@ export function getFamilyStructure(
     .filter((p): p is Person => p !== undefined);
 
   const progenitorChildren = (mainProgenitor.childIds ?? [])
-    .map((id) => peopleMap.get(id))
+    .map((idOrLink) => {
+      const childId =
+        typeof idOrLink === "number" ? idOrLink : idOrLink.personId;
+      return peopleMap.get(childId);
+    })
     .filter((p): p is Person => p !== undefined && branchPeopleIds.has(p.id))
     .sort(sortByBirthDate);
 
@@ -122,7 +129,11 @@ export function getFamilyStructure(
       if (processedParentIds.has(child.id)) continue;
 
       const grandChildren = (child.childIds ?? [])
-        .map((id) => peopleMap.get(id))
+        .map((idOrLink) => {
+          const childId =
+            typeof idOrLink === "number" ? idOrLink : idOrLink.personId;
+          return peopleMap.get(childId);
+        })
         .filter(
           (p): p is Person => p !== undefined && branchPeopleIds.has(p.id)
         )

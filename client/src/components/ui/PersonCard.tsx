@@ -78,13 +78,15 @@ export default function PersonCard({
   const hasAnecdotes = person.anecdotes && person.anecdotes.length > 0;
 
   const getOccupationText = (p: Person) => {
-    if (!p.occupation) return null;
-    if (typeof p.occupation === "object") {
+    if (!p.occupations || p.occupations.length === 0) return null;
+    const firstOccupation = p.occupations[0];
+    if (typeof firstOccupation.title === "object") {
       return (
-        p.occupation[language as keyof typeof p.occupation] || p.occupation.pl
+        firstOccupation.title[language as keyof typeof firstOccupation.title] ||
+        firstOccupation.title.pl
       );
     }
-    return p.occupation;
+    return null;
   };
 
   const occupationText = getOccupationText(person);
@@ -93,9 +95,12 @@ export default function PersonCard({
     language
   );
 
+  const birthEvent = person.events?.find((e) => e.type === "birth");
+  const birthPlace = birthEvent?.place;
+
   const backgroundClass = isProgenitor
-    ? "bg-muted hover:bg-heritage-gray-dark/50" // Tło dla rodzica
-    : "bg-card hover:shadow-md"; // Tło dla dziecka
+    ? "bg-muted hover:bg-heritage-gray-dark/50"
+    : "bg-card hover:shadow-md";
 
   return (
     <TooltipProvider delayDuration={200}>
@@ -153,10 +158,10 @@ export default function PersonCard({
                 </p>
               )}
 
-              {person.birthPlace && (
+              {birthPlace && (
                 <p className="text-xs text-stone-500 flex items-center justify-center sm:justify-start">
                   <MapPin className="w-3 h-3 mr-1" />
-                  {t("person.born")} {person.birthPlace}
+                  {t("person.born")} {birthPlace}
                 </p>
               )}
 

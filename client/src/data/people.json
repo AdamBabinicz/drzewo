@@ -7,12 +7,31 @@
     "photoUrl": "/images/tomasz.avif",
     "family": "gierczak",
     "spouseIds": [2],
-    "childIds": [384, 3, 4, 5, 6],
+    "childIds": [
+      { "personId": 384 },
+      { "personId": 3 },
+      { "personId": 4 },
+      { "personId": 5 },
+      { "personId": 6 }
+    ],
     "parentIds": [],
     "occupation": {
       "pl": "Robotnik rolny",
       "en": "Agricultural worker"
     },
+    "residences": [
+      {
+        "placeId": "wrzos",
+        "dateFrom": "1816",
+        "dateTo": "1820",
+        "source": { "documentId": 111 }
+      },
+      {
+        "placeId": "jaszowice",
+        "dateFrom": "po 1820",
+        "source": { "documentId": 101 }
+      }
+    ],
     "marriages": [
       {
         "spouseId": 2,
@@ -34,12 +53,29 @@
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [1],
-    "childIds": [384, 3, 4, 5, 6],
+    "childIds": [
+      { "personId": 384 },
+      { "personId": 3 },
+      { "personId": 4 },
+      { "personId": 5 },
+      { "personId": 6 }
+    ],
     "parentIds": [],
     "marriages": [
       {
         "spouseId": 1,
         "date": "?"
+      }
+    ],
+    "residences": [
+      {
+        "placeId": "wrzos",
+        "dateFrom": "1816",
+        "dateTo": "1820"
+      },
+      {
+        "placeId": "jaszowice",
+        "dateFrom": "po 1820"
       }
     ],
     "biography": {
@@ -59,11 +95,12 @@
     "family": "gierczak",
     "spouseIds": [154],
     "childIds": [],
-    "parentIds": [1, 2],
+    "parentIds": [{ "personId": 1 }, { "personId": 2 }],
     "marriages": [
       {
         "spouseId": 154,
         "date": "1842-10-23",
+        "place": "Cerekiew",
         "source": { "documentId": 226 }
       }
     ],
@@ -87,6 +124,7 @@
         "type": "marriage",
         "date": "1842-10-23",
         "spouseId": 154,
+        "place": "Cerekiew",
         "source": { "documentId": 226 },
         "witnesses": [{ "witnessId": 267 }, { "witnessId": 301 }]
       }
@@ -95,7 +133,8 @@
   {
     "id": 4,
     "firstName": "Ambroży",
-    "lastName": "Gierczak vel Cobista",
+    "lastName": "Gierczak",
+    "aliases": ["Cobista"],
     "birthDateNote": "1800",
     "deathDate": "1836-01-22",
     "deathTime": "9:00",
@@ -103,22 +142,46 @@
     "photoUrl": "/images/ambrozy.avif",
     "family": "gierczak",
     "spouseIds": [382, 8],
-    "childIds": [13, 59, 60, 61, 62, 63, 64, 65, 383],
-    "parentIds": [1, 2],
+    "childIds": [
+      { "personId": 13 },
+      { "personId": 59 },
+      { "personId": 60 },
+      { "personId": 61 },
+      { "personId": 62 },
+      { "personId": 63 },
+      { "personId": 64 },
+      { "personId": 65 },
+      { "personId": 383 }
+    ],
+    "parentIds": [{ "personId": 1 }, { "personId": 2 }],
     "occupation": { "pl": "Gospodarz", "en": "Farmer" },
+    "residences": [
+      {
+        "placeId": "wrzos"
+      },
+      {
+        "placeId": "jaszowice"
+      }
+    ],
     "marriages": [
       { "spouseId": 382, "date": "przed 1818" },
-      { "spouseId": 8, "date": "1820-02-03", "source": { "documentId": 232 } }
+      {
+        "spouseId": 8,
+        "date": "1820-02-03",
+        "source": { "documentId": 232 },
+        "place": "Cerekiew"
+      }
     ],
     "biography": {
-      "pl": "3 x pradziadek. Urodził się na początku XIX w. Jego pierwszą żoną była Marianna z domu Nagaba, z którą miał syna Józefa (ur. 1818). Po jej śmierci, w 1820 roku poślubił swoją drugą żonę, Kunegundę Kanię, z którą miał ośmioro dzieci. W akcie ślubu z Kunegundą jest zapisany pod nazwiskiem Cobista.",
-      "en": "3x great-grandfather. He was born at the beginning of the 19th century. His first wife was Marianna née Nagaba, with whom he had a son, Józef (b. 1818). After her death, in 1820, he married his second wife, Kunegunda Kania, with whom he had eight children. In his marriage record to Kunegunda, he is listed under the surname Cobista."
+      "pl": "3 x pradziadek. Urodził się na początku XIX w. Jego pierwszą żoną była Marianna z domu Nagaba, z którą miał syna Józefa (ur. 1818). Po jej śmierci, w 1820 roku poślubił swoją drugą żonę, Kunegundę Kanię, z którą miał ośmioro dzieci. W akcie ślubu z Kunegundą jest zapisany pod nazwiskiem Cobista, które było używane zamiennie z nazwiskiem Gierczak.",
+      "en": "3x great-grandfather. He was born at the beginning of the 19th century. His first wife was Marianna née Nagaba, with whom he had a son, Józef (b. 1818). After her death, in 1820, he married his second wife, Kunegunda Kania, with whom he had eight children. In his marriage record to Kunegunda, he is listed under the surname Cobista, which was used interchangeably with the surname Gierczak."
     },
     "events": [
       {
         "type": "marriage",
         "date": "1820-02-03",
         "spouseId": 8,
+        "place": "Cerekiew",
         "source": { "documentId": 232 },
         "witnesses": [{ "witnessId": 53 }, { "witnessId": 158 }]
       },
@@ -141,22 +204,39 @@
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [188, 147],
-    "childIds": [187, 366, 367, 368, 369, 370, 183, 185, 182, 189],
-    "parentIds": [1, 2],
-    "biography": {
-      "pl": "Syn Tomasza Gierczaka i Zofii. Był co najmniej dwukrotnie żonaty. Jego pierwszą żoną była Marianna z domu Nabis, matka Marianny (ur. 1826), Katarzyny (ur. 1829), Antoniny (ur. 1832), Klary (ur. 1838), Józefy (ur. 1842) i Józefa (ur. 1847). W aktach urodzenia jego dzieci nazwisko zapisano w formie 'Gerczak' lub 'Gierczak'. Jego drugą żoną była Marianna z domu Gocman, która została wdową po jego śmierci w 1854 roku. Wiek podany w akcie zgonu (70 lat) jest zawyżony; akty urodzenia dzieci potwierdzają, że miał wtedy ok. 30-49 lat, co wskazuje na rok urodzenia ok. 1798.",
-      "en": "Son of Tomasz Gierczak and Zofia. He was married at least twice. His first wife was Marianna née Nabis, mother of Marianna (b. 1826), Katarzyna (b. 1829), Antonina (b. 1832), Klara (b. 1838), and Józefa (b. 1842), and Józef (b. 1847). In his children's birth records, his surname was recorded as 'Gerczak' or 'Gierczak'. His second wife was Marianna née Gocman, who was his widow upon his death in 1854. The age stated in his death record (70 years) is an overestimation; his children's birth records confirm he was around 30-49 years old at the time, indicating a birth year of ca. 1798."
-    },
+    "childIds": [
+      { "personId": 187 },
+      { "personId": 366 },
+      { "personId": 367 },
+      { "personId": 368 },
+      { "personId": 369 },
+      { "personId": 370 },
+      { "personId": 183 },
+      { "personId": 185 },
+      { "personId": 182 },
+      { "personId": 189 }
+    ],
+    "parentIds": [{ "personId": 1 }, { "personId": 2 }],
     "marriages": [
       { "spouseId": 188, "date": "przed 1826" },
       { "spouseId": 147, "date": "po 1847" }
     ],
+    "biography": {
+      "pl": "Syn Tomasza Gierczaka i Zofii. Był co najmniej dwukrotnie żonaty. Jego pierwszą żoną była Marianna z domu Nabis, matka Marianny (ur. 1826), Katarzyny (ur. 1829), Antoniny (ur. 1832), Klary (ur. 1838), Józefy (ur. 1842) i Józefa (ur. 1847). W aktach urodzenia jego dzieci nazwisko zapisano w formie 'Gerczak' lub 'Gierczak'. Jego drugą żoną była Marianna z domu Gocman, która została wdową po jego śmierci w 1854 roku. Wiek podany w akcie zgonu (70 lat) jest zawyżony; akty urodzenia dzieci potwierdzają, że miał wtedy ok. 30-49 lat, co wskazuje na rok urodzenia ok. 1798.",
+      "en": "Son of Tomasz Gierczak and Zofia. He was married at least twice. His first wife was Marianna née Nabis, mother of Marianna (b. 1826), Katarzyna (b. 1829), Antonina (b. 1832), Klara (b. 1838), and Józefa (b. 1842), and Józef (b. 1847). In his children's birth records, his surname was recorded as 'Gerczak' or 'Gierczak'. His second wife was Marianna née Gocman, who was his widow upon his death in 1854. The age stated in his death record (70 years) is an overestimation; his children's birth records confirm he was around 30-49 years old at the time, indicating a birth year of ca. 1798."
+    },
     "events": [
       {
         "type": "death",
         "date": "1854-04-12",
         "place": "Jaszowice",
-        "source": { "documentId": 55 },
+        "source": {
+          "documentId": 55,
+          "note": {
+            "pl": "Wiek podany w akcie zgonu (70 lat) jest znacząco zawyżony. Na podstawie aktów urodzenia jego dzieci, rzeczywisty wiek w chwili śmierci wynosił ok. 56 lat.",
+            "en": "The age stated in the death record (70 years) is significantly overestimated. Based on his children's birth records, his actual age at death was approximately 56."
+          }
+        },
         "witnesses": [
           { "witnessId": 46 },
           { "witnessId": 75 },
@@ -177,11 +257,20 @@
     "family": "gierczak",
     "spouseIds": [101],
     "childIds": [],
-    "parentIds": [1, 2],
+    "parentIds": [{ "personId": 1 }, { "personId": 2 }],
+    "residences": [
+      {
+        "placeId": "jaszowice"
+      },
+      {
+        "placeId": "Chruślice"
+      }
+    ],
     "marriages": [
       {
         "spouseId": 101,
         "date": "1837-11-26",
+        "place": "Cerekiew",
         "source": {
           "documentId": 208
         }
@@ -196,6 +285,7 @@
         "type": "marriage",
         "date": "1837-11-26",
         "spouseId": 101,
+        "place": "Cerekiew",
         "source": { "documentId": 208 },
         "witnesses": [{ "witnessId": 234 }, { "witnessId": 98 }]
       },
@@ -219,7 +309,7 @@
     "deathTimeQualifier": "morning",
     "family": "ofiara",
     "spouseIds": [9],
-    "childIds": [10],
+    "childIds": [{ "personId": 10 }],
     "parentIds": [],
     "biography": {
       "pl": "Żona Jędrzeja Ofiary, przedstawicielka bocznej gałęzi rodu. Zmarła w Jedlance w wieku 80 lat. Jej zgon zgłosił syn Jakub.",
@@ -247,7 +337,16 @@
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [4, 107],
-    "childIds": [13, 59, 60, 61, 62, 63, 64, 65, 383],
+    "childIds": [
+      { "personId": 13 },
+      { "personId": 59 },
+      { "personId": 60 },
+      { "personId": 61 },
+      { "personId": 62 },
+      { "personId": 63 },
+      { "personId": 64 },
+      { "personId": 65 }
+    ],
     "parentIds": [],
     "marriages": [
       {
@@ -328,8 +427,8 @@
     "deathDateNote": "przed 1865",
     "family": "ofiara",
     "spouseIds": [7],
-    "childIds": [10],
-    "parentIds": [12, 20],
+    "childIds": [{ "personId": 10 }],
+    "parentIds": [{ "personId": 12 }, { "personId": 20 }],
     "biography": {
       "pl": "Mąż Tekli z d. Ichnowskiej. Prawdopodobnie brat protoplasty głównej linii rodu, Konstantego Ofiary.",
       "en": "Husband of Tekla née Ichnowska. Likely the brother of the main family line's progenitor, Konstanty Ofiara."
@@ -343,7 +442,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [9, 7],
+    "parentIds": [{ "personId": 9 }, { "personId": 7 }],
     "biography": {
       "pl": "Syn Jędrzeja i Tekli z d. Ichnowskiej. W 1865 roku zgłosił zgon swojej matki.",
       "en": "Son of Jędrzej and Tekla née Ichnowska. In 1865, he reported the death of his mother."
@@ -360,7 +459,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [283, 284],
+    "parentIds": [{ "personId": 283 }, { "personId": 284 }],
     "biography": {
       "pl": "Córka Jana Ofiary i Marianny z d. Wieczorek. Zmarła w wieku jednego roku.",
       "en": "Daughter of Jan Ofiara and Marianna née Wieczorek. She died at the age of one."
@@ -387,14 +486,15 @@
     "photoUrl": "/images/Karol.avif",
     "family": "gierczak",
     "spouseIds": [18],
-    "childIds": [19, 68, 69],
-    "parentIds": [4, 8],
+    "childIds": [{ "personId": 19 }, { "personId": 68 }, { "personId": 69 }],
+    "parentIds": [{ "personId": 4 }, { "personId": 8 }],
     "occupation": { "pl": "Gospodarz", "en": "Farmer" },
     "marriages": [
       {
         "spouseId": 18,
         "date": "1857-11-16",
         "source": { "documentId": 381 },
+        "place": "Zakrzew",
         "note": {
           "pl": "Wiek pana młodego podany w akcie (21 lat) jest niespójny z jego datą urodzenia (w rzeczywistości miał 29 lat). Jest to typowy błąd kancelaryjny dla tego okresu.",
           "en": "The groom's age stated in the record (21 years) is inconsistent with his birth date (he was actually 29). This is a typical clerical error for the period."
@@ -402,8 +502,8 @@
       }
     ],
     "biography": {
-      "pl": "Syn Ambrożego i Kunegundy. Żoną Karola została 16.11.1857 Tekla Kozyra. Zamieszkali w Gulinku. Mieli 3 dzieci.",
-      "en": "Son of Ambroży and Kunegunda. Karol's wife became Tekla Kozyra on November 16, 1857. They settled in Gulinek. They had 3 children."
+      "pl": "Syn Ambrożego i Kunegundy. W akcie ślubu (1857 r.) błędnie podano jego wiek jako 21 lat, podczas gdy z aktu urodzenia wynika, że miał 29 lat. Po ślubie z Teklą Kozyrą zamieszkali w Gulinku. Mieli troje dzieci.",
+      "en": "Son of Ambroży and Kunegunda. In his marriage record (1857), his age was incorrectly stated as 21, whereas his birth record indicates he was 29. After marrying Tekla Kozyra, they settled in Gulinek. They had three children."
     },
     "events": [
       {
@@ -411,12 +511,13 @@
         "date": "1828-10-26",
         "place": "Jaszowice",
         "source": { "documentId": 102 },
-        "witnesses": [{ "witnessId": 9 }, { "witnessId": 289 }]
+        "witnesses": [{ "witnessId": 9 }, { "witnessId": 449 }]
       },
       {
         "type": "marriage",
         "date": "1857-11-16",
         "spouseId": 18,
+        "place": "Zakrzew",
         "source": { "documentId": 381 },
         "witnesses": [{ "witnessId": 162 }, { "witnessId": 163 }]
       },
@@ -443,8 +544,8 @@
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [13],
-    "childIds": [19, 68, 69],
-    "parentIds": [440, 441],
+    "childIds": [{ "personId": 19 }, { "personId": 68 }, { "personId": 69 }],
+    "parentIds": [{ "personId": 440 }, { "personId": 441 }],
     "marriages": [
       {
         "spouseId": 13,
@@ -499,8 +600,19 @@
     "photoUrl": "/images/Pawel.avif",
     "family": "gierczak",
     "spouseIds": [22],
-    "childIds": [70, 71, 72, 26, 73, 74, 75, 76, 77, 78],
-    "parentIds": [13, 18],
+    "childIds": [
+      { "personId": 70 },
+      { "personId": 71 },
+      { "personId": 72 },
+      { "personId": 26 },
+      { "personId": 73 },
+      { "personId": 74 },
+      { "personId": 75 },
+      { "personId": 76 },
+      { "personId": 77 },
+      { "personId": 78 }
+    ],
+    "parentIds": [{ "personId": 13 }, { "personId": 18 }],
     "occupation": {
       "pl": "Gospodarz",
       "en": "Farmer"
@@ -559,7 +671,18 @@
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [19],
-    "childIds": [70, 71, 72, 26, 73, 74, 75, 76, 77, 78],
+    "childIds": [
+      { "personId": 70 },
+      { "personId": 71 },
+      { "personId": 72 },
+      { "personId": 26 },
+      { "personId": 73 },
+      { "personId": 74 },
+      { "personId": 75 },
+      { "personId": 76 },
+      { "personId": 77 },
+      { "personId": 78 }
+    ],
     "parentIds": [],
     "marriages": [
       {
@@ -594,7 +717,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [273, 274],
+    "parentIds": [{ "personId": 273 }, { "personId": 274 }],
     "biography": {
       "pl": "Córka Jana i Marianny z Wieczorków. Zmarła w wieku jednego roku.",
       "en": "Daughter of Jan and Marianna née Wieczorek. Died at the age of one."
@@ -621,8 +744,17 @@
     "photoUrl": "/images/30.avif",
     "family": "gierczak",
     "spouseIds": [32],
-    "childIds": [79, 80, 81, 82, 83, 84, 39, 85],
-    "parentIds": [19, 22],
+    "childIds": [
+      { "personId": 79 },
+      { "personId": 80 },
+      { "personId": 81 },
+      { "personId": 82 },
+      { "personId": 83 },
+      { "personId": 84 },
+      { "personId": 39 },
+      { "personId": 85 }
+    ],
+    "parentIds": [{ "personId": 19 }, { "personId": 22 }],
     "occupation": {
       "pl": "Gospodarz",
       "en": "Farmer"
@@ -631,6 +763,7 @@
       {
         "spouseId": 32,
         "date": "1917-11-14",
+        "place": "Zakrzew",
         "source": {
           "documentId": 107
         }
@@ -670,6 +803,7 @@
         "type": "marriage",
         "date": "1917-11-14",
         "spouseId": 32,
+        "place": "Zakrzew",
         "source": {
           "documentId": 107
         },
@@ -696,7 +830,16 @@
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [26],
-    "childIds": [79, 80, 81, 82, 83, 84, 39, 85],
+    "childIds": [
+      { "personId": 79 },
+      { "personId": 80 },
+      { "personId": 81 },
+      { "personId": 82 },
+      { "personId": 83 },
+      { "personId": 84 },
+      { "personId": 39 },
+      { "personId": 85 }
+    ],
     "parentIds": [],
     "marriages": [
       {
@@ -772,16 +915,37 @@
     "photoUrl": "/images/51.avif",
     "family": "gierczak",
     "spouseIds": [41],
-    "childIds": [86, 87, 88],
-    "parentIds": [26, 32],
-    "occupation": {
-      "pl": "Robotnik bezrolny",
-      "en": "Landless worker"
-    },
+    "childIds": [{ "personId": 86 }, { "personId": 87 }, { "personId": 88 }],
+    "parentIds": [{ "personId": 26 }, { "personId": 32 }],
+    "occupations": [
+      {
+        "title": { "pl": "Szewc (praktykant)", "en": "Shoemaker (apprentice)" },
+        "date": "lata 40. XX w."
+      },
+      {
+        "title": {
+          "pl": "Tokarz, frezer, ślusarz",
+          "en": "Turner, miller, metalworker"
+        },
+        "date": "od lat 50. XX w.",
+        "details": "Zakłady Metalowe 'Walter' w Radomiu"
+      }
+    ],
+    "residences": [
+      {
+        "placeId": "gulinek_gierczak",
+        "dateTo": "1952"
+      },
+      {
+        "placeId": "radom",
+        "dateFrom": "1952"
+      }
+    ],
     "marriages": [
       {
         "spouseId": 41,
-        "date": "1952-11-26"
+        "date": "1952-11-26",
+        "place": "Radom"
       }
     ],
     "biography": {
@@ -809,8 +973,8 @@
     "photoUrl": "/images/42.avif",
     "family": "ofiara",
     "spouseIds": [39],
-    "childIds": [86, 87, 88],
-    "parentIds": [45, 46],
+    "childIds": [{ "personId": 86 }, { "personId": 87 }, { "personId": 88 }],
+    "parentIds": [{ "personId": 45 }, { "personId": 46 }],
     "marriages": [
       {
         "spouseId": 39,
@@ -869,8 +1033,18 @@
     "photoUrl": "/images/jo.avif",
     "family": "ofiara",
     "spouseIds": [47, 46],
-    "childIds": [92, 93, 94, 95, 96, 97, 98, 41, 99],
-    "parentIds": [57, 58],
+    "childIds": [
+      { "personId": 92 },
+      { "personId": 93 },
+      { "personId": 94 },
+      { "personId": 95 },
+      { "personId": 96 },
+      { "personId": 97 },
+      { "personId": 98 },
+      { "personId": 41 },
+      { "personId": 99 }
+    ],
+    "parentIds": [{ "personId": 57 }, { "personId": 58 }],
     "occupation": {
       "pl": "Gospodarz",
       "en": "Farmer"
@@ -1019,8 +1193,15 @@
     "photoUrl": "/images/8.avif",
     "family": "ofiara",
     "spouseIds": [45],
-    "childIds": [95, 96, 97, 98, 41, 99],
-    "parentIds": [119, 120],
+    "childIds": [
+      { "personId": 95 },
+      { "personId": 96 },
+      { "personId": 97 },
+      { "personId": 98 },
+      { "personId": 41 },
+      { "personId": 99 }
+    ],
+    "parentIds": [{ "personId": 119 }, { "personId": 120 }],
     "marriages": [
       {
         "spouseId": 45,
@@ -1153,8 +1334,8 @@
     "photoUrl": null,
     "family": "ofiara",
     "spouseIds": [45],
-    "childIds": [92, 93, 94],
-    "parentIds": [121, 120],
+    "childIds": [{ "personId": 92 }, { "personId": 93 }, { "personId": 94 }],
+    "parentIds": [{ "personId": 121 }, { "personId": 120 }],
     "marriages": [
       {
         "spouseId": 45,
@@ -1214,8 +1395,13 @@
     "photoUrl": "/images/andrzej.avif",
     "family": "ofiara",
     "spouseIds": [58],
-    "childIds": [89, 90, 45, 91],
-    "parentIds": [129, 362],
+    "childIds": [
+      { "personId": 89 },
+      { "personId": 90 },
+      { "personId": 45 },
+      { "personId": 91 }
+    ],
+    "parentIds": [{ "personId": 129 }, { "personId": 362 }],
     "occupation": {
       "pl": "Gospodarz",
       "en": "Farmer"
@@ -1263,7 +1449,12 @@
     "photoUrl": null,
     "family": "ofiara",
     "spouseIds": [57],
-    "childIds": [89, 90, 45, 91],
+    "childIds": [
+      { "personId": 89 },
+      { "personId": 90 },
+      { "personId": 45 },
+      { "personId": 91 }
+    ],
     "parentIds": [],
     "marriages": [
       {
@@ -1290,7 +1481,7 @@
     "family": "gierczak",
     "spouseIds": [102],
     "childIds": [],
-    "parentIds": [4, 8],
+    "parentIds": [{ "personId": 4 }, { "personId": 8 }],
     "marriages": [
       {
         "spouseId": 102,
@@ -1335,7 +1526,7 @@
     "family": "gierczak",
     "spouseIds": [103],
     "childIds": [],
-    "parentIds": [4, 8],
+    "parentIds": [{ "personId": 4 }, { "personId": 8 }],
     "marriages": [
       {
         "spouseId": 103,
@@ -1367,8 +1558,8 @@
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [148, 176],
-    "childIds": [195, 196, 197],
-    "parentIds": [4, 8],
+    "childIds": [{ "personId": 195 }, { "personId": 196 }, { "personId": 197 }],
+    "parentIds": [{ "personId": 4 }, { "personId": 8 }],
     "marriages": [
       {
         "spouseId": 148,
@@ -1429,7 +1620,7 @@
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [4, 8],
+    "parentIds": [{ "personId": 4 }, { "personId": 8 }],
     "biography": {
       "pl": "Córka Ambrożego i Kunegundy. Zmarła w Jaszowicach jako 20-dniowe niemowlę.",
       "en": "Daughter of Ambroży and Kunegunda. She died in Jaszowice as a 20-day-old infant."
@@ -1463,8 +1654,13 @@
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [105, 106],
-    "childIds": [66, 67, 179, 371],
-    "parentIds": [4, 8],
+    "childIds": [
+      { "personId": 66 },
+      { "personId": 67 },
+      { "personId": 179 },
+      { "personId": 371 }
+    ],
+    "parentIds": [{ "personId": 4 }, { "personId": 8 }],
     "marriages": [
       {
         "spouseId": 105,
@@ -1532,7 +1728,7 @@
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [4, 8],
+    "parentIds": [{ "personId": 4 }, { "personId": 8 }],
     "biography": {
       "pl": "Córka Ambrożego i Kunegundy. Urodzona w Jaszowicach (parafia Cerekiew).",
       "en": "Daughter of Ambroży and Kunegunda. Born in Jaszowice (Cerekiew parish)."
@@ -1602,7 +1798,7 @@
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [63, 105],
+    "parentIds": [{ "personId": 63 }, { "personId": 105 }],
     "biography": {
       "pl": "Córka Kacpra i jego pierwszej żony, Marianny Moskwy.",
       "en": "Daughter of Kacper and his first wife, Marianna Moskwa."
@@ -1618,7 +1814,7 @@
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [63, 105],
+    "parentIds": [{ "personId": 63 }, { "personId": 105 }],
     "biography": {
       "pl": "Syn Kacpra i jego pierwszej żony, Marianny Moskwy.",
       "en": "Son of Kacper and his first wife, Marianna Moskwa."
@@ -1634,8 +1830,8 @@
     "photoUrl": "/images/antonina.avif",
     "family": "gierczak",
     "spouseIds": [149, 150],
-    "childIds": [191, 375, 415],
-    "parentIds": [13, 18],
+    "childIds": [{ "personId": 191 }, { "personId": 375 }, { "personId": 415 }],
+    "parentIds": [{ "personId": 13 }, { "personId": 18 }],
     "marriages": [
       {
         "spouseId": 149,
@@ -1683,7 +1879,7 @@
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [13, 18],
+    "parentIds": [{ "personId": 13 }, { "personId": 18 }],
     "biography": {
       "pl": "Córka Karola i Tekli.",
       "en": "Daughter of Karol and Tekla."
@@ -1700,7 +1896,7 @@
     "family": "gierczak",
     "spouseIds": [111],
     "childIds": [],
-    "parentIds": [19, 22],
+    "parentIds": [{ "personId": 19 }, { "personId": 22 }],
     "marriages": [
       {
         "spouseId": 111,
@@ -1746,7 +1942,7 @@
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [19, 22],
+    "parentIds": [{ "personId": 19 }, { "personId": 22 }],
     "biography": {
       "pl": "Syn Pawła i Katarzyny. Zmarł jako 3-miesięczne dziecko.",
       "en": "Son of Paweł and Katarzyna. Died as a 3-month-old infant."
@@ -1787,7 +1983,7 @@
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [19, 22],
+    "parentIds": [{ "personId": 19 }, { "personId": 22 }],
     "marriages": [],
     "biography": {
       "pl": "Syn Pawła i Katarzyny. Zmarł po 6 tygodniach.",
@@ -1826,8 +2022,8 @@
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [108],
-    "childIds": [180, 181],
-    "parentIds": [19, 22],
+    "childIds": [{ "personId": 180 }, { "personId": 181 }],
+    "parentIds": [{ "personId": 19 }, { "personId": 22 }],
     "marriages": [
       {
         "spouseId": 108,
@@ -1871,7 +2067,7 @@
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [19, 22],
+    "parentIds": [{ "personId": 19 }, { "personId": 22 }],
     "biography": {
       "pl": "Córka Pawła i Katarzyny.",
       "en": "Daughter of Paweł and Katarzyna."
@@ -1908,7 +2104,7 @@
     "family": "gierczak",
     "spouseIds": [109],
     "childIds": [],
-    "parentIds": [19, 22],
+    "parentIds": [{ "personId": 19 }, { "personId": 22 }],
     "marriages": [
       {
         "spouseId": 109,
@@ -1930,7 +2126,7 @@
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [19, 22],
+    "parentIds": [{ "personId": 19 }, { "personId": 22 }],
     "biography": {
       "pl": "Córka Pawła i Katarzyny.",
       "en": "Daughter of Paweł and Katarzyna."
@@ -1946,7 +2142,7 @@
     "family": "gierczak",
     "spouseIds": [110],
     "childIds": [],
-    "parentIds": [19, 22],
+    "parentIds": [{ "personId": 19 }, { "personId": 22 }],
     "marriages": [
       {
         "spouseId": 110,
@@ -1968,7 +2164,7 @@
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [19, 22],
+    "parentIds": [{ "personId": 19 }, { "personId": 22 }],
     "biography": {
       "pl": "Córka Pawła i Katarzyny. Zmarła po 3 tygodniach.",
       "en": "Daughter of Paweł and Katarzyna. Died after 3 weeks."
@@ -1988,7 +2184,7 @@
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [26, 32],
+    "parentIds": [{ "personId": 26 }, { "personId": 32 }],
     "biography": {
       "pl": "Syn Jana i Agnieszki. Dane z aktów urodzenia i zgonu są sprzeczne co do jego wieku w chwili śmierci (akt zgonu podaje 2 dni, co sugerowałoby datę urodzenia w listopadzie, podczas gdy akt urodzenia wskazuje na wrzesień). Najprawdopodobniej wiek w akcie zgonu został błędnie zapisany. Uznany za brata bliźniaka Marianny.",
       "en": "Son of Jan and Agnieszka. The data from the birth and death records is conflicting regarding his age at death (the death record states 2 days, suggesting a November birth date, while the birth record indicates September). Most likely, the age in the death record was recorded incorrectly. Considered the twin brother of Marianna."
@@ -2045,7 +2241,7 @@
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [26, 32],
+    "parentIds": [{ "personId": 26 }, { "personId": 32 }],
     "biography": {
       "pl": "Córka Jana i Agnieszki, siostra bliźniaczka Jana. Urodzona 13 września 1918 r., zmarła po około dwóch miesiącach.",
       "en": "Daughter of Jan and Agnieszka, twin sister of Jan. Born on September 13, 1918, she died after about two months."
@@ -2101,7 +2297,7 @@
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [26, 32],
+    "parentIds": [{ "personId": 26 }, { "personId": 32 }],
     "biography": {
       "pl": "Córka Jana i Agnieszki. Żyła 8 tygodni.",
       "en": "Daughter of Jan and Agnieszka. Lived for 8 weeks."
@@ -2154,10 +2350,22 @@
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [26, 32],
+    "parentIds": [{ "personId": 26 }, { "personId": 32 }],
+    "occupation": {
+      "pl": "Rolnik",
+      "en": "Farmer"
+    },
+    "residences": [
+      {
+        "placeId": "gulinek"
+      },
+      {
+        "placeId": "dabrowka_nagorna"
+      }
+    ],
     "biography": {
-      "pl": "Syn Jana i Agnieszki.",
-      "en": "Son of Jan and Agnieszka."
+      "pl": "Syn Jana i Agnieszki. Po ślubie zamieszkał z żoną w Dąbrówce Nagórnej, gdzie uprawiał ziemię.",
+      "en": "Son of Jan and Agnieszka. After his marriage, he settled with his wife in Dąbrówka Nagórna, where he farmed the land."
     }
   },
   {
@@ -2170,7 +2378,7 @@
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [26, 32],
+    "parentIds": [{ "personId": 26 }, { "personId": 32 }],
     "biography": {
       "pl": "Syn Jana i Agnieszki.",
       "en": "Son of Jan and Agnieszka."
@@ -2188,10 +2396,24 @@
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [26, 32],
+    "parentIds": [{ "personId": 26 }, { "personId": 32 }],
+    "residences": [
+      {
+        "placeId": "gulinek"
+      },
+      {
+        "placeId": "radom"
+      }
+    ],
+    "occupations": [
+      {
+        "title": { "pl": "Robotnik", "en": "Worker" },
+        "details": "Zakłady Metalowe 'Walter' w Radomiu"
+      }
+    ],
     "biography": {
-      "pl": "Syn Jana i Agnieszki.",
-      "en": "Son of Jan and Agnieszka."
+      "pl": "Syn Jana i Agnieszki. Podobnie jak brat Józef, przeniósł się z Gulinka do Radomia, gdzie podjął pracę jako robotnik w Zakładach Metalowych 'Walter'.",
+      "en": "Son of Jan and Agnieszka. Like his brother Józef, he moved from Gulinek to Radom, where he took up work as a laborer at the 'Walter' Metal Works."
     }
   },
   {
@@ -2205,10 +2427,22 @@
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [26, 32],
+    "parentIds": [{ "personId": 26 }, { "personId": 32 }],
+    "residences": [
+      {
+        "placeId": "gulinek"
+      },
+      {
+        "placeId": "klwaty"
+      }
+    ],
+    "occupation": {
+      "pl": "Rolniczka",
+      "en": "Farmer"
+    },
     "biography": {
-      "pl": "Córka Jana i Agnieszki. Po mężu Chudzińska. Moja ciocia i matka chrzestna.",
-      "en": "Daughter of Jan and Agnieszka. Married name Chudzińska. My aunt and godmother."
+      "pl": "Córka Jana i Agnieszki. Po mężu Chudzińska. Moja ciocia i matka chrzestna. Po ślubie przeniosła się do miejscowości Klwaty, gdzie wraz z mężem prowadziła gospodarstwo rolne.",
+      "en": "Daughter of Jan and Agnieszka. Married name Chudzińska. My aunt and godmother. After her marriage, she moved to Klwaty, where she ran a farm with her husband."
     }
   },
   {
@@ -2219,7 +2453,7 @@
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [39, 41],
+    "parentIds": [{ "personId": 39 }, { "personId": 41 }],
     "biography": {
       "pl": "Pierworodny syn Józefa i Marianny. Zmarł jako roczne dziecko.",
       "en": "Firstborn son of Józef and Marianna. Died as a one-year-old child."
@@ -2235,7 +2469,7 @@
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [39, 41],
+    "parentIds": [{ "personId": 39 }, { "personId": 41 }],
     "biography": {
       "pl": "Syn Józefa i Marianny.",
       "en": "Son of Józef and Marianna."
@@ -2282,7 +2516,7 @@
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [39, 41],
+    "parentIds": [{ "personId": 39 }, { "personId": 41 }],
     "biography": {
       "pl": "Córka Józefa i Marianny, siostra autora.",
       "en": "Daughter of Józef and Marianna, the author's sister."
@@ -2298,7 +2532,7 @@
     "family": "ofiara",
     "spouseIds": [112],
     "childIds": [],
-    "parentIds": [57, 58],
+    "parentIds": [{ "personId": 57 }, { "personId": 58 }],
     "marriages": [
       {
         "spouseId": 112,
@@ -2345,7 +2579,7 @@
     "family": "ofiara",
     "spouseIds": [113],
     "childIds": [],
-    "parentIds": [57, 58],
+    "parentIds": [{ "personId": 57 }, { "personId": 58 }],
     "marriages": [
       {
         "spouseId": 113,
@@ -2389,7 +2623,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [57, 58],
+    "parentIds": [{ "personId": 57 }, { "personId": 58 }],
     "biography": {
       "pl": "Córka Andrzeja i Franciszki.",
       "en": "Daughter of Andrzej and Franciszka."
@@ -2406,7 +2640,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [45, 47],
+    "parentIds": [{ "personId": 45 }, { "personId": 47 }],
     "biography": {
       "pl": "Syn Józefa Ofiary i jego pierwszej żony, Rozalii z d. Mitak. W 1966 roku jego nazwisko zostało urzędowo zmienione na Borowiecki.",
       "en": "Son of Józef Ofiara and his first wife, Rozalia née Mitak. In 1966, his surname was officially changed to Borowiecki."
@@ -2449,7 +2683,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [45, 47],
+    "parentIds": [{ "personId": 45 }, { "personId": 47 }],
     "biography": {
       "pl": "Syn Józefa Ofiary i jego pierwszej żony, Rozalii z d. Mitak.",
       "en": "Son of Józef Ofiara and his first wife, Rozalia née Mitak."
@@ -2465,7 +2699,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [45, 47],
+    "parentIds": [{ "personId": 45 }, { "personId": 47 }],
     "biography": {
       "pl": "Syn Józefa Ofiary i jego pierwszej żony, Rozalii z d. Mitak.",
       "en": "Son of Józef Ofiara and his first wife, Rozalia née Mitak."
@@ -2482,7 +2716,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [45, 46],
+    "parentIds": [{ "personId": 45 }, { "personId": 46 }],
     "biography": {
       "pl": "Syn Józefa Ofiary i Heleny z d. Sobień. Zmarł jako 2-tygodniowe dziecko.",
       "en": "Son of Józef Ofiara and Helena née Sobień. Died as a 2-week-old infant."
@@ -2517,7 +2751,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [45, 46],
+    "parentIds": [{ "personId": 45 }, { "personId": 46 }],
     "biography": {
       "pl": "Syn Józefa Ofiary i Heleny z d. Sobień. Zmarł jako 2-tygodniowe dziecko.",
       "en": "Son of Józef Ofiara and Helena née Sobień. Died as a 2-week-old infant."
@@ -2552,7 +2786,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [45, 46],
+    "parentIds": [{ "personId": 45 }, { "personId": 46 }],
     "biography": {
       "pl": "Córka Józefa Ofiary i Heleny z d. Sobień. Zmarła jako 3-tygodniowe dziecko.",
       "en": "Daughter of Józef Ofiara and Helena née Sobień. Died as a 3-week-old infant."
@@ -2587,7 +2821,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [45, 46],
+    "parentIds": [{ "personId": 45 }, { "personId": 46 }],
     "biography": {
       "pl": "Córka Józefa Ofiary i Heleny z d. Sobień. Zmarła jako półtoraroczne dziecko.",
       "en": "Daughter of Józef Ofiara and Helena née Sobień. Died as a one-and-a-half-year-old child."
@@ -2620,7 +2854,7 @@
     "birthDate": "1939",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [45, 46],
+    "parentIds": [{ "personId": 45 }, { "personId": 46 }],
     "biography": {
       "pl": "Syn Józefa Ofiary i Heleny z d. Sobień. Mój wujek i ojciec chrzestny.",
       "en": "Son of Józef Ofiara and Helena née Sobień. My uncle and godfather."
@@ -2724,7 +2958,12 @@
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [63],
-    "childIds": [66, 67, 179, 371],
+    "childIds": [
+      { "personId": 66 },
+      { "personId": 67 },
+      { "personId": 179 },
+      { "personId": 371 }
+    ],
     "parentIds": [],
     "marriages": [
       {
@@ -2804,7 +3043,7 @@
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [73],
-    "childIds": [180, 181],
+    "childIds": [{ "personId": 180 }, { "personId": 181 }],
     "parentIds": [],
     "marriages": [
       {
@@ -2868,7 +3107,7 @@
     "family": "gierczak",
     "spouseIds": [388, 70],
     "childIds": [],
-    "parentIds": [389, 390],
+    "parentIds": [{ "personId": 389 }, { "personId": 390 }],
     "marriages": [
       {
         "spouseId": 388,
@@ -3005,7 +3244,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [119, 120],
+    "parentIds": [{ "personId": 119 }, { "personId": 120 }],
     "biography": {
       "pl": "Córka Karola Sobienia i Ewy z d. Drużdżel.",
       "en": "Daughter of Karol Sobień and Ewa née Drużdżel."
@@ -3022,7 +3261,7 @@
     "family": "ofiara",
     "spouseIds": [126],
     "childIds": [],
-    "parentIds": [119, 120],
+    "parentIds": [{ "personId": 119 }, { "personId": 120 }],
     "marriages": [
       {
         "spouseId": 126,
@@ -3045,7 +3284,7 @@
     "family": "ofiara",
     "spouseIds": [127],
     "childIds": [],
-    "parentIds": [119, 120],
+    "parentIds": [{ "personId": 119 }, { "personId": 120 }],
     "marriages": [
       {
         "spouseId": 127,
@@ -3067,7 +3306,7 @@
     "family": "ofiara",
     "spouseIds": [128],
     "childIds": [],
-    "parentIds": [119, 120],
+    "parentIds": [{ "personId": 119 }, { "personId": 120 }],
     "marriages": [
       {
         "spouseId": 128,
@@ -3089,7 +3328,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [119, 120],
+    "parentIds": [{ "personId": 119 }, { "personId": 120 }],
     "biography": {
       "pl": "Syn Karola Sobienia i Ewy z d. Drużdżel.",
       "en": "Son of Karol Sobień and Ewa née Drużdżel."
@@ -3102,8 +3341,15 @@
     "birthDateNote": "1873",
     "family": "ofiara",
     "spouseIds": [140, 120],
-    "childIds": [114, 115, 116, 46, 117, 118],
-    "parentIds": [139, 142],
+    "childIds": [
+      { "personId": 114 },
+      { "personId": 115 },
+      { "personId": 116 },
+      { "personId": 46 },
+      { "personId": 117 },
+      { "personId": 118 }
+    ],
+    "parentIds": [{ "personId": 139 }, { "personId": 142 }],
     "marriages": [
       {
         "spouseId": 140,
@@ -3115,6 +3361,24 @@
         "source": {
           "documentId": 205
         }
+      }
+    ],
+    "events": [
+      {
+        "type": "marriage",
+        "date": "1895-07-02",
+        "spouseId": 120,
+        "source": {
+          "documentId": 205
+        },
+        "witnesses": [
+          {
+            "witnessId": 150
+          },
+          {
+            "witnessId": 143
+          }
+        ]
       }
     ],
     "biography": {
@@ -3131,8 +3395,19 @@
     "photoUrl": null,
     "family": "ofiara",
     "spouseIds": [121, 119],
-    "childIds": [122, 123, 47, 125, 114, 115, 116, 46, 117, 118],
-    "parentIds": [143, 144],
+    "childIds": [
+      { "personId": 122 },
+      { "personId": 123 },
+      { "personId": 47 },
+      { "personId": 125 },
+      { "personId": 114 },
+      { "personId": 115 },
+      { "personId": 116 },
+      { "personId": 46 },
+      { "personId": 117 },
+      { "personId": 118 }
+    ],
+    "parentIds": [{ "personId": 143 }, { "personId": 144 }],
     "marriages": [
       {
         "spouseId": 121,
@@ -3147,6 +3422,40 @@
         "source": {
           "documentId": 205
         }
+      }
+    ],
+    "events": [
+      {
+        "type": "marriage",
+        "date": "1885-02-18",
+        "spouseId": 121,
+        "source": {
+          "documentId": 204
+        },
+        "witnesses": [
+          {
+            "witnessId": 237
+          },
+          {
+            "witnessId": 47
+          }
+        ]
+      },
+      {
+        "type": "marriage",
+        "date": "1895-07-02",
+        "spouseId": 119,
+        "source": {
+          "documentId": 205
+        },
+        "witnesses": [
+          {
+            "witnessId": 150
+          },
+          {
+            "witnessId": 143
+          }
+        ]
       }
     ],
     "biography": {
@@ -3164,8 +3473,13 @@
     "photoUrl": null,
     "family": "ofiara",
     "spouseIds": [120],
-    "childIds": [122, 123, 47, 125],
-    "parentIds": [145, 146],
+    "childIds": [
+      { "personId": 122 },
+      { "personId": 123 },
+      { "personId": 47 },
+      { "personId": 125 }
+    ],
+    "parentIds": [{ "personId": 145 }, { "personId": 146 }],
     "marriages": [
       {
         "spouseId": 120,
@@ -3191,7 +3505,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [121, 120],
+    "parentIds": [{ "personId": 121 }, { "personId": 120 }],
     "biography": {
       "pl": "Córka Michała Mitaka i Ewy Drużdżel. Przyrodnia siostra Heleny Ofiary. Żyła 4 lata.",
       "en": "Daughter of Michał Mitak and Ewa Drużdżel. Half-sister of Helena Ofiara. Lived for 4 years."
@@ -3208,7 +3522,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [121, 120],
+    "parentIds": [{ "personId": 121 }, { "personId": 120 }],
     "biography": {
       "pl": "Córka Michała Mitaka i Ewy Drużdżel. Przyrodnia siostra Heleny Ofiary.",
       "en": "Daughter of Michał Mitak and Ewa Drużdżel. Half-sister of Helena Ofiara."
@@ -3270,7 +3584,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [121, 120],
+    "parentIds": [{ "personId": 121 }, { "personId": 120 }],
     "biography": {
       "pl": "Syn Michała Mitaka i Ewy Drużdżel. Przyrodni brat Heleny Ofiary.",
       "en": "Son of Michał Mitak and Ewa Drużdżel. Half-brother of Helena Ofiara."
@@ -3349,8 +3663,17 @@
     "deathTime": "15:00",
     "photoUrl": "/images/jakub.avif",
     "spouseIds": [362],
-    "childIds": [57, 131, 132, 210, 211, 214, 215, 216, 298],
-    "parentIds": [133, 134],
+    "childIds": [
+      { "personId": 57 },
+      { "personId": 131 },
+      { "personId": 132 },
+      { "personId": 210 },
+      { "personId": 211 },
+      { "personId": 214 },
+      { "personId": 216 },
+      { "personId": 298 }
+    ],
+    "parentIds": [{ "personId": 133 }, { "personId": 134 }],
     "occupation": {
       "pl": "Gospodarz",
       "en": "Farmer"
@@ -3449,7 +3772,7 @@
     "deathTime": "20:00",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [322, 323],
+    "parentIds": [{ "personId": 322 }, { "personId": 323 }],
     "marriages": [],
     "biography": {
       "pl": "Córka Kacpra i Małgorzaty z Grzelaków Wieczorków. Siostra Magdaleny (żony Jakuba Ofiary) oraz Marianny (żony Jana Ofiary). Jej dalsze losy, w tym informacja o ewentualnym małżeństwie, nie są znane.",
@@ -3489,7 +3812,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [129, 362],
+    "parentIds": [{ "personId": 129 }, { "personId": 362 }],
     "marriages": [],
     "biography": {
       "pl": "Córka Jakuba i Magdaleny z d. Wieczorek. Zmarła w wieku 9 lat.",
@@ -3524,7 +3847,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [129, 362],
+    "parentIds": [{ "personId": 129 }, { "personId": 362 }],
     "marriages": [],
     "biography": {
       "pl": "Córka Jakuba i Magdaleny z d. Wieczorek. Urodzona w Woli Gutowskiej. Zmarła w wieku niespełna dwóch lat.",
@@ -3577,8 +3900,17 @@
     "deathDateNote": "po 1842",
     "photoUrl": "/images/stefan.avif",
     "spouseIds": [134],
-    "childIds": [159, 135, 129, 136, 160, 137, 138, 175],
-    "parentIds": [161, 162],
+    "childIds": [
+      { "personId": 159 },
+      { "personId": 135 },
+      { "personId": 129 },
+      { "personId": 136 },
+      { "personId": 160 },
+      { "personId": 137 },
+      { "personId": 138 },
+      { "personId": 175 }
+    ],
+    "parentIds": [{ "personId": 161 }, { "personId": 162 }],
     "occupation": {
       "pl": "Parobek / Włościanin",
       "en": "Farmhand / Peasant"
@@ -3639,8 +3971,17 @@
     "deathTime": "05:00",
     "deathTimeQualifier": "morning",
     "spouseIds": [133],
-    "childIds": [159, 135, 129, 136, 160, 137, 138, 175],
-    "parentIds": [168, 169],
+    "childIds": [
+      { "personId": 159 },
+      { "personId": 135 },
+      { "personId": 129 },
+      { "personId": 136 },
+      { "personId": 160 },
+      { "personId": 137 },
+      { "personId": 138 },
+      { "personId": 175 }
+    ],
+    "parentIds": [{ "personId": 168 }, { "personId": 169 }],
     "marriages": [
       {
         "spouseId": 133,
@@ -3696,7 +4037,7 @@
     "deathTime": "20:00",
     "deathTimeQualifier": null,
     "family": "ofiara",
-    "parentIds": [133, 134],
+    "parentIds": [{ "personId": 133 }, { "personId": 134 }],
     "spouseIds": [],
     "childIds": [],
     "events": [
@@ -3745,7 +4086,7 @@
     "birthDate": "1835-07-03",
     "birthTime": "20:00",
     "family": "ofiara",
-    "parentIds": [133, 134],
+    "parentIds": [{ "personId": 133 }, { "personId": 134 }],
     "spouseIds": [],
     "childIds": [],
     "events": [
@@ -3782,7 +4123,7 @@
     "deathTime": "6:00",
     "deathTimeQualifier": "morning",
     "family": "ofiara",
-    "parentIds": [133, 134],
+    "parentIds": [{ "personId": 133 }, { "personId": 134 }],
     "spouseIds": [],
     "childIds": [],
     "events": [
@@ -3829,9 +4170,9 @@
     "birthTime": "17:00",
     "deathDate": "1921-04-08",
     "family": "ofiara",
-    "parentIds": [133, 134],
+    "parentIds": [{ "personId": 133 }, { "personId": 134 }],
     "spouseIds": [151, 152, 153],
-    "childIds": [24, 25, 239],
+    "childIds": [{ "personId": 24 }, { "personId": 25 }, { "personId": 239 }],
     "marriages": [
       {
         "spouseId": 151,
@@ -3935,7 +4276,7 @@
     "photoUrl": null,
     "family": "ofiara",
     "spouseIds": [142],
-    "childIds": [119],
+    "childIds": [{ "personId": 119 }],
     "parentIds": [],
     "marriages": [
       {
@@ -3959,7 +4300,7 @@
     "family": "ofiara",
     "spouseIds": [119],
     "childIds": [],
-    "parentIds": [143, 144],
+    "parentIds": [{ "personId": 143 }, { "personId": 144 }],
     "marriages": [
       {
         "spouseId": 119,
@@ -3979,7 +4320,7 @@
     "photoUrl": null,
     "family": "ofiara",
     "spouseIds": [139],
-    "childIds": [119],
+    "childIds": [{ "personId": 119 }],
     "parentIds": [],
     "marriages": [
       {
@@ -3999,7 +4340,7 @@
     "photoUrl": null,
     "family": "ofiara",
     "spouseIds": [144],
-    "childIds": [120],
+    "childIds": [{ "personId": 120 }],
     "parentIds": [],
     "marriages": [
       {
@@ -4020,7 +4361,7 @@
     "photoUrl": null,
     "family": "ofiara",
     "spouseIds": [143],
-    "childIds": [120],
+    "childIds": [{ "personId": 120 }],
     "parentIds": [],
     "marriages": [
       {
@@ -4040,7 +4381,7 @@
     "photoUrl": null,
     "family": "ofiara",
     "spouseIds": [146],
-    "childIds": [121, 149],
+    "childIds": [{ "personId": 121 }, { "personId": 149 }],
     "parentIds": [],
     "marriages": [
       {
@@ -4061,7 +4402,7 @@
     "photoUrl": null,
     "family": "ofiara",
     "spouseIds": [145],
-    "childIds": [121, 149],
+    "childIds": [{ "personId": 121 }, { "personId": 149 }],
     "parentIds": [],
     "marriages": [
       {
@@ -4084,7 +4425,12 @@
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [5],
-    "childIds": [182, 183, 185, 189],
+    "childIds": [
+      { "personId": 182 },
+      { "personId": 183 },
+      { "personId": 185 },
+      { "personId": 189 }
+    ],
     "parentIds": [],
     "marriages": [
       {
@@ -4154,8 +4500,8 @@
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [68],
-    "childIds": [191, 415],
-    "parentIds": [145, 146],
+    "childIds": [{ "personId": 191 }, { "personId": 415 }],
+    "parentIds": [{ "personId": 145 }, { "personId": 146 }],
     "marriages": [
       {
         "spouseId": 68,
@@ -4188,7 +4534,7 @@
     "photoUrl": "/images/janjurczak.avif",
     "family": "gierczak",
     "spouseIds": [68],
-    "childIds": [375],
+    "childIds": [{ "personId": 375 }],
     "parentIds": [],
     "marriages": [
       {
@@ -4223,7 +4569,7 @@
     "deathTime": "17:00",
     "family": "ofiara",
     "spouseIds": [138],
-    "childIds": [24, 25],
+    "childIds": [{ "personId": 24 }, { "personId": 25 }],
     "parentIds": [],
     "marriages": [
       {
@@ -4294,7 +4640,7 @@
     "family": "ofiara",
     "deathDateNote": "przed 1921",
     "spouseIds": [138],
-    "childIds": [239],
+    "childIds": [{ "personId": 239 }],
     "parentIds": [],
     "marriages": [
       {
@@ -4407,8 +4753,8 @@
     "deathTime": "11:00",
     "deathTimeQualifier": "morning",
     "spouseIds": [158, 124, 172],
-    "childIds": [174, 204],
-    "parentIds": [161, 162],
+    "childIds": [{ "personId": 174 }, { "personId": 204 }],
+    "parentIds": [{ "personId": 161 }, { "personId": 162 }],
     "marriages": [
       {
         "spouseId": 158,
@@ -4500,7 +4846,7 @@
     "deathTimeQualifier": "night",
     "spouseIds": [157],
     "childIds": [],
-    "parentIds": [170, 171],
+    "parentIds": [{ "personId": 170 }, { "personId": 171 }],
     "marriages": [
       {
         "spouseId": 157,
@@ -4560,8 +4906,14 @@
     "deathTime": "11:00",
     "deathTimeQualifier": "morning",
     "spouseIds": [202],
-    "childIds": [201, 203, 208, 212, 217],
-    "parentIds": [133, 134],
+    "childIds": [
+      { "personId": 201 },
+      { "personId": 203 },
+      { "personId": 208 },
+      { "personId": 212 },
+      { "personId": 217 }
+    ],
+    "parentIds": [{ "personId": 133 }, { "personId": 134 }],
     "marriages": [
       {
         "spouseId": 202,
@@ -4619,7 +4971,7 @@
     "birthDate": "1837-07-02",
     "birthTime": "05:00",
     "deathDateNote": "po 1887-11-10",
-    "parentIds": [133, 134],
+    "parentIds": [{ "personId": 133 }, { "personId": 134 }],
     "spouseIds": [21, 205],
     "childIds": [],
     "marriages": [
@@ -4670,8 +5022,17 @@
     "deathDate": "1812-08-22",
     "photoUrl": "/images/konstanty.avif",
     "spouseIds": [162],
-    "childIds": [163, 164, 165, 166, 167, 133, 157, 222],
-    "parentIds": [12, 20],
+    "childIds": [
+      { "personId": 163 },
+      { "personId": 164 },
+      { "personId": 165 },
+      { "personId": 166 },
+      { "personId": 167 },
+      { "personId": 133 },
+      { "personId": 157 },
+      { "personId": 222 }
+    ],
+    "parentIds": [{ "personId": 12 }, { "personId": 20 }],
     "occupation": {
       "pl": "Włościanin / Mieszczanin",
       "en": "Peasant / Townsman"
@@ -4711,8 +5072,17 @@
     "deathTimeQualifier": "morning",
     "photoUrl": "/images/agnieszka.avif",
     "spouseIds": [161],
-    "childIds": [163, 164, 165, 166, 167, 133, 157, 222],
-    "parentIds": [12, 20],
+    "childIds": [
+      { "personId": 163 },
+      { "personId": 164 },
+      { "personId": 165 },
+      { "personId": 166 },
+      { "personId": 167 },
+      { "personId": 133 },
+      { "personId": 157 },
+      { "personId": 222 }
+    ],
+    "parentIds": [{ "personId": 12 }, { "personId": 20 }],
     "biography": {
       "pl": "Żona Konstantego Ofiary, matka siedmiorga dzieci. Mieszkała w Woli Gutowskiej. Zmarła osiem lat po swoim mężu, w wieku 50 lat. W akcie zgonu, zgłoszonym przez jej syna Szczepana, nazwisko zapisano w formie 'Ofierzyna'.",
       "en": "Wife of Konstanty Ofiara, mother of seven children. Lived in Wola Gutowska. She died eight years after her husband, at the age of 50. In her death record, reported by her son Szczepan, her surname was written as 'Ofierzyna'."
@@ -4743,7 +5113,7 @@
     "family": "ofiara",
     "birthDate": "1798-01-02",
     "deathDateNote": "ok. 1798-1802",
-    "parentIds": [161, 162],
+    "parentIds": [{ "personId": 161 }, { "personId": 162 }],
     "spouseIds": [],
     "childIds": [],
     "biography": {
@@ -4781,7 +5151,15 @@
     "deathTimeQualifier": "evening",
     "spouseIds": [352],
     "childIds": [],
-    "parentIds": [161, 162],
+    "parentIds": [{ "personId": 161 }, { "personId": 162 }],
+    "residences": [
+      {
+        "placeId": "wola_gutowska"
+      },
+      {
+        "placeId": "Płasków"
+      }
+    ],
     "biography": {
       "pl": "Córka Konstantego i Agnieszki z d. Grzegorzewskiej. Urodzona w Woli Gutowskiej. Wyszła za mąż za Dominika Lipca i mieszkała z nim w Płaskowie, gdzie zmarła w wieku 72 lat.",
       "en": "Daughter of Konstanty and Agnieszka née Grzegorzewska. Born in Wola Gutowska. She married Dominik Lipiec and lived with him in Płasków, where she died at the age of 72."
@@ -4833,7 +5211,7 @@
     "lastName": "Ofiara",
     "family": "ofiara",
     "birthDate": "1802-05-01",
-    "parentIds": [161, 162],
+    "parentIds": [{ "personId": 161 }, { "personId": 162 }],
     "spouseIds": [],
     "childIds": [],
     "biography": {
@@ -4865,7 +5243,7 @@
     "lastName": "Ofiara",
     "family": "ofiara",
     "birthDate": "1803-06-27",
-    "parentIds": [161, 162],
+    "parentIds": [{ "personId": 161 }, { "personId": 162 }],
     "spouseIds": [],
     "childIds": [],
     "biography": {
@@ -4897,7 +5275,7 @@
     "lastName": "Ofiara",
     "family": "ofiara",
     "birthDate": "1804-09-12",
-    "parentIds": [161, 162],
+    "parentIds": [{ "personId": 161 }, { "personId": 162 }],
     "spouseIds": [],
     "childIds": [],
     "biography": {
@@ -4930,7 +5308,7 @@
     "family": "ofiara",
     "birthDateNote": "ok. 1780",
     "spouseIds": [169],
-    "childIds": [134],
+    "childIds": [{ "personId": 134 }],
     "parentIds": [],
     "biography": {
       "pl": "Ojciec Małgorzaty Kowalczyk, teść Szczepana Ofiary. Mąż Julianny z d. Bogusz. Mieszkał w Woli Gutowskiej.",
@@ -4945,7 +5323,7 @@
     "family": "ofiara",
     "birthDateNote": "ok. 1785",
     "spouseIds": [168],
-    "childIds": [134],
+    "childIds": [{ "personId": 134 }],
     "parentIds": [],
     "biography": {
       "pl": "Matka Małgorzaty Kowalczyk, teściowa Szczepana Ofiary. Żona Karola Kowalczyka. Mieszkała w Woli Gutowskiej.",
@@ -4958,7 +5336,7 @@
     "lastName": "Hernik",
     "family": "ofiara",
     "spouseIds": [171],
-    "childIds": [158],
+    "childIds": [{ "personId": 158 }],
     "parentIds": [],
     "biography": {
       "pl": "Ojciec Heleny Hernik, teść Stefana Ofiary. Mąż Barbary.",
@@ -4972,7 +5350,7 @@
     "maidenName": "?",
     "family": "ofiara",
     "spouseIds": [170],
-    "childIds": [158],
+    "childIds": [{ "personId": 158 }],
     "parentIds": [],
     "biography": {
       "pl": "Matka Heleny Hernik, teściowa Stefana Ofiary. Żona Antoniego Hernika.",
@@ -4990,8 +5368,8 @@
     "deathTime": "16:00",
     "deathTimeQualifier": "afternoon",
     "spouseIds": [157],
-    "childIds": [204],
-    "parentIds": [173],
+    "childIds": [{ "personId": 204 }],
+    "parentIds": [{ "personId": 173 }],
     "marriages": [
       {
         "spouseId": 157,
@@ -5046,7 +5424,7 @@
     "lastName": "Jemiołek",
     "family": "ofiara",
     "spouseIds": [],
-    "childIds": [172],
+    "childIds": [{ "personId": 172 }],
     "parentIds": [],
     "biography": {
       "pl": "Ojciec Marianny Jemiołek.",
@@ -5059,7 +5437,7 @@
     "lastName": "Ofiara",
     "family": "ofiara",
     "birthDate": "1852",
-    "parentIds": [157, 172],
+    "parentIds": [{ "personId": 157 }, { "personId": 172 }],
     "spouseIds": [],
     "childIds": [],
     "biography": {
@@ -5076,7 +5454,7 @@
     "deathDate": "1832-03-27",
     "deathTime": "21:00",
     "deathTimeQualifier": null,
-    "parentIds": [133, 134],
+    "parentIds": [{ "personId": 133 }, { "personId": 134 }],
     "spouseIds": [],
     "childIds": [],
     "events": [
@@ -5112,8 +5490,13 @@
     "deathTimeQualifier": "morning",
     "family": "gierczak",
     "spouseIds": [61, 198, 200],
-    "childIds": [195, 196, 197, 199],
-    "parentIds": [177, 178],
+    "childIds": [
+      { "personId": 195 },
+      { "personId": 196 },
+      { "personId": 197 },
+      { "personId": 199 }
+    ],
+    "parentIds": [{ "personId": 177 }, { "personId": 178 }],
     "marriages": [
       {
         "spouseId": 61,
@@ -5172,7 +5555,7 @@
     "lastName": "Ślifirczyk",
     "family": "gierczak",
     "spouseIds": [178],
-    "childIds": [176],
+    "childIds": [{ "personId": 176 }],
     "parentIds": [],
     "biography": {
       "pl": "Mąż Moniki z d. Owczarek, ojciec Józefa Ślifirczyka.",
@@ -5186,7 +5569,7 @@
     "maidenName": "Tkaczyk",
     "family": "gierczak",
     "spouseIds": [177],
-    "childIds": [176],
+    "childIds": [{ "personId": 176 }],
     "parentIds": [],
     "biography": {
       "pl": "Żona Antoniego Ślifirczyka, matka Józefa.",
@@ -5205,7 +5588,7 @@
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [63, 105],
+    "parentIds": [{ "personId": 63 }, { "personId": 105 }],
     "marriages": [],
     "biography": {
       "pl": "Córka Kacpra Gierczaka i Marianny z domu Moskwa. W jej akcie urodzenia (dokument nr 360) nazwisko ojca zapisano jako 'Gierczak', a jej jako 'Gerczak'. Jest siostrą Łucji (ID 371) oraz rodzeństwa zmarłego w dzieciństwie: Marianny (ID 66) i Jędrzeja (ID 67).",
@@ -5233,7 +5616,7 @@
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [73, 108],
+    "parentIds": [{ "personId": 73 }, { "personId": 108 }],
     "marriages": [],
     "biography": {
       "pl": "Syn Stanisława Gierczaka i Anieli z domu Burakowskiej. Zmarł w wieku dwóch tygodni.",
@@ -5261,7 +5644,7 @@
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [73, 108],
+    "parentIds": [{ "personId": 73 }, { "personId": 108 }],
     "marriages": [],
     "biography": {
       "pl": "Syn Stanisława Gierczaka i Anieli z domu Burakowskiej. Zmarł w wieku dwóch miesięcy.",
@@ -5289,7 +5672,7 @@
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [5, 147],
+    "parentIds": [{ "personId": 5 }, { "personId": 147 }],
     "biography": {
       "pl": "Córka Michała i Marianny z domu Gocman. Zmarła w Jaszowicach w wieku 3 lat.",
       "en": "Daughter of Michał and Marianna née Gocman. Died in Jaszowice at the age of 3."
@@ -5324,8 +5707,8 @@
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [184],
-    "childIds": [374],
-    "parentIds": [5, 188],
+    "childIds": [{ "personId": 374 }],
+    "parentIds": [{ "personId": 5 }, { "personId": 188 }],
     "marriages": [
       {
         "spouseId": 184,
@@ -5364,7 +5747,7 @@
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [183],
-    "childIds": [374],
+    "childIds": [{ "personId": 374 }],
     "parentIds": [],
     "marriages": [
       {
@@ -5388,8 +5771,8 @@
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [186],
-    "childIds": [373],
-    "parentIds": [5, 147],
+    "childIds": [{ "personId": 373 }],
+    "parentIds": [{ "personId": 5 }, { "personId": 147 }],
     "marriages": [
       {
         "spouseId": 186,
@@ -5447,7 +5830,7 @@
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [185],
-    "childIds": [373],
+    "childIds": [{ "personId": 373 }],
     "parentIds": [],
     "marriages": [
       {
@@ -5479,7 +5862,7 @@
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [5, 188],
+    "parentIds": [{ "personId": 5 }, { "personId": 188 }],
     "biography": {
       "pl": "Córka Michała Gerczaka vel Gierczaka i jego pierwszej żony, Marianny z domu Nabis. Jej odkrycie w akcie urodzenia nr 110 z 1826 r. (dokument nr 353) dowiodło, że jej ojciec był co najmniej dwukrotnie żonaty.",
       "en": "Daughter of Michał Gerczak vel Gierczak and his first wife, Marianna née Nabis. Her discovery in birth record no. 110 from 1826 (document no. 353) proved that her father was married at least twice."
@@ -5515,7 +5898,14 @@
     "deathDateNote": "po 1847",
     "family": "gierczak",
     "spouseIds": [5],
-    "childIds": [187, 366, 367, 368, 369, 370],
+    "childIds": [
+      { "personId": 187 },
+      { "personId": 366 },
+      { "personId": 367 },
+      { "personId": 368 },
+      { "personId": 369 },
+      { "personId": 370 }
+    ],
     "parentIds": [],
     "marriages": [
       {
@@ -5536,7 +5926,7 @@
     "family": "gierczak",
     "spouseIds": [190],
     "childIds": [],
-    "parentIds": [5, 147],
+    "parentIds": [{ "personId": 5 }, { "personId": 147 }],
     "marriages": [
       {
         "spouseId": 190,
@@ -5616,7 +6006,7 @@
     "family": "gierczak",
     "spouseIds": [192],
     "childIds": [],
-    "parentIds": [149, 68],
+    "parentIds": [{ "personId": 149 }, { "personId": 68 }],
     "marriages": [
       {
         "spouseId": 192,
@@ -5651,7 +6041,7 @@
     "family": "gierczak",
     "spouseIds": [191],
     "childIds": [],
-    "parentIds": [193, 194],
+    "parentIds": [{ "personId": 193 }, { "personId": 194 }],
     "marriages": [
       {
         "spouseId": 191,
@@ -5690,7 +6080,7 @@
     "lastName": "Golus",
     "family": "gierczak",
     "spouseIds": [194],
-    "childIds": [192],
+    "childIds": [{ "personId": 192 }],
     "parentIds": []
   },
   {
@@ -5700,7 +6090,7 @@
     "maidenName": "Sułowska",
     "family": "gierczak",
     "spouseIds": [193],
-    "childIds": [192],
+    "childIds": [{ "personId": 192 }],
     "parentIds": []
   },
   {
@@ -5715,7 +6105,7 @@
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [176, 61],
+    "parentIds": [{ "personId": 176 }, { "personId": 61 }],
     "biography": {
       "pl": "Córka Józefa Ślifirczyka i jego pierwszej żony, Marianny z d. Gierczak. Zmarła w Jaszowicach w wieku 7 lat.",
       "en": "Daughter of Józef Ślifirczyk and his first wife, Marianna née Gierczak. She died in Jaszowice at the age of 7."
@@ -5743,7 +6133,7 @@
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [176, 61],
+    "parentIds": [{ "personId": 176 }, { "personId": 61 }],
     "biography": {
       "pl": "Córka Józefa Ślifirczyka i jego pierwszej żony, Marianny z d. Gierczak. Zmarła w Jaszowicach w wieku 6 tygodni.",
       "en": "Daughter of Józef Ślifirczyk and his first wife, Marianna née Gierczak. She died in Jaszowice at the age of 6 weeks."
@@ -5770,7 +6160,7 @@
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [176, 61],
+    "parentIds": [{ "personId": 176 }, { "personId": 61 }],
     "biography": {
       "pl": "Córka Józefa Ślifirczyka i jego pierwszej żony, Marianny z d. Gierczak. Zmarła w Jaszowicach w wieku 10 lat.",
       "en": "Daughter of Józef Ślifirczyk and his first wife, Marianna née Gierczak. She died in Jaszowice at the age of 10."
@@ -5795,7 +6185,7 @@
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [176],
-    "childIds": [199],
+    "childIds": [{ "personId": 199 }],
     "parentIds": [],
     "marriages": [
       {
@@ -5819,7 +6209,7 @@
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [176, 198],
+    "parentIds": [{ "personId": 176 }, { "personId": 198 }],
     "biography": {
       "pl": "Syn Józefa Ślifirczyka i jego trzeciej żony, Marianny z d. Koza. Zmarł w Jaszowicach w wieku 2 lat.",
       "en": "Son of Józef Ślifirczyk and his third wife, Marianna née Koza. He died in Jaszowice at the age of 2."
@@ -5870,7 +6260,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [159, 202],
+    "parentIds": [{ "personId": 159 }, { "personId": 202 }],
     "marriages": [],
     "events": [
       {
@@ -5920,7 +6310,13 @@
     "photoUrl": null,
     "family": "ofiara",
     "spouseIds": [159],
-    "childIds": [201, 203, 208, 212, 217],
+    "childIds": [
+      { "personId": 201 },
+      { "personId": 203 },
+      { "personId": 208 },
+      { "personId": 212 },
+      { "personId": 217 }
+    ],
     "parentIds": [],
     "marriages": [
       {
@@ -5951,7 +6347,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [159, 202],
+    "parentIds": [{ "personId": 159 }, { "personId": 202 }],
     "marriages": [],
     "events": [
       {
@@ -6008,7 +6404,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [157, 172],
+    "parentIds": [{ "personId": 157 }, { "personId": 172 }],
     "marriages": [],
     "events": [
       {
@@ -6100,7 +6496,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [273, 274],
+    "parentIds": [{ "personId": 273 }, { "personId": 274 }],
     "biography": {
       "pl": "Córka Jana i Marianny z Wieczorków. Zmarła w wieku 37 lat.",
       "en": "Daughter of Jan and Marianna née Wieczorek. She died at the age of 37."
@@ -6130,7 +6526,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [159, 202],
+    "parentIds": [{ "personId": 159 }, { "personId": 202 }],
     "marriages": [],
     "events": [
       {
@@ -6185,7 +6581,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [273, 274],
+    "parentIds": [{ "personId": 273 }, { "personId": 274 }],
     "biography": {
       "pl": "Córka Jana i Marianny z Wieczorków. Zmarła w wieku jednego roku i dziesięciu miesięcy.",
       "en": "Daughter of Jan and Marianna née Wieczorek. She died at the age of one year and ten months."
@@ -6212,7 +6608,7 @@
     "family": "ofiara",
     "spouseIds": [346, 347],
     "childIds": [],
-    "parentIds": [129, 362],
+    "parentIds": [{ "personId": 129 }, { "personId": 362 }],
     "marriages": [
       {
         "spouseId": 346,
@@ -6300,7 +6696,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [129, 362],
+    "parentIds": [{ "personId": 129 }, { "personId": 362 }],
     "marriages": [],
     "biography": {
       "pl": "Córka Jakuba Ofiary i Magdaleny z d. Wieczorek. Zmarła w wieku 12 lat.",
@@ -6355,7 +6751,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [159, 202],
+    "parentIds": [{ "personId": 159 }, { "personId": 202 }],
     "marriages": [],
     "events": [
       {
@@ -6393,7 +6789,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [273, 274],
+    "parentIds": [{ "personId": 273 }, { "personId": 274 }],
     "biography": {
       "pl": "Syn Jana i Marianny z Wieczorków. Zmarł w wieku 28 lat.",
       "en": "Son of Jan and Marianna née Wieczorek. He died at the age of 28."
@@ -6422,7 +6818,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [129, 362],
+    "parentIds": [{ "personId": 129 }, { "personId": 362 }],
     "marriages": [],
     "biography": {
       "pl": "Syn Jakuba Ofiary i Magdaleny z d. Wieczorek. Zmarł jako dwumiesięczne niemowlę. W jego akcie zgonu matka została błędnie zapisana jako Apolonia.",
@@ -6477,11 +6873,11 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [129, 362],
+    "parentIds": [{ "personId": 445 }, { "personId": 446 }],
     "marriages": [],
     "biography": {
-      "pl": "Syn Jakuba Ofiary i Magdaleny z d. Wieczorek. Brat Andrzeja, Zofii, Agnieszki, Józefy, Katarzyny i Jędrzeja.",
-      "en": "Son of Jakub Ofiara and Magdalena née Wieczorek. Brother of Andrzej, Zofia, Agnieszka, Józefa, Katarzyna and Jędrzej."
+      "pl": "Syn Jana Ofiary i Marianny z d. Wieczorek. Jego dane pochodzą z aktu urodzenia nr 282 z parafii Jedlińsk.",
+      "en": "Son of Jan Ofiara and Marianna née Wieczorek. His data comes from birth record no. 282 from the Jedlińsk parish."
     },
     "events": [
       {
@@ -6519,7 +6915,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [129, 362],
+    "parentIds": [{ "personId": 129 }, { "personId": 362 }],
     "marriages": [],
     "biography": {
       "pl": "Syn Jakuba Ofiary i Magdaleny z d. Wieczorek. Zmarł w wieku dwóch lat. Jego akt zgonu (nr 67 z 1863 r.) został ostatecznie zidentyfikowany po odkryciu, że jego kuzyn o tym samym imieniu, syn Jana Ofiary, zmarł w tym samym roku, co wyjaśniło wcześniejsze nieścisłości w dokumentacji.",
@@ -6573,8 +6969,8 @@
     "photoUrl": null,
     "family": "ofiara",
     "spouseIds": [285],
-    "childIds": [238],
-    "parentIds": [159, 202],
+    "childIds": [{ "personId": 238 }],
+    "parentIds": [{ "personId": 159 }, { "personId": 202 }],
     "marriages": [
       {
         "spouseId": 285,
@@ -6654,7 +7050,7 @@
     "family": "ofiara",
     "spouseIds": [221],
     "childIds": [],
-    "parentIds": [161, 162],
+    "parentIds": [{ "personId": 161 }, { "personId": 162 }],
     "marriages": [
       {
         "spouseId": 221,
@@ -6700,7 +7096,7 @@
     "family": "ofiara",
     "spouseIds": [223],
     "childIds": [],
-    "parentIds": [161, 162],
+    "parentIds": [{ "personId": 161 }, { "personId": 162 }],
     "marriages": [
       {
         "spouseId": 223,
@@ -6792,8 +7188,8 @@
     "deathDateNote": "przed 1819",
     "family": "ofiara",
     "spouseIds": [226],
-    "childIds": [227, 231],
-    "parentIds": [12, 20],
+    "childIds": [{ "personId": 227 }, { "personId": 231 }],
+    "parentIds": [{ "personId": 12 }, { "personId": 20 }],
     "biography": {
       "pl": "Prawdopodobnie brat Konstantego Ofiary (ID 161). Mąż Marianny z d. Cholewa i ojciec Tomasza. Jego istnienie, udokumentowane w akcie ślubu syna (nr 274), cofa genealogię rodu Ofiara o kolejne pokolenie.",
       "en": "Likely the brother of Konstanty Ofiara (ID 161). Husband of Marianna née Cholewa and father of Tomasz. His existence, documented in his son's marriage record (no. 274), pushes the Ofiara family genealogy back another generation."
@@ -6807,7 +7203,7 @@
     "birthDateNote": "ok. 1775",
     "family": "ofiara",
     "spouseIds": [225],
-    "childIds": [227],
+    "childIds": [{ "personId": 227 }],
     "parentIds": [],
     "marriages": [
       {
@@ -6828,7 +7224,7 @@
     "family": "ofiara",
     "spouseIds": [228],
     "childIds": [],
-    "parentIds": [225, 226],
+    "parentIds": [{ "personId": 225 }, { "personId": 226 }],
     "marriages": [
       {
         "spouseId": 228,
@@ -6870,7 +7266,7 @@
     "family": "ofiara",
     "spouseIds": [227],
     "childIds": [],
-    "parentIds": [229, 230],
+    "parentIds": [{ "personId": 229 }, { "personId": 230 }],
     "marriages": [
       {
         "spouseId": 227,
@@ -6909,7 +7305,7 @@
     "lastName": "Wasiel",
     "birthDateNote": "ok. 1775",
     "spouseIds": [230],
-    "childIds": [228],
+    "childIds": [{ "personId": 228 }],
     "parentIds": [],
     "biography": {
       "pl": "Mąż Katarzyny z d. Kozioł i ojciec Marianny Wasiel. Włościanin z Woli Gutowskiej.",
@@ -6923,7 +7319,7 @@
     "maidenName": "Kozioł",
     "birthDateNote": "ok. 1780",
     "spouseIds": [229],
-    "childIds": [228],
+    "childIds": [{ "personId": 228 }],
     "parentIds": [],
     "marriages": [
       {
@@ -6944,7 +7340,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [225, 226],
+    "parentIds": [{ "personId": 225 }, { "personId": 226 }],
     "events": [
       {
         "type": "birth",
@@ -6975,8 +7371,8 @@
     "birthDateNote": "ok. 1785",
     "family": "ofiara",
     "spouseIds": [233],
-    "childIds": [234, 237],
-    "parentIds": [12, 20],
+    "childIds": [{ "personId": 234 }, { "personId": 237 }],
+    "parentIds": [{ "personId": 12 }, { "personId": 20 }],
     "biography": {
       "pl": "Prawdopodobnie brat Konstantego Ofiary (ID 161). Mąż Elżbiety z d. Russak i ojciec Jana urodzonego w 1810 roku. Jego istnienie, udokumentowane w akcie urodzenia syna (nr 280), potwierdza istnienie równoległej gałęzi rodu w Woli Gutowskiej.",
       "en": "Likely the brother or cousin of Konstanty Ofiara (ID 161). Husband of Elżbieta née Russak and father of Jan, born in 1810. His existence, documented in his son's birth record (no. 280), confirms the existence of a parallel branch of the family in Wola Gutowska."
@@ -6990,7 +7386,7 @@
     "birthDateNote": "ok. 1790",
     "family": "ofiara",
     "spouseIds": [232],
-    "childIds": [234, 237],
+    "childIds": [{ "personId": 234 }, { "personId": 237 }],
     "parentIds": [],
     "marriages": [
       {
@@ -7013,7 +7409,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [232, 233],
+    "parentIds": [{ "personId": 232 }, { "personId": 233 }],
     "events": [
       {
         "type": "birth",
@@ -7074,7 +7470,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [273, 274],
+    "parentIds": [{ "personId": 273 }, { "personId": 274 }],
     "biography": {
       "pl": "Syn Jana i Marianny z Wieczorków. Zmarł w wieku jednego roku i pięciu miesięcy.",
       "en": "Son of Jan and Marianna née Wieczorek. He died at the age of one year and five months."
@@ -7099,7 +7495,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [232, 233],
+    "parentIds": [{ "personId": 232 }, { "personId": 233 }],
     "events": [
       {
         "type": "birth",
@@ -7137,7 +7533,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [217, 285],
+    "parentIds": [{ "personId": 217 }, { "personId": 285 }],
     "marriages": [],
     "biography": {
       "pl": "Córka Piotra Ofiary i Franciszki z domu Ofiara. Zmarła w wieku trzech tygodni.",
@@ -7172,7 +7568,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [138, 153],
+    "parentIds": [{ "personId": 138 }, { "personId": 153 }],
     "biography": {
       "pl": "Syn Wojciecha Ofiary i jego trzeciej żony, Wiktorii z domu Wieczorek. Zmarł w wieku jednego roku i jednego miesiąca.",
       "en": "Son of Wojciech Ofiara and his third wife, Wiktoria née Wieczorek. He died at the age of one year and one month."
@@ -7198,7 +7594,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [241, 242],
+    "parentIds": [{ "personId": 241 }, { "personId": 242 }],
     "biography": {
       "pl": "Córka Adama i Marianny z domu Bińkowskiej. Zmarła w wieku jednego roku i jednego miesiąca.",
       "en": "Daughter of Adam and Marianna née Bińkowska. She died at the age of one year and one month."
@@ -7221,7 +7617,7 @@
     "birthDateNote": "ok. 1858",
     "family": "ofiara",
     "spouseIds": [242],
-    "childIds": [240, 252, 275],
+    "childIds": [{ "personId": 240 }, { "personId": 252 }, { "personId": 275 }],
     "parentIds": [],
     "marriages": [
       {
@@ -7241,7 +7637,7 @@
     "maidenName": "Bińkowska",
     "family": "ofiara",
     "spouseIds": [241],
-    "childIds": [240, 252, 275],
+    "childIds": [{ "personId": 240 }, { "personId": 252 }, { "personId": 275 }],
     "parentIds": [],
     "marriages": [
       {
@@ -7263,8 +7659,8 @@
     "deathTime": "21:00",
     "family": "ofiara",
     "spouseIds": [248],
-    "childIds": [247],
-    "parentIds": [273, 274],
+    "childIds": [{ "personId": 247 }],
+    "parentIds": [{ "personId": 273 }, { "personId": 274 }],
     "marriages": [
       {
         "spouseId": 248,
@@ -7296,7 +7692,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [245, 246],
+    "parentIds": [{ "personId": 245 }, { "personId": 246 }],
     "biography": {
       "pl": "Córka Józefa i Antoniny z domu Świniarskiej. Zmarła w wieku dwóch miesięcy.",
       "en": "Daughter of Józef and Antonina née Świniarska. She died at the age of two months."
@@ -7319,8 +7715,8 @@
     "birthDateNote": "ok. 1871",
     "family": "ofiara",
     "spouseIds": [246],
-    "childIds": [244, 254],
-    "parentIds": [283, 284],
+    "childIds": [{ "personId": 244 }, { "personId": 254 }],
+    "parentIds": [{ "personId": 283 }, { "personId": 284 }],
     "marriages": [
       {
         "spouseId": 246,
@@ -7343,8 +7739,8 @@
     "birthDateNote": "ok. 1876",
     "family": "ofiara",
     "spouseIds": [245],
-    "childIds": [244, 254],
-    "parentIds": [305, 306],
+    "childIds": [{ "personId": 244 }, { "personId": 254 }],
+    "parentIds": [{ "personId": 305 }, { "personId": 306 }],
     "marriages": [
       {
         "spouseId": 245,
@@ -7369,7 +7765,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [248, 243],
+    "parentIds": [{ "personId": 248 }, { "personId": 243 }],
     "biography": {
       "pl": "Córka Ludwika Chudzika i Ludwiki z domu Ofiara. Wnuczka Jakuba Ofiary. Zmarła w wieku jednego roku i siedmiu miesięcy.",
       "en": "Daughter of Ludwik Chudzik and Ludwika née Ofiara. Granddaughter of Jakub Ofiara. She died at the age of one year and seven months."
@@ -7391,7 +7787,7 @@
     "lastName": "Chudzik",
     "family": "ofiara",
     "spouseIds": [243],
-    "childIds": [247],
+    "childIds": [{ "personId": 247 }],
     "parentIds": [],
     "marriages": [
       {
@@ -7414,7 +7810,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [250, 251],
+    "parentIds": [{ "personId": 250 }, { "personId": 251 }],
     "biography": {
       "pl": "Syn Jana i Eleonory z domu Mokosa. Zmarł w wieku jednego tygodnia.",
       "en": "Son of Jan and Eleonora née Mokos. He died at the age of one week."
@@ -7436,7 +7832,13 @@
     "lastName": "Ofiara",
     "family": "ofiara",
     "spouseIds": [251, 268],
-    "childIds": [249, 254, 255, 269, 276],
+    "childIds": [
+      { "personId": 249 },
+      { "personId": 254 },
+      { "personId": 255 },
+      { "personId": 269 },
+      { "personId": 276 }
+    ],
     "parentIds": [],
     "marriages": [
       {
@@ -7460,7 +7862,13 @@
     "maidenName": "Mokosa",
     "family": "ofiara",
     "spouseIds": [250],
-    "childIds": [249, 254, 255, 269, 276],
+    "childIds": [
+      { "personId": 249 },
+      { "personId": 254 },
+      { "personId": 255 },
+      { "personId": 269 },
+      { "personId": 276 }
+    ],
     "parentIds": [],
     "marriages": [
       {
@@ -7483,7 +7891,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [241, 242],
+    "parentIds": [{ "personId": 241 }, { "personId": 242 }],
     "biography": {
       "pl": "Syn Adama i Marianny z domu Bieniek (Bińkowska). Zmarł w wieku jednego miesiąca.",
       "en": "Son of Adam and Marianna née Bieniek (Bińkowska). He died at the age of one month."
@@ -7509,7 +7917,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [273, 274],
+    "parentIds": [{ "personId": 273 }, { "personId": 274 }],
     "biography": {
       "pl": "Syn Jana i Marianny z Wieczorków. Zmarł w wieku 42 lat. Zostawił po sobie żonę Mariannę.",
       "en": "Son of Jan and Marianna née Wieczorek. He died at the age of 42. He was survived by his wife Marianna."
@@ -7535,7 +7943,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [245, 246],
+    "parentIds": [{ "personId": 245 }, { "personId": 246 }],
     "biography": {
       "pl": "Syn Józefa i Antoniny z domu Świniarskiej. Zmarł w wieku jednego miesiąca i siedmiu dni.",
       "en": "Son of Józef and Antonina née Świniarska. He died at the age of one month and seven days."
@@ -7561,7 +7969,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [250, 251],
+    "parentIds": [{ "personId": 250 }, { "personId": 251 }],
     "biography": {
       "pl": "Syn Jana i Eleonory z domu Mokosa (w akcie zgonu jako Marianna z Chamerskich). Zmarł w wieku jednego miesiąca.",
       "en": "Son of Jan and Eleonora née Mokos (in the death record as Marianna née Chamerska). He died at the age of one month."
@@ -7587,7 +7995,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [257, 258],
+    "parentIds": [{ "personId": 257 }, { "personId": 258 }],
     "biography": {
       "pl": "Córka Marcina Kwietnia i Antoniny z domu Ofiara. Zmarła w wieku jednego miesiąca.",
       "en": "Daughter of Marcin Kwiecień and Antonina née Ofiara. She died at the age of one month."
@@ -7609,7 +8017,7 @@
     "lastName": "Kwiecień",
     "family": "ofiara",
     "spouseIds": [258],
-    "childIds": [256],
+    "childIds": [{ "personId": 256 }],
     "parentIds": [],
     "marriages": [
       {
@@ -7629,7 +8037,7 @@
     "maidenName": "Ofiara",
     "family": "ofiara",
     "spouseIds": [257, 278],
-    "childIds": [256, 277],
+    "childIds": [{ "personId": 256 }, { "personId": 277 }],
     "parentIds": [],
     "marriages": [
       {
@@ -7656,7 +8064,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [260, 261],
+    "parentIds": [{ "personId": 260 }, { "personId": 261 }],
     "biography": {
       "pl": "Córka Bogumiła Waltera i Franciszki z domu Ofiara. Zmarła w wieku dwóch miesięcy.",
       "en": "Daughter of Bogumił Walter and Franciszka née Ofiara. She died at the age of two months."
@@ -7678,7 +8086,7 @@
     "lastName": "Walter",
     "family": "ofiara",
     "spouseIds": [261],
-    "childIds": [259],
+    "childIds": [{ "personId": 259 }],
     "parentIds": [],
     "marriages": [
       {
@@ -7698,7 +8106,7 @@
     "maidenName": "Ofiara",
     "family": "ofiara",
     "spouseIds": [260],
-    "childIds": [259],
+    "childIds": [{ "personId": 259 }],
     "parentIds": [],
     "marriages": [
       {
@@ -7721,7 +8129,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [263, 264],
+    "parentIds": [{ "personId": 263 }, { "personId": 264 }],
     "biography": {
       "pl": "Córka Józefa Jadacha i Marianny z domu Ofiara. Zmarła w wieku sześciu miesięcy.",
       "en": "Daughter of Józef Jadach and Marianna née Ofiara. She died at the age of six months."
@@ -7743,7 +8151,7 @@
     "lastName": "Jadach",
     "family": "ofiara",
     "spouseIds": [264],
-    "childIds": [262],
+    "childIds": [{ "personId": 262 }],
     "parentIds": [],
     "marriages": [
       {
@@ -7763,7 +8171,7 @@
     "maidenName": "Ofiara",
     "family": "ofiara",
     "spouseIds": [263],
-    "childIds": [262],
+    "childIds": [{ "personId": 262 }],
     "parentIds": [],
     "marriages": [
       {
@@ -7786,7 +8194,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [266, 267],
+    "parentIds": [{ "personId": 266 }, { "personId": 267 }],
     "biography": {
       "pl": "Syn Jakuba i Anastazji z domu Solemowskiej. Zmarł w wieku 29 lat.",
       "en": "Son of Jakub and Anastazja née Solemowska. He died at the age of 29."
@@ -7809,7 +8217,7 @@
     "birthDateNote": "ok. 1834",
     "family": "ofiara",
     "spouseIds": [267],
-    "childIds": [265],
+    "childIds": [{ "personId": 265 }],
     "parentIds": [],
     "marriages": [
       {
@@ -7830,7 +8238,7 @@
     "deathDateNote": "przed 1903",
     "family": "ofiara",
     "spouseIds": [266],
-    "childIds": [265],
+    "childIds": [{ "personId": 265 }],
     "parentIds": [],
     "marriages": [
       {
@@ -7886,7 +8294,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [250, 251],
+    "parentIds": [{ "personId": 250 }, { "personId": 251 }],
     "biography": {
       "pl": "Córka Jana i Eleonory z domu Mokosa. Urodziła się martwa.",
       "en": "Daughter of Jan and Eleonora née Mokos. She was stillborn."
@@ -7912,7 +8320,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [273, 274],
+    "parentIds": [{ "personId": 273 }, { "personId": 274 }],
     "biography": {
       "pl": "Nieślubny syn Agnieszki Ofiary. Zmarł w wieku jednego roku.",
       "en": "Illegitimate son of Agnieszka Ofiara. He died at the age of one."
@@ -7934,8 +8342,8 @@
     "lastName": "Ofiara",
     "family": "ofiara",
     "spouseIds": [],
-    "childIds": [271],
-    "parentIds": [273, 274],
+    "childIds": [{ "personId": 271 }],
+    "parentIds": [{ "personId": 273 }, { "personId": 274 }],
     "marriages": [],
     "biography": {
       "pl": "Córka Jana i Marianny z Wieczorków. Matka nieślubnego syna Józefa.",
@@ -7950,8 +8358,13 @@
     "deathDateNote": "po 1906",
     "family": "ofiara",
     "spouseIds": [274],
-    "childIds": [],
-    "parentIds": [281, 282],
+    "childIds": [
+      { "personId": 301 },
+      { "personId": 307 },
+      { "personId": 311 },
+      { "personId": 342 }
+    ],
+    "parentIds": [{ "personId": 281 }, { "personId": 282 }],
     "occupation": {
       "pl": "Parobek / Włościanin",
       "en": "Farmhand / Peasant"
@@ -8003,8 +8416,13 @@
     "deathDate": "1907-02-13",
     "deathTime": "21:00",
     "spouseIds": [273],
-    "childIds": [],
-    "parentIds": [322, 323],
+    "childIds": [
+      { "personId": 301 },
+      { "personId": 307 },
+      { "personId": 311 },
+      { "personId": 342 }
+    ],
+    "parentIds": [{ "personId": 322 }, { "personId": 323 }],
     "marriages": [
       {
         "spouseId": 273,
@@ -8068,7 +8486,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [241, 242],
+    "parentIds": [{ "personId": 241 }, { "personId": 242 }],
     "biography": {
       "pl": "Syn Adama i Marianny z domu Bieniek (Bińkowska). Zmarł w wieku jednego tygodnia.",
       "en": "Son of Adam and Marianna née Bieniek (Bińkowska). He died at the age of one week."
@@ -8094,7 +8512,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [250, 251],
+    "parentIds": [{ "personId": 250 }, { "personId": 251 }],
     "biography": {
       "pl": "Córka Jana i Eleonory z domu Mokosa. Urodziła się martwa.",
       "en": "Daughter of Jan and Eleonora née Mokos. She was stillborn."
@@ -8120,7 +8538,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [278, 258],
+    "parentIds": [{ "personId": 278 }, { "personId": 258 }],
     "biography": {
       "pl": "Syn Józefa Ofiary i Marianny z domu Kwiecień. Zmarł w wieku jednego dnia.",
       "en": "Son of Józef Ofiara and Marianna née Kwiecień. He died at the age of one day."
@@ -8142,7 +8560,7 @@
     "lastName": "Ofiara",
     "family": "ofiara",
     "spouseIds": [258],
-    "childIds": [277],
+    "childIds": [{ "personId": 277 }],
     "parentIds": [],
     "marriages": [
       {
@@ -8165,7 +8583,7 @@
     "deathTimeQualifier": "afternoon",
     "family": "ofiara",
     "spouseIds": [],
-    "childIds": [280],
+    "childIds": [{ "personId": 280 }],
     "parentIds": [],
     "marriages": [],
     "biography": {
@@ -8190,7 +8608,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [279],
+    "parentIds": [{ "personId": 279 }],
     "marriages": [],
     "biography": {
       "pl": "Syn Jana Ofiary. W 1912 roku zgłosił zgon swojego ojca.",
@@ -8204,8 +8622,8 @@
     "birthDateNote": "ok. 1780",
     "family": "ofiara",
     "spouseIds": [282],
-    "childIds": [283],
-    "parentIds": [12, 20],
+    "childIds": [{ "personId": 273 }],
+    "parentIds": [{ "personId": 12 }, { "personId": 20 }],
     "biography": {
       "pl": "Syn protoplasty rodu, brat Szczepana Ofiary (ID 133). Jego istnienie i relacja braterska ze Szczepanem zostały udowodnione poprzez akt ślubu ich wnuków (Piotra i Franciszki) w 1881 roku. Mąż Salomei z domu Jemiołek i ojciec Jana Ofiary.",
       "en": "Son of the family progenitor, brother of Szczepan Ofiara (ID 133). His existence and fraternal relationship with Szczepan were proven through the marriage record of their grandchildren (Piotr and Franciszka) in 1881. Husband of Salomea née Jemiołek and father of Jan Ofiara."
@@ -8218,7 +8636,7 @@
     "maidenName": "Jemiołek",
     "family": "ofiara",
     "spouseIds": [281],
-    "childIds": [283],
+    "childIds": [{ "personId": 273 }],
     "parentIds": [],
     "biography": {
       "pl": "Żona Karola Ofiary i matka Jana Ofiary. Jej dane pochodzą z aktu ślubu jej syna z 1852 roku.",
@@ -8235,8 +8653,19 @@
     "deathDate": "1897-02-26",
     "deathTime": "20:00",
     "spouseIds": [203],
-    "childIds": [11, 23, 206, 209, 213, 236, 243, 253, 272, 299],
-    "parentIds": [320, 321],
+    "childIds": [
+      { "personId": 11 },
+      { "personId": 23 },
+      { "personId": 206 },
+      { "personId": 209 },
+      { "personId": 213 },
+      { "personId": 236 },
+      { "personId": 243 },
+      { "personId": 253 },
+      { "personId": 272 },
+      { "personId": 299 }
+    ],
+    "parentIds": [{ "personId": 320 }, { "personId": 321 }],
     "marriages": [
       {
         "spouseId": 203,
@@ -8292,7 +8721,7 @@
     "family": "ofiara",
     "spouseIds": [217],
     "childIds": [],
-    "parentIds": [273, 274],
+    "parentIds": [{ "personId": 273 }, { "personId": 274 }],
     "marriages": [
       {
         "spouseId": 217,
@@ -8332,7 +8761,13 @@
     "birthDateNote": "ok. 1750",
     "family": "ofiara",
     "spouseIds": [20],
-    "childIds": [161, 281, 9, 225, 232],
+    "childIds": [
+      { "personId": 161, "certaintyLevel": "hipoteza" },
+      { "personId": 281, "certaintyLevel": "hipoteza" },
+      { "personId": 9, "certaintyLevel": "hipoteza" },
+      { "personId": 225, "certaintyLevel": "hipoteza" },
+      { "personId": 232, "certaintyLevel": "hipoteza" }
+    ],
     "parentIds": [],
     "biography": {
       "pl": "Symboliczny protoplasta rodu Ofiara, ojciec Konstantego, Jędrzeja, Jana i Wincentego. Jego istnienie jest wnioskiem genealogicznym, pozwalającym połączyć główne gałęzie rodu w jedno drzewo.",
@@ -8405,7 +8840,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [138, 151],
+    "parentIds": [{ "personId": 138 }, { "personId": 151 }],
     "biography": {
       "pl": "Syn Wojciecha Ofiary i Franciszki z d. Puzianowskiej. Zmarł w Woli Gutowskiej w wieku jednego roku.",
       "en": "Son of Wojciech Ofiara and Franciszka née Puzianowska. He died in Wola Gutowska at the age of one."
@@ -8431,7 +8866,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [138, 151],
+    "parentIds": [{ "personId": 138 }, { "personId": 151 }],
     "biography": {
       "pl": "Syn Wojciecha Ofiary i Franciszki z d. Puzianowskiej. Zmarł w wieku jednego roku i siedmiu miesięcy w Kolonii Janki.",
       "en": "Son of Wojciech Ofiara and Franciszka née Puzianowska. He died at the age of one year and seven months in Janki Kolonia."
@@ -8458,7 +8893,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [129, 362],
+    "parentIds": [{ "personId": 129 }, { "personId": 362 }],
     "marriages": [],
     "biography": {
       "pl": "Córka Jakuba i Magdaleny z d. Wieczorek. W jej akcie zgonu ojciec został błędnie zapisany jako Józef. Zmarła w wieku dwóch dni.",
@@ -8494,7 +8929,7 @@
     "family": "ofiara",
     "spouseIds": [300],
     "childIds": [],
-    "parentIds": [273, 274],
+    "parentIds": [{ "personId": 273 }, { "personId": 274 }],
     "marriages": [
       {
         "spouseId": 300,
@@ -8525,7 +8960,7 @@
     "family": "ofiara",
     "spouseIds": [302],
     "childIds": [],
-    "parentIds": [283, 284],
+    "parentIds": [{ "personId": 273 }, { "personId": 274 }],
     "marriages": [
       {
         "spouseId": 302,
@@ -8547,7 +8982,7 @@
     "birthDateNote": "ok. 1865",
     "spouseIds": [301],
     "childIds": [],
-    "parentIds": [303, 304],
+    "parentIds": [{ "personId": 303 }, { "personId": 304 }],
     "marriages": [
       {
         "spouseId": 301,
@@ -8567,7 +9002,7 @@
     "firstName": "Jan",
     "lastName": "Bartosiak",
     "spouseIds": [304],
-    "childIds": [302],
+    "childIds": [{ "personId": 302 }],
     "parentIds": [],
     "biography": {
       "pl": "Mąż Marianny z domu Michalskiej i ojciec Franciszka Bartosiaka.",
@@ -8581,7 +9016,7 @@
     "maidenName": "Michalska",
     "deathDateNote": "przed 1891",
     "spouseIds": [303],
-    "childIds": [302],
+    "childIds": [{ "personId": 302 }],
     "parentIds": [],
     "biography": {
       "pl": "Żona Jana Bartosiaka i matka Franciszka. Zmarła przed ślubem syna w 1891 roku.",
@@ -8593,7 +9028,7 @@
     "firstName": "Andrzej",
     "lastName": "Świniarski",
     "spouseIds": [306],
-    "childIds": [246],
+    "childIds": [{ "personId": 246 }],
     "parentIds": [],
     "biography": {
       "pl": "Mąż Barbary z domu Maliszewskiej i ojciec Apolonii Świniarskiej.",
@@ -8606,7 +9041,7 @@
     "lastName": "Świniarska",
     "maidenName": "Maliszewska",
     "spouseIds": [305],
-    "childIds": [246],
+    "childIds": [{ "personId": 246 }],
     "parentIds": [],
     "biography": {
       "pl": "Żona Andrzeja Świniarskiego i matka Apolonii.",
@@ -8622,7 +9057,7 @@
     "family": "ofiara",
     "spouseIds": [308],
     "childIds": [],
-    "parentIds": [283, 284],
+    "parentIds": [{ "personId": 273 }, { "personId": 274 }],
     "marriages": [
       {
         "spouseId": 308,
@@ -8644,7 +9079,7 @@
     "birthDateNote": "ok. 1885",
     "spouseIds": [307],
     "childIds": [],
-    "parentIds": [309, 310],
+    "parentIds": [{ "personId": 309 }, { "personId": 310 }],
     "marriages": [
       {
         "spouseId": 307,
@@ -8664,7 +9099,7 @@
     "firstName": "Ludwik",
     "lastName": "Kowalczyk",
     "spouseIds": [310],
-    "childIds": [308],
+    "childIds": [{ "personId": 308 }],
     "parentIds": [],
     "biography": {
       "pl": "Mąż Teofili z domu Stachowicz i ojciec Jana Kowalczyka.",
@@ -8677,7 +9112,7 @@
     "lastName": "Kowalczyk",
     "maidenName": "Stachowicz",
     "spouseIds": [309],
-    "childIds": [308],
+    "childIds": [{ "personId": 308 }],
     "parentIds": [],
     "biography": {
       "pl": "Żona Ludwika Kowalczyka i matka Jana.",
@@ -8693,7 +9128,7 @@
     "family": "ofiara",
     "spouseIds": [312],
     "childIds": [],
-    "parentIds": [283, 284],
+    "parentIds": [{ "personId": 273 }, { "personId": 274 }],
     "marriages": [
       {
         "spouseId": 312,
@@ -8715,7 +9150,7 @@
     "birthDateNote": "ok. 1909",
     "spouseIds": [311],
     "childIds": [],
-    "parentIds": [313, 314],
+    "parentIds": [{ "personId": 313 }, { "personId": 314 }],
     "marriages": [
       {
         "spouseId": 311,
@@ -8735,7 +9170,7 @@
     "firstName": "Antoni",
     "lastName": "Sobień",
     "spouseIds": [314],
-    "childIds": [312],
+    "childIds": [{ "personId": 312 }],
     "parentIds": [],
     "biography": {
       "pl": "Mąż Marianny i ojciec Józefa Sobienia.",
@@ -8749,7 +9184,7 @@
     "maidenName": "NN",
     "deathDateNote": "przed 1932",
     "spouseIds": [313],
-    "childIds": [312],
+    "childIds": [{ "personId": 312 }],
     "parentIds": [],
     "biography": {
       "pl": "Żona Antoniego Sobienia i matka Józefa. Zmarła przed ślubem syna w 1932 roku.",
@@ -8765,8 +9200,8 @@
     "family": "ofiara",
     "photoUrl": "/images/anna.avif",
     "spouseIds": [316],
-    "childIds": [345],
-    "parentIds": [283, 284],
+    "childIds": [{ "personId": 345 }],
+    "parentIds": [{ "personId": 283 }, { "personId": 284 }],
     "marriages": [
       {
         "spouseId": 316,
@@ -8787,8 +9222,8 @@
     "lastName": "Jaskulski",
     "birthDateNote": "ok. 1913",
     "spouseIds": [315],
-    "childIds": [345],
-    "parentIds": [317, 318],
+    "childIds": [{ "personId": 345 }],
+    "parentIds": [{ "personId": 317 }, { "personId": 318 }],
     "marriages": [
       {
         "spouseId": 315,
@@ -8808,7 +9243,7 @@
     "firstName": "Paweł",
     "lastName": "Jaskulski",
     "spouseIds": [318],
-    "childIds": [316],
+    "childIds": [{ "personId": 316 }],
     "parentIds": [],
     "biography": {
       "pl": "Mąż Julianny z domu Bębeniec i ojciec Józefa Jaskulskiego.",
@@ -8821,7 +9256,7 @@
     "lastName": "Jaskulska",
     "maidenName": "Bębeniec",
     "spouseIds": [317],
-    "childIds": [316],
+    "childIds": [{ "personId": 316 }],
     "parentIds": [],
     "biography": {
       "pl": "Żona Pawła Jaskulskiego i matka Józefa.",
@@ -8841,7 +9276,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [273, 274],
+    "parentIds": [{ "personId": 273 }, { "personId": 274 }],
     "biography": {
       "pl": "Syn Jana Ofiary i Marianny z domu Wieczorek. Urodził się 5 marca 1863 r. Zmarł w tym samym roku, 27 lutego, w wieku dwóch lat, co wskazuje na błąd w dacie zgonu zapisanej w akcie. Jego istnienie i pochodzenie potwierdza akt urodzenia (nr 21 z 1863 r.) oraz akt zgonu (nr 47 z 1863 r.), w którym jego ojciec Jan jest zgłaszającym i podaje swój wiek (37 lat). To odróżnia go od jego kuzyna, również Józefa (syna Jakuba), który także zmarł w 1863 roku.",
       "en": "Son of Jan Ofiara and Marianna née Wieczorek. He was born on March 5, 1863. He died in the same year, on February 27, at the age of two, which indicates an error in the date of death recorded in the certificate. His existence and parentage are confirmed by his birth record (no. 21 from 1863) and his death record (no. 47 from 1863), in which his father Jan is the informant and states his age (37). This distinguishes him from his cousin, also named Józef (son of Jakub), who also died in 1863."
@@ -8890,7 +9325,7 @@
     "lastName": "Wieczorek",
     "birthDateNote": "ok. 1836",
     "spouseIds": [321],
-    "childIds": [284],
+    "childIds": [{ "personId": 284 }],
     "parentIds": [],
     "biography": {
       "pl": "Mąż Salomei z domu Dobrowolskiej i ojciec Marianny Wieczorek, żony Jana Ofiary. W 1861 roku miał 25 lat.",
@@ -8904,7 +9339,7 @@
     "maidenName": "Dobrowolska",
     "birthDateNote": "ok. 1832",
     "spouseIds": [320],
-    "childIds": [284],
+    "childIds": [{ "personId": 284 }],
     "parentIds": [],
     "biography": {
       "pl": "Żona Dominika Wieczorka i matka Marianny, żony Jana Ofiary. W 1861 roku miała 29 lat.",
@@ -8916,7 +9351,7 @@
     "firstName": "Kacper",
     "lastName": "Wieczorek",
     "spouseIds": [323],
-    "childIds": [130],
+    "childIds": [{ "personId": 130 }],
     "parentIds": [],
     "biography": {
       "pl": "Mąż Małgorzaty z domu Grzelak. Ojciec Marianny Wieczorek (ID 130), żony Jakuba Ofiary.",
@@ -8929,7 +9364,7 @@
     "lastName": "Wieczorek",
     "maidenName": "Grzelak",
     "spouseIds": [322],
-    "childIds": [130],
+    "childIds": [{ "personId": 130 }],
     "parentIds": [],
     "biography": {
       "pl": "Żona Kacpra Wieczorka i matka Marianny (ID 130), żony Jakuba Ofiary.",
@@ -8946,7 +9381,7 @@
     "family": "ofiara",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [283, 284],
+    "parentIds": [{ "personId": 273 }, { "personId": 274 }],
     "biography": {
       "pl": "Syn Jana Ofiary i Marianny z domu Wieczorek. Zmarł w dniu narodzin, w wieku 11 godzin. W akcie zgonu błędnie zapisano jego wiek jako 11 lat. Zgon zgłosił jego ojciec w towarzystwie swojego kuzyna, Jakuba Ofiary (ID 129).",
       "en": "Son of Jan Ofiara and Marianna née Wieczorek. He died on the day of his birth, at the age of 11 hours. His death record mistakenly states his age as 11 years. His death was reported by his father, accompanied by his cousin, Jakub Ofiara (ID 129)."
@@ -8969,7 +9404,7 @@
     "family": "ofiara",
     "birthDateNote": "ok. 1929",
     "deathDate": "1939-04-11",
-    "parentIds": [316, 315],
+    "parentIds": [{ "personId": 316 }, { "personId": 315 }],
     "spouseIds": [],
     "childIds": [],
     "biography": {
@@ -8995,7 +9430,7 @@
     "family": "ofiara",
     "spouseIds": [210],
     "childIds": [],
-    "parentIds": [348, 349],
+    "parentIds": [{ "personId": 348 }, { "personId": 349 }],
     "marriages": [
       {
         "spouseId": 210,
@@ -9035,7 +9470,7 @@
     "family": "ofiara",
     "spouseIds": [210],
     "childIds": [],
-    "parentIds": [350, 351],
+    "parentIds": [{ "personId": 350 }, { "personId": 351 }],
     "marriages": [
       {
         "spouseId": 210,
@@ -9074,7 +9509,7 @@
     "lastName": "Ofiara",
     "family": "ofiara",
     "spouseIds": [349],
-    "childIds": [346],
+    "childIds": [{ "personId": 346 }],
     "parentIds": [],
     "marriages": [
       {
@@ -9094,7 +9529,7 @@
     "maidenName": "Walter",
     "family": "ofiara",
     "spouseIds": [348],
-    "childIds": [346],
+    "childIds": [{ "personId": 346 }],
     "parentIds": [],
     "marriages": [
       {
@@ -9113,7 +9548,7 @@
     "lastName": "Kucharski",
     "family": "ofiara",
     "spouseIds": [351],
-    "childIds": [347],
+    "childIds": [{ "personId": 347 }],
     "parentIds": [],
     "marriages": [
       {
@@ -9133,7 +9568,7 @@
     "maidenName": "Grzesiak",
     "family": "ofiara",
     "spouseIds": [350],
-    "childIds": [347],
+    "childIds": [{ "personId": 347 }],
     "parentIds": [],
     "marriages": [
       {
@@ -9170,8 +9605,17 @@
     "family": "ofiara",
     "birthDate": "1830-07-19",
     "spouseIds": [363, 129],
-    "childIds": [57, 131, 132, 210, 211, 214, 215, 216, 298],
-    "parentIds": [322, 323],
+    "childIds": [
+      { "personId": 57 },
+      { "personId": 131 },
+      { "personId": 132 },
+      { "personId": 210 },
+      { "personId": 211 },
+      { "personId": 214 },
+      { "personId": 216 },
+      { "personId": 298 }
+    ],
+    "parentIds": [{ "personId": 322 }, { "personId": 323 }],
     "marriages": [
       {
         "spouseId": 363,
@@ -9240,7 +9684,7 @@
     "deathDate": "1855-02-05",
     "spouseIds": [362],
     "childIds": [],
-    "parentIds": [364, 365],
+    "parentIds": [{ "personId": 364 }, { "personId": 365 }],
     "marriages": [
       {
         "spouseId": 362,
@@ -9264,7 +9708,7 @@
     "family": "ofiara",
     "deathDateNote": "przed 1846-11-16",
     "spouseIds": [365],
-    "childIds": [363],
+    "childIds": [{ "personId": 363 }],
     "parentIds": [],
     "biography": {
       "pl": "Mąż Łucji z Piwowarczyków, ojciec Józefa Russa.",
@@ -9278,7 +9722,7 @@
     "maidenName": "Piwowarczyk",
     "family": "ofiara",
     "spouseIds": [364],
-    "childIds": [363],
+    "childIds": [{ "personId": 363 }],
     "parentIds": [],
     "biography": {
       "pl": "Żona Jana Russa, matka Józefa.",
@@ -9294,7 +9738,7 @@
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [5, 188],
+    "parentIds": [{ "personId": 5 }, { "personId": 188 }],
     "biography": {
       "pl": "Córka Michała Gerczaka vel Gierczaka i jego pierwszej żony, Marianny z domu Nabis. Siostra Marianny (ID 187).",
       "en": "Daughter of Michał Gerczak vel Gierczak and his first wife, Marianna née Nabis. Sister of Marianna (ID 187)."
@@ -9331,7 +9775,7 @@
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [5, 188],
+    "parentIds": [{ "personId": 5 }, { "personId": 188 }],
     "biography": {
       "pl": "Córka Michała Gerczaka vel Gierczaka i jego pierwszej żony, Marianny z domu Nabis. Siostra Marianny (ID 187) i Katarzyny (ID 366). W jej akcie urodzenia nazwisko ojca zapisano jako 'Gierczak'.",
       "en": "Daughter of Michał Gerczak vel Gierczak and his first wife, Marianna née Nabis. Sister of Marianna (ID 187) and Katarzyna (ID 366). In her birth record, her father's surname was recorded as 'Gierczak'."
@@ -9371,7 +9815,7 @@
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [5, 188],
+    "parentIds": [{ "personId": 5 }, { "personId": 188 }],
     "biography": {
       "pl": "Córka Michała Gierczaka i jego pierwszej żony, Marianny z domu Nabis. Siostra Marianny (ID 187), Katarzyny (ID 366) i Antoniny (ID 367).",
       "en": "Daughter of Michał Gierczak and his first wife, Marianna née Nabis. Sister of Marianna (ID 187), Katarzyna (ID 366), and Antonina (ID 367)."
@@ -9407,7 +9851,7 @@
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [5, 188],
+    "parentIds": [{ "personId": 5 }, { "personId": 188 }],
     "biography": {
       "pl": "Córka Michała Gierczaka i jego pierwszej żony, Marianny z domu Nabis. Siostra Marianny (ID 187), Katarzyny (ID 366), Antoniny (ID 367), Klary (ID 368) i Józefa (ID 370).",
       "en": "Daughter of Michał Gierczak and his first wife, Marianna née Nabis. Sister of Marianna (ID 187), Katarzyna (ID 366), Antonina (ID 367), Klara (ID 368), and Józef (ID 370)."
@@ -9443,7 +9887,7 @@
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [5, 188],
+    "parentIds": [{ "personId": 5 }, { "personId": 188 }],
     "biography": {
       "pl": "Syn Michała Gierczaka i jego pierwszej żony, Marianny z domu Nabis. Brat Marianny (ID 187), Katarzyny (ID 366), Antoniny (ID 367), Klary (ID 368) i Józefy (ID 369).",
       "en": "Son of Michał Gierczak and his first wife, Marianna née Nabis. Brother of Marianna (ID 187), Katarzyna (ID 366), Antonina (ID 367), Klara (ID 368), and Józefa (ID 369)."
@@ -9479,7 +9923,7 @@
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [63, 105],
+    "parentIds": [{ "personId": 63 }, { "personId": 105 }],
     "biography": {
       "pl": "Córka Kacpra Gierczaka i jego pierwszej żony, Marianny z domu Moskwa. Wnuczka Ambrożego Gerczaka vel Gierczaka (ID 4).",
       "en": "Daughter of Kacper Gierczak and his first wife, Marianna née Moskwa. Granddaughter of Ambroży Gerczak vel Gierczak (ID 4)."
@@ -9504,7 +9948,7 @@
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [186, 185],
+    "parentIds": [{ "personId": 186 }, { "personId": 185 }],
     "biography": {
       "pl": "Córka Franciszka Ślifirczyka i Antoniny z domu Gierczak (ID 185). Wnuczka Michała Gerczaka vel Gierczaka (ID 5).",
       "en": "Daughter of Franciszek Ślifirczyk and Antonina née Gierczak (ID 185). Granddaughter of Michał Gerczak vel Gierczak (ID 5)."
@@ -9534,7 +9978,7 @@
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [184, 183],
+    "parentIds": [{ "personId": 184 }, { "personId": 183 }],
     "biography": {
       "pl": "Syn Tomasza Sieraka i Katarzyny z domu Gierczak (ID 183). Wnuk Michała Gerczaka vel Gierczaka (ID 5).",
       "en": "Son of Tomasz Sierak and Katarzyna née Gierczak (ID 183). Grandson of Michał Gerczak vel Gierczak (ID 5)."
@@ -9567,7 +10011,7 @@
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [150, 68],
+    "parentIds": [{ "personId": 150 }, { "personId": 68 }],
     "marriages": [],
     "biography": {
       "pl": "Córka Jana Jurczaka i Antoniny z domu Gierczak. Była wnuczką Karola Gierczaka (ID: 13) i Tekli z d. Kozyra (ID: 18) oraz bratanicą prapradziadka autora, Pawła Gierczaka (ID: 19). Zmarła w wieku 5 lat, co zostało odnotowane na marginesie jej aktu urodzenia (dokument nr 362).",
@@ -9610,7 +10054,7 @@
     "family": "gierczak",
     "spouseIds": [377],
     "childIds": [],
-    "parentIds": [378, 379],
+    "parentIds": [{ "personId": 378 }, { "personId": 379 }],
     "occupation": {
       "pl": "Włościanin",
       "en": "Peasant"
@@ -9639,7 +10083,7 @@
     "family": "gierczak",
     "spouseIds": [376],
     "childIds": [],
-    "parentIds": [380, 381],
+    "parentIds": [{ "personId": 380 }, { "personId": 381 }],
     "marriages": [
       {
         "spouseId": 376,
@@ -9661,7 +10105,7 @@
     "family": "gierczak",
     "deathDateNote": "przed 1820",
     "spouseIds": [379],
-    "childIds": [376],
+    "childIds": [{ "personId": 376 }],
     "parentIds": [],
     "biography": {
       "pl": "Mąż Agnieszki i ojciec Franciszka Gierczaka (ID 376). Jego istnienie potwierdza akt ślubu syna z 1820 roku, w którym jest wymieniony jako zmarły.",
@@ -9675,7 +10119,7 @@
     "maidenName": "NN",
     "family": "gierczak",
     "spouseIds": [378],
-    "childIds": [376],
+    "childIds": [{ "personId": 376 }],
     "parentIds": []
   },
   {
@@ -9684,7 +10128,7 @@
     "lastName": "Kowalski",
     "family": "gierczak",
     "spouseIds": [381],
-    "childIds": [377],
+    "childIds": [{ "personId": 377 }],
     "parentIds": []
   },
   {
@@ -9694,7 +10138,7 @@
     "maidenName": "NN",
     "family": "gierczak",
     "spouseIds": [380],
-    "childIds": [377],
+    "childIds": [{ "personId": 377 }],
     "parentIds": []
   },
   {
@@ -9707,7 +10151,7 @@
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [4],
-    "childIds": [383],
+    "childIds": [{ "personId": 383 }],
     "parentIds": [],
     "marriages": [
       {
@@ -9731,7 +10175,7 @@
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [4, 382],
+    "parentIds": [{ "personId": 4 }, { "personId": 382 }],
     "marriages": [],
     "biography": {
       "pl": "Syn Ambrożego Gierczaka i jego pierwszej żony, Marianny z domu Nagabów. Jego dalsze losy są nieznane.",
@@ -9770,7 +10214,7 @@
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [1, 2],
+    "parentIds": [{ "personId": 1 }, { "personId": 2 }],
     "marriages": [],
     "biography": {
       "pl": "Syn Tomasza Gierczaka i Zofii z Gielów, urodzony we Wrzosie. Co niezwykłe, urodził się, gdy jego starszy brat o tym samym imieniu, Franciszek (ur. 1816), wciąż żył. Jest to albo dowód na rzadką praktykę nadawania tego samego imienia żyjącemu rodzeństwu, albo wynik błędu w metryce. Jego dalsze losy są nieznane.",
@@ -9798,7 +10242,7 @@
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [386, 387],
+    "parentIds": [{ "personId": 386 }, { "personId": 387 }],
     "marriages": [],
     "biography": {
       "pl": "Syn Joachima Gerczaka i Marianny z domu Wójcik. Urodził się we Wrzosie około 1828 roku. Zmarł w wieku półtora roku.",
@@ -9821,7 +10265,7 @@
     "lastName": "Gerczak",
     "family": "gierczak",
     "spouseIds": [387],
-    "childIds": [385],
+    "childIds": [{ "personId": 385 }],
     "parentIds": []
   },
   {
@@ -9831,7 +10275,7 @@
     "maidenName": "Wójcik",
     "family": "gierczak",
     "spouseIds": [386],
-    "childIds": [385],
+    "childIds": [{ "personId": 385 }],
     "parentIds": []
   },
   {
@@ -9861,7 +10305,7 @@
     "lastName": "Walczak",
     "family": "gierczak",
     "spouseIds": [390],
-    "childIds": [111],
+    "childIds": [{ "personId": 111 }],
     "parentIds": []
   },
   {
@@ -9871,7 +10315,7 @@
     "maidenName": "Woźniak",
     "family": "gierczak",
     "spouseIds": [389],
-    "childIds": [111],
+    "childIds": [{ "personId": 111 }],
     "parentIds": []
   },
   {
@@ -9885,7 +10329,7 @@
     "family": "gierczak",
     "spouseIds": [429, 396],
     "childIds": [],
-    "parentIds": [394, 395],
+    "parentIds": [{ "personId": 394 }, { "personId": 395 }],
     "occupation": {
       "pl": "Gospodarz",
       "en": "Farmer"
@@ -9930,8 +10374,16 @@
     "birthTimeQualifier": "morning",
     "family": "gierczak",
     "spouseIds": [411, 395],
-    "childIds": [410, 393, 429, 430, 431, 432, 442],
-    "parentIds": [407, 408],
+    "childIds": [
+      { "personId": 410 },
+      { "personId": 393 },
+      { "personId": 429 },
+      { "personId": 430 },
+      { "personId": 427 },
+      { "personId": 432 },
+      { "personId": 442 }
+    ],
+    "parentIds": [{ "personId": 407 }, { "personId": 408 }],
     "biography": {
       "pl": "Syn Ludwika Gierczaka i Rozalii z domu Sulis. Urodził się w Młynku Wrzoskim. Był dwukrotnie żonaty. Z pierwszą żoną, Marianną z domu Bratkowską, miał syna Stanisława (ur. 1848) oraz córki Katarzynę (zm. 1858), Mariannę (zm. 1849) i Józefę (zm. 1856). Z drugą żoną, Marianną z domu Oparcik, miał synów Walentego (ur. ok. 1863), Mateusza (zm. 1873) oraz córkę Ewę (ur. ok. 1869). Mieszkał we Wrzosie i Domaniowie.",
       "en": "Son of Ludwik Gierczak and Rozalia née Sulis. He was born in Młynek Wrzoski. He was married twice. With his first wife, Marianna née Bratkowska, he had a son, Stanisław (b. 1848) and daughters Katarzyna (d. 1858), Marianna (d. 1849), and Józefa (d. 1856). With his second wife, Marianna née Oparcik, he had sons Walenty (b. ca. 1863), Mateusz (d. 1873), and a daughter Ewa (b. ca. 1869). He lived in Wrzos and Domaniów."
@@ -9954,7 +10406,7 @@
     "maidenName": "Oparcik",
     "family": "gierczak",
     "spouseIds": [394],
-    "childIds": [393, 432, 442],
+    "childIds": [{ "personId": 393 }, { "personId": 432 }, { "personId": 442 }],
     "parentIds": [],
     "biography": {
       "pl": "Żona Wawrzyńca Gerczaka (ID 394) i matka Walentego, Mateusza oraz Ewy. Nazwisko panieńskie pochodzi z aktów ślubu jej dzieci. Prawdopodobnie była drugą żoną Wawrzyńca.",
@@ -9971,7 +10423,7 @@
     "family": "gierczak",
     "spouseIds": [393],
     "childIds": [],
-    "parentIds": [397, 398],
+    "parentIds": [{ "personId": 397 }, { "personId": 398 }],
     "marriages": [
       {
         "spouseId": 393,
@@ -9992,7 +10444,7 @@
     "lastName": "Tokarski",
     "family": "gierczak",
     "spouseIds": [398],
-    "childIds": [396],
+    "childIds": [{ "personId": 396 }],
     "parentIds": []
   },
   {
@@ -10002,7 +10454,7 @@
     "maidenName": "Kotkowska",
     "family": "gierczak",
     "spouseIds": [397],
-    "childIds": [396],
+    "childIds": [{ "personId": 396 }],
     "parentIds": []
   },
   {
@@ -10013,8 +10465,8 @@
     "birthDateNote": "ok. 1836",
     "family": "gierczak",
     "spouseIds": [400, 401],
-    "childIds": [412],
-    "parentIds": [402, 403],
+    "childIds": [{ "personId": 412 }],
+    "parentIds": [{ "personId": 402 }, { "personId": 403 }],
     "marriages": [
       {
         "spouseId": 400,
@@ -10056,8 +10508,8 @@
     "birthDateNote": "ok. 1845",
     "family": "gierczak",
     "spouseIds": [399],
-    "childIds": [412],
-    "parentIds": [404, 405],
+    "childIds": [{ "personId": 412 }],
+    "parentIds": [{ "personId": 404 }, { "personId": 405 }],
     "marriages": [
       {
         "spouseId": 399,
@@ -10077,7 +10529,7 @@
     "deathDateNote": "przed 1863",
     "family": "gierczak",
     "spouseIds": [403],
-    "childIds": [399],
+    "childIds": [{ "personId": 399 }],
     "parentIds": [],
     "biography": {
       "pl": "Mąż Antoniny z domu Mitak i ojciec Marianny (ID 399). Zmarł przed 1863 rokiem.",
@@ -10091,7 +10543,7 @@
     "maidenName": "Mitak",
     "family": "gierczak",
     "spouseIds": [402],
-    "childIds": [399],
+    "childIds": [{ "personId": 399 }],
     "parentIds": [],
     "biography": {
       "pl": "Żona Pawła Gerczaka i matka Marianny (ID 399). Żyła jeszcze w 1863 roku.",
@@ -10104,7 +10556,7 @@
     "lastName": "Kacprzak",
     "family": "gierczak",
     "spouseIds": [405],
-    "childIds": [401],
+    "childIds": [{ "personId": 401 }],
     "parentIds": []
   },
   {
@@ -10115,7 +10567,7 @@
     "deathDateNote": "przed 1863",
     "family": "gierczak",
     "spouseIds": [404],
-    "childIds": [401],
+    "childIds": [{ "personId": 401 }],
     "parentIds": []
   },
   {
@@ -10129,7 +10581,7 @@
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [407, 408],
+    "parentIds": [{ "personId": 407 }, { "personId": 408 }],
     "biography": {
       "pl": "Córka Ludwika Gerczaka i Rozalii z domu Sulis. Urodzona we Wrzosie. Jej dalsze losy nie są znane.",
       "en": "Daughter of Ludwik Gerczak and Rozalia née Sulis. Born in Wrzos. Her subsequent life is unknown."
@@ -10153,8 +10605,14 @@
     "birthDateNote": "ok. 1797",
     "family": "gierczak",
     "spouseIds": [408],
-    "childIds": [420, 423, 426, 428, 406],
-    "parentIds": [436, 437],
+    "childIds": [
+      { "personId": 394 },
+      { "personId": 423 },
+      { "personId": 426 },
+      { "personId": 428 },
+      { "personId": 406 }
+    ],
+    "parentIds": [{ "personId": 436 }, { "personId": 437 }],
     "marriages": [
       {
         "spouseId": 408,
@@ -10177,8 +10635,14 @@
     "birthDateNote": "ok. 1797",
     "family": "gierczak",
     "spouseIds": [407],
-    "childIds": [420, 423, 426, 428, 406],
-    "parentIds": [438, 439],
+    "childIds": [
+      { "personId": 394 },
+      { "personId": 423 },
+      { "personId": 426 },
+      { "personId": 428 },
+      { "personId": 406 }
+    ],
+    "parentIds": [{ "personId": 438 }, { "personId": 439 }],
     "marriages": [
       {
         "spouseId": 407,
@@ -10216,7 +10680,7 @@
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [394, 411],
+    "parentIds": [{ "personId": 394 }, { "personId": 411 }],
     "biography": {
       "pl": "Syn Wawrzyńca Gerczaka i Marianny z domu Bratkowskiej. Brat przyrodni Walentego (ID 393). Urodził się we Wrzosie. Zmarł w Domaniowie w wieku niespełna dwóch lat.",
       "en": "Son of Wawrzyniec Gerczak and Marianna née Bratkowska. Half-brother of Walenty (ID 393). He was born in Wrzos. He died in Domaniów at the age of nearly two."
@@ -10248,7 +10712,12 @@
     "birthDateNote": "ok. 1819",
     "family": "gierczak",
     "spouseIds": [394],
-    "childIds": [410, 429, 430, 427],
+    "childIds": [
+      { "personId": 410 },
+      { "personId": 429 },
+      { "personId": 430 },
+      { "personId": 427 }
+    ],
     "parentIds": [],
     "marriages": [
       {
@@ -10271,7 +10740,7 @@
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [401, 399],
+    "parentIds": [{ "personId": 401 }, { "personId": 399 }],
     "biography": {
       "pl": "Córka Jana Kacprzaka i Marianny z domu Gerczak (primo voto Sowa). Wnuczka Pawła Gerczaka (ID 402). Urodzona w Gulinie.",
       "en": "Daughter of Jan Kacprzak and Marianna née Gerczak (primo voto Sowa). Granddaughter of Paweł Gerczak (ID 402). Born in Gulin."
@@ -10308,7 +10777,7 @@
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [149, 68],
+    "parentIds": [{ "personId": 149 }, { "personId": 68 }],
     "biography": {
       "pl": "Syn Stanisława Mitaka i Antoniny z domu Gierczak. Wnuk Karola Gierczaka (ID 13). Urodził się w Gulinie.",
       "en": "Son of Stanisław Mitak and Antonina née Gierczak. Grandson of Karol Gierczak (ID 13). He was born in Gulin."
@@ -10350,7 +10819,7 @@
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [407, 408],
+    "parentIds": [{ "personId": 407 }, { "personId": 408 }],
     "biography": {
       "pl": "Córka Ludwika Gierczaka i Rozalii z domu Sulis. Siostra Wawrzyńca (ID 420) i Małgorzaty (ID 406). Urodziła się w Młynku Wrzoskim. Jej dalsze losy nie są znane.",
       "en": "Daughter of Ludwik Gierczak and Rozalia née Sulis. Sister of Wawrzyniec (ID 420) and Małgorzata (ID 406). She was born in Młynek Wrzoski. Her subsequent fate is unknown."
@@ -10393,7 +10862,7 @@
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [407, 408],
+    "parentIds": [{ "personId": 407 }, { "personId": 408 }],
     "biography": {
       "pl": "Córka Ludwika Gierczaka i Rozalii z domu Sulis. Siostra Wawrzyńca (ID 420) i Małgorzaty (ID 406). Urodziła się w Młynku Wrzoskim. Jej dalsze losy nie są znane.",
       "en": "Daughter of Ludwik Gierczak and Rozalia née Sulis. Sister of Wawrzyniec (ID 420) and Małgorzata (ID 406). She was born in Młynek Wrzoski. Her subsequent fate is unknown."
@@ -10420,7 +10889,7 @@
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [394, 411],
+    "parentIds": [{ "personId": 394 }, { "personId": 411 }],
     "biography": {
       "pl": "Córka Wawrzyńca Gierczaka i jego pierwszej żony, Marianny z domu Bratkowskiej. Siostra Stanisława (ID 410), Marianny (ID 429) i Józefy (ID 430). Zmarła w wieku czternastu lat w Domaniowie.",
       "en": "Daughter of Wawrzyniec Gierczak and his first wife, Marianna née Bratkowska. Sister of Stanisław (ID 410), Marianna (ID 429), and Józefa (ID 430). She died in Domaniów at the age of fourteen."
@@ -10447,7 +10916,7 @@
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [407, 408],
+    "parentIds": [{ "personId": 407 }, { "personId": 408 }],
     "biography": {
       "pl": "Córka Ludwika Gierczaka i Rozalii z domu Sulis. Siostra Wawrzyńca (ID 420), Małgorzaty (ID 406) i Anastazji (ID 426). Urodziła się w Młynku Wrzoskim. Jej dalsze losy nie są znane.",
       "en": "Daughter of Ludwik Gierczak and Rozalia née Sulis. Sister of Wawrzyniec (ID 420), Małgorzata (ID 406), and Anastazja (ID 426). She was born in Młynek Wrzoski. Her subsequent fate is unknown."
@@ -10474,7 +10943,7 @@
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [394, 411],
+    "parentIds": [{ "personId": 394 }, { "personId": 411 }],
     "biography": {
       "pl": "Córka Wawrzyńca Gierczaka i jego pierwszej żony, Marianny z domu Bratkowskiej. Siostra Stanisława (ID 410). Zmarła w wieku czterech lat w Domaniowie.",
       "en": "Daughter of Wawrzyniec Gierczak and his first wife, Marianna née Bratkowska. Sister of Stanisław (ID 410). She died in Domaniów at the age of four."
@@ -10502,7 +10971,7 @@
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [394, 411],
+    "parentIds": [{ "personId": 394 }, { "personId": 411 }],
     "biography": {
       "pl": "Córka Wawrzyńca Gierczaka i jego pierwszej żony, Marianny z domu Bratkowskiej. Siostra Stanisława (ID 410) i Marianny (ID 429). Zmarła w wieku trzech lat w Domaniowie.",
       "en": "Daughter of Wawrzyniec Gierczak and his first wife, Marianna née Bratkowska. Sister of Stanisław (ID 410) and Marianna (ID 429). She died in Domaniów at the age of three."
@@ -10530,7 +10999,7 @@
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [394, 395],
+    "parentIds": [{ "personId": 394 }, { "personId": 395 }],
     "biography": {
       "pl": "Syn Wawrzyńca Gierczaka i jego drugiej żony, Marianny z domu Oparcik. Brat Walentego (ID 393). Zmarł w wieku dwóch lat w Starym Młynie.",
       "en": "Son of Wawrzyniec Gierczak and his second wife, Marianna née Oparcik. Brother of Walenty (ID 393). He died at the age of two in Stary Młyn."
@@ -10557,7 +11026,7 @@
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [434, 435],
+    "parentIds": [{ "personId": 434 }, { "personId": 435 }],
     "biography": {
       "pl": "Córka Jana Gierczaka i Katarzyny z domu Wilk. Urodzona w Jabłonnie. Jej ojciec był prawdopodobnie bratem protoplasty rodu, Tomasza Gierczaka. Jej dalsze losy są nieznane.",
       "en": "Daughter of Jan Gierczak and Katarzyna née Wilk. Born in Jabłonna. Her father was likely the brother of the family progenitor, Tomasz Gierczak. Her subsequent fate is unknown."
@@ -10580,7 +11049,7 @@
     "birthDateNote": "ok. 1782",
     "family": "gierczak",
     "spouseIds": [435],
-    "childIds": [433],
+    "childIds": [{ "personId": 433 }],
     "parentIds": [],
     "biography": {
       "pl": "Mąż Katarzyny z domu Wilk i ojciec Franciszki. Mieszkał w Jabłonnie, w parafii Wrzos. Prawdopodobnie brat Tomasza Gierczaka (ID 1).",
@@ -10595,7 +11064,7 @@
     "birthDateNote": "ok. 1784",
     "family": "gierczak",
     "spouseIds": [434],
-    "childIds": [433],
+    "childIds": [{ "personId": 433 }],
     "parentIds": [],
     "biography": {
       "pl": "Żona Jana Gierczaka i matka Franciszki.",
@@ -10608,7 +11077,7 @@
     "lastName": "Gierczak",
     "family": "gierczak",
     "spouseIds": [437],
-    "childIds": [407],
+    "childIds": [{ "personId": 407 }],
     "parentIds": [],
     "biography": {
       "pl": "Mąż Marianny, ojciec Ludwika Gierczaka (ID 407).",
@@ -10622,7 +11091,7 @@
     "maidenName": "NN",
     "family": "gierczak",
     "spouseIds": [436],
-    "childIds": [407],
+    "childIds": [{ "personId": 407 }],
     "parentIds": [],
     "biography": {
       "pl": "Żona Joachima Gierczaka, matka Ludwika (ID 407).",
@@ -10635,7 +11104,7 @@
     "lastName": "Sulis",
     "family": "gierczak",
     "spouseIds": [439],
-    "childIds": [408],
+    "childIds": [{ "personId": 408 }],
     "parentIds": [],
     "biography": {
       "pl": "Mąż Marianny, ojciec Rozalii Sulis.",
@@ -10649,7 +11118,7 @@
     "maidenName": "NN",
     "family": "gierczak",
     "spouseIds": [438],
-    "childIds": [408],
+    "childIds": [{ "personId": 408 }],
     "parentIds": [],
     "biography": {
       "pl": "Żona Kazimierza Sulisa, matka Rozalii.",
@@ -10663,7 +11132,7 @@
     "birthDateNote": "ok. 1796",
     "family": "gierczak",
     "spouseIds": [441],
-    "childIds": [18],
+    "childIds": [{ "personId": 18 }],
     "parentIds": [],
     "occupation": { "pl": "Gospodarz", "en": "Farmer" },
     "biography": {
@@ -10679,7 +11148,7 @@
     "birthDateNote": "ok. 1798",
     "family": "gierczak",
     "spouseIds": [440],
-    "childIds": [18],
+    "childIds": [{ "personId": 18 }],
     "parentIds": [],
     "biography": {
       "pl": "Żona Adama Kozyry i matka Tekli (ID 18).",
@@ -10695,8 +11164,8 @@
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [443],
-    "childIds": [444],
-    "parentIds": [394, 395],
+    "childIds": [{ "personId": 444 }],
+    "parentIds": [{ "personId": 394 }, { "personId": 395 }],
     "marriages": [
       {
         "spouseId": 443,
@@ -10718,7 +11187,7 @@
     "photoUrl": null,
     "family": "gierczak",
     "spouseIds": [442],
-    "childIds": [444],
+    "childIds": [{ "personId": 444 }],
     "parentIds": [],
     "marriages": [
       {
@@ -10742,7 +11211,7 @@
     "family": "gierczak",
     "spouseIds": [],
     "childIds": [],
-    "parentIds": [443, 442],
+    "parentIds": [{ "personId": 443 }, { "personId": 442 }],
     "biography": {
       "pl": "Córka Adama Sadowskiego i Ewy z domu Gerczak (ID 442). Urodzona w Oblasie.",
       "en": "Daughter of Adam Sadowski and Ewa née Gerczak (ID 442). Born in Oblas."
@@ -10765,7 +11234,7 @@
     "birthDateNote": "ok. 1832",
     "family": "ofiara",
     "spouseIds": [446],
-    "childIds": [215],
+    "childIds": [{ "personId": 215 }],
     "parentIds": [],
     "biography": {
       "pl": "Ojciec Bartłomieja Ofiary. Zgodnie z aktem urodzenia syna (dokument nr 282) w 1860 roku miał 28 lat i był żonaty z Marianną z domu Wieczorek.",
@@ -10780,7 +11249,7 @@
     "birthDateNote": "ok. 1835",
     "family": "ofiara",
     "spouseIds": [445],
-    "childIds": [215],
+    "childIds": [{ "personId": 215 }],
     "parentIds": [],
     "biography": {
       "pl": "Matka Bartłomieja Ofiary. Zgodnie z aktem urodzenia syna (dokument nr 282) w 1860 roku miała 25 lat i była żoną Jana Ofiary.",

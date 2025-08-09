@@ -2,6 +2,7 @@
   {
     "id": "jaszowice",
     "name": "Jaszowice",
+    "parish": "Cerekiew",
     "description": {
       "pl": "Główna miejscowość rodu Gierczaków",
       "en": "The main locality of the Gierczak family"
@@ -15,6 +16,7 @@
   {
     "id": "ludwikow",
     "name": "Ludwików",
+    "parish": "Jankowice / Błotnica",
     "description": {
       "pl": "Jedno z głównych miejsc zamieszkania rodu Ofiarów",
       "en": "One of the main places of residence of the Ofiara family"
@@ -28,6 +30,7 @@
   {
     "id": "gulinek_gierczak",
     "name": "Gulinek",
+    "parish": "Zakrzew",
     "context": "gierczak",
     "description": {
       "pl": "W Gulinku zamieszkali Paweł Gierczak z Katarzyną Czerwińską.",
@@ -42,6 +45,7 @@
   {
     "id": "gulinek_ofiara",
     "name": "Gulinek",
+    "parish": "Zakrzew",
     "context": "ofiara",
     "description": {
       "pl": "W tym miejscu zamieszkał Józef Ofiara wraz z Rozalią Mitak, a po jej śmierci — z Heleną Sobień.",
@@ -56,6 +60,7 @@
   {
     "id": "wola_gutowska",
     "name": "Wola Gutowska",
+    "parish": "Jedlińsk",
     "description": {
       "pl": "Miejsce pochodzenia protoplasty rodu Ofiarów, Konstantego.",
       "en": "The place of origin of the Ofiara family's progenitor, Konstanty."
@@ -69,6 +74,7 @@
   {
     "id": "mleczkow",
     "name": "Mleczków",
+    "parish": "Cerekiew",
     "description": {
       "pl": "Miejsce tymczasowego zamieszkania Karola i Tekli Gierczak.",
       "en": "Temporary residence of Karol and Tekla Gierczak."
@@ -82,6 +88,7 @@
   {
     "id": "dabrowka_nagorna",
     "name": "Dąbrówka Nagórna",
+    "parish": "Błotnica",
     "description": {
       "pl": "Miejsce osiedlenia się potomków rodu Gierczak w XX w.",
       "en": "A settlement place for Gierczak descendants in the 20th century."
@@ -95,6 +102,7 @@
   {
     "id": "klwaty",
     "name": "Klwaty",
+    "parish": "Radom (św. Jana Chrzciciela)",
     "description": {
       "pl": "Miejsce osiedlenia się potomków Gierczaków w XX wieku.",
       "en": "A settlement place for Gierczak descendants in the 20th century."
@@ -108,6 +116,7 @@
   {
     "id": "radom",
     "name": "Radom",
+    "parish": "Różne (m.in. św. Jana Chrzciciela)",
     "description": {
       "pl": "Miasto, w którym osiedlił się Józef Gierczak i zmarł Stanisław Ofiara vel Borowiecki.",
       "en": "The city where Józef Gierczak settled and Stanisław Ofiara vel Borowiecki died."
@@ -121,6 +130,7 @@
   {
     "id": "wrzos",
     "name": "Wrzos",
+    "parish": "Wrzos",
     "description": {
       "pl": "Miejsce czasowego pobytu protoplasty rodu Gierczaków, Tomasza.",
       "en": "Temporary place of residence of the Gierczak family's progenitor, Tomasz."

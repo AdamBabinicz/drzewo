@@ -178,7 +178,6 @@ export default function PersonModal({
     return time;
   };
 
-  const occupationText = getDynamicText(currentPerson.occupation);
   const biographyText = getDynamicText(currentPerson.biography);
   const hasAnecdotes =
     currentPerson.anecdotes && currentPerson.anecdotes.length > 0;
@@ -186,10 +185,14 @@ export default function PersonModal({
     currentPerson.keepsakes && currentPerson.keepsakes.length > 0;
 
   const parents = currentPerson.parentIds
-    ? allPeople.filter((p) => currentPerson.parentIds!.includes(p.id))
+    ? allPeople.filter((p) =>
+        currentPerson.parentIds!.some((link) => link.personId === p.id)
+      )
     : [];
   const children = currentPerson.childIds
-    ? allPeople.filter((p) => currentPerson.childIds!.includes(p.id))
+    ? allPeople.filter((p) =>
+        currentPerson.childIds!.some((link) => link.personId === p.id)
+      )
     : [];
 
   const familyName =
@@ -209,6 +212,10 @@ export default function PersonModal({
   const birthDocId = birthEvent?.source?.documentId;
   const deathDocId = deathEvent?.source?.documentId;
 
+  const aliasesText = currentPerson.aliases
+    ? ` (vel ${currentPerson.aliases.join(", vel ")})`
+    : "";
+
   return (
     <>
       <Dialog open={isOpen} onOpenChange={onClose}>
@@ -217,6 +224,7 @@ export default function PersonModal({
             <DialogHeader>
               <DialogTitle className="font-serif text-2xl heritage-text">
                 {currentPerson.firstName} {currentPerson.lastName}
+                {aliasesText}
                 {currentPerson.maidenName &&
                   ` (${t("person.maidenName")} ${currentPerson.maidenName})`}
               </DialogTitle>
@@ -442,6 +450,7 @@ export default function PersonModal({
                               <div className="flex items-center gap-2">
                                 <p className="text-sm text-muted-foreground">
                                   {formatDate(marriage.date, language)}
+                                  {marriage.place && `, ${marriage.place}`}
                                 </p>
                                 {marriageDocId && (
                                   <Tooltip>
@@ -543,52 +552,9 @@ export default function PersonModal({
                         </div>
                       </div>
                     )}
-
-                    {(currentPerson.birthTime || currentPerson.deathTime) && (
-                      <div className="flex items-start space-x-3">
-                        <Clock className="w-4 h-4 text-muted-foreground mt-1" />
-                        <div>
-                          {currentPerson.birthTime && (
-                            <p className="heritage-text">
-                              <span className="font-semibold">
-                                {t("person.birthTime")}:
-                              </span>{" "}
-                              {formatTimeWithContext(
-                                currentPerson.birthTime,
-                                currentPerson.birthTimeQualifier
-                              )}
-                            </p>
-                          )}
-                          {currentPerson.deathTime && (
-                            <p className="heritage-text">
-                              <span className="font-semibold">
-                                {t("person.deathTime")}:
-                              </span>{" "}
-                              {formatTimeWithContext(
-                                currentPerson.deathTime,
-                                currentPerson.deathTimeQualifier
-                              )}
-                            </p>
-                          )}
-                        </div>
-                      </div>
-                    )}
-                    {birthEvent?.place && (
-                      <div className="flex items-center space-x-3">
-                        <MapPin className="w-4 h-4 text-muted-foreground" />
-                        <span className="heritage-text">
-                          {t("person.bornIn")}: {birthEvent.place}
-                        </span>
-                      </div>
-                    )}
-                    {occupationText && (
-                      <div className="flex items-center space-x-3">
-                        <Briefcase className="w-4 h-4 text-muted-foreground" />
-                        <span className="heritage-text">{occupationText}</span>
-                      </div>
-                    )}
                   </div>
                 </div>
+
                 {biographyText && (
                   <div>
                     <h4 className="font-semibold heritage-text mb-3 flex items-center">
@@ -600,6 +566,93 @@ export default function PersonModal({
                     </p>
                   </div>
                 )}
+
+                {currentPerson.residences &&
+                  currentPerson.residences.length > 0 && (
+                    <div>
+                      <h4 className="font-semibold heritage-text mb-3 flex items-center">
+                        <MapPin className="w-4 h-4 mr-2" />
+                        {t("person.residences")}
+                      </h4>
+                      <ul className="list-disc pl-5 space-y-2">
+                        {currentPerson.residences.map((residence, index) => {
+                          const place = genealogyData.places.find((p) =>
+                            p.id.startsWith(residence.placeId)
+                          );
+                          const placeName = place
+                            ? place.name
+                            : residence.placeId;
+                          const dateInfo = [
+                            residence.dateFrom,
+                            residence.dateTo,
+                          ]
+                            .filter(Boolean)
+                            .join(" – ");
+
+                          return (
+                            <li key={index} className="text-muted-foreground">
+                              <strong>{placeName}</strong>
+                              {dateInfo && (
+                                <span className="text-sm text-gray-500 ml-2">
+                                  ({dateInfo})
+                                </span>
+                              )}
+                              {residence.source && (
+                                <Tooltip>
+                                  <TooltipTrigger asChild>
+                                    <Book
+                                      className="w-4 h-4 text-blue-500 cursor-pointer inline-block ml-2"
+                                      onClick={() =>
+                                        handleDocumentClick(
+                                          residence.source!.documentId
+                                        )
+                                      }
+                                    />
+                                  </TooltipTrigger>
+                                  <TooltipContent>
+                                    <p>{t("tooltip.viewSource")}</p>
+                                  </TooltipContent>
+                                </Tooltip>
+                              )}
+                            </li>
+                          );
+                        })}
+                      </ul>
+                    </div>
+                  )}
+
+                {currentPerson.occupations &&
+                  currentPerson.occupations.length > 0 && (
+                    <div>
+                      <h4 className="font-semibold heritage-text mb-3 flex items-center">
+                        <Briefcase className="w-4 h-4 mr-2" />
+                        {t("person.occupations")}
+                      </h4>
+                      <ul className="list-disc pl-5 space-y-2">
+                        {currentPerson.occupations.map((occupation, index) => {
+                          const occupationTitle = getDynamicText(
+                            occupation.title
+                          );
+                          return (
+                            <li key={index} className="text-muted-foreground">
+                              <strong>{occupationTitle}</strong>
+                              {occupation.date && (
+                                <span className="text-sm text-gray-500 ml-2">
+                                  ({occupation.date})
+                                </span>
+                              )}
+                              {occupation.details && (
+                                <p className="text-sm italic">
+                                  {occupation.details}
+                                </p>
+                              )}
+                            </li>
+                          );
+                        })}
+                      </ul>
+                    </div>
+                  )}
+
                 {hasAnecdotes && (
                   <div>
                     <h4 className="font-semibold heritage-text mb-3 flex items-center">
@@ -622,6 +675,7 @@ export default function PersonModal({
                     </div>
                   </div>
                 )}
+
                 <div>
                   <h4 className="font-semibold heritage-text mb-3 flex items-center">
                     <Users className="w-4 h-4 mr-2" />
